@@ -20,8 +20,8 @@
       {{/* Main Content */}}
       <main class="news-main-content">
         <header class="news-page-header">
-          <h1 class="section-heading">{{ .Title | upper }}</h1>
-          <div class="heading-underline"></div>
+          <h1 class="page-title">{{ .Title }}</h1>
+          <div class="title-underline"></div>
         </header>
         
         {{ if .Content }}
@@ -30,28 +30,60 @@
         </div>
         {{ end }}
         
-        <ul class="news-article-list">
-          {{ $paginator := .Paginate .Pages 20 }}
+        <div class="news-article-list">
+          {{ $paginator := .Paginate .Pages 10 }}
           {{ range $paginator.Pages }}
-          <li class="news-article-item">
-            <article>
-              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-              {{ if .Description }}
-              <p>{{ .Description }}</p>
-              {{ else if .Summary }}
-              <p>{{ .Summary | truncate 200 }}</p>
+          <article class="news-article-item">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{/* Display category tags */}}
+            {{ if .Params.category }}
+            <span class="article-category"><a href="/news/{{ .Params.category | urlize }}/">{{ .Params.category }}</a></span>
+            {{ else }}
+              {{ with .Params.categories }}
+                {{ with index . 0 }}
+                <span class="article-category"><a href="/news/{{ . | urlize }}/">{{ . }}</a></span>
+                {{ end }}
               {{ end }}
-            </article>
-          </li>
+            {{ end }}
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          </article>
           {{ end }}
-        </ul>
+        </div>
         
-        {{ partial "pagination.html" . }}
+        {{/* Pagination - Treasury.gov style (inline, no left arrow, ellipsis) */}}
+        {{ if gt $paginator.TotalPages 1 }}
+        <nav class="pagination" aria-label="Pagination">
+          {{ $currentPage := $paginator.PageNumber }}
+          {{ $totalPages := $paginator.TotalPages }}
+          
+          {{/* First few pages */}}
+          {{ range $paginator.Pagers }}
+            {{ $pageNum := .PageNumber }}
+            {{/* Show pages 1-3 always */}}
+            {{ if le $pageNum 3 }}
+              {{ if eq $pageNum $currentPage }}
+              <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
+              {{ else }}
+              <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          
+          {{/* Ellipsis if needed */}}
+          {{ if gt $totalPages 4 }}
+          <span class="page-ellipsis">...</span>
+          {{ end }}
+          
+          {{/* Next Arrow only */}}
+          {{ if $paginator.HasNext }}
+          <a href="{{ $paginator.Next.URL }}" class="page-arrow next" aria-label="Next page">→</a>
+          {{ end }}
+        </nav>
+        {{ end }}
       </main>
       
-      {{/* Right Sidebar */}}
-      {{ partial "latest-news.html" . }}
+      {{/* Right Sidebar - Keyword Search */}}
+      {{ partial "news-search-sidebar.html" . }}
     </div>
   </div>
 </div>

@@ -1,0 +1,47 @@
+{{/* Right sidebar with keyword search and date filters - Treasury.gov exact match */}}
+<aside class="search-sidebar">
+  <h2 class="sidebar-title">KEYWORD SEARCH</h2>
+  
+  <form class="news-filter-form" action="" method="get">
+    {{/* Keyword Search */}}
+    <div class="filter-field">
+      <input type="text" 
+             name="title" 
+             id="keyword-search" 
+             class="filter-input"
+             placeholder=""
+             aria-label="Search by keyword">
+    </div>
+    
+    {{/* Date Range Filters */}}
+    <div class="date-filters">
+      <div class="date-field">
+        <label for="start-date">Start date</label>
+        <input type="date" 
+               name="publication-start-date" 
+               id="start-date"
+               class="date-input"
+               placeholder="mm/dd/yyyy">
+      </div>
+      <div class="date-field">
+        <label for="end-date">End date</label>
+        <input type="date" 
+               name="publication-end-date" 
+               id="end-date"
+               class="date-input"
+               placeholder="mm/dd/yyyy">
+      </div>
+    </div>
+    
+    {{/* Apply Button */}}
+    <button type="submit" class="btn-apply">APPLY</button>
+  </form>
+  
+  {{/* Subscribe CTA - Title case, single line */}}
+  <a href="https://public.govdelivery.com/accounts/USTREAS/subscriber/new?topic_id=USTREAS_49" 
+     class="btn-subscribe" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    Subscribe to Press Releases
+  </a>
+</aside>
