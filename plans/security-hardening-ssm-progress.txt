@@ -78,3 +78,15 @@ Based on security review findings from security-sentinel and iac-security-harden
 - Files changed: terraform/main.tf
 - Learnings: SSM parameters should match outputs for deploy script consumption
 - Next: Story 6 - Create pre-deploy validation script
+
+## Iteration 6 - Create pre-deploy validation script
+- Completed: Created deploy/validate-config.sh with fail-fast SSM validation
+- Features:
+  - Checks all 4 required SSM parameters before deployment
+  - Exits 1 with detailed error message if any parameter missing
+  - Shows how to fix: terraform apply or manual aws ssm put-parameter
+  - Displays found configuration values when successful
+  - Accepts environment as optional argument (defaults to staging)
+- Files changed: deploy/validate-config.sh (new)
+- Learnings: Fail-fast validation prevents wild goose chases on missing infra
+- Next: Story 7 - Enforce TLS 1.2+ and migrate to cache policies

@@ -81,7 +81,7 @@
         "Script can be run standalone: ./deploy/validate-config.sh"
       ],
       "priority": "high",
-      "passes": false
+      "passes": true
     },
     {
       "id": "tls-cache-policy",
