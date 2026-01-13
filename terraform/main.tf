@@ -447,3 +447,35 @@ resource "aws_s3_object" "robots_txt" {
     Disallow: /
   EOF
 }
+
+# =============================================================================
+# SSM Parameters for Infrastructure IDs
+# =============================================================================
+
+resource "aws_ssm_parameter" "s3_bucket_name" {
+  name        = "/${var.project_name}/${var.environment}/S3_BUCKET_NAME"
+  description = "S3 bucket name for ${var.project_name} static content"
+  type        = "String"
+  value       = aws_s3_bucket.site.id
+}
+
+resource "aws_ssm_parameter" "cloudfront_distribution_id" {
+  name        = "/${var.project_name}/${var.environment}/CLOUDFRONT_DISTRIBUTION_ID"
+  description = "CloudFront distribution ID for ${var.project_name}"
+  type        = "String"
+  value       = aws_cloudfront_distribution.site.id
+}
+
+resource "aws_ssm_parameter" "cloudfront_domain" {
+  name        = "/${var.project_name}/${var.environment}/CLOUDFRONT_DOMAIN"
+  description = "CloudFront domain name for ${var.project_name}"
+  type        = "String"
+  value       = aws_cloudfront_distribution.site.domain_name
+}
+
+resource "aws_ssm_parameter" "site_url" {
+  name        = "/${var.project_name}/${var.environment}/SITE_URL"
+  description = "Full site URL for ${var.project_name}"
+  type        = "String"
+  value       = "https://${aws_cloudfront_distribution.site.domain_name}"
+}

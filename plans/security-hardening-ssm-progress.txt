@@ -66,3 +66,15 @@ Based on security review findings from security-sentinel and iac-security-harden
 - Files changed: terraform/provider.tf, terraform/main.tf
 - Learnings: WAF for CloudFront must be in us-east-1, requires provider alias
 - Next: Story 5 - Create SSM parameters for infrastructure IDs
+
+## Iteration 5 - Create SSM parameters for infrastructure IDs
+- Completed: Added SSM parameters for all infrastructure outputs
+- Parameters created (path: /{project_name}/{environment}/{PARAM}):
+  - S3_BUCKET_NAME
+  - CLOUDFRONT_DISTRIBUTION_ID
+  - CLOUDFRONT_DOMAIN
+  - SITE_URL
+- All parameters reference actual Terraform resource values
+- Files changed: terraform/main.tf
+- Learnings: SSM parameters should match outputs for deploy script consumption
+- Next: Story 6 - Create pre-deploy validation script

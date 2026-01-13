@@ -68,7 +68,7 @@
         "Parameters reference actual Terraform resource values"
       ],
       "priority": "high",
-      "passes": false
+      "passes": true
     },
     {
       "id": "validate-config-script",
