@@ -30,13 +30,6 @@
             <div class="heading-underline"></div>
           </header>
           
-          <div class="news-article-meta">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-            {{ with .Params.release_number }}
-            <span class="release-number">{{ . }}</span>
-            {{ end }}
-          </div>
-          
           <div class="news-article-body">
             {{ .Content }}
           </div>
