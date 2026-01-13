@@ -1,0 +1,27 @@
+# Progress Log
+PRD: plans/security-hardening-ssm.prd.json
+Started: 2025-01-13
+
+## Context
+Security hardening for Treasury Home Hugo site Terraform infrastructure.
+Based on security review findings from security-sentinel and iac-security-hardener agents.
+
+## Key Decisions
+- Log retention: 90 days (staging environment)
+- WAF: Include now with managed rules
+- SSM validation: Pre-deploy script (validate-config.sh)
+- CSP: Permissive (allow unsafe-inline for styles)
+- TLS: Enforce 1.2+ minimum
+
+## Reference Files
+- Existing Terraform: /Users/CorcosS/code/home.treasury.gov/terraform/
+- Ship SSM patterns: /Users/CorcosS/code/ship/scripts/sync-terraform-config.sh
+- Ship validation: /Users/CorcosS/code/ship/api/src/config/ssm.ts
+
+---
+
+## Iteration 1 - Add S3 server-side encryption
+- Completed: Added aws_s3_bucket_server_side_encryption_configuration.site with AES256 algorithm and bucket_key_enabled
+- Files changed: terraform/main.tf
+- Learnings: Encryption config is a separate resource in AWS provider v4+
+- Next: Story 2 - Create logging bucket with S3/CloudFront logging
