@@ -23,9 +23,9 @@
       <main class="news-main-content">
         <article class="news-article">
           <header class="news-article-header">
-            {{ with .Params.category }}
-            <span class="news-category">{{ . | upper }}</span>
-            {{ end }}
+            {{/* Show category - use section title as fallback */}}
+            {{ $category := .Params.category | default .CurrentSection.Title }}
+            <span class="news-category"><a href="{{ .CurrentSection.Permalink }}">{{ $category | upper }}</a></span>
             <h1>{{ .Title }}</h1>
             <div class="heading-underline"></div>
           </header>

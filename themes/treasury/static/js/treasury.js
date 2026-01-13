@@ -7,6 +7,26 @@
   'use strict';
 
   // ============================================
+  // Sticky Nav - Show logo when scrolled
+  // ============================================
+  const mainNav = document.querySelector('.main-nav');
+  const header = document.getElementById('header');
+  
+  if (mainNav && header) {
+    function handleScroll() {
+      const headerBottom = header.offsetTop + header.offsetHeight;
+      if (window.scrollY >= headerBottom) {
+        mainNav.classList.add('scrolled');
+      } else {
+        mainNav.classList.remove('scrolled');
+      }
+    }
+    
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // Check on load
+  }
+
+  // ============================================
   // USA Banner toggle
   // ============================================
   const bannerButton = document.querySelector('.usa-banner-button');
