@@ -39,3 +39,17 @@ Based on security review findings from security-sentinel and iac-security-harden
 - Files changed: terraform/main.tf
 - Learnings: Lifecycle rules require explicit `filter {}` block in AWS provider v4+
 - Next: Story 3 - Add CloudFront security headers policy
+
+## Iteration 3 - Add CloudFront security headers policy
+- Completed: Created response headers policy with comprehensive security headers
+- Headers configured:
+  - HSTS (max-age 1 year, includeSubdomains, preload)
+  - X-Frame-Options: DENY
+  - X-Content-Type-Options: nosniff
+  - Referrer-Policy: strict-origin-when-cross-origin
+  - XSS-Protection: 1; mode=block
+  - CSP: permissive mode with 'unsafe-inline' for styles
+- Policy attached to all 4 cache behaviors (default, images, CSS, JS)
+- Files changed: terraform/main.tf
+- Learnings: CloudFront response headers policy is separate from cache behavior config
+- Next: Story 4 - Add AWS WAF with managed rules

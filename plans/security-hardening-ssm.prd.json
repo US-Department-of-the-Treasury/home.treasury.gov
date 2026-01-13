@@ -44,7 +44,7 @@
         "CSP allows 'unsafe-inline' for styles (permissive mode)"
       ],
       "priority": "high",
-      "passes": false
+      "passes": true
     },
     {
       "id": "waf-integration",

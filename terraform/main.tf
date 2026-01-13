@@ -134,6 +134,52 @@ resource "aws_cloudfront_origin_access_control" "site" {
   signing_protocol                  = "sigv4"
 }
 
+# CloudFront Security Headers Policy
+resource "aws_cloudfront_response_headers_policy" "security_headers" {
+  name    = "${var.project_name}-${var.environment}-security-headers"
+  comment = "Security headers for ${var.project_name}"
+
+  security_headers_config {
+    # HSTS - Strict Transport Security
+    strict_transport_security {
+      access_control_max_age_sec = 31536000
+      include_subdomains         = true
+      preload                    = true
+      override                   = true
+    }
+
+    # Prevent clickjacking
+    frame_options {
+      frame_option = "DENY"
+      override     = true
+    }
+
+    # Prevent MIME type sniffing
+    content_type_options {
+      override = true
+    }
+
+    # Referrer policy
+    referrer_policy {
+      referrer_policy = "strict-origin-when-cross-origin"
+      override        = true
+    }
+
+    # XSS Protection (legacy but still useful)
+    xss_protection {
+      mode_block = true
+      protection = true
+      override   = true
+    }
+
+    # Content Security Policy - Permissive for styles (allows inline styles)
+    content_security_policy {
+      content_security_policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+      override                = true
+    }
+  }
+}
+
 # CloudFront Distribution
 resource "aws_cloudfront_distribution" "site" {
   enabled             = true
@@ -179,6 +225,8 @@ resource "aws_cloudfront_distribution" "site" {
       event_type   = "viewer-request"
       function_arn = aws_cloudfront_function.url_rewrite.arn
     }
+
+    response_headers_policy_id = aws_cloudfront_response_headers_policy.security_headers.id
   }
 
   # Cache behavior for images - longer TTL
@@ -200,6 +248,8 @@ resource "aws_cloudfront_distribution" "site" {
     default_ttl            = 86400    # 1 day
     max_ttl                = 31536000 # 1 year
     compress               = true
+
+    response_headers_policy_id = aws_cloudfront_response_headers_policy.security_headers.id
   }
 
   # Cache behavior for static assets (CSS, JS) - immutable
@@ -221,6 +271,8 @@ resource "aws_cloudfront_distribution" "site" {
     default_ttl            = 31536000
     max_ttl                = 31536000
     compress               = true
+
+    response_headers_policy_id = aws_cloudfront_response_headers_policy.security_headers.id
   }
 
   ordered_cache_behavior {
@@ -241,6 +293,8 @@ resource "aws_cloudfront_distribution" "site" {
     default_ttl            = 31536000
     max_ttl                = 31536000
     compress               = true
+
+    response_headers_policy_id = aws_cloudfront_response_headers_policy.security_headers.id
   }
 
   # Custom error responses
