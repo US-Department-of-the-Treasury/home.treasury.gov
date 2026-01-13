@@ -1,0 +1,16 @@
+{
+  "infrastructure": {
+    "type": "terraform",
+    "path": "terraform/",
+    "backend": "local"
+  },
+  "frontend": {
+    "type": "s3-cloudfront-hugo",
+    "script": "deploy/s3-sync.sh",
+    "validation": "deploy/validate-config.sh"
+  },
+  "healthChecks": {
+    "site": "SSM:/treasury-home/staging/SITE_URL"
+  },
+  "lastDeployed": null
+}
