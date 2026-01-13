@@ -1,26 +1,14 @@
 {{- with site.Params.alert_message }}
-<!-- Alert Banner - Dark blue dismissable announcement -->
-<div class="alert-banner" role="alert" id="site-alert">
+<!-- Alert Banner -->
+<div class="alert-banner" role="alert">
   <div class="alert-banner-inner">
     <div class="alert-banner-content">
-      <svg class="alert-info-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
-        <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
-        <path d="M12 7v6M12 16v1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <svg class="alert-info-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+        <circle cx="12" cy="12" r="10" fill="#1b1b1b"/>
+        <text x="12" y="17" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="serif">i</text>
       </svg>
       <p class="alert-banner-text">{{ . | safeHTML }}</p>
     </div>
-    <button type="button" class="alert-dismiss" aria-label="Dismiss alert" onclick="this.closest('.alert-banner').remove(); sessionStorage.setItem('alertDismissed', 'true');">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <line x1="18" y1="6" x2="6" y2="18"></line>
-        <line x1="6" y1="6" x2="18" y2="18"></line>
-      </svg>
-    </button>
   </div>
 </div>
-<script>
-  // Hide alert if previously dismissed in this session
-  if (sessionStorage.getItem('alertDismissed') === 'true') {
-    document.getElementById('site-alert')?.remove();
-  }
-</script>
 {{- end }}

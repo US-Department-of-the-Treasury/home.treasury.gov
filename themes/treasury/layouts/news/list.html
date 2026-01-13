@@ -1,4 +1,9 @@
 {{ define "main" }}
+{{/* Redirect /news/ to /news/press-releases/ */}}
+{{ if eq .RelPermalink "/news/" }}
+<script>window.location.replace("/news/press-releases/");</script>
+<meta http-equiv="refresh" content="0; url=/news/press-releases/">
+{{ else }}
 <div class="breadcrumbs">
   <div class="container">
     <nav aria-label="Breadcrumb">
@@ -87,4 +92,5 @@
     </div>
   </div>
 </div>
+{{ end }}
 {{ end }}

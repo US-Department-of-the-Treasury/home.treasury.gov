@@ -3,6 +3,7 @@
     {
       "title": "ABOUT TREASURY",
       "url": "/about-treasury",
+      "active_path": "/about/",
       "columns": [
         {
           "heading": "GENERAL INFORMATION",
@@ -420,6 +421,7 @@
     {
       "title": "NEWS",
       "url": "/news",
+      "active_path": "/news/",
       "columns": [
         {
           "heading": "FEATURED STORIES",
