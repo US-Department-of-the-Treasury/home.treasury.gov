@@ -23,47 +23,48 @@
   // ============================================
   // Mega Menu Navigation (Click to Open)
   // ============================================
-  const megaMenuItems = document.querySelectorAll('.nav-item.has-dropdown');
+  const megaMenuButtons = document.querySelectorAll('.nav-item.has-dropdown > button.nav-link');
   let activeMegaMenu = null;
   
   function closeAllMegaMenus() {
-    megaMenuItems.forEach(item => {
-      const btn = item.querySelector('.nav-link');
-      if (btn) {
-        btn.setAttribute('aria-expanded', 'false');
-      }
+    megaMenuButtons.forEach(btn => {
+      btn.setAttribute('aria-expanded', 'false');
     });
     activeMegaMenu = null;
   }
   
-  megaMenuItems.forEach(item => {
-    const btn = item.querySelector('.nav-link');
-    
-    if (btn) {
-      btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        
-        const isExpanded = this.getAttribute('aria-expanded') === 'true';
-        
-        // Close all menus first
-        closeAllMegaMenus();
-        closeSearchDropdown();
-        
-        // Toggle this menu
-        if (!isExpanded) {
-          this.setAttribute('aria-expanded', 'true');
-          activeMegaMenu = item;
-        }
-      });
-    }
+  megaMenuButtons.forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      const parentItem = this.closest('.nav-item');
+      
+      // Close all menus first
+      closeAllMegaMenus();
+      closeSearchDropdown();
+      
+      // Toggle this menu (open if was closed)
+      if (!isExpanded) {
+        this.setAttribute('aria-expanded', 'true');
+        activeMegaMenu = parentItem;
+      }
+    });
   });
   
   // Close mega menus when clicking outside
   document.addEventListener('click', function(e) {
-    if (activeMegaMenu && !e.target.closest('.nav-item.has-dropdown')) {
+    if (activeMegaMenu && !e.target.closest('.nav-item.has-dropdown') && !e.target.closest('.mega-menu')) {
       closeAllMegaMenus();
     }
+  });
+  
+  // Close mega menus when clicking inside mega menu links
+  document.querySelectorAll('.mega-menu a').forEach(link => {
+    link.addEventListener('click', function() {
+      closeAllMegaMenus();
+    });
   });
 
   // ============================================

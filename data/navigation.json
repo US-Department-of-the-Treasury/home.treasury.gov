@@ -514,8 +514,8 @@
     {"title": "Statements & Remarks", "url": "/news/press-releases/statements-remarks", "indent": true},
     {"title": "Readouts", "url": "/news/press-releases/readouts", "indent": true},
     {"title": "Testimonies", "url": "/news/press-releases/testimonies", "indent": true},
-    {"title": "Featured Stories", "url": "/news/featured-stories"},
-    {"title": "Webcasts", "url": "/news/webcasts"},
-    {"title": "Press Contacts", "url": "/news/press-contacts"}
+    {"title": "Featured Stories", "url": "https://home.treasury.gov/news/featured-stories"},
+    {"title": "Webcasts", "url": "https://home.treasury.gov/news/webcasts"},
+    {"title": "Press Contacts", "url": "https://home.treasury.gov/news/contacts-for-members-of-the-media"}
   ]
 }

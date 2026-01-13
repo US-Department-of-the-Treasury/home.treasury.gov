@@ -283,6 +283,7 @@ img { max-width: 100%; height: auto; }
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid rgba(255,255,255,0.2);
+  position: relative;
 }
 
 .nav-menu {
@@ -303,12 +304,20 @@ img { max-width: 100%; height: auto; }
   font-weight: 600;
   letter-spacing: 0.05em;
   transition: background 0.2s;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
 }
 
 .nav-link:hover,
 .nav-item.active .nav-link {
   background: rgba(255,255,255,0.1);
   color: #fff;
+}
+
+button.nav-link {
+  cursor: pointer;
 }
 
 /* Navigation Item with Dropdown */
@@ -328,22 +337,23 @@ img { max-width: 100%; height: auto; }
   border-bottom: 3px solid var(--treasury-gold);
 }
 
-/* Mega Menu Dropdown - Full Width */
+/* Mega Menu Dropdown - Full Width, Scrollable */
 .mega-menu {
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
   background: var(--treasury-navy);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
   z-index: 1000;
   border-top: 3px solid var(--treasury-gold);
 }
 
-.nav-item.has-dropdown:hover .mega-menu,
+/* Show mega menu when button has aria-expanded="true" */
 .nav-item.has-dropdown .nav-link[aria-expanded="true"] + .mega-menu {
   display: block;
 }
@@ -352,14 +362,13 @@ img { max-width: 100%; height: auto; }
   max-width: var(--container-max);
   margin: 0 auto;
   padding: 1.5rem 1rem 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem 2rem;
 }
 
 .mega-menu-column {
-  min-width: 180px;
-  flex: 1;
+  min-width: 0;
 }
 
 .mega-menu-heading {
@@ -428,10 +437,10 @@ img { max-width: 100%; height: auto; }
 /* Search Dropdown */
 .search-dropdown {
   position: absolute;
-  top: calc(100% + 1rem);
-  right: 0;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100vw;
-  margin-right: calc(-50vw + 50%);
   background: var(--gray-100);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
   z-index: 1001;
