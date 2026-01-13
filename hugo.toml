@@ -16,7 +16,7 @@ relativeURLs = false
   agency = "U.S. Department of the Treasury"
   logo = "/images/treasury-seal.svg"
   # Alert banner message (leave empty to hide)
-  alert_message = ""
+  alert_message = "President Donald J. Trump has signed a Continuing Resolution that extends the deadline for final FY 2025 appropriations."
   
   # Social
   twitter = "USTreasury"

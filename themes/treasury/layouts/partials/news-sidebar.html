@@ -1,21 +1,36 @@
-{{/* Left sidebar for news section */}}
+{{/* Left sidebar for news section - matches Treasury.gov exactly */}}
 <aside class="news-sidebar">
   <h2 class="sidebar-title">NEWS</h2>
   <nav class="news-nav">
+    {{ $currentPath := .RelPermalink }}
     <ul class="news-nav-list">
-      <li><a href="/news/press-releases/" {{ if eq .Section "press-releases" }}class="active"{{ end }}>Press Releases</a></li>
-      <li class="sub-item"><a href="/news/statements-remarks/">Statements & Remarks</a></li>
-      <li class="sub-item"><a href="/news/readouts/">Readouts</a></li>
-      <li class="sub-item"><a href="/news/testimonies/">Testimonies</a></li>
+      <li class="{{ if in $currentPath "press-releases" }}active{{ end }}">
+        <a href="/news/press-releases/">Press Releases</a>
+      </li>
+      <li class="sub-item">
+        <a href="/news/statements-remarks/">Statements & Remarks</a>
+      </li>
+      <li class="sub-item">
+        <a href="/news/readouts/">Readouts</a>
+      </li>
+      <li class="sub-item">
+        <a href="/news/testimonies/">Testimonies</a>
+      </li>
     </ul>
     <ul class="news-nav-list">
-      <li><a href="/news/featured-stories/" {{ if eq .Section "featured-stories" }}class="active"{{ end }}>Featured Stories</a></li>
+      <li class="{{ if in $currentPath "featured-stories" }}active{{ end }}">
+        <a href="/news/featured-stories/">Featured Stories</a>
+      </li>
     </ul>
     <ul class="news-nav-list">
-      <li><a href="/news/webcasts/">Webcasts</a></li>
+      <li>
+        <a href="/news/webcasts/">Webcasts</a>
+      </li>
     </ul>
     <ul class="news-nav-list">
-      <li><a href="/news/press-contacts/">Press Contacts</a></li>
+      <li>
+        <a href="/news/press-contacts/">Press Contacts</a>
+      </li>
     </ul>
   </nav>
 </aside>

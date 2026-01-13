@@ -3,10 +3,13 @@
 Treasury.gov Press Releases Scraper
 
 Scrapes press releases from home.treasury.gov and saves them as Hugo markdown files.
-Focuses on the news section with proper categorization.
+Based on the Treasury.gov layout analysis:
+- Pagination: ?page=N (0-indexed)
+- 10 items per page
+- Article URLs: /news/press-releases/sb#### or /news/press-releases/jl####
 
 Usage:
-    python scripts/scrape_press_releases.py [--pages 5] [--category press-releases]
+    python scripts/scrape_press_releases.py [--pages 20] [--category press-releases]
 """
 
 import os
@@ -30,9 +33,6 @@ TIMEOUT = 30
 NEWS_CATEGORIES = {
     "press-releases": "/news/press-releases",
     "featured-stories": "/news/featured-stories",
-    "statements-remarks": "/news/statements-remarks",
-    "readouts": "/news/readouts",
-    "testimonies": "/news/testimonies",
 }
 
 HEADERS = {
@@ -48,57 +48,35 @@ def get_soup(url: str) -> BeautifulSoup:
     return BeautifulSoup(response.text, "lxml")
 
 
-def extract_article_links(soup: BeautifulSoup, base_url: str) -> list:
-    """Extract article links from a listing page."""
+def extract_article_links_simple(html: str, category: str) -> list:
+    """Extract article links using simple regex - more reliable than BeautifulSoup selectors."""
     links = []
     
-    # Navigation/sidebar URLs to skip
-    skip_patterns = [
-        "/news/press-releases$",
-        "/news/featured-stories$",
-        "/news/statements-remarks$",
-        "/news/readouts$",
-        "/news/testimonies$",
-        "/news/webcasts$",
-        "/news/press-contacts$",
-        "/press-contacts$",
-    ]
+    if category == "press-releases":
+        # Match sb#### or jl#### format
+        pattern = r'href="/news/press-releases/(sb|jl)\d+"'
+        matches = re.findall(pattern, html)
+        # Get full URLs
+        full_pattern = r'href="(/news/press-releases/(?:sb|jl)\d+)"'
+        paths = re.findall(full_pattern, html)
+        for path in paths:
+            full_url = f"{BASE_URL}{path}"
+            if full_url not in links:
+                links.append(full_url)
     
-    # Try different selectors for article links
-    selectors = [
-        ".view-content .views-row a",
-        ".news-item a",
-        ".view-news a",
-        "article a",
-        ".field-content a",
-    ]
-    
-    for selector in selectors:
-        elements = soup.select(selector)
-        for el in elements:
-            href = el.get("href")
-            if href and "/news/" in href:
-                full_url = urljoin(base_url, href)
-                
-                # Skip navigation links
-                is_nav = any(re.search(pattern, full_url) for pattern in skip_patterns)
-                if is_nav:
-                    continue
-                    
-                if full_url not in links:
-                    links.append(full_url)
+    elif category == "featured-stories":
+        # Match featured story URLs (various slug formats)
+        pattern = r'href="(/news/featured-stories/[a-z0-9-]+)"'
+        paths = re.findall(pattern, html)
+        for path in paths:
+            # Skip category/navigation links
+            if path.endswith("/featured-stories"):
+                continue
+            full_url = f"{BASE_URL}{path}"
+            if full_url not in links:
+                links.append(full_url)
     
     return links
-
-
-def get_next_page_url(soup: BeautifulSoup, base_url: str) -> str:
-    """Get the next page URL from pagination."""
-    next_link = soup.select_one(".pager__item--next a, .pager-next a, a[rel='next']")
-    if next_link:
-        href = next_link.get("href")
-        if href:
-            return urljoin(base_url, href)
-    return None
 
 
 def extract_article_data(soup: BeautifulSoup, url: str) -> dict:
@@ -125,10 +103,10 @@ def extract_article_data(soup: BeautifulSoup, url: str) -> dict:
     
     # Fallback to h1 if title tag doesn't have article title
     if not data["title"] or data["title"] == "U.S. Department of the Treasury":
-        h1_el = soup.select_one("h1.page-title, h1.title, article h1")
+        h1_el = soup.select_one("h1.page-title, h1.title, article h1, h1")
         if h1_el:
             h1_text = h1_el.get_text(strip=True)
-            if h1_text != "U.S. Department of the Treasury":
+            if h1_text and h1_text != "U.S. Department of the Treasury":
                 data["title"] = h1_text
     
     # Extract date - try multiple sources
@@ -168,25 +146,16 @@ def extract_article_data(soup: BeautifulSoup, url: str) -> dict:
         if meta_date:
             data["date"] = meta_date.get("content", "")[:10]
     
-    # Extract release number
-    release_el = soup.select_one(".field--name-field-release-number, .release-number")
-    if release_el:
-        data["release_number"] = release_el.get_text(strip=True)
+    # Extract release number from URL (e.g., sb0357)
+    url_match = re.search(r'/(sb|jl)(\d+)/?$', url)
+    if url_match:
+        data["release_number"] = f"{url_match.group(1).upper()}-{url_match.group(2)}"
     
-    # Extract category from breadcrumb or URL
-    breadcrumb = soup.select(".breadcrumb a, .breadcrumb-item a")
-    for bc in breadcrumb:
-        text = bc.get_text(strip=True).lower()
-        if text in ["press releases", "statements & remarks", "readouts", "testimonies", "featured stories"]:
-            data["category"] = text.replace(" & ", "-").replace(" ", "-")
-            break
-    
-    # Fallback: extract category from URL
-    if not data["category"]:
-        for cat_slug, cat_path in NEWS_CATEGORIES.items():
-            if cat_path in url:
-                data["category"] = cat_slug
-                break
+    # Extract category from URL
+    if "/press-releases/" in url:
+        data["category"] = "press-releases"
+    elif "/featured-stories/" in url:
+        data["category"] = "featured-stories"
     
     # Extract main content
     content_selectors = [
@@ -337,54 +306,69 @@ def save_article(data: dict, category: str):
     return filepath
 
 
-def scrape_category(category: str, max_pages: int = 5, delay: float = 1.0):
+def scrape_category(category: str, max_pages: int = 20, delay: float = 0.5):
     """Scrape all articles from a news category."""
     if category not in NEWS_CATEGORIES:
         print(f"❌ Unknown category: {category}")
         return []
     
     base_path = NEWS_CATEGORIES[category]
-    url = f"{BASE_URL}{base_path}"
+    base_url = f"{BASE_URL}{base_path}"
     
     print(f"\n📂 Scraping: {category}")
-    print(f"   URL: {url}")
+    print(f"   URL: {base_url}")
+    print(f"   Max pages: {max_pages}")
     
-    all_links = []
-    page = 1
+    all_links = set()  # Use set to automatically dedupe
+    empty_pages = 0
     
-    # Collect all article links
-    while url and page <= max_pages:
-        print(f"   Page {page}...")
+    # Collect all article links using ?page=N pagination (0-indexed)
+    for page in range(max_pages):
+        if page == 0:
+            url = base_url
+        else:
+            url = f"{base_url}?page={page}"
+        
+        print(f"   Page {page} ({url})...", end=" ")
+        
         try:
-            soup = get_soup(url)
-            links = extract_article_links(soup, BASE_URL)
+            response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+            response.raise_for_status()
             
-            if not links:
-                print(f"   No more articles found")
-                break
+            links = extract_article_links_simple(response.text, category)
+            new_links = [l for l in links if l not in all_links]
             
-            all_links.extend(links)
-            url = get_next_page_url(soup, BASE_URL)
-            page += 1
+            if not new_links:
+                empty_pages += 1
+                print(f"0 new (total: {len(all_links)})")
+                if empty_pages >= 3:  # Stop after 3 consecutive empty pages
+                    print(f"   Stopping after {empty_pages} empty pages")
+                    break
+            else:
+                empty_pages = 0
+                all_links.update(new_links)
+                print(f"+{len(new_links)} new (total: {len(all_links)})")
+            
             time.sleep(delay)
             
+        except requests.exceptions.HTTPError as e:
+            if "404" in str(e):
+                print(f"End of pages")
+                break
+            print(f"Error: {e}")
+            break
         except Exception as e:
-            print(f"   ⚠️ Error on page {page}: {e}")
+            print(f"Error: {e}")
             break
     
-    # Remove duplicates while preserving order
-    seen = set()
-    unique_links = []
-    for link in all_links:
-        if link not in seen:
-            seen.add(link)
-            unique_links.append(link)
+    print(f"\n   Found {len(all_links)} unique articles")
     
-    print(f"   Found {len(unique_links)} unique articles")
+    # Convert set to sorted list (newest first based on ID)
+    all_links = sorted(list(all_links), reverse=True)
     
     # Scrape each article
     saved = []
-    for link in tqdm(unique_links, desc=f"   Scraping {category}"):
+    for link in tqdm(all_links, desc=f"   Downloading {category}"):
         try:
             soup = get_soup(link)
             data = extract_article_data(soup, link)
@@ -420,19 +404,20 @@ type: "news"
 
 def main():
     parser = argparse.ArgumentParser(description="Scrape Treasury.gov press releases")
-    parser.add_argument("--pages", type=int, default=5, help="Max pages to scrape per category")
+    parser.add_argument("--pages", type=int, default=20, help="Max pages to scrape per category (default: 20)")
     parser.add_argument("--category", default="all", help="Category to scrape (or 'all')")
-    parser.add_argument("--delay", type=float, default=1.0, help="Delay between requests")
+    parser.add_argument("--delay", type=float, default=0.5, help="Delay between requests (default: 0.5s)")
     args = parser.parse_args()
     
     print("🏛️  Treasury.gov Press Releases Scraper")
     print(f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"📁 Output: {CONTENT_DIR}")
+    print(f"⚙️  Max pages per category: {args.pages}")
     
     # Create main news index
     CONTENT_DIR.mkdir(parents=True, exist_ok=True)
     with open(CONTENT_DIR / "_index.md", "w") as f:
-        f.write('---\ntitle: "News"\ndate: 2024-01-01\n---\n')
+        f.write('---\ntitle: "News"\ndate: 2024-01-01\ntype: "news"\n---\n')
     
     # Determine which categories to scrape
     if args.category == "all":
