@@ -134,6 +134,38 @@ resource "aws_cloudfront_origin_access_control" "site" {
   signing_protocol                  = "sigv4"
 }
 
+# =============================================================================
+# CloudFront Cache Policies
+# =============================================================================
+
+# AWS Managed CachingOptimized policy (ID: 658327ea-f89d-4fab-a63d-7e88639e58f6)
+data "aws_cloudfront_cache_policy" "caching_optimized" {
+  name = "Managed-CachingOptimized"
+}
+
+# Custom cache policy for immutable static assets (CSS, JS)
+resource "aws_cloudfront_cache_policy" "immutable_assets" {
+  name        = "${var.project_name}-${var.environment}-immutable-assets"
+  comment     = "Cache policy for immutable static assets (CSS, JS)"
+  default_ttl = 31536000
+  max_ttl     = 31536000
+  min_ttl     = 31536000
+
+  parameters_in_cache_key_and_forwarded_to_origin {
+    cookies_config {
+      cookie_behavior = "none"
+    }
+    headers_config {
+      header_behavior = "none"
+    }
+    query_strings_config {
+      query_string_behavior = "none"
+    }
+    enable_accept_encoding_brotli = true
+    enable_accept_encoding_gzip   = true
+  }
+}
+
 # CloudFront Security Headers Policy
 resource "aws_cloudfront_response_headers_policy" "security_headers" {
   name    = "${var.project_name}-${var.environment}-security-headers"
@@ -300,17 +332,9 @@ resource "aws_cloudfront_distribution" "site" {
     cached_methods   = ["GET", "HEAD"]
     target_origin_id = "S3-${local.bucket_name}"
 
-    forwarded_values {
-      query_string = false
-      cookies {
-        forward = "none"
-      }
-    }
+    cache_policy_id = data.aws_cloudfront_cache_policy.caching_optimized.id
 
     viewer_protocol_policy = "redirect-to-https"
-    min_ttl                = 0
-    default_ttl            = 3600
-    max_ttl                = 86400
     compress               = true
 
     function_association {
@@ -328,17 +352,9 @@ resource "aws_cloudfront_distribution" "site" {
     cached_methods   = ["GET", "HEAD"]
     target_origin_id = "S3-${local.bucket_name}"
 
-    forwarded_values {
-      query_string = false
-      cookies {
-        forward = "none"
-      }
-    }
+    cache_policy_id = data.aws_cloudfront_cache_policy.caching_optimized.id
 
     viewer_protocol_policy = "redirect-to-https"
-    min_ttl                = 0
-    default_ttl            = 86400    # 1 day
-    max_ttl                = 31536000 # 1 year
     compress               = true
 
     response_headers_policy_id = aws_cloudfront_response_headers_policy.security_headers.id
@@ -351,17 +367,9 @@ resource "aws_cloudfront_distribution" "site" {
     cached_methods   = ["GET", "HEAD"]
     target_origin_id = "S3-${local.bucket_name}"
 
-    forwarded_values {
-      query_string = false
-      cookies {
-        forward = "none"
-      }
-    }
+    cache_policy_id = aws_cloudfront_cache_policy.immutable_assets.id
 
     viewer_protocol_policy = "redirect-to-https"
-    min_ttl                = 31536000
-    default_ttl            = 31536000
-    max_ttl                = 31536000
     compress               = true
 
     response_headers_policy_id = aws_cloudfront_response_headers_policy.security_headers.id
@@ -373,17 +381,9 @@ resource "aws_cloudfront_distribution" "site" {
     cached_methods   = ["GET", "HEAD"]
     target_origin_id = "S3-${local.bucket_name}"
 
-    forwarded_values {
-      query_string = false
-      cookies {
-        forward = "none"
-      }
-    }
+    cache_policy_id = aws_cloudfront_cache_policy.immutable_assets.id
 
     viewer_protocol_policy = "redirect-to-https"
-    min_ttl                = 31536000
-    default_ttl            = 31536000
-    max_ttl                = 31536000
     compress               = true
 
     response_headers_policy_id = aws_cloudfront_response_headers_policy.security_headers.id
@@ -410,6 +410,7 @@ resource "aws_cloudfront_distribution" "site" {
 
   viewer_certificate {
     cloudfront_default_certificate = true
+    minimum_protocol_version       = "TLSv1.2_2021"
   }
 }
 

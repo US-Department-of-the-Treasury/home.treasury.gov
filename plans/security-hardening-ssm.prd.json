@@ -93,7 +93,7 @@
         "Cache behaviors use cache_policy_id instead"
       ],
       "priority": "medium",
-      "passes": false
+      "passes": true
     },
     {
       "id": "lifecycle-rules",

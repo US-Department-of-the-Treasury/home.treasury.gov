@@ -90,3 +90,17 @@ Based on security review findings from security-sentinel and iac-security-harden
 - Files changed: deploy/validate-config.sh (new)
 - Learnings: Fail-fast validation prevents wild goose chases on missing infra
 - Next: Story 7 - Enforce TLS 1.2+ and migrate to cache policies
+
+## Iteration 7 - Enforce TLS 1.2+ and migrate to cache policies
+- Completed: Upgraded TLS and migrated to managed cache policies
+- Changes:
+  - Set minimum_protocol_version to TLSv1.2_2021 in viewer_certificate
+  - Removed all deprecated forwarded_values blocks
+  - Default/images use AWS managed CachingOptimized policy
+  - CSS/JS use custom immutable_assets cache policy (1-year TTL)
+- Resources added:
+  - data.aws_cloudfront_cache_policy.caching_optimized
+  - aws_cloudfront_cache_policy.immutable_assets
+- Files changed: terraform/main.tf
+- Learnings: Custom cache policies needed for immutable assets with max TTL
+- Next: Story 8 - Add S3 lifecycle rules for site bucket versioning
