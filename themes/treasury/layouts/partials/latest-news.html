@@ -1,0 +1,13 @@
+{{/* Right sidebar showing latest news */}}
+<aside class="latest-news-sidebar">
+  <h2 class="sidebar-title">LATEST NEWS</h2>
+  <ul class="latest-news-list">
+    {{ $pages := where .Site.RegularPages "Section" "news" }}
+    {{ range first 8 (sort $pages ".Date" "desc") }}
+    <li class="latest-news-item">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</aside>

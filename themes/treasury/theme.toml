@@ -1,0 +1,13 @@
+name = "Treasury"
+license = "Public Domain"
+licenselink = "https://github.com/uswds/uswds/blob/main/LICENSE.md"
+description = "U.S. Department of the Treasury Hugo theme based on USWDS"
+homepage = "https://home.treasury.gov"
+min_version = "0.120.0"
+
+[author]
+  name = "U.S. Department of the Treasury"
+  homepage = "https://home.treasury.gov"
+
+[params]
+  uswds_version = "3.8.0"

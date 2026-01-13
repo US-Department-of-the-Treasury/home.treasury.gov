@@ -1,0 +1,11 @@
+{{- with site.Params.alert_message }}
+<!-- Alert Banner -->
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <div class="usa-alert__icon">
+      <img src="{{ "images/usa-icons/info.svg" | relURL }}" alt="" width="24" height="24">
+    </div>
+    <p class="usa-alert__text">{{ . | safeHTML }}</p>
+  </div>
+</div>
+{{- end }}

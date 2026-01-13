@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  
+  {{- with .Description | default site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{- end }}
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{- with .Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}">
+  {{- end }}
+  <meta property="og:site_name" content="{{ site.Title }}">
+  
+  <!-- Fonts - matching Treasury -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ "css/treasury.css" | relURL }}">
+  
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ .Permalink }}">
+  
+  {{- block "head" . }}{{- end }}
+</head>
+<body class="treasury-site">
+  <!-- Skip nav -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <!-- Alert Banner -->
+  {{- partial "alert-banner.html" . }}
+  
+  <!-- USA Banner -->
+  {{- partial "usa-banner.html" . }}
+  
+  <!-- Header + Navigation -->
+  {{- partial "header.html" . }}
+  
+  <!-- Main content -->
+  <main id="main-content">
+    {{- block "main" . }}{{- end }}
+  </main>
+  
+  <!-- Footer -->
+  {{- partial "footer.html" . }}
+  
+  <!-- Scripts -->
+  <script src="{{ "js/treasury.js" | relURL }}"></script>
+  {{- block "scripts" . }}{{- end }}
+</body>
+</html>

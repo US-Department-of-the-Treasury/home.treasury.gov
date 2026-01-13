@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="page-section">
+  <div class="container">
+    <!-- Breadcrumbs -->
+    {{- partial "breadcrumbs.html" . }}
+    
+    <article class="press-release">
+      <header class="press-release-header">
+        {{- with .Params.press_release_number }}
+        <span class="press-release-number">{{ . }}</span>
+        {{- end }}
+        
+        {{- with .Params.date }}
+        <p class="press-release-date">
+          <time datetime="{{ . }}">{{ time.Format "January 2, 2006" . }}</time>
+        </p>
+        {{- end }}
+        
+        <h1>{{ .Title }}</h1>
+      </header>
+      
+      <div class="press-release-content">
+        {{ .Content }}
+      </div>
+      
+      {{- with .Params.tags }}
+      <footer style="margin-top: var(--space-xl); padding-top: var(--space-lg); border-top: 1px solid var(--gray-200);">
+        <h4>Related Topics</h4>
+        <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-sm);">
+          {{- range . }}
+          <li>
+            <a href="{{ "tags/" | relURL }}{{ . | urlize }}" style="display: inline-block; background: var(--gray-100); padding: 0.25rem 0.75rem; font-size: 0.875rem; text-decoration: none; color: var(--treasury-navy);">{{ . }}</a>
+          </li>
+          {{- end }}
+        </ul>
+      </footer>
+      {{- end }}
+    </article>
+  </div>
+</div>
+{{ end }}

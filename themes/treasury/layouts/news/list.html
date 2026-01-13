@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="breadcrumbs">
+  <div class="container">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumbs-list">
+        <li><a href="/">HOME</a></li>
+        <li><a href="/news/">NEWS</a></li>
+        <li><span aria-current="page">{{ .Title | upper }}</span></li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="news-page-section">
+  <div class="container">
+    <div class="news-three-col">
+      {{/* Left Sidebar */}}
+      {{ partial "news-sidebar.html" . }}
+      
+      {{/* Main Content */}}
+      <main class="news-main-content">
+        <header class="news-page-header">
+          <h1 class="section-heading">{{ .Title | upper }}</h1>
+          <div class="heading-underline"></div>
+        </header>
+        
+        {{ if .Content }}
+        <div class="news-intro">
+          {{ .Content }}
+        </div>
+        {{ end }}
+        
+        <ul class="news-article-list">
+          {{ $paginator := .Paginate .Pages 20 }}
+          {{ range $paginator.Pages }}
+          <li class="news-article-item">
+            <article>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+              {{ if .Description }}
+              <p>{{ .Description }}</p>
+              {{ else if .Summary }}
+              <p>{{ .Summary | truncate 200 }}</p>
+              {{ end }}
+            </article>
+          </li>
+          {{ end }}
+        </ul>
+        
+        {{ partial "pagination.html" . }}
+      </main>
+      
+      {{/* Right Sidebar */}}
+      {{ partial "latest-news.html" . }}
+    </div>
+  </div>
+</div>
+{{ end }}

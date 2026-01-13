@@ -1,0 +1,33 @@
+<!-- Official U.S. Government Banner -->
+<section id="branding" class="usa-banner" aria-label="Official website of the United States government">
+  <div class="usa-banner-inner">
+    <div class="usa-banner-header">
+      <img class="usa-banner-flag" src="{{ "images/us_flag_small.png" | relURL }}" alt="U.S. flag">
+      <p class="usa-banner-text">
+        An official website of the United States government
+      </p>
+      <button type="button" class="usa-banner-button" aria-expanded="false" aria-controls="gov-banner-content">
+        <span class="usa-banner-button-text">Here's how you know</span>
+        <svg class="usa-banner-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+    </div>
+    <div class="usa-banner-content" id="gov-banner-content" hidden>
+      <div class="usa-banner-guidance">
+        <img class="usa-banner-icon-large" src="{{ "images/icon-dot-gov.svg" | relURL }}" alt="">
+        <div class="usa-banner-guidance-text">
+          <p><strong>Official websites use .gov</strong></p>
+          <p>A <strong>.gov</strong> website belongs to an official government organization in the United States.</p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance">
+        <img class="usa-banner-icon-large" src="{{ "images/icon-https.svg" | relURL }}" alt="">
+        <div class="usa-banner-guidance-text">
+          <p><strong>Secure .gov websites use HTTPS</strong></p>
+          <p>A <strong>lock</strong> or <strong>https://</strong> means you've safely connected to the .gov website.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

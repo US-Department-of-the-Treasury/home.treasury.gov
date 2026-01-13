@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="page-section">
+  <div class="container">
+    <!-- Breadcrumbs -->
+    {{- partial "breadcrumbs.html" . }}
+    
+    <h1>{{ .Title }}</h1>
+    
+    {{- with .Content }}
+    <div class="prose" style="margin-bottom: var(--space-xl);">
+      {{ . }}
+    </div>
+    {{- end }}
+    
+    {{- if .Pages }}
+    <ul class="news-list">
+      {{- range .Pages.ByDate.Reverse }}
+      <li class="news-item">
+        {{- with .Params.date }}
+        <p class="news-item-date">
+          <time datetime="{{ . }}">{{ time.Format "January 2, 2006" . }}</time>
+        </p>
+        {{- end }}
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        {{- with .Description | default .Summary }}
+        <p>{{ . | truncate 200 | plainify }}</p>
+        {{- end }}
+      </li>
+      {{- end }}
+    </ul>
+    
+    {{- partial "pagination.html" . }}
+    {{- else }}
+    <p>No content found in this section.</p>
+    {{- end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "429abc81-2e6f-4b53-bce2-c00a50647848",
+    "type": "taxonomy_term--news_category",
+    "name": "Featured Stories",
+    "description": null,
+    "weight": 1,
+    "status": true,
+    "changed": "2018-01-12T19:57:45+00:00",
+    "path": null,
+    "tid": 57,
+    "langcode": "en"
+  },
+  {
+    "id": "cf77c794-0050-49b5-88cd-4b9382644cdf",
+    "type": "taxonomy_term--news_category",
+    "name": "Press Releases",
+    "description": null,
+    "weight": 0,
+    "status": true,
+    "changed": "2018-01-12T19:57:45+00:00",
+    "path": null,
+    "tid": 67,
+    "langcode": "en"
+  },
+  {
+    "id": "f00aa509-9bd9-4709-a492-2b91c494c08d",
+    "type": "taxonomy_term--news_category",
+    "name": "Statements & Remarks",
+    "description": null,
+    "weight": 0,
+    "status": true,
+    "changed": "2017-11-15T15:41:53+00:00",
+    "path": null,
+    "tid": 141,
+    "langcode": "en"
+  },
+  {
+    "id": "f80b30aa-2c3b-449e-bdd0-beb4b9140da6",
+    "type": "taxonomy_term--news_category",
+    "name": "Readouts",
+    "description": null,
+    "weight": 2,
+    "status": true,
+    "changed": "2017-11-14T17:14:31+00:00",
+    "path": null,
+    "tid": 146,
+    "langcode": "en"
+  },
+  {
+    "id": "eb0647d0-06de-4f81-80ec-246c76282e24",
+    "type": "taxonomy_term--news_category",
+    "name": "Secretary Statements & Remarks",
+    "description": null,
+    "weight": 0,
+    "status": true,
+    "changed": "2017-11-28T16:48:32+00:00",
+    "path": null,
+    "tid": 156,
+    "langcode": "en"
+  },
+  {
+    "id": "03e1010e-a191-4299-abf0-a58781d1eb33",
+    "type": "taxonomy_term--news_category",
+    "name": "Testimonies",
+    "description": null,
+    "weight": 1,
+    "status": true,
+    "changed": "2017-11-15T15:41:53+00:00",
+    "path": null,
+    "tid": 161,
+    "langcode": "en"
+  }
+]

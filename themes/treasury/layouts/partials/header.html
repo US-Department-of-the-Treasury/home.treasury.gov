@@ -1,0 +1,34 @@
+<!-- Treasury Header -->
+<header id="header">
+  <div class="header-inner">
+    <!-- Top branding row -->
+    <div class="header-branding">
+      <a href="/" title="Home" rel="home" class="logo">
+        <img class="treasury-logo" src="{{ "images/treasury-seal.svg" | relURL }}" alt="Seal of the U.S. Department of the Treasury, 1789">
+        <span class="logo-text">U.S. DEPARTMENT OF THE TREASURY</span>
+      </a>
+    </div>
+    
+    <!-- Navigation row -->
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="nav-menu">
+        {{- range site.Menus.main }}
+        <li class="nav-item{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
+          <a href="{{ .URL }}" class="nav-link">{{ .Name | upper }}</a>
+        </li>
+        {{- end }}
+      </ul>
+      
+      <!-- Search -->
+      <div class="nav-search">
+        <button type="button" class="search-toggle" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="M21 21l-4.35-4.35"></path>
+          </svg>
+          <span>SEARCH</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>

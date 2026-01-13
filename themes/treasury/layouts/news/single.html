@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="breadcrumbs">
+  <div class="container">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumbs-list">
+        <li><a href="/">HOME</a></li>
+        <li><a href="/news/">NEWS</a></li>
+        {{ with .CurrentSection }}
+        <li><a href="{{ .Permalink }}">{{ .Title | upper }}</a></li>
+        {{ end }}
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="news-page-section">
+  <div class="container">
+    <div class="news-three-col">
+      {{/* Left Sidebar */}}
+      {{ partial "news-sidebar.html" . }}
+      
+      {{/* Main Content */}}
+      <main class="news-main-content">
+        <article class="news-article">
+          <header class="news-article-header">
+            {{ with .Params.category }}
+            <span class="news-category">{{ . | upper }}</span>
+            {{ end }}
+            <h1>{{ .Title }}</h1>
+            <div class="heading-underline"></div>
+          </header>
+          
+          <div class="news-article-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ with .Params.release_number }}
+            <span class="release-number">{{ . }}</span>
+            {{ end }}
+          </div>
+          
+          <div class="news-article-body">
+            {{ .Content }}
+          </div>
+          
+          {{ with .Params.related }}
+          <aside class="related-content">
+            <h3>Related Content</h3>
+            <ul>
+              {{ range . }}
+              <li><a href="{{ .url }}">{{ .title }}</a></li>
+              {{ end }}
+            </ul>
+          </aside>
+          {{ end }}
+        </article>
+      </main>
+      
+      {{/* Right Sidebar */}}
+      {{ partial "latest-news.html" . }}
+    </div>
+  </div>
+</div>
+{{ end }}

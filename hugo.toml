@@ -1,0 +1,94 @@
+# U.S. Department of the Treasury - Hugo Site Configuration
+# Migrated from Drupal
+
+baseURL = "https://home.treasury.gov/"
+languageCode = "en-us"
+title = "U.S. Department of the Treasury"
+theme = "treasury"
+
+# Build settings for S3/Akamai deployment
+publishDir = "public"
+canonicalizeURLs = true
+relativeURLs = false
+
+[params]
+  description = "The Department of the Treasury manages federal finances, collects taxes and duties, enforces finance and tax laws, and protects the nation's financial systems."
+  agency = "U.S. Department of the Treasury"
+  logo = "/images/treasury-seal.svg"
+  # Alert banner message (leave empty to hide)
+  alert_message = ""
+  
+  # Social
+  twitter = "USTreasury"
+  facebook = "ustreasury"
+  
+  # Contact
+  address = "1500 Pennsylvania Avenue, NW, Washington, D.C. 20220"
+  phone = "(202) 622-2000"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow raw HTML in markdown
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+# Taxonomy configuration
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  office = "offices"
+  topic = "topics"
+  document_type = "document-types"
+
+# Menu configuration - matches Treasury navigation
+[menus]
+  [[menus.main]]
+    name = "About Treasury"
+    url = "/about/"
+    weight = 10
+  [[menus.main]]
+    name = "Policy Issues"
+    url = "/policy-issues/"
+    weight = 20
+  [[menus.main]]
+    name = "Data"
+    url = "/data/"
+    weight = 30
+  [[menus.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 40
+  [[menus.main]]
+    name = "News"
+    url = "/news/"
+    weight = 50
+  [[menus.main]]
+    name = "Year in Review"
+    url = "/year-in-review/"
+    weight = 60
+  [[menus.main]]
+    name = "Working Families Tax Cuts"
+    url = "/working-families-tax-cuts/"
+    weight = 70
+
+# Permalinks for clean URLs
+[permalinks]
+  news = "/news/:year/:month/:slug/"
+  'press-releases' = "/news/press-releases/:year/:month/:slug/"
+
+# Security settings
+[security]
+  [security.funcs]
+    getenv = ["^HUGO_", "^CI$"]
+
+# Minify output for production
+[minify]
+  minifyOutput = true
