@@ -105,7 +105,7 @@
         "Rule includes abort_incomplete_multipart_upload with 7 days"
       ],
       "priority": "medium",
-      "passes": false
+      "passes": true
     }
   ],
   "postCompletion": {

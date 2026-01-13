@@ -41,6 +41,33 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "site" {
   }
 }
 
+# S3 Lifecycle Configuration for site bucket
+resource "aws_s3_bucket_lifecycle_configuration" "site" {
+  bucket = aws_s3_bucket.site.id
+
+  rule {
+    id     = "expire-old-versions"
+    status = "Enabled"
+
+    filter {}
+
+    noncurrent_version_expiration {
+      noncurrent_days = 30
+    }
+  }
+
+  rule {
+    id     = "abort-incomplete-uploads"
+    status = "Enabled"
+
+    filter {}
+
+    abort_incomplete_multipart_upload {
+      days_after_initiation = 7
+    }
+  }
+}
+
 # =============================================================================
 # Logging Bucket - For S3 and CloudFront access logs
 # =============================================================================
