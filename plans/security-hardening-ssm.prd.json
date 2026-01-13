@@ -56,7 +56,7 @@
         "CloudFront distribution has web_acl_id set"
       ],
       "priority": "high",
-      "passes": false
+      "passes": true
     },
     {
       "id": "ssm-parameters",

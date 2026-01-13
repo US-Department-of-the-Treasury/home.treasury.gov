@@ -53,3 +53,16 @@ Based on security review findings from security-sentinel and iac-security-harden
 - Files changed: terraform/main.tf
 - Learnings: CloudFront response headers policy is separate from cache behavior config
 - Next: Story 4 - Add AWS WAF with managed rules
+
+## Iteration 4 - Add AWS WAF with managed rules
+- Completed: Created WAF WebACL with managed rules and rate limiting
+- Resources added:
+  - aws_wafv2_web_acl.cloudfront (scope CLOUDFRONT, us-east-1 provider)
+  - AWSManagedRulesCommonRuleSet (priority 1)
+  - AWSManagedRulesKnownBadInputsRuleSet (priority 2)
+  - RateLimitRule (2000 req/5min, priority 3)
+- Added us-east-1 provider alias for WAF (CloudFront WAF requirement)
+- Attached WAF to CloudFront via web_acl_id
+- Files changed: terraform/provider.tf, terraform/main.tf
+- Learnings: WAF for CloudFront must be in us-east-1, requires provider alias
+- Next: Story 5 - Create SSM parameters for infrastructure IDs
