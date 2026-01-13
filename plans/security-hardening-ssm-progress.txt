@@ -25,3 +25,17 @@ Based on security review findings from security-sentinel and iac-security-harden
 - Files changed: terraform/main.tf
 - Learnings: Encryption config is a separate resource in AWS provider v4+
 - Next: Story 2 - Create logging bucket with S3/CloudFront logging
+
+## Iteration 2 - Create logging bucket with S3/CloudFront logging
+- Completed: Added dedicated logging bucket with full security configuration
+- Resources added:
+  - aws_s3_bucket.logs
+  - aws_s3_bucket_public_access_block.logs
+  - aws_s3_bucket_server_side_encryption_configuration.logs
+  - aws_s3_bucket_ownership_controls.logs (BucketOwnerPreferred for CloudFront)
+  - aws_s3_bucket_lifecycle_configuration.logs (90-day expiration)
+  - aws_s3_bucket_logging.site (S3 access logging)
+  - logging_config block in CloudFront distribution
+- Files changed: terraform/main.tf
+- Learnings: Lifecycle rules require explicit `filter {}` block in AWS provider v4+
+- Next: Story 3 - Add CloudFront security headers policy

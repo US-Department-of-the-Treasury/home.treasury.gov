@@ -41,6 +41,83 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "site" {
   }
 }
 
+# =============================================================================
+# Logging Bucket - For S3 and CloudFront access logs
+# =============================================================================
+
+resource "aws_s3_bucket" "logs" {
+  bucket        = "${var.project_name}-${var.environment}-logs-${random_id.bucket_suffix.hex}"
+  force_destroy = true
+}
+
+resource "aws_s3_bucket_public_access_block" "logs" {
+  bucket = aws_s3_bucket.logs.id
+
+  block_public_acls       = true
+  block_public_policy     = true
+  ignore_public_acls      = true
+  restrict_public_buckets = true
+}
+
+resource "aws_s3_bucket_server_side_encryption_configuration" "logs" {
+  bucket = aws_s3_bucket.logs.id
+
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm = "AES256"
+    }
+    bucket_key_enabled = true
+  }
+}
+
+# Ownership controls required for CloudFront logging
+resource "aws_s3_bucket_ownership_controls" "logs" {
+  bucket = aws_s3_bucket.logs.id
+
+  rule {
+    object_ownership = "BucketOwnerPreferred"
+  }
+}
+
+# 90-day log retention lifecycle policy
+resource "aws_s3_bucket_lifecycle_configuration" "logs" {
+  bucket = aws_s3_bucket.logs.id
+
+  rule {
+    id     = "expire-logs-90-days"
+    status = "Enabled"
+
+    filter {}
+
+    expiration {
+      days = 90
+    }
+
+    noncurrent_version_expiration {
+      noncurrent_days = 30
+    }
+  }
+
+  rule {
+    id     = "abort-incomplete-uploads"
+    status = "Enabled"
+
+    filter {}
+
+    abort_incomplete_multipart_upload {
+      days_after_initiation = 7
+    }
+  }
+}
+
+# S3 access logging for site bucket
+resource "aws_s3_bucket_logging" "site" {
+  bucket = aws_s3_bucket.site.id
+
+  target_bucket = aws_s3_bucket.logs.id
+  target_prefix = "s3-access/"
+}
+
 # CloudFront Function for URL rewriting (index.html for directories)
 resource "aws_cloudfront_function" "url_rewrite" {
   name    = "${var.project_name}-${var.environment}-url-rewrite"
@@ -64,6 +141,13 @@ resource "aws_cloudfront_distribution" "site" {
   default_root_object = "index.html"
   comment             = "Treasury Home Hugo Site - ${var.environment}"
   price_class         = "PriceClass_100"
+
+  # CloudFront access logging
+  logging_config {
+    include_cookies = false
+    bucket          = aws_s3_bucket.logs.bucket_domain_name
+    prefix          = "cloudfront/"
+  }
 
   # Default origin for all content (Hugo site)
   origin {
