@@ -21,105 +21,104 @@
   }
 
   // ============================================
-  // Mega Menu Navigation
+  // Mega Menu Navigation (Click to Open)
   // ============================================
-  const navToggles = document.querySelectorAll('.nav-toggle');
-  let activeDropdown = null;
+  const megaMenuItems = document.querySelectorAll('.nav-item.has-dropdown');
+  let activeMegaMenu = null;
   
-  function closeAllDropdowns() {
-    navToggles.forEach(toggle => {
-      toggle.setAttribute('aria-expanded', 'false');
-      const dropdownId = toggle.getAttribute('aria-controls');
-      const dropdown = document.getElementById(dropdownId);
-      if (dropdown) {
-        dropdown.hidden = true;
+  function closeAllMegaMenus() {
+    megaMenuItems.forEach(item => {
+      const btn = item.querySelector('.nav-link');
+      if (btn) {
+        btn.setAttribute('aria-expanded', 'false');
       }
     });
-    activeDropdown = null;
+    activeMegaMenu = null;
   }
   
-  navToggles.forEach(toggle => {
-    toggle.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      const dropdownId = this.getAttribute('aria-controls');
-      const dropdown = document.getElementById(dropdownId);
-      const isExpanded = this.getAttribute('aria-expanded') === 'true';
-      
-      // Close all other dropdowns first
-      if (!isExpanded) {
-        closeAllDropdowns();
-      }
-      
-      // Toggle this dropdown
-      this.setAttribute('aria-expanded', !isExpanded);
-      if (dropdown) {
-        dropdown.hidden = isExpanded;
-        activeDropdown = isExpanded ? null : dropdown;
-      }
-    });
-  });
-  
-  // Close dropdowns when clicking outside
-  document.addEventListener('click', function(e) {
-    if (activeDropdown && !e.target.closest('.nav-item')) {
-      closeAllDropdowns();
+  megaMenuItems.forEach(item => {
+    const btn = item.querySelector('.nav-link');
+    
+    if (btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        
+        // Close all menus first
+        closeAllMegaMenus();
+        closeSearchDropdown();
+        
+        // Toggle this menu
+        if (!isExpanded) {
+          this.setAttribute('aria-expanded', 'true');
+          activeMegaMenu = item;
+        }
+      });
     }
   });
   
-  // Close dropdowns on Escape key
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && activeDropdown) {
-      closeAllDropdowns();
+  // Close mega menus when clicking outside
+  document.addEventListener('click', function(e) {
+    if (activeMegaMenu && !e.target.closest('.nav-item.has-dropdown')) {
+      closeAllMegaMenus();
     }
   });
 
   // ============================================
-  // Search Overlay
+  // Search Dropdown
   // ============================================
   const searchToggle = document.querySelector('.search-toggle');
-  const searchOverlay = document.getElementById('search-overlay');
-  const searchClose = document.querySelector('.search-overlay-close');
-  const searchInput = document.querySelector('.search-overlay-input');
+  const searchDropdown = document.getElementById('search-dropdown');
   
-  function openSearchOverlay() {
-    if (searchOverlay) {
-      searchOverlay.hidden = false;
-      searchToggle?.setAttribute('aria-expanded', 'true');
-      searchInput?.focus();
-      document.body.style.overflow = 'hidden';
+  function closeSearchDropdown() {
+    if (searchDropdown) {
+      searchDropdown.hidden = true;
+      searchToggle?.setAttribute('aria-expanded', 'false');
     }
   }
   
-  function closeSearchOverlay() {
-    if (searchOverlay) {
-      searchOverlay.hidden = true;
-      searchToggle?.setAttribute('aria-expanded', 'false');
-      document.body.style.overflow = '';
+  function openSearchDropdown() {
+    if (searchDropdown) {
+      searchDropdown.hidden = false;
+      searchToggle?.setAttribute('aria-expanded', 'true');
+      const input = searchDropdown.querySelector('.search-input');
+      if (input) input.focus();
     }
   }
   
   if (searchToggle) {
-    searchToggle.addEventListener('click', function() {
+    searchToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
       const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      
+      // Close mega menus
+      closeAllMegaMenus();
+      
+      // Toggle search
       if (isExpanded) {
-        closeSearchOverlay();
+        closeSearchDropdown();
       } else {
-        closeAllDropdowns(); // Close any open mega menus
-        openSearchOverlay();
+        openSearchDropdown();
       }
     });
   }
   
-  if (searchClose) {
-    searchClose.addEventListener('click', closeSearchOverlay);
-  }
+  // Close search when clicking outside
+  document.addEventListener('click', function(e) {
+    if (searchDropdown && !searchDropdown.hidden && !e.target.closest('.nav-search')) {
+      closeSearchDropdown();
+    }
+  });
   
-  // Close search overlay on Escape
+  // Close all on Escape
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && searchOverlay && !searchOverlay.hidden) {
-      closeSearchOverlay();
+    if (e.key === 'Escape') {
+      closeAllMegaMenus();
+      closeSearchDropdown();
     }
   });
 
@@ -188,9 +187,6 @@
     const endDateInput = filterForm.querySelector('#end-date');
     const pagination = document.querySelector('.pagination');
     
-    // Store original articles for resetting
-    const originalArticles = Array.from(articles);
-    
     filterForm.addEventListener('submit', function(e) {
       e.preventDefault();
       
@@ -247,7 +243,7 @@
         noResultsMsg.remove();
       }
       
-      // Update URL with search params (without navigation)
+      // Update URL with search params
       const params = new URLSearchParams();
       if (keyword) params.set('title', keyword);
       if (startDateInput?.value) params.set('publication-start-date', startDateInput.value);
@@ -259,7 +255,7 @@
       window.history.replaceState({}, '', newUrl);
     });
     
-    // Pre-fill form from URL params and trigger filter
+    // Pre-fill form from URL params
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.has('title') || urlParams.has('publication-start-date') || urlParams.has('publication-end-date')) {
       if (keywordInput && urlParams.has('title')) {
@@ -271,7 +267,6 @@
       if (endDateInput && urlParams.has('publication-end-date')) {
         endDateInput.value = urlParams.get('publication-end-date');
       }
-      // Trigger filter on page load if params exist
       filterForm.dispatchEvent(new Event('submit'));
     }
   }

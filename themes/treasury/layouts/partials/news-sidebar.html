@@ -1,36 +1,59 @@
-{{/* Left sidebar for news section - matches Treasury.gov exactly */}}
+{{/* Left sidebar for news section - uses navigation data */}}
 <aside class="news-sidebar">
   <h2 class="sidebar-title">NEWS</h2>
   <nav class="news-nav">
     {{ $currentPath := .RelPermalink }}
-    <ul class="news-nav-list">
-      <li class="{{ if in $currentPath "press-releases" }}active{{ end }}">
-        <a href="/news/press-releases/">Press Releases</a>
-      </li>
-      <li class="sub-item">
-        <a href="/news/statements-remarks/">Statements & Remarks</a>
-      </li>
-      <li class="sub-item">
-        <a href="/news/readouts/">Readouts</a>
-      </li>
-      <li class="sub-item">
-        <a href="/news/testimonies/">Testimonies</a>
-      </li>
-    </ul>
-    <ul class="news-nav-list">
-      <li class="{{ if in $currentPath "featured-stories" }}active{{ end }}">
-        <a href="/news/featured-stories/">Featured Stories</a>
-      </li>
-    </ul>
-    <ul class="news-nav-list">
-      <li>
-        <a href="/news/webcasts/">Webcasts</a>
-      </li>
-    </ul>
-    <ul class="news-nav-list">
-      <li>
-        <a href="/news/press-contacts/">Press Contacts</a>
-      </li>
-    </ul>
+    {{ $navData := site.Data.navigation }}
+    
+    {{ if $navData.news_sidebar }}
+      {{/* Use data-driven navigation */}}
+      {{ $lastIndent := false }}
+      {{ range $i, $item := $navData.news_sidebar }}
+        {{ if and (not $item.indent) $lastIndent }}
+        </ul>
+        <ul class="news-nav-list">
+        {{ else if and (eq $i 0) }}
+        <ul class="news-nav-list">
+        {{ end }}
+        
+        <li class="{{ if $item.indent }}sub-item {{ end }}{{ if in $currentPath $item.url }}active{{ end }}">
+          <a href="{{ $item.url }}">{{ $item.title }}</a>
+        </li>
+        
+        {{ $lastIndent = $item.indent }}
+      {{ end }}
+      </ul>
+    {{ else }}
+      {{/* Fallback static navigation */}}
+      <ul class="news-nav-list">
+        <li class="{{ if in $currentPath "press-releases" }}active{{ end }}">
+          <a href="/news/press-releases/">Press Releases</a>
+        </li>
+        <li class="sub-item">
+          <a href="/news/press-releases/statements-remarks/">Statements & Remarks</a>
+        </li>
+        <li class="sub-item">
+          <a href="/news/press-releases/readouts/">Readouts</a>
+        </li>
+        <li class="sub-item">
+          <a href="/news/press-releases/testimonies/">Testimonies</a>
+        </li>
+      </ul>
+      <ul class="news-nav-list">
+        <li class="{{ if in $currentPath "featured-stories" }}active{{ end }}">
+          <a href="/news/featured-stories/">Featured Stories</a>
+        </li>
+      </ul>
+      <ul class="news-nav-list">
+        <li>
+          <a href="/news/webcasts/">Webcasts</a>
+        </li>
+      </ul>
+      <ul class="news-nav-list">
+        <li>
+          <a href="/news/press-contacts/">Press Contacts</a>
+        </li>
+      </ul>
+    {{ end }}
   </nav>
 </aside>

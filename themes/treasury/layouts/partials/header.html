@@ -1,158 +1,76 @@
-<!-- Treasury Header -->
+<!-- Treasury Header with Mega Menus -->
 <header id="header">
   <div class="header-inner">
-    <!-- Top branding row -->
+    <!-- Logo/Branding -->
     <div class="header-branding">
-      <a href="/" title="Home" rel="home" class="logo">
-        <img class="treasury-logo" src="{{ "images/treasury-seal.svg" | relURL }}" alt="Seal of the U.S. Department of the Treasury, 1789">
+      <a href="/" class="logo">
+        <img src="{{ "images/treasury-seal.svg" | relURL }}" alt="" class="treasury-logo" aria-hidden="true">
         <span class="logo-text">U.S. DEPARTMENT OF THE TREASURY</span>
       </a>
     </div>
     
-    <!-- Navigation row -->
+    <!-- Main Navigation with Mega Menus -->
     <nav class="main-nav" aria-label="Main navigation">
       <ul class="nav-menu">
-        {{- range site.Menus.main }}
-        <li class="nav-item{{ if $.IsMenuCurrent "main" . }} active{{ end }}" data-dropdown="{{ .Identifier | default .Name | urlize }}">
-          <button type="button" class="nav-link nav-toggle" aria-expanded="false" aria-controls="dropdown-{{ .Identifier | default .Name | urlize }}">
-            {{ .Name | upper }}
-            <svg class="nav-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
+        {{ $navData := site.Data.navigation }}
+        {{ range $navData.main_nav }}
+        <li class="nav-item {{ if .columns }}has-dropdown{{ end }}">
+          {{ if .columns }}
+          <button class="nav-link" aria-expanded="false" aria-haspopup="true">
+            {{ .title }}
           </button>
-          
-          <!-- Mega Menu Dropdown -->
-          <div class="mega-menu" id="dropdown-{{ .Identifier | default .Name | urlize }}" hidden>
+          <div class="mega-menu">
             <div class="mega-menu-inner">
-              <div class="mega-menu-grid">
-                <!-- Column 1 -->
-                <div class="mega-menu-col">
-                  <h3 class="mega-menu-heading"><a href="{{ .URL }}">{{ .Name }}</a></h3>
-                  {{- if eq .Name "About Treasury" }}
-                  <ul class="mega-menu-list">
-                    <li><a href="/about/general-information/">General Information</a></li>
-                    <li><a href="/about/offices/">Offices</a></li>
-                    <li><a href="/about/bureaus/">Bureaus</a></li>
-                    <li><a href="/about/history/">History</a></li>
-                    <li><a href="/about/careers/">Careers at Treasury</a></li>
-                  </ul>
-                  {{- else if eq .Name "Policy Issues" }}
-                  <ul class="mega-menu-list">
-                    <li><a href="/policy-issues/financial-markets/">Financial Markets</a></li>
-                    <li><a href="/policy-issues/financial-sanctions/">Financial Sanctions</a></li>
-                    <li><a href="/policy-issues/economic-policy/">Economic Policy</a></li>
-                    <li><a href="/policy-issues/tax-policy/">Tax Policy</a></li>
-                    <li><a href="/policy-issues/terrorism-and-illicit-finance/">Terrorism and Illicit Finance</a></li>
-                  </ul>
-                  {{- else if eq .Name "News" }}
-                  <ul class="mega-menu-list">
-                    <li><a href="/news/press-releases/">Press Releases</a></li>
-                    <li><a href="/news/statements-remarks/">Statements & Remarks</a></li>
-                    <li><a href="/news/testimonies/">Testimonies</a></li>
-                    <li><a href="/news/featured-stories/">Featured Stories</a></li>
-                    <li><a href="/news/press-contacts/">Press Contacts</a></li>
-                  </ul>
-                  {{- else }}
-                  <ul class="mega-menu-list">
-                    <li><a href="{{ .URL }}">View All</a></li>
-                  </ul>
-                  {{- end }}
-                </div>
-                
-                <!-- Search in Dropdown -->
-                <div class="mega-menu-col mega-menu-search">
-                  <form class="mega-search-form" action="/search/" method="get">
-                    <label for="mega-search-{{ .Identifier | default .Name | urlize }}" class="sr-only">Search {{ .Name }}</label>
-                    <input type="text" id="mega-search-{{ .Identifier | default .Name | urlize }}" name="q" placeholder="Search {{ .Name }}..." class="mega-search-input">
-                    <button type="submit" class="mega-search-btn">GO</button>
-                  </form>
-                </div>
+              {{ range .columns }}
+              <div class="mega-menu-column">
+                <h3 class="mega-menu-heading">{{ .heading }}</h3>
+                <ul class="mega-menu-links">
+                  {{ range .links }}
+                  <li><a href="{{ .url }}">{{ .title }}</a></li>
+                  {{ end }}
+                </ul>
               </div>
+              {{ end }}
             </div>
           </div>
+          {{ else }}
+          <a href="{{ .url }}" class="nav-link">{{ .title }}</a>
+          {{ end }}
         </li>
-        {{- end }}
+        {{ end }}
       </ul>
       
       <!-- Search Button -->
       <div class="nav-search">
-        <button type="button" class="search-toggle" aria-label="Search" aria-expanded="false" aria-controls="search-overlay">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <circle cx="11" cy="11" r="8"></circle>
-            <path d="M21 21l-4.35-4.35"></path>
-          </svg>
+        <button class="search-toggle" aria-expanded="false" aria-controls="search-dropdown">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
           <span>SEARCH</span>
         </button>
+        
+        <!-- Search Dropdown -->
+        <div id="search-dropdown" class="search-dropdown" hidden>
+          <form class="search-form" action="https://search.usa.gov/search" method="get">
+            <input type="hidden" name="affiliate" value="treasury">
+            <div class="search-input-group">
+              <input type="text" name="query" placeholder="Enter keywords" class="search-input" aria-label="Search">
+              <button type="submit" class="search-go">GO</button>
+            </div>
+          </form>
+          
+          <div class="search-categories">
+            {{ range $navData.search.categories }}
+            <div class="search-category">
+              <h4>{{ .heading }}</h4>
+              <ul>
+                {{ range .links }}
+                <li><a href="{{ .url }}">{{ .title }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+          </div>
+        </div>
       </div>
-
-      <!-- Mobile menu toggle -->
-      <button type="button" class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
     </nav>
   </div>
 </header>
-
-<!-- Search Overlay Panel -->
-<div class="search-overlay" id="search-overlay" hidden>
-  <div class="search-overlay-inner">
-    <button type="button" class="search-overlay-close" aria-label="Close search">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <line x1="18" y1="6" x2="6" y2="18"></line>
-        <line x1="6" y1="6" x2="18" y2="18"></line>
-      </svg>
-    </button>
-    
-    <div class="search-overlay-content">
-      <form class="search-overlay-form" action="/search/" method="get">
-        <div class="search-input-group">
-          <input type="text" name="q" class="search-overlay-input" placeholder="Enter keywords" aria-label="Search keywords" autocomplete="off">
-          <button type="submit" class="search-overlay-btn">GO</button>
-        </div>
-      </form>
-      
-      <!-- Quick Links Categories -->
-      <div class="search-quick-links">
-        <div class="quick-link-category">
-          <h3>THE PUBLIC</h3>
-          <ul>
-            <li><a href="/services/bonds-and-securities/">Bonds & Securities</a></li>
-            <li><a href="/services/taxes/">Taxes</a></li>
-            <li><a href="/services/currency/">Currency</a></li>
-            <li><a href="/services/small-business/">Small Business</a></li>
-          </ul>
-        </div>
-        
-        <div class="quick-link-category">
-          <h3>BUSINESSES</h3>
-          <ul>
-            <li><a href="/policy-issues/financial-sanctions/">Sanctions</a></li>
-            <li><a href="/resource-center/faqs/">FAQs</a></li>
-            <li><a href="/services/report-fraud/">Report Fraud</a></li>
-            <li><a href="/about/offices/">Treasury Offices</a></li>
-          </ul>
-        </div>
-        
-        <div class="quick-link-category">
-          <h3>GOVERNMENT</h3>
-          <ul>
-            <li><a href="/policy-issues/economic-policy/">Economic Policy</a></li>
-            <li><a href="/policy-issues/financial-markets/">Financial Markets</a></li>
-            <li><a href="/data/">Data & Charts</a></li>
-            <li><a href="/about/careers/">Careers</a></li>
-          </ul>
-        </div>
-        
-        <div class="quick-link-category">
-          <h3>PRESS & MEDIA</h3>
-          <ul>
-            <li><a href="/news/press-releases/">Press Releases</a></li>
-            <li><a href="/news/statements-remarks/">Statements & Remarks</a></li>
-            <li><a href="/news/testimonies/">Testimonies</a></li>
-            <li><a href="/news/press-contacts/">Press Contacts</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
