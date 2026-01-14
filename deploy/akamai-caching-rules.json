@@ -1,0 +1,191 @@
+{
+  "$schema": "https://developer.akamai.com/schemas/papi/v1/rules.json",
+  "description": "Hugo Site Caching Rules for Akamai Property Manager",
+  "rules": [
+    {
+      "name": "Hugo HTML Pages",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "MATCHES_ONE_OF",
+            "values": [
+              "/news/press-releases/*",
+              "/news/readouts/*",
+              "/news/statements-remarks/*"
+            ]
+          }
+        },
+        {
+          "name": "contentType",
+          "options": {
+            "matchOperator": "IS",
+            "values": ["text/html"]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "MAX_AGE",
+            "ttl": "5m",
+            "mustRevalidate": true
+          }
+        },
+        {
+          "name": "gzipResponse",
+          "options": {
+            "behavior": "ALWAYS"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hugo Static Assets (Fingerprinted)",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "MATCHES_ONE_OF",
+            "values": [
+              "/css/*.*.css",
+              "/js/*.*.js"
+            ]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "MAX_AGE",
+            "ttl": "365d",
+            "honorPrivate": true,
+            "honorNoStore": true
+          }
+        },
+        {
+          "name": "prefreshCache",
+          "options": {
+            "enabled": true,
+            "prefreshval": 90
+          }
+        },
+        {
+          "name": "gzipResponse",
+          "options": {
+            "behavior": "ALWAYS"
+          }
+        },
+        {
+          "name": "modifyOutgoingResponseHeader",
+          "options": {
+            "action": "MODIFY",
+            "standardModifyHeaderAction": "ADD",
+            "headerValue": "immutable",
+            "newHeaderValue": "public, max-age=31536000, immutable"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hugo Images",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "MATCHES_ONE_OF",
+            "values": [
+              "/images/*.webp",
+              "/images/*.png",
+              "/images/*.jpg",
+              "/images/*.svg"
+            ]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "MAX_AGE",
+            "ttl": "365d"
+          }
+        },
+        {
+          "name": "prefreshCache",
+          "options": {
+            "enabled": true,
+            "prefreshval": 90
+          }
+        },
+        {
+          "name": "modifyOutgoingResponseHeader",
+          "options": {
+            "action": "MODIFY",
+            "standardModifyHeaderAction": "ADD",
+            "headerValue": "Accept",
+            "newHeaderValue": "Vary"
+          }
+        }
+      ],
+      "comments": "Images cached for 1 year. WebP served when browser supports it."
+    },
+    {
+      "name": "Service Worker - No Cache",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "IS",
+            "values": ["/sw.js"]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "NO_STORE"
+          }
+        }
+      ],
+      "comments": "Service worker should never be cached by CDN"
+    },
+    {
+      "name": "Enable Brotli Compression",
+      "criteria": [
+        {
+          "name": "contentType",
+          "options": {
+            "matchOperator": "IS_ONE_OF",
+            "values": [
+              "text/html",
+              "text/css",
+              "text/javascript",
+              "application/javascript",
+              "application/json",
+              "image/svg+xml"
+            ]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "brotli",
+          "options": {
+            "enabled": true
+          }
+        },
+        {
+          "name": "gzipResponse",
+          "options": {
+            "behavior": "ALWAYS"
+          }
+        }
+      ],
+      "comments": "Brotli first, gzip fallback for text-based content"
+    }
+  ]
+}

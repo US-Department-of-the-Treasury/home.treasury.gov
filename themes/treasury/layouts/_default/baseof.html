@@ -30,8 +30,14 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
   
-  <!-- Styles -->
-  <link rel="stylesheet" href="{{ "css/treasury.css" | relURL }}">
+  <!-- Critical CSS - inlined for faster first paint -->
+  {{- partial "critical-css.html" . }}
+  
+  <!-- Main Styles - loaded async with fingerprinting for cache busting -->
+  {{- $css := resources.Get "css/treasury.css" }}
+  {{- $css = $css | minify | fingerprint }}
+  <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ $css.RelPermalink }}"></noscript>
   
   <!-- Canonical -->
   <link rel="canonical" href="{{ .Permalink }}">
@@ -59,8 +65,21 @@
   <!-- Footer -->
   {{- partial "footer.html" . }}
   
-  <!-- Scripts - deferred for performance -->
-  <script src="{{ "js/treasury.js" | relURL }}" defer></script>
+  <!-- Scripts - deferred & fingerprinted for caching -->
+  {{- $js := resources.Get "js/treasury.js" }}
+  {{- $js = $js | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
   {{- block "scripts" . }}{{- end }}
+  
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').catch(function(err) {
+          console.log('SW registration failed:', err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>
