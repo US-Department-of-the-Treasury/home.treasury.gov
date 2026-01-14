@@ -1,0 +1,121 @@
+{
+  "name": "Security Hardening + SSM Integration",
+  "description": "Implement security hardening for S3/CloudFront static site infrastructure including encryption at rest, access logging, security headers, WAF protection, and SSM Parameter Store integration for configuration management. Includes early validation script to prevent deployment failures.",
+  "created": "2025-01-13",
+  "ship_sprint_id": null,
+  "feedbackLoops": {
+    "validate": "cd terraform && terraform validate",
+    "plan": "cd terraform && terraform plan -out=tfplan",
+    "test": "cd deploy && ./validate-config.sh"
+  },
+  "userStories": [
+    {
+      "id": "s3-encryption",
+      "title": "Add S3 server-side encryption",
+      "description": "Configure AES-256 server-side encryption for the site bucket and future logging bucket. This is a FedRAMP requirement (SC-28).",
+      "verification": [
+        "terraform validate passes",
+        "terraform plan shows aws_s3_bucket_server_side_encryption_configuration.site resource",
+        "No errors about missing encryption configuration"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "logging-bucket",
+      "title": "Create logging bucket with S3 and CloudFront access logging",
+      "description": "Create dedicated logging bucket with encryption, public access blocks, and 90-day lifecycle policy. Enable S3 access logging and CloudFront standard logging to this bucket.",
+      "verification": [
+        "terraform plan shows aws_s3_bucket.logs resource",
+        "terraform plan shows aws_s3_bucket_logging.site resource",
+        "terraform plan shows logging_config block in CloudFront distribution",
+        "terraform plan shows aws_s3_bucket_lifecycle_configuration.logs with 90-day expiration"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "security-headers",
+      "title": "Add CloudFront security headers policy",
+      "description": "Create response headers policy with HSTS, X-Frame-Options (DENY), X-Content-Type-Options, Referrer-Policy, permissive CSP, and XSS protection. Attach to all cache behaviors.",
+      "verification": [
+        "terraform plan shows aws_cloudfront_response_headers_policy.security_headers resource",
+        "All cache behaviors have response_headers_policy_id set",
+        "CSP allows 'unsafe-inline' for styles (permissive mode)"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "waf-integration",
+      "title": "Add AWS WAF with managed rules",
+      "description": "Create WAF WebACL with AWSManagedRulesCommonRuleSet, AWSManagedRulesKnownBadInputsRuleSet, and rate limiting (2000 req/5min). Attach to CloudFront distribution.",
+      "verification": [
+        "terraform plan shows aws_wafv2_web_acl.cloudfront resource with scope CLOUDFRONT",
+        "terraform plan shows 3 rules (CommonRuleSet, KnownBadInputs, RateLimit)",
+        "CloudFront distribution has web_acl_id set"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "ssm-parameters",
+      "title": "Create SSM parameters for infrastructure IDs",
+      "description": "Store S3 bucket name, CloudFront distribution ID, CloudFront domain, and site URL in SSM Parameter Store using path convention /{project_name}/{environment}/{PARAM_NAME}.",
+      "verification": [
+        "terraform plan shows 4 aws_ssm_parameter resources",
+        "Parameter paths follow /treasury-home/staging/* convention",
+        "Parameters reference actual Terraform resource values"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "validate-config-script",
+      "title": "Create pre-deploy validation script",
+      "description": "Create deploy/validate-config.sh that checks SSM parameters exist before deployment proceeds. Fails fast with helpful error messages showing how to fix missing config.",
+      "verification": [
+        "deploy/validate-config.sh exists and is executable",
+        "Script exits 1 with helpful message if SSM parameter missing",
+        "Script validates all 4 required parameters (bucket, CF ID, domain, URL)",
+        "Script can be run standalone: ./deploy/validate-config.sh"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "tls-cache-policy",
+      "title": "Enforce TLS 1.2+ and migrate to managed cache policies",
+      "description": "Update viewer_certificate to enforce TLSv1.2_2021 minimum. Replace deprecated forwarded_values blocks with AWS managed cache policies (CachingOptimized).",
+      "verification": [
+        "terraform plan shows minimum_protocol_version = TLSv1.2_2021",
+        "No forwarded_values blocks remain in configuration",
+        "Cache behaviors use cache_policy_id instead"
+      ],
+      "priority": "medium",
+      "passes": true
+    },
+    {
+      "id": "lifecycle-rules",
+      "title": "Add S3 lifecycle rules for site bucket versioning",
+      "description": "Add lifecycle configuration to expire non-current object versions after 30 days and abort incomplete multipart uploads after 7 days.",
+      "verification": [
+        "terraform plan shows aws_s3_bucket_lifecycle_configuration.site resource",
+        "Rule includes noncurrent_version_expiration with 30 days",
+        "Rule includes abort_incomplete_multipart_upload with 7 days"
+      ],
+      "priority": "medium",
+      "passes": true
+    }
+  ],
+  "postCompletion": {
+    "securityReview": false,
+    "codeQualityReview": false,
+    "testsAdded": false,
+    "seedDataChecked": false,
+    "fixturesUpdated": false,
+    "docsChecked": false,
+    "learningsExtracted": false,
+    "criticalFindings": []
+  }
+}
