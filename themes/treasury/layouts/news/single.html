@@ -20,13 +20,17 @@
       {{ partial "news-sidebar.html" . }}
       
       {{/* Main Content */}}
-      <main class="news-main-content">
+      <div class="news-main-content" role="region" aria-label="Article content">
         <article class="news-article">
           <header class="news-article-header">
             {{/* Show category - use section title as fallback */}}
             {{ $category := .Params.category | default .CurrentSection.Title }}
             <span class="news-category"><a href="{{ .CurrentSection.Permalink }}">{{ $category | upper }}</a></span>
             <h1>{{ .Title }}</h1>
+            {{/* Publication date - required for government press releases */}}
+            <p class="article-date">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            </p>
             <div class="heading-underline"></div>
           </header>
           
@@ -45,7 +49,7 @@
           </aside>
           {{ end }}
         </article>
-      </main>
+      </div>
       
       {{/* Right Sidebar */}}
       {{ partial "news-search-sidebar.html" . }}

@@ -110,11 +110,14 @@ def extract_article_data(soup: BeautifulSoup, url: str) -> dict:
                 data["title"] = h1_text
     
     # Extract date - try multiple sources
+    # Priority: article-specific date field, then general time elements
     date_selectors = [
+        ".field--name-field-news-publication-date time[datetime]",
+        "article.entity--type-node time[datetime]",
+        ".date-format time[datetime]",
         ".date-display-single",
         ".field--name-field-date",
         ".news-date",
-        "time[datetime]",
         ".field--name-created",
     ]
     
@@ -157,18 +160,19 @@ def extract_article_data(soup: BeautifulSoup, url: str) -> dict:
     elif "/featured-stories/" in url:
         data["category"] = "featured-stories"
     
-    # Extract main content
+    # Extract main content - target the actual news article body
+    # The main content uses field--name-field-news-body (not field--name-body which is used in menus)
     content_selectors = [
-        ".field--name-body",
+        "article.entity--type-node .field--name-field-news-body",
+        ".field--name-field-news-body",
+        "article[about] .field--type-text-long",
         ".node__content .field--type-text-long",
-        "article .content",
-        ".news-content",
-        ".main-content .content",
+        ".field--name-body:not(.mega_menu_panel *)",  # Exclude menu bodies
     ]
     
     for selector in content_selectors:
         content_el = soup.select_one(selector)
-        if content_el:
+        if content_el and len(content_el.get_text(strip=True)) > 50:  # Ensure meaningful content
             # Remove unwanted elements
             for unwanted in content_el.select("script, style, .field-label"):
                 unwanted.decompose()

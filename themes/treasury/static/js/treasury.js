@@ -135,11 +135,20 @@
     }
   });
   
-  // Close all on Escape
+  // Close all on Escape and return focus to trigger
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
-      closeAllMegaMenus();
-      closeSearchDropdown();
+      // Return focus to active mega menu button if one was open
+      if (activeMegaMenu) {
+        const triggerBtn = activeMegaMenu.querySelector('button.nav-link');
+        closeAllMegaMenus();
+        if (triggerBtn) triggerBtn.focus();
+      }
+      // Return focus to search toggle if search was open
+      if (searchDropdown && !searchDropdown.hidden) {
+        closeSearchDropdown();
+        if (searchToggle) searchToggle.focus();
+      }
     }
   });
 

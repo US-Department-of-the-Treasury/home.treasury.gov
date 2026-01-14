@@ -1,0 +1,17 @@
+---
+title: Treasury Issues Second Set of Highly Anticipated Opportunity Zones Guidance
+date: 2019-04-17
+draft: false
+url: /news/featured-stories/treasury-issues-second-set-of-highly-anticipated-opportunity-zones-guidance
+---
+**Washington **– The U.S. Department of the Treasury today issued its second set of proposed regulations related to the new Opportunity Zones tax incentive. The tax benefit, created by the 2017 Tax Cuts and Jobs Act, is designed to drive economic development and create jobs by encouraging long-term investments in economically distressed communities nationwide.
+
+“We are pleased to issue guidance that provides greater flexibility for communities and investors as we continue to encourage investment and development in Opportunity Zones,” said Secretary Steven T. Mnuchin.  “This incentive will foster economic revitalization, create jobs and spur economic growth that will move these communities forward and create a brighter future.”
+
+The guidance makes it easier for funds to ensure compliance with the requirement that a fund has 90 percent of its assets invested in Opportunity Zones and expands the working capital safe harbors. The proposed regulations also provide clarity on treatment of gains on long-term investments, ownership and operation of the business, and what constitutes Qualified Opportunity Zone Business Property.
+
+For the full guidance click[here](https://www.irs.gov/pub/irs-drop/reg-120186-18-nprm.pdf).
+
+ 
+
+####

@@ -37,10 +37,11 @@
       {{ end }}
       <li class="nav-item {{ if .columns }}has-dropdown{{ end }}{{ if $isActive }} active{{ end }}">
         {{ if .columns }}
-        <button class="nav-link" aria-expanded="false" aria-haspopup="true">
+        {{ $menuId := .title | urlize | printf "menu-%s" }}
+        <button class="nav-link" aria-expanded="false" aria-haspopup="true" aria-controls="{{ $menuId }}">
           {{ .title }}
         </button>
-        <div class="mega-menu">
+        <div class="mega-menu" id="{{ $menuId }}" role="region" aria-label="{{ .title }} submenu">
           <div class="mega-menu-inner">
             {{ range .columns }}
             <div class="mega-menu-column">

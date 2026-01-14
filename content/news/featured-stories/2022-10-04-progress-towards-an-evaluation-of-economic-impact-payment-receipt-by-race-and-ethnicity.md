@@ -1,0 +1,34 @@
+---
+title: Progress Towards an Evaluation of Economic Impact Payment Receipt by Race and Ethnicity
+date: 2022-10-04
+draft: false
+url: /news/featured-stories/progress-towards-an-evaluation-of-economic-impact-payment-receipt-by-race-and-ethnicity
+---
+By Assistant Secretary for Tax Policy Lily Batchelder and Deputy Assistant Secretary for Tax Analysis Greg Leiserson
+
+President Biden’s first executive order directed agencies to examine their policies and programs to identify whether and how they perpetuate barriers to equal opportunity.[1](#ftn1)As part of this work, Treasury and the Census Bureau are working together to perform aggregated, statistical analyses of the Economic Impact Payments paid under the CARES Act in 2020 to examine potential disparities in the receipt of these payments by race and ethnicity. For today’s Freedman’s Bank Forum, we are providing an update on this project.
+
+The Coronavirus Aid, Relief, and Economic Security Act (CARES Act), signed into law in March 2020, provided Economic Impact Payments (EIPs) to blunt the economic effects of the COVID-19 pandemic. This payment was worth up to $1,200 per adult plus $500 per child under age 17.[2](#ftn2)For a family of four, this payment could provide up to $3,400 in direct financial relief. Subsequent legislation in 2020 and 2021 provided a second and third round of EIPs.
+
+In recognition of the great need resulting from the pandemic, the law instructed the Secretary of the Treasury to issue these stimulus payments as rapidly as possible. The Department of the Treasury acted quickly. From the day the CARES Act became law, Treasury and the IRS took only two weeks to issue the first direct deposits and only four weeks to issue the first paper checks. By nine weeks after enactment, Treasury and the IRS had issued 160 million payments to effectively all individuals who were believed by the IRS at that time to be qualifying individuals.
+
+To ensure that as many eligible families received the credit as possible, Congress enacted and Treasury administered a number of novel methods to expand the reach of the credit, including paying the credit on the basis of information on prior-year tax returns, paying the credit on the basis of information known to other federal agencies, establishing an online portal that allowed non-filers to file a simplified 2019 tax return to claim a stimulus payment, and mailing outreach letters to roughly 9 million non-filers who Treasury  and the IRS estimated might be eligible for, but had not claimed, a stimulus payment once most payments had been sent.
+
+Eligibility for these tax credits, as with any other tax benefit, does not depend on an individual’s race or ethnicity. However, disparities in receipt of these tax benefits can nonetheless arise due to the interaction between the implementation of tax law and disparities in the economy more broadly. These include differences in the rate at which different groups file tax returns, the quality of tax preparation assistance they receive, the frequency with which direct deposit information is included on tax returns, differential rates of residential mobility, and other factors.
+
+A challenge in studying the distribution of EIP receipt by race and ethnicity—and one reason for the close collaboration between Treasury and Census—is that a person’s race and ethnicity is not collected on tax forms. As a result, to examine the experiences of different groups, information about first-round EIP receipt maintained by the IRS was combined with demographic information microdata maintained by the Census.
+
+The agencies have made substantial progress in developing a statistical analysis of first-round EIP receipt by race and ethnicity. Using population-level administrative records held at the Census Bureau, the project team has simulated potential eligibility for EIPs among the entire population. The IRS prepared information on EIP recipients and the Census Bureau assigned anonymized linkage keys to that data so that the information on EIP recipients can be merged to other data while ensuring individual privacy.  The Census Bureau then linked its anonymized population-level file to the anonymized EIP recipient file.
+
+The agencies continue to work on several challenges. Perhaps most importantly, imperfections in the merge between the Census Bureau data and the EIP recipient data can lead to double-counting of individuals (who appear in each dataset but are not correctly linked) and a limited subset of people for whom race and ethnicity are unknown. In addition, the available data is insufficient to precisely determine eligibility for those who did not receive a payment. These challenges appear to be particularly consequential for the population under 26 years of age, and the agencies are closely examining this population.
+
+The agencies are continuing to work together to better understand the quality of the match between the Census Bureau and IRS data, including efforts to better understand the scope of potential double-counting between the Census and IRS data and to improve the accuracy of estimates of potential eligibility.
+
+Once complete, this work will allow the agencies to examine the distribution of EIP receipt by race and ethnicity and to assess the nature of any disparities in receipt and the timing of receipt by race and ethnicity.  This type of analysis can generate important insights about how the tax system operates in practice, which can in turn inform future efforts to ensure equitable implementation of public policies.
+
+
+ 
+
+1 Executive Order 13985, “Executive Order on Advancing Racial Equity and Support for Underserved Communities Through the Federal Government,” January 20, 2021.[https://www.federalregister.gov/documents/2021/01/25/2021-01753/advancing-racial-equity-and-support-for-underserved-communities-through-the-federal-government](https://www.federalregister.gov/documents/2021/01/25/2021-01753/advancing-racial-equity-and-support-for-underserved-communities-through-the-federal-government)
+
+2 Formally, the Economic Impact Payment was an advance payment of the 2020 Recovery Rebate Credit, which was an income tax credit available on a family’s 2020 tax return. This was the first of what would be three rounds of payments. Thus, these payments are sometimes referred to as first-round EIPs.

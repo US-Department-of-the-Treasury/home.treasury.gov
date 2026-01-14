@@ -1,0 +1,59 @@
+{{/* Treasury-style pagination with sliding window */}}
+{{- $paginator := .Paginator }}
+{{- if gt $paginator.TotalPages 1 }}
+<nav class="pagination" aria-label="Pagination">
+  {{- $currentPage := $paginator.PageNumber }}
+  {{- $totalPages := $paginator.TotalPages }}
+  
+  {{/* Previous arrow */}}
+  {{- if $paginator.HasPrev }}
+  <a href="{{ $paginator.Prev.URL }}" class="page-arrow prev" aria-label="Previous page">←</a>
+  {{- end }}
+  
+  {{/* Calculate which pages to show - sliding window around current page */}}
+  {{- $startPage := 1 }}
+  {{- $endPage := 3 }}
+  
+  {{/* If current page > 2, center the window around current page */}}
+  {{- if gt $currentPage 2 }}
+    {{- $startPage = sub $currentPage 1 }}
+    {{- $endPage = add $currentPage 1 }}
+  {{- end }}
+  
+  {{/* Don't exceed total pages */}}
+  {{- if gt $endPage $totalPages }}
+    {{- $endPage = $totalPages }}
+    {{- $startPage = sub $endPage 2 }}
+    {{- if lt $startPage 1 }}
+      {{- $startPage = 1 }}
+    {{- end }}
+  {{- end }}
+  
+  {{/* Leading ellipsis if not starting at 1 */}}
+  {{- if gt $startPage 1 }}
+  <span class="page-ellipsis" aria-hidden="true">...</span>
+  {{- end }}
+  
+  {{/* Page numbers */}}
+  {{- range $paginator.Pagers }}
+    {{- $pageNum := .PageNumber }}
+    {{- if and (ge $pageNum $startPage) (le $pageNum $endPage) }}
+      {{- if eq $pageNum $currentPage }}
+      <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
+      {{- else }}
+      <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  
+  {{/* Trailing ellipsis if not ending at last page */}}
+  {{- if lt $endPage $totalPages }}
+  <span class="page-ellipsis" aria-hidden="true">...</span>
+  {{- end }}
+  
+  {{/* Next arrow */}}
+  {{- if $paginator.HasNext }}
+  <a href="{{ $paginator.Next.URL }}" class="page-arrow next" aria-label="Next page">→</a>
+  {{- end }}
+</nav>
+{{- end }}

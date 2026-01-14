@@ -1,0 +1,31 @@
+---
+title: Treasury Report Highlights Impact of American Rescue Plan Funding on Tribal Governments
+date: 2022-11-30
+draft: false
+url: /news/featured-stories/treasury-report-highlights-impact-of-american-rescue-plan-funding-on-tribal-governments
+---
+*$20 billion in recovery funds is largest single infusion of federal funding into Indian Country*
+
+WASHINGTON– Today, the U.S. Department of the Treasury released a report detailing how Tribal governments are using a historic level of financial support through the American Rescue Plan (ARP) to provide critical recovery assistance and improve the health and well-being of Tribal citizens. The $20 billion in ARP State and Local Fiscal Recovery Funds (SLFRF) allocated to Tribal governments represents the largest single infusion of federal funding into Indian Country. The efforts highlighted in today’s report reveal the vast and impressive reach SLFRF has had as a catalyst for recovery.
+
+“Tribal economic development is not reductive—it is additive, as is robust economic development in other underserved communities,” said Chief Lynn Malerba, Treasurer of the United States. “Today’s report shows that State and Local Fiscal Recovery Funds are having direct, deep, and meaningful economic impacts on Tribal nations’ pandemic recovery. By investing in Tribal economies, we are fostering economic prosperity for our nation at large.”
+
+“When Congress appropriated American Rescue Plan funding last year, Treasury made post-pandemic Tribal recovery one of our highest priorities,” said Chief Recovery Officer Jacob Leibenluft. “This historic investment in Tribal communities reflects the commitment Treasury has made to strengthen its relationships with Indian Country and to work to better understand and respond to the needs of Tribal governments.”
+
+In developing Tribal SLFRF policy, Treasury prioritized Tribal engagement and feedback in order to provide Tribal governments with flexibility to meet the unique needs of their citizens. Treasury’s Office of Recovery Program hosted a half-dozen formal Tribal consultations, held over 100 one-on-one sessions with Tribal leaders, and partnered with the White House Council on Native American Affairs and numerous Tribal national and regional organizations to provide direct engagement to maximize the impact of SLFRF funds and increase the likelihood of successful implementation.
+
+To date, Tribal governments have planned or begun implementing over 3,000 projects and services with SLFRF to respond to the pandemic, generating new economic opportunities and improving health, safety, and quality of life for over 2.6 million Tribal citizens. Examples of projects include:
+
+- The Ketchikan Indian Community provided premium pay to over 190 essential workers with added health risks. Additional pay was awarded in recognition of workers’ resilience, dedication, and dependability, as well as to bolster efforts to retain and support staff.
+- The Menominee Indian Tribe of Wisconsin is implementing a tiny home project for low-income elders, Tribal citizens in transitional living situations, or those facing homelessness. With rising housing costs, the Tribe saw tiny homes as a solution to get people into homes safely, especially during the winter.
+- The Osage Nation is implementing a substantial broadband project to assist in telehealth, distance learning opportunities, affordable internet service, economic growth, and digital inclusion efforts where demands for internet access have grown due to the COVID-19 pandemic.
+- The Douglas Indian Association developed a Tribal Fisherman Grant to assist small business owners who have maintained a historic Tribal presence in the commercial fishing and seafood industry. The grants intend to offset the escalating fuel costs, transportation restrictions, and a decrease in salmon catches to help Tribal citizens economically recover.
+- The Mescalero Apache Tribe is implementing a workforce development program focusing on vocational education. The program will provide scholarships to citizens and current employees to obtain certificates and further education in welding, carpentry, plumbing, electrical, and more – all critical and in-demand jobs to carry out the Tribe's COVID-19 recovery plan.
+
+Since 2021, Treasury has significantly increased its engagement with Tribes. In her[remarks at the 2021 White House Tribal Nations Summit](https://home.treasury.gov/news/press-releases/jy0487), Secretary Yellen committed to institutionalizing Treasury’s engagement with Tribal Nations and conducting a visit to Tribal lands—commitments which Treasury fulfilled this year. In June,[Secretary Yellen and Chief Malerba visited the Rosebud Sioux Tribe in South Dakota](https://home.treasury.gov/news/press-releases/jy0825), marking the first time a Treasury Secretary visited a Tribal nation. In September,[Chief Malerba was sworn in as the first Native American Treasurer at the Treasury Department](https://home.treasury.gov/news/press-releases/jy0945). In her role, Chief Malerba additionally oversees the newly established[Office of Tribal and Native Affairs](https://home.treasury.gov/policy-issues/tribal-affairs).
+
+Today’s report comes as the White House hosts the 2022 Tribal Nations Summit at the Department of the Interior. The Summit will feature new Administration announcements and efforts to implement key policy initiatives supporting Tribal communities.
+
+[The full report can be viewed here.](https://home.treasury.gov/system/files/136/Treasury-SLFRFTribalRecoveryReport.pdf)
+
+###

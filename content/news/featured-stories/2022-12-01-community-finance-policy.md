@@ -1,0 +1,49 @@
+---
+title: Community Finance Policy
+date: 2022-12-01
+draft: false
+url: /news/featured-stories/community-finance-policy
+---
+*By Assistant Secretary for Financial Institutions Graham Steele*
+
+Over the past several months, I have had the opportunity to meet with dozens of community finance practitioners and thought leaders, advocacy organizations, and investors who are all working to strengthen the financial infrastructure we need to invest in the economic potential of financially underserved communities across the country.  To a person, I have heard the same hopeful message from all of them: historic investments in Community Development Financial Institutions (CDFIs) and Minority Depository Institutions (MDI) by federal and private sector partners are catalyzing increased capacity in the field and are clear indicators that we are in a transformational moment for community finance.
+
+In October, Treasury hosted the Freedman’s Bank Forum, a conference focused on racial and economic equity. We discussed steps that private-sector companies can take to strengthen the financial capacity of mission lenders. Attendees – leaders from the public, private, nonprofit, and philanthropic sectors – were particularly interested in the role that CDFIs and MDIs can play in pursuing racial justice and addressing climate change.
+
+Since day one, the Biden-Harris Administration has prioritized community investment efforts to address the credit needs and asset-building opportunities in low-income and financially underserved communities, especially in partnership with CDFIs and MDIs. Congress has agreed, providing the Treasury Department and the CDFI Fund with resources that have enabled us to roll out three historic programs to support CDFIs and MDIs.
+
+- In June 2021, through the CDFI Rapid Response Program, we moved quickly to provide $1.25 billion in awards to CDFIs to help them respond to the economic challenges created by COVID-19.
+- Recently, Vice President Harris joined Secretary Yellen to announce that Treasury has closed and funded over $8 billion of investments through the Emergency Capital Investment Program (ECIP).  ECIP was created to provide an incentive to CDFIs and MDIs to lend to financially underserved borrowers and communities.
+- Early next year, through the CDFI Equitable Recovery Program, we will be awarding $1.75 billion in grants to CDFIs to further expand their lending, grant-making, and investment activity in low- or moderate-income communities. The CDFI Fund received more than 690 applications to this program.
+
+The CDFI Fund has also continued to manage its established portfolio of community investment programs.  In 2022, the CDFI Fund has awarded $5 billion in New Markets Tax Credit allocations; $355 million under the CDFI Bond Guarantee Program; and over $580 million in grants through the Financial Assistance and Native Programs, the Capital Magnet Fund, the Bank Enterprise Awards, and the Small Dollar Loan Program.
+
+In addition to deploying tens of billions of dollars in partnership with CDFIs and MDIs, Treasury has taken significant policy steps to better define and safeguard the CDFI mission and shape the community development investment field.
+
+1. For the first time, we are establishing responsible financing guidelines for all CDFIs.
+2. We have proposed a definition for a Minority Lending Institution that will help clarify which CDFIs are most focused on the financial needs and opportunities in minority communities.
+3. Through defining[“deep impact” lending in ECIP](https://home.treasury.gov/system/files/136/Rate-Reduction-Incentive-Guidelines.pdf)and the[policy priorities for the CDFI Equitable Recovery Program](https://www.cdfifund.gov/sites/cdfi/files/2022-06/CDFI_ERP_NOFA_Final.pdf), we have clarified the types of lending and investment activity that may be particularly challenging for institutions to undertake, but which produce economic opportunity in the most financially underserved communities.
+
+Taken together, these data-driven policies will help direct federal funding to institutions that best serve financially underserved communities. They can also be a model for private, socially minded capital investments.
+
+***
+
+The private sector has also stepped up its efforts to support CDFIs and MDIs. In July, Vice President Harris announced the formation of the Economic Opportunity Coalition (EOC) – a group of companies and social-sector organizations working together to advance racial and economic equity. That group came together out of conversations that began at last year’s Freedman’s Bank Forum, and they reconvened again this year to share their progress.
+
+At the Freedman’s Bank Forum this year, EOC members including Bank of America, Intercontinental Exchange, Next Street, PayPal, and Wells Fargo announced that they will be moving more than $550 million in new deposits into MDIs to increase access to affordable capital in communities of color. This initial tranche will set them on the path to meet a larger commitment to move $1 billion in deposits into these institutions and will augment the investments the Administration has made through ECIP. These steps demonstrate the meaningful progress we can make when the public and private sectors both support communities of color and expand financial opportunity in under-resourced communities.
+
+***
+
+Moving forward, one important way the Administration’s efforts can help guide this discussion is by making available some of the data we’ve collected on CDFIs and MDIs in the process of implementing these programs. Private-sector organizations may find Treasury’s approach to impact assessment informative. In that spirit, for the first time, Treasury is publicly sharing examples of[ECIP applicants that provided definitive data that demonstrates strong track records in deep-impact lending](https://home.treasury.gov/system/files/136/ECIP-Impact-Document.pdf).[[1]](#_ftn1)Deep-impact lending includes, for example, loans to low-income borrowers and underserved small businesses, for deeply affordable housing, and in persistent-poverty communities.
+
+These metrics are part of the framework Treasury has developed to provide clarity about the purpose and economic impact of community development investment. We believe robust program implementation requires attention to data to help ensure funds go where they will have the greatest impact and meet the needs of underserved communities. Treasury also recognizes that this framework may help private investors understand how to target their support for CDFIs and MDIs
+
+***
+
+Just as we are in a transformational moment for community investing policy and practice, we are in a similarly transformational moment for climate-focused investment.  The Inflation Reduction Act made available historic resources to address climate change. Nearly three quarters of the Inflation Reduction Act’s $369 billion climate change investment - $270 billion – is delivered via tax incentives, putting Treasury at the forefront of this landmark law.  Treasury is working expeditiously to implement the law’s tax provisions and investment programs so the climate and economic benefits of this historic legislation can be felt as quickly as possible. We are also working to develop frameworks for measuring the impact and value of climate investment, as well as to create the systems for gathering the data required by those frameworks. In order to identify best practices and encourage public-private partnerships, the CDFI Fund will be engaging with CDFIs that finance climate-resilience activities and will commission research to inform an approach to climate resilience in CDFI Fund programs and data collection.
+
+***
+
+[Through the implementation of the American Rescue Plan](https://home.treasury.gov/news/press-releases/jy0709), Treasury’s policies have supported an equitable recovery from the economic impacts of the COVID crisis.  Building on that experience we plan to continue to put equity at the heart of our work to implement new legislation, like the Inflation Reduction Act, and to collaborate with the private sector to build a more inclusive economy.
+
+[[1]](#_ftnref1)Deep impact lending is defined in Treasury’s[ECIP Rate Reduction Guidelines](https://home.treasury.gov/system/files/136/Rate-Reduction-Incentive-Guidelines.pdf).

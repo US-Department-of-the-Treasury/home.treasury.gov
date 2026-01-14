@@ -1,0 +1,23 @@
+---
+title: United States Department of the Treasury Announces New Appointments
+date: 2025-02-08
+draft: false
+url: /news/featured-stories/united-states-department-of-the-treasury-announces-new-appointments
+---
+WASHINGTON – Secretary of the Treasury Scott Bessent announced today President Trump’s intent to nominate Luke Pettit and Jason De Sena Trennert for positions at the United States Department of the Treasury.
+
+“Luke and Jason will be critical to implementing President Trump’s agenda to drive progress for the American people by revitalizing the economy, lowering prices by cutting burdensome regulation, and strengthening the financial system,” said Secretary Bessent.
+
+### Luke Pettit
+
+#### Assistant Secretary for Financial Institutions
+
+Luke Pettit will be Assistant Secretary for Financial Institutions at the U.S. Department of the Treasury.  Mr. Pettit has worked as a senior policy adviser to U.S. Senator Bill Hagerty.  Prior to that, he was an economist for the Senate Banking Committee, and previously held positions at Bridgewater Associates, the Federal Reserve in the Division of Monetary Affairs.  He graduated from the University of Pennsylvania.
+
+### Jason De Sena Trennert
+
+#### Assistant Secretary for Financial Markets
+
+Jason De Sena Trennert will be Assistant Secretary for Financial Markets.  In his 34 years on Wall Street, Mr. Trennert has established himself as one of the country’s leading thought leaders on financial markets and economic policy as Chairman of Strategas Research Partners, a firm he co-founded 18 years ago and which currently is ranked Wall Street’s number one macroeconomic research shop.  He was the first strategist on Wall Street to forecast President Trump's appeal as a Presidential candidate as early as 2011 and was bold in predicting his victory in 2016 and the bull market that followed.  He is the author of three books on investing and the investment business.
+
+###

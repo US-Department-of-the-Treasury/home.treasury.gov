@@ -1,0 +1,21 @@
+---
+title: Treasury and IRS Announce Families of 88% of Children in the U.S. to Automatically Receive Monthly Payment of Refundable Child Tax Credit
+date: 2021-05-17
+draft: false
+url: /news/featured-stories/treasury-and-irs-announce-families-of-88-of-children-in-the-us-to-automatically-receive-monthly-payment-of-refundable-child-tax-credit
+---
+*First Payments to Be Made on July 15*
+
+WASHINGTON – The U.S. Department of the Treasury and the Internal Revenue Service announced today that the first monthly payment of the expanded and newly-advanceable Child Tax Credit (CTC) from the American Rescue Plan will be made on July 15. Roughly 39 million households — covering 88 percent of children in the United States — are slated to begin receiving monthly payments without any further action required.
+
+Treasury and the IRS also announced the increased CTC payments, will be made on the 15th of each month, unless the 15th falls on a weekend or holiday, allowing families who receive the credit by direct deposit to plan their budgets around receipt of the benefit. Eligible families will receive a payment of up to $300 per month for each child under age 6 and up to $250 per month for each child age 6 and above.
+
+The American Rescue Plan increased the maximum Child Tax Credit in 2021 to $3,600 for children under the age of 6 and to $3,000 per child for children between ages 6 and 17. The American Rescue Plan is projected to lift more than five million children out of poverty this year, cutting child poverty by more than half.
+
+Households covering more than 65 million children will receive the monthly CTC payments through direct deposit, paper check, or debit cards, and Treasury and the IRS are committed to maximizing the use of direct deposit to ensure fast and secure delivery. While most taxpayers will not be required to take any action to receive their payments, Treasury and the IRS will continue outreach efforts with partner organizations over the coming months to make more families aware of their eligibility.
+
+Today’s announcement represents the latest collaboration between the Bureau of the Fiscal Service and the IRS — and between Treasury and the White House American Rescue Plan Implementation Team — to ensure help quickly reaches Americans in need as they recover from the COVID-19 pandemic. Since March 12, the IRS has also distributed approximately 165 million Economic Impact Payments with a value of approximately $388 billion as a part of the American Rescue Plan.
+
+[Additional information for taxpayers on how they can access the Child Tax Credit](https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMTA1MTcuNDA1NTkyODEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2NyZWRpdHMtZGVkdWN0aW9ucy9hZHZhbmNlLWNoaWxkLXRheC1jcmVkaXQtcGF5bWVudHMtaW4tMjAyMSJ9.IoovpE1mOFvOAcyQCeEb0BN5JRSkYvw6s3nkO0sRzh4/s/1421822665/br/106454768609-l).
+
+###

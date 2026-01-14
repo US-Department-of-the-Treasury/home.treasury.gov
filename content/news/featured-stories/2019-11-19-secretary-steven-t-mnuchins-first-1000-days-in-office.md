@@ -1,0 +1,53 @@
+---
+title: Secretary Steven T. Mnuchin’s First 1,000 Days in Office
+date: 2019-11-19
+draft: false
+url: /news/featured-stories/secretary-steven-t-mnuchins-first-1000-days-in-office
+---
+*Since he was sworn in on February 13, 2017, Secretary Steven T. Mnuchin has been at the forefront of the Trump administration’s efforts to foster economic growth, combat national security threats, and protect our nation’s financial system.*
+
+### Implementing Historic Tax Reform
+
+**In collaboration with Congress, Secretary Mnuchin helped to pass, and later implement, President Trump’s vision for once-in-a-generation reforms to our nation’s tax code.  This legislation, the Tax Cuts and Jobs Act (TCJA), cut red tape, made it easier for Americans to file taxes and helped people keep more of their hard earned money.**
+
+- In September 2017, Secretary Mnuchin worked with Members of Congress, the President, and the National Economic Council to develop a unified framework for tax reform.
+- In December 2017, President Trump signed the TCJA into law and since then, the U.S. Department of Treasury has implemented it. So far, the Treasury and the IRS have issued 141 tax reform guidance provisions to help businesses and tax filers understand the new system.
+- Since the passage of tax reform, the U.S. has seen record low unemployment as more Americans come off the sidelines and find new jobs.
+
+### Protecting U.S. National Security
+
+** Our nation’s security  has been a top priority for Secretary Mnuchin. Over the past 1000 days, Treasury has used its sanctions authorities to go after the world’s worst arms dealers, drug traffickers, human rights abusers, and terrorists.**
+
+- Secretary Mnuchin has prioritized the Office of Terrorism and Financial Intelligence (TFI) by promoting additional funding for its infrastructure, technology, and analytical resources. Over three budget cycles, TFI has received a 35% increase in funding.
+- Under President Trump’s leadership, Secretary Mnuchin, alongside the Department of State, has launched a maximum pressure campaign against Iran to block the funding of global terrorism. To date, Treasury has sanctioned the Supreme Leader of Iran and his advisors, the Central Bank of Iran, and terrorist groups like the IRGC Qods Force and Hizballah.
+- Treasury has sanctioned over 250 individuals, entities, and vessels that provided support to North Korea’s oppressive regime.
+
+### Negotiating Fair Trade Deals
+
+** Secretary Mnuchin has played a pivotal role in negotiations around the world to reduce trade barriers, support American workers, and stop unfair trade practices.**
+
+- Since the start of trade negotiations with China in 2017, Secretary Mnuchin has been actively involved in discussions around agricultural purchases, financial services market access, currency, and intellectual property protection.
+- In October 2019, Secretary Mnuchin signed a Memorandum of Understanding with the South Korean Finance Minister to support infrastructure development and underscore the trading relationship between the U.S. and South Korea.
+- Secretary Mnuchin continues to work with Members of Congress to pass the U.S. – Mexico – Canada Agreement (USMCA). This trade deal would help American farmers, ranchers, workers, and small businesses achieve new levels of success.
+
+### Promoting Cybersecurity
+
+** Secretary Mnuchin is strengthening tools that protect the U.S. financial services sector from cybersecurity threats, and is working with our allies abroad to better respond to crises and recover from attacks.**
+
+- Secretary Mnuchin has met with many G7 government leaders to discuss cybersecurity issues.
+- The Secretary has attended multiple cybersecurity exercises held with financial services sector companies to help industry partners fully recover from cybersecurity incidents.
+- Secretary Mnuchin has prioritized cybersecurity funding as part of the President’s Budget process with the Office of Management and Budget (OMB).
+- Secretary Mnuchin is ensuring Treasury bureaus, like the IRS and the Bureau of Fiscal Service, have the resources to combat cyber-attacks and safeguard your private information.
+
+### Reforming the Housing Finance System
+
+** Secretary Mnuchin is supporting reforms to the housing finance system, with Administration partners, to protect taxpayers and foster competition, while preserving broad access to mortgage credit for American families.**
+
+- Following a March 2019 directive from President Trump, Secretary Mnuchin released a housing finance reform plan in September that included almost 50 recommendations to end the conservatorships of Fannie Mae and Freddie Mac, promote competition in the housing finance market, and enhance taxpayer protections against future bailouts, among other recommendations.
+- In September 2019, Secretary Mnuchin signed agreements with the Federal Housing Finance Agency (FHFA), consistent with recommendations in Treasury’s reform plan, to permit Fannie Mae and Freddie Mac to maintain additional capital reserves.
+
+ 
+
+*"To all citizens I say: Steven will be your champion, and a great champion. He will fight for middle-class tax reductions, financial reforms that open up lending and create millions of new jobs, and fiercely defend the American tax dollar and our financial security."*
+
+–**President Donald J. Trump**

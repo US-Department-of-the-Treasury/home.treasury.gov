@@ -77,7 +77,28 @@ img { max-width: 100%; height: auto; }
   background: var(--treasury-navy); color: #fff;
   padding: 0.5rem 1rem; z-index: 10000;
 }
-.skip-link:focus { top: 0; }
+.skip-link:focus { 
+  top: 0;
+  outline: 2px solid var(--treasury-gold);
+  outline-offset: 2px;
+}
+
+/* Global focus styles for accessibility (WCAG 2.4.7, 2.4.11) */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid var(--treasury-gold);
+  outline-offset: 2px;
+}
+
+/* High contrast focus for dark backgrounds */
+.main-nav a:focus-visible,
+.main-nav button:focus-visible,
+.mega-menu a:focus-visible,
+#footer a:focus-visible {
+  outline-color: var(--treasury-gold);
+  outline-offset: 2px;
+}
 
 .visually-hidden {
   position: absolute; width: 1px; height: 1px;
@@ -231,7 +252,11 @@ img { max-width: 100%; height: auto; }
   color: var(--treasury-navy-light);
   font-size: 0.75rem;
   cursor: pointer;
-  display: flex; align-items: center; gap: 0.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 8px 12px;
+  min-height: 44px;
 }
 
 .usa-banner-content {
@@ -400,6 +425,16 @@ img { max-width: 100%; height: auto; }
   color: #fff;
 }
 
+.nav-link:focus {
+  outline: 2px solid var(--treasury-gold);
+  outline-offset: -2px;
+}
+
+.nav-link:focus-visible {
+  outline: 2px solid var(--treasury-gold);
+  outline-offset: -2px;
+}
+
 .nav-item.active .nav-link {
   color: #fff;
   position: relative;
@@ -501,6 +536,9 @@ button.nav-link {
   text-decoration: none;
   font-size: 0.875rem;
   line-height: 1.4;
+  display: inline-block;
+  padding: 4px 0;
+  min-height: 24px;
 }
 
 .mega-menu-links a:hover {
@@ -926,8 +964,8 @@ button.nav-link {
 }
 
 .slider-dot {
-  width: 14px;
-  height: 14px;
+  width: 24px;         /* WCAG 2.5.8: Minimum 24x24px target size */
+  height: 24px;
   border: 2px solid #fff;
   border-radius: 50%;
   background: transparent;
@@ -1417,6 +1455,10 @@ button.nav-link {
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 0.02em;
+  padding: 4px 8px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
 }
 
 .breadcrumbs-list a:hover { text-decoration: underline; }
@@ -1487,6 +1529,9 @@ button.nav-link {
   text-decoration: none;
   font-size: 0.875rem;
   line-height: 1.5;
+  display: inline-block;
+  padding: 4px 0;
+  min-height: 24px;
 }
 
 .footer-column a:hover {
@@ -1517,6 +1562,10 @@ button.nav-link {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
   font-size: 0.8125rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  min-height: 24px;
 }
 
 .utility-links a:hover {
@@ -1543,6 +1592,10 @@ button.nav-link {
 .required-plugins a {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 0;
+  min-height: 24px;
 }
 
 .required-plugins a:hover {
@@ -1839,7 +1892,7 @@ button.nav-link {
   width: 40%;
   max-width: 400px;
   height: 6px;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   margin-bottom: 1.5rem;
   background: repeating-linear-gradient(
     -55deg,
@@ -1848,6 +1901,13 @@ button.nav-link {
     transparent 3px,
     transparent 6px
   );
+}
+
+.article-date {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  color: var(--gray-600);
+  margin: 1rem 0 0;
 }
 
 /* News Article List */
@@ -1928,6 +1988,10 @@ button.nav-link {
 .news-category a {
   color: var(--treasury-navy-light);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 0;
+  min-height: 24px;
 }
 
 .news-category a:hover {
@@ -1984,6 +2048,14 @@ button.nav-link {
 .news-article-body h2,
 .news-article-body h3 {
   margin-top: 2rem;
+}
+
+.news-article-body a,
+.press-release-content a {
+  display: inline-block;
+  padding: 2px 0;
+  min-height: 24px;
+  line-height: 1.4;
 }
 
 /* Right Sidebar - Keyword Search (Treasury.gov exact) */

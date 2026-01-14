@@ -6,12 +6,14 @@
   <form class="news-filter-form" action="https://home.treasury.gov{{ .CurrentSection.RelPermalink }}" method="get">
     {{/* Keyword Search */}}
     <div class="filter-field">
+      <label for="keyword-search" class="visually-hidden">Search by keyword</label>
       <input type="text" 
              name="title" 
              id="keyword-search" 
              class="filter-input"
-             placeholder=""
-             aria-label="Search by keyword">
+             placeholder="Enter keywords"
+             aria-describedby="keyword-search-hint">
+      <span id="keyword-search-hint" class="visually-hidden">Enter search terms to filter press releases</span>
     </div>
     
     {{/* Date Range Filters */}}

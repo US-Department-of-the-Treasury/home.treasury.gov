@@ -94,9 +94,44 @@ CORRECTIONS = {
 
 These scripts pull content from the live Treasury site for the Hugo migration.
 
+### `scrape_jsonapi_news.py` ⭐ RECOMMENDED
+
+**Fast JSON API scraper** - fetches news content directly from the Drupal JSON API.
+Much faster than HTML scraping (~50 items/second vs ~6 items/minute).
+
+```bash
+# Scrape all items under /news/press-releases/ URL (recommended)
+python scripts/scrape_jsonapi_news.py --path-filter /news/press-releases/ --limit 100
+
+# Scrape by Drupal category (may miss items with different categorization)
+python scripts/scrape_jsonapi_news.py --category press-releases --limit 100
+
+# Scrape items since a specific date
+python scripts/scrape_jsonapi_news.py --path-filter /news/press-releases/ --since 2026-01-01
+
+# Dry run - see what would be scraped
+python scripts/scrape_jsonapi_news.py --path-filter /news/press-releases/ --limit 50 --dry-run
+```
+
+**Options:**
+| Flag | Default | Description |
+|------|---------|-------------|
+| `--path-filter` | none | Filter by URL path (e.g., `/news/press-releases/`) |
+| `--category` | none | Filter by Drupal category |
+| `--limit` | 100 | Maximum items to fetch |
+| `--since` | none | Only fetch items since date (YYYY-MM-DD) |
+| `--output-category` | auto | Override output folder |
+| `--dry-run` | false | Show items without saving |
+
+**Categories:** `press-releases`, `featured-stories`, `statements-remarks`, `readouts`, `testimonies`, `all`
+
+**Output:** Markdown files in `content/news/<category>/`
+
+---
+
 ### `scrape_press_releases.py`
 
-Scrapes press releases with progress tracking.
+HTML scraper for press releases with progress tracking. Slower but works as fallback.
 
 ```bash
 # Scrape 20 pages of press releases

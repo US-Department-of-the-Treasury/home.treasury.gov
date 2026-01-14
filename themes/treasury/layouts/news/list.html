@@ -11,13 +11,11 @@
   var params = new URLSearchParams(window.location.search);
   var page = params.get('page');
   if (page !== null) {
-    var pageNum = parseInt(page, 10) + 1; // ?page=1 means page 2
+    var pageNum = parseInt(page, 10) + 1;
     var totalPages = {{ .Paginator.TotalPages }};
     if (pageNum > 1 && pageNum <= totalPages) {
-      // Redirect to Hugo's path-based page
       window.location.replace(window.location.pathname + 'page/' + pageNum + '/');
     } else if (pageNum > totalPages) {
-      // Beyond our pages - go to live site
       window.location.replace('https://home.treasury.gov' + window.location.pathname + '?page=' + page);
     }
   }
@@ -43,7 +41,7 @@
       {{ partial "news-sidebar.html" . }}
       
       {{/* Main Content */}}
-      <main class="news-main-content">
+      <div class="news-main-content" role="region" aria-labelledby="page-title">
         <header class="news-page-header">
           <h1 class="page-title">{{ .Title }}</h1>
           <div class="title-underline"></div>
@@ -65,47 +63,65 @@
           {{ end }}
         </div>
         
-        {{/* Pagination - use ?page=X format like Drupal */}}
+        {{/* Pagination - Treasury.gov style with sliding window */}}
+        {{ if gt $paginator.TotalPages 1 }}
         <nav class="pagination" aria-label="Pagination">
-          {{ $paginator := .Paginate .Pages 10 }}
           {{ $currentPage := $paginator.PageNumber }}
           {{ $totalPages := $paginator.TotalPages }}
-          {{ $basePath := "/news/press-releases/" }}
           
-          {{/* Previous Arrow */}}
-          {{ if gt $currentPage 1 }}
-            {{ if eq $currentPage 2 }}
-            <a href="{{ $basePath }}" class="page-arrow prev" aria-label="Previous page">←</a>
-            {{ else }}
-            <a href="{{ $basePath }}?page={{ sub $currentPage 2 }}" class="page-arrow prev" aria-label="Previous page">←</a>
+          {{/* Previous arrow */}}
+          {{ if $paginator.HasPrev }}
+          <a href="{{ $paginator.Prev.URL }}" class="page-arrow prev" aria-label="Previous page">←</a>
+          {{ end }}
+          
+          {{/* Calculate which pages to show - sliding window around current page */}}
+          {{ $startPage := 1 }}
+          {{ $endPage := 3 }}
+          
+          {{/* If current page > 2, center the window around current page */}}
+          {{ if gt $currentPage 2 }}
+            {{ $startPage = sub $currentPage 1 }}
+            {{ $endPage = add $currentPage 1 }}
+          {{ end }}
+          
+          {{/* Don't exceed total pages */}}
+          {{ if gt $endPage $totalPages }}
+            {{ $endPage = $totalPages }}
+            {{ $startPage = sub $endPage 2 }}
+            {{ if lt $startPage 1 }}
+              {{ $startPage = 1 }}
             {{ end }}
           {{ end }}
           
-          {{/* Page numbers using ?page=X format */}}
+          {{/* Leading ellipsis if not starting at 1 */}}
+          {{ if gt $startPage 1 }}
+          <span class="page-ellipsis" aria-hidden="true">...</span>
+          {{ end }}
+          
+          {{/* Page numbers */}}
           {{ range $paginator.Pagers }}
             {{ $pageNum := .PageNumber }}
-            {{ if eq $pageNum $currentPage }}
-            <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
-            {{ else if eq $pageNum 1 }}
-            <a href="{{ $basePath }}" class="page-number">{{ $pageNum }}</a>
-            {{ else }}
-            <a href="{{ $basePath }}?page={{ sub $pageNum 1 }}" class="page-number">{{ $pageNum }}</a>
+            {{ if and (ge $pageNum $startPage) (le $pageNum $endPage) }}
+              {{ if eq $pageNum $currentPage }}
+              <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
+              {{ else }}
+              <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
+              {{ end }}
             {{ end }}
           {{ end }}
           
-          {{/* Ellipsis */}}
-          <span class="page-ellipsis">...</span>
+          {{/* Trailing ellipsis if not ending at last page */}}
+          {{ if lt $endPage $totalPages }}
+          <span class="page-ellipsis" aria-hidden="true">...</span>
+          {{ end }}
           
-          {{/* Next Arrow - go to our next page if available, otherwise live site */}}
+          {{/* Next arrow */}}
           {{ if $paginator.HasNext }}
-            {{/* We have more Hugo pages - link to next Hugo page */}}
-            <a href="{{ $basePath }}?page={{ $currentPage }}" class="page-arrow next" aria-label="Next page">→</a>
-          {{ else }}
-            {{/* On last Hugo page - link to live site */}}
-            <a href="https://home.treasury.gov/news/press-releases?page={{ $currentPage }}" class="page-arrow next" aria-label="More press releases">→</a>
+          <a href="{{ $paginator.Next.URL }}" class="page-arrow next" aria-label="Next page">→</a>
           {{ end }}
         </nav>
-      </main>
+        {{ end }}
+      </div>
       
       {{/* Right Sidebar - Keyword Search */}}
       {{ partial "news-search-sidebar.html" . }}

@@ -1,0 +1,326 @@
+---
+title: Treasury and IRS Announce Families of Nearly 60 Million Children Receive $15 Billion in First Payments of Expanded and Newly Advanceable Child Tax Credit
+date: 2021-07-15
+draft: false
+url: /news/press-releases/Treasury-and-IRS-Announce-Families-of-Nearly-60-Million-Children-Receive-$15-Billion-Dollars-in-First-Payments-of-Expanded-and-Newly-Advanceable-Child-Tax-Credit
+---
+*Treasury and the IRS also release state-by-state data showing historic, nationwide relief for America’s families *
+
+WASHINGTON — The U.S. Department of the Treasury and the Internal Revenue Service announced today that roughly $15 billion were paid to families that include nearly 60 million eligible children in the first monthly payment of the expanded and newly-advanceable Child Tax Credit from the American Rescue Plan passed in March. Eligible families received a payment of up to $300 per month for each child under age 6 and up to $250 per month for each child age 6 to 17.
+
+“For the first time in our nation's history, American working families are receiving monthly tax relief payments to help pay for essentials like doctor’s visits, school supplies, and groceries,” said Secretary Janet L. Yellen. “This major middle-class tax relief and step in reducing child poverty is a remarkable economic victory for America – and also a moral one.”
+
+The American Rescue Plan expanded the Child Tax Credit for 2021 to get more help to more families. The credit increased from $2,000 per child in 2020 to $3,600 for each child under age 6. For each child ages 6 to 16, it’s increased from $2,000 to $3,000. It also makes 17-year-olds eligible for the $3,000 credit. To get money to families sooner, the IRS is sending out half of the 2021 Child Tax Credit this year in monthly payments.
+
+Experts have projected the American Rescue Plan will lift more than five million children out of poverty this year, cutting child poverty by more than half – and the expanded Child Tax Credit is the single largest contributor to this historic reduction. Prior to the American Rescue Plan, lower-income families often received a smaller Child Tax Credit than families with higher earnings because the tax credit was only partially refundable.
+
+- Treasury estimates that families containing more than 26 million children who would have received less than the full Child Tax Credit under the previous rules because their incomes were too low will now receive the full, expanded credit.
+- For a married couple earning a combined $60,000 per year and two children under six, their Child Tax Credit will equal $7,200, and this year’s expansion means an additional $3,200 per year in tax relief.
+- For a married couple earning a combined $24,000 per year and two children under six, they’ll get a total credit of $7,200 – this means that because of the changes in the American Rescue Plan their credit increased by $4,400. Not only did the amount of the credit increase, but prior to the American Rescue Plain the full credit was not available to them because it was not refundable.
+
+Taxpayers who filed an income tax return in either 2019 or 2020 and who claimed an eligible child, or who signed up to get an Economic Impact Payment and claimed an eligible child last year, generally do not need to take any action to receive their payments. Roughly 86% of the families who received payments today did so by direct deposit, and the remainder will receive checks in the mail. These payments will continue to be made on the 15th of each month (unless the 15th falls on a weekend or holiday, in which case the payment will be made the preceding business day).
+
+Low-income families with children are eligible for this crucial tax relief – including those who don’t make enough money to be required to file Federal income taxes. This first set of payment recipients automatically included families that signed up for Economic Impact Payments, also known as stimulus checks, last year, even if they do not normally file a tax return because their income is below the federal filing requirement. Treasury estimates that the families containing more than 720,000 children who otherwise wouldn’t have received a Child Tax Credit will receive payments starting this month because they signed up for Economic Income Payments last year. Eligible families that did not sign-up in time to receive their Child Tax Credit in this first round of payments can receive increased monthly payments to catch-up for previous months after they sign up.
+
+Since President Biden signed the American Rescue Plan in March, the White House has led a cross-agency effort to ensure the expanded Child Tax Credit reaches the families who need it most. Within months, the IRS launched a[Non-filer Sign-up Tool](https://www.irs.gov/child-tax-credit-non-filer-sign-up-tool)and[published step-by-step guides](https://www.irs.gov/newsroom/2021-child-tax-credit-and-advance-child-tax-credit-payments-resources-and-guidance)in multiple languages. Since then, the White House, Treasury and the IRS have worked to direct people to the tool in collaboration with[advocacy groups](https://usow.org/ctc/),[public figures](https://www.instagram.com/p/CRFK68trMSG/?utm_medium=copy_link)and through awareness efforts like launching[childtaxcredit.gov](https://www.whitehouse.gov/child-tax-credit/)and hosting[weekend IRS events in 12 cities](https://www.irs.gov/newsroom/irs-holds-special-weekend-events-to-help-people-who-dont-normally-file-taxes-get-child-tax-credit-payments-and-economic-impact-payments)where data showed large pockets of children in households that don’t normally file a tax return. We will continue to host events and announce additional private sector and non-profit partnership efforts in the coming weeks.
+
+For additional information for taxpayers on how they can access the Child Tax Credit, visit the[Advance Child Tax Credit Payments in 2021 page](https://www.irs.gov/credits-deductions/advance-child-tax-credit-payments-in-2021)and see[Frequently Asked Questions here](https://www.irs.gov/credits-deductions/2021-child-tax-credit-and-advance-child-tax-credit-payments-frequently-asked-questions).
+
+ 
+ 
+
+**Advance Child Tax Credit Payments Disbursed July 2021, by State [1][2][3]**
+
+State
+Number of Qualifying Children
+
+			(000s)
+Total Payment Amount
+
+			($000s)
+Average Payment Amount 
+
+			($s)
+
+** All Returns, total**
+**59,301**
+**14,886,893**
+**423**
+
+  Alabama
+913
+234,232
+422
+
+  Alaska
+155
+39,088
+468
+
+  Arizona
+1,356
+344,278
+440
+
+  Arkansas
+585
+150,288
+437
+
+  California
+6,564
+1,621,878
+406
+
+  Colorado
+992
+244,566
+420
+
+  Connecticut
+566
+137,474
+391
+
+  Delaware
+169
+42,628
+413
+
+  District of
+
+			  Columbia
+90
+21,812
+376
+
+  Florida
+3,600
+915,551
+403
+
+  Georgia
+2,054
+520,295
+418
+
+  Hawaii
+257
+65,027
+431
+
+  Idaho
+393
+99,665
+487
+
+  Illinois
+2,200
+547,169
+418
+
+  Indiana
+1,306
+333,251
+445
+
+  Iowa
+618
+156,942
+458
+
+  Kansas
+568
+143,650
+456
+
+  Kentucky
+851
+218,408
+436
+
+  Louisiana
+896
+229,406
+417
+
+  Maine
+215
+54,404
+415
+
+  Maryland
+1,072
+262,332
+401
+
+  Massachusetts
+1,060
+253,118
+385
+
+  Michigan
+1,775
+449,403
+438
+
+  Minnesota
+1,090
+270,372
+449
+
+  Mississippi
+595
+153,666
+417
+
+  Missouri
+1,152
+293,116
+444
+
+  Montana
+198
+50,426
+457
+
+  Nebraska
+404
+102,279
+464
+
+  Nevada
+560
+143,317
+425
+
+  New Hampshire
+216
+53,017
+399
+
+  New Jersey
+1,550
+373,155
+394
+
+  New Mexico
+383
+98,379
+434
+
+  New York
+3,227
+802,249
+407
+
+  North Carolina
+1,881
+476,025
+415
+
+  North Dakota
+154
+38,920
+463
+
+  Ohio
+2,169
+550,840
+436
+
+  Oklahoma
+782
+200,574
+450
+
+  Oregon
+692
+173,227
+425
+
+  Pennsylvania
+2,217
+554,813
+423
+
+  Rhode Island
+173
+43,277
+399
+
+  South Carolina
+945
+241,176
+422
+
+  South Dakota
+184
+46,868
+477
+
+  Tennessee
+1,260
+321,591
+428
+
+  Texas
+5,937
+1,499,988
+434
+
+  Utah
+780
+196,032
+515
+
+  Vermont
+98
+24,767
+410
+
+  Virginia
+1,533
+377,455
+412
+
+  Washington
+1,322
+325,617
+423
+
+  West Virginia
+301
+77,419
+431
+
+  Wisconsin
+1,041
+262,789
+443
+
+  Wyoming
+114
+28,971
+464
+
+  Other areas [[4]](#4)
+85
+21,701
+481
+
+[1]Section 9611(a) of the American Rescue Plan Act of 2021 (Act), Public Law 117-2, 135 Stat. 4 (March 11, 2021), amended the Child Tax Credit (CTC) rules under section 24 of the Internal Revenue Code (Code) for taxable year 2021. For taxpayers who have a principal place of abode in the U.S. for more than half the year or who are bona fide residents of Puerto Rico for the year, the Act made the CTC fully refundable. The Act increased to age 17 the maximum age for which a child may be a qualifying child for the CTC. The Act also increased the maximum amount of the CTC from $2,000 to $3,600 for qualifying children under age 6 and to $3,000 for other qualifying children under age 18. Special rules are provided for U.S. Territories and their residents.
+
+[2]The CTC phases out in two different steps based on the taxpayer’s modified adjusted gross income (modified AGI) in 2021.The first $1,600 of the CTC per qualifying child under age 6 and the first $1,000 per qualifying child age 6 through 17 phase out sequentially at a rate of $50 per $1,000 (or part thereof) of modified AGI in excess of a threshold based on the taxpayer’s filing status. The modified AGI threshold is $150,000 for married joint filers or qualifying widows or widowers, $112,500 for head of household filers, and $75,000 for all other filers.The remainder of the CTC, plus any amount of non-refundable $500 credit for other dependents, is further reduced by $50 for each $1,000 (or part thereof) that exceeds $200,000 ($400,000 for married taxpayers filing a joint return) of modified AGI. Larger families follow a modified phaseout rule that extends the AGI range of the phaseout.
+
+[3]Section 9611(b)(1) of the Act added section 7527A to the Code.  Solely for 2021, section 7527A(a) requires the Secretary of the Treasury to establish a program for making periodic advance payments of the CTC, the total amount of which equals the taxpayer’s “annual advance amount.” The “annual advance amount” of a taxpayer is the amount estimated by the Secretary as being equal to 50 percent of the CTC that would be allowed to the taxpayer for 2021 based on information reported on the taxpayer’s 2020 Federal income tax return (or their 2019 return if the 2020 return is not available). The Internal Revenue Service (IRS) will disburse these advance payments monthly from July to December of 2021. The taxpayer must file a Tax Year 2021 return to claim the remainder of their CTC (if any). At the time these data were generated, taxpayers may use a designated IRS online tool, referred to as the “Child Tax Credit Update Portal,” to opt out of advance payments.A taxpayer’s Federal income tax will be increased, dollar-for-dollar, if their total CTC advance payments during 2021 exceed the amount of the CTC to which they are eligible for that year. However, safe harbor rules may reduce the additional income tax owed depending on the taxpayer’s modified AGI.
+
+[4]Includes residents of U.S. territories, U.S. citizens abroad, and returns filed from Army Post Office and Fleet Post Office addresses by members of the armed forces stationed overseas.
+
+NOTES: The numbers shown reflect advance CTC payments disbursed to eligible recipients based on taxpayer account information and do not account for reversed or undeliverable advance CTC payments.Details may not add to totals because of rounding.Source: Office of Tax Analysis tabulations of Internal Revenue Service data, July 11, 2021
+
+Source: Office of Tax Analysis tabulations of Internal Revenue Service data, July 11, 2021
+
+ 
+
+###

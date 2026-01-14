@@ -14,6 +14,7 @@ help:
 	@echo ""
 	@echo "Testing:"
 	@echo "  make test           Run link validation"
+	@echo "  make test-508       Run Section 508 accessibility tests"
 	@echo "  make lint           Check for issues"
 	@echo ""
 	@echo "Deployment:"
@@ -42,6 +43,18 @@ clean:
 # Run link validation
 test:
 	python scripts/test_links.py
+
+# Run Section 508 accessibility tests
+test-508:
+	@echo "Running Section 508 / WCAG 2.1 AA compliance tests..."
+	@echo "Testing: http://localhost:1313/news/press-releases/"
+	@command -v pa11y-ci >/dev/null 2>&1 || { echo "Installing pa11y-ci..."; npm install -g pa11y-ci; }
+	pa11y-ci || echo "If npm fails, run: sudo chown -R \$$(whoami) ~/.npm"
+
+# Run accessibility test on single URL
+test-508-url:
+	@read -p "Enter URL to test: " url; \
+	npx pa11y "$$url" --standard WCAG2AA
 
 # Check for common issues
 lint:
