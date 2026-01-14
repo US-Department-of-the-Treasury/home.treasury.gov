@@ -138,7 +138,7 @@ class TreasuryScraper:
                     
                     if response.status_code == 200:
                         self.discovered_urls.add(url)
-                        soup = BeautifulSoup(response.text, "lxml")
+                        soup = BeautifulSoup(response.text, "html.parser")
                         
                         for link in soup.find_all("a", href=True):
                             href = link["href"]
@@ -352,7 +352,7 @@ class TreasuryScraper:
                 self.failed_urls.add(url)
                 return False
             
-            soup = BeautifulSoup(response.text, "lxml")
+            soup = BeautifulSoup(response.text, "html.parser")
             
             # Classify the URL
             section, filename = self.classify_url(url)

@@ -20,12 +20,15 @@
   {{- end }}
   <meta property="og:site_name" content="{{ site.Title }}">
   
-  <!-- Fonts - optimized loading -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap"></noscript>
+  <!-- Fonts - self-hosted (no external CDN dependency) -->
+  {{- $fonts := resources.Get "css/fonts.css" }}
+  {{- $fonts = $fonts | minify | fingerprint }}
+  <link rel="preload" href="{{ $fonts.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ $fonts.RelPermalink }}"></noscript>
+  
+  <!-- Preload critical fonts -->
+  <link rel="preload" href="/fonts/source-sans-pro-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/merriweather-700.woff2" as="font" type="font/woff2" crossorigin>
   
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
