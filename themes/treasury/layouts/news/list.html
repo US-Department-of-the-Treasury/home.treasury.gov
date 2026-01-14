@@ -4,11 +4,31 @@
 <script>window.location.replace("/news/press-releases/");</script>
 <meta http-equiv="refresh" content="0; url=/news/press-releases/">
 {{ else }}
+
+{{/* Handle ?page=X query param - redirect to Hugo's /page/X+1/ */}}
+<script>
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var page = params.get('page');
+  if (page !== null) {
+    var pageNum = parseInt(page, 10) + 1; // ?page=1 means page 2
+    var totalPages = {{ .Paginator.TotalPages }};
+    if (pageNum > 1 && pageNum <= totalPages) {
+      // Redirect to Hugo's path-based page
+      window.location.replace(window.location.pathname + 'page/' + pageNum + '/');
+    } else if (pageNum > totalPages) {
+      // Beyond our pages - go to live site
+      window.location.replace('https://home.treasury.gov' + window.location.pathname + '?page=' + page);
+    }
+  }
+})();
+</script>
+
 <div class="breadcrumbs">
   <div class="container">
     <nav aria-label="Breadcrumb">
       <ol class="breadcrumbs-list">
-        <li><a href="/">HOME</a></li>
+        <li><a href="https://home.treasury.gov/">HOME</a></li>
         <li><a href="/news/">NEWS</a></li>
         <li><span aria-current="page">{{ .Title | upper }}</span></li>
       </ol>
@@ -40,51 +60,51 @@
           {{ range $paginator.Pages }}
           <article class="news-article-item">
             <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-            {{/* Display category tags */}}
-            {{ if .Params.category }}
-            <span class="article-category"><a href="/news/{{ .Params.category | urlize }}/">{{ .Params.category }}</a></span>
-            {{ else }}
-              {{ with .Params.categories }}
-                {{ with index . 0 }}
-                <span class="article-category"><a href="/news/{{ . | urlize }}/">{{ . }}</a></span>
-                {{ end }}
-              {{ end }}
-            {{ end }}
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
           </article>
           {{ end }}
         </div>
         
-        {{/* Pagination - Treasury.gov style (inline, no left arrow, ellipsis) */}}
-        {{ if gt $paginator.TotalPages 1 }}
+        {{/* Pagination - use ?page=X format like Drupal */}}
         <nav class="pagination" aria-label="Pagination">
+          {{ $paginator := .Paginate .Pages 10 }}
           {{ $currentPage := $paginator.PageNumber }}
           {{ $totalPages := $paginator.TotalPages }}
+          {{ $basePath := "/news/press-releases/" }}
           
-          {{/* First few pages */}}
-          {{ range $paginator.Pagers }}
-            {{ $pageNum := .PageNumber }}
-            {{/* Show pages 1-3 always */}}
-            {{ if le $pageNum 3 }}
-              {{ if eq $pageNum $currentPage }}
-              <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
-              {{ else }}
-              <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
-              {{ end }}
+          {{/* Previous Arrow */}}
+          {{ if gt $currentPage 1 }}
+            {{ if eq $currentPage 2 }}
+            <a href="{{ $basePath }}" class="page-arrow prev" aria-label="Previous page">←</a>
+            {{ else }}
+            <a href="{{ $basePath }}?page={{ sub $currentPage 2 }}" class="page-arrow prev" aria-label="Previous page">←</a>
             {{ end }}
           {{ end }}
           
-          {{/* Ellipsis if needed */}}
-          {{ if gt $totalPages 4 }}
-          <span class="page-ellipsis">...</span>
+          {{/* Page numbers using ?page=X format */}}
+          {{ range $paginator.Pagers }}
+            {{ $pageNum := .PageNumber }}
+            {{ if eq $pageNum $currentPage }}
+            <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
+            {{ else if eq $pageNum 1 }}
+            <a href="{{ $basePath }}" class="page-number">{{ $pageNum }}</a>
+            {{ else }}
+            <a href="{{ $basePath }}?page={{ sub $pageNum 1 }}" class="page-number">{{ $pageNum }}</a>
+            {{ end }}
           {{ end }}
           
-          {{/* Next Arrow only */}}
+          {{/* Ellipsis */}}
+          <span class="page-ellipsis">...</span>
+          
+          {{/* Next Arrow - go to our next page if available, otherwise live site */}}
           {{ if $paginator.HasNext }}
-          <a href="{{ $paginator.Next.URL }}" class="page-arrow next" aria-label="Next page">→</a>
+            {{/* We have more Hugo pages - link to next Hugo page */}}
+            <a href="{{ $basePath }}?page={{ $currentPage }}" class="page-arrow next" aria-label="Next page">→</a>
+          {{ else }}
+            {{/* On last Hugo page - link to live site */}}
+            <a href="https://home.treasury.gov/news/press-releases?page={{ $currentPage }}" class="page-arrow next" aria-label="More press releases">→</a>
           {{ end }}
         </nav>
-        {{ end }}
       </main>
       
       {{/* Right Sidebar - Keyword Search */}}

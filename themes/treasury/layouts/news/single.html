@@ -3,7 +3,7 @@
   <div class="container">
     <nav aria-label="Breadcrumb">
       <ol class="breadcrumbs-list">
-        <li><a href="/">HOME</a></li>
+        <li><a href="https://home.treasury.gov/">HOME</a></li>
         <li><a href="/news/">NEWS</a></li>
         {{ with .CurrentSection }}
         <li><a href="{{ .Permalink }}">{{ .Title | upper }}</a></li>
@@ -48,7 +48,7 @@
       </main>
       
       {{/* Right Sidebar */}}
-      {{ partial "latest-news.html" . }}
+      {{ partial "news-search-sidebar.html" . }}
     </div>
   </div>
 </div>

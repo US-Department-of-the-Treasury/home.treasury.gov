@@ -1,156 +1,208 @@
 # U.S. Department of the Treasury - Hugo Site
 
-Static site build of [home.treasury.gov](https://home.treasury.gov) using [Hugo](https://gohugo.io/).
+[![License: Public Domain](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](LICENSE)
+[![Hugo](https://img.shields.io/badge/Hugo-0.120%2B-ff4088)](https://gohugo.io/)
 
-## Prerequisites
-
-- [Hugo Extended](https://gohugo.io/installation/) v0.120.0 or later
-- [Python 3.10+](https://www.python.org/) (for content scraping)
-- [AWS CLI](https://aws.amazon.com/cli/) (for deployment)
-- [Akamai CLI](https://developer.akamai.com/cli) (for cache purging)
+Static site rebuild of [home.treasury.gov](https://home.treasury.gov) using [Hugo](https://gohugo.io/). Designed to run alongside the existing Drupal site via Akamai path-based routing.
 
 ## Quick Start
 
 ```bash
-# Install Python dependencies for scraper
+# Clone and setup
+git clone <repository-url>
+cd home.treasury.gov
 pip install -r requirements.txt
 
-# Run Hugo development server
-hugo server -D
+# Start development server
+make serve
+# or: hugo server -D --port 1313
 
-# Build for production
-hugo --minify
+# View at http://localhost:1313/news/press-releases/
 ```
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute to this project |
+| [CHANGELOG.md](CHANGELOG.md) | Version history and changes |
+| [docs/AKAMAI_INTEGRATION.md](docs/AKAMAI_INTEGRATION.md) | Akamai CDN configuration guide |
+| [deploy/README.md](deploy/README.md) | Deployment scripts documentation |
+| [scripts/README.md](scripts/README.md) | Python utilities documentation |
+| [themes/treasury/README.md](themes/treasury/README.md) | Theme documentation |
+
+---
+
+## Current Status
+
+| Content Type | Count | Status |
+|--------------|-------|--------|
+| Press Releases | 20 | ✅ Live-ready |
+| Featured Stories | 0 | Redirects to Drupal |
+| Other Sections | 0 | Redirects to Drupal |
+
+**Hugo-served paths:**
+- `/news/press-releases/` — List page
+- `/news/press-releases/?page=1` — Pagination
+- `/news/press-releases/sb0337/` through `/sb0357/` — Individual articles
+
+**All other paths redirect to the live Treasury site.**
+
+---
+
+## Architecture
+
+```
+home.treasury.gov
+        │
+        ▼
+    [Akamai CDN]
+        │
+        ├── /news/press-releases/*  →  Hugo (S3)
+        ├── /css/*                  →  Hugo (S3)
+        ├── /js/*                   →  Hugo (S3)
+        ├── /images/*               →  Hugo (S3)
+        │
+        └── Everything else         →  Drupal (Legacy)
+```
+
+See [docs/AKAMAI_INTEGRATION.md](docs/AKAMAI_INTEGRATION.md) for complete routing configuration.
+
+---
 
 ## Project Structure
 
 ```
-.
-├── archetypes/          # Content templates
-├── content/             # Markdown content (scraped + authored)
-├── data/                # Data files (JSON/YAML)
-├── deploy/              # Deployment scripts
-├── layouts/             # Custom layouts (overrides theme)
-├── scripts/             # Utility scripts
-│   └── scrape_treasury.py
-├── static/              # Static assets (images, CSS, JS)
-├── themes/
-│   └── treasury/        # USWDS-based theme
-├── hugo.toml            # Hugo configuration
-└── requirements.txt     # Python dependencies
+home.treasury.gov/
+├── archetypes/           # Content templates for hugo new
+├── content/
+│   └── news/
+│       └── press-releases/  # 20 articles
+├── data/
+│   └── navigation.json   # Mega menu structure
+├── deploy/               # S3 & Akamai scripts
+├── docs/                 # Additional documentation
+├── scripts/              # Python utilities
+├── themes/treasury/      # Hugo theme (USWDS-based)
+├── hugo.toml             # Site configuration
+├── Makefile              # Common tasks
+├── requirements.txt      # Python dependencies
+├── CONTRIBUTING.md       # Contribution guidelines
+├── CHANGELOG.md          # Version history
+└── LICENSE               # Public Domain
 ```
 
-## Content Migration
+---
 
-### Scraping from Live Site
-
-The scraper pulls content directly from home.treasury.gov:
+## Common Tasks
 
 ```bash
-# Discover all URLs (sitemap + crawling)
-python scripts/scrape_treasury.py --discover
-
-# Scrape discovered pages to Markdown
-python scripts/scrape_treasury.py --scrape
-
-# Download images and documents
-python scripts/scrape_treasury.py --assets
-
-# Run full pipeline
-python scripts/scrape_treasury.py --all
+make serve          # Start dev server (port 1313)
+make build          # Build for production
+make test           # Validate all navigation links
+make deploy-staging # Deploy to staging S3
+make deploy-prod    # Deploy to production + purge cache
+make scrape         # Scrape latest press releases
+make help           # Show all commands
 ```
 
-Scraped content is saved to `content/` with YAML front matter.
+---
 
-### Manual Content
+## Prerequisites
 
-Create new content using archetypes:
+| Tool | Version | Purpose |
+|------|---------|---------|
+| [Hugo Extended](https://gohugo.io/installation/) | 0.120.0+ | Static site generator |
+| [Python](https://www.python.org/) | 3.10+ | Scraping & validation scripts |
+| [AWS CLI](https://aws.amazon.com/cli/) | 2.x | S3 deployment |
+| [Akamai CLI](https://developer.akamai.com/cli) | Latest | Cache purging |
 
-```bash
-# New page
-hugo new about/new-page.md
-
-# New press release
-hugo new news/press-releases/2026-01-13-title.md
-```
+---
 
 ## Development
 
-```bash
-# Start dev server with drafts
-hugo server -D
+### Local Server
 
-# Start with live reload and verbose output
-hugo server -D --navigateToChanged --verbose
+```bash
+hugo server -D --port 1313
 ```
+
+### Creating Content
+
+```bash
+# New press release
+hugo new news/press-releases/2026-01-15-sb0358.md
+```
+
+### Testing
+
+```bash
+# Validate all navigation links
+python scripts/test_links.py
+
+# Check Hugo build
+hugo --quiet
+```
+
+---
 
 ## Deployment
 
-### AWS S3 + Akamai
-
-1. Configure AWS credentials
-2. Update bucket names in `deploy/s3-sync.sh`
-3. Deploy:
-
 ```bash
-# Deploy to staging
+# 1. Build
+hugo --minify
+
+# 2. Deploy to staging
 ./deploy/s3-sync.sh staging
 
-# Deploy to production
+# 3. Deploy to production
 ./deploy/s3-sync.sh prod
 
-# Purge Akamai cache
+# 4. Purge CDN cache
 ./deploy/akamai-purge.sh
 ```
 
-### S3 Bucket Configuration
+See [deploy/README.md](deploy/README.md) for detailed instructions.
 
-The S3 bucket should be configured for static website hosting:
+---
 
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "PublicReadGetObject",
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::your-bucket-name/*"
-    }
-  ]
-}
+## Link Validation
+
+53+ navigation URLs and 7+ footer URLs have been corrected. Run validation:
+
+```bash
+python scripts/test_links.py
 ```
 
-Enable static website hosting with:
-- Index document: `index.html`
-- Error document: `404.html`
+| Metric | Before | After |
+|--------|--------|-------|
+| Working Links | 143 (63%) | 175 (87%) |
+| Broken Links | 64 | 5 (external bot-blocked) |
+
+See [scripts/README.md](scripts/README.md) for all available utilities.
+
+---
 
 ## Theme
 
-The `treasury` theme is built on the [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/) v3.x.
+USWDS 3.x compliant theme with:
+- Government banner
+- Mega menu navigation
+- Dark footer matching Treasury.gov
+- Mobile-responsive design
 
-### USWDS Assets
+See [themes/treasury/README.md](themes/treasury/README.md) for customization.
 
-Download USWDS assets and place in `themes/treasury/static/`:
+---
 
-```bash
-# From npm
-npm install @uswds/uswds
-cp -r node_modules/@uswds/uswds/dist/css/uswds.min.css themes/treasury/static/css/
-cp -r node_modules/@uswds/uswds/dist/js/uswds.min.js themes/treasury/static/js/
-cp -r node_modules/@uswds/uswds/dist/img/* themes/treasury/static/images/
-```
+## Contributing
 
-## Configuration
+We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-See `hugo.toml` for site configuration options:
-
-- `baseURL`: Production URL
-- `params.description`: Site description
-- `menus`: Navigation structure
-- `taxonomies`: Content categorization
+---
 
 ## License
 
-Public Domain - See [LICENSE](LICENSE)
+This project is in the **public domain** within the United States.
+
+See [LICENSE](LICENSE) for details.

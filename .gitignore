@@ -32,3 +32,18 @@ deploy/config.env
 # Temporary files
 *.tmp
 *.bak
+
+# Deprecated files (kept for reference)
+deprecated/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfplan
+terraform/.terraform.lock.hcl
+terraform/crash.log
+terraform/override.tf
+terraform/override.tf.json
+terraform/*_override.tf
+terraform/*_override.tf.json

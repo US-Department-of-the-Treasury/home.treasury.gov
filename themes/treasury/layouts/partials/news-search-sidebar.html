@@ -1,8 +1,9 @@
 {{/* Right sidebar with keyword search and date filters - Treasury.gov exact match */}}
+{{/* Form submits to live Treasury site for search functionality */}}
 <aside class="search-sidebar">
   <h2 class="sidebar-title">KEYWORD SEARCH</h2>
   
-  <form class="news-filter-form" action="" method="get">
+  <form class="news-filter-form" action="https://home.treasury.gov{{ .CurrentSection.RelPermalink }}" method="get">
     {{/* Keyword Search */}}
     <div class="filter-field">
       <input type="text" 
@@ -39,9 +40,7 @@
   
   {{/* Subscribe CTA - Title case, single line */}}
   <a href="https://public.govdelivery.com/accounts/USTREAS/subscriber/new?topic_id=USTREAS_49" 
-     class="btn-subscribe" 
-     target="_blank" 
-     rel="noopener noreferrer">
+     class="btn-subscribe">
     Subscribe to Press Releases
   </a>
 </aside>

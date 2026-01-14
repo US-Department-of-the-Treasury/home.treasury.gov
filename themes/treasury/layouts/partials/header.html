@@ -4,7 +4,7 @@
     <div class="header-inner">
       <!-- Logo/Branding -->
       <div class="header-branding">
-        <a href="/" class="logo">
+        <a href="https://home.treasury.gov/" class="logo">
           <img src="{{ "images/treasury-seal.svg" | relURL }}" alt="" class="treasury-logo" aria-hidden="true">
           <span class="logo-text">U.S. DEPARTMENT OF THE TREASURY</span>
         </a>
@@ -16,11 +16,16 @@
 <!-- Main Navigation - Sticky -->
 <nav class="main-nav" aria-label="Main navigation">
   <div class="nav-inner">
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+      <span class="hamburger"></span>
+    </button>
+    
     <!-- Logo appears when scrolled -->
-    <a href="/" class="nav-logo" aria-label="Home">
+    <a href="https://home.treasury.gov/" class="nav-logo" aria-label="Home">
       <img src="{{ "images/treasury-seal.svg" | relURL }}" alt="Treasury Seal">
     </a>
-    <ul class="nav-menu">
+    <ul class="nav-menu" id="nav-menu">
       {{ $navData := site.Data.navigation }}
       {{ $currentPath := $.Page.RelPermalink }}
       {{ range $navData.main_nav }}
