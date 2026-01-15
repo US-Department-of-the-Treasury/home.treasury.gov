@@ -1,3 +1,9 @@
+{{ define "head" }}
+{{- $searchCss := resources.Get "css/search.css" }}
+{{- $searchCss = $searchCss | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $searchCss.RelPermalink }}">
+{{ end }}
+
 {{ define "main" }}
 {{/* All News aggregation page */}}
 <div class="breadcrumbs">
