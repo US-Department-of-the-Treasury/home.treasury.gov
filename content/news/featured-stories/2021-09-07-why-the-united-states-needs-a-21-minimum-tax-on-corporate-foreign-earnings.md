@@ -1,5 +1,5 @@
 ---
-title: Why the United States Needs a 21% Minimum Tax on Corporate Foreign Earnings
+title: 'Why the United States Needs a 21% Minimum Tax on Corporate Foreign Earnings'
 date: 2021-09-07
 draft: false
 url: /news/featured-stories/why-the-united-states-needs-a-21-minimum-tax-on-corporate-foreign-earnings

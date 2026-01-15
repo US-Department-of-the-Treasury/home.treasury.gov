@@ -1,5 +1,5 @@
 ---
-title: Administration's FY2022 Budget Tax Proposals Will Promote Shared Growth and Prosperity
+title: 'Administration''s FY2022 Budget Tax Proposals Will Promote Shared Growth and Prosperity'
 date: 2021-05-28
 draft: false
 url: /news/featured-stories/administrations-fy2022-budget-tax-proposals-will-promote-shared-growth-and-prosperity

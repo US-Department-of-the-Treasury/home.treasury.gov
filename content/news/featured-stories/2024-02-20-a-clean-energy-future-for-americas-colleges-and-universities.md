@@ -1,5 +1,5 @@
 ---
-title: A Clean Energy Future for America's Colleges and Universities
+title: 'A Clean Energy Future for America''s Colleges and Universities'
 date: 2024-02-20
 draft: false
 url: /news/featured-stories/a-clean-energy-future-for-americas-colleges-and-universities
