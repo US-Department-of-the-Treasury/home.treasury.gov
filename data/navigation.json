@@ -455,9 +455,10 @@
           ]
         },
         {
-          "heading": "TWITTER",
+          "heading": "CONNECT",
           "links": [
-            {"title": "View All Tweets", "url": "https://twitter.com/USTreasury"}
+            {"title": "@USTreasury on X", "url": "https://twitter.com/USTreasury"},
+            {"title": "Subscribe to Updates", "url": "https://public.govdelivery.com/accounts/USTREAS/subscriber/new"}
           ]
         }
       ]

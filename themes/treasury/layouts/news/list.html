@@ -83,58 +83,43 @@
             <span class="page-nav first disabled" aria-disabled="true">« First</span>
             {{ end }}
             
-            {{/* Previous Arrow */}}
-            {{ if $paginator.HasPrev }}
-            <a href="{{ $paginator.Prev.URL }}" class="page-arrow prev" aria-label="Previous page">←</a>
-            {{ else }}
-            <span class="page-arrow prev disabled" aria-disabled="true">←</span>
-            {{ end }}
+            {{/* Show 5 page numbers centered around current */}}
+            {{ $startPage := 1 }}
+            {{ $endPage := $totalPages }}
             
-            {{/* First page number */}}
-            {{ if eq $currentPage 1 }}
-            <span class="page-number current" aria-current="page">1</span>
-            {{ else }}
-            <a href="{{ $baseURL }}" class="page-number">1</a>
+            {{/* Calculate window of 5 pages */}}
+            {{ if gt $totalPages 5 }}
+              {{ $startPage = sub $currentPage 2 }}
+              {{ if lt $startPage 1 }}
+                {{ $startPage = 1 }}
+              {{ end }}
+              {{ $endPage = add $startPage 4 }}
+              {{ if gt $endPage $totalPages }}
+                {{ $endPage = $totalPages }}
+                {{ $startPage = sub $endPage 4 }}
+              {{ end }}
             {{ end }}
             
             {{/* Left ellipsis */}}
-            {{ if gt $currentPage 4 }}
+            {{ if gt $startPage 1 }}
             <span class="page-ellipsis">...</span>
             {{ end }}
             
-            {{/* Pages around current - show 2 on each side */}}
+            {{/* Page numbers */}}
             {{ range $paginator.Pagers }}
               {{ $pageNum := .PageNumber }}
-              {{ if and (gt $pageNum 1) (lt $pageNum $totalPages) }}
-                {{ if and (ge $pageNum (sub $currentPage 2)) (le $pageNum (add $currentPage 2)) }}
-                  {{ if eq $pageNum $currentPage }}
-                  <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
-                  {{ else }}
-                  <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
-                  {{ end }}
+              {{ if and (ge $pageNum $startPage) (le $pageNum $endPage) }}
+                {{ if eq $pageNum $currentPage }}
+                <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
+                {{ else }}
+                <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
                 {{ end }}
               {{ end }}
             {{ end }}
             
             {{/* Right ellipsis */}}
-            {{ if lt $currentPage (sub $totalPages 3) }}
+            {{ if lt $endPage $totalPages }}
             <span class="page-ellipsis">...</span>
-            {{ end }}
-            
-            {{/* Last page number */}}
-            {{ if gt $totalPages 1 }}
-              {{ if eq $currentPage $totalPages }}
-              <span class="page-number current" aria-current="page">{{ $totalPages }}</span>
-              {{ else }}
-              <a href="{{ $baseURL }}page/{{ $totalPages }}/" class="page-number">{{ $totalPages }}</a>
-              {{ end }}
-            {{ end }}
-            
-            {{/* Next Arrow */}}
-            {{ if $paginator.HasNext }}
-            <a href="{{ $paginator.Next.URL }}" class="page-arrow next" aria-label="Next page">→</a>
-            {{ else }}
-            <span class="page-arrow next disabled" aria-disabled="true">→</span>
             {{ end }}
             
             {{/* Last Button */}}

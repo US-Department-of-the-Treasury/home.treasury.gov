@@ -47,8 +47,35 @@
             <div class="mega-menu-column">
               <h3 class="mega-menu-heading">{{ .heading }}</h3>
               <ul class="mega-menu-links">
-                {{ range .links }}
-                <li><a href="{{ .url }}">{{ .title }}</a></li>
+                {{/* Check if this column should show recent articles */}}
+                {{ if eq .type "articles" }}
+                  {{/* Map heading to section path */}}
+                  {{ $sectionPath := "" }}
+                  {{ if eq .heading "FEATURED STORIES" }}
+                    {{ $sectionPath = "news/featured-stories" }}
+                  {{ else if eq .heading "PRESS RELEASES" }}
+                    {{ $sectionPath = "news/press-releases" }}
+                  {{ else if eq .heading "REMARKS AND STATEMENTS" }}
+                    {{ $sectionPath = "news/statements-remarks" }}
+                  {{ end }}
+                  
+                  {{ if $sectionPath }}
+                    {{ $section := site.GetPage $sectionPath }}
+                    {{ if $section }}
+                      {{ range first 4 $section.Pages.ByDate.Reverse }}
+                      <li><a href="{{ .Permalink }}">{{ .Title | truncate 55 }}</a></li>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                  
+                  {{/* Always show View All link */}}
+                  {{ range .links }}
+                  <li class="view-all"><a href="{{ .url }}">{{ .title }} →</a></li>
+                  {{ end }}
+                {{ else }}
+                  {{ range .links }}
+                  <li><a href="{{ .url }}">{{ .title }}</a></li>
+                  {{ end }}
                 {{ end }}
               </ul>
             </div>
