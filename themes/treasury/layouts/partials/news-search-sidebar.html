@@ -1,19 +1,17 @@
-{{/* Right sidebar with keyword search and date filters - Treasury.gov exact match */}}
-{{/* Form submits to live Treasury site for search functionality */}}
+{{/* Right sidebar with keyword search and date filters - Local search */}}
 <aside class="search-sidebar">
   <h2 class="sidebar-title">KEYWORD SEARCH</h2>
   
-  <form class="news-filter-form" action="https://home.treasury.gov{{ .CurrentSection.RelPermalink }}" method="get">
+  <form class="news-filter-form" id="news-search-form">
     {{/* Keyword Search */}}
     <div class="filter-field">
       <label for="keyword-search" class="visually-hidden">Search by keyword</label>
       <input type="text" 
-             name="title" 
              id="keyword-search" 
              class="filter-input"
              placeholder="Enter keywords"
              aria-describedby="keyword-search-hint">
-      <span id="keyword-search-hint" class="visually-hidden">Enter search terms to filter press releases</span>
+      <span id="keyword-search-hint" class="visually-hidden">Enter search terms to filter articles</span>
     </div>
     
     {{/* Date Range Filters */}}
@@ -21,28 +19,220 @@
       <div class="date-field">
         <label for="start-date">Start date</label>
         <input type="date" 
-               name="publication-start-date" 
                id="start-date"
-               class="date-input"
-               placeholder="mm/dd/yyyy">
+               class="date-input">
       </div>
       <div class="date-field">
         <label for="end-date">End date</label>
         <input type="date" 
-               name="publication-end-date" 
                id="end-date"
-               class="date-input"
-               placeholder="mm/dd/yyyy">
+               class="date-input">
       </div>
     </div>
     
     {{/* Apply Button */}}
     <button type="submit" class="btn-apply">APPLY</button>
+    
+    {{/* Clear Button */}}
+    <button type="button" class="btn-clear" id="clear-search" style="display:none;">CLEAR</button>
   </form>
   
-  {{/* Subscribe CTA - Title case, single line */}}
+  {{/* Search Results Container */}}
+  <div id="search-results" class="search-results" hidden>
+    <div class="search-results-header">
+      <span id="results-count"></span>
+      <button type="button" class="btn-back-to-list" id="back-to-list">← Back to list</button>
+    </div>
+    <div id="results-list" class="results-list"></div>
+    <div id="results-pagination" class="results-pagination"></div>
+  </div>
+  
+  {{/* Subscribe CTA */}}
   <a href="https://public.govdelivery.com/accounts/USTREAS/subscriber/new?topic_id=USTREAS_49" 
      class="btn-subscribe">
     Subscribe to Press Releases
   </a>
 </aside>
+
+<script>
+(function() {
+  let searchIndex = null;
+  let currentResults = [];
+  let currentPage = 1;
+  const resultsPerPage = 20;
+  
+  // Elements
+  const form = document.getElementById('news-search-form');
+  const keywordInput = document.getElementById('keyword-search');
+  const startDateInput = document.getElementById('start-date');
+  const endDateInput = document.getElementById('end-date');
+  const searchResults = document.getElementById('search-results');
+  const resultsList = document.getElementById('results-list');
+  const resultsCount = document.getElementById('results-count');
+  const resultsPagination = document.getElementById('results-pagination');
+  const clearBtn = document.getElementById('clear-search');
+  const backBtn = document.getElementById('back-to-list');
+  const mainContent = document.querySelector('.news-article-list');
+  const mainPagination = document.querySelector('.pagination');
+  
+  // Load search index
+  async function loadSearchIndex() {
+    if (searchIndex) return searchIndex;
+    try {
+      const response = await fetch('/index.json');
+      searchIndex = await response.json();
+      return searchIndex;
+    } catch (err) {
+      console.error('Failed to load search index:', err);
+      return [];
+    }
+  }
+  
+  // Perform search
+  function search(keyword, startDate, endDate) {
+    if (!searchIndex) return [];
+    
+    const keywordLower = keyword.toLowerCase().trim();
+    const keywordWords = keywordLower.split(/\s+/).filter(w => w.length > 0);
+    
+    return searchIndex.filter(item => {
+      // Keyword filter (all words must match)
+      if (keywordWords.length > 0) {
+        const titleLower = item.title.toLowerCase();
+        const allMatch = keywordWords.every(word => titleLower.includes(word));
+        if (!allMatch) return false;
+      }
+      
+      // Date range filter
+      if (startDate && item.date < startDate) return false;
+      if (endDate && item.date > endDate) return false;
+      
+      return true;
+    });
+  }
+  
+  // Render results
+  function renderResults(results, page = 1) {
+    currentResults = results;
+    currentPage = page;
+    
+    const start = (page - 1) * resultsPerPage;
+    const end = start + resultsPerPage;
+    const pageResults = results.slice(start, end);
+    const totalPages = Math.ceil(results.length / resultsPerPage);
+    
+    // Update count
+    resultsCount.textContent = `${results.length} result${results.length !== 1 ? 's' : ''} found`;
+    
+    // Render list
+    if (pageResults.length === 0) {
+      resultsList.innerHTML = '<p class="no-results">No articles match your search criteria.</p>';
+    } else {
+      resultsList.innerHTML = pageResults.map(item => `
+        <article class="news-article-item search-result-item">
+          <time datetime="${item.date}">${item.dateDisplay}</time>
+          <span class="article-section">${item.section}</span>
+          <h3><a href="${item.url}">${item.title}</a></h3>
+        </article>
+      `).join('');
+    }
+    
+    // Render pagination
+    if (totalPages > 1) {
+      let paginationHtml = '';
+      
+      // Previous
+      if (page > 1) {
+        paginationHtml += `<button class="page-arrow prev" data-page="${page - 1}">←</button>`;
+      }
+      
+      // Page numbers
+      const startPage = Math.max(1, page - 2);
+      const endPage = Math.min(totalPages, page + 2);
+      
+      if (startPage > 1) {
+        paginationHtml += `<button class="page-number" data-page="1">1</button>`;
+        if (startPage > 2) paginationHtml += `<span class="page-ellipsis">...</span>`;
+      }
+      
+      for (let i = startPage; i <= endPage; i++) {
+        if (i === page) {
+          paginationHtml += `<span class="page-number current" aria-current="page">${i}</span>`;
+        } else {
+          paginationHtml += `<button class="page-number" data-page="${i}">${i}</button>`;
+        }
+      }
+      
+      if (endPage < totalPages) {
+        if (endPage < totalPages - 1) paginationHtml += `<span class="page-ellipsis">...</span>`;
+        paginationHtml += `<button class="page-number" data-page="${totalPages}">${totalPages}</button>`;
+      }
+      
+      // Next
+      if (page < totalPages) {
+        paginationHtml += `<button class="page-arrow next" data-page="${page + 1}">→</button>`;
+      }
+      
+      resultsPagination.innerHTML = paginationHtml;
+      
+      // Add click handlers
+      resultsPagination.querySelectorAll('[data-page]').forEach(btn => {
+        btn.addEventListener('click', () => renderResults(currentResults, parseInt(btn.dataset.page)));
+      });
+    } else {
+      resultsPagination.innerHTML = '';
+    }
+    
+    // Show results, hide main list
+    searchResults.hidden = false;
+    if (mainContent) mainContent.style.display = 'none';
+    if (mainPagination) mainPagination.style.display = 'none';
+    clearBtn.style.display = 'inline-block';
+  }
+  
+  // Clear search
+  function clearSearch() {
+    keywordInput.value = '';
+    startDateInput.value = '';
+    endDateInput.value = '';
+    searchResults.hidden = true;
+    if (mainContent) mainContent.style.display = '';
+    if (mainPagination) mainPagination.style.display = '';
+    clearBtn.style.display = 'none';
+    currentResults = [];
+    currentPage = 1;
+  }
+  
+  // Form submit
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const keyword = keywordInput.value;
+    const startDate = startDateInput.value;
+    const endDate = endDateInput.value;
+    
+    // Require at least one filter
+    if (!keyword && !startDate && !endDate) {
+      alert('Please enter a keyword or select a date range.');
+      return;
+    }
+    
+    // Load index if needed
+    if (!searchIndex) {
+      resultsList.innerHTML = '<p class="loading">Loading search index...</p>';
+      searchResults.hidden = false;
+      await loadSearchIndex();
+    }
+    
+    const results = search(keyword, startDate, endDate);
+    renderResults(results, 1);
+  });
+  
+  // Clear button
+  clearBtn.addEventListener('click', clearSearch);
+  backBtn.addEventListener('click', clearSearch);
+  
+  // Preload search index on hover
+  form.addEventListener('mouseenter', loadSearchIndex, { once: true });
+})();
+</script>

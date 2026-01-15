@@ -1,0 +1,11 @@
+{{- $searchIndex := slice -}}
+{{- range where .Site.RegularPages "Section" "news" -}}
+  {{- $searchIndex = $searchIndex | append (dict 
+    "title" .Title 
+    "url" .RelPermalink 
+    "date" (.Date.Format "2006-01-02")
+    "dateDisplay" (.Date.Format "January 2, 2006")
+    "section" .CurrentSection.Title
+  ) -}}
+{{- end -}}
+{{- $searchIndex | jsonify -}}

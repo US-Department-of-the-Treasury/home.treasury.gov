@@ -2185,6 +2185,144 @@ button.nav-link {
   background: var(--treasury-navy);
 }
 
+.btn-clear {
+  display: inline-block;
+  background: transparent;
+  color: var(--treasury-navy-light);
+  border: 1px solid var(--treasury-navy-light);
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+}
+
+.btn-clear:hover {
+  background: var(--gray-100);
+}
+
+/* Search Results */
+.search-results {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-300);
+}
+
+.search-results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#results-count {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  font-weight: 600;
+}
+
+.btn-back-to-list {
+  background: none;
+  border: none;
+  color: var(--treasury-navy-light);
+  font-size: 0.8125rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+}
+
+.btn-back-to-list:hover {
+  text-decoration: underline;
+}
+
+.results-list {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.search-result-item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.search-result-item time {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+}
+
+.search-result-item .article-section {
+  font-size: 0.6875rem;
+  color: var(--gray-500);
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+}
+
+.search-result-item h3 {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  margin: 0.25rem 0 0;
+  line-height: 1.4;
+}
+
+.search-result-item h3 a {
+  color: var(--treasury-navy-light);
+  text-decoration: none;
+}
+
+.search-result-item h3 a:hover {
+  text-decoration: underline;
+}
+
+.no-results {
+  color: var(--gray-600);
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+.loading {
+  color: var(--gray-500);
+  padding: 1rem 0;
+}
+
+.results-pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--gray-200);
+  flex-wrap: wrap;
+}
+
+.results-pagination .page-number,
+.results-pagination .page-arrow {
+  background: none;
+  border: 1px solid var(--gray-300);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  min-width: 28px;
+  text-align: center;
+}
+
+.results-pagination .page-number:hover,
+.results-pagination .page-arrow:hover {
+  background: var(--gray-100);
+}
+
+.results-pagination .page-number.current {
+  background: var(--treasury-navy-light);
+  color: #fff;
+  border-color: var(--treasury-navy-light);
+}
+
+.results-pagination .page-ellipsis {
+  padding: 0 0.25rem;
+  color: var(--gray-500);
+}
+
 .btn-subscribe {
   display: block;
   background: var(--treasury-navy-light);
