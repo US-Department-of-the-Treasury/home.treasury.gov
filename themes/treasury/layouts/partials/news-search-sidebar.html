@@ -1,5 +1,8 @@
 {{/* Right sidebar with keyword search and date filters - Local search */}}
-<aside class="search-sidebar">
+<aside class="search-sidebar" id="mobile-search-panel">
+  {{/* Mobile close button */}}
+  <button class="mobile-filter-close" id="mobile-filter-close" aria-label="Close filters">×</button>
+  
   <h2 class="sidebar-title">KEYWORD SEARCH</h2>
   
   <form class="news-filter-form" id="news-search-form">
@@ -16,18 +19,21 @@
     
     {{/* Date Range Filters */}}
     <div class="date-filters">
+      <p class="date-filter-label">Filter by date range:</p>
       <div class="date-field">
-        <label for="start-date">Start date</label>
+        <label for="start-date">From</label>
         <input type="date" 
                id="start-date"
-               class="date-input">
+               class="date-input"
+               aria-describedby="date-hint">
       </div>
       <div class="date-field">
-        <label for="end-date">End date</label>
+        <label for="end-date">To</label>
         <input type="date" 
                id="end-date"
                class="date-input">
       </div>
+      <span id="date-hint" class="date-range-hint">e.g., 2020-01-01 to 2025-12-31</span>
     </div>
     
     {{/* Apply Button */}}
@@ -228,5 +234,29 @@
   
   // Preload search index on hover
   form.addEventListener('mouseenter', loadSearchIndex, { once: true });
+  
+  // Mobile filter toggle
+  const mobileToggle = document.getElementById('mobile-filter-toggle');
+  const mobileClose = document.getElementById('mobile-filter-close');
+  const searchPanel = document.getElementById('mobile-search-panel');
+  
+  if (mobileToggle && searchPanel) {
+    mobileToggle.addEventListener('click', function() {
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !isExpanded);
+      searchPanel.classList.toggle('mobile-open');
+      document.body.classList.toggle('filter-panel-open');
+    });
+  }
+  
+  if (mobileClose && searchPanel) {
+    mobileClose.addEventListener('click', function() {
+      searchPanel.classList.remove('mobile-open');
+      document.body.classList.remove('filter-panel-open');
+      if (mobileToggle) {
+        mobileToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
 })();
 </script>

@@ -29,14 +29,27 @@
           <div class="title-underline"></div>
         </header>
         
+        {{/* Mobile Filter Toggle */}}
+        <button class="mobile-filter-toggle" id="mobile-filter-toggle" aria-expanded="false" aria-controls="mobile-search-panel">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+          </svg>
+          Filter & Search
+        </button>
+        
         {{ if .Content }}
         <div class="news-intro">
           {{ .Content }}
         </div>
         {{ end }}
         
+        {{/* Results Count */}}
+        {{ $paginator := .Paginate .Pages 10 }}
+        <div class="results-summary">
+          <span class="results-count-display">Showing {{ len $paginator.Pages }} of {{ len .Pages }} {{ .Title }}</span>
+        </div>
+        
         <div class="news-article-list">
-          {{ $paginator := .Paginate .Pages 10 }}
           {{ range $paginator.Pages }}
           <article class="news-article-item">
             <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
@@ -63,12 +76,21 @@
           {{ $baseURL := .CurrentSection.RelPermalink }}
           
           <div class="pagination">
+            {{/* First Button */}}
+            {{ if gt $currentPage 1 }}
+            <a href="{{ $baseURL }}" class="page-nav first" aria-label="First page">« First</a>
+            {{ else }}
+            <span class="page-nav first disabled" aria-disabled="true">« First</span>
+            {{ end }}
+            
             {{/* Previous Arrow */}}
             {{ if $paginator.HasPrev }}
             <a href="{{ $paginator.Prev.URL }}" class="page-arrow prev" aria-label="Previous page">←</a>
+            {{ else }}
+            <span class="page-arrow prev disabled" aria-disabled="true">←</span>
             {{ end }}
             
-            {{/* First page */}}
+            {{/* First page number */}}
             {{ if eq $currentPage 1 }}
             <span class="page-number current" aria-current="page">1</span>
             {{ else }}
@@ -76,15 +98,15 @@
             {{ end }}
             
             {{/* Left ellipsis */}}
-            {{ if gt $currentPage 3 }}
+            {{ if gt $currentPage 4 }}
             <span class="page-ellipsis">...</span>
             {{ end }}
             
-            {{/* Pages around current */}}
+            {{/* Pages around current - show 2 on each side */}}
             {{ range $paginator.Pagers }}
               {{ $pageNum := .PageNumber }}
               {{ if and (gt $pageNum 1) (lt $pageNum $totalPages) }}
-                {{ if and (ge $pageNum (sub $currentPage 1)) (le $pageNum (add $currentPage 1)) }}
+                {{ if and (ge $pageNum (sub $currentPage 2)) (le $pageNum (add $currentPage 2)) }}
                   {{ if eq $pageNum $currentPage }}
                   <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
                   {{ else }}
@@ -95,11 +117,11 @@
             {{ end }}
             
             {{/* Right ellipsis */}}
-            {{ if lt $currentPage (sub $totalPages 2) }}
+            {{ if lt $currentPage (sub $totalPages 3) }}
             <span class="page-ellipsis">...</span>
             {{ end }}
             
-            {{/* Last page */}}
+            {{/* Last page number */}}
             {{ if gt $totalPages 1 }}
               {{ if eq $currentPage $totalPages }}
               <span class="page-number current" aria-current="page">{{ $totalPages }}</span>
@@ -111,6 +133,15 @@
             {{/* Next Arrow */}}
             {{ if $paginator.HasNext }}
             <a href="{{ $paginator.Next.URL }}" class="page-arrow next" aria-label="Next page">→</a>
+            {{ else }}
+            <span class="page-arrow next disabled" aria-disabled="true">→</span>
+            {{ end }}
+            
+            {{/* Last Button */}}
+            {{ if lt $currentPage $totalPages }}
+            <a href="{{ $baseURL }}page/{{ $totalPages }}/" class="page-nav last" aria-label="Last page">Last »</a>
+            {{ else }}
+            <span class="page-nav last disabled" aria-disabled="true">Last »</span>
             {{ end }}
           </div>
           
