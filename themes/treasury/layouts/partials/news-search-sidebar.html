@@ -41,7 +41,7 @@
   <div id="search-results" class="search-results" hidden>
     <div class="search-results-header">
       <span id="results-count"></span>
-      <button type="button" class="btn-back-to-list" id="back-to-list">← Back to list</button>
+      <button type="button" class="btn-back-to-list" id="back-to-list">← Reset</button>
     </div>
     <div id="results-list" class="results-list"></div>
     <div id="results-pagination" class="results-pagination"></div>
@@ -72,8 +72,6 @@
   const resultsPagination = document.getElementById('results-pagination');
   const clearBtn = document.getElementById('clear-search');
   const backBtn = document.getElementById('back-to-list');
-  const mainContent = document.querySelector('.news-article-list');
-  const mainPagination = document.querySelector('.pagination');
   
   // Load search index
   async function loadSearchIndex() {
@@ -183,10 +181,8 @@
       resultsPagination.innerHTML = '';
     }
     
-    // Show results, hide main list
+    // Show results in sidebar (main list stays visible)
     searchResults.hidden = false;
-    if (mainContent) mainContent.style.display = 'none';
-    if (mainPagination) mainPagination.style.display = 'none';
     clearBtn.style.display = 'inline-block';
   }
   
@@ -196,8 +192,6 @@
     startDateInput.value = '';
     endDateInput.value = '';
     searchResults.hidden = true;
-    if (mainContent) mainContent.style.display = '';
-    if (mainPagination) mainPagination.style.display = '';
     clearBtn.style.display = 'none';
     currentResults = [];
     currentPage = 1;
