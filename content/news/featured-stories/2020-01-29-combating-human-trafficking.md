@@ -12,13 +12,11 @@ Human trafficking is a transnational threat that preys on society’s most vulne
 
 [View more information on U.S. Government and financial institutions’ efforts to combat money laundering related to human trafficking and recommendations to improve those efforts](https://home.treasury.gov/system/files/136/Report-Money-Laundering-Human-Trafficking.pdf).
 
-### 
 
 ### Tools For Combating Human Trafficking
 
 Treasury has various tools and offices to support the mission of combating human trafficking, including anti-money laundering (AML) and sanctions authorities. The Office of Terrorism and Financial Intelligence (TFI) integrates countering the financial operations of human trafficking networks into Treasury’s strategy to safeguard the financial system and combat illicit threats. TFI, through the Office of Terrorist Financing and Financial Crimes (TFFC), the Financial Crimes Enforcement Network (FinCEN), the Office of Foreign Assets Control (OFAC), and the Office of Intelligence Analysis (OIA), coordinates with other Federal agencies, state and local law enforcement, and foreign governments to combat human trafficking.
 
-### 
 
 ### Prevent
 
@@ -127,4 +125,3 @@ For example, TFFC conducts outreach to the financial services industry to identi
  
  
 
-###

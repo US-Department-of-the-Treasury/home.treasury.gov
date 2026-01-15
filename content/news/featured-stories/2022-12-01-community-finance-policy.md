@@ -34,7 +34,7 @@ At the Freedman’s Bank Forum this year, EOC members including Bank of America,
 
 ***
 
-Moving forward, one important way the Administration’s efforts can help guide this discussion is by making available some of the data we’ve collected on CDFIs and MDIs in the process of implementing these programs. Private-sector organizations may find Treasury’s approach to impact assessment informative. In that spirit, for the first time, Treasury is publicly sharing examples of[ECIP applicants that provided definitive data that demonstrates strong track records in deep-impact lending](https://home.treasury.gov/system/files/136/ECIP-Impact-Document.pdf).[[1]](#_ftn1)Deep-impact lending includes, for example, loans to low-income borrowers and underserved small businesses, for deeply affordable housing, and in persistent-poverty communities.
+Moving forward, one important way the Administration’s efforts can help guide this discussion is by making available some of the data we’ve collected on CDFIs and MDIs in the process of implementing these programs. Private-sector organizations may find Treasury’s approach to impact assessment informative. In that spirit, for the first time, Treasury is publicly sharing examples of[ECIP applicants that provided definitive data that demonstrates strong track records in deep-impact lending](https://home.treasury.gov/system/files/136/ECIP-Impact-Document.pdf).[1]Deep-impact lending includes, for example, loans to low-income borrowers and underserved small businesses, for deeply affordable housing, and in persistent-poverty communities.
 
 These metrics are part of the framework Treasury has developed to provide clarity about the purpose and economic impact of community development investment. We believe robust program implementation requires attention to data to help ensure funds go where they will have the greatest impact and meet the needs of underserved communities. Treasury also recognizes that this framework may help private investors understand how to target their support for CDFIs and MDIs
 
@@ -46,4 +46,4 @@ Just as we are in a transformational moment for community investing policy and p
 
 [Through the implementation of the American Rescue Plan](https://home.treasury.gov/news/press-releases/jy0709), Treasury’s policies have supported an equitable recovery from the economic impacts of the COVID crisis.  Building on that experience we plan to continue to put equity at the heart of our work to implement new legislation, like the Inflation Reduction Act, and to collaborate with the private sector to build a more inclusive economy.
 
-[[1]](#_ftnref1)Deep impact lending is defined in Treasury’s[ECIP Rate Reduction Guidelines](https://home.treasury.gov/system/files/136/Rate-Reduction-Incentive-Guidelines.pdf).
+[1]Deep impact lending is defined in Treasury’s[ECIP Rate Reduction Guidelines](https://home.treasury.gov/system/files/136/Rate-Reduction-Incentive-Guidelines.pdf).

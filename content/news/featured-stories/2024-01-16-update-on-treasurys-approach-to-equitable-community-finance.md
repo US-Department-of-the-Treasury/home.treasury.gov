@@ -50,4 +50,3 @@ Treasury’s approach to community finance policy is not only shaping the delive
 
 Treasury is committed to seeking further data and lessons about the impacts of its community finance programs, and Treasury’s[Economic Recovery Learning Agenda](https://home.treasury.gov/system/files/136/ORP-Learning-Agenda-Final.pdf)provides detail on our approach.
 
-###

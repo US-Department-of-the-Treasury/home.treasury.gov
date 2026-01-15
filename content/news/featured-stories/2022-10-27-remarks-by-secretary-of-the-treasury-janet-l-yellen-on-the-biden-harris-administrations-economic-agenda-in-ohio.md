@@ -32,7 +32,7 @@ Less than a year later, I’m proud to report that we’ve enacted key parts of 
 
 Economic research has long established that investment in basic infrastructure increases productivity, attracts business activity, and is associated with higher rates of economic growth. Put simply, good infrastructure makes it easier to make things in America and ship our products to the world. Better freight rail allows goods to move from Point A to Point B with fewer disruptions. Modern roads, bridges, and public transportation help connect workers with training, education, and better jobs. Expanding our electric grid and broadband infrastructure help lay the foundations for modern industries like clean energy and digital technology.
 
-Our economic plan invests in everything I just mentioned. But we also know that it’s not enough just to fund infrastructure. We need to accelerate the pace at which we deploy these projects in order to maximize the economic benefits. This month, our Administration announced an Action Plan to efficiently deliver infrastructure that is “On Time, On Task, and On Budget.”[[1]](#_ftn1)We are advancing our Permitting Action Plan to speed up investments while upholding bedrock standards and laws. We are also working with employers, labor unions, and training providers to build a robust talent pipeline of skilled workers in sectors like construction and electrification.
+Our economic plan invests in everything I just mentioned. But we also know that it’s not enough just to fund infrastructure. We need to accelerate the pace at which we deploy these projects in order to maximize the economic benefits. This month, our Administration announced an Action Plan to efficiently deliver infrastructure that is “On Time, On Task, and On Budget.”[1]We are advancing our Permitting Action Plan to speed up investments while upholding bedrock standards and laws. We are also working with employers, labor unions, and training providers to build a robust talent pipeline of skilled workers in sectors like construction and electrification.
 
 In sum, our investments in infrastructure will boost our economic potential. They will help build on the progress we’ve made in American manufacturing. They will also help our economy cope with unexpected shocks – like pandemics or climate disasters.
 
@@ -46,11 +46,11 @@ Semiconductors have been a major area of focus. These microchips power so much o
 
 The United States is a leader in certain parts of the semiconductor ecosystem – like chip design. But we’ve lost our leadership in semiconductor manufacturing. Three decades ago, the United States made 37 percent of semiconductors sold globally. Today, we produce only 12 percent. When it comes to the most advanced chips, we have no meaningful manufacturing capacity at all.
 
-Semiconductors are so critical that China, Japan, South Korea, and the European Union have – or are about to – invest in growing their domestic manufacturing capacity.[[2]](#_ftn2)The economic stakes are high. The pandemic chip shortage resulted in a loss of about $240 billion in U.S. GDP last year.[[3]](#_ftn3)Here in Ohio, the shortage caused automakers like Ford to temporarily shut down their assembly plants.[[4]](#_ftn4)
+Semiconductors are so critical that China, Japan, South Korea, and the European Union have – or are about to – invest in growing their domestic manufacturing capacity.[2]The economic stakes are high. The pandemic chip shortage resulted in a loss of about $240 billion in U.S. GDP last year.[3]Here in Ohio, the shortage caused automakers like Ford to temporarily shut down their assembly plants.[4]
 
 Our economic plan is nurturing the growth of the full semiconductor ecosystem in the United States: from R&D to design to fabrication. Tens of billions of dollars will go toward growing domestic semiconductor manufacturing in America. We believe that this will reduce economic and national security risks. It will provide greater certainty to both businesses and consumers. And it will also build our leadership in areas like R&D; close collaboration between “lab” and “fab” is necessary to directing R&D efforts based on what works on the factory floor.
 
-There’s already been progress. Major manufacturers are expanding their U.S. footprint. Just last month, Intel broke ground on its $20 billion semiconductor plant outside of Columbus.[[5]](#_ftn5)Intel’s project is said to be the single largest private investment in Ohio’s history. When completed, it will employ thousands of Ohioans and support tens of thousands of additional long-term jobs throughout the ecosystem. We are already seeing reverberating effects of this investment on local communities. For example, Intel is investing $50 million in Ohio colleges and universities to help train the next generation of chipmakers.[[6]](#_ftn6)
+There’s already been progress. Major manufacturers are expanding their U.S. footprint. Just last month, Intel broke ground on its $20 billion semiconductor plant outside of Columbus.[5]Intel’s project is said to be the single largest private investment in Ohio’s history. When completed, it will employ thousands of Ohioans and support tens of thousands of additional long-term jobs throughout the ecosystem. We are already seeing reverberating effects of this investment on local communities. For example, Intel is investing $50 million in Ohio colleges and universities to help train the next generation of chipmakers.[6]
 
 ### Building an Economy that Works for All
 
@@ -66,11 +66,11 @@ A prime example is investing in small manufacturers, including those in underser
 
 We are beginning to see signs of renewal in places and sectors that have traditionally seen disinvestment. American manufacturing employment had dropped precipitously over the past few decades. In Ohio, people employed in manufacturing jobs fell from a million in 2000 – to less than 700,000 twenty years later – even as Ohio’s population grew. But our Administration’s manufacturing incentives have recently led to a wave of private sector commitments that will power our economy and create good-paying jobs. Clean energy industries have been shown to create broad opportunity across the country, including in non-coastal areas and communities traditionally reliant on fossil fuel extraction. In fact, the Inflation Reduction Act provides businesses with bonus tax incentives for investing in low-income and energy communities. This is a place-based investment strategy designed to broaden economic opportunity across all communities.
 
-Since January of last year, companies have announced over $100 billion in EV, battery, and charging investments here in America.[[7]](#_ftn7)Honda and LG earlier this month announced a battery plant in Fayette County – right outside Columbus.[[8]](#_ftn8)This plant will create thousands of new jobs. The wave of new battery investments in the Midwest has been so significant that some commentators are dubbing the region as the new “Battery Belt.”[[9]](#_ftn9)We expect to see our economic plan continue to drive a significant amount of capital into good clean energy and manufacturing jobs over the coming months and years.
+Since January of last year, companies have announced over $100 billion in EV, battery, and charging investments here in America.[7]Honda and LG earlier this month announced a battery plant in Fayette County – right outside Columbus.[8]This plant will create thousands of new jobs. The wave of new battery investments in the Midwest has been so significant that some commentators are dubbing the region as the new “Battery Belt.”[9]We expect to see our economic plan continue to drive a significant amount of capital into good clean energy and manufacturing jobs over the coming months and years.
 
 As we create an economy that works for all Americans, we also know economic fairness requires all Americans to play by the same rules. Too often, that has not been the case in our tax system.
 
-We currently have a two-tiered tax system: one where average families pay their fair share while large corporations and high-income earners too often do not. Take the “tax gap.” That’s the amount of taxes owed but not paid to the IRS. In 2019, the top one percent of Americans was estimated to owe over a fifth of unpaid taxes – a total of around $160 billion.[[10]](#_ftn10)
+We currently have a two-tiered tax system: one where average families pay their fair share while large corporations and high-income earners too often do not. Take the “tax gap.” That’s the amount of taxes owed but not paid to the IRS. In 2019, the top one percent of Americans was estimated to owe over a fifth of unpaid taxes – a total of around $160 billion.[10]
 
 Much of the disparity stemmed from chronic underinvestment in the IRS. This was unacceptable to the President and me. So, we secured $80 billion of new funding for the agency.
 
@@ -90,22 +90,22 @@ Thank you.
 
  
 
-[[1]](#_ftnref1)https://www.whitehouse.gov/wp-content/uploads/2022/10/Action-Plan-for-Accelerating-Infrastructure-October-2022.pdf
+[1]https://www.whitehouse.gov/wp-content/uploads/2022/10/Action-Plan-for-Accelerating-Infrastructure-October-2022.pdf
 
-[[2]](#_ftnref2)https://www.nytimes.com/2022/06/17/us/politics/semiconductors-congress-chips.html
+[2]https://www.nytimes.com/2022/06/17/us/politics/semiconductors-congress-chips.html
 
-[[3]](#_ftnref3)https://www.commerce.gov/news/press-releases/2022/04/analysis-chips-act-and-bia-briefing
+[3]https://www.commerce.gov/news/press-releases/2022/04/analysis-chips-act-and-bia-briefing
 
-[[4]](#_ftnref4)https://fordauthority.com/2022/03/ford-ohio-assembly-plant-idled-for-another-week-due-to-chip-shortage/
+[4]https://fordauthority.com/2022/03/ford-ohio-assembly-plant-idled-for-another-week-due-to-chip-shortage/
 
-[[5]](#_ftnref5)https://www.washingtonpost.com/us-policy/2022/09/09/biden-intel-ohio-chip-factory/
+[5]https://www.washingtonpost.com/us-policy/2022/09/09/biden-intel-ohio-chip-factory/
 
-[[6]](#_ftnref6)https://www.intel.com/content/www/us/en/newsroom/news/intel-invests-100m-ohio-national-education.html#gs.frqtfo
+[6]https://www.intel.com/content/www/us/en/newsroom/news/intel-invests-100m-ohio-national-education.html#gs.frqtfo
 
-[[7]](#_ftnref7)https://www.whitehouse.gov/briefing-room/statements-releases/2022/10/19/fact-sheet-biden-harris-administration-driving-u-s-battery-manufacturing-and-good-paying-jobs/
+[7]https://www.whitehouse.gov/briefing-room/statements-releases/2022/10/19/fact-sheet-biden-harris-administration-driving-u-s-battery-manufacturing-and-good-paying-jobs/
 
-[[8]](#_ftnref8)https://hondanews.com/en-US/releases/honda-and-lg-energy-solution-announce-ohio-as-home-to-joint-venture-ev-battery-plant#:~:text=Honda%20and%20LG%20Energy%20Solution%20(LGES%3B%20KRX%3A%20373220),jobs%2C%20pending%20final%20government%20approvals.
+[8]https://hondanews.com/en-US/releases/honda-and-lg-energy-solution-announce-ohio-as-home-to-joint-venture-ev-battery-plant#:~:text=Honda%20and%20LG%20Energy%20Solution%20(LGES%3B%20KRX%3A%20373220),jobs%2C%20pending%20final%20government%20approvals.
 
-[[9]](#_ftnref9)https://www.axios.com/2022/08/17/electric-cars-vehicles-batteries-battery-belt-biden
+[9]https://www.axios.com/2022/08/17/electric-cars-vehicles-batteries-battery-belt-biden
 
-[[10]](#_ftnref10)https://home.treasury.gov/news/featured-stories/the-case-for-a-robust-attack-on-the-tax-gap
+[10]https://home.treasury.gov/news/featured-stories/the-case-for-a-robust-attack-on-the-tax-gap

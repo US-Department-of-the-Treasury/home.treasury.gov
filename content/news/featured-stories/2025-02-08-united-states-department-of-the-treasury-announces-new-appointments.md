@@ -20,4 +20,3 @@ Luke Pettit will be Assistant Secretary for Financial Institutions at the U.S. D
 
 Jason De Sena Trennert will be Assistant Secretary for Financial Markets.  In his 34 years on Wall Street, Mr. Trennert has established himself as one of the country’s leading thought leaders on financial markets and economic policy as Chairman of Strategas Research Partners, a firm he co-founded 18 years ago and which currently is ranked Wall Street’s number one macroeconomic research shop.  He was the first strategist on Wall Street to forecast President Trump's appeal as a Presidential candidate as early as 2011 and was bold in predicting his victory in 2016 and the bull market that followed.  He is the author of three books on investing and the investment business.
 
-###

@@ -12,4 +12,3 @@ The additional details, provided in a[fact sheet](https://www.irs.gov/newsroom/e
 
 For more details on how the paid leave tax credits from the American Rescue Plan will work for employers to enable employees to get vaccinated and recover from after-effects of vaccination, as well as for other purposes, see the[snapshot](https://home.treasury.gov/system/files/136/Paid-Leave-Credit-Snapshot.pdf)also released today by Treasury.
 
-###

@@ -14,4 +14,3 @@ For more information on changes in withholding rates and implications of the new
 
 [Message from Treasury Secretary Steven Mnuchin](https://youtu.be/2WKqyNIyuWI)
 
-###

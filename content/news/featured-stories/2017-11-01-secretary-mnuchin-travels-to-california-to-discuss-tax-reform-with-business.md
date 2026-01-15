@@ -14,4 +14,3 @@ While in California, Secretary Mnuchin will deliver remarks and engage in a mode
 
 Click here to view a[full list of the Secretary's events](https://www.treasury.gov/press-center/daily-guidance/Pages/11012017.aspx).
 
-####

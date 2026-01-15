@@ -12,4 +12,3 @@ url: /news/recent-highlights/Statement by Secretary Mnuchin on Today’s Preside
 
 “We support free, fair, and reciprocal trading relationships. The United States offers the biggest consumer market and among the most generous trading terms. We now need better and more balanced trade in return.”
 
-####

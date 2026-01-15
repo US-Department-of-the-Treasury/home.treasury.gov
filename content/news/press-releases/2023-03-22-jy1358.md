@@ -22,4 +22,3 @@ The Treasury Department has undertaken several initiatives to help funds quickly
 
 [More information on the Emergency Rental Assistance Program is available here.](https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/emergency-rental-assistance-program)
 
-###

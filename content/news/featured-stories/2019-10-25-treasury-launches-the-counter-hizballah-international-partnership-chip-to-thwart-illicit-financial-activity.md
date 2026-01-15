@@ -10,4 +10,3 @@ url: /news/featured-stories/treasury-launches-the-counter-hizballah-internationa
 
 At the meeting, the United States condemned Hizballah’s abuse of the international financial system and identified impact-oriented steps countries should take to stem this abuse, including sharing information among financial intelligence units, strengthening terrorism finance risk assessments, developing targeted financial sanctions regimes, and prosecuting terrorists and their financial facilitators. Participating countries noted the importance of raising Hizballah in international fora to build momentum and ensure coordination of efforts. The next steps for meeting participants will be to send technical experts to the Law Enforcement Coordination Group (LECG), which will next convene December 16-17 in The Hague, Netherlands.
 
-####

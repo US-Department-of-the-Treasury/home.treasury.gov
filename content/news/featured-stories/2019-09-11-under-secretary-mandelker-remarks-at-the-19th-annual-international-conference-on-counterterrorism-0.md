@@ -118,4 +118,3 @@ I know that in this room there are many who have similarly engaged in great acts
 
 Thank you.
 
-####

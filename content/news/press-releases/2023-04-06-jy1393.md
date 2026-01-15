@@ -50,4 +50,3 @@ IRS will hire experienced accountants and attorneys and utilize improved data an
 - [For more on how the Strategic Operating Plan will increase fairness in tax administration click here.](https://home.treasury.gov/system/files/136/TaxFairnessSOPOnePager.pdf)
 - [For more on how the Strategic Operating Plan will benefit all communities click here.](https://home.treasury.gov/system/files/136/StakeholderSOPOnePager.pdf)
 
-###

@@ -32,4 +32,3 @@ April 23 – 26: Astana and Almaty, Kazakhstan
 
 April 27 – 28: Bishkek, Kyrgyzstan
 
-###

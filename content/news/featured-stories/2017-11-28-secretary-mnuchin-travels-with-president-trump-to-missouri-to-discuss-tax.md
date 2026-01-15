@@ -10,4 +10,3 @@ url: /news/featured-stories/secretary-mnuchin-travels-with-president-trump-to-mi
 
 The event took place at the St. Charles Convention Center.
 
-####

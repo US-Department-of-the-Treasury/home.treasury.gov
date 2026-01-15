@@ -48,7 +48,7 @@ U.S. core CPI inflation (excluding food and energy) has declined significantly o
 
   
 
-Elevated inflation has been a phenomenon among most industrialized nations. Although inflation in the United States rose earlier than in other G7 economies—reflecting the brisk recovery from the pandemic—it also fell sooner and quicker. Indeed, once we exclude owners’ equivalent rent to make U.S. core inflation comparable to other countries, the U.S. harmonized core inflation is now about 2 percent—well below many other large advanced economies.[[1]](#_ftn1)Some of the differential relative to European economies is due to Russia’s invasion of Ukraine, which raised food and energy prices substantially with some passing through to core inflation. Even despite this challenge, these economies have shown some signs of disinflation recently—welcome trends for their near- and medium-run outlooks.
+Elevated inflation has been a phenomenon among most industrialized nations. Although inflation in the United States rose earlier than in other G7 economies—reflecting the brisk recovery from the pandemic—it also fell sooner and quicker. Indeed, once we exclude owners’ equivalent rent to make U.S. core inflation comparable to other countries, the U.S. harmonized core inflation is now about 2 percent—well below many other large advanced economies.[1]Some of the differential relative to European economies is due to Russia’s invasion of Ukraine, which raised food and energy prices substantially with some passing through to core inflation. Even despite this challenge, these economies have shown some signs of disinflation recently—welcome trends for their near- and medium-run outlooks.
 
 ### Conclusion: Improving Near-Term Outlook
 
@@ -56,4 +56,4 @@ Stronger-than-expected U.S. growth continues to drive surprises to the upside in
 
  
 
-[[1]](#_ftnref1)Including OER raises the U.S. core inflation rate to 4.1 percent in September 2023, but the broad international comparison conclusions hold when we use individual country-preferred measures.
+[1]Including OER raises the U.S. core inflation rate to 4.1 percent in September 2023, but the broad international comparison conclusions hold when we use individual country-preferred measures.

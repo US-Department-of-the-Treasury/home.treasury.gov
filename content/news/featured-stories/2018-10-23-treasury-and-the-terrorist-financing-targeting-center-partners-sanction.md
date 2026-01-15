@@ -94,4 +94,3 @@ Majid was an advisor to now deceased former leader of the Taliban, Mullah Omar.Â
 
 [Identifying information on the individuals designated today](https://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20181023.aspx).
 
-####

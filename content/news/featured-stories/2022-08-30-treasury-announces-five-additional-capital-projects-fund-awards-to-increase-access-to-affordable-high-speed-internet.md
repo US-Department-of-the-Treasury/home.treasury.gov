@@ -28,4 +28,3 @@ The following descriptions summarize the five state’s plans that Treasury appr
 
 [** North Dakota**](https://home.treasury.gov/system/files/136/State-Award-Fact-Sheet-ND-Aug-2022.pdf), approved for $45 million estimates it will connect 3,965 homes and businesses to affordable, reliable high-speed internet service. The program aims to provide sustainable, future-proof connectivity to areas in the state lacking connectivity of at least 100/20 Mbps, including tribal lands. The state plans to collaborate with tribal organizations to identify solutions to address specific connectivity needs.
 
-###

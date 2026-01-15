@@ -4,24 +4,6 @@
 <script>window.location.replace("/news/press-releases/");</script>
 <meta http-equiv="refresh" content="0; url=/news/press-releases/">
 {{ else }}
-
-{{/* Handle ?page=X query param - redirect to Hugo's /page/X+1/ */}}
-<script>
-(function() {
-  var params = new URLSearchParams(window.location.search);
-  var page = params.get('page');
-  if (page !== null) {
-    var pageNum = parseInt(page, 10) + 1;
-    var totalPages = {{ .Paginator.TotalPages }};
-    if (pageNum > 1 && pageNum <= totalPages) {
-      window.location.replace(window.location.pathname + 'page/' + pageNum + '/');
-    } else if (pageNum > totalPages) {
-      window.location.replace('https://home.treasury.gov' + window.location.pathname + '?page=' + page);
-    }
-  }
-})();
-</script>
-
 <div class="breadcrumbs">
   <div class="container">
     <nav aria-label="Breadcrumb">
@@ -41,7 +23,7 @@
       {{ partial "news-sidebar.html" . }}
       
       {{/* Main Content */}}
-      <div class="news-main-content" role="region" aria-labelledby="page-title">
+      <main class="news-main-content">
         <header class="news-page-header">
           <h1 class="page-title">{{ .Title }}</h1>
           <div class="title-underline"></div>
@@ -54,54 +36,52 @@
         {{ end }}
         
         <div class="news-article-list">
-          {{ $paginator := .Paginate .Pages 10 }}
+          {{/* Filter pages based on section - exclude Readouts/Statements/Testimonies from Press Releases */}}
+          {{ $pages := .Pages }}
+          {{ if eq .Title "Press Releases" }}
+            {{ $filtered := slice }}
+            {{ range .Pages }}
+              {{ $title := .Title }}
+              {{ $isReadout := hasPrefix $title "Readout" }}
+              {{ $isREADOUT := hasPrefix $title "READOUT" }}
+              {{ $isStatement := hasPrefix $title "Statement" }}
+              {{ $isTestimony := hasPrefix $title "Testimony" }}
+              {{ if not (or $isReadout $isREADOUT $isStatement $isTestimony) }}
+                {{ $filtered = $filtered | append . }}
+              {{ end }}
+            {{ end }}
+            {{ $pages = $filtered }}
+          {{ end }}
+          {{ $paginator := .Paginate $pages 10 }}
           {{ range $paginator.Pages }}
           <article class="news-article-item">
             <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{/* Display category tags */}}
+            {{ if .Params.category }}
+            <span class="article-category"><a href="/news/{{ .Params.category | urlize }}/">{{ .Params.category }}</a></span>
+            {{ else }}
+              {{ with .Params.categories }}
+                {{ with index . 0 }}
+                <span class="article-category"><a href="/news/{{ . | urlize }}/">{{ . }}</a></span>
+                {{ end }}
+              {{ end }}
+            {{ end }}
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
           </article>
           {{ end }}
         </div>
         
-        {{/* Pagination - Treasury.gov style with sliding window */}}
+        {{/* Pagination - Treasury.gov style (inline, no left arrow, ellipsis) */}}
         {{ if gt $paginator.TotalPages 1 }}
         <nav class="pagination" aria-label="Pagination">
           {{ $currentPage := $paginator.PageNumber }}
           {{ $totalPages := $paginator.TotalPages }}
           
-          {{/* Previous arrow */}}
-          {{ if $paginator.HasPrev }}
-          <a href="{{ $paginator.Prev.URL }}" class="page-arrow prev" aria-label="Previous page">←</a>
-          {{ end }}
-          
-          {{/* Calculate which pages to show - sliding window around current page */}}
-          {{ $startPage := 1 }}
-          {{ $endPage := 3 }}
-          
-          {{/* If current page > 2, center the window around current page */}}
-          {{ if gt $currentPage 2 }}
-            {{ $startPage = sub $currentPage 1 }}
-            {{ $endPage = add $currentPage 1 }}
-          {{ end }}
-          
-          {{/* Don't exceed total pages */}}
-          {{ if gt $endPage $totalPages }}
-            {{ $endPage = $totalPages }}
-            {{ $startPage = sub $endPage 2 }}
-            {{ if lt $startPage 1 }}
-              {{ $startPage = 1 }}
-            {{ end }}
-          {{ end }}
-          
-          {{/* Leading ellipsis if not starting at 1 */}}
-          {{ if gt $startPage 1 }}
-          <span class="page-ellipsis" aria-hidden="true">...</span>
-          {{ end }}
-          
-          {{/* Page numbers */}}
+          {{/* First few pages */}}
           {{ range $paginator.Pagers }}
             {{ $pageNum := .PageNumber }}
-            {{ if and (ge $pageNum $startPage) (le $pageNum $endPage) }}
+            {{/* Show pages 1-3 always */}}
+            {{ if le $pageNum 3 }}
               {{ if eq $pageNum $currentPage }}
               <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
               {{ else }}
@@ -110,18 +90,18 @@
             {{ end }}
           {{ end }}
           
-          {{/* Trailing ellipsis if not ending at last page */}}
-          {{ if lt $endPage $totalPages }}
-          <span class="page-ellipsis" aria-hidden="true">...</span>
+          {{/* Ellipsis if needed */}}
+          {{ if gt $totalPages 4 }}
+          <span class="page-ellipsis">...</span>
           {{ end }}
           
-          {{/* Next arrow */}}
+          {{/* Next Arrow only */}}
           {{ if $paginator.HasNext }}
           <a href="{{ $paginator.Next.URL }}" class="page-arrow next" aria-label="Next page">→</a>
           {{ end }}
         </nav>
         {{ end }}
-      </div>
+      </main>
       
       {{/* Right Sidebar - Keyword Search */}}
       {{ partial "news-search-sidebar.html" . }}

@@ -25,4 +25,3 @@ Treasury has sent compliance letters to all states and localities that have not 
 
 Rental assistance is available across the country, and billions of dollars have already reached hundreds of thousands of households who have faced hardships during the pandemic and need support making their rent, paying their utilities, and keeping their families in their homes. Treasury continues to be committed to working with the White House and other agencies and state and local governments to ensure the historic funding available under the ERA reaches those who need it.
 
-####

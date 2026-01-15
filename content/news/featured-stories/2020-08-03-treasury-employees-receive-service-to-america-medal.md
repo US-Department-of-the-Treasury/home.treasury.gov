@@ -12,4 +12,3 @@ Mr. McDaniel is the Assistant Commissioner for Revenue Collections Management in
 
  
 
-####

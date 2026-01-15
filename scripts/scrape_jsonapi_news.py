@@ -21,6 +21,7 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
 from urllib.parse import urlencode
 
 import requests
@@ -276,8 +277,11 @@ def determine_category(item: dict) -> str:
     return "press-releases"
 
 
-def save_item(item: dict, category_override: str = None) -> Path:
-    """Save a news item as a Hugo markdown file."""
+def save_item(item: dict, category_override: str = None, skip_existing: bool = True) -> Optional[Path]:
+    """Save a news item as a Hugo markdown file.
+
+    If skip_existing is True, existing files are not overwritten.
+    """
     attrs = item.get("attributes", {})
     
     # Extract fields
@@ -355,7 +359,10 @@ def save_item(item: dict, category_override: str = None) -> Path:
     # Combine front matter and content
     full_content = "\n".join(fm_lines) + body_md + "\n"
     
-    # Write file
+    if skip_existing and filepath.exists():
+        return None
+
+    # Write file (overwrite allowed if skip_existing=False)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(full_content)
     
@@ -410,6 +417,11 @@ Categories:
         "--output-category",
         type=str,
         help="Override output category folder (default: auto-detect from path)",
+    )
+    parser.add_argument(
+        "--overwrite-existing",
+        action="store_true",
+        help="Overwrite existing files if present (default: false)",
     )
     parser.add_argument(
         "--dry-run",
@@ -480,16 +492,26 @@ Categories:
                     print(f"   ... and {len(items) - 10} more")
             else:
                 saved = 0
+                skipped = 0
                 for item in items:
                     try:
-                        filepath = save_item(item, output_category)
-                        saved += 1
+                        filepath = save_item(
+                            item,
+                            output_category,
+                            skip_existing=not args.overwrite_existing,
+                        )
+                        if filepath is None:
+                            skipped += 1
+                        else:
+                            saved += 1
                     except Exception as e:
                         attrs = item.get("attributes", {})
                         title = attrs.get("title", "unknown")[:40]
                         print(f"   ⚠️ Error saving '{title}': {e}")
                 
-                print(f"   ✅ Saved {saved} items to content/news/{output_category}/")
+                print(f"   ✅ Saved {saved} new items to content/news/{output_category}/")
+                if skipped:
+                    print(f"   ⏭️ Skipped {skipped} existing items")
                 total_saved += saved
         else:
             print(f"   No items found matching {args.path_filter}")
@@ -539,16 +561,26 @@ Categories:
                 continue
             
             saved = 0
+            skipped = 0
             for item in items:
                 try:
-                    filepath = save_item(item, category)
-                    saved += 1
+                    filepath = save_item(
+                        item,
+                        category,
+                        skip_existing=not args.overwrite_existing,
+                    )
+                    if filepath is None:
+                        skipped += 1
+                    else:
+                        saved += 1
                 except Exception as e:
                     attrs = item.get("attributes", {})
                     title = attrs.get("title", "unknown")[:40]
                     print(f"   ⚠️ Error saving '{title}': {e}")
             
-            print(f"   ✅ Saved {saved} items to content/news/{category}/")
+            print(f"   ✅ Saved {saved} new items to content/news/{category}/")
+            if skipped:
+                print(f"   ⏭️ Skipped {skipped} existing items")
             total_saved += saved
     
     print("\n" + "=" * 50)

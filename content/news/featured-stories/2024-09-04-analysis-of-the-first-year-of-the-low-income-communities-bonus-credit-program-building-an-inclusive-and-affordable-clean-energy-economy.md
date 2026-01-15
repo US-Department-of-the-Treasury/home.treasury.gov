@@ -26,19 +26,19 @@ New[data from Statistics of Income at the Internal Revenue Service](https://www.
 
 ### Background
 
-Renewable energy facilities provide significant savings to adopters and promote clean energy generation, but research indicates renewable energy adoption rates are relatively low in low-income communities, predominantly minority communities, environmental justice communities, on Indian lands, and in other disadvantaged communities.[[1]](#_ftn1)For example, research indicates that inequity in solar adoption reflects various structural, social, and economic challenges.
+Renewable energy facilities provide significant savings to adopters and promote clean energy generation, but research indicates renewable energy adoption rates are relatively low in low-income communities, predominantly minority communities, environmental justice communities, on Indian lands, and in other disadvantaged communities.[1]For example, research indicates that inequity in solar adoption reflects various structural, social, and economic challenges.
 
 #### Solar: A Case Study
 
 Adoption of solar power is one prominent example of structural inequity resulting from a scarce technology being deployed in a market with income inequality among consumers.
 
-Research describes social challenges to solar power adoption, including policies and regulations that can have the effect of favoring adoption by high-income households.[[2]](#_ftn2)Additionally, there can be a lack of trust in key energy institutions, including some utilities and solar power providers, in low-income communities and amongst disadvantaged demographic groups.[[3]](#_ftn3)Systemic differences in housing within low-income communities such as household income and homeownership status in low-income communities also pose adoption challenges for renters and tenants of multifamily buildings who may not be able to own energy systems.[[4]](#_ftn4)
+Research describes social challenges to solar power adoption, including policies and regulations that can have the effect of favoring adoption by high-income households.[2]Additionally, there can be a lack of trust in key energy institutions, including some utilities and solar power providers, in low-income communities and amongst disadvantaged demographic groups.[3]Systemic differences in housing within low-income communities such as household income and homeownership status in low-income communities also pose adoption challenges for renters and tenants of multifamily buildings who may not be able to own energy systems.[4]
 
-For many underserved communities, economic challenges include high upfront costs to own energy systems,[[5]](#_ftn5)and solar installer preferences to market to relatively affluent households.[[6]](#_ftn6)Native communities face many of these challenges and also a “range of other barriers, including complex project economics, Tribal technical and human resource capacity, project funding and financing obstacles, and regulatory challenges.”[[7]](#_ftn7)
+For many underserved communities, economic challenges include high upfront costs to own energy systems,[5]and solar installer preferences to market to relatively affluent households.[6]Native communities face many of these challenges and also a “range of other barriers, including complex project economics, Tribal technical and human resource capacity, project funding and financing obstacles, and regulatory challenges.”[7]
 
-At the same time, business ownership models can influence and promote solar adoption equity. System leasing models have significantly increased low-income rooftop solar adoption,[[8]](#_ftn8)and there are some rooftop solar installers that specialize in serving low-income customers, such as by developing products that cater to low-income households.[[9]](#_ftn9)Further, there is evidence that adoption is higher in communities with local providers and installers physically headquartered in low-income communities.[[10]](#_ftn10)In addition, intermediary actors such as community-based organizations may help identify and implement measures to enhance solar adoption equity.[[11]](#_ftn11)This may include community or cooperative ownership models. Finally, solar purchasing models like community solar have emerged as an effective measure to provide some equitable clean energy access to renters and low-income households.[[12]](#_ftn12)
+At the same time, business ownership models can influence and promote solar adoption equity. System leasing models have significantly increased low-income rooftop solar adoption,[8]and there are some rooftop solar installers that specialize in serving low-income customers, such as by developing products that cater to low-income households.[9]Further, there is evidence that adoption is higher in communities with local providers and installers physically headquartered in low-income communities.[10]In addition, intermediary actors such as community-based organizations may help identify and implement measures to enhance solar adoption equity.[11]This may include community or cooperative ownership models. Finally, solar purchasing models like community solar have emerged as an effective measure to provide some equitable clean energy access to renters and low-income households.[12]
 
-As demand for renewable energy grows and costs decline, there are positive trends for broader adoption. Recent solar adoption data indicates that owner-occupied Black, Latino, and Asian households have significantly increased adoption of rooftop solar over the last decade; efforts to address disparities in solar adoption could help to address income disparities as well.[[13]](#_ftn13)
+As demand for renewable energy grows and costs decline, there are positive trends for broader adoption. Recent solar adoption data indicates that owner-occupied Black, Latino, and Asian households have significantly increased adoption of rooftop solar over the last decade; efforts to address disparities in solar adoption could help to address income disparities as well.[13]
 
 ### Program Design
 
@@ -57,11 +57,11 @@ Treasury and the IRS chose to distribute the available 2023 Program year capacit
 
 To further the Program’s potential impact and to meet statutory objectives, Treasury and the IRS designed the Program to provide pathways for the broad adoption of clean energy. Treasury and the IRS consulted the breadth of research around the barriers to adoption of renewable energy technology by low-income communities and used additional selection criteria to encourage energy facilities with certain characteristics beyond Program eligibility. Per the Program’s final regulations,at least 50 percent of the Program’s capacity in each category was set aside for projects that meet additional selection criteria. These criteria provide access to institutions that have the potential to best serve low-income communities through ownership models designed to benefit low-income communities and encourage clean energy in areas that have historically seen the least investment and where adoption of clean energy may require additional incentives like the Program. Because these applicants and facilities may need more time to put together competitive applications, the final regulations and additional guidance established these set-asides and an initial application period of 30 days during which applications received earlier did not receive priority.
 
-The additional selection criteria for the Program fall into two categories: ownership criteria and geographic criteria. Ownership criteria are based on facility ownership, and include facilities owned by Tribal enterprises, Alaska Native Corporations, renewable energy cooperatives, qualified renewable energy companies, and qualified tax-exempt entities such as nonprofits and state, local, and Tribal governments. Geographic criteria are based on the location of the facility and include facilities located in areas with the highest energy burden and the least investment as determined by the Energy Category of the Climate and Economic Justice Screening Tool (CEJST) or designation as Persistent Poverty Counties.[[14]](#_ftn14)The additional selection criteria are crucial to prioritizing projects that meet the Program’s goals, as well as allocating capacity efficiently.
+The additional selection criteria for the Program fall into two categories: ownership criteria and geographic criteria. Ownership criteria are based on facility ownership, and include facilities owned by Tribal enterprises, Alaska Native Corporations, renewable energy cooperatives, qualified renewable energy companies, and qualified tax-exempt entities such as nonprofits and state, local, and Tribal governments. Geographic criteria are based on the location of the facility and include facilities located in areas with the highest energy burden and the least investment as determined by the Energy Category of the Climate and Economic Justice Screening Tool (CEJST) or designation as Persistent Poverty Counties.[14]The additional selection criteria are crucial to prioritizing projects that meet the Program’s goals, as well as allocating capacity efficiently.
 
 ### First Year Award Statistics
 
-There was robust demand for the Program in the first year, which was open for application submissions from October 19, 2023 to February 29, 2024. In total, the Program received more than 54,000 applications from 48 states, the District of Columbia, Puerto Rico, American Samoa, the Commonwealth of the Northern Mariana Islands, and the U.S. Virgin Islands, requesting over four times the 1.8 gigawatts of direct-current solar and wind generation capacity available for allocation.[[15]](#_ftn15)
+There was robust demand for the Program in the first year, which was open for application submissions from October 19, 2023 to February 29, 2024. In total, the Program received more than 54,000 applications from 48 states, the District of Columbia, Puerto Rico, American Samoa, the Commonwealth of the Northern Mariana Islands, and the U.S. Virgin Islands, requesting over four times the 1.8 gigawatts of direct-current solar and wind generation capacity available for allocation.[15]
 
 Through a rigorous process, the IRS awarded allocations to more than 49,000 solar energy facilities across the country. There were only a small number of applications from and no awards to qualified wind facilities. While only certain Program categories were oversubscribed, awards were prioritized toward facilities that met additional selection criteria, over facilities that did not meet additional selection criteria and capacity was allocated toward categories that provided direct savings to households. 325 megawatts of unused capacity rolled over to the 2024 Program year.
 
@@ -137,7 +137,7 @@ Of these over 49,000 energy facilities awarded an allocation, approximately one-
 
 ### Anticipated Economic Impact
 
-As intended, these awards are supporting clean energy investments and energy cost savings in communities across the country. Once they are built and come online, the approximately 1.5 gigawatts of awarded energy facilities are expected to generate on the order of 2 billion kilowatt hours of clean electricity each year (using national average figures) which is the equivalent to the annual electricity use of 200,000 average-sized U.S. households. This is estimated to be around $270 million in offset energy costs annually.[[16]](#_ftn16)
+As intended, these awards are supporting clean energy investments and energy cost savings in communities across the country. Once they are built and come online, the approximately 1.5 gigawatts of awarded energy facilities are expected to generate on the order of 2 billion kilowatt hours of clean electricity each year (using national average figures) which is the equivalent to the annual electricity use of 200,000 average-sized U.S. households. This is estimated to be around $270 million in offset energy costs annually.[16]
 
 Facilities that received allocations in the Program’s first year include:
 
@@ -148,7 +148,7 @@ Facilities that received allocations in the Program’s first year include:
 
 #### Addressing Energy Burdens for Low-Income Homeowners and Renters
 
-These investments work to address inequities in energy burden that families in low-income communities face (i.e., the percentage of their income that they spend on home energy costs). Low-income families across the country face higher energy burdens, up to three times that of other families.[[17]](#_ftn17)By design, the projects receiving Program allocations will reduce the financial burdens faced by large numbers of low-income households, particularly through the sharing of financial benefits required for qualified low-income residential building projects and qualified low-income economic benefit projects.
+These investments work to address inequities in energy burden that families in low-income communities face (i.e., the percentage of their income that they spend on home energy costs). Low-income families across the country face higher energy burdens, up to three times that of other families.[17]By design, the projects receiving Program allocations will reduce the financial burdens faced by large numbers of low-income households, particularly through the sharing of financial benefits required for qualified low-income residential building projects and qualified low-income economic benefit projects.
 
 #### Creating Access for Increased Adoption
 
@@ -158,7 +158,7 @@ The Program also made progress in creating access for new market participants. I
 
 #### Supporting Local Economic Development
 
-Increased solar installation is driving more economic activity and supports jobs and business activity in underserved and Tribal communities. The over 49,000 energy facilities awarded allocations represent approximately $3.5 billion in investment, based on current average prices.[[18]](#_ftn18)The United States continues to see rapid growth in solar jobs driven by the IRA.[[19]](#_ftn19)Approximately two-thirds of U.S. solar jobs are in installation and project development, with the residential rooftop and commercial-scale solar installations supported by the Program creating more jobs per megawatt than large utility-scale solar projects.[[20]](#_ftn20)
+Increased solar installation is driving more economic activity and supports jobs and business activity in underserved and Tribal communities. The over 49,000 energy facilities awarded allocations represent approximately $3.5 billion in investment, based on current average prices.[18]The United States continues to see rapid growth in solar jobs driven by the IRA.[19]Approximately two-thirds of U.S. solar jobs are in installation and project development, with the residential rooftop and commercial-scale solar installations supported by the Program creating more jobs per megawatt than large utility-scale solar projects.[20]
 
 Many installers are small businesses and small businesses are vital to the economic opportunities for low-income communities. Businesses owned by socially and economically disadvantaged individuals can have substantial local impact, particularly in underserved and underrepresented communities. Supporting these businesses creates jobs, attracts other businesses and investments to the area, and overall strengthens local economies. Many of the facilities that are greater than 1 megawatt will also be subject to the IRA’s prevailing wage and apprenticeship requirements to further incentivize good jobs and workforce development in these communities.
 
@@ -168,42 +168,42 @@ The IRA is an historic investment in clean energy. With just two years having pa
 
  
 
-[[1]](#_ftnref1)[Lukanov & Krieger 2019](https://www.sciencedirect.com/science/article/abs/pii/S0301421519305221?via%3Dihub);[Sunter et al. 2019](https://rael.berkeley.edu/wp-content/uploads/2019/01/Sunter-Castellanos-Kammen-Solar-Disparities-by-Race-SupplementalOnlineMaterial.pdf);[Forrester et al. 2022](https://emp.lbl.gov/publications/residential-solar-adopter-income-1)
+[1][Lukanov & Krieger 2019](https://www.sciencedirect.com/science/article/abs/pii/S0301421519305221?via%3Dihub);[Sunter et al. 2019](https://rael.berkeley.edu/wp-content/uploads/2019/01/Sunter-Castellanos-Kammen-Solar-Disparities-by-Race-SupplementalOnlineMaterial.pdf);[Forrester et al. 2022](https://emp.lbl.gov/publications/residential-solar-adopter-income-1)
 
-[[2]](#_ftnref2)[Borenstein 2017](https://econpapers.repec.org/article/ucpjaerec/doi_3a10.1086_2f691978.htm)
+[2][Borenstein 2017](https://econpapers.repec.org/article/ucpjaerec/doi_3a10.1086_2f691978.htm)
 
-[[3]](#_ftnref3)[Horne et al. 2019](https://www.researchgate.net/publication/355125335_Rooftop_solar_in_the_United_States_Exploring_trust_utility_perceptions_and_adoption_among_California_homeowners)
+[3][Horne et al. 2019](https://www.researchgate.net/publication/355125335_Rooftop_solar_in_the_United_States_Exploring_trust_utility_perceptions_and_adoption_among_California_homeowners)
 
-[[4]](#_ftnref4)[Reames 2021](https://css.umich.edu/publications/research-publications/exploring-residential-rooftop-solar-potential-united-states-race);[Hammerle et a. 2023](https://researchportalplus.anu.edu.au/en/publications/solar-for-renters-investigating-investor-perspectives-of-barriers);[Heeter et al. 2021](https://www.nrel.gov/docs/fy21osti/80532.pdf)
+[4][Reames 2021](https://css.umich.edu/publications/research-publications/exploring-residential-rooftop-solar-potential-united-states-race);[Hammerle et a. 2023](https://researchportalplus.anu.edu.au/en/publications/solar-for-renters-investigating-investor-perspectives-of-barriers);[Heeter et al. 2021](https://www.nrel.gov/docs/fy21osti/80532.pdf)
 
-[[5]](#_ftnref5)[Mueller and Ronen 2015](https://www.researchgate.net/publication/279853335_BRIDGING_THE_SOLAR_INCOME_GAP);[Lukanov & Krieger 2019](https://www.sciencedirect.com/science/article/abs/pii/S0301421519305221?via%3Dihub);[Sunter et al. 2019](https://rael.berkeley.edu/wp-content/uploads/2019/01/Sunter-Castellanos-Kammen-Solar-Disparities-by-Race-SupplementalOnlineMaterial.pdf);[Brown et al. 2020](https://info.ornl.gov/sites/publications/Files/Pub124723.pdf)
+[5][Mueller and Ronen 2015](https://www.researchgate.net/publication/279853335_BRIDGING_THE_SOLAR_INCOME_GAP);[Lukanov & Krieger 2019](https://www.sciencedirect.com/science/article/abs/pii/S0301421519305221?via%3Dihub);[Sunter et al. 2019](https://rael.berkeley.edu/wp-content/uploads/2019/01/Sunter-Castellanos-Kammen-Solar-Disparities-by-Race-SupplementalOnlineMaterial.pdf);[Brown et al. 2020](https://info.ornl.gov/sites/publications/Files/Pub124723.pdf)
 
-[[6]](#_ftnref6)[O’Shaughnessy et al. 2021](https://emp.lbl.gov/webinar/income-targeted-marketing-supply-side)
+[6][O’Shaughnessy et al. 2021](https://emp.lbl.gov/webinar/income-targeted-marketing-supply-side)
 
-[[7]](#_ftnref7)[Beshilas et al 2022](https://www.nrel.gov/docs/fy22osti/82725.pdf)
+[7][Beshilas et al 2022](https://www.nrel.gov/docs/fy22osti/82725.pdf)
 
-[[8]](#_ftnref8)[O’Shaughnessy et al. 2021](https://emp.lbl.gov/publications/impact-policies-and-business-models)
+[8][O’Shaughnessy et al. 2021](https://emp.lbl.gov/publications/impact-policies-and-business-models)
 
-[[9]](#_ftnref9)[Darghouth et al. 2022](https://emp.lbl.gov/publications/characterizing-local-rooftop-solar)
+[9][Darghouth et al. 2022](https://emp.lbl.gov/publications/characterizing-local-rooftop-solar)
 
-[[10]](#_ftnref10)[O’Shaughnessy et al. 2023b](https://emp.lbl.gov/publications/supply-sunspots-and-shadows-business)
+[10][O’Shaughnessy et al. 2023b](https://emp.lbl.gov/publications/supply-sunspots-and-shadows-business)
 
-[[11]](#_ftnref11)[Grimley et al. 2022](https://ui.adsabs.harvard.edu/abs/2022ERSS...9002628G/abstract)
+[11][Grimley et al. 2022](https://ui.adsabs.harvard.edu/abs/2022ERSS...9002628G/abstract)
 
-[[12]](#_ftnref12)[O’Shaughnessy et al. 2024](https://emp.lbl.gov/publications/evaluating-community-solar-measure)
+[12][O’Shaughnessy et al. 2024](https://emp.lbl.gov/publications/evaluating-community-solar-measure)
 
-[[13]](#_ftnref13)[O’Shaughnessy et al. 2023](https://live-etabiblio.pantheonsite.io/sites/default/files/2023_solar-adopter_income_trends_final.pdf)
+[13][O’Shaughnessy et al. 2023](https://live-etabiblio.pantheonsite.io/sites/default/files/2023_solar-adopter_income_trends_final.pdf)
 
-[[14]](#_ftnref14)Persistent poverty areas have poverty rates of 20.0 percent or higher for 4 consecutive measurement periods spanning approximately 30 years, according to the U.S. Department of Agriculture.
+[14]Persistent poverty areas have poverty rates of 20.0 percent or higher for 4 consecutive measurement periods spanning approximately 30 years, according to the U.S. Department of Agriculture.
 
-[[15]](#_ftnref15)The total applications received includes applications that were submitted and eventually withdrawn and therefore neither approved nor rejected for an allocation award.
+[15]The total applications received includes applications that were submitted and eventually withdrawn and therefore neither approved nor rejected for an allocation award.
 
-[[16]](#_ftnref16)The energy cost offsets estimate represents gross savings to the end consumer and does not factor in any costs or payments associated with the construction or operation of the energy facilities. Energy cost offsets were estimated using national averages for residential and commercial electricity costs as reported by the Energy Information Administration ([https://www.eia.gov/electricity/monthly/update/end-use.php](https://www.eia.gov/electricity/monthly/update/end-use.php)).
+[16]The energy cost offsets estimate represents gross savings to the end consumer and does not factor in any costs or payments associated with the construction or operation of the energy facilities. Energy cost offsets were estimated using national averages for residential and commercial electricity costs as reported by the Energy Information Administration ([https://www.eia.gov/electricity/monthly/update/end-use.php](https://www.eia.gov/electricity/monthly/update/end-use.php)).
 
-[[17]](#_ftnref17)For more information, see[https://www.energy.gov/eere/slsc/low-income-community-energy-solutions](https://www.energy.gov/eere/slsc/low-income-community-energy-solutions)
+[17]For more information, see[https://www.energy.gov/eere/slsc/low-income-community-energy-solutions](https://www.energy.gov/eere/slsc/low-income-community-energy-solutions)
 
-[[18]](#_ftnref18)Estimated based on system cost averages reported in the NREL Spring 2024 Solar Industry Update:[https://www.nrel.gov/docs/fy24osti/90042.pdf](https://www.nrel.gov/docs/fy24osti/90042.pdf). This figure is likely conservative as it does not account for paired energy storage that is part of many of the recipients’ projects.
+[18]Estimated based on system cost averages reported in the NREL Spring 2024 Solar Industry Update:[https://www.nrel.gov/docs/fy24osti/90042.pdf](https://www.nrel.gov/docs/fy24osti/90042.pdf). This figure is likely conservative as it does not account for paired energy storage that is part of many of the recipients’ projects.
 
-[[19]](#_ftnref19)https://www.energy.gov/policy/us-energy-employment-jobs-report-useer
+[19]https://www.energy.gov/policy/us-energy-employment-jobs-report-useer
 
-[[20]](#_ftnref20)[https://irecusa.org/programs/solar-jobs-census/](https://irecusa.org/programs/solar-jobs-census/)
+[20][https://irecusa.org/programs/solar-jobs-census/](https://irecusa.org/programs/solar-jobs-census/)

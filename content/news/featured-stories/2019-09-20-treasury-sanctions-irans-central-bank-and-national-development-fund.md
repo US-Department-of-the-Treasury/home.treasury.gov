@@ -54,4 +54,3 @@ The United States has a long standing policy of allowing for the sale of agricul
 
 [Identifying information on the entities designated today](https://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20190920.aspx).
 
-####

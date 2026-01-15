@@ -18,4 +18,3 @@ Treasury and the IRS will work with the tax community over the summer to finaliz
 
 [More information](https://www.irs.gov/newsroom/faqs-on-the-early-release-of-the-2020-form-w-4)[.](https://www.irs.gov/newsroom/faqs-on-the-early-release-of-the-2020-form-w-4)
 
-#####

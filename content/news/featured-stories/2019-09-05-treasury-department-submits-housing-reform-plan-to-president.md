@@ -22,4 +22,3 @@ Treasury also consulted with the Federal Housing Finance Agency, the Department 
 
 [Read the HUD Housing Reform Plan](https://home.treasury.gov/system/files/136/HUD-Housing-Finance-Reform-Plan-September-2019.pdf).
 
-####

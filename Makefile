@@ -15,6 +15,8 @@ help:
 	@echo "Testing:"
 	@echo "  make test           Run link validation"
 	@echo "  make test-508       Run Section 508 accessibility tests"
+	@echo "  make test-508-press-releases  Run Section 508 scan for ALL press release posts (long-running)"
+	@echo "  make test-508-all-pages       Run Section 508 scan for ALL sitemap pages (long-running)"
 	@echo "  make lint           Check for issues"
 	@echo ""
 	@echo "Deployment:"
@@ -50,6 +52,18 @@ test-508:
 	@echo "Testing: http://localhost:1313/news/press-releases/"
 	@command -v pa11y-ci >/dev/null 2>&1 || { echo "Installing pa11y-ci..."; npm install -g pa11y-ci; }
 	pa11y-ci || echo "If npm fails, run: sudo chown -R \$$(whoami) ~/.npm"
+
+# Full scan: all press release posts from sitemap.xml (long-running)
+test-508-press-releases:
+	@echo "Running Section 508 / WCAG scan for ALL press release posts (this can take a long time)..."
+	@chmod +x scripts/test_508_press_releases.sh
+	@./scripts/test_508_press_releases.sh --base-url http://localhost:1313 --concurrency 4
+
+# Full scan: all sitemap URLs (long-running)
+test-508-all-pages:
+	@echo "Running Section 508 / WCAG scan for ALL sitemap pages (this can take a long time)..."
+	@chmod +x scripts/test_508_all_pages.sh
+	@./scripts/test_508_all_pages.sh --base-url http://localhost:1313 --concurrency 6
 
 # Run accessibility test on single URL
 test-508-url:

@@ -197,4 +197,3 @@ Furthermore, pursuant to E.O. 13224, as amended today, all SDGTs are now subject
 
 [Identifying information related to today’s action](https://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20190910.aspx).
 
-####

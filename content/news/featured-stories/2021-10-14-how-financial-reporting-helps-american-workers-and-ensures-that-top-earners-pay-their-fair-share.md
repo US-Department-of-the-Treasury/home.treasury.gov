@@ -28,4 +28,3 @@ In recent congressional testimony, Secretary Yellen was asked whether it was nec
 
 Ultimately, the President’s proposal seeks to pare back tax evasion by shedding some light on opaque sources of income that accrue disproportionately to the top 1 percent of earners. As such, it is unsurprising that substantial resources are being deployed to defeat these efforts, because many tax cheats stand to lose from a fairer tax system. But the American people stand to gain much more. A robust attack on tax evasion will raise substantial revenue to fund necessary investments in American families, increase the efficiency and fairness of the tax system, and create a more just society.
 
-###

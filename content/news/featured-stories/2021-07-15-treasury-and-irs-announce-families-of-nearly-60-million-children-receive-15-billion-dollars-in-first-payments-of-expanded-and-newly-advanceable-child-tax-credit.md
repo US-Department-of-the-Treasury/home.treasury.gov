@@ -304,7 +304,7 @@ Average Payment Amount 
 28,971
 464
 
-  Other areas [[4]](#4)
+  Other areas [4]
 85
 21,701
 481
@@ -322,5 +322,3 @@ NOTES: The numbers shown reflect advance CTC payments disbursed to eligible reci
 Source: Office of Tax Analysis tabulations of Internal Revenue Service data, July 11, 2021
 
  
-
-###

@@ -28,7 +28,7 @@ The fast recovery in the United States reflects a more complete recovery in dome
 
 ### Despite Higher Growth, U.S. Core Inflation is Now Lower Than in Many Other Major Advanced Economies
 
-Faster output growth in the United States was initially accompanied by higher inflation, but inflation rates have been rising rapidly around the world. In Europe, inflation rates rose quickly in 2022 due to a combination of high natural gas prices and the restart of the European economy after tight Covid restrictions during the Delta and Omicron waves. Conversely, over the course of 2022, the United States saw substantial improvement in inflation, while European inflation rates continued to rise.  Of course, energy prices in Europe have been hit particularly hard by Russia’s unlawful invasion of Ukraine. Excluding energy and food, core inflation rates (on a harmonized basis) are running under 4 percent in the United States, whereas they are nearly 6 percent in the United Kingdom and over 7 percent in the Euro area.[[1]](#_ftn1)
+Faster output growth in the United States was initially accompanied by higher inflation, but inflation rates have been rising rapidly around the world. In Europe, inflation rates rose quickly in 2022 due to a combination of high natural gas prices and the restart of the European economy after tight Covid restrictions during the Delta and Omicron waves. Conversely, over the course of 2022, the United States saw substantial improvement in inflation, while European inflation rates continued to rise.  Of course, energy prices in Europe have been hit particularly hard by Russia’s unlawful invasion of Ukraine. Excluding energy and food, core inflation rates (on a harmonized basis) are running under 4 percent in the United States, whereas they are nearly 6 percent in the United Kingdom and over 7 percent in the Euro area.[1]
 
 ### The U.S. Labor Market Recovery Has Been Exceptionally Strong
 
@@ -42,4 +42,4 @@ The similar recovery in the labor market, despite disparate recoveries in output
 
  
 
-[[1]](#_ftnref1)Harmonized inflation ensures comparability between U.S. and European inflation measurement; the U.S. harmonized inflation rate is produced by the Bureau of Labor Statistics. Harmonized inflation not available for the United Kingdom, Canada, and Japan; core CPI inflation shown for these countries.
+[1]Harmonized inflation ensures comparability between U.S. and European inflation measurement; the U.S. harmonized inflation rate is produced by the Bureau of Labor Statistics. Harmonized inflation not available for the United Kingdom, Canada, and Japan; core CPI inflation shown for these countries.

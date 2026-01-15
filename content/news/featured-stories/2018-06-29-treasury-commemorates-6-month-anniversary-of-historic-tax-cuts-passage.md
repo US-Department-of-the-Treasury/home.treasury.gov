@@ -14,4 +14,3 @@ Additionally, the Tax Cuts and Jobs Act simplifies the filing process for taxpay
 
 [Read more about the benefits of these historic tax cuts.](http://www.treasury.gov/TaxCutCutCut)
 
-###

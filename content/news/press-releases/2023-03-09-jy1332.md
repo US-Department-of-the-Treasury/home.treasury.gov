@@ -24,4 +24,3 @@ Key revenue proposals in the Greenbook would:
 
  
 
-###

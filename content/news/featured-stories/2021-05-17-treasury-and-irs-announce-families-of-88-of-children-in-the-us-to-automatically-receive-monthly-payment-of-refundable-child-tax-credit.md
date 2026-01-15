@@ -18,4 +18,3 @@ Today’s announcement represents the latest collaboration between the Bureau of
 
 [Additional information for taxpayers on how they can access the Child Tax Credit](https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMTA1MTcuNDA1NTkyODEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2NyZWRpdHMtZGVkdWN0aW9ucy9hZHZhbmNlLWNoaWxkLXRheC1jcmVkaXQtcGF5bWVudHMtaW4tMjAyMSJ9.IoovpE1mOFvOAcyQCeEb0BN5JRSkYvw6s3nkO0sRzh4/s/1421822665/br/106454768609-l).
 
-###

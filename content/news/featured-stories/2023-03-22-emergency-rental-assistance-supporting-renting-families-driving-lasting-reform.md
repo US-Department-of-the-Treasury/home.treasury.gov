@@ -8,13 +8,13 @@ url: /news/featured-stories/emergency-rental-assistance-supporting-renting-famil
 
 COVID-19 pushed families across the country to fall behind on their rent—many of whom already struggled with the cost of housing.  At the end of 2020, nearly a fifth of renting households reported being behind on rent. One in six reported that eviction within two months was very likely.
 
-Research has made clear the grave consequences of eviction for families.  Evictions can interrupt school and work, undermine physical and mental health, and make it more challenging to qualify for housing assistance benefits or find new housing.  Eviction can cause tenants to lose possessions, or face food insecurity.[[1]](#_ftn1)As the pandemic destabilized life for many Americans, these risks grew even more serious.
+Research has made clear the grave consequences of eviction for families.  Evictions can interrupt school and work, undermine physical and mental health, and make it more challenging to qualify for housing assistance benefits or find new housing.  Eviction can cause tenants to lose possessions, or face food insecurity.[1]As the pandemic destabilized life for many Americans, these risks grew even more serious.
 
 But through the Emergency Rental Assistance (ERA) program—created as part of the Consolidated Appropriations Act, 2021 and dramatically expanded by the American Rescue Plan—the Biden-Harris Administration put forward an unprecedented response to the eviction crisis the pandemic exacerbated. At the same time, ERA has helped lay the groundwork for lasting eviction prevention infrastructure and new investments in affordable housing.
 
 According to the data released by the Treasury Department today, as of the end of 2022, nearly 10.8 million rental assistance payments have been delivered to renters in need. And supported by program guidance and technical assistance the Administration has spearheaded, communities have moved quickly to deploy ERA to aid renters at risk of eviction.
 
-For renting families, the impact of these efforts has been enormous.  In conjunction with other policies the Biden-Harris Administration has pursued, ERA helped to keep more than a million Americans in their homes in 2021 alone.[[2]](#_ftn2)Assistance has benefited marginalized communities in particular: extremely low-income renters have received close to two-thirds of ERA assistance, while Black families have received 46 percent, and female renters have received nearly 70 percent.[[3]](#_ftn3)
+For renting families, the impact of these efforts has been enormous.  In conjunction with other policies the Biden-Harris Administration has pursued, ERA helped to keep more than a million Americans in their homes in 2021 alone.[2]Assistance has benefited marginalized communities in particular: extremely low-income renters have received close to two-thirds of ERA assistance, while Black families have received 46 percent, and female renters have received nearly 70 percent.[3]
 
 We know there is more to do to keep renters in their homes, and more to do to administer ERA.  But even so, over the past two years, ERA’s impact is clear.  As Matthew Desmond—the author of* Evicted *and founder of Princeton University’s Eviction Lab—has reflected:
 
@@ -22,11 +22,11 @@ The Emergency Rental Assistance Program along with the federal eviction moratori
 
 ### COVID-19’s Threat to Families in Rental Housing
 
-Even before COVID-19 emerged, Americans faced an eviction crisis rooted in the high cost of housing.  As of 2018, nearly half of renter households were cost-burdened, paying more than 30 percent of their income on rent, while one in four households below the poverty line spent more than 70 percent of their income on housing.  Evictions were frequent: between 2000 and 2016, Americans faced 3.6 million evictions each year on average, with seven evictions filed every minute in 2016.[[4]](#_ftn4)Policy support for renters facing eviction—such as eviction diversion programs—was also relatively rare.
+Even before COVID-19 emerged, Americans faced an eviction crisis rooted in the high cost of housing.  As of 2018, nearly half of renter households were cost-burdened, paying more than 30 percent of their income on rent, while one in four households below the poverty line spent more than 70 percent of their income on housing.  Evictions were frequent: between 2000 and 2016, Americans faced 3.6 million evictions each year on average, with seven evictions filed every minute in 2016.[4]Policy support for renters facing eviction—such as eviction diversion programs—was also relatively rare.
 
-In 2020, the pandemic took this existing crisis and intensified it enormously.  By December of that year, nearly nine million households were behind on rent.  Low-income Americans and Americans of color were especially likely to face housing instability, with 16 percent of Black renters and 11 percent of Hispanic renters reporting that eviction was likely.[[5]](#_ftn5)Moreover, the pandemic meant that housing instability could pose new, serious risks to families’ health, especially seniors.
+In 2020, the pandemic took this existing crisis and intensified it enormously.  By December of that year, nearly nine million households were behind on rent.  Low-income Americans and Americans of color were especially likely to face housing instability, with 16 percent of Black renters and 11 percent of Hispanic renters reporting that eviction was likely.[5]Moreover, the pandemic meant that housing instability could pose new, serious risks to families’ health, especially seniors.
 
-With so many renters unable to pay rent, landlords saw incomes fall, too—especially the many smaller landlords renting only a few units.  From 2019 to 2020, the proportion of landlords collecting 90 percent or more of rent dropped by nearly a third, with the smallest landlords facing the deepest arrearages.[[6]](#_ftn6)
+With so many renters unable to pay rent, landlords saw incomes fall, too—especially the many smaller landlords renting only a few units.  From 2019 to 2020, the proportion of landlords collecting 90 percent or more of rent dropped by nearly a third, with the smallest landlords facing the deepest arrearages.[6]
 
 The pandemic thus put renters and landlords under enormous stress.  And while the federal eviction moratorium was a powerful stopgap tool for keeping Americans in their homes, it was only a temporary solution.  The moratorium gave many hard-pressed renter families with lost income more time to pay bills without fear of eviction.  But it did not directly assist renters as they tried to catch back up on payments.  Nor could it make their landlords whole, or help to repair the rent flows on which a functioning rental housing market ultimately relies.  As COVID-19 persisted, it was increasingly clear that low-income renters needed access to direct financial support if rental housing were to begin to stabilize and recover.
 
@@ -79,7 +79,7 @@ At the outset of the pandemic, only a few dozen jurisdictions operated rental as
 
 These efforts have set off a profound shift in eviction-prevention policies across the country.  Leveraging funds from ERA, as well as other recovery funds from the American Rescue Plan, communities have dramatically expanded their support for renters.  Interventions like eviction diversion provide landlord-tenant mediation programs and equip tenants with resources.  Expanded access to counsel offers tenants support and advocacy as they navigate evictions proceedings.
 
-Roughly 180 jurisdictions have developed or strengthened eviction diversion programs.  Nearly 60 cities have used federal funds to expand access to counsel for tenants facing eviction.  And since January 2021, 31 states and 81 localities have passed or implemented more than 180 tenant protections.[[7]](#_ftn7)For example:
+Roughly 180 jurisdictions have developed or strengthened eviction diversion programs.  Nearly 60 cities have used federal funds to expand access to counsel for tenants facing eviction.  And since January 2021, 31 states and 81 localities have passed or implemented more than 180 tenant protections.[7]For example:
 
 - The State of Oregon has supplemented its ERA funding with funding from Treasury’s State and Local Fiscal Recovery Fund, as well as the state’s own funds.  It also now operates the Eviction Prevention Rapid Response Program, which provides rapid financial assistance to prevent eviction and homelessness.
 - Boulder, CO has launched an eviction prevention program funded with tax revenue that assists renters with housing issues through legal representation, rental assistance, and mediation services.
@@ -98,16 +98,16 @@ Looking ahead, we know important work remains, both to support grantees througho
 
  
 
-[[1]](#_ftnref1)* See, e.g*., Matthew Desmond,* Evicted *(New York: 2016), 295-99 (summarizing research on toll of eviction).
+[1]* See, e.g*., Matthew Desmond,* Evicted *(New York: 2016), 295-99 (summarizing research on toll of eviction).
 
-[[2]](#_ftnref2)Peter Hepburn et al., Eviction Lab, “Preliminary Analysis: Eviction Filing Patterns in 2021” (Mar. 8, 2022),[https://evictionlab.org/us-eviction-filing-patterns-2021/](https://evictionlab.org/us-eviction-filing-patterns-2021/).
+[2]Peter Hepburn et al., Eviction Lab, “Preliminary Analysis: Eviction Filing Patterns in 2021” (Mar. 8, 2022),[https://evictionlab.org/us-eviction-filing-patterns-2021/](https://evictionlab.org/us-eviction-filing-patterns-2021/).
 
-[[3]](#_ftnref3)Office of Evaluation Sciences,* Equity in the Distribution of the Emergency Rental Assistance Program*(2022),[https://oes.gsa.gov/projects/era-equity/](https://oes.gsa.gov/projects/era-equity/).
+[3]Office of Evaluation Sciences,* Equity in the Distribution of the Emergency Rental Assistance Program*(2022),[https://oes.gsa.gov/projects/era-equity/](https://oes.gsa.gov/projects/era-equity/).
 
-[[4]](#_ftnref4)Emily Benfer et al.,* The COVID-19 Eviction Crisis: An Estimated 30-40 Million People in America Are at Risk*(Aug. 7, 2020),[https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf](https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf), 2.
+[4]Emily Benfer et al.,* The COVID-19 Eviction Crisis: An Estimated 30-40 Million People in America Are at Risk*(Aug. 7, 2020),[https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf](https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf), 2.
 
-[[5]](#_ftnref5)* See *Consumer Financial Protection Bureau,* Housing Insecurity and the COVID-19 Pandemic *(Mar. 2021),[https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf](https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf), 6, 15.
+[5]* See *Consumer Financial Protection Bureau,* Housing Insecurity and the COVID-19 Pandemic *(Mar. 2021),[https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf](https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf), 6, 15.
 
-[[6]](#_ftnref6)Elijah de la Campa, Vincent J. Reina & Christopher Herbert,* How Are Landlords Faring During the Pandemic?*(Aug. 2021),[https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf](https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf), 2.
+[6]Elijah de la Campa, Vincent J. Reina & Christopher Herbert,* How Are Landlords Faring During the Pandemic?*(Aug. 2021),[https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf](https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf), 2.
 
-[[7]](#_ftnref7)* See *National Low Income Housing Coalition, ERASE State and Local Tenant Protections Database,[https://nlihc.org/tenant-protections](https://nlihc.org/tenant-protections).
+[7]* See *National Low Income Housing Coalition, ERASE State and Local Tenant Protections Database,[https://nlihc.org/tenant-protections](https://nlihc.org/tenant-protections).

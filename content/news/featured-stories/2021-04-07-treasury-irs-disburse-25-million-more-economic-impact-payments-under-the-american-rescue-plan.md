@@ -50,4 +50,3 @@ The IRS reminds taxpayers that the income levels in this new round of Economic I
 
 Individuals can check the[Get My Payment](https://www.irs.gov/coronavirus/get-my-payment)tool on IRS.gov to see the payment status of these payments. Additional information on[Economic Impact Payments](https://www.irs.gov/coronavirus/economic-impact-payments)is available on[IRS.gov](https://irs.gov).
 
-####

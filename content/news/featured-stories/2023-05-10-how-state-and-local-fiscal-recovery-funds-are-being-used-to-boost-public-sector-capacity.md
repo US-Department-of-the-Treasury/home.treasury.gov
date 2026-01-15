@@ -16,7 +16,7 @@ At Treasury and across the administration, we are focused on ensuring that diffe
 
 ### Using SLFRF to Build Public Sector Capacity
 
-In the early months of the pandemic, state, local, territorial, and Tribal governments cut over 1.5 million jobs amid sharp declines in revenue.[1](#_ftn1)This mirrored the pattern of the Great Recession, when state and local governments cut 137,000 and 437,000 jobs, respectively,[2](#_ftn2)and declines in state and local government budgets were a drag on the overall economy for more than three years.[3](#_ftn3)During the Great Recession, the lack of fiscal support for state and local governments not only weighed down the overall economy, but also limited the ability of these governments to provide assistance to their residents when they most needed it.
+In the early months of the pandemic, state, local, territorial, and Tribal governments cut over 1.5 million jobs amid sharp declines in revenue.[1]This mirrored the pattern of the Great Recession, when state and local governments cut 137,000 and 437,000 jobs, respectively,[2]and declines in state and local government budgets were a drag on the overall economy for more than three years.[3]During the Great Recession, the lack of fiscal support for state and local governments not only weighed down the overall economy, but also limited the ability of these governments to provide assistance to their residents when they most needed it.
 
 To avoid a repeat of the effects of the Great Recession, Treasury’s[final rule](https://www.govinfo.gov/content/pkg/FR-2022-01-27/pdf/2022-00292.pdf)for the SLFRF program explains that state, local, territorial, and Tribal governments may use funds to support a broad set of activities to restore and support public sector employment as well as related investments to improve public sector capacity and increase resiliency against gaps exposed by the pandemic. But these funds have not just prevented the painful budget cuts of the past; they also provide a tool for governments to strengthen their ability to make new investments. Under the public health and negative economic impacts eligible use category, recipients may use SLFRF funds to boost public sector capacity for the following eligible uses:
 
@@ -25,13 +25,13 @@ To avoid a repeat of the effects of the Great Recession, Treasury’s[final rule
 - **Covering administrative costs associated with hiring and retention:** Recipients may use funds to pay for ancillary administrative costs associated with administering the SLFRF-funded hiring and retention programs, including costs to publish job postings, review applications, and train new hires.
 - **Improving the efficacy of public health or economic relief programs: ** Recipients may use SLFRF funds for tools like program evaluation, data analysis, and targeted consumer outreach. They may also deploy SLFRF resources to support using data and evidence in designing, executing, and evaluating programs, including hiring public sector staff, contractors, academics, consultants, technical assistance support, and others with expertise in evaluation, data, technology, and community engagement. Overall, funds may be spent to support effective implementation of SLFRF-funded programs as well as programs that respond to the public health emergency and its negative economic impacts.
 
-Under the revenue loss eligible use category, recipients may use SLFRF funds to provide government services up to the amount of revenue lost due to the pandemic. Recipients may determine their revenue loss by claiming the standard allowance of up to $10 million (not to exceed a recipient’s allocation) or calculate revenue loss according to the formula in Treasury’s[final rule.](https://www.govinfo.gov/content/pkg/FR-2022-01-27/pdf/2022-00292.pdf)These investments in government services under the revenue loss eligible use category allow for a wide range of spending that builds government capacity.[4](#_ftn4)As such, this provides another channel via which recipients can make investments that improve their ability to effectively compete for and implement funds flowing from the Infrastructure Investment and Jobs Act, CHIPS and Science Act, and Inflation Reduction Act.
+Under the revenue loss eligible use category, recipients may use SLFRF funds to provide government services up to the amount of revenue lost due to the pandemic. Recipients may determine their revenue loss by claiming the standard allowance of up to $10 million (not to exceed a recipient’s allocation) or calculate revenue loss according to the formula in Treasury’s[final rule.](https://www.govinfo.gov/content/pkg/FR-2022-01-27/pdf/2022-00292.pdf)These investments in government services under the revenue loss eligible use category allow for a wide range of spending that builds government capacity.[4]As such, this provides another channel via which recipients can make investments that improve their ability to effectively compete for and implement funds flowing from the Infrastructure Investment and Jobs Act, CHIPS and Science Act, and Inflation Reduction Act.
 
  
 
 ### Examples of how local governments are investing SLFRF to boost public sector capacity
 
-While the pandemic illustrated the importance of strong and well-resourced local and state governments, there is still more work to be done to ensure governments are prepared for the future. The examples offered below, as reported to Treasury by SLFRF recipients, illustrate how local governments are leveraging SLFRF to build local capacity, including using SLFRF to hire public sector staff that work in dedicated offices or on initiatives focused on administering federal funds.[5](#_ftn5)
+While the pandemic illustrated the importance of strong and well-resourced local and state governments, there is still more work to be done to ensure governments are prepared for the future. The examples offered below, as reported to Treasury by SLFRF recipients, illustrate how local governments are leveraging SLFRF to build local capacity, including using SLFRF to hire public sector staff that work in dedicated offices or on initiatives focused on administering federal funds.[5]
 
 #### Overall Capacity Building and Service Delivery
 
@@ -75,14 +75,14 @@ The State and Local Fiscal Recovery Funds are a resource for local communities a
 
  
 
-[1](#_ftnref1)U.S. Bureau of Labor Statistics, All Employees, State Government [CES9092000001] and All Employees, Local Government [CES9093000001], retrieved from FRED, Federal Reserve Bank of St. Louis, https://fred.stlouisfed.org/series/CES9092000001 and https://fred.stlouisfed.org/
+[1]U.S. Bureau of Labor Statistics, All Employees, State Government [CES9092000001] and All Employees, Local Government [CES9093000001], retrieved from FRED, Federal Reserve Bank of St. Louis, https://fred.stlouisfed.org/series/CES9092000001 and https://fred.stlouisfed.org/
 
 series/CES9093000001.
 
-[2](#_ftnref2)[https://www.brookings.edu/articles/state-and-local-budgets-and-the-great-recession/](https://www.brookings.edu/articles/state-and-local-budgets-and-the-great-recession/)
+[2][https://www.brookings.edu/articles/state-and-local-budgets-and-the-great-recession/](https://www.brookings.edu/articles/state-and-local-budgets-and-the-great-recession/)
 
-[3](#_ftnref3)[https://home.treasury.gov/news/press-releases/jy1271](https://home.treasury.gov/news/press-releases/jy1271)
+[3][https://home.treasury.gov/news/press-releases/jy1271](https://home.treasury.gov/news/press-releases/jy1271)
 
-[4](#_ftnref4)The restrictions on use in the SLFRF program apply to the revenue loss eligible use category. Please refer to Treasury’s final rule for more information.
+[4]The restrictions on use in the SLFRF program apply to the revenue loss eligible use category. Please refer to Treasury’s final rule for more information.
 
-[5](#_ftnref5)The examples included throughout this post are based on recipient reports, and their inclusion in this document does not constitute an explicit approval of these projects by Treasury.
+[5]The examples included throughout this post are based on recipient reports, and their inclusion in this document does not constitute an explicit approval of these projects by Treasury.

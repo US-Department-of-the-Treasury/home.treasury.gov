@@ -53,4 +53,3 @@ The Committee is a product of Treasury’s department-wide equity assessment las
 - Barika Williams, Executive Director, The Association for Neighborhood Housing & Development (ANHD)
  
 
-###

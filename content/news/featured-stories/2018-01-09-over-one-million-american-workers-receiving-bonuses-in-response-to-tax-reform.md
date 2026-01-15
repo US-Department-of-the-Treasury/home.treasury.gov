@@ -10,4 +10,3 @@ url: /news/featured-stories/over-one-million-american-workers-receiving-bonuses-
 
 “This is only the beginning.  American workers will see bigger paychecks soon and keep more of their hard-earned money.  Our economy will continue to grow faster than it has in many years, leading to a brighter future for all Americans.  This is exactly why we worked so hard to deliver the most significant tax cuts and reform package in over three decades.”
 
-####

@@ -20,4 +20,3 @@ Treasury’s identifications today reflect a unified effort against the illegiti
 
 [Identifying information on the individuals identified today](https://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20191105.aspx).
 
-###

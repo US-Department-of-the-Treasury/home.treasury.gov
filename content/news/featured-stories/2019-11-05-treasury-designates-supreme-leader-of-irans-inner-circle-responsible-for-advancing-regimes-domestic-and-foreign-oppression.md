@@ -68,4 +68,3 @@ In addition, persons that engage in certain transactions with the persons design
 
 [Read identifying information on the entities designated today](https://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20191104.aspx).
 
-####

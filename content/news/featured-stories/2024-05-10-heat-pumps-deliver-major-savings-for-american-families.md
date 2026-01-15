@@ -34,13 +34,13 @@ The following hypothetical scenarios illustrate the value that heat pumps can pr
 
 #### Case Study A
 
-The Pompapanas family has a higher-than-average monthly electrical heating and cooling bill of $200[[1]](#ftn1)and is interested in buying an air-source heat pump for $12,000.[[2]](#ftn2)They take advantage of the Energy Efficient Home Improvement Credit, saving $2,000 on their year-end tax return, so the net cost is effectively $10,000. Adding a heat pump reduces the Pompapanas family’s average monthly electricity bill by 65 percent[[3]](#ftn3)from $200 to $70, saving $130 a month, or $1,560 a year. After 7 years, they will have saved more in energy bills than the upfront cost they paid for the pump. Over 15 years, the family could save as much as $13,400 in net savings.
+The Pompapanas family has a higher-than-average monthly electrical heating and cooling bill of $200[1]and is interested in buying an air-source heat pump for $12,000.[2]They take advantage of the Energy Efficient Home Improvement Credit, saving $2,000 on their year-end tax return, so the net cost is effectively $10,000. Adding a heat pump reduces the Pompapanas family’s average monthly electricity bill by 65 percent[3]from $200 to $70, saving $130 a month, or $1,560 a year. After 7 years, they will have saved more in energy bills than the upfront cost they paid for the pump. Over 15 years, the family could save as much as $13,400 in net savings.
 
 #### Case Study B
 
 The Antlia family lives in a large home with an average monthly electrical heating and cooling bill of $400. They are looking to install a $20,000 geothermal heat pump in their home and to finance the cost over time. Their bank offers them a $15,000 home improvement loan at 10 percent interest to be paid over 15 years with a $5,000 downpayment. They take advantage of the Residential Clean Energy Credit, saving 30 percent of the cost of the geothermal heat pump, or $6,000 on their year-end tax return.
 
-After installing the heat pump, the family’s average monthly utility bill is reduced 75 percent[[4]](#ftn4)from $400 to $100 a month, saving them $300 a month, and a total of $3,600 a year.
+After installing the heat pump, the family’s average monthly utility bill is reduced 75 percent[4]from $400 to $100 a month, saving them $300 a month, and a total of $3,600 a year.
 
 Over the term of the loan, they will make monthly payments of $161, meaning they will have net monthly savings of $139 a month, or $1,668 annually. By the time the loan is paid off in 15 years, the family will have saved approximately $20,000 with their geothermal heat pump after accounting for loan costs.
 
@@ -63,10 +63,10 @@ The Inflation Reduction Act, through the Energy Efficient Home Improvement Credi
 
 [Inflation Reduction Act | U.S. Department of the Treasury](https://home.treasury.gov/policy-issues/inflation-reduction-act)
 
-[[1]](#_ftnref1)[Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)](https://www.eia.gov/outlooks/steo/report/perspectives/2023/10-winterfuels/article.php#prex2)
+[1][Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)](https://www.eia.gov/outlooks/steo/report/perspectives/2023/10-winterfuels/article.php#prex2)
 
-[[2]](#_ftnref2)Figure based on range from Forbes:[How Much Does a Heat Pump Installation Cost In 2024? – Forbes Home](https://www.forbes.com/home-improvement/hvac/heat-pump-installation-cost/)
+[2]Figure based on range from Forbes:[How Much Does a Heat Pump Installation Cost In 2024? – Forbes Home](https://www.forbes.com/home-improvement/hvac/heat-pump-installation-cost/)
 
-[[3]](#_ftnref3)Based on estimates from Department of Energy:[https://www.energy.gov/energysaver/heat-pump-systems](https://www.energy.gov/energysaver/heat-pump-systems)
+[3]Based on estimates from Department of Energy:[https://www.energy.gov/energysaver/heat-pump-systems](https://www.energy.gov/energysaver/heat-pump-systems)
 
-[[4]](#_ftnref4)Based on estimates from Department of Energy:[https://www.energy.gov/energysaver/heat-pump-systems](https://www.energy.gov/energysaver/heat-pump-systems)
+[4]Based on estimates from Department of Energy:[https://www.energy.gov/energysaver/heat-pump-systems](https://www.energy.gov/energysaver/heat-pump-systems)

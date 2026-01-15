@@ -18,7 +18,7 @@ Responding to the 2008 crisis, President Barack Obama signed the American Recove
 
 As established in the Recovery Act, DOE reviews § 48C applications and makes recommendations to inform the IRS’s determinations of which applicants receive an allocation. Over the course of the initial § 48C program, DOE received applications requesting a total of more than $8 billion, or a nearly 3-to-1 ratio to available funding. The awarded funding catalyzed up to $5.4 billion in private investment across facilities designed to manufacture technologies from solar panels to carbon capture equipment to high-efficiency heat pumps and light bulbs.
 
-Through the allocation of that initial $2.3 billion in the 2010s, the § 48C credit provided incentives to[at least 38 states](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fobamawhitehouse.archives.gov%2Fsites%2Fdefault%2Ffiles%2F100108-48c-selection-final-with_projects.xls&wdOrigin=BROWSELINK)across clean energy product manufacturing, including:[[1]](#edn1)
+Through the allocation of that initial $2.3 billion in the 2010s, the § 48C credit provided incentives to[at least 38 states](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fobamawhitehouse.archives.gov%2Fsites%2Fdefault%2Ffiles%2F100108-48c-selection-final-with_projects.xls&wdOrigin=BROWSELINK)across clean energy product manufacturing, including:[1]
 
 - Batteries – $29.4 million;
 - Biomass – $29.3 million;
@@ -37,7 +37,7 @@ Through these investments, the Recovery Act’s § 48C credit established a mode
 
 ### Updating the § 48C Credit for a New Era
 
-Over a longer period of time, the coal industry--and the workers and communities centered around it--had undergone a period of economic decline. Although total mine production had outpaced mine employment rates due to mechanization since the 1980s, recent trends pointed both to continuing decline in employment as well as declining production rates overall.[[2]](#edn2)
+Over a longer period of time, the coal industry--and the workers and communities centered around it--had undergone a period of economic decline. Although total mine production had outpaced mine employment rates due to mechanization since the 1980s, recent trends pointed both to continuing decline in employment as well as declining production rates overall.[2]
 
 Lower exports of metallurgical coal combined with a competitive disadvantage between coal sources in the Appalachian basin and the Powder River basin had further depressed the industry central to coal communities in the eastern United States. And incentives in clean energy technologies – and their manufacturing supply chains – were not targeted at communities or workers losing jobs, instead following wind- or solar-rich areas elsewhere.
 
@@ -91,6 +91,6 @@ Treasury and the IRS issued[guidance](https://www.irs.gov/pub/irs-drop/n-24-36.p
 
  
 
-[[1]](#_ednref1)This analysis includes data reported and categorized by DOE but excludes the additional, uncategorized funding amounts allocated (and reported) under the §48C credit program at the time.
+[1]This analysis includes data reported and categorized by DOE but excludes the additional, uncategorized funding amounts allocated (and reported) under the §48C credit program at the time.
 
-[[2]](#_ednref2)Sources: U.S. Energy Information Administration,[*Monthly Energy Review*](https://www.eia.gov/totalenergy/data/monthly/), Table 6.1, November 2023. U.S. Mine Safety and Health Administration,[Mine Data Retrieval System](https://www.msha.gov/data-and-reports/mine-data-retrieval-system), December 12, 2023.
+[2]Sources: U.S. Energy Information Administration,[*Monthly Energy Review*](https://www.eia.gov/totalenergy/data/monthly/), Table 6.1, November 2023. U.S. Mine Safety and Health Administration,[Mine Data Retrieval System](https://www.msha.gov/data-and-reports/mine-data-retrieval-system), December 12, 2023.

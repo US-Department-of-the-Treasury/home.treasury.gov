@@ -18,11 +18,11 @@ To overcome this challenge, Treasury researchers have developed a method to impu
 
 A new[OTA technical paper](https://home.treasury.gov/system/files/131/TP-11.pdf)describes this method in more detail. OTA technical papers document the models, datasets, and methods developed by Treasury staff and used for policy analysis and estimates, and they are similarly intended to generate discussion and critical comment. Treasury staff continue to refine the imputation method, and the technical paper will be updated as the imputation method is refined.
 
-The imputation method is an extension of a widely used method for imputing race and ethnicity known as Bayesian Improved First Name Surname Geocoding, or BIFSG. BIFSG and related methods have been used in a range of applications, perhaps most prominently in the study of disparities in health care and consumer finance.[[1]](#_ftn1)
+The imputation method is an extension of a widely used method for imputing race and ethnicity known as Bayesian Improved First Name Surname Geocoding, or BIFSG. BIFSG and related methods have been used in a range of applications, perhaps most prominently in the study of disparities in health care and consumer finance.[1]
 
 The new imputation method allows Treasury to conduct tax analysis by race and Hispanic origin for the first time, and the analysis of tax expenditures by race and Hispanic origin is the first analysis we have published using this capability. While there are many opportunities for additional research, this work is a critical step forward in[Treasury’s work to advance equity analysis of tax policy](https://home.treasury.gov/news/featured-stories/advancing-equity-analysis-in-tax-policy).
 
-Previous research on racial disparities in the tax code, such as research by law professors Beverly Moran, William Whitford, and Dorothy Brown, has used self-reported race data but did not have access to tax data.[[2]](#_ftn2)This new work benefits from access to tax data and Treasury’s detailed tax models but relies on imputed, rather than actual, race and ethnicity information.[[3]](#_ftn3)
+Previous research on racial disparities in the tax code, such as research by law professors Beverly Moran, William Whitford, and Dorothy Brown, has used self-reported race data but did not have access to tax data.[2]This new work benefits from access to tax data and Treasury’s detailed tax models but relies on imputed, rather than actual, race and ethnicity information.[3]
 
 ### Tax expenditures by race and Hispanic ethnicity
 
@@ -46,8 +46,8 @@ More work also remains to be done to improve the method to impute race and ethni
 
 While many questions remain, these initial findings emphasize the scrutiny that should be paid to existing and proposed tax expenditures that take the form of deductions, exclusions, and preferential rates. On a per capita basis, these types of benefits typically benefit a disproportionately White population and thus expand racial disparities. In contrast, refundable credits more frequently reduce racial disparities and can often be better designed to achieve the underlying policy goals as well.
 
-[[1]](#_ftnref1)See, for example, Sorbero, Melony E., Roald Euller, Aaron Kofner, and Marc N. Elliott. 2022.*Imputation of Race and Ethnicity in Health Insurance Marketplace Enrollment Data, 2015–2022 Open Enrollment Periods*. The RAND Corporation.
+[1]See, for example, Sorbero, Melony E., Roald Euller, Aaron Kofner, and Marc N. Elliott. 2022.*Imputation of Race and Ethnicity in Health Insurance Marketplace Enrollment Data, 2015–2022 Open Enrollment Periods*. The RAND Corporation.
 
-[[2]](#_ftnref2)Moran, Beverly I., and William Whitford, 1996. “A Black Critique of the Internal Revenue Code.”* Wisconsin Law Review*4, 751-820. Brown, Dorothy A., 2021.* The Whiteness of Wealth: How the Tax System Impoverishes Black Americans—And How We Can Fix It.*New York, NY: Crown Publishing Group.
+[2]Moran, Beverly I., and William Whitford, 1996. “A Black Critique of the Internal Revenue Code.”* Wisconsin Law Review*4, 751-820. Brown, Dorothy A., 2021.* The Whiteness of Wealth: How the Tax System Impoverishes Black Americans—And How We Can Fix It.*New York, NY: Crown Publishing Group.
 
-[[3]](#_ftnref3)Taxpayer data used in the research was kept in a secured Treasury or IRS repository, and all results have been reviewed to ensure that no confidential information is disclosed.
+[3]Taxpayer data used in the research was kept in a secured Treasury or IRS repository, and all results have been reviewed to ensure that no confidential information is disclosed.

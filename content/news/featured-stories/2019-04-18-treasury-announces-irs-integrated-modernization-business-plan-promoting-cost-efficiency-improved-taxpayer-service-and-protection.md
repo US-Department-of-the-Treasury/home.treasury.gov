@@ -17,4 +17,3 @@ The plan is organized around four “Modernization Pillars” critical to the IR
 
 The[IRS Integrated Modernization Business Plan](https://www.irs.gov/pub/irs-utl/irs_2019_integrated_modernization_business_plan.pdf)provides a full view of expected capabilities through FY 2024. The IRS looks forward to working with stakeholders to monitor and improve the plan over time and delivering world class customer service.
 
-####

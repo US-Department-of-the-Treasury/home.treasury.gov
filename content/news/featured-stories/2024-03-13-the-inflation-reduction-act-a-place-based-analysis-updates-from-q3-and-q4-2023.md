@@ -8,7 +8,7 @@ In a[recent blog post](https://home.treasury.gov/news/featured-stories/the-infla
 
 ### ACCELERATING CLEAN GROWTH ENERGY COMMUNITIES
 
-The IRA defines Energy Communities as areas historically reliant on fossil fuels for employment, wages, or tax revenue. The Energy Community Bonus offers a supplemental tax credit to clean electricity investment and production in those places.[[1]](#_ftn1)Before the IRA passed in August 2022, an average of $2 billion per month of clean electricity investment was announced in areas eligible for the Energy Community Bonus and $2.5 billion per month throughout the rest of the U.S. (the dark blue bars in Figure 1).[[2]](#_ftn2)After the IRA passed, those numbers ballooned to nearly $4.5 billion per month in Energy Communities and to $3.5 billion in the rest of the U.S. (the light blue bars in Figure 1), constituting increases of $2.4 billion per month in Energy Communities and a $1 billion per month in the rest of the U.S.**Clean investment announcements are growing throughout the U.S., with especially strong growth in Energy Communities.**
+The IRA defines Energy Communities as areas historically reliant on fossil fuels for employment, wages, or tax revenue. The Energy Community Bonus offers a supplemental tax credit to clean electricity investment and production in those places.[1]Before the IRA passed in August 2022, an average of $2 billion per month of clean electricity investment was announced in areas eligible for the Energy Community Bonus and $2.5 billion per month throughout the rest of the U.S. (the dark blue bars in Figure 1).[2]After the IRA passed, those numbers ballooned to nearly $4.5 billion per month in Energy Communities and to $3.5 billion in the rest of the U.S. (the light blue bars in Figure 1), constituting increases of $2.4 billion per month in Energy Communities and a $1 billion per month in the rest of the U.S.**Clean investment announcements are growing throughout the U.S., with especially strong growth in Energy Communities.**
 
  
 
@@ -16,7 +16,7 @@ Source: Rhodium Group and MIT Center for Energy and Environmental Policy Researc
 
 ### INVESTMENT IN DISADVANTAGED COMMUNITIES
 
-The IRA clean investments are flowing not only to Energy Communities, but also to disadvantaged communities defined more broadly.  Figure 2 compares the pre- and post-IRA distributions of median incomes in counties with clean investment announcements.[[3]](#_ftn1)The dashed line indicates the U.S. aggregate median income.  Before the IRA, 68% of announced investments in clean technologies were in counties with median incomes below the U.S. aggregate median income.  After the IRA, 75% of announced clean investments have been in counties with median incomes below the U.S. aggregate median.
+The IRA clean investments are flowing not only to Energy Communities, but also to disadvantaged communities defined more broadly.  Figure 2 compares the pre- and post-IRA distributions of median incomes in counties with clean investment announcements.[3]The dashed line indicates the U.S. aggregate median income.  Before the IRA, 68% of announced investments in clean technologies were in counties with median incomes below the U.S. aggregate median income.  After the IRA, 75% of announced clean investments have been in counties with median incomes below the U.S. aggregate median.
 
  
 

@@ -28,4 +28,3 @@ Today’s report comes as the White House hosts the 2022 Tribal Nations Summit a
 
 [The full report can be viewed here.](https://home.treasury.gov/system/files/136/Treasury-SLFRFTribalRecoveryReport.pdf)
 
-###

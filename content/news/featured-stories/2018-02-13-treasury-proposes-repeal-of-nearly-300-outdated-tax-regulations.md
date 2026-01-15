@@ -18,4 +18,3 @@ The regulations proposed to be repealed fall into three categories:
 
  
 
-###

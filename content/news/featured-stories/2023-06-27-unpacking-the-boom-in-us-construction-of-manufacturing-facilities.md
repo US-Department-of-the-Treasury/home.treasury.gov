@@ -6,7 +6,7 @@ url: /news/featured-stories/unpacking-the-boom-in-us-construction-of-manufacturi
 ---
 *Eric Van Nostrand, * Acting Assistant Secretary for Economic Policy*Tara Sinclair, * Deputy Assistant Secretary for Macroeconomics*Samarth Gupta, * Special Assistant for Economic Policy
 
-The United States has experienced a striking surge in construction spending for manufacturing facilities. Real manufacturing construction spending has doubled since the end of 2021 (Figure 1).[[1]](#ftn1)The surge comes in a supportive policy environment for manufacturing construction: the Infrastructure Investment and Jobs Act (IIJA), Inflation Reduction Act (IRA), and CHIPS Act each provided direct funding and tax incentives for public and private manufacturing construction.
+The United States has experienced a striking surge in construction spending for manufacturing facilities. Real manufacturing construction spending has doubled since the end of 2021 (Figure 1).[1]The surge comes in a supportive policy environment for manufacturing construction: the Infrastructure Investment and Jobs Act (IIJA), Inflation Reduction Act (IRA), and CHIPS Act each provided direct funding and tax incentives for public and private manufacturing construction.
 
 We explore the surge along three key dimensions:
 

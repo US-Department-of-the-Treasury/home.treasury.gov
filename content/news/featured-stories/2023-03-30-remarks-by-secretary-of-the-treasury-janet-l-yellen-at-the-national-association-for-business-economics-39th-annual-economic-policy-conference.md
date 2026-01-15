@@ -60,11 +60,11 @@ When the financial system works, it can be a powerful engine for economic growth
 
  
 
-But a fragile financial system can generate deep pain for American households when it fails. The Global Financial Crisis led to the longest recession in the postwar era. Over 8 million Americans lost their jobs. The net worth of U.S. households fell by over $10 trillion at the lowest point in the crisis. And the long-term unemployment rate did not recover for over a decade. Jorda, Schularick, and Taylor have found that recessions following financial crises are deeper than other downturns. The recoveries are slower too.[1](#_ftn1)One study put the price tag of lost output following the Global Financial Crisis at nearly a half to a full year of U.S. GDP. That’s the equivalent of $50,000 to $120,000 for every U.S. household.[2](#_ftn2)And the pain was not evenly distributed. Families in the bottom half of the distribution lost decades of gains in household wealth – while the top lost little.[3](#_ftn3)
+But a fragile financial system can generate deep pain for American households when it fails. The Global Financial Crisis led to the longest recession in the postwar era. Over 8 million Americans lost their jobs. The net worth of U.S. households fell by over $10 trillion at the lowest point in the crisis. And the long-term unemployment rate did not recover for over a decade. Jorda, Schularick, and Taylor have found that recessions following financial crises are deeper than other downturns. The recoveries are slower too.[1]One study put the price tag of lost output following the Global Financial Crisis at nearly a half to a full year of U.S. GDP. That’s the equivalent of $50,000 to $120,000 for every U.S. household.[2]And the pain was not evenly distributed. Families in the bottom half of the distribution lost decades of gains in household wealth – while the top lost little.[3]
 
  
 
-Studies show that weak financial systems can amplify business cycles. In a seminal 1999 paper, Bernanke, Gertler, and Gilchrist concluded that endogenous developments in credit markets can serve as a “financial accelerator.” That is, they can turn relatively small shocks into large fluctuations in aggregate economic activity – including more severe economic downturns.[4](#_ftn4)Nellie Liang, our Under Secretary for Domestic Finance, has produced with other scholars a helpful analytic approach called “growth at risk.”[5](#_ftn5)They conclude that loose financial conditions may support economic growth in the near-term. But that comes at the expense of increased downside risks in the medium term if loose conditions are accompanied by rapid credit growth.
+Studies show that weak financial systems can amplify business cycles. In a seminal 1999 paper, Bernanke, Gertler, and Gilchrist concluded that endogenous developments in credit markets can serve as a “financial accelerator.” That is, they can turn relatively small shocks into large fluctuations in aggregate economic activity – including more severe economic downturns.[4]Nellie Liang, our Under Secretary for Domestic Finance, has produced with other scholars a helpful analytic approach called “growth at risk.”[5]They conclude that loose financial conditions may support economic growth in the near-term. But that comes at the expense of increased downside risks in the medium term if loose conditions are accompanied by rapid credit growth.
 
  
 
@@ -84,7 +84,7 @@ These policies are possible because financial crises share common elements with 
 
  
 
-Let’s take the basic concept of fire sales. As described by Shleifer and Vishny, a fire sale is the forced sale of assets at a price below fundamental values.[6](#_ftn6)Building on this idea, Brunnermeier and Pedersen show how a negative shock to the net worth of collateralized borrowers can trigger a vicious cycle of forced asset sales.[7](#_ftn7)The resulting price declines trigger further forced sales. At each stage, the net worth of leveraged investors falls, requiring additional liquidations.
+Let’s take the basic concept of fire sales. As described by Shleifer and Vishny, a fire sale is the forced sale of assets at a price below fundamental values.[6]Building on this idea, Brunnermeier and Pedersen show how a negative shock to the net worth of collateralized borrowers can trigger a vicious cycle of forced asset sales.[7]The resulting price declines trigger further forced sales. At each stage, the net worth of leveraged investors falls, requiring additional liquidations.
 
  
 
@@ -92,7 +92,7 @@ Of course, the concept of a fire sale is broader than the specific mechanism emb
 
  
 
-Information asymmetries can also lead to runs that have the potential to accelerate and deepen asset fire sales. This dynamic was highlighted in the research that won Diamond and Dybvig the Nobel Prize with Bernanke last year.[8](#_ftn8)Earlier this month, we saw one example of how dangerous these sorts of runs can be – as customers withdrew deposits from Silicon Valley Bank (SVB) and Signature Bank en masse.
+Information asymmetries can also lead to runs that have the potential to accelerate and deepen asset fire sales. This dynamic was highlighted in the research that won Diamond and Dybvig the Nobel Prize with Bernanke last year.[8]Earlier this month, we saw one example of how dangerous these sorts of runs can be – as customers withdrew deposits from Silicon Valley Bank (SVB) and Signature Bank en masse.
 
  
 
@@ -144,7 +144,7 @@ But the failures of two regional banks this month demonstrate that our business 
 
  
 
-We must also address vulnerabilities in the nonbank sector. Some nonbanks – or “shadow banks” – consist of financial companies that carry out traditional banking functions, but are outside of, or only loosely linked to, depository institutions. They have grown substantially in the past few decades. In the United States, credit provided by nonbanks – measured relative to GDP – has more than doubled from 1985 to today.[9](#_ftn9)This same measure has remained relatively flat for banks.
+We must also address vulnerabilities in the nonbank sector. Some nonbanks – or “shadow banks” – consist of financial companies that carry out traditional banking functions, but are outside of, or only loosely linked to, depository institutions. They have grown substantially in the past few decades. In the United States, credit provided by nonbanks – measured relative to GDP – has more than doubled from 1985 to today.[9]This same measure has remained relatively flat for banks.
 
  
 
@@ -220,15 +220,15 @@ We have pursued work on nonbanks that are both inside and outside the traditiona
 
  
 
-If there is any place where the vulnerabilities of the system to runs and fire sales have been clear-cut, it is money market funds. These funds are widely used by retail and institutional investors for cash management; they provide a close substitute for bank deposits. Before the post-crisis reforms implemented by the SEC, all money market funds were generally expected to maintain a fixed $1 net asset value per share. The stable NAV was normally achievable because funds were generally limited to investments that were considered to be low risk. These funds were allowed to round their share prices to $1 when the market value of their investments fell – as long as it stayed above a certain level. But a fund had to respond if its market value fell below that level – that is, if it “broke the buck.” In that case, these funds would have to reprice, and they might cease withdrawals and liquidate their assets.[10](#_ftn10)
+If there is any place where the vulnerabilities of the system to runs and fire sales have been clear-cut, it is money market funds. These funds are widely used by retail and institutional investors for cash management; they provide a close substitute for bank deposits. Before the post-crisis reforms implemented by the SEC, all money market funds were generally expected to maintain a fixed $1 net asset value per share. The stable NAV was normally achievable because funds were generally limited to investments that were considered to be low risk. These funds were allowed to round their share prices to $1 when the market value of their investments fell – as long as it stayed above a certain level. But a fund had to respond if its market value fell below that level – that is, if it “broke the buck.” In that case, these funds would have to reprice, and they might cease withdrawals and liquidate their assets.[10]
 
  
 
-This created an incentive for a run in times of extreme stress. The first redeemers could exit the fund at $1 per share, but those who waited might be subject to a reduced market value as they are left with claims on less-liquid assets. This created a “first-mover advantage” – an incentive for investors to redeem at the whiff of a problem. During the Global Financial Crisis, anticipated losses on Lehman Brothers commercial paper led to a run on the $62 billion Reserve Primary Fund, the oldest money market fund in the nation. Concerns about Lehman then sparked concerns about commercial paper issued by other banks. This led to runs on other money market funds. A post-mortem report revealed that as many as 28 other funds had NAVs low enough for them to also break the buck.[11](#_ftn11)
+This created an incentive for a run in times of extreme stress. The first redeemers could exit the fund at $1 per share, but those who waited might be subject to a reduced market value as they are left with claims on less-liquid assets. This created a “first-mover advantage” – an incentive for investors to redeem at the whiff of a problem. During the Global Financial Crisis, anticipated losses on Lehman Brothers commercial paper led to a run on the $62 billion Reserve Primary Fund, the oldest money market fund in the nation. Concerns about Lehman then sparked concerns about commercial paper issued by other banks. This led to runs on other money market funds. A post-mortem report revealed that as many as 28 other funds had NAVs low enough for them to also break the buck.[11]
 
  
 
-Even without a fixed NAV, liquidity mismatch in other kinds of funds can still make them vulnerable to runs and fire sales. Open-end funds offer daily redemptions, but some hold assets that cannot be sold quickly – particularly in large volumes. Like money market funds, this liquidity mismatch does not typically pose problems in normal times when flows to and from funds are not outsized. But in times of market stress, shareholders are incentivized to redeem early – before fire sales of illiquid assets lower the value of their holdings. Driven by this dynamic amid the pandemic shock, a record $255 billion flowed out of bond mutual funds in March 2020.[12](#_ftn12)
+Even without a fixed NAV, liquidity mismatch in other kinds of funds can still make them vulnerable to runs and fire sales. Open-end funds offer daily redemptions, but some hold assets that cannot be sold quickly – particularly in large volumes. Like money market funds, this liquidity mismatch does not typically pose problems in normal times when flows to and from funds are not outsized. But in times of market stress, shareholders are incentivized to redeem early – before fire sales of illiquid assets lower the value of their holdings. Driven by this dynamic amid the pandemic shock, a record $255 billion flowed out of bond mutual funds in March 2020.[12]
 
  
 
@@ -236,7 +236,7 @@ The structural vulnerabilities at the heart of money market and open-end funds a
 
  
 
-Over the past two years, the SEC has proposed rules to mitigate the vulnerabilities plaguing these funds.[13](#_ftn13)The SEC’s proposals would reduce the first-mover advantage, reducing run incentives during times of stress. They would also require new liquidity management tools, while mandating more comprehensive and timely information on these funds for the SEC and investors.
+Over the past two years, the SEC has proposed rules to mitigate the vulnerabilities plaguing these funds.[13]The SEC’s proposals would reduce the first-mover advantage, reducing run incentives during times of stress. They would also require new liquidity management tools, while mandating more comprehensive and timely information on these funds for the SEC and investors.
 
  
 
@@ -252,11 +252,11 @@ We’ve also been focused on mitigating systemic risks from the use of leverage 
 
  
 
-The hedge fund industry has expanded significantly over the last five years. In 2021, gross assets reached almost $10 trillion, up more than 50 percent since 2016.[14](#_ftn14)Hedge funds are also playing a more prominent role in markets that lie at the core of the financial system – like the U.S. Treasury market.
+The hedge fund industry has expanded significantly over the last five years. In 2021, gross assets reached almost $10 trillion, up more than 50 percent since 2016.[14]Hedge funds are also playing a more prominent role in markets that lie at the core of the financial system – like the U.S. Treasury market.
 
  
 
-Overall use of leverage among hedge funds is fairly small on average. But leverage appears to be concentrated among a select number of large hedge funds. Twenty-five funds account for around half of all hedge fund borrowing and derivatives exposures.[15](#_ftn15)Further, funds with certain strategies are engaged in very significant use of leverage.
+Overall use of leverage among hedge funds is fairly small on average. But leverage appears to be concentrated among a select number of large hedge funds. Twenty-five funds account for around half of all hedge fund borrowing and derivatives exposures.[15]Further, funds with certain strategies are engaged in very significant use of leverage.
 
  
 
@@ -264,7 +264,7 @@ Leverage can support economic growth, but excessive leverage is dangerous. It ca
 
  
 
-In March 2020, these risks became reality. For example, hedge funds were among the top three sellers of Treasury securities that month. FSOC has determined that they materially contributed to Treasury market dysfunction.[16](#_ftn16)
+In March 2020, these risks became reality. For example, hedge funds were among the top three sellers of Treasury securities that month. FSOC has determined that they materially contributed to Treasury market dysfunction.[16]
 
  
 
@@ -276,7 +276,7 @@ First, we restored FSOC’s Hedge Fund Working Group, which had previously been 
 
  
 
-Second, Treasury’s Office of Financial Research will continue to enhance data collection on bilateral repo transactions without a central counterparty. These are a key source of leverage for hedge funds. This collection will also help to close a large remaining gap for Treasury market data. And it will be important for Treasury’s broader efforts to advance reforms with financial regulators that improve the resilience of the Treasury market, which has seen some episodes of stress in recent years.[17](#_ftn17)
+Second, Treasury’s Office of Financial Research will continue to enhance data collection on bilateral repo transactions without a central counterparty. These are a key source of leverage for hedge funds. This collection will also help to close a large remaining gap for Treasury market data. And it will be important for Treasury’s broader efforts to advance reforms with financial regulators that improve the resilience of the Treasury market, which has seen some episodes of stress in recent years.[17]
 
  
 
@@ -292,7 +292,7 @@ New technologies have the potential to provide faster, safer, and cheaper financ
 
  
 
-Over the past decade, the digital assets ecosystem has grown significantly in scope and scale. It has also been subject to significant shocks and volatility. In November 2021, global market capitalization reached approximately $3 trillion.[18](#_ftn18)Just over half a year later, it lost two-thirds of its value – and has not markedly recovered since then.
+Over the past decade, the digital assets ecosystem has grown significantly in scope and scale. It has also been subject to significant shocks and volatility. In November 2021, global market capitalization reached approximately $3 trillion.[18]Just over half a year later, it lost two-thirds of its value – and has not markedly recovered since then.
 
  
 
@@ -328,7 +328,7 @@ I’d be remiss if I did not end by speaking about one of the most important sho
 
  
 
-Since 1789, the United States has paid all of our bills on time. It should stay that way. In my assessment – and that of economists across the board – a default on our obligations would cause an economic and financial catastrophe. No financial system is designed or regulated to be prepared for its own government to choose not to pay its bills. A breach of the debt ceiling could lead to a prolonged downturn and a global financial crisis. And it could upend the lives of millions of Americans and those around the world.[19](#_ftn19)
+Since 1789, the United States has paid all of our bills on time. It should stay that way. In my assessment – and that of economists across the board – a default on our obligations would cause an economic and financial catastrophe. No financial system is designed or regulated to be prepared for its own government to choose not to pay its bills. A breach of the debt ceiling could lead to a prolonged downturn and a global financial crisis. And it could upend the lives of millions of Americans and those around the world.[19]
 
  
 
@@ -373,40 +373,40 @@ Thank you so much for this honor.
  
  
 
-[1](#_ftnref1)https://www.jstor.org/stable/42920043
+[1]https://www.jstor.org/stable/42920043
 
-[2](#_ftnref2)https://fraser.stlouisfed.org/title/economic-letter-6362/assessing-costs-consequences-2007-09-financial-crisis-aftermath-607683
+[2]https://fraser.stlouisfed.org/title/economic-letter-6362/assessing-costs-consequences-2007-09-financial-crisis-aftermath-607683
 
-[3](#_ftnref3)https://www.journals.uchicago.edu/doi/abs/10.1086/708815?mobileUi=0ii
+[3]https://www.journals.uchicago.edu/doi/abs/10.1086/708815?mobileUi=0ii
 
-[4](#_ftnref4)https://www.sciencedirect.com/science/article/pii/S157400489910034X
+[4]https://www.sciencedirect.com/science/article/pii/S157400489910034X
 
-[5](#_ftnref5)https://www.aeaweb.org/articles?id=10.1257/mac.20180428
+[5]https://www.aeaweb.org/articles?id=10.1257/mac.20180428
 
-[6](#_ftnref6)https://www.jstor.org/stable/2328943
+[6]https://www.jstor.org/stable/2328943
 
-[7](#_ftnref7)https://academic.oup.com/rfs/article-abstract/22/6/2201/1592184
+[7]https://academic.oup.com/rfs/article-abstract/22/6/2201/1592184
 
-[8](#_ftnref8)https://www.journals.uchicago.edu/doi/10.1086/261155
+[8]https://www.journals.uchicago.edu/doi/10.1086/261155
 
-[9](#_ftnref9)https://www.federalreserve.gov/releases/z1/
+[9]https://www.federalreserve.gov/releases/z1/
 
-[10](#_ftnref10)https://www.sec.gov/oiea/investor-alerts-bulletins/investor-alerts-mmf-investoralert
+[10]https://www.sec.gov/oiea/investor-alerts-bulletins/investor-alerts-mmf-investoralert
 
-[11](#_ftnref11)https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr564.pdf
+[11]https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr564.pdf
 
-[12](#_ftnref12)https://home.treasury.gov/system/files/261/FSOC2020AnnualReport.pdf
+[12]https://home.treasury.gov/system/files/261/FSOC2020AnnualReport.pdf
 
-[13](#_ftnref13)https://www.sec.gov/news/press-release/2021-258
+[13]https://www.sec.gov/news/press-release/2021-258
 
-[14](#_ftnref14)https://home.treasury.gov/system/files/261/FSOC2022AnnualReport.pdf
+[14]https://home.treasury.gov/system/files/261/FSOC2022AnnualReport.pdf
 
-[15](#_ftnref15)https://home.treasury.gov/system/files/261/FSOC2022AnnualReport.pdf
+[15]https://home.treasury.gov/system/files/261/FSOC2022AnnualReport.pdf
 
-[16](#_ftnref16)https://home.treasury.gov/system/files/261/FSOC2022AnnualReport.pdf
+[16]https://home.treasury.gov/system/files/261/FSOC2022AnnualReport.pdf
 
-[17](#_ftnref17)https://home.treasury.gov/system/files/136/2022-IAWG-Treasury-Report.pdf
+[17]https://home.treasury.gov/system/files/136/2022-IAWG-Treasury-Report.pdf
 
-[18](#_ftnref18)https://www.whitehouse.gov/briefing-room/statements-releases/2022/09/16/fact-sheet-white-house-releases-first-ever-comprehensive-framework-for-responsible-development-of-digital-assets/
+[18]https://www.whitehouse.gov/briefing-room/statements-releases/2022/09/16/fact-sheet-white-house-releases-first-ever-comprehensive-framework-for-responsible-development-of-digital-assets/
 
-[19](#_ftnref19)https://home.treasury.gov/system/files/136/Debt-Limit-Letter-to-Congress-McCarthy-20230113.pdf
+[19]https://home.treasury.gov/system/files/136/Debt-Limit-Letter-to-Congress-McCarthy-20230113.pdf
