@@ -369,7 +369,9 @@ def determine_category(item: dict, use_title_analysis: bool = True) -> str:
     if use_title_analysis:
         if title.startswith("readout"):
             title_category = "readouts"
-        elif title.startswith("statement by") or title.startswith("joint statement"):
+        elif (title.startswith("statement by") or 
+              title.startswith("joint statement") or
+              title.startswith("remarks by")):
             title_category = "statements-remarks"
         elif title.startswith("testimony") or "testifies" in title:
             title_category = "testimonies"
