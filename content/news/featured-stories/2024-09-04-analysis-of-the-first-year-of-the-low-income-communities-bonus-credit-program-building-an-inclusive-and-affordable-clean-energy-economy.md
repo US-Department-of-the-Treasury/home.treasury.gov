@@ -4,11 +4,7 @@ date: 2024-09-04
 draft: false
 url: /news/featured-stories/analysis-of-the-first-year-of-the-low-income-communities-bonus-credit-program-building-an-inclusive-and-affordable-clean-energy-economy
 ---
-Theodore Lee,* Deputy Assistant Secretary for Tax Policy and Delivery*
-
-Anisha Steephen,* Office of Tax Policy*
-
-[The Low-Income Communities Bonus Credit Program](https://home.treasury.gov/news/press-releases/jy1688)(the Program) is part of the Biden-Harris Administration’s *Investing in America* agenda – a transformative set of investments designed to create jobs, lower costs for American families, and spur an economic revitalization in communities that have historically been left behind. The U.S. Department of the Treasury (Treasury) and the Internal Revenue Service (IRS) established the Program under Section 48(e), which was added to the Internal Revenue Code by the Inflation Reduction Act (IRA) to promote cost-saving clean energy investments in low-income communities, on Indian lands (as defined in statute), as part of affordable housing developments, and benefitting low-income households.
+Theodore Lee,*Deputy Assistant Secretary for Tax Policy and Delivery*Anisha Steephen,*Office of Tax Policy*[The Low-Income Communities Bonus Credit Program](https://home.treasury.gov/news/press-releases/jy1688)(the Program) is part of the Biden-Harris Administration’s *Investing in America* agenda – a transformative set of investments designed to create jobs, lower costs for American families, and spur an economic revitalization in communities that have historically been left behind. The U.S. Department of the Treasury (Treasury) and the Internal Revenue Service (IRS) established the Program under Section 48(e), which was added to the Internal Revenue Code by the Inflation Reduction Act (IRA) to promote cost-saving clean energy investments in low-income communities, on Indian lands (as defined in statute), as part of affordable housing developments, and benefitting low-income households.
 
 The Program is an unprecedented incentive to increase solar and wind installations in low-income communities. Section 48(e) increases the Section 48 energy investment tax credit of 30 percent (assuming prevailing wage and apprenticeship requirements are met) by 10 or 20 percentage points, making it a valuable bonus to increase clean energy development and adoption. The Program provides 1.8 gigawatts of annual capacity available to eligible solar or wind facilities with maximum net output of less than five megawatts. The program will transition to a “technology neutral” program that accommodates additional clean energy technologies in 2025 when Section 48E(h) takes effect. Treasury and IRS partnered with the U.S. Department of Energy (DOE) to manage an applicant portal, review applications, and make application recommendations to the IRS.
 
@@ -119,9 +115,7 @@ Facilities that are part of a qualified low-income economic benefit project
 
 694,230
 
-** Detail may not add to total because of rounding. **
-
-**[1] Application categories are established in IRC 48(e)(2) and further described in 26 CFR 1.48(e)-1(b)(2). Subcategories for facilities located in a low-income community are described in 26 CFR 1.48(e)-1(i).**
+** Detail may not add to total because of rounding.  [1] Application categories are established in IRC 48(e)(2) and further described in 26 CFR 1.48(e)-1(b)(2). Subcategories for facilities located in a low-income community are described in 26 CFR 1.48(e)-1(i).**
 
 Source: IRS, RAAS, Statistics of Income, August 2024.
 

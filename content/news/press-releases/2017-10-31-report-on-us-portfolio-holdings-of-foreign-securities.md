@@ -1,10 +1,10 @@
 ---
-title: Report On U.S. Portfolio Holdings Of Foreign Securities 
+title: Report On U.S. Portfolio Holdings Of Foreign Securities
 date: 2017-10-31
 draft: false
 url: /news/press-releases/report-on-us-portfolio-holdings-of-foreign-securities
 ---
-**WASHINGTON –**The findings from the annual survey of U.S. portfolio holdings of foreign securities at year-end 2016 were released today and posted on the Treasury web site at[https://www.treasury.gov/resource-center/data-chart-center/tic/Pages/fpis.aspx](http://www.treasury.gov/resource-center/data-chart-center/tic/Pages/fpis.aspx).
+**WASHINGTON** –The findings from the annual survey of U.S. portfolio holdings of foreign securities at year-end 2016 were released today and posted on the Treasury web site at[https://www.treasury.gov/resource-center/data-chart-center/tic/Pages/fpis.aspx](http://www.treasury.gov/resource-center/data-chart-center/tic/Pages/fpis.aspx).
 
 The survey was undertaken jointly by the U.S. Department of the Treasury, the Federal Reserve Bank of New York, and the Board of Governors of the Federal Reserve System.
 
@@ -23,12 +23,6 @@ Type of Security
 Dec. 31, 2015
 
 Dec. 31, 2016
-
- 
-
- 
-
- 
 
 Long-term Securities
 
@@ -54,16 +48,11 @@ Short-term debt securities
 
 308
 
-**Total**
-
-**9,455**
-
-**9,891**
+**Total 9,455 9,891**
 
 U.S. Portfolio Investment by Country
 
 **Table 2.  Market value of U.S. portfolio holdings of foreign securities, by country and type of security, for countries attracting the most U.S. investment, as of December 31, 2016 [1]**(Billions of dollars)
-
 
 			Country or category
 
@@ -331,17 +320,7 @@ Rest of world
 
 24
 
-**Total**
-
-**9,891**
-
-**7,146**
-
-**2,745**
-
-**2,436**
-
-**308**
+**Total 9,891 7,146 2,745 2,436 308**
 
 *     Greater than zero but less than $500 million.Items may not sum to totals due to rounding.
 

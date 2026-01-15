@@ -22,7 +22,7 @@ The researchers find that 55 percent of people who received an EIP did so in the
 
 The authors estimate that 92 percent of potentially eligible individuals received an EIP, which is high when compared to estimated receipt rates for other tax credits or other[non-tax benefits](https://www.brookings.edu/research/the-social-insurance-system-in-the-u-s-policies-to-protect-workers-and-families/).[2]The estimated receipt rate was quite high for individuals over age 60, likely due to automatic payments made to Social Security recipients. The authors find that, while quick receipt was shared across racial and ethnic subgroups, there were some differences in estimated receipt rates. (See Figure.)
 
-**Figure: Recipients as a percent of the estimated potentially eligible population by race/ethnicity **
+**Figure: Recipients as a percent of the estimated potentially eligible population by race/ethnicity**
 
 ## Methodology and Related Research
 

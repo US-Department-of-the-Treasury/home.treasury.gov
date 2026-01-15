@@ -24,11 +24,7 @@ Families in all 50 states, the District of Columbia, and Puerto Rico claimed the
 
 ### Table 1: Residential energy tax credits claimed for tax year 2023
 
- **Number of returns​a****Credit value​a, b**
-
-** Residential Clean **
-
-** Energy Credit**
+ **Number of returns​a Credit value​a, b  Residential Clean   Energy Credit**
 
 1,246,440
 
@@ -36,7 +32,7 @@ Total: $6.3 billion,
 
 Average per return: $5,084
 
-* Selected examples*       Rooftop solar
+*Selected examples*       Rooftop solar
 
 752,300
 
@@ -44,8 +40,7 @@ Up to 30% of cost     Batteries
 
 48,840
 
-Up to 30% of cost   **Energy Efficient Home **
-** Improvement Credit**
+Up to 30% of cost   **Energy Efficient Home   Improvement Credit**
 
 2,338,430
 
@@ -53,7 +48,7 @@ Total: $2.1 billion,
 
 Average per return: $882
 
-* Selected examples*       Home insulation
+*Selected examples*       Home insulation
 
 699,440
 
@@ -100,9 +95,6 @@ These investments yield benefits beyond the immediate bill savings. Reducing ene
 Energy efficiency and clean energy investments combat climate change and clean the air Americans breathe. The extent of benefits depend on what fuel the efficient appliance is reducing or replacing, where the household is located, and how much heating and cooling they use. The same study mentioned above estimates that deploying heat pumps for every household would result in emission reductions equivalent to 330-590 million tons of CO2 per year, or 5-9 percent of current national emissions. According to the EPA, reducing CO2 emissions by one ton has a social benefit of $255 in impacts on health, property damage, labor productivity, energy costs, and agriculture so this would translate to a social benefit of $84 billion to $150 billion per year.[11]
 
 There are also air pollution benefits to burning less fuel or having the combustion farther from where people live and breathe (e.g., at power plants for electrified appliances rather than natural gas or propane in the home). Cleaner air is linked to a variety of health benefits, including reducing the likelihood of premature mortality as well as stroke, heart disease, lung cancer, dementia, and respiratory diseases like asthma.[12]It can even reduce the number of car accidents.[13]Reducing air pollution also comes with economic benefits, such as improved worker attendance and productivity,[14]and improved test scores in educational settings.[15]
-
- 
- 
 
 [1]The estimates are based on tax returns as initially processed by IRS and do not reflect amended returns or errors that were corrected after initial processing. Future estimates will be updated. See IRS tables for additional caveats.
 

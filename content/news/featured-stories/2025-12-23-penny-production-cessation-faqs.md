@@ -6,9 +6,7 @@ url: /news/featured-stories/penny-production-cessation-faqs
 ---
 The following recommendations are non-binding guidance. All must comply with otherwise applicable restrictions.
 
-**Frequently Asked Questions: Businesses**
-
-** Why is penny production being suspended?**
+**Frequently Asked Questions: Businesses  Why is penny production being suspended?**
 
 Over the past 10 years, the total production cost of the penny has risen from 1.3 cents to 3.69 cents per penny. These production costs include materials, facilities, and overhead. The U.S. Mint projects an immediate annual savings of $56 million in reduced material costs by stopping penny production. Given the increasing number of non-cash transactions and the very low purchasing power of a single penny, the Department of the Treasury does not believe continued production is fiscally responsible or necessary to meet the needs of commerce in the United States. The Secretary of the Treasury has the authority under federal law (31 U.S.C. §§ 5111(a)(1) and 5112(a)(6)) to mint and issue pennies in amounts necessary to meet the needs of the United States. Secretary Bessent, working closely with President Trump, is exercising that authority to better steward taxpayer dollars.
 
@@ -58,9 +56,7 @@ For more information on how the phase-out of the penny may affect sales taxes an
 
 Businesses may continue to deposit pennies at their financial institutions. Pennies will continue to be legal tender and retain their nominal value in perpetuity.
 
-** Frequently Asked Questions: Consumers**
-
-** Why is penny production being suspended?**
+** Frequently Asked Questions: Consumers  Why is penny production being suspended?**
 
 Over the past 10 years, the total production cost of the penny has risen from 1.3 cents to 3.69 cents per penny. These production costs include materials, facilities, and overhead. The U.S. Mint projects an immediate annual savings of $56 million in reduced material costs by stopping penny production. Additional savings will accrue as facility usage is adjusted and other efficiencies are achieved with the reduced production. Given the increasing number of non-cash transactions and the very low purchasing power of a single penny, the Department of Treasury does not believe continued production is fiscally responsible or necessary to meet the needs of commerce in the United States. The Secretary of the Treasury has the authority under Federal Law (31 U.S.C. §§ 5111(a)(1) and 5112(a)(6)) to mint and issue pennies in amounts necessary to meet the needs of the United States. Secretary Bessent, working closely with President Trump, is exercising that authority to better steward taxpayer dollars.
 

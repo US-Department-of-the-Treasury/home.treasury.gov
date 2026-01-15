@@ -10,7 +10,7 @@ Prospects for the American economy looked grim at the beginning of 2021. The sho
 
 Had these pessimistic forecasts been realized, Black and Hispanic households would likely have experienced a disproportionate amount of the economic pain. During economic downturns, Black and Hispanic Americans have historically faced unemployment rate increases that are larger than those faced by other groups. Had the overall unemployment rate been 5.5 percent at the end of 2021 as forecasted, historical trends suggest that the Black and Hispanic unemployment rates would have then been 9.6 and 7.0 percent, respectively.
 
-But that pessimism was proven wrong—both for the aggregate economy and especially for those households too often left behind. The unemployment rates for Black and Hispanic workers dropped to 7.0 and 4.8 percent by the end of 2021. Other measures of financial well-being for those workers, on average, remained either relatively strong or improved, such as low delinquency rates and increasing household wealth. In fact, according to last week’s release of the Survey of Consumer Finances (SCF), median wealth, adjusted for inflation, increased between 2019 and 2022 by 60 and 47 percent for Black and Hispanic families, some of the largest increases in the survey’s history. Racial wealth gaps narrowed between 2019 and 2022.[2]While we focus only on Black and Hispanic households in this report for data availability reasons, the strong recovery appears to have extended to other minority groups and more narrow subgroups.**According to the evidence from household finance and labor markets we describe in this report, this recovery was the most equitable in recent history.**
+But that pessimism was proven wrong—both for the aggregate economy and especially for those households too often left behind. The unemployment rates for Black and Hispanic workers dropped to 7.0 and 4.8 percent by the end of 2021. Other measures of financial well-being for those workers, on average, remained either relatively strong or improved, such as low delinquency rates and increasing household wealth. In fact, according to last week’s release of the Survey of Consumer Finances (SCF), median wealth, adjusted for inflation, increased between 2019 and 2022 by 60 and 47 percent for Black and Hispanic families, some of the largest increases in the survey’s history. Racial wealth gaps narrowed between 2019 and 2022.[2]While we focus only on Black and Hispanic households in this report for data availability reasons, the strong recovery appears to have extended to other minority groups and more narrow subgroups. **According to the evidence from household finance and labor markets we describe in this report, this recovery was the most equitable in recent history.**
 
 Why was this recovery so equitable? The strength and speed of the overall recovery is one important factor. The actions taken and investments made by the Biden-Harris Administration, state and local governments, and the Federal Reserve—as well as the rapid pace of vaccine development and dissemination—helped thwart the worst economic outcomes anticipated from the COVID shock. By the end of 2021, the overall unemployment rate was below 4 percent, and real GDP had nearly returned to its pre-pandemic trend. The strong and speedy recovery was particularly important for Black and Hispanic Americans, who have been historically most vulnerable to economic cycles and were hardest hit by the COVID downturn.
 
@@ -32,7 +32,7 @@ Figure 1: Actual versus Forecasted GDP
 
 Note: Quarterly path of Blue Chip Forecast is backed out from the forecasts for 2020Q4/Q4 and 2021Q4/Q4 growth rates.
 
-Source: Blue Chip Indicators for January 2021.; U.S. Bureau of Economic Analysis. 2023. Real Gross Domestic Product (GDPC1).* FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023.
+Source: Blue Chip Indicators for January 2021.; U.S. Bureau of Economic Analysis. 2023. Real Gross Domestic Product (GDPC1).*FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023.
 
 A recession as predicted by those forecasts would have been disproportionately felt by households and workers of color. A 1 percentage point change in the national unemployment rate is typically accompanied by 1.6 and 1.4 percentage point increases in the unemployment rates for Black and Hispanic workers, respectively.[4]
 
@@ -80,7 +80,7 @@ Figure 5. Three-Year Growth Rates of Real Wages for Full-Time Workers by Race an
 
 Notes: Growth rates for each recession are constructed as follows: 3-year growth over 2000 to 2003 for the 2001 recession, growth over 2007 to 2010 for the 2008 recession, and growth over 2019 to 2022 for the 2020 recession. (Data not available prior to 2000.)
 
-Source: U.S. Bureau of Labor Statistics. 2023. Employed full time: Median usual weekly real earnings: Wage and salary workers: 16 years and over: Black or African American (LEU0252884600Q), Hispanic or Latino (LEU0252885500Q), and White (LEU0252883700Q).* FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023.
+Source: U.S. Bureau of Labor Statistics. 2023. Employed full time: Median usual weekly real earnings: Wage and salary workers: 16 years and over: Black or African American (LEU0252884600Q), Hispanic or Latino (LEU0252885500Q), and White (LEU0252883700Q).*FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023.
 
 Overall, improvements in labor market outcomes for Black and Hispanic workers were particularly pronounced in the years following the COVID recession relative to both white workers and to previous recoveries.
 
@@ -142,22 +142,19 @@ Figure 9. Quarterly Foreclosure Rate by Race and Hispanic Origin
 
  
 
-Note:** ** Figure plots the quarterly foreclosure rate through 2020Q4 by race and ethnicity from a sample of homeowners with observed purchase prices in the Home Mortgage Disclosure Act data.
+Note:  Figure plots the quarterly foreclosure rate through 2020Q4 by race and ethnicity from a sample of homeowners with observed purchase prices in the Home Mortgage Disclosure Act data.
 
-Source: Data provided by Amir Kermani. For a detailed description of the data, see Kermani, Amir, and Francis Wong. 2021. “Racial Disparities in Housing Returns.”* NBER*, working paper no. 29306.
+Source: Data provided by Amir Kermani. For a detailed description of the data, see Kermani, Amir, and Francis Wong. 2021. “Racial Disparities in Housing Returns.”*NBER*, working paper no. 29306.
 
  
 
 Despite the widespread hardship caused by the pandemic, homeownership rates for every racial group increased since 2019 (see Figure 10). Between 2019 and 2022, Black, Hispanic, and white homeownership rates rose 2.9, 1.2, and 1.1 percentage points, respectively. This occurred despite aggressive interest rate increases, which significantly raised the cost of borrowing beginning in early 2022. In contrast, homeownership rates fell over the Great Recession and rose by less for Black and Hispanic households in the 2001 recession and recovery.
 
- 
-  
-
 Figure 10. Three-Year Change in Homeownership Rates by Race and Hispanic Origin
 
-Notes:** ** Figure displays the proportion of all households that are homeowners. Hispanic includes anyone of Hispanic ethnicity regardless of race. Changes in homeownership rates for each recession are constructed as follows: changes from 2000 to 2003 for the 2001 recession, 2007 to 2010 for the 2008 recession, and 2019 to 2022 for the 2020 recession.
+Notes:  Figure displays the proportion of all households that are homeowners. Hispanic includes anyone of Hispanic ethnicity regardless of race. Changes in homeownership rates for each recession are constructed as follows: changes from 2000 to 2003 for the 2001 recession, 2007 to 2010 for the 2008 recession, and 2019 to 2022 for the 2020 recession.
 
-Source: U.S. Census Bureau. 2023. Homeownership Rates by Race and Ethnicity: Black Alone (BOAAAHORUSQ156N), Hispanic (of Any Race) (HOLHORUSQ156N), and Non-Hispanic White Alone (NHWAHORUSQ156N).* FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023.
+Source: U.S. Census Bureau. 2023. Homeownership Rates by Race and Ethnicity: Black Alone (BOAAAHORUSQ156N), Hispanic (of Any Race) (HOLHORUSQ156N), and Non-Hispanic White Alone (NHWAHORUSQ156N).*FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023.
 
  
 
@@ -245,15 +242,15 @@ The actions taken by the Biden-Harris Administration to increase equity are not 
 
 [1]Based on Blue Chip median forecast from January 2021 for 2020Q4/Q4 and 2021Q4/Q4 appended onto the realized 2019Q4 level. Trend is calculated based on the 2015 to 2019 growth rate of current GDP data.
 
-[2]The typical Black family went from having $13 in wealth for every $100 held by the typical white family in 2019 to $16 in 2022, and the typical Hispanic family went from having $19 in wealth for every $100 held by the typical white family in 2019 to $22 in 2022. Aladangady, Aditya, Andrew C. Chang, and Jacob Krimmel. 2023. “[Greater Wealth, Greater Uncertainty: Changes in Racial Inequality in the Survey of Consumer Finances](https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html).” FEDS Notes.* Board of Governors of the Federal Reserve System*, October 18, 2023.
+[2]The typical Black family went from having $13 in wealth for every $100 held by the typical white family in 2019 to $16 in 2022, and the typical Hispanic family went from having $19 in wealth for every $100 held by the typical white family in 2019 to $22 in 2022. Aladangady, Aditya, Andrew C. Chang, and Jacob Krimmel. 2023. “[Greater Wealth, Greater Uncertainty: Changes in Racial Inequality in the Survey of Consumer Finances](https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html).” FEDS Notes.*Board of Governors of the Federal Reserve System*, October 18, 2023.
 
 [3]Aladangady, Chang, and Krimmel (2023).
 
-[4]Duzhak, Evgeniya A. 2021. “[How Do Business Cycles Affect Worker Groups Differently](https://www.frbsf.org/economic-research/publications/economic-letter/2021/september/how-do-business-cycles-affect-worker-groups-differently/)?” Economic letter.* Federal Reserve Bank of San Francisco*, September 7, 2021.
+[4]Duzhak, Evgeniya A. 2021. “[How Do Business Cycles Affect Worker Groups Differently](https://www.frbsf.org/economic-research/publications/economic-letter/2021/september/how-do-business-cycles-affect-worker-groups-differently/)?” Economic letter.*Federal Reserve Bank of San Francisco*, September 7, 2021.
 
-[5]Hotchkiss, Julie L., and Robert E. Moore. 2022. “Some Like It Hot: Assessing Longer-Term Labor Market Benefits from a High-Pressure Economy.”* International Journal of Central Banking*18 (2): 193-243.
+[5]Hotchkiss, Julie L., and Robert E. Moore. 2022. “Some Like It Hot: Assessing Longer-Term Labor Market Benefits from a High-Pressure Economy.”*International Journal of Central Banking*18 (2): 193-243.
 
-[6]Yagan, Danny. 2019. “Employment from Hysteresis from the Great Recession.”* Journal of Political Economy *127 (5): 2505-2558.
+[6]Yagan, Danny. 2019. “Employment from Hysteresis from the Great Recession.”*Journal of Political Economy *127 (5): 2505-2558.
 
 [7]Greenstone, Michael, and Adam Looney. 2011. "Unemployment and Earnings Losses: A Look at Long-Term Impacts of the Great Recession on American Workers." Brookings Institution, November 4, 2011.
 
@@ -261,62 +258,62 @@ The actions taken by the Biden-Harris Administration to increase equity are not 
 
 [9]Gelman, Michael, and Melvin Stephens Jr. 2022. “[Chapter 3: Lessons Learned from Economic Impact Payments during COVID-19](https://www.brookings.edu/articles/recession-remedies/).” In *Recession Remedies*, edited by Wendy Edelberg, Louise Sheiner, and David Wessel, 91-122. Washington, D.C.: The Hamilton Project and Hutchins Center on Fiscal & Monetary Policy at Brookings Institution.
 
-[10]Aladangady, Aditya, David Cho, Laura Feiveson, and Eugenio Pinto. 2022. “[Excess Savings during the COVID-19 Pandemic](https://www.federalreserve.gov/econres/notes/feds-notes/excess-savings-during-the-covid-19-pandemic-20221021.html).” FEDS Notes.* Board of Governors of the Federal Reserve System*, October 21, 2022.
+[10]Aladangady, Aditya, David Cho, Laura Feiveson, and Eugenio Pinto. 2022. “[Excess Savings during the COVID-19 Pandemic](https://www.federalreserve.gov/econres/notes/feds-notes/excess-savings-during-the-covid-19-pandemic-20221021.html).” FEDS Notes.*Board of Governors of the Federal Reserve System*, October 21, 2022.
 
-[11]Black median wealth actually grew by much more (over 120 percent) in the 1990 recession. However, this is due primarily to the very low level of median wealth held by Black families in 1989. In dollar amounts, the jump in median Black wealth from 2019 to 2022 was substantially larger than from 1989 to 1992. Kennickell, Arthur B., and Martha Starr-McCluer. 1994. “[Changes in Family Finances from 1989 to 1992: Evidence from the Survey of Consumer Finances](https://www.federalreserve.gov/econres/scf_1992.htm).”* Federal Reserve Bulletin*80: 861-882.
+[11]Black median wealth actually grew by much more (over 120 percent) in the 1990 recession. However, this is due primarily to the very low level of median wealth held by Black families in 1989. In dollar amounts, the jump in median Black wealth from 2019 to 2022 was substantially larger than from 1989 to 1992. Kennickell, Arthur B., and Martha Starr-McCluer. 1994. “[Changes in Family Finances from 1989 to 1992: Evidence from the Survey of Consumer Finances](https://www.federalreserve.gov/econres/scf_1992.htm).”*Federal Reserve Bulletin*80: 861-882.
 
 [12]Data limitations prevent us from looking at earlier recessions.
 
-[13]For example, there is evidence that households used their EIPs to pay down debt, which would have reduced delinquencies. Parker, Jonathan A., Jake Schild, Laura Erhard, and David S. Johnson. 2022. “[Economic Impact Payments and Household Spending During the Pandemic](https://www.brookings.edu/articles/economic-impact-payments-and-household-spending-during-the-pandemic/).”* Brookings Papers on Economic Activity*Fall 2022: 81-130.
+[13]For example, there is evidence that households used their EIPs to pay down debt, which would have reduced delinquencies. Parker, Jonathan A., Jake Schild, Laura Erhard, and David S. Johnson. 2022. “[Economic Impact Payments and Household Spending During the Pandemic](https://www.brookings.edu/articles/economic-impact-payments-and-household-spending-during-the-pandemic/).”*Brookings Papers on Economic Activity*Fall 2022: 81-130.
 
-[14]Gromis, Ashley, Ian Fellows, James R. Hendrickson, Lavar Edmonds, Lillian Leung, Adam Porton, and Matthew Desmond. 2022. “Estimating Eviction Prevalence Across the United States.”* PNAS*119 (21).; Gould Ellen, Ingrid, and Samuel Dastrup. 2012. “[Housing and the Great Recession](https://furmancenter.org/research/publication/housing-and-the-great-recession).”* The Russell Sage Foundation and the Stanford Center on Poverty and Inequality*, October 2012.
+[14]Gromis, Ashley, Ian Fellows, James R. Hendrickson, Lavar Edmonds, Lillian Leung, Adam Porton, and Matthew Desmond. 2022. “Estimating Eviction Prevalence Across the United States.”*PNAS*119 (21).; Gould Ellen, Ingrid, and Samuel Dastrup. 2012. “[Housing and the Great Recession](https://furmancenter.org/research/publication/housing-and-the-great-recession).”*The Russell Sage Foundation and the Stanford Center on Poverty and Inequality*, October 2012.
 
 [15]U.S. Department of the Treasury. n.d. “[Emergency Rental Assistance Program](https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/emergency-rental-assistance-program).” Last accessed October 18, 2023.
 
-[16]For all statistics in this paragraph, see Hepburn, Peter, Renee Louis, and Matthew Desmond. 2020. “[Racial and Gender Disparities among Evicted Americans](https://evictionlab.org/demographics-of-eviction/).”* The Eviction Lab*, December 16, 2020.
+[16]For all statistics in this paragraph, see Hepburn, Peter, Renee Louis, and Matthew Desmond. 2020. “[Racial and Gender Disparities among Evicted Americans](https://evictionlab.org/demographics-of-eviction/).”*The Eviction Lab*, December 16, 2020.
 
 [17]See Figinski, Theodore F., Richard Sweeney, and Erin Troland. 2023. “Targeted Relief: Geography and Timing of Emergency Rental Assistance Funds.” Unpublished manuscript. Figinski, Sweeney, and Troland (2023) use data from the U.S. Department of the Treasury and the U.S. Census Bureau.
 
 [18]Office of Evaluation Sciences, U.S. General Services Administration, and U.S. Department of the Treasury. 2022. “[Equity in the Distribution of the Emergency Rental Assistance Program](https://oes.gsa.gov/projects/era-equity/).”
 
-[19]U.S. Census Bureau. 2023. “[Housing Vacancies and Homeownership (CPS/HVS)](https://www.census.gov/housing/hvs/data/histtabs.html).” Table 16 – Quarterly Homeownership Rates by Race and Ethnicity of Householder: 1994 to Present. Current Population Survey/Housing Vacancy Survey. Last updated August 2, 2023.; Ray, Rashawn, Andre M. Perry, David Harshbarger, Samantha Elizondo, and Alexandra Gibbons. 2021. “[Homeownership, Racial Segregation, and Policy Solutions to Racial Wealth Equity](https://www.brookings.edu/articles/homeownership-racial-segregation-and-policies-for-racial-wealth-equity/).”* Brookings Institution*, September 1, 2021.
+[19]U.S. Census Bureau. 2023. “[Housing Vacancies and Homeownership (CPS/HVS)](https://www.census.gov/housing/hvs/data/histtabs.html).” Table 16 – Quarterly Homeownership Rates by Race and Ethnicity of Householder: 1994 to Present. Current Population Survey/Housing Vacancy Survey. Last updated August 2, 2023.; Ray, Rashawn, Andre M. Perry, David Harshbarger, Samantha Elizondo, and Alexandra Gibbons. 2021. “[Homeownership, Racial Segregation, and Policy Solutions to Racial Wealth Equity](https://www.brookings.edu/articles/homeownership-racial-segregation-and-policies-for-racial-wealth-equity/).”*Brookings Institution*, September 1, 2021.
 
 [20]U.S. Department of the Treasury. n.d. “[Homeowner Assistance Fund](https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund).” Last accessed October 18, 2023.
 
 [21]Attom. 2023. “[Foreclosure Activity in First Half of 2023 Ticks Upwards Toward Pre-Covid Levels](https://www.attomdata.com/news/market-trends/foreclosures/attom-mid-year-2023-u-s-foreclosure-market-report/).” July 13, 2023.
 
-[22]Shrider, Emily A., and John Creamer. 2023. “[Poverty in the United States: 2022](https://www.census.gov/library/publications/2023/demo/p60-280.html).” Table A-3 – Poverty Status of People by Age, Race, and Hispanic Origin: 1959 to 2022.* U.S. Census Bureau*, report no. P60-280. September 12, 2023.
+[22]Shrider, Emily A., and John Creamer. 2023. “[Poverty in the United States: 2022](https://www.census.gov/library/publications/2023/demo/p60-280.html).” Table A-3 – Poverty Status of People by Age, Race, and Hispanic Origin: 1959 to 2022.*U.S. Census Bureau*, report no. P60-280. September 12, 2023.
 
 [23]Treasury calculations using data from U.S. Census Bureau. 2022. “[America’s Families and Living Arrangements: 2022](https://www.census.gov/data/tables/2022/demo/families/cps-2022.html).” Table A3 – Parents With Coresident Children Under 18, by Living Arrangement, Sex, and Selected Characteristics: 2022. November 17, 2022.
 
-[24]Bauer, Lauren, and Sarah Yu Wang. 2023. “[Prime-Age Women are Going Above and Beyond in the Labor Market Recovery](https://www.brookings.edu/articles/prime-age-women-labor-market-recovery/#:~:text=Since%20February%202023%2C%20the%20labor,participation%20rate%20of%2077.8%20percent).”* Brookings Institution*, August 30, 2023.
+[24]Bauer, Lauren, and Sarah Yu Wang. 2023. “[Prime-Age Women are Going Above and Beyond in the Labor Market Recovery](https://www.brookings.edu/articles/prime-age-women-labor-market-recovery/#:~:text=Since%20February%202023%2C%20the%20labor,participation%20rate%20of%2077.8%20percent).”*Brookings Institution*, August 30, 2023.
 
-[25]Dinlersoz, Emin, Timothy Dunne, John Haltiwanger, and Veronika Penciakova. 2021. “[Business Formation: A Tale of Two Recessions](https://www.census.gov/library/working-papers/2021/adrm/CES-WP-21-01.html).”* Center for Economic Studies, U.S. Census Bureau*, working paper no. CES-21-01.
+[25]Dinlersoz, Emin, Timothy Dunne, John Haltiwanger, and Veronika Penciakova. 2021. “[Business Formation: A Tale of Two Recessions](https://www.census.gov/library/working-papers/2021/adrm/CES-WP-21-01.html).”*Center for Economic Studies, U.S. Census Bureau*, working paper no. CES-21-01.
 
-[26]U.S. Census Bureau. 2023. Business Applications: Total for All NAICS in the United States (BABATOTALSAUS).* FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023.
+[26]U.S. Census Bureau. 2023. Business Applications: Total for All NAICS in the United States (BABATOTALSAUS).*FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023.
 
-[27]There was a large increase in business applications during the second half of 2020, and they have remained elevated ever since: business applications were 59 percent higher in August 2023 than in August 2019.   U.S. Census Bureau. 2023. Business Applications: Total for All NAICS in the United States (BABATOTALSAUS).* FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023
+[27]There was a large increase in business applications during the second half of 2020, and they have remained elevated ever since: business applications were 59 percent higher in August 2023 than in August 2019.   U.S. Census Bureau. 2023. Business Applications: Total for All NAICS in the United States (BABATOTALSAUS).*FRED, Federal Reserve Bank of St. Louis*. Last accessed October 19, 2023
 
 [28]U.S. Department of the Treasury. 2023. “[Treasury Department Report Card: Latino Business Ownership Up, Pandemic Recovery Efforts Helped Grow Latino-owned Businesses](https://home.treasury.gov/news/press-releases/jy1798).” Press release. October 12, 2023.
 
-[29]Fazio, Catherine E., Jorge Guzman, Yupeng Liu, and Scott Stern. 2021. “[How is COVID Changing the Geography of Entrepreneurship? Evidence from the Startup Cartography Project](https://www.nber.org/papers/w28787).”* NBER*, working paper no. 28787.
+[29]Fazio, Catherine E., Jorge Guzman, Yupeng Liu, and Scott Stern. 2021. “[How is COVID Changing the Geography of Entrepreneurship? Evidence from the Startup Cartography Project](https://www.nber.org/papers/w28787).”*NBER*, working paper no. 28787.
 
-[30]Hoynes, Hilary, Douglas L. Miller, and Jessamyn Schaller. 2012. "Who Suffers during Recessions?"* Journal of Economic Perspectives*26 (3): 27-48**.**
+[30]Hoynes, Hilary, Douglas L. Miller, and Jessamyn Schaller. 2012. "Who Suffers during Recessions?"*Journal of Economic Perspectives*26 (3): 27-48**.**
 
-[31]Buckman, Shelby R., Laura Y. Choi, Mary C. Daly, and Lily M. Seitelman. 2021. “[The Economic Gains from Equity](https://www.brookings.edu/articles/the-economic-gains-from-equity/).”* Brookings Papers on Economic Activity*, September 8, 2021.; Hsieh, Chang-Tai, Erik Hurst, Charles I. Jones, and Peter J. Klenow. 2019. “The Allocation of Talent and U.S. Economic Growth.”* Econometrica*87 (5): 1439-1474.
+[31]Buckman, Shelby R., Laura Y. Choi, Mary C. Daly, and Lily M. Seitelman. 2021. “[The Economic Gains from Equity](https://www.brookings.edu/articles/the-economic-gains-from-equity/).”*Brookings Papers on Economic Activity*, September 8, 2021.; Hsieh, Chang-Tai, Erik Hurst, Charles I. Jones, and Peter J. Klenow. 2019. “The Allocation of Talent and U.S. Economic Growth.”*Econometrica*87 (5): 1439-1474.
 
-[32]Reardon, Sean F, Ericka Weathers, Erin Fahle, Heewon Jang, Demetra Kalogrides. 2022. “[Is Separate Still Unequal? New Evidence on School Segregation and Racial Academic Achievement Gaps](https://cepa.stanford.edu/content/separate-still-unequal-new-evidence-school-segregation-and-racial-academic-achievement-gaps).”* Stanford Center for Education Policy Analysis*, CEPA working paper no. 19-06.; Park, Julie J. and Ann H. Becks. 2015. “Who Benefits from SAT Prep? An Examination of High School Context and Race/Ethnicity.”* The Review of Higher Education *39 (1): 1-23.; Office for Civil Rights, U.S. Department of Education. 2021. “[An Overview of Exclusionary Discipline Practices in Public Schools for the 2017-2018 School Year](https://ocrdata.ed.gov/assets/downloads/crdc-exclusionary-school-discipline.pdf).” Civil Rights Data Collection. June 2021.; Gopalan, Maithreyi, and Ashlyn Aiko Nelson. 2019. “Understanding the Racial Discipline Gap in Schools.” AERA Open 5 (2).; Kamin, Debra. 2022. “[Home Appraised With a Black Owner: $472,000. With a White Owner: $750,000](https://www.nytimes.com/2022/08/18/realestate/housing-discrimination-maryland.html).” New York Times, August 18, 2022.
+[32]Reardon, Sean F, Ericka Weathers, Erin Fahle, Heewon Jang, Demetra Kalogrides. 2022. “[Is Separate Still Unequal? New Evidence on School Segregation and Racial Academic Achievement Gaps](https://cepa.stanford.edu/content/separate-still-unequal-new-evidence-school-segregation-and-racial-academic-achievement-gaps).”*Stanford Center for Education Policy Analysis*, CEPA working paper no. 19-06.; Park, Julie J. and Ann H. Becks. 2015. “Who Benefits from SAT Prep? An Examination of High School Context and Race/Ethnicity.”*The Review of Higher Education *39 (1): 1-23.; Office for Civil Rights, U.S. Department of Education. 2021. “[An Overview of Exclusionary Discipline Practices in Public Schools for the 2017-2018 School Year](https://ocrdata.ed.gov/assets/downloads/crdc-exclusionary-school-discipline.pdf).” Civil Rights Data Collection. June 2021.; Gopalan, Maithreyi, and Ashlyn Aiko Nelson. 2019. “Understanding the Racial Discipline Gap in Schools.” AERA Open 5 (2).; Kamin, Debra. 2022. “[Home Appraised With a Black Owner: $472,000. With a White Owner: $750,000](https://www.nytimes.com/2022/08/18/realestate/housing-discrimination-maryland.html).” New York Times, August 18, 2022.
 
-[33]Bertrand, Marianne, and Sendhil Mullainathan. 2004. “Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination.”* American Economic Review*94 (4): 991-1013.; Pager, Devah, Bart Bonikowski, and Bruce Western. 2009. “Discrimination in a Low-Wage Labor Market: A Field Experiment.”* American Sociological Review*74 (5): 777-799.
+[33]Bertrand, Marianne, and Sendhil Mullainathan. 2004. “Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination.”*American Economic Review*94 (4): 991-1013.; Pager, Devah, Bart Bonikowski, and Bruce Western. 2009. “Discrimination in a Low-Wage Labor Market: A Field Experiment.”*American Sociological Review*74 (5): 777-799.
 
-[34]Lu, Yao, and Xiaoguang Li. 2021. “Vertical Education-Occupation Mismatch and Wage Inequality by Race/Ethnicity and Nativity among Highly Educated US Workers.”* Social Forces*100 (2): 706-737.; Golan, Limor, and Carl Sanders. 2019. “Racial Gaps, Occupational Matching, and Skill Uncertainty.”* Federal Reserve Bank of St. Louis Review*101 (2): 135-53.
+[34]Lu, Yao, and Xiaoguang Li. 2021. “Vertical Education-Occupation Mismatch and Wage Inequality by Race/Ethnicity and Nativity among Highly Educated US Workers.”*Social Forces*100 (2): 706-737.; Golan, Limor, and Carl Sanders. 2019. “Racial Gaps, Occupational Matching, and Skill Uncertainty.”*Federal Reserve Bank of St. Louis Review*101 (2): 135-53.
 
 [35]Kamin (2022).; Freddie Mac. 2021. “[Racial and Ethnic Valuation Gaps In Home Purchase Appraisals](https://www.freddiemac.com/research/insight/20210920-home-appraisals).” Economic & Housing Research Note. September 20, 2021.
 
-[36]Derenoncourt, Ellora, Chi Hyun Kim, Moritz Kuhn, and Moritz Schularick. 2023. “Wealth of Two Nations: The U.S. Racial Wealth Gap, 1860-2020.”* Quarterly Journal of Economics*, qjad044.;* * Bowdler, Janis, and Benjamin Harris. 2022. “[Racial Inequality in the United States](https://home.treasury.gov/news/featured-stories/racial-inequality-in-the-united-states).”*U.S. Department of the Treasury*, July 21, 2022.; Harris, Benjamin, and Sydney Schreiner Wertz. 2022. “[Racial Differences in Economic Security: The Racial Wealth Gap](https://home.treasury.gov/news/featured-stories/racial-differences-economic-security-racial-wealth-gap).”* U.S. Department of the Treasury*, September 15, 2022.
+[36]Derenoncourt, Ellora, Chi Hyun Kim, Moritz Kuhn, and Moritz Schularick. 2023. “Wealth of Two Nations: The U.S. Racial Wealth Gap, 1860-2020.”*Quarterly Journal of Economics*, qjad044.;* *Bowdler, Janis, and Benjamin Harris. 2022. “[Racial Inequality in the United States](https://home.treasury.gov/news/featured-stories/racial-inequality-in-the-united-states).”*U.S. Department of the Treasury*, July 21, 2022.; Harris, Benjamin, and Sydney Schreiner Wertz. 2022. “[Racial Differences in Economic Security: The Racial Wealth Gap](https://home.treasury.gov/news/featured-stories/racial-differences-economic-security-racial-wealth-gap).”*U.S. Department of the Treasury*, September 15, 2022.
 
-[37]Bell, Alex, Raj Chetty, Xavier Jaravel, Neviana Petkova, John Van Reenen. 2019. “Who Becomes an Inventor in America? The Importance of Exposure to Innovation.”* The Quarterly Journal of Economics*134 (2): 647-713.
+[37]Bell, Alex, Raj Chetty, Xavier Jaravel, Neviana Petkova, John Van Reenen. 2019. “Who Becomes an Inventor in America? The Importance of Exposure to Innovation.”*The Quarterly Journal of Economics*134 (2): 647-713.
 
-[38]Baboolall, David, Kelemwork Cook, Nick Noel, Shelley Stewart, and Nina Yancy. 2020. “[Building Supportive Ecosystems for Black-owned US Businesses](https://www.mckinsey.com/industries/public-sector/our-insights/building-supportive-ecosystems-for-black-owned-us-businesses).”* McKinsey & Company*, October 29, 2020.; Orozco, Marlene, Inara Sunan Tareque, Paul Oyer, and Jerry I. Porras. 2020. “[2019 State of Latino Entrepreneurship](https://www.gsb.stanford.edu/faculty-research/publications/state-latino-entrepreneurship-2019).”* Stanford Latino Entrepreneurship Initiative*, January 2020.
+[38]Baboolall, David, Kelemwork Cook, Nick Noel, Shelley Stewart, and Nina Yancy. 2020. “[Building Supportive Ecosystems for Black-owned US Businesses](https://www.mckinsey.com/industries/public-sector/our-insights/building-supportive-ecosystems-for-black-owned-us-businesses).”*McKinsey & Company*, October 29, 2020.; Orozco, Marlene, Inara Sunan Tareque, Paul Oyer, and Jerry I. Porras. 2020. “[2019 State of Latino Entrepreneurship](https://www.gsb.stanford.edu/faculty-research/publications/state-latino-entrepreneurship-2019).”*Stanford Latino Entrepreneurship Initiative*, January 2020.
 
-[39]Bartik, Timothy J. 2020. “Using Place-Based Jobs Policies to Help Distressed Communities.”* Journal of Economic Perspectives*34 (3): 99-127.
+[39]Bartik, Timothy J. 2020. “Using Place-Based Jobs Policies to Help Distressed Communities.”*Journal of Economic Perspectives*34 (3): 99-127.

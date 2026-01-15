@@ -4,7 +4,7 @@ date: 2019-05-31
 draft: false
 url: /news/featured-stories/treasury-irs-announce-development-of-improved-2020-form-w-4
 ---
-**Washington **– Delivering on the promise to simplify taxes for the American people, the U.S. Department of the Treasury and the Internal Revenue Service (IRS) today released a[draft Form W-4](https://www.irs.gov/pub/irs-dft/fw4--dft.pdf)that would be used starting in 2020. The new design reduces the form’s complexity and increases the transparency and accuracy of the withholding system.
+**Washington**– Delivering on the promise to simplify taxes for the American people, the U.S. Department of the Treasury and the Internal Revenue Service (IRS) today released a[draft Form W-4](https://www.irs.gov/pub/irs-dft/fw4--dft.pdf)that would be used starting in 2020. The new design reduces the form’s complexity and increases the transparency and accuracy of the withholding system.
 
 The redesign was the culmination of Treasury and the IRS’s extensive outreach efforts throughout the year from employers, payroll providers and members of the tax community. Several changes were made to the form based on feedback from these stakeholders with the goal of developing a form that provides taxpayers with a more flexible and transparent withholding system.
 

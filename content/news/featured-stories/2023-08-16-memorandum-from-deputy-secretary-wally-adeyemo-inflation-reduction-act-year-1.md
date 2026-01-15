@@ -4,29 +4,21 @@ date: 2023-08-16
 draft: false
 url: /news/featured-stories/memorandum-from-deputy-secretary-wally-adeyemo-inflation-reduction-act-year-1
 ---
-**MEMORANDUM**
-
-** To:****Interested Parties**
-
-** From: ****Deputy Secretary Wally Adeyemo**
-
-** Date:****August 16, 2023**
-
-** Re:****Inflation Reduction Act – Year 1**
+**MEMORANDUM  To: Interested Parties  From:  Deputy Secretary Wally Adeyemo  Date: August 16, 2023  Re: Inflation Reduction Act – Year 1**
 
  
 
 One year ago, Congress passed, and the President signed, the Inflation Reduction Act into law. This marked the single most significant legislation to combat climate change in American history and one of the largest investments into the American economy in a generation.
 
-Already, the investments and our implementation have borne fruit: over the past year, the law has unleashed an investment and manufacturing boom in the United States unlike anything seen in decades**. Companies have announced nearly 200 new projects **[** totaling**](https://www.whitehouse.gov/invest/)** **[** over**](https://www.energy.gov/investments-american-made-energy)** $110 billion of investment in building America’s clean energy economy.**[** Treasury analysis**](https://home.treasury.gov/news/featured-stories/the-inflation-reduction-act-and-us-business-investment)** released this week points out these announced investments in clean energy, electric vehicles, and batteries are concentrated in communities with lower wages, lower college graduation rates, and lower employment rates.**
+Already, the investments and our implementation have borne fruit: over the past year, the law has unleashed an investment and manufacturing boom in the United States unlike anything seen in decades**. Companies have announced nearly 200 new projects**[** totaling**](https://www.whitehouse.gov/invest/) [** over**](https://www.energy.gov/investments-american-made-energy)** $110 billion of investment in building America’s clean energy economy.**[** Treasury analysis**](https://home.treasury.gov/news/featured-stories/the-inflation-reduction-act-and-us-business-investment)** released this week points out these announced investments in clean energy, electric vehicles, and batteries are concentrated in communities with lower wages, lower college graduation rates, and lower employment rates.**
 
 According to one[estimate](https://csis-website-prod.s3.amazonaws.com/s3fs-public/publication/220523_DiPippo_Red_Ink.pdf?VersionId=LH8ILLKWz4o.bjrwNS7csuX_C04FyEre), China has historically spent over $400 billion per year on industrial policy, largely through direct subsidies to firms and below-market credit to state-owned enterprises. Our strategy, by contrast, uses modest incentives to promote private investment. By doing so, the Inflation Reduction Act will[unlock](https://www.goldmansachs.com/intelligence/pages/the-us-is-poised-for-an-energy-revolution.html)$3 trillion of investment in America for renewable energy technology.
 
 While more productivity gains and long-term economic growth will come in years to follow, we already see progress in three key metrics:
 
-- ** Creating good-paying jobs**across the United States, especially in disadvantaged communities;
-- ** Strengthening our energy security**to build resilience to geopolitical risks and other potential economic shocks; and,
-- ** Tackling climate change**by accelerating the development, adoption, and deployment of clean energy technologies.
+- ** Creating good-paying jobs** across the United States, especially in disadvantaged communities;
+- ** Strengthening our energy security** to build resilience to geopolitical risks and other potential economic shocks; and,
+- ** Tackling climate change** by accelerating the development, adoption, and deployment of clean energy technologies.
  
 
 ## Creating Good-Paying Jobs
@@ -81,9 +73,9 @@ At Treasury, we are focused on implementing the clean energy tax provisions as q
 
  
 
-* August 10, 2023*
+*August 10, 2023*
 
-* Albuquerque, New Mexico*
+*Albuquerque, New Mexico*
 
 [**Maxeon Seeks to Spend $1.2 Billion Building Biggest US Solar Factory**](https://www.bloomberg.com/news/articles/2023-08-10/maxeon-seeks-to-spend-1-2-billion-building-biggest-us-solar-factory#xj4y7vzkg)
 
@@ -93,9 +85,9 @@ Construction on the plant in Albuquerque, New Mexico, is set to start in the fir
 
  
 
-* August 7, 2023*
+*August 7, 2023*
 
-* Las Vegas, Nevada*
+*Las Vegas, Nevada*
 
 [**Solar parts manufacturer Unimacts plans to triple operations in Nevada**](https://www.reviewjournal.com/business/energy/solar-parts-manufacturer-plans-to-triple-operations-in-nevada-2883760/?utm_campaign=widget&utm_medium=topnews&utm_source=local&utm_term=Solar%20parts%20manufacturer%20plans%20to%20triple%20operations%20in%20Nevada)
 
@@ -105,27 +97,25 @@ Unimacts hired 80 people and opened a manufacturing facility that makes metal to
 
 “We wouldn’t be here without the IRA — full stop,” he said.
 
-At its Las Vegas facility, located in the shadow of The Orleans, Unimacts can make enough torque tubes in a year to support two gigawatts worth of solar panels. But Arnold said the company is looking to triple the size of its operations in the near future to build enough capacity to support six gigawatts worth of solar panels and employ** over 200 people**.
+At its Las Vegas facility, located in the shadow of The Orleans, Unimacts can make enough torque tubes in a year to support two gigawatts worth of solar panels. But Arnold said the company is looking to triple the size of its operations in the near future to build enough capacity to support six gigawatts worth of solar panels and employ ** over 200 people**.
 
  
 
-* August 2, 2023*
+*August 2, 2023*
 
-* Loudon, Tennessee*
+*Loudon, Tennessee*
 
-[**Hanon Systems bringing 600 new jobs to Loudon County**](https://www.wate.com/news/loudon-county-news/600-new-jobs-coming-to-loudon-county/)
-
-** Six-hundred new jobs**are coming to Loudon County. Governor Bill Lee and state economic development leaders announced that Hanon Systems will establish a new manufacturing presence in the county.
+[**Hanon Systems bringing 600 new jobs to Loudon County**](https://www.wate.com/news/loudon-county-news/600-new-jobs-coming-to-loudon-county/)** Six-hundred new jobs** are coming to Loudon County. Governor Bill Lee and state economic development leaders announced that Hanon Systems will establish a new manufacturing presence in the county.
 
 Hanon Systems is a leading supplier of thermal and energy management solutions for the automotive industry. The company employs more than 22,000 people across 21 countries and is headquartered in South Korea. Now, the company is coming to Tennessee.
 
-According to the state, Hanon Systems is investing** nearly $170 million**to establish a new facility in Huntingdon Park in Loudon. Bradshaw added that the company will also have a competitive pay scale, and the TVA said the company will help attract and retain jobs in the area.
+According to the state, Hanon Systems is investing ** nearly $170 million** to establish a new facility in Huntingdon Park in Loudon. Bradshaw added that the company will also have a competitive pay scale, and the TVA said the company will help attract and retain jobs in the area.
 
  
 
-* August 2, 2023*
+*August 2, 2023*
 
-* Kyle, Texas*
+*Kyle, Texas*
 
 [**XCharge NA’s New Texas Facility Boosts EV Charging Solutions**](https://theevreport.com/xcharge-nas-new-texas-facility-boosts-ev-charging-solutions)
 
@@ -135,9 +125,9 @@ XCharge NA’s new facility holds great significance due to its potential to enh
 
  
 
-* July 24, 2023*
+*July 24, 2023*
 
-* Colorado Springs, Colorado*
+*Colorado Springs, Colorado*
 
 [**Meyer Burger announces solar cell production facility in Colorado Springs**](https://www.fox21news.com/news/local/meyer-burger-announces-solar-cell-production-facility-in-colorado-springs/)
 
@@ -145,13 +135,13 @@ Another international business has chosen to call Southern Colorado home and loo
 
 “Meyer Burger’s technologies are found in most solar modules produced worldwide, and their decision to land in Colorado Springs adds to our growing advanced manufacturing sector,” said Johnna Reeder Kleymeyer, President and CEO of the[Colorado Springs Chamber & Economic Development Corporation](https://coloradospringschamberedc.com/)(Chamber and EDC) explained. “The new Colorado Springs footprint will be Meyer Burger’s first site in the Western Hemisphere to manufacture the chips and wafers that power cutting-edge solar technology.”
 
-Production at the Colorado Springs manufacturing plant is planned to start during the second half of 2024. Meyer Burger expects to create** more than 350 jobs**with an average annual wage of nearly $78,000.
+Production at the Colorado Springs manufacturing plant is planned to start during the second half of 2024. Meyer Burger expects to create ** more than 350 jobs** with an average annual wage of nearly $78,000.
 
  
 
-* July 24, 2023*
+*July 24, 2023*
 
-* Minneapolis-St. Paul, Minnesota*
+*Minneapolis-St. Paul, Minnesota*
 
 [**Canada’s Heliene plans new US solar panel and cell factory**](https://www.reuters.com/business/energy/canadas-heliene-plans-new-us-solar-panel-cell-factory-2023-07-24/)
 
@@ -163,9 +153,9 @@ Heliene, which is privately held, will spend about**$145 million** on the new fa
 
  
 
-* July 24, 2023*
+*July 24, 2023*
 
-* Location Not Yet Determined*
+*Location Not Yet Determined*
 
 [**Stellantis, Samsung SDI will team to build a second EV battery plant in the United States**](https://www.detroitnews.com/story/business/autos/chrysler/2023/07/24/stellantis-samsung-sdi-second-us-ev-battery-plant/70454364007/)
 
@@ -177,11 +167,11 @@ The exact location of the second plant under the existing StarPlus Energy joint 
 
 * June 26, 2023 **Brownsville, Tennessee*
 
-[**Enchem America Inc. to Locate US Manufacturing Operations in Brownsville**](https://www.tn.gov/ecd/news/2023/6/26/-governor-lee--commissioner-mcwhorter-announce-enchem-america-inc--to-locate-us-manufacturing-operations-in-brownsville.html)Tennessee Gov. Bill Lee, Department of Economic and Community Development Commissioner Stuart McWhorter and Enchem America Inc. officials announced today the company will invest**$152.5 million** to establish electrolyte manufacturing operations in Brownsville, Tennessee. Located at the I-40 Advantage Industrial Park, a Select Tennessee Certified Site, the new facility will be Enchem’s second U.S. plant. The project will create**190 new jobs** in Tier 4, At-Risk Haywood County.** ** The Brownsville facility will operate similarly to Enchem’s U.S. headquarters in Commerce, Georgia, and will manufacture electrolytes for electric vehicle (EV) batteries as well as other EV battery-related services.Enchem America Inc. is a subsidiary of Enchem Co., Ltd., which is based in South Korea. The company specializes in the development and manufacturing of electrolytes and other additives for rechargeable batteries. With the additional Tennessee operations, Enchem will be able to further support its EV partners across the Southeast.
+[**Enchem America Inc. to Locate US Manufacturing Operations in Brownsville**](https://www.tn.gov/ecd/news/2023/6/26/-governor-lee--commissioner-mcwhorter-announce-enchem-america-inc--to-locate-us-manufacturing-operations-in-brownsville.html)Tennessee Gov. Bill Lee, Department of Economic and Community Development Commissioner Stuart McWhorter and Enchem America Inc. officials announced today the company will invest**$152.5 million** to establish electrolyte manufacturing operations in Brownsville, Tennessee. Located at the I-40 Advantage Industrial Park, a Select Tennessee Certified Site, the new facility will be Enchem’s second U.S. plant. The project will create**190 new jobs** in Tier 4, At-Risk Haywood County.  The Brownsville facility will operate similarly to Enchem’s U.S. headquarters in Commerce, Georgia, and will manufacture electrolytes for electric vehicle (EV) batteries as well as other EV battery-related services.Enchem America Inc. is a subsidiary of Enchem Co., Ltd., which is based in South Korea. The company specializes in the development and manufacturing of electrolytes and other additives for rechargeable batteries. With the additional Tennessee operations, Enchem will be able to further support its EV partners across the Southeast.
 
  
 
-* June 23, 2023**Locust Grove, Georgia*
+* June 23, 2023 **Locust Grove, Georgia*
 
 [**Valdosta Today: Electric vehicle parts supplier to invest in new GA facility**](https://valdostatoday.com/news-2/region/2023/06/electric-vehicle-parts-supplier-to-invest-in-new-ga-facility/)
 
@@ -189,11 +179,11 @@ The exact location of the second plant under the existing StarPlus Energy joint 
 
  
 
-* June 22, 2023**Brighton, Colorado  *
+* June 22, 2023 **Brighton, Colorado  *
 
 [**Solar manufacturer announces plans for Brighton location**](https://thebrightonblade.com/stories/solar-manufacturer-announces-plans-for-brighton-location,438514)
 
-Brighton will be home to a solar manufacturing facility along Interstate 76, the Polis administration announced June 22. The Colorado Office of Economic Development and International Trade announced today that VSK Energy Inc. will expand into Brighton, bringing as many as** 900 new jobs ** to the area.
+Brighton will be home to a solar manufacturing facility along Interstate 76, the Polis administration announced June 22. The Colorado Office of Economic Development and International Trade announced today that VSK Energy Inc. will expand into Brighton, bringing as many as ** 900 new jobs** to the area.
 
 The company plans to move into the 76 Commerce Center, row of warehouses along Interstate 76 just north of Brighton’s 160thAvenue in 2024. The company would share the site with[autonomous warehouse equipment manufacturer Outrider.](https://thebrightonblade.com/stories/driverless-warehouse-company-ready-to-go,389243?)
 

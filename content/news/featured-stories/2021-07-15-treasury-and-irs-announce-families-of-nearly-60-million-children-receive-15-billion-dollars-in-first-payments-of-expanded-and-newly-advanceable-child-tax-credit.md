@@ -26,9 +26,6 @@ Since President Biden signed the American Rescue Plan in March, the White House 
 
 For additional information for taxpayers on how they can access the Child Tax Credit, visit the[Advance Child Tax Credit Payments in 2021 page](https://www.irs.gov/credits-deductions/advance-child-tax-credit-payments-in-2021)and see[Frequently Asked Questions here](https://www.irs.gov/credits-deductions/2021-child-tax-credit-and-advance-child-tax-credit-payments-frequently-asked-questions).
 
- 
- 
-
 **Advance Child Tax Credit Payments Disbursed July 2021, by State [1][2][3]**
 
 State
@@ -42,10 +39,7 @@ Average Payment Amount 
 
 			($s)
 
-** All Returns, total**
-**59,301**
-**14,886,893**
-**423**
+** All Returns, total 59,301 14,886,893 423**
 
   Alabama
 913

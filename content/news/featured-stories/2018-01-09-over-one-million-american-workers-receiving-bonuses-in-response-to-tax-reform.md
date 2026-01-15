@@ -1,5 +1,5 @@
 ---
-title: Over One Million American Workers Receiving Bonuses in Response to Tax Reform 
+title: Over One Million American Workers Receiving Bonuses in Response to Tax Reform
 date: 2018-01-09
 draft: false
 url: /news/featured-stories/over-one-million-american-workers-receiving-bonuses-in-response-to-tax-reform

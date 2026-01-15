@@ -1,10 +1,10 @@
 ---
-title: Treasury Designates Russian Oligarchs, Officials, and Entities in Response to Worldwide Malign Activity 
+title: Treasury Designates Russian Oligarchs, Officials, and Entities in Response to Worldwide Malign Activity
 date: 2018-04-06
 draft: false
 url: /news/featured-stories/treasury-designates-russian-oligarchs-officials-and-entities-in-response-to-worldwide-malign-activity
 ---
-**WASHINGTON**– The U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC), in consultation with the Department of State, today designated seven Russian oligarchs and 12 companies they own or control, 17 senior Russian government officials, and a state-owned Russian weapons trading company and its subsidiary, a Russian bank.
+**WASHINGTON** – The U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC), in consultation with the Department of State, today designated seven Russian oligarchs and 12 companies they own or control, 17 senior Russian government officials, and a state-owned Russian weapons trading company and its subsidiary, a Russian bank.
 
 “The Russian government operates for the disproportionate benefit of oligarchs and government elites,” said Treasury Secretary Steven T. Mnuchin.  “The Russian government engages in a range of malign activity around the globe, including continuing to occupy Crimea and instigate violence in eastern Ukraine, supplying the Assad regime with material and weaponry as they bomb their own civilians, attempting to subvert Western democracies, and malicious cyber activities.  Russian oligarchs and elites who profit from this corrupt system will no longer be insulated from the consequences of their government’s destabilizing activities.”
 

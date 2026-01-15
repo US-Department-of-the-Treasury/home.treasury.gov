@@ -32,13 +32,7 @@ But the distribution of the underreporting tax gap is also the natural byproduct
 
 In fact, about half of the individual income tax gap accrues to income streams from proprietorships, partnerships, and S-corporations, where there is either little or no information available to the IRS to verify the veracity of tax filings. As Table 2 makes clear, a significant share of this income accrues to those at the very top of the distribution.
 
-** Table 2: Distribution of Proprietorship, Partnership, and S-Corporation Income**
-
-** Corrected Adjusted Gross Income **
-
-** Proprietorship income2**
-
-** Partnership and S-corporation income3**
+** Table 2: Distribution of Proprietorship, Partnership, and S-Corporation Income  Corrected Adjusted Gross Income   Proprietorship income2  Partnership and S-corporation income3**
 
 Less than $0
 

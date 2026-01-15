@@ -1,5 +1,5 @@
 ---
-title: White House Press Briefing by Treasury Secretary Steven Mnuchin on Regulatory Issues Associated with Cryptocurrency 
+title: White House Press Briefing by Treasury Secretary Steven Mnuchin on Regulatory Issues Associated with Cryptocurrency
 date: 2019-07-15
 draft: false
 url: /news/featured-stories/white-house-press-briefing-by-treasury-secretary-steven-mnuchin-on-regulatory-issues-associated-with-cryptocurrency

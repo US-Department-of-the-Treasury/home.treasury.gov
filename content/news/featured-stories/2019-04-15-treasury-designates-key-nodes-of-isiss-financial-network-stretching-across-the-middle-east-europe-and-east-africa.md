@@ -18,32 +18,17 @@ As a result of today’s action, all property and interests in property of these
 
 ### Background on the Rawi Network
 
-** Seasoned Money Launderers**
+** Seasoned Money Launderers** Senior members of the Rawi Network got their start in the money services business to help the regime of Saddam Hussein evade sanctions during the early 1990s.  The Saddam Regime used Iraqi MSBs, including those owned by the Rawi Network, to avoid using the formal banking sector to buy and sell oil.  Since then, the Rawi Network has transitioned to supporting ISIS financial facilitation worldwide by employing common money laundering techniques such as cutouts, layering, and cash smuggling to obfuscate the source of illicit ISIS money.  For example, on a regular basis, the Deputy Commander for ISIS Department of Oil transferred between $300,000 to $400,000 to Umar Talib Zughayr al-Rawi—one of the individuals designated today—to buy and sell gold and eventually revert the gold proceeds back into cash for ISIS.** Successors of ISIS Finance Emir Fawaz al-Rawi** Two of the individuals designated today, Umar Talib Zughayr al-Rawi and Abd al Rahman ‘Ali Husayn al-Ahmad al-Rawi, were selected to manage the financial affairs for ISIS’s so-called province, or Wilayah, of al-Furat after the death in a Coalition airstrike in 2017 of Treasury-designated Fawaz Muhammad Jubayr al-Rawi (Fawaz), who was a Syrian terrorist financial facilitator who moved millions of dollars for ISIS’s attack and logistics networks.  Umar, Abd al-Rahman, and Mushtaq Talib Zughayr al-Rawi (another individual designated today) were all business partners with Fawaz.  An exploitation of financial records associated with Mushtaq revealed a history of direct money transfers to support ISIS provincial leaders through Al-Ard Al-Jadidah Money Exchange Company, the MSB designated today.
 
-Senior members of the Rawi Network got their start in the money services business to help the regime of Saddam Hussein evade sanctions during the early 1990s.  The Saddam Regime used Iraqi MSBs, including those owned by the Rawi Network, to avoid using the formal banking sector to buy and sell oil.  Since then, the Rawi Network has transitioned to supporting ISIS financial facilitation worldwide by employing common money laundering techniques such as cutouts, layering, and cash smuggling to obfuscate the source of illicit ISIS money.  For example, on a regular basis, the Deputy Commander for ISIS Department of Oil transferred between $300,000 to $400,000 to Umar Talib Zughayr al-Rawi—one of the individuals designated today—to buy and sell gold and eventually revert the gold proceeds back into cash for ISIS.
-
-** Successors of ISIS Finance Emir Fawaz al-Rawi**
-
-Two of the individuals designated today, Umar Talib Zughayr al-Rawi and Abd al Rahman ‘Ali Husayn al-Ahmad al-Rawi, were selected to manage the financial affairs for ISIS’s so-called province, or Wilayah, of al-Furat after the death in a Coalition airstrike in 2017 of Treasury-designated Fawaz Muhammad Jubayr al-Rawi (Fawaz), who was a Syrian terrorist financial facilitator who moved millions of dollars for ISIS’s attack and logistics networks.  Umar, Abd al-Rahman, and Mushtaq Talib Zughayr al-Rawi (another individual designated today) were all business partners with Fawaz.  An exploitation of financial records associated with Mushtaq revealed a history of direct money transfers to support ISIS provincial leaders through Al-Ard Al-Jadidah Money Exchange Company, the MSB designated today.
-
- 
- 
+*Figure 1: In 2018, Coalition Partner Forces obtained financial ledgers in an ISIS cache.  A forensic DNA sample obtained from a ledger book captured by Coalition and Partner Forces in 2018 linked Mushtaq to the cache containing this document.  Coalition Forces had previously detained Mushtaq in 2007 in al-Qa’im, Iraq as a suspected insurgent financier.  This letter contains an official ISIS seal along with an undated handwritten note signed by the “The Office of the Wali, The Islamic State, Caliphate on the Path of the Prophet, Wilayah of al-Furat” requesting that Mushtaq assist another individual to initiate a money transfer.*
 
  
 
-* Figure 1: In 2018, Coalition Partner Forces obtained financial ledgers in an ISIS cache.  A forensic DNA sample obtained from a ledger book captured by Coalition and Partner Forces in 2018 linked Mushtaq to the cache containing this document.  Coalition Forces had previously detained Mushtaq in 2007 in al-Qa’im, Iraq as a suspected insurgent financier.  This letter contains an official ISIS seal along with an undated handwritten note signed by the “The Office of the Wali, The Islamic State, Caliphate on the Path of the Prophet, Wilayah of al-Furat” requesting that Mushtaq assist another individual to initiate a money transfer.*
-
- 
-
-**Exploitation of Iraq Government Payment Systems**
-
-Members of the Rawi Network registered several businesses with the GOI in order to acquire QiCard machines, a dedicated system of electronic payment machines used by the GOI to disburse payments to government employees and retirees.  They used these machines to launder funds for ISIS inside and outside of Iraq.  The Rawi Network used funds provided by ISIS to purchase and license at least five QiCard machines.
+**Exploitation of Iraq Government Payment Systems** Members of the Rawi Network registered several businesses with the GOI in order to acquire QiCard machines, a dedicated system of electronic payment machines used by the GOI to disburse payments to government employees and retirees.  They used these machines to launder funds for ISIS inside and outside of Iraq.  The Rawi Network used funds provided by ISIS to purchase and license at least five QiCard machines.
 
 ### Designated Persons:
 
-** Mushtaq Talib Zughayr al-Rawi**
-
-Mushtaq Talib Zughayr al-Rawi (Mushtaq) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to or in support of, ISIS.
+** Mushtaq Talib Zughayr al-Rawi** Mushtaq Talib Zughayr al-Rawi (Mushtaq) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to or in support of, ISIS.
 
 Mushtaq is a leader of the Rawi Network.  Mushtaq assumed the leadership role of the Rawi Network for Turkey and Iraq in 2018 from another family member.  Mushtaq operates the Rawi Network with the assistance of various family members, including his son, Muhannad Mushtaq Talib Zughayr al-Rawi, his brothers, Umar Talib Zughayr al-Rawi and Walid Talib Zughayr al-Rawi, and other family members, including Abd-al-Rahman al-Rawi.  As of December 2018, Mushtaq was living in Belgium with his family, and he laundered money to facilitate ISIS operations worldwide.  He owns money exchange shops in Iraq, Syria, Turkey, Sudan, and the Gulf.
 
@@ -57,9 +42,7 @@ ISIS members in Idlib Province, Syria were paid by a finance administrator who s
 
 Additionally, Coalition Forces previously detained Mushtaq in 2007, in al-Qa'im, Iraq as a suspected insurgent financier.  Mushtaq is a former Captain in Saddam Hussein’s Republican Guards.
 
-** Umar Talib Zughayr al-Rawi**
-
-Umar Talib Zughayr al-Rawi (Umar) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
+** Umar Talib Zughayr al-Rawi** Umar Talib Zughayr al-Rawi (Umar) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
 
 As of early October 2017, Umar owned several companies in Iraq, Syria, and Turkey and was in charge of performing transactions for ISIS in those countries.  Umar’s main hawala was located in the vicinity of al-Qa’im, Anbar Province, Iraq.
 
@@ -71,9 +54,7 @@ He operated businesses in al-Qa’im, Ramadi, Hit, and Baghdad, Iraq; Albu Kamal
 
  
 
-** Walid Talib Zughayr al-Rawi**
-
-Walid Talib Zughayr al-Rawi (Walid) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, Mushtaq.
+** Walid Talib Zughayr al-Rawi** Walid Talib Zughayr al-Rawi (Walid) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, Mushtaq.
 
 Mushtaq moved money for ISIS out of al-Qa’im, Iraq and Samsun, Turkey.  However, Mushtaq’s brother, Walid, was purportedly the brains behind the finance operation.  On October 9, 2018 the Iraq Counterterrorism Service (CTS) conducted a warrant-based arrest of Walid to disrupt the ISIS financial network.
 
@@ -91,9 +72,7 @@ Walid handled transfers to and from a Gulf-based exchange on behalf of Umar as w
 
  
 
-** Muhannad Mushtaq Talib Zughayr al-Rawi**
-
-Muhannad Mushtaq Talib Zughayr al-Rawi (Muhannad) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, Mushtaq.
+** Muhannad Mushtaq Talib Zughayr al-Rawi** Muhannad Mushtaq Talib Zughayr al-Rawi (Muhannad) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, Mushtaq.
 
 Mushtaq’s financial activity consisted of a cycle of monetary transactions that included his son Muhannad and three other financial facilitators.  When Mushtaq conducted transactions with a certain exchange company, he moved money from Turkey to Muhannad.  Muhannad then moved Mushtaq’s money to the exchange, which then transferred Mushtaq’s money to a gold exchange in the Gulf, earmarked for a specific gold seller.
 
@@ -101,9 +80,7 @@ As of September 2017, Muhannad moved from Baghdad, Iraq to Samsun, Turkey, to wo
 
  
 
-** Abd-al-Rahman ‘Ali Husayn al-Ahmad al-Rawi**
-
-Abd-al-Rahman ‘Ali Husayn al-Ahmad al-Rawi (Abd-al-Rahman) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
+** Abd-al-Rahman ‘Ali Husayn al-Ahmad al-Rawi** Abd-al-Rahman ‘Ali Husayn al-Ahmad al-Rawi (Abd-al-Rahman) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
 
 As of September 2018, both Istanbul, Turkey-based Syrian national Abd-al­Rahman and an Idlib Province, Syria-based Syrian hawaladar had allegedly established a secret partnership with two Syria-based Iraqi brothers to facilitate financial transfers into Syria on behalf of ISIS via hawala networks.  Both the Syria-based hawaladar and Abd-al-Rahman conducted a large volume of legitimate business through their companies. However, they also moved money for ISIS in secret.
 
@@ -117,9 +94,7 @@ Abd-al-Rahman entered into a secret business relationship with a Turkey-based in
 
  
 
-** Muhammad Abd-al-Qadir Mutni Assaf al-Rawi**
-
-Muhammad Abd-al-Qadir Mutni Assaf al-Rawi (Muhammad) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
+** Muhammad Abd-al-Qadir Mutni Assaf al-Rawi** Muhammad Abd-al-Qadir Mutni Assaf al-Rawi (Muhammad) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
 
 Muhammad was used to transfer Mushtaq’s money to two gold shops in the Gulf, and Muhammad transferred approximately $100,000 per month for these transactions.
 
@@ -129,9 +104,7 @@ As of 2016, ISIS members used Muhammad and his business to transfer money to var
 
                                          
 
-** Al-Ard Al-Jadidah Money Exchange Company**
-
-Al-Ard Al-Jadidah Money Exchange Company (Al-Ard Al-Jadidah ) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
+** Al-Ard Al-Jadidah Money Exchange Company** Al-Ard Al-Jadidah Money Exchange Company (Al-Ard Al-Jadidah ) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
 
 As of late 2018, Al-Ard al-Jadidah served as a money exchange used by ISIS members in Iraq and was wittingly transferring money for ISIS and delivering money to all the provinces of lraq.  In 2018, an ISIS member collected a hawala transfer of over one million dollars on behalf of ISIS at a branch of Al-Ard al-Jadidah in Iraq.  Separately, in 2018, an ISIS member collected a transfer of hundreds of thousands of dollars from Al-Ard al-Jadidah in Ramadi, Anbar Province, Iraq.  These funds were designated as financial support intended for distribution to ISIS family members.
 
@@ -139,9 +112,7 @@ Additionally, in late October 2018, Mushtaq facilitated money transfers between 
 
  
 
-** Halima Adan Ali**
-
-Halima Adan Ali (Halima) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
+** Halima Adan Ali** Halima Adan Ali (Halima) was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to, or in support of, ISIS.
 
 Halima played an integral role in an ISIS financial facilitation network spanning Europe, the Middle East, the Americas and Eastern Africa.  She worked with Treasury-designated[Waleed Ahmaed Zein](https://home.treasury.gov/news/press-releases/sm476)to conduct transactions at the behest of Waleed’s Syria-based family member in support of ISIS fighters.  Between 2017 and early 2018, Halima received large sums of money from around the world, mostly through hawala systems, that she would forward to ISIS fighters in Syria, Libya, and central Africa.  She was also used as a conduit to pass instructions, money, and accounts to Waleed. Their intricate network moved over $150,000 on behalf of ISIS.
 

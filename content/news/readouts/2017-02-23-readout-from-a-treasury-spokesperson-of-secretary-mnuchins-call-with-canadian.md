@@ -1,5 +1,5 @@
 ---
-title: Readout from a Treasury Spokesperson of Secretary Mnuchin’s Call with Canadian Minister of Finance William Morneau 
+title: Readout from a Treasury Spokesperson of Secretary Mnuchin’s Call with Canadian Minister of Finance William Morneau
 date: 2017-02-23
 draft: false
 url: /news/press-releases/readout-from-a-treasury-spokesperson-of-secretary-mnuchins-call-with-canadian

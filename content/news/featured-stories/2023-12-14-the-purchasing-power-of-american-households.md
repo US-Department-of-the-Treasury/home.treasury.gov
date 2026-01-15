@@ -4,15 +4,7 @@ date: 2023-12-14
 draft: false
 url: /news/featured-stories/the-purchasing-power-of-american-households
 ---
-Eric Van Nostrand,*P.D.O. Assistant Secretary for Economic Policy*
-
-Laura Feiveson,* Deputy Assistant Secretary for Microeconomics*
-
-Tara Sinclair,* Deputy Assistant Secretary for Macroeconomics*
-
- 
-
-The U.S. economy has made considerable progress in 2023.  Inflation is down six percentage points from its peak in 2022. At the same time, real wages are rising and unemployment remains historically low.  But despite the significant progress on inflation, Americans continue to feel the pain of higher prices. President Biden’s economic agenda focuses on giving middle class families more breathing room.  That means helping reduce the cost of goods and services, and even more importantly, increasing household incomes.  When incomes rise faster than prices, households can afford more: they have more* purchasing power*.  This is precisely the trend we have seen in the United States since the pandemic.  Thanks to rising real wages (wages adjusted for inflation) and rising employment, the typical American can afford more goods and services than before the pandemic.
+Eric Van Nostrand,*P.D.O. Assistant Secretary for Economic Policy*Laura Feiveson,*Deputy Assistant Secretary for Microeconomics*Tara Sinclair,*Deputy Assistant Secretary for Macroeconomics*The U.S. economy has made considerable progress in 2023.  Inflation is down six percentage points from its peak in 2022. At the same time, real wages are rising and unemployment remains historically low.  But despite the significant progress on inflation, Americans continue to feel the pain of higher prices. President Biden’s economic agenda focuses on giving middle class families more breathing room.  That means helping reduce the cost of goods and services, and even more importantly, increasing household incomes.  When incomes rise faster than prices, households can afford more: they have more*purchasing power*.  This is precisely the trend we have seen in the United States since the pandemic.  Thanks to rising real wages (wages adjusted for inflation) and rising employment, the typical American can afford more goods and services than before the pandemic.
 
 This blog explores the interplay of wages, employment, and prices to unpack this dynamic. We offer four key conclusions:
 
@@ -26,8 +18,6 @@ This blog explores the interplay of wages, employment, and prices to unpack this
 Biden-Harris policies over the past three years have contributed to strong wage growth—wage growth that has outpaced inflation.  Support for labor unions and strong economic growth have served to create an economy that has strengthened workers’ voices.[2]Workers have capitalized on the environment created by these policies, successfully bargaining for higher wages.  As a result, earnings have outpaced increases in prices such that real wages have increased since before the pandemic.  Real weekly earnings for the median worker grew 1.7 percent between 2019 and 2023.[3]This means that one week of pay for the median worker now buys more than a week of pay did in 2019, despite higher prices.  Furthermore, as shown in Figure 1, the increases in earnings are by no means concentrated at the top: in fact, they skew toward the middle class and the lower end of the income distribution.  The 25thpercentile of the wage distribution saw their nominal weekly earnings grow by $143, from $611 in 2019 to $754 in 2023.  When adjusted for inflation, this amounts to a 3.2 percent increase in real earnings.  Real earnings increases were particularly strong for the median Black and Hispanic Americans, who saw increases of 5.7 and 2.9 percent, respectively.[4]
 
 ### Figure 1: Growth of Real Earnings since Pre-Pandemic Across Income Distribution
-
-****
 
 Not only is the level of real earnings higher than before the pandemic, but, as shown in Figure 2, the growth* * of real wages was faster over the past 12 months than it was during the pre-pandemic expansion, especially for production and non-supervisory workers.  Continued robust growth in real wages sets the stage for further gains in purchasing power.
 
@@ -43,19 +33,11 @@ The typical "consumption bundle" purchased by the average American reflects a mi
 
 ### Figure 3: Examples of Goods and Services with Muted Price Growth or Price Declines from 2019 to 2023
 
-****
-
- 
-
 Overall, these data show that most American workers can afford more goods and services than they did before the pandemic.  To illustrate this, we consider a worker that made median weekly earnings in both 2019 and 2023.  We suppose that, in 2019, this worker used their annual income to buy a consumption bundle according to the expenditure shares of the average American household.[5]We then project what their expenditures would have been to buy the same bundle in 2023.[6]Figure 4 shows how the share of earnings for each major expenditure category changed between 2019 and 2023.  Although for two of the expenditure categories—transportation, and food and beverages—the percent of earnings increased, for all other major categories it decreased.  On net, expenditures on the consumption bundle would have decreased as a percent of annual earnings by 1.7 percent.  Since median annualized earnings in 2023 were $58,140, the median worker would have had an additional nearly $1000 dollars to spend or save in 2023 had they bought the same goods and services they had in 2019.
 
  
 
 ### Figure 4: Expenditure Share of Median Earnings, Change from 2019 to 2023
-
-****
-
- 
 
 ## Employment Growth Beating Forecasts
 
@@ -65,11 +47,9 @@ In Figure 5, we compare today’s labor market outcomes with what the Congressio
 
 ### Figure 5: Employment—Actual versus Forecasted
 
-**
-
 ## Real Wage Growth in Global Context
 
-This marked increase in purchasing power seems to be specific to the United States.  Other advanced economies, which have also experienced elevated rates of inflation, have largely seen* declines* in purchasing power since the pandemic.[7]Of course, these countries all face different challenges.Some of these differentials are due to European economies being more exposed to Russia’s war in Ukraine, which raised food and energy prices substantially.  Still, the United States stands out for the improvement in the purchasing power of American workers.  Figure 6 shows the increase in average real earnings across countries from 2019 to 2023. Note that, for data availability and comparability reasons, we show average hourly earnings for production and non-supervisory workers in the United States rather than real median weekly earnings referenced in some of the figures above.[8]
+This marked increase in purchasing power seems to be specific to the United States.  Other advanced economies, which have also experienced elevated rates of inflation, have largely seen*declines* in purchasing power since the pandemic.[7]Of course, these countries all face different challenges.Some of these differentials are due to European economies being more exposed to Russia’s war in Ukraine, which raised food and energy prices substantially.  Still, the United States stands out for the improvement in the purchasing power of American workers.  Figure 6 shows the increase in average real earnings across countries from 2019 to 2023. Note that, for data availability and comparability reasons, we show average hourly earnings for production and non-supervisory workers in the United States rather than real median weekly earnings referenced in some of the figures above.[8]
 
  
 
@@ -81,7 +61,7 @@ The well-being of American households depends critically on their purchasing pow
 
  
 
-[1]To quantify the added purchasing power from employment gains, we need a measure of labor income at the household level.  Household income is available from Census at an annual frequency, currently through 2022.  However, the 2019 value of household income was likely a nonrepresentative sample—the data were collected at the peak of the pandemic between February and April of 2020.  See Rothbaum, Jonathan. “[Was Household Income the Highest Ever in 2019](https://www.census.gov/library/stories/2020/09/was-household-income-the-highest-ever-in-2019.html)?”* U.S. Census Bureau*, September 15, 2020.  As compared to 2018, real median household income grew 2.1 percent through 2022, but this confounds growth during the pandemic and recovery with growth between 2018 and 2019.  For this reason, we focus in this piece on the median earnings of American workers and on employment separately.
+[1]To quantify the added purchasing power from employment gains, we need a measure of labor income at the household level.  Household income is available from Census at an annual frequency, currently through 2022.  However, the 2019 value of household income was likely a nonrepresentative sample—the data were collected at the peak of the pandemic between February and April of 2020.  See Rothbaum, Jonathan. “[Was Household Income the Highest Ever in 2019](https://www.census.gov/library/stories/2020/09/was-household-income-the-highest-ever-in-2019.html)?”*U.S. Census Bureau*, September 15, 2020.  As compared to 2018, real median household income grew 2.1 percent through 2022, but this confounds growth during the pandemic and recovery with growth between 2018 and 2019.  For this reason, we focus in this piece on the median earnings of American workers and on employment separately.
 
 [2]See U.S. Department of the Treasury. “[Labor Unions and the Middle Class](https://home.treasury.gov/system/files/136/Labor-Unions-And-The-Middle-Class.pdf).” August 28, 2023.
 
@@ -93,6 +73,6 @@ The well-being of American households depends critically on their purchasing pow
 
 [6]The projection is based on the cost of each major expenditure category growing in line with its CPI price index from the third quarter of 2019 to the third quarter of 2023.
 
-[7]On the comparison of inflation experiences across countries, see Van Nostrand, Eric, and Tara Sinclair. “[The U.S. Economy in Global Context](https://home.treasury.gov/news/featured-stories/the-us-economy-in-global-context).”* U.S. Department of the Treasury*, October 26, 2023.
+[7]On the comparison of inflation experiences across countries, see Van Nostrand, Eric, and Tara Sinclair. “[The U.S. Economy in Global Context](https://home.treasury.gov/news/featured-stories/the-us-economy-in-global-context).”*U.S. Department of the Treasury*, October 26, 2023.
 
 [8]The earnings series used for each country is: United States: Average Hourly Earnings, Production & Non-Supervisory Employees: Private Nonfarm; Canada: Average Hourly Earnings including Overtime: Hourly Workers: Total Economy; France: Hourly Wages: Total Industry excluding Construction; Japan: Average Monthly Earnings (30 or more employees): All Industries; Great Britain (UK): Average Weekly Earnings (incl Bonus): Manufacturing; Germany: Negotiated Hourly Earnings: Industry including Construction; Italy: Contractual Wages per Hour: Industry including Construction.

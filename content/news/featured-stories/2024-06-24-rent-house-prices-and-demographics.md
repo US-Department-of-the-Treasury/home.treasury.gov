@@ -4,11 +4,7 @@ date: 2024-06-24
 draft: false
 url: /news/featured-stories/rent-house-prices-and-demographics
 ---
-Laura Feiveson,*Deputy Assistant Secretary for Microeconomics*
-
-Arik Levinson,* Deputy Assistant Secretary for Climate and Energy Economics*
-
-Sydney Schreiner Wertz,* Economist*
+Laura Feiveson,*Deputy Assistant Secretary for Microeconomics*Arik Levinson,*Deputy Assistant Secretary for Climate and Energy Economics*Sydney Schreiner Wertz,*Economist*
 
 For the past two decades, rents and house prices have been rising faster than incomes across most regions of the United States. For some households, increased housing costs means there is less to spend on everything else, including food, health care, clothing, education, and retirement savings.  For others, particularly younger Americans, high costs may be preventing them from living on their own or starting families.
 
@@ -28,13 +24,9 @@ Since 2000, housing costs have been rising faster than median household income (
 
 ### Figure 1. Real Housing Price, Rent and Wage Indexes
 
-****
-
 This point is broadly true across regions. From 2000 to 2020, median rents rose faster than median household income in 88 percent of U.S. counties, home to 97 percent of the U.S. population (Figure 2). And median house prices grew faster than overall inflation in 88 percent of counties, home to 95 percent of the population (Figure 3). And both median rents and house prices grew faster than overall inflation in 77 percent of counties, home to 93 percent of the population. Rents and home prices also rose in rural and urban areas, and for both single-family homes and apartments in multi-family buildings.[2]In sum, rising housing costs have been widespread and do not simply reflect a mismatch between locations and sectors in which housing is demanded and supplied.
 
 ### Figure 2: Growth in median rents less growth in median income, 2000 to 2020
-
-****
 
 ### Figure 3: Growth in median housing values less growth in median income, 2000 to 2020
 
@@ -54,13 +46,9 @@ Second, age-specific headship rates have been declining for the past few decades
 
 ### Figure 5: Per-Age Headship Rates
 
-****
-
 The youngest groups have experienced the largest declines in headship rates. In 1980, 50 percent of Americans aged 25 to 34 were heads of their own household (the lowest line on Figure 4). In 2020, that number had fallen to around 40 percent. The headship rate for Americans aged 35 to 44 also fell substantially: from almost 55 percent to less than 50 percent. The decline in headship rates for younger Americans can be seen in the rise of young adults living at home over the same period, as shown in Figure 6. This rise is at least partially attributable to rising rents and house prices.[6]
 
 ### Figure 6. Share of Adults Aged 25 to 34 Living with a Parent
-
-****
 
 ## III. Housing demand has outpaced supply
 
@@ -71,8 +59,6 @@ By comparison, Figure 7 shows that the actual housing stock—housing supply—g
 In short, housing cost increases have not arisen because population outpaced supply. It has not. Instead, housing cost increases have resulted from housing demand outpacing supply, driven in part by demographic shifts.
 
 ### Figure 7: Population, estimated housing demand, and housing stock percent growth since 2000
-
-****
 
 ## IV. Why construction hasn’t kept up pace and the role of policy
 

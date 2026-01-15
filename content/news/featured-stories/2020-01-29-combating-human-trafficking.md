@@ -12,11 +12,9 @@ Human trafficking is a transnational threat that preys on society’s most vulne
 
 [View more information on U.S. Government and financial institutions’ efforts to combat money laundering related to human trafficking and recommendations to improve those efforts](https://home.treasury.gov/system/files/136/Report-Money-Laundering-Human-Trafficking.pdf).
 
-
 ## Tools For Combating Human Trafficking
 
 Treasury has various tools and offices to support the mission of combating human trafficking, including anti-money laundering (AML) and sanctions authorities. The Office of Terrorism and Financial Intelligence (TFI) integrates countering the financial operations of human trafficking networks into Treasury’s strategy to safeguard the financial system and combat illicit threats. TFI, through the Office of Terrorist Financing and Financial Crimes (TFFC), the Financial Crimes Enforcement Network (FinCEN), the Office of Foreign Assets Control (OFAC), and the Office of Intelligence Analysis (OIA), coordinates with other Federal agencies, state and local law enforcement, and foreign governments to combat human trafficking.
-
 
 ## Prevent
 
@@ -81,10 +79,6 @@ Related News:
 - [Human traffickers face cash crunch after Western Union probe](https://www.asiatimes.com/2017/02/article/needs-pic-human-traffickers-face-cash-crunch-western-union-probe/)
 - [Sex Trafficking Ring Leader Gets Life in Federal Prison](https://www.kveo.com/news/local-news/sex-trafficking-ring-leader-gets-life-in-federal-prison/)
 
- 
-
- 
-
 ## Partners
 
 ### Partnership to Combat Human Rights Abuse and Corruption
@@ -120,8 +114,4 @@ For example, TFFC conducts outreach to the financial services industry to identi
 - [Meeting of the President's Interagency Task Force to Monitor and Combat Trafficking In Persons, October 24, 2016](https://2009-2017.state.gov/j/tip/rls/rm/2016/263538.htm)
 - [Meeting of the President's Interagency Task Force to Monitor and Combat Trafficking in Persons, October 2019](https://www.youtube.com/watch?v=YKAGVWRxnFU)
 - [President's Interagency Task Force Meeting on Trafficking, October 2016](https://www.youtube.com/watch?v=Nl3svI7uPeQ)
-
- 
- 
- 
 

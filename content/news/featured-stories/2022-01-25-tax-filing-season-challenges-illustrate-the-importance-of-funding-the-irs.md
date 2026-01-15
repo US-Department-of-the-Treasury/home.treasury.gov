@@ -1,5 +1,5 @@
 ---
-title: Tax Filing Season Challenges Illustrate the Importance of Funding the IRS 
+title: Tax Filing Season Challenges Illustrate the Importance of Funding the IRS
 date: 2022-01-25
 draft: false
 url: /news/featured-stories/tax-filing-season-challenges-illustrate-the-importance-of-funding-the-irs

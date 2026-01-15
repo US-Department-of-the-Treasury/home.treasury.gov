@@ -4,9 +4,7 @@ date: 2018-01-12
 draft: false
 url: /news/featured-stories/New Withholding Guidelines Under The Tax Cuts and Jobs Act Will Increase Take Home Pay
 ---
-**Guidance is the first step for workers to see withholding changes from new law. ****Future actions will include a new IRS withholding calculator and a new W-4 Form.**
-
-** Washington**– Today, employers received new withholding guidance from Treasury and the Internal Revenue Service (IRS) in order to implement tax cuts and other provisions of the Tax Cuts and Jobs Act. Employers are encouraged to implement the new withholding tables expeditiously but should do so no later than February 15, 2018. Workers will see changes in their February paychecks once employers adopt the new guidance.
+**Guidance is the first step for workers to see withholding changes from new law.  Future actions will include a new IRS withholding calculator and a new W-4 Form.  Washington**– Today, employers received new withholding guidance from Treasury and the Internal Revenue Service (IRS) in order to implement tax cuts and other provisions of the Tax Cuts and Jobs Act. Employers are encouraged to implement the new withholding tables expeditiously but should do so no later than February 15, 2018. Workers will see changes in their February paychecks once employers adopt the new guidance.
 
 "With this guidance, most American workers will begin to see bigger paychecks. We estimate that 90 percent of wage earners will experience an increase in their take home pay," said U.S. Treasury Secretary Steven T. Mnuchin. "The Administration's monumental tax reform legislation continues to provide economic benefits for hard-working Americans. These tax cuts will ensure that American workers are able to keep more of their hard earned income and decide how to spend, invest or save it."
 

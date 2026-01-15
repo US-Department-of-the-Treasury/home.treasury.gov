@@ -370,9 +370,6 @@ My pledge to you is that I will continue to lead on the crucial work of financia
 
 Thank you so much for this honor.
 
- 
- 
-
 [1]https://www.jstor.org/stable/42920043
 
 [2]https://fraser.stlouisfed.org/title/economic-letter-6362/assessing-costs-consequences-2007-09-financial-crisis-aftermath-607683

@@ -14,9 +14,9 @@ Those engagements have reached state and local officials[1], car dealers, union 
 
  
 
-* In just over a year, the IRA Program Office has traveled to 33 U.S. states plus Puerto Rico to discuss nearly two dozen clean energy tax provisions. *
+*In just over a year, the IRA Program Office has traveled to 33 U.S. states plus Puerto Rico to discuss nearly two dozen clean energy tax provisions. *
 
-* We’ve facilitated virtual presentations with many others. *
+*We’ve facilitated virtual presentations with many others. *
 
     
 
@@ -45,9 +45,6 @@ New and modified tax credits like the Advanced Manufacturing Production Credit[1
 By teaming up with DOE’s Office of Manufacturing and Energy Supply Chains (MESC)[18]and the Interagency Working Group (IWG) on Coal and Power Plant Communities and Economic Revitalization[19], Treasury has been able to provide a more comprehensive view on how the IRA’s manufacturing tax incentives fit with other federal grant and loan programs. That included participating in an IWG Illinois Coal Basin workshop[20]in Evansville, Indiana this spring.
 
 Treasury has also worked with the Diverse Manufacturing Supply Chain Alliance (DMSCA), National Minority Supplier Development Council (NMSDC), Alliance for Automotive Innovation (AAI), National Association of Manufacturers (NAM), and others to host virtual and in-person engagements for Treasury and Department of Energy (DOE) officials to inform and educate stakeholders about these new clean energy tax credits.
-
- 
- 
 
 [1][https://home.treasury.gov/news/featured-stories/ira-and-150-comeback-communities](https://home.treasury.gov/news/featured-stories/ira-and-150-comeback-communities)
 

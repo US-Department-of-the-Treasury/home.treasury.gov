@@ -4,7 +4,7 @@ date: 2020-04-19
 draft: false
 url: /news/press-releases/treasury-and-cbp-announce-deferment-of-duties-and-fees-for-certain-importers-during-covid-19-response
 ---
-**WASHINGTON **— On April 18, 2020,President Donald J. Trump signed an Executive Order authorizing the Secretary of the Treasury to provide relief to certain U.S. businesses, including critical supply chains for U.S. manufacturers, during the COVID-19 pandemic.
+**WASHINGTON** — On April 18, 2020,President Donald J. Trump signed an Executive Order authorizing the Secretary of the Treasury to provide relief to certain U.S. businesses, including critical supply chains for U.S. manufacturers, during the COVID-19 pandemic.
 
  
 

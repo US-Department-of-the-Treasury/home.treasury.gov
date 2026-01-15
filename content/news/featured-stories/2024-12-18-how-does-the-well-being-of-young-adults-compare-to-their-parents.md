@@ -34,8 +34,6 @@ In contrast, as shown in the right panel of Figure 2, the earnings of women with
 
 ### Figure 2: Median Usual Weekly Real Earnings of Young Workers by Education
 
-****
-
 ### The Cost of Living
 
 Homeownership—a goal for many young middle-class Americans—has become much more costly since 1990.  Median home prices, adjusted for inflation, have almost doubled, whereas median real weekly earnings for young workers have increased only modestly (and fallen for young men, as shown previously).  Rents, adjusted for inflation, have increased by less than home prices, but have still outpaced earnings.  The rising cost of housing has affected almost all Americans.  More than 90 percent of Americans live in counties where median rents and house prices grew faster than median household incomes from 2000 to 2020.[4]
@@ -45,10 +43,6 @@ Homeownership—a goal for many young middle-class Americans—has become much m
 Not all prices of necessities have risen more than wages did since 1990.  The prices of electronics, clothing, and cars have all either fallen or risen by less than the median weekly earnings of young workers. However, housing, childcare, healthcare, and education all stand out with their large increases in prices. These are costs that would weigh heavily on families with kids and may factor into decisions about whether or not to start a family.
 
 ### Figure 4. Changes in Price for Select Goods and Services from 1990 to 2024
-
-****
-
- 
 
 ### Balance sheets
 
@@ -61,8 +55,6 @@ However, the recent increase in net wealth obscures some balance sheet challenge
 To be sure, a large portion of this student loan debt is associated with high-returns education and will thus be reflected in higher wages that accumulate over time. However, not all debt holders have experienced those high returns.  About 42 percent of student loan debt holders between 25 and 39 years old do not have a bachelor’s degree.  And student loans can still weigh upon the household decisions of even those that do expect to have high earnings later in their careers. Empirical evidence finds that student loan debt has been shown to delay household formation, lower homeownership rates, decrease enrollment in graduate programs, and discourage public service jobs.[6]
 
 ### Figure 6: Average Real Non-Housing Debts: Age 25-39
-
-** **
 
 ### Household structure
 
@@ -79,8 +71,6 @@ Regarding the choice of when to start a family, yet another factor that may be w
 The health of young Americans has declined in many ways since their parents’ generation.  The prevalence of obesity—which increases the risk of heart disease, cancer, and other diseases—more than doubled amongst young Americans between 1990 and 2018, from 18 percent to 40 percent.[12]Death rates for young Americans have also risen in recent years after falling steadily for most of the 20thcentury.  The 2019 (pre-pandemic) death rate among individuals aged 25-39 had increased by 17 percent since bottoming out in 1999.[13]This increase in mortality among young people is mostly accounted for by men, and reflects a rise in externally caused deaths, which includes suicides, accidents, and overdoses. While the uptick in suicides is notable, the single largest contributor to the jump in young people’s mortality is unintentional drug overdoses as shown in Figure 9, reflecting the devastating impact of the opioid epidemic on this generation of young adults.[14]
 
 ### Figure 9: Deaths from Selected External Causes: Age 25-39
-
-****
 
 National data collected by the Centers for Disease Control (CDC) also show a worsening of mental health indicators over time since 1990, and this decline is concentrated among young adults.[15]The share of adults ages 18-25 who reported that they experience poor mental health on most days doubled between 1993 and 2020, and increased by 66 percent among those ages 26-49.[16]
 
@@ -109,9 +99,6 @@ This shift has had profound effects on young adults today, who are competing for
 ### Figure 11: Household Share by Age Group and Year
 
 The goal of government policy should not be to return to the economy of 1990.  Not only would this goal be a fruitless endeavor given the demographic shifts and the unidirectional advances in technology and globalization, but it would erase the gains to many Americans that came from expanded education, less discriminatory workplaces, cheaper goods, and more household wealth.  Instead, Federal, state, and local government policy should adapt by creatively tailoring their actions to tackle the unique difficulties faced by young adults today.  Substantial investments in housing, childcare, healthcare, and workforce opportunities could lead to improvements that would be felt quickly by today’s young Americans.  And tackling climate change and moving toward a more sustainable fiscal trajectory now could go far in significantly improving current young Americans’ futures.
-
-   
- 
 
 [1]Chetty, Raj, et al. 2017. “[The Fading American Dream: Trends in Absolute Income Mobility Since 1940](https://opportunityinsights.org/paper/the-fading-american-dream/).” Science 356 (6336): 398-406.
 

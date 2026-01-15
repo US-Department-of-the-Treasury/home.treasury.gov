@@ -1,5 +1,5 @@
 ---
-title: Treasury Department Begins Sending Economic Impact Payments from the American Rescue Plan to Americans 
+title: Treasury Department Begins Sending Economic Impact Payments from the American Rescue Plan to Americans
 date: 2021-03-12
 draft: false
 url: /news/featured-stories/treasury-department-begins-sending-economic-impact-payments-from-the-american-rescue-plan-to-americans

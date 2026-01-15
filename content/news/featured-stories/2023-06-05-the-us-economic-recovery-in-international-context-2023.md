@@ -12,9 +12,7 @@ With the American Rescue Plan’s two-year anniversary now behind us, this blog 
 
 This blog assesses the U.S. recovery along three key characteristics:
 
-- * The size of the U.S economy is now over 5 percent above its 2019 level*
-- * Core inflation in the United States is now lower than in many major advanced economies*
-- * The U.S. labor market recovery has been exceptionally strong*
+- *The size of the U.S economy is now over 5 percent above its 2019 level*- *Core inflation in the United States is now lower than in many major advanced economies*- *The U.S. labor market recovery has been exceptionally strong*
 
 This is not to suggest that the current recovery is without its challenges. Near-term inflation remains a concern, and long-term structural challenges remain. Still, many aspects of the U.S. recovery indicate a stronger recovery in the U.S. relative to other economies.
 

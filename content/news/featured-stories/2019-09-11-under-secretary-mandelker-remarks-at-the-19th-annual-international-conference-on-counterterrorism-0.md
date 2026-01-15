@@ -6,7 +6,7 @@ url: /news/featured-stories/under-secretary-mandelker-remarks-at-the-19th-annual
 ---
 *Enhancing Counterterrorism Sanctions: Progress since 9/11 to Adapt to Evolving Threats*
 
-* As Delivered*
+*As Delivered*
 
 It is an honor to speak at the Annual International Conference on Counterterrorism.  It is particularly meaningful for me to speak before this audience on the anniversary of 9/11, as we pay tribute to the nearly 3,000 victims of the 9/11 attacks.
 

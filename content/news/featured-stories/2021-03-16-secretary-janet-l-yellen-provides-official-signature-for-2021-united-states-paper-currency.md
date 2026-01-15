@@ -6,5 +6,5 @@ url: /news/featured-stories/secretary-janet-l-yellen-provides-official-signature
 ---
 On March 10, Secretary Janet L. Yellen met with Bureau of Engraving and Printing Director Leonard Olijar to provide the official signature for printing on the new 2021 series of United States paper currency. The Treasury Department will reveal her signature in the coming weeks.
 
-        
+       
 

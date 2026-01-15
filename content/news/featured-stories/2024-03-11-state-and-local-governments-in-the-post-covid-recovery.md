@@ -6,11 +6,7 @@ url: /news/featured-stories/state-and-local-governments-in-the-post-covid-recove
 ---
 March 11, 2024
 
-Eric Van Nostrand,*Assistant Secretary for Economic Policy (P.D.O.)*
-
-Laura Feiveson,* Deputy Assistant Secretary for Microeconomics*
-
-Tara Sinclair,* Deputy Assistant Secretary for Macroeconomics*
+Eric Van Nostrand,*Assistant Secretary for Economic Policy (P.D.O.)*Laura Feiveson,*Deputy Assistant Secretary for Microeconomics*Tara Sinclair,*Deputy Assistant Secretary for Macroeconomics*
 
 State, local, and Tribal governments play a central role in our economy, but were put in an especially precarious position when the pandemic hit in 2020. Tax revenues declined at the same time as needs for government support rose. In response, the federal government organized historic transfers to state, local, and Tribal governments. This federal financial support enabled these governments to deliver necessary services in the recovery and continues to put them in a robust position going forward, strengthening our national economy.
 
@@ -38,11 +34,7 @@ Like most sectors of the economy, the state, local, and Tribal government sector
 
 Figure 2 shows that these spending categories rose above the pre-pandemic trend by $110 billion and $230 billion in fiscal years 2020 and 2021, respectively.[4]We break out unemployment insurance (UI) separately from other welfare programs as state UI is typically funded through a trust fund and so does not represent the same draw on general revenues.  Without UI, the two other categories together rose a cumulative total of $105 billion overall above trend over the two years.
 
-** Figure 2: Increase in Expenditure Relative to Trend**
-
- 
-
-These calculations likely understate the increased expenditure needs of state and local governments related to the pandemic.  For example, public schools and teachers had to adapt quickly to learn how to educate their students remotely or with social distancing.  These adaptations required costly mitigation strategies such as hybrid technology and better air filtration systems.
+** Figure 2: Increase in Expenditure Relative to Trend** These calculations likely understate the increased expenditure needs of state and local governments related to the pandemic.  For example, public schools and teachers had to adapt quickly to learn how to educate their students remotely or with social distancing.  These adaptations required costly mitigation strategies such as hybrid technology and better air filtration systems.
 
 At the same time that expenditures were strained, state and local own-source revenues (that is, general revenues that are not transfers from the Federal government) came in 3.5 percent below trend in the fiscal year 2020, before returning to about trend in fiscal year 2021.[5]Given the increased expenditure needs unmet by own-source revenues, balanced budget rules forced state and local governments to cut expenditures in other parts of their budgets.[6]Indeed, in the fall of 2020, 31 states reported using spending cuts to balance their budgets for fiscal year 2021.  Further cuts would have cut key services to households at a critical time with the possibility of dragging down the national economy.  In fact, we saw a stark example of this in the Global Financial Crisis.
 
@@ -52,17 +44,13 @@ One important lesson from the GFC was that state and local budget cuts can impos
 
 The costs of insufficient state and local spending for both the macroeconomy and for American households became clear over the decade following the GFC.[8]The slower recovery meant deeper economic scars.  Wages grew slowly in real terms, and new entrants into the job market faced deteriorated job prospects.[9]There were fewer opportunities for those who lost their jobs to find others, meaning workers endured longer unemployment spells and incurred greater earnings losses than typically happens in an expansion.[10]
 
-** Figure 3: State and Local Government Employment Change During and After Recent Recessions**
-
- 
-
-Of course, there are many drivers of the differences between the recoveries from the GFC and COVID recessions, and we might expect an overall recovery from a pandemic-driven economic shutdown to be faster. But the focus on state and local governments in the post-COVID recession is also an important difference worth exploring.
+** Figure 3: State and Local Government Employment Change During and After Recent Recessions** Of course, there are many drivers of the differences between the recoveries from the GFC and COVID recessions, and we might expect an overall recovery from a pandemic-driven economic shutdown to be faster. But the focus on state and local governments in the post-COVID recession is also an important difference worth exploring.
 
 During and following the COVID recession, the federal government transferred a total of $900 billion to state, local, and Tribal governments, enabling state and local spending to follow a very different path.[11]In particular, the American Rescue Plan provided direct fiscal relief to states, Tribal governments, territories, counties, cities, and towns through the State and Local Fiscal Recovery Funds (SLFRF) program, which alone totaled $350 billion.
 
 Figures 3 and 4 depict the contrast between the two recessions in the pace of recovery in the state and local government sector.  In the COVID recession, the turmoil and uncertainty faced by state and local governments due to the pandemic led to expenditure cuts, reflected in a contraction of public employment.  However, by 2022, state and local expenditures had rebounded, supporting a robust economic recovery.  Thus, rather than a slower recovery with years of drag as occurred with the GFC, employment in state and local governments recovered almost three times faster than after the GFC, and the state and local government sector contributed positively to economic growth within just 10 quarters.
 
-** Figure 4: State and Local Government Contribution to Quarterly GDP Growth During and After Recent Recessions **
+** Figure 4: State and Local Government Contribution to Quarterly GDP Growth During and After Recent Recessions**
 
  
 
@@ -72,16 +60,7 @@ The ARP, and particularly its SLFRF program, provided direct support to nearly a
 
 One demonstration of the geographically widespread recovery is that, at the MSA and state level, the dispersion of unemployment rates is now historically low, well below pre-pandemic levels (see Figure 5).  This is a very different pattern than what we saw in the slow recovery after the GFC when the dispersion of local unemployment rates remained elevated.
 
-** Figure 5: Dispersion of State and MSA Unemployment Rates**
-
- 
-
-In addition, in 387 out of 389 MSAs, the unemployment rate now is lower than the MSA’s median rate over the past 30 years (as of December 2023).  And MSAs with the highest median 30-year unemployment rates have seen the largest reductions in their current unemployment rates (Figure 6).[12]
-
-** Figure 6: MSA Unemployment Current vs. Long Run**
-
- 
-
+** Figure 5: Dispersion of State and MSA Unemployment Rates** In addition, in 387 out of 389 MSAs, the unemployment rate now is lower than the MSA’s median rate over the past 30 years (as of December 2023).  And MSAs with the highest median 30-year unemployment rates have seen the largest reductions in their current unemployment rates (Figure 6).[12]** Figure 6: MSA Unemployment Current vs. Long Run**
 
 ## Paving the Way for a Stronger Future
 
@@ -127,4 +106,4 @@ State, local, and Tribal governments have an important role in the lives of Amer
 
 [14][Strengthening a Robust Economic Recovery with Child Care (newamerica.org)](https://www.newamerica.org/new-practice-lab/briefs/strengthening-a-robust-economic-recovery-with-child-care/)
 
-[15] Hsieh, Chang-Tai, and Enrico Moretti. 2019. "Housing Constraints and Spatial Misallocation."* American Economic Journal: Macroeconomics*, 11 (2): 1-39.[(Link)](https://www.aeaweb.org/articles?id=10.1257/mac.20170388);[The Economic Implications of Housing Supply - American Economic Association (aeaweb.org)](https://www.aeaweb.org/articles?id=10.1257/jep.32.1.3); Chetty, Raj, Nathaniel Hendren, and Lawrence F. Katz. 2016. "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment*." American Economic Review*,*106*(4): 855-902 ([Link](https://scholar.harvard.edu/files/lkatz/files/chk_aer_mto_0416.pdf)); Pollakowski, Henry O., Daniel H. Weinberg, Fredrik Andersson, John C. Haltiwanger, Giordano Palloni and Mark J. Kutzbach. 2022. "Childhood Housing and Adult Outcomes: A Between-Siblings Analysis of Housing Vouchers and Public Housing."* American Economic Journal: Economic Policy*, 14 (3): 235-72.[Childhood Housing and Adult Outcomes: A Between-Siblings Analysis of Housing Vouchers and Public Housing - American Economic Association (aeaweb.org)](https://www.aeaweb.org/articles?id=10.1257/pol.20180144)
+[15] Hsieh, Chang-Tai, and Enrico Moretti. 2019. "Housing Constraints and Spatial Misallocation."*American Economic Journal: Macroeconomics*, 11 (2): 1-39.[(Link)](https://www.aeaweb.org/articles?id=10.1257/mac.20170388);[The Economic Implications of Housing Supply - American Economic Association (aeaweb.org)](https://www.aeaweb.org/articles?id=10.1257/jep.32.1.3); Chetty, Raj, Nathaniel Hendren, and Lawrence F. Katz. 2016. "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment*." American Economic Review*,*106*(4): 855-902 ([Link](https://scholar.harvard.edu/files/lkatz/files/chk_aer_mto_0416.pdf)); Pollakowski, Henry O., Daniel H. Weinberg, Fredrik Andersson, John C. Haltiwanger, Giordano Palloni and Mark J. Kutzbach. 2022. "Childhood Housing and Adult Outcomes: A Between-Siblings Analysis of Housing Vouchers and Public Housing."*American Economic Journal: Economic Policy*, 14 (3): 235-72.[Childhood Housing and Adult Outcomes: A Between-Siblings Analysis of Housing Vouchers and Public Housing - American Economic Association (aeaweb.org)](https://www.aeaweb.org/articles?id=10.1257/pol.20180144)

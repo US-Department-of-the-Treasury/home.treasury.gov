@@ -1,10 +1,10 @@
 ---
-title: Readout from a Treasury Spokesperson of Secretary Mnuchin’s Call with UK Chancellor of the Exchequer Philip Hammond 
+title: Readout from a Treasury Spokesperson of Secretary Mnuchin’s Call with UK Chancellor of the Exchequer Philip Hammond
 date: 2017-02-14
 draft: false
 url: /news/press-releases/readout-from-a-treasury-spokesperson-of-secretary-mnuchins-call-with-uk
 ---
-**WASHINGTON **– U.S. Treasury Secretary Steven Mnuchin spoke by phone today with UK Chancellor of the Exchequer Philip Hammond.
+**WASHINGTON** – U.S. Treasury Secretary Steven Mnuchin spoke by phone today with UK Chancellor of the Exchequer Philip Hammond.
  
 Secretary Mnuchin discussed opportunities to work with the Chancellor to support the special relationship between the United States and the United Kingdom.
  

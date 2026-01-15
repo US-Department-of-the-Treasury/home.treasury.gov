@@ -4,9 +4,7 @@ date: 2023-03-22
 draft: false
 url: /news/featured-stories/emergency-rental-assistance-supporting-renting-families-driving-lasting-reform
 ---
-**Jacob Leibenluft, Chief Recovery Officer**
-
-COVID-19 pushed families across the country to fall behind on their rent—many of whom already struggled with the cost of housing.  At the end of 2020, nearly a fifth of renting households reported being behind on rent. One in six reported that eviction within two months was very likely.
+**Jacob Leibenluft, Chief Recovery Officer** COVID-19 pushed families across the country to fall behind on their rent—many of whom already struggled with the cost of housing.  At the end of 2020, nearly a fifth of renting households reported being behind on rent. One in six reported that eviction within two months was very likely.
 
 Research has made clear the grave consequences of eviction for families.  Evictions can interrupt school and work, undermine physical and mental health, and make it more challenging to qualify for housing assistance benefits or find new housing.  Eviction can cause tenants to lose possessions, or face food insecurity.[1]As the pandemic destabilized life for many Americans, these risks grew even more serious.
 
@@ -88,7 +86,7 @@ Each of these programs or policies represents a critical protection for renters 
 
 President Biden’s Budget also provides $3 billion for efforts to build on ERA and further build out eviction infrastructure.  It includes funding for eviction diversion programs, rental assistance, expanded access to counsel, and other resources for tenants facing eviction.
 
-*          *          *
+* * *
 
 Throughout ERA, renters have been the most important witnesses to the impact of the program for families.  One renter told a grantee that “[r]ent help saved me and my kids from being out in the cold and homeless.”  Another said that “[w]ithout you, I couldn’t have continued my cancer treatment, if I had become homeless.”  As we reflect back on ERA, we remember that these stories are the ultimate measure of the program, as well as critical illustrations of the importance of housing stability to families.
 
@@ -98,16 +96,16 @@ Looking ahead, we know important work remains, both to support grantees througho
 
  
 
-[1]* See, e.g*., Matthew Desmond,* Evicted *(New York: 2016), 295-99 (summarizing research on toll of eviction).
+[1]*See, e.g*., Matthew Desmond,*Evicted *(New York: 2016), 295-99 (summarizing research on toll of eviction).
 
 [2]Peter Hepburn et al., Eviction Lab, “Preliminary Analysis: Eviction Filing Patterns in 2021” (Mar. 8, 2022),[https://evictionlab.org/us-eviction-filing-patterns-2021/](https://evictionlab.org/us-eviction-filing-patterns-2021/).
 
-[3]Office of Evaluation Sciences,* Equity in the Distribution of the Emergency Rental Assistance Program*(2022),[https://oes.gsa.gov/projects/era-equity/](https://oes.gsa.gov/projects/era-equity/).
+[3]Office of Evaluation Sciences,*Equity in the Distribution of the Emergency Rental Assistance Program*(2022),[https://oes.gsa.gov/projects/era-equity/](https://oes.gsa.gov/projects/era-equity/).
 
-[4]Emily Benfer et al.,* The COVID-19 Eviction Crisis: An Estimated 30-40 Million People in America Are at Risk*(Aug. 7, 2020),[https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf](https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf), 2.
+[4]Emily Benfer et al.,*The COVID-19 Eviction Crisis: An Estimated 30-40 Million People in America Are at Risk*(Aug. 7, 2020),[https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf](https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf), 2.
 
-[5]* See *Consumer Financial Protection Bureau,* Housing Insecurity and the COVID-19 Pandemic *(Mar. 2021),[https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf](https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf), 6, 15.
+[5]*See *Consumer Financial Protection Bureau,*Housing Insecurity and the COVID-19 Pandemic *(Mar. 2021),[https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf](https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf), 6, 15.
 
-[6]Elijah de la Campa, Vincent J. Reina & Christopher Herbert,* How Are Landlords Faring During the Pandemic?*(Aug. 2021),[https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf](https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf), 2.
+[6]Elijah de la Campa, Vincent J. Reina & Christopher Herbert,*How Are Landlords Faring During the Pandemic?*(Aug. 2021),[https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf](https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf), 2.
 
-[7]* See *National Low Income Housing Coalition, ERASE State and Local Tenant Protections Database,[https://nlihc.org/tenant-protections](https://nlihc.org/tenant-protections).
+[7]*See *National Low Income Housing Coalition, ERASE State and Local Tenant Protections Database,[https://nlihc.org/tenant-protections](https://nlihc.org/tenant-protections).

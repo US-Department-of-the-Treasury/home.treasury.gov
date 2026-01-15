@@ -8,7 +8,7 @@ Luke Bassett, Director of Policy and Program ImpactChris Sun, Director of Data
 
 Since January 1, 2024, buyers of eligible[new](https://fueleconomy.gov/feg/tax2023.shtml)and[pre-owned](https://fueleconomy.gov/feg/taxused.shtml)clean vehicles have been able to choose to receive the full value of the Inflation Reduction Act’s (IRA) clean vehicle tax credits at the time they purchase their clean vehicles from a registered dealer rather than waiting to claim the credit on their tax returns. The tax credit can be as high as $7,500 for new vehicles or $4,000 for pre-owned vehicles, and it may be applied as a downpayment equivalent to the purchase of the vehicle.
 
-To date, buyers of these qualified clean vehicles have been able to collectively**save over $600 million** at the time-of-sale as a result of these tax credits, an average of $6,900 per sale.[1]Buyers who are switching to an electric vehicle could also save up to $14,500 over a 15-year lifespan compared to the average gasoline-powered vehicle.[2]These are economic benefits that many Americans are realizing now thanks to the credits in the IRA and the work of the IRS and IRS Energy Credits Online.
+To date, buyers of these qualified clean vehicles have been able to collectively **save over $600 million** at the time-of-sale as a result of these tax credits, an average of $6,900 per sale.[1]Buyers who are switching to an electric vehicle could also save up to $14,500 over a 15-year lifespan compared to the average gasoline-powered vehicle.[2]These are economic benefits that many Americans are realizing now thanks to the credits in the IRA and the work of the IRS and IRS Energy Credits Online.
 
 In addition to putting money back into the pockets of American taxpayers, these IRA credits are also accelerating the transition to a clean passenger vehicle market. In2023, which was the first full year that the IRA’s clean vehicle credits were in effect, the sale of electric vehicles in the U.S. increased**50%** compared to the previous year. And that transition is only expected to continue as U.S. electric vehicle sales are forecasted to grow a further 30% in 2024.[3]
 
@@ -36,7 +36,7 @@ Based on a[report](https://www.sciencedirect.com/science/article/pii/S2542435120
 
   
 
-* Figure 1. Source:“*[* Levelized Cost of Charging Electric Vehicles in the United States*](https://www.sciencedirect.com/science/article/pii/S2542435120302312)*.” DOE/NREL*
+*Figure 1. Source:“*[*Levelized Cost of Charging Electric Vehicles in the United States*](https://www.sciencedirect.com/science/article/pii/S2542435120302312)*.” DOE/NREL*
 
 These estimated lifetime fuel cost savings are likely to increase as clean vehicle efficiency and technology improves over time.
 
@@ -46,7 +46,7 @@ One of the key goals of the IRA is to stimulate the development and demand for a
 
  
 
-* Figure 2. Source: Treasury analysis of BloombergNEF EV Sales data*
+*Figure 2. Source: Treasury analysis of BloombergNEF EV Sales data*
 
 And this acceleration is happening broadly in the passenger vehicles market, allowing American consumers more choice and accessibility. The IRA has supported demand across the board that automakers are competing to fill. For example, six of the top 10 U.S. electric vehicle makers in 2023 saw sales increase by over 50% compared to 2022, and three of those saw sales increase by over 90%.
 
@@ -54,7 +54,7 @@ Over the long-term, this transition is expected to continue as more IRA clean ve
 
   
 
-* Figure 3. Source: Treasury analysis of BloombergNEF EV Sales Outlook data*
+*Figure 3. Source: Treasury analysis of BloombergNEF EV Sales Outlook data*
 
 ## Conclusion
 

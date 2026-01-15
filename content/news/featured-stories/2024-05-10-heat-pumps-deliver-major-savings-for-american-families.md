@@ -16,7 +16,7 @@ Additional information on these credits can be found on the Treasury Departmentâ
 
 ## Why Heat Pumps?
 
-[Heat pump systems](https://www.energy.gov/energysaver/heat-pump-systems)work in every season, providing energy efficient solutions for heating and cooling homes. Unlike furnaces, which generate their own heat, heat pumps use energy to* move* heat in and out of a home as needed. The process makes heating and cooling homes cheaper and more energy efficient.
+[Heat pump systems](https://www.energy.gov/energysaver/heat-pump-systems)work in every season, providing energy efficient solutions for heating and cooling homes. Unlike furnaces, which generate their own heat, heat pumps use energy to*move* heat in and out of a home as needed. The process makes heating and cooling homes cheaper and more energy efficient.
 
 Though historically heat pumps have primarily served homeowners in warmer climates,[recent Department of Energy initiatives](https://www.energy.gov/articles/doe-announces-leading-heat-pump-manufacturers-successfully-develop-next-generation)are enabling the deployment of heat pumps in climates that experience subzero temperatures, making heat pumps a valuable tool for homeowners throughout the United States.
 

@@ -1,12 +1,10 @@
 ---
-title: Secretary Mnuchin Leads U.S. Delegation to G-20 Finance Ministers and Central Bank Governors Meeting in Buenos Aires, Argentina 
+title: Secretary Mnuchin Leads U.S. Delegation to G-20 Finance Ministers and Central Bank Governors Meeting in Buenos Aires, Argentina
 date: 2018-03-19
 draft: false
 url: /news/featured-stories/secretary-mnuchin-leads-us-delegation-to-g-20-finance-ministers-and-central
 ---
-**Secretary to also visit Santiago, Chile**
-
-** Washington**– The U.S. Department of the Treasury today announced that Secretary Steven T. Mnuchin will attend the G-20 Finance Ministers and Central Bank Governors Meeting in Buenos Aires, Argentina from March 19 – 20, 2018. In addition to the official program, Secretary Mnuchin will hold bilateral meetings with a number of his finance minister and central bank governor counterparts.
+**Secretary to also visit Santiago, Chile  Washington**– The U.S. Department of the Treasury today announced that Secretary Steven T. Mnuchin will attend the G-20 Finance Ministers and Central Bank Governors Meeting in Buenos Aires, Argentina from March 19 – 20, 2018. In addition to the official program, Secretary Mnuchin will hold bilateral meetings with a number of his finance minister and central bank governor counterparts.
 
 "The trip to the G-20 will focus on advancing the Trump administration's global economic agenda to level the playing field for U.S. companies and workers," said Secretary Mnuchin. "Our trip will include meetings with other leaders on key economic priorities. These discussions will also focus on combating the financial streams of terrorist groups, narcotics traffickers, and human rights abusers, as well as protecting against the illicit use of crypto currencies."
 

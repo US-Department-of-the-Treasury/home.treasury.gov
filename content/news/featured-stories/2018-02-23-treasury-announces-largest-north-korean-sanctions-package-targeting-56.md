@@ -4,7 +4,7 @@ date: 2018-02-23
 draft: false
 url: /news/featured-stories/treasury-announces-largest-north-korean-sanctions-package-targeting-56
 ---
-**WASHINGTON **– The U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) today announced the largest North Korea-related sanctions tranche to date, aimed at disrupting North Korean shipping and trading companies and vessels to further isolate the regime and advance the U.S. maximum pressure campaign.  Today’s action targets one individual, 27 entities, and 28 vessels located, registered, or flagged in North Korea, China, Singapore, Taiwan, Hong Kong, Marshall Islands, Tanzania, Panama, and Comoros.  Today, Treasury, along with the U.S. Department of State and U.S. Coast Guard, also issued an advisory alerting the public to the significant sanctions risks to those continuing to enable shipments of goods to and from North Korea.
+**WASHINGTON** – The U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) today announced the largest North Korea-related sanctions tranche to date, aimed at disrupting North Korean shipping and trading companies and vessels to further isolate the regime and advance the U.S. maximum pressure campaign.  Today’s action targets one individual, 27 entities, and 28 vessels located, registered, or flagged in North Korea, China, Singapore, Taiwan, Hong Kong, Marshall Islands, Tanzania, Panama, and Comoros.  Today, Treasury, along with the U.S. Department of State and U.S. Coast Guard, also issued an advisory alerting the public to the significant sanctions risks to those continuing to enable shipments of goods to and from North Korea.
 
 “Treasury is aggressively targeting all illicit avenues used by North Korea to evade sanctions, including taking decisive action to block the vessels, shipping companies, and entities across the globe that work on North Korea’s behalf.  This will significantly hinder the Kim regime’s capacity to conduct evasive maritime activities that facilitate illicit coal and fuel transports, and erode its abilities to ship goods through international waters,” said Treasury Secretary Steven Mnuchin.  “The President has made it clear to companies worldwide that if they choose to help fund North Korea’s nuclear ambitions, they will not do business with the United States.”
 
@@ -19,13 +19,6 @@ As a result of today’s action, any property or interests in property of the de
 In addition to sanctions, OFAC issued a global shipping advisory today, in consultation with the U.S. Department of State and the U.S. Coast Guard, to alert persons of the significant sanctions risks to those continuing to enable shipments of goods to and from North Korea.  The advisory also alerts industries to North Korea’s deceptive shipping practices.[Advisory provided](https://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Documents/dprk_vessel_advisory_02232018.pdf).
 
 North Korea is known to employ deceptive shipping practices including, but not limited to, falsifying and concealing information displayed on North Korean vessels and conducting ship-to-ship transfers, a practice prohibited by United Nations Security Council Resolution (UNSCR) 2375 of September 11, 2017.  For example, the following images depict deceptive North Korean practices.  The first image, taken on December 6, 2017, depicts the U.S.-designated North Korean vessel KUM UN SAN 3 falsifying its vessel information.  The second image, taken on December 9, 2017, depicts recent attempts by the same North Korean vessel to conduct a ship-to-ship transfer, possibly of oil, with the Panama-flagged KOTI in an effort to evade sanctions.[Additional images](https://www.treasury.gov/resource-center/sanctions/Programs/Pages/dprk_vessels.aspx).
-
- 
-
- 
-
- 
- 
 
 ## Third-Country Shipping and Oil Targets
 

@@ -24,9 +24,7 @@ The benefits from homeownership have not been shared equally.  In the second qu
 
   
 
-**Notes:** Figure displays the proportion of all households that are homeowners.  Hispanic includes anyone of Hispanic ethnicity regardless of race.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, and American Indian or Alaska Native and those who report two or more races.
-
-**Source: ** U.S. Census Bureau data via the Federal Reserve Bank of St. Louis.
+**Notes:** Figure displays the proportion of all households that are homeowners.  Hispanic includes anyone of Hispanic ethnicity regardless of race.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, and American Indian or Alaska Native and those who report two or more races.** Source:** U.S. Census Bureau data via the Federal Reserve Bank of St. Louis.
 
  
 
@@ -38,9 +36,7 @@ These disparities impact the economic security of Americans of all ages and have
 
 ### Figure 2. Racial Homeownership Gaps Over the Lifecycle, 2019
 
-**Notes**: Figure displays homeownership rates by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska Native, or any other race.
-
-** Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
+**Notes**: Figure displays homeownership rates by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska Native, or any other race.** Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
 
  
 
@@ -62,14 +58,9 @@ Racial differences in rates of distressed home sales also contribute to racial d
 
 Notably, just prior to and during the Great Recession, foreclosure rates skyrocketed for Hispanic and Black households and increased relatively modestly for white households.  The preponderance of evidence that Black and Hispanic borrowers were offered higher-cost mortgage products than similarly qualified non-Hispanic white borrowers between 2004 to 2007 suggests that high-risk lending practices disproportionately directed at these groups may explain the relatively large differences in financial distress during this period.[26]In addition, a recent study highlights the roles of higher rates of income instability and illiquidity among Black and Hispanic homeowners in explaining differences in financial distress across groups over the last several decades.[27]
 
- 
- 
-
 ### Figure 3. Racial Differences in the Quarterly Foreclosure Rate
 
-** Notes:**The figure plots the quarterly foreclosure rate by race and ethnicity from a sample of homeowners with observed purchase prices in the Home Mortgage Disclosure Act data.
-
-** Source:**Data provided by Amir Kermani.  See the following paper for a detailed description of the data: Kermani, Amir, and Francis Wong. 2021. “Racial Disparities in Housing Returns.” NBER Working Paper 29306.
+** Notes:** The figure plots the quarterly foreclosure rate by race and ethnicity from a sample of homeowners with observed purchase prices in the Home Mortgage Disclosure Act data.** Source:** Data provided by Amir Kermani.  See the following paper for a detailed description of the data: Kermani, Amir, and Francis Wong. 2021. “Racial Disparities in Housing Returns.” NBER Working Paper 29306.
 
  
 
@@ -79,18 +70,11 @@ The large increases in rates of foreclosure for Black and Hispanic households du
 
 Together, differences in the homeownership rates, home values, housing returns, and distressed home sales have contributed to large racial gaps in housing equity wealth that widen over the lifecycle (see Figure 4).  The average white household and the average household of any other race possess more housing equity wealth than the average Black and Hispanic households, no matter the age of the household head.  The average white household whose head is younger than 35 has $30,000 and $20,000 more in housing equity wealth than the average Black or Hispanic household in that same age group.  By the time household heads are 55 or older, these gaps will have widened to $175,000 and $145,000, respectively.
 
- 
- 
- 
- 
-
 ### Figure 4. Racial Differences in Housing Equity Wealth Over the Lifecycle, 2019
 
  
 
-** Notes**: Figure displays average housing equity wealth by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska native, or any other race.
-
-** Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
+** Notes**: Figure displays average housing equity wealth by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska native, or any other race.** Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
 
  
 

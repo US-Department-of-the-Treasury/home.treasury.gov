@@ -6,7 +6,7 @@ url: /news/featured-stories/the-us-economy-in-global-context
 ---
 *Eric Van Nostrand*, Assistant Secretary for Economic Policy (P.D.O.)
 
-* Tara Sinclair*, Deputy Assistant Secretary for Macroeconomics
+*Tara Sinclair*, Deputy Assistant Secretary for Macroeconomics
 
 The U.S. economy in 2023 outperformed expectations along three key dimensions: growing economic output, labor market resilience, and slowing inflation. This month, the IMF released its latest World Economic Outlook (WEO), which provides an important occasion to consider U.S. economic performance in the context of the global outlook. The progress we have made on growth, labor markets, and inflation stands out across the globe, and remains an important source of strength for the global economy.
 

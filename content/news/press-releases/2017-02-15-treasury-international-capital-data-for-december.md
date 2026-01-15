@@ -4,7 +4,7 @@ date: 2017-02-15
 draft: false
 url: /news/press-releases/treasury-international-capital-data-for-december
 ---
-**WASHINGTON**– The U.S. Department of the Treasury today released Treasury International Capital (TIC) data for December 2016.  The next release, which will report on data for January 2017, is scheduled for March 15, 2017.
+**WASHINGTON** – The U.S. Department of the Treasury today released Treasury International Capital (TIC) data for December 2016.  The next release, which will report on data for January 2017, is scheduled for March 15, 2017.
 
 The sum total in December of all net foreign acquisitions of long-term securities, short-term U.S. securities, and banking flows was a monthly net TIC outflow of $42.8 billion.  Of this, net foreign private outflows were $57.1 billion, and net foreign official inflows were $14.3 billion.
 
@@ -24,37 +24,12 @@ About TIC Data
 
 The monthly data on holdings of long-term securities, as well as the monthly table on Major Foreign Holders of Treasury Securities, reflect foreign holdings of U.S. securities collected primarily on the basis of custodial data.  These data help provide a window into foreign ownership of U.S. securities, but they cannot attribute holdings of U.S. securities with complete accuracy.  For example, if a U.S. Treasury security purchased by a foreign resident is held in a custodial account in a third country, the true ownership of the security will not be reflected in the data.  The custodial data will also not properly attribute U.S. Treasury securities managed by foreign private portfolio managers who invest on behalf of residents of other countries.  In addition, foreign countries may hold dollars and other U.S. assets that are not captured in the TIC data.  For these reasons, it is difficult to draw precise conclusions from TIC data about changes in the foreign holdings of U.S. financial assets by individual countries.
 
- 
-
- 
- 
 **TIC Monthly Reports on Cross-Border Financial Flows**
 
- 
- 
- 
 (Billions of dollars, not seasonally adjusted)
 
- 
- 
- 
- 
- 
- 
- 
- 
 12 Months Through
- 
- 
- 
- 
 
- 
- 
- 
- 
- 
- 
 2014
 2015
 Dec-15
@@ -67,29 +42,6 @@ Dec
  
  
 **Foreigners' Acquisitions of Long-term Securities**
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
 1
  
@@ -120,50 +72,16 @@ Gross Sales of Domestic U.S. Securities
 3
  
  
-**Domestic Securities Purchased, net** (line 1 less line 2) /1
-**249.3**
-**155.6**
-**155.6**
-**68.4**
-**-46.6**
-**-12.0**
-**17.0**
-**-13.9**
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+**Domestic Securities Purchased, net** (line 1 less line 2) /1**249.3 155.6 155.6 68.4 -46.6 -12.0 17.0 -13.9**
 
 4
  
  
  
-**Private, net /2**
-**171.0**
-**368.0**
-**368.0**
-**356.8**
-**-7.9**
-**26.8**
-**15.9**
-**-32.0**
+**Private, net /2 171.0 368.0 368.0 356.8 -7.9 26.8 15.9 -32.0**
 
 5
- 
- 
- 
- 
+
 Treasury Bonds & Notes, net
 120.6
 205.6
@@ -175,10 +93,7 @@ Treasury Bonds & Notes, net
 -40.4
 
 6
- 
- 
- 
- 
+
 Gov't Agency Bonds, net
 43.2
 123.2
@@ -190,10 +105,7 @@ Gov't Agency Bonds, net
 12.5
 
 7
- 
- 
- 
- 
+
 Corporate Bonds, net
 18.4
 137.9
@@ -205,10 +117,7 @@ Corporate Bonds, net
 5.4
 
 8
- 
- 
- 
- 
+
 Equities, net
 -11.2
 -98.7
@@ -219,40 +128,14 @@ Equities, net
 -5.9
 -9.5
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 9
  
  
  
-**Official, net /3**
-**78.3**
-**-212.4**
-**-212.4**
-**-288.3**
-**-38.7**
-**-38.8**
-**1.1**
-**18.1**
+**Official, net /3 78.3 -212.4 -212.4 -288.3 -38.7 -38.8 1.1 18.1**
 
 10
- 
- 
- 
- 
+
 Treasury Bonds & Notes, net
 44.9
 -225.9
@@ -264,10 +147,7 @@ Treasury Bonds & Notes, net
 18.6
 
 11
- 
- 
- 
- 
+
 Gov't Agency Bonds, net
 31.4
 33.5
@@ -279,10 +159,7 @@ Gov't Agency Bonds, net
 1.2
 
 12
- 
- 
- 
- 
+
 Corporate Bonds, net
 7.0
 -3.8
@@ -294,10 +171,7 @@ Corporate Bonds, net
 -1.1
 
 13
- 
- 
- 
- 
+
 Equities, net
 -4.9
 -16.2
@@ -307,21 +181,6 @@ Equities, net
 0.9
 0.1
 -0.5
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
 14
  
@@ -352,36 +211,10 @@ Gross Sales of Foreign Securities to U.S. Residents
 16
  
  
-**Foreign Securities Purchased, net** (line 14 less line 15) /4
-**25.9**
-**161.9**
-**161.9**
-**187.1**
-**20.4**
-**15.4**
-**17.5**
-**1.1**
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+**Foreign Securities Purchased, net** (line 14 less line 15) /4**25.9 161.9 161.9 187.1 20.4 15.4 17.5 1.1**
 
 17
- 
- 
- 
- 
+
 Foreign Bonds Purchased, net
 131.7
 276.1
@@ -393,10 +226,7 @@ Foreign Bonds Purchased, net
 19.2
 
 18
- 
- 
- 
- 
+
 Foreign Equities Purchased, net
 -105.7
 -114.2
@@ -407,158 +237,30 @@ Foreign Equities Purchased, net
 0.4
 -18.2
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 19
  
  
-**Net Long-term Securities Transactions **(line 3 plus line 16):
-**275.3**
-**317.5**
-**317.5**
-**255.5**
-**-26.2**
-**3.3**
-**34.4**
-**-12.9**
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+**Net Long-term Securities Transactions**(line 3 plus line 16):**275.3 317.5 317.5 255.5 -26.2 3.3 34.4 -12.9**
 
 20
  
  
-**Other Acquisitions of Long-term Securities, net /5**
-**-79.1**
-**-277.5**
-**-277.5**
-**-272.4**
-**-36.5**
-**-21.9**
-**-18.5**
-**-16.6**
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+**Other Acquisitions of Long-term Securities, net /5 -79.1 -277.5 -277.5 -272.4 -36.5 -21.9 -18.5 -16.6**
 
 21
  
 **Net Foreign Acquisition of Long-term Securities**
- 
- 
- 
- 
- 
- 
- 
- 
 
- 
- 
- 
- 
- 
-(lines 19 and 20)**:**
-**196.1**
-**40.0**
-**40.0**
-**-16.9**
-**-62.7**
-**-18.6**
-**15.9**
-**-29.4**
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+(lines 19 and 20)**: 196.1 40.0 40.0 -16.9 -62.7 -18.6 15.9 -29.4**
 
 22
  
-**Increase in Foreign Holdings of Dollar-denominated Short-term**
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
-**U.S. Securities and Other Custody Liabilities: /6**
-**7.1**
-**71.0**
-**71.0**
-**35.2**
-**28.9**
-**-20.2**
-**1.7**
-**33.5**
+**Increase in Foreign Holdings of Dollar-denominated Short-term U.S. Securities and Other Custody Liabilities: /6 7.1 71.0 71.0 35.2 28.9 -20.2 1.7 33.5**
 
 23
  
  
-**U.S. Treasury Bills**
-**-13.9**
-**53.1**
-**53.1**
-**-54.8**
-**9.0**
-**-36.9**
-**0.2**
-**11.1**
+**U.S. Treasury Bills -13.9 53.1 53.1 -54.8 9.0 -36.9 0.2 11.1**
 
 24
  
@@ -591,30 +293,7 @@ Official, net
 26
  
  
-**Other Negotiable Instruments**
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
-**and Selected Other Liabilities: /7**
-**21.0**
-**17.9**
-**17.9**
-**89.9**
-**19.9**
-**16.6**
-**1.5**
-**22.4**
+**Other Negotiable Instruments and Selected Other Liabilities: /7 21.0 17.9 17.9 89.9 19.9 16.6 1.5 22.4**
 
 27
  
@@ -644,71 +323,12 @@ Official, net
 -2.7
 -2.6
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 29
  
-**Change in Banks' Own Net Dollar-denominated Liabilities**
-**73.2**
-**-177.1**
-**-177.1**
-**-60.9**
-**-122.0**
-**53.4**
-**12.6**
-**-46.8**
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+**Change in Banks' Own Net Dollar-denominated Liabilities 73.2 -177.1 -177.1 -60.9 -122.0 53.4 12.6 -46.8**
 
 30
-**Monthly Net TIC Flows** (lines 21,22,29) /8
-**276.5**
-**-66.1**
-**-66.1**
-**-42.6**
-**-155.8**
-**14.6**
-**30.2**
-**-42.8**
-
- 
- 
-**of which**
- 
- 
- 
- 
- 
- 
- 
- 
- 
+**Monthly Net TIC Flows** (lines 21,22,29) /8**276.5 -66.1 -66.1 -42.6 -155.8 14.6 30.2 -42.8 of which**
 
 31
  
@@ -736,71 +356,21 @@ Official, net
 -1.3
 14.3
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 /1
  
  
 Net foreign purchases of U.S. securities (+)
- 
- 
- 
- 
- 
- 
- 
- 
 
 /2
  
  
 Includes international and regional organizations
- 
- 
- 
- 
- 
- 
- 
- 
 
 /3
  
  
 The reported division of net purchases of long-term securities between net purchases by foreign official institutions and net purchases
 
- 
- 
- 
- 
 of other foreign investors is subject to a "transaction bias" described in Frequently Asked Questions 7 and 10.a.4 on the TIC website.
 
 /4
@@ -808,62 +378,19 @@ of other foreign investors is subject to a "transaction bias" described in Frequ
  
 Net transactions in foreign securities by U.S. residents. Foreign purchases of foreign securities = U.S. sales of foreign securities to foreigners.
 
- 
- 
- 
- 
 Thus negative entries indicate net U.S. purchases of foreign securities, or an outflow of capital from the United States; positive entries
 
- 
- 
- 
- 
 indicate net U.S. sales of foreign securities.
- 
- 
- 
- 
- 
- 
- 
- 
 
 /5
  
  
 Minus estimated unrecorded principal repayments to foreigners on domestic corporate and agency asset-backed securities +
- 
 
- 
- 
- 
- 
 estimated foreign acquisitions of U.S. equity through stock swaps -
- 
- 
- 
- 
- 
- 
- 
 
- 
- 
- 
- 
 estimated U.S. acquisitions of foreign equity through stock swaps +
- 
- 
- 
- 
- 
- 
- 
 
- 
- 
- 
- 
 increase in nonmarketable Treasury Bonds and Notes Issued to Official Institutions and Other Residents of Foreign Countries.
  
 
@@ -871,21 +398,8 @@ increase in nonmarketable Treasury Bonds and Notes Issued to Official Institutio
  
  
 These are primarily data on monthly changes in banks' and broker/dealers' custody liabilities. Data on custody claims are collected
- 
 
- 
- 
- 
- 
 quarterly and published in the TIC website.
- 
- 
- 
- 
- 
- 
- 
- 
 
 /7
  
@@ -898,20 +412,8 @@ quarterly and published in the TIC website.
  
 TIC data cover most components of international financial flows, but do not include data on direct investment flows, which are collected
 
- 
- 
- 
- 
 and published by the Department of Commerce's Bureau of Economic Analysis. In addition to the monthly data summarized here, the
 
- 
- 
- 
- 
 TIC collects quarterly data on some banking and nonbanking assets and liabilities. Frequently Asked Question 1 on the TIC website
 
- 
- 
- 
- 
 describes the scope of TIC data collection.
