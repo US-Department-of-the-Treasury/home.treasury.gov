@@ -1,6 +1,6 @@
 ---
 title: Advancing Equity Analysis in Tax Policy
-date: 2021-12-14
+date: 2021-12-14T14:03:37-05:00
 draft: false
 url: /news/featured-stories/advancing-equity-analysis-in-tax-policy
 ---

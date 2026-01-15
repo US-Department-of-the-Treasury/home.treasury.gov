@@ -1,6 +1,6 @@
 ---
 title: Rent, House Prices, and Demographics
-date: 2024-06-24
+date: 2024-06-24T06:00:00-04:00
 draft: false
 url: /news/featured-stories/rent-house-prices-and-demographics
 ---

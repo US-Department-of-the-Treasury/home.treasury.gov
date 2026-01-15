@@ -1,6 +1,6 @@
 ---
 title: Anchoring Clean Energy Manufacturing Investments in Coal Country and Beyond
-date: 2024-05-16
+date: 2024-05-16T15:46:13-04:00
 draft: false
 url: /news/featured-stories/anchoring-clean-energy-manufacturing-investments-in-coal-country-and-beyond
 ---

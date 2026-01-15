@@ -1,6 +1,6 @@
 ---
 title: Infrastructure Investment in the United States
-date: 2023-11-15
+date: 2023-11-15T05:00:00-05:00
 draft: false
 url: /news/featured-stories/infrastructure-investment-in-the-united-states
 ---

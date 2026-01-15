@@ -1,6 +1,6 @@
 ---
 title: Disparities in the Benefits of Tax Expenditures by Race and Ethnicity
-date: 2023-01-20
+date: 2023-01-20T09:00:00-05:00
 draft: false
 url: /news/featured-stories/disparities-in-the-benefits-of-tax-expenditures-by-race-and-ethnicity
 ---

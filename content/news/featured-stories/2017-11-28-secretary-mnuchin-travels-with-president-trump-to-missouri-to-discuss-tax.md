@@ -1,6 +1,6 @@
 ---
 title: Secretary Mnuchin Travels with President Trump to Missouri to Discuss Tax Reform
-date: 2017-11-28
+date: 2017-11-28T18:54:20-05:00
 draft: false
 url: /news/featured-stories/secretary-mnuchin-travels-with-president-trump-to-missouri-to-discuss-tax
 ---

@@ -1,6 +1,6 @@
 ---
 title: Treasury Targets Wide Range of Terrorists and Their Supporters Using Enhanced Counterterrorism Sanctions Authorities
-date: 2019-09-10
+date: 2019-09-10T12:59:23-04:00
 draft: false
 url: /news/featured-stories/treasury-targets-wide-range-of-terrorists-and-their-supporters-using-enhanced-counterterrorism-sanctions-authorities-0
 ---

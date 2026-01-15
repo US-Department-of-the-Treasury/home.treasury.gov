@@ -1,6 +1,6 @@
 ---
 title: Penny Production Cessation FAQs
-date: 2025-12-23
+date: 2025-12-23T16:15:00-05:00
 draft: false
 url: /news/featured-stories/penny-production-cessation-faqs
 ---

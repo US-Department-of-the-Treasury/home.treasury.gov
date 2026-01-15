@@ -1,6 +1,6 @@
 ---
 title: Treasury Encourages Taxpayers To Check Withholding Amount
-date: 2018-04-25
+date: 2018-04-25T11:30:00-04:00
 draft: false
 url: /news/featured-stories/treasury-encourages-taxpayers-to-check-withholding-amount
 ---

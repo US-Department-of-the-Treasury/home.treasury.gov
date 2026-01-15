@@ -1,6 +1,6 @@
 ---
 title: Treasury, IRS Launch New Withholding Calculator
-date: 2018-02-28
+date: 2018-02-28T15:30:00-05:00
 draft: false
 url: /news/featured-stories/irs-withholding-calculator
 ---

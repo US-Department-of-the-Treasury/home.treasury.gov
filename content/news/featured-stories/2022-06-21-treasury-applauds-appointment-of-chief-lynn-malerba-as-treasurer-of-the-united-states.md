@@ -1,6 +1,6 @@
 ---
 title: Treasury Applauds Appointment of Chief Lynn Malerba as Treasurer of the United States
-date: 2022-06-21
+date: 2022-06-21T12:27:27-04:00
 draft: false
 url: /news/featured-stories/treasury-applauds-appointment-of-chief-lynn-malerba-as-treasurer-of-the-united-states
 ---

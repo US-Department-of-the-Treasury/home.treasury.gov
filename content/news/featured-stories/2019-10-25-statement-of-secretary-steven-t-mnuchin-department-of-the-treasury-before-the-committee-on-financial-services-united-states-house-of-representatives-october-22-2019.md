@@ -1,6 +1,6 @@
 ---
 title: Statement of Secretary Steven T. Mnuchin Department of the Treasury Before the Committee on Financial Services United States House of Representatives October 22, 2019
-date: 2019-10-25
+date: 2019-10-25T10:14:41-04:00
 draft: false
 url: /news/featured-stories/statement-of-secretary-steven-t-mnuchin-department-of-the-treasury-before-the-committee-on-financial-services-united-states-house-of-representatives-october-22-2019
 ---

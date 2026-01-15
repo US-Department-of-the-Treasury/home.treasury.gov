@@ -1,6 +1,6 @@
 ---
 title: OFAC’s “Introduction to OFAC” Web Series
-date: 2023-07-28
+date: 2023-07-28T13:45:00-04:00
 draft: false
 url: /news/featured-stories/ofacs-introduction-to-ofac-web-series
 ---

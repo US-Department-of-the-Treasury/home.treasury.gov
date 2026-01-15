@@ -1,6 +1,6 @@
 ---
 title: Treasury and IRS Announce Families of Nearly 60 Million Children Receive $15 Billion in First Payments of Expanded and Newly Advanceable Child Tax Credit
-date: 2021-07-15
+date: 2021-07-15T09:00:00-04:00
 draft: false
 url: /news/press-releases/Treasury-and-IRS-Announce-Families-of-Nearly-60-Million-Children-Receive-$15-Billion-Dollars-in-First-Payments-of-Expanded-and-Newly-Advanceable-Child-Tax-Credit
 ---

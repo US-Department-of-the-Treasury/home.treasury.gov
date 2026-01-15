@@ -1,6 +1,6 @@
 ---
 title: United States Department of the Treasury Announces New Appointments
-date: 2025-02-08
+date: 2025-02-08T16:05:59-05:00
 draft: false
 url: /news/featured-stories/united-states-department-of-the-treasury-announces-new-appointments
 ---

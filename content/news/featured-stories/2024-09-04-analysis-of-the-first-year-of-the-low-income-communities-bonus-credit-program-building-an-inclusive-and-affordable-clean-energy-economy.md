@@ -1,6 +1,6 @@
 ---
 title: 'Analysis of the First Year of the Low-Income Communities Bonus Credit Program: Building an Inclusive and Affordable Clean Energy Economy'
-date: 2024-09-04
+date: 2024-09-04T11:00:00-04:00
 draft: false
 url: /news/featured-stories/analysis-of-the-first-year-of-the-low-income-communities-bonus-credit-program-building-an-inclusive-and-affordable-clean-energy-economy
 ---

@@ -1,6 +1,6 @@
 ---
 title: Treasury Sanctions Senior Al-Nusrah Front Leaders Concurrently with UN Designations
-date: 2017-02-23
+date: 2017-02-23T13:31:24-05:00
 draft: false
 url: /news/press-releases/treasury-sanctions-senior-al-nusrah-front-leaders-concurrently-with-un
 ---

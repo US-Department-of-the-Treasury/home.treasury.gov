@@ -1,6 +1,6 @@
 ---
 title: 'The Inflation Reduction Act: A Place-Based Analysis'
-date: 2023-11-29
+date: 2023-11-29T08:00:00-05:00
 draft: false
 url: /news/featured-stories/the-inflation-reduction-act-a-place-based-analysis
 ---

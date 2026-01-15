@@ -1,6 +1,6 @@
 ---
 title: The Case for a Robust Attack on the Tax Gap
-date: 2021-09-07
+date: 2021-09-07T09:30:00-04:00
 draft: false
 url: /news/featured-stories/the-case-for-a-robust-attack-on-the-tax-gap
 ---

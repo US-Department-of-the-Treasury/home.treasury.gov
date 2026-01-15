@@ -1,6 +1,6 @@
 ---
 title: Equitable Recovery in the United States
-date: 2023-10-23
+date: 2023-10-23T15:00:00-04:00
 draft: false
 url: /news/featured-stories/equitable-recovery-in-the-united-states
 ---

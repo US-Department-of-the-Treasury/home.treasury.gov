@@ -1,6 +1,6 @@
 ---
 title: WOMEN IN FINANCE SYMPOSIUM
-date: 2010-03-29
+date: 2010-03-29T08:00:00-04:00
 draft: false
 url: /news/press-releases/symposium-womeninfinance
 ---

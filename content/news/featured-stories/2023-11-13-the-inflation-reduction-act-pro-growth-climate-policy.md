@@ -1,6 +1,6 @@
 ---
 title: 'The Inflation Reduction Act: Pro-Growth Climate Policy'
-date: 2023-11-13
+date: 2023-11-13T15:00:00-05:00
 draft: false
 url: /news/featured-stories/the-inflation-reduction-act-pro-growth-climate-policy
 ---

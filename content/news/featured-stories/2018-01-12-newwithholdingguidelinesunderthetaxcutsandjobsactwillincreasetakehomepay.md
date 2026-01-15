@@ -1,6 +1,6 @@
 ---
 title: New Withholding Guidelines Under The Tax Cuts and Jobs Act Will Increase Take Home Pay
-date: 2018-01-12
+date: 2018-01-12T11:12:56-05:00
 draft: false
 url: /news/featured-stories/New Withholding Guidelines Under The Tax Cuts and Jobs Act Will Increase Take Home Pay
 ---

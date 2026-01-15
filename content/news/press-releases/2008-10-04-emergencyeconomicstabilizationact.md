@@ -1,6 +1,6 @@
 ---
 title: Emergency Economic Stabilization Act
-date: 2008-10-04
+date: 2008-10-04T08:00:00-04:00
 draft: false
 url: /news/press-releases/emergencyeconomicstabilizationact
 ---

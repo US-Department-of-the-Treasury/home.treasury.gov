@@ -1,6 +1,6 @@
 ---
 title: Under Secretary Mandelker Remarks at the 19th Annual International Conference on Counterterrorism
-date: 2019-09-11
+date: 2019-09-11T12:05:37-04:00
 draft: false
 url: /news/featured-stories/under-secretary-mandelker-remarks-at-the-19th-annual-international-conference-on-counterterrorism-0
 ---

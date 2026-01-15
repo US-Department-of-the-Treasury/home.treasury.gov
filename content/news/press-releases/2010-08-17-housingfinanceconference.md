@@ -1,6 +1,6 @@
 ---
 title: Conference on the Future of Housing Finance
-date: 2010-08-17
+date: 2010-08-17T08:00:00-04:00
 draft: false
 url: /news/press-releases/housingfinanceconference
 ---

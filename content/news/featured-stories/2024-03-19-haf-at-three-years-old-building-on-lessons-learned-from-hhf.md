@@ -1,6 +1,6 @@
 ---
 title: 'HAF at Three-Years Old:  Building on Lessons Learned from HHF'
-date: 2024-03-19
+date: 2024-03-19T08:00:00-04:00
 draft: false
 url: /news/featured-stories/haf-at-three-years-old-building-on-lessons-learned-from-hhf
 ---

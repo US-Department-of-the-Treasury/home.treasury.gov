@@ -1,6 +1,6 @@
 ---
 title: Update on Treasury’s Approach to Equitable Community Finance
-date: 2024-01-16
+date: 2024-01-16T12:00:00-05:00
 draft: false
 url: /news/featured-stories/update-on-treasurys-approach-to-equitable-community-finance
 ---

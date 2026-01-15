@@ -1,6 +1,6 @@
 ---
 title: Combating Human Trafficking
-date: 2020-01-29
+date: 2020-01-29T14:00:00-05:00
 draft: false
 url: /news/featured-stories/combating-human-trafficking
 ---

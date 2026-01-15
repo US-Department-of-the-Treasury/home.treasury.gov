@@ -1,6 +1,6 @@
 ---
 title: How State and Local Fiscal Recovery Funds Are Being Used to Boost Public Sector Capacity
-date: 2023-05-10
+date: 2023-05-10T16:36:58-04:00
 draft: false
 url: /news/featured-stories/how-state-and-local-fiscal-recovery-funds-are-being-used-to-boost-public-sector-capacity
 ---

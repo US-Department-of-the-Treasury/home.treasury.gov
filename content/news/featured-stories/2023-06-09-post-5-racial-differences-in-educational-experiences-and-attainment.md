@@ -1,6 +1,6 @@
 ---
 title: 'Post 5: Racial Differences in Educational Experiences and Attainment'
-date: 2023-06-09
+date: 2023-06-09T14:08:13-04:00
 draft: false
 url: /news/featured-stories/post-5-racial-differences-in-educational-experiences-and-attainment
 ---

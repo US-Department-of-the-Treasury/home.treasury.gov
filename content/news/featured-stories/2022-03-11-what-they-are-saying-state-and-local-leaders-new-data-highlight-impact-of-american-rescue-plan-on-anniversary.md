@@ -1,6 +1,6 @@
 ---
 title: 'WHAT THEY ARE SAYING: State and Local Leaders, New Data Highlight Impact of American Rescue Plan on Anniversary '
-date: 2022-03-11
+date: 2022-03-11T11:54:23-05:00
 draft: false
 url: /news/featured-stories/what-they-are-saying-state-and-local-leaders-new-data-highlight-impact-of-american-rescue-plan-on-anniversary
 ---

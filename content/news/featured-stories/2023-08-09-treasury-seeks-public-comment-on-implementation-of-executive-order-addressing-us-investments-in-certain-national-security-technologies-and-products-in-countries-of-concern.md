@@ -1,6 +1,6 @@
 ---
 title: Treasury Seeks Public Comment on Implementation of Executive Order Addressing U.S. Investments in Certain National Security Technologies and Products in Countries of Concern
-date: 2023-08-09
+date: 2023-08-09T20:30:00-04:00
 draft: false
 url: /news/featured-stories/treasury-seeks-public-comment-on-implementation-of-executive-order-addressing-us-investments-in-certain-national-security-technologies-and-products-in-countries-of-concern
 ---

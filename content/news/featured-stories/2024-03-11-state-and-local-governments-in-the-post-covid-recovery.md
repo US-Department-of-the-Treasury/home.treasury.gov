@@ -1,6 +1,6 @@
 ---
 title: State and Local Governments in the Post-COVID Recovery
-date: 2024-03-11
+date: 2024-03-11T09:45:00-04:00
 draft: false
 url: /news/featured-stories/state-and-local-governments-in-the-post-covid-recovery
 ---

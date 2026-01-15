@@ -1,6 +1,6 @@
 ---
 title: Exploring Title Insurance, Consumer Protection, and Opportunities for Potential Reforms
-date: 2024-12-23
+date: 2024-12-23T15:00:00-05:00
 draft: false
 url: /news/featured-stories/exploring-title-insurance-consumer-protection-and-opportunities-for-potential-reforms
 ---

@@ -1,6 +1,6 @@
 ---
 title: Understanding the Child Tax Credit
-date: 2021-06-21
+date: 2021-06-21T16:33:12-04:00
 draft: false
 url: /news/featured-stories/understanding-the-child-tax-credit
 ---

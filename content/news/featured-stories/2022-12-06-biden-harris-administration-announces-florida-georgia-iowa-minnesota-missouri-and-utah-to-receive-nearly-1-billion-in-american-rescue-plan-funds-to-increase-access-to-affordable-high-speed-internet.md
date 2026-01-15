@@ -1,6 +1,6 @@
 ---
 title: Biden-Harris Administration Announces Florida, Georgia, Iowa, Minnesota, Missouri and Utah to Receive Nearly $1 Billion in American Rescue Plan Funds to Increase Access to Affordable, High-Speed Internet
-date: 2022-12-06
+date: 2022-12-06T11:56:07-05:00
 draft: false
 url: /news/featured-stories/biden-harris-administration-announces-florida-georgia-iowa-minnesota-missouri-and-utah-to-receive-nearly-1-billion-in-american-rescue-plan-funds-to-increase-access-to-affordable-high-speed-internet
 ---

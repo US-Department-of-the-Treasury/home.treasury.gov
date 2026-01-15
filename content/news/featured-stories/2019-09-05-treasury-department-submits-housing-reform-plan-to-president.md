@@ -1,6 +1,6 @@
 ---
 title: Treasury Department Submits Housing Reform Plan to President
-date: 2019-09-05
+date: 2019-09-05T17:00:19-04:00
 draft: false
 url: /news/featured-stories/treasury-department-submits-housing-reform-plan-to-president
 ---

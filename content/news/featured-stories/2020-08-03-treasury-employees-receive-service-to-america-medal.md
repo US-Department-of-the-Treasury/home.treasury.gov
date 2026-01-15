@@ -1,6 +1,6 @@
 ---
 title: Treasury Employees Receive Service to America Medal
-date: 2020-08-03
+date: 2020-08-03T13:24:30-04:00
 draft: false
 url: /news/featured-stories/treasury-employees-receive-service-to-america-medal
 ---

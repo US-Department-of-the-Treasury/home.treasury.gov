@@ -1,6 +1,6 @@
 ---
 title: 'Emergency Rental Assistance: Supporting Renting Families, Driving Lasting Reform'
-date: 2023-03-22
+date: 2023-03-22T09:10:00-04:00
 draft: false
 url: /news/featured-stories/emergency-rental-assistance-supporting-renting-families-driving-lasting-reform
 ---

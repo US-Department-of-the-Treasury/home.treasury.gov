@@ -1,6 +1,6 @@
 ---
 title: After just three months, the Inflation Reduction Act (IRA) has saved Americans an estimated $600 million on clean vehicle purchases at the time of sale.
-date: 2024-05-03
+date: 2024-05-03T13:45:21-04:00
 draft: false
 url: /news/featured-stories/after-just-three-months-the-inflation-reduction-act-ira-has-saved-americans-an-estimated-600-million-on-clean-vehicle-purchases-at-the-time-of-sale
 ---

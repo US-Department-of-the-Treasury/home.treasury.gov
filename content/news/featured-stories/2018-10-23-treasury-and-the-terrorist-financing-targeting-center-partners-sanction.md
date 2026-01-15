@@ -1,6 +1,6 @@
 ---
 title: Treasury and the Terrorist Financing Targeting Center Partners Sanction Taliban Facilitators and their Iranian Supporters
-date: 2018-10-23
+date: 2018-10-23T12:20:13-04:00
 draft: false
 url: /news/featured-stories/treasury-and-the-terrorist-financing-targeting-center-partners-sanction
 ---

@@ -1,0 +1,61 @@
+{
+  "datePresets": [
+    {"id": "7d", "label": "Last 7 days", "days": 7},
+    {"id": "30d", "label": "Last 30 days", "days": 30},
+    {"id": "90d", "label": "Last 90 days", "days": 90},
+    {"id": "ytd", "label": "This year", "days": null, "type": "ytd"},
+    {"id": "lastyear", "label": "Last year", "days": null, "type": "lastyear"},
+    {"id": "custom", "label": "Custom range", "days": null, "type": "custom"}
+  ],
+  "presidents": [
+    {"id": "trump2", "label": "Trump II", "start": "2025-01-20", "end": "2029-01-20"},
+    {"id": "biden", "label": "Biden", "start": "2021-01-20", "end": "2025-01-20"},
+    {"id": "trump1", "label": "Trump I", "start": "2017-01-20", "end": "2021-01-20"},
+    {"id": "obama", "label": "Obama", "start": "2009-01-20", "end": "2017-01-20"},
+    {"id": "bush", "label": "Bush", "start": "2001-01-20", "end": "2009-01-20"},
+    {"id": "clinton", "label": "Clinton", "start": "1993-01-20", "end": "2001-01-20"}
+  ],
+  "secretaries": [
+    {"id": "bessent", "label": "Scott Bessent", "start": "2025-01-28", "end": "2029-01-20"},
+    {"id": "yellen", "label": "Janet Yellen", "start": "2021-01-26", "end": "2025-01-28"},
+    {"id": "mnuchin", "label": "Steven Mnuchin", "start": "2017-02-13", "end": "2021-01-20"},
+    {"id": "lew", "label": "Jack Lew", "start": "2013-02-28", "end": "2017-01-20"},
+    {"id": "geithner", "label": "Timothy Geithner", "start": "2009-01-26", "end": "2013-01-25"},
+    {"id": "paulson", "label": "Henry Paulson", "start": "2006-07-10", "end": "2009-01-20"},
+    {"id": "snow", "label": "John Snow", "start": "2003-02-03", "end": "2006-06-30"},
+    {"id": "oneill", "label": "Paul O'Neill", "start": "2001-01-20", "end": "2002-12-31"},
+    {"id": "summers", "label": "Lawrence Summers", "start": "1999-07-02", "end": "2001-01-20"},
+    {"id": "rubin", "label": "Robert Rubin", "start": "1995-01-11", "end": "1999-07-02"}
+  ],
+  "topics": [
+    {"id": "sanctions", "label": "Sanctions & Designations"},
+    {"id": "tax", "label": "Tax Policy"},
+    {"id": "fincrime", "label": "Financial Crimes"},
+    {"id": "international", "label": "International Affairs"},
+    {"id": "debt", "label": "Debt & Fiscal"},
+    {"id": "climate", "label": "Climate & Clean Energy"},
+    {"id": "covid", "label": "COVID-19 Relief"}
+  ],
+  "offices": [
+    {"id": "ofac", "label": "OFAC (Office of Foreign Assets Control)"},
+    {"id": "fincen", "label": "FinCEN (Financial Crimes Enforcement Network)"},
+    {"id": "occ", "label": "OCC (Office of the Comptroller of the Currency)"},
+    {"id": "irs", "label": "IRS (Internal Revenue Service)"},
+    {"id": "tfi", "label": "TFI (Terrorism & Financial Intelligence)"},
+    {"id": "domestic-finance", "label": "Domestic Finance"},
+    {"id": "international-affairs", "label": "International Affairs"},
+    {"id": "fiscal-service", "label": "Bureau of the Fiscal Service"}
+  ],
+  "countries": [
+    {"id": "russia", "label": "Russia"},
+    {"id": "china", "label": "China"},
+    {"id": "iran", "label": "Iran"},
+    {"id": "northkorea", "label": "North Korea"},
+    {"id": "ukraine", "label": "Ukraine"},
+    {"id": "venezuela", "label": "Venezuela"},
+    {"id": "syria", "label": "Syria"},
+    {"id": "cuba", "label": "Cuba"},
+    {"id": "myanmar", "label": "Myanmar"},
+    {"id": "afghanistan", "label": "Afghanistan"}
+  ]
+}

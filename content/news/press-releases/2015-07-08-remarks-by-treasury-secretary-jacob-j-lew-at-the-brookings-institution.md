@@ -1,6 +1,6 @@
 ---
 title: Remarks by Treasury Secretary Jacob J. Lew at The Brookings Institution
-date: 2015-07-08
+date: 2015-07-08T08:00:00-04:00
 draft: false
 url: /news/press-releases/Remarks-by-Treasury-Secretary-Jacob-J.-Lew-at-The-Brookings-Institution
 ---

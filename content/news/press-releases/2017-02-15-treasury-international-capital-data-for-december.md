@@ -1,6 +1,6 @@
 ---
 title: Treasury International Capital Data For December
-date: 2017-02-15
+date: 2017-02-15T08:06:31-05:00
 draft: false
 url: /news/press-releases/treasury-international-capital-data-for-december
 ---

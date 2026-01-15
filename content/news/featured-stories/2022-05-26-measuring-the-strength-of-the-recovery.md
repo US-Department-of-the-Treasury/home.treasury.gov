@@ -1,6 +1,6 @@
 ---
 title: Measuring the Strength of the Recovery
-date: 2022-05-26
+date: 2022-05-26T14:24:23-04:00
 draft: false
 url: /news/featured-stories/measuring-the-strength-of-the-recovery
 ---

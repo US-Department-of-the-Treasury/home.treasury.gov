@@ -1,6 +1,6 @@
 ---
 title: A Financial System That Creates Economic Opportunities - Asset Management and Insurance
-date: 2017-11-06
+date: 2017-11-06T14:27:14-05:00
 draft: false
 url: /news/featured-stories/a-financial-system-that-creates-economic-opportunities-asset-management-and
 ---

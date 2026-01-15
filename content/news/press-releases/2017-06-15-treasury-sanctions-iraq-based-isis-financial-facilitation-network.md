@@ -1,6 +1,6 @@
 ---
 title: Treasury Sanctions Iraq-Based ISIS Financial Facilitation Network
-date: 2017-06-15
+date: 2017-06-15T09:26:48-04:00
 draft: false
 url: /news/press-releases/treasury-sanctions-iraq-based-isis-financial-facilitation-network
 ---

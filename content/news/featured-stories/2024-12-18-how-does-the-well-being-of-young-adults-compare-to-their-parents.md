@@ -1,6 +1,6 @@
 ---
 title: How does the Well-Being of Young Adults Compare to Their Parents’?
-date: 2024-12-18
+date: 2024-12-18T06:00:00-05:00
 draft: false
 url: /news/featured-stories/how-does-the-well-being-of-young-adults-compare-to-their-parents
 ---

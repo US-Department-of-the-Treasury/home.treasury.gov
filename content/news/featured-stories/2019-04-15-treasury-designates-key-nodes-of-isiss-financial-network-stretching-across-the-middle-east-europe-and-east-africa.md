@@ -1,6 +1,6 @@
 ---
 title: Treasury Designates Key Nodes of ISIS’s Financial Network Stretching Across the Middle East, Europe, and East Africa
-date: 2019-04-15
+date: 2019-04-15T13:03:37-04:00
 draft: false
 url: /news/featured-stories/treasury-designates-key-nodes-of-isiss-financial-network-stretching-across-the-middle-east-europe-and-east-africa
 ---

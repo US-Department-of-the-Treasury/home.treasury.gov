@@ -1,6 +1,6 @@
 ---
 title: At Low Income Housing Forum, Deputy Secretary Adeyemo Announces Nearly 10.8 Million Emergency Rental Assistance Program Payments to Families at Risk of Eviction
-date: 2023-03-22
+date: 2023-03-22T09:59:37-04:00
 draft: false
 url: /news/featured-stories/at-low-income-housing-forum-deputy-secretary-adeyemo-announces-nearly-108-million-emergency-rental-assistance-program-payments-to-families-at-risk-of-eviction
 ---

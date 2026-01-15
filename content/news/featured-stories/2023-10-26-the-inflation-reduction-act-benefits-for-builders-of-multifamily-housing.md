@@ -1,6 +1,6 @@
 ---
 title: 'The Inflation Reduction Act: Benefits for Builders of Multifamily Housing'
-date: 2023-10-26
+date: 2023-10-26T17:21:00-04:00
 draft: false
 url: /news/featured-stories/the-inflation-reduction-act-benefits-for-builders-of-multifamily-housing
 ---

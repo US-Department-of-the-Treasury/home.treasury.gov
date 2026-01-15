@@ -1,6 +1,6 @@
 ---
 title: QUARTERLY REFUNDING STATEMENT OF ACTING ASSISTANT SECRETARY FOR FINANCIAL MARKETS DALEEP SINGH
-date: 2016-05-04
+date: 2016-05-04T08:00:00-04:00
 draft: false
 url: /news/press-releases/jl0534_PolicyPressRelease
 ---

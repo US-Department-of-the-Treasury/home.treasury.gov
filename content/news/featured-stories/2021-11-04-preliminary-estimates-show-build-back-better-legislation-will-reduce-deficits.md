@@ -1,6 +1,6 @@
 ---
 title: Preliminary Estimates Show Build Back Better Legislation Will Reduce Deficits
-date: 2021-11-04
+date: 2021-11-04T11:32:58-04:00
 draft: false
 url: /news/featured-stories/preliminary-estimates-show-build-back-better-legislation-will-reduce-deficits
 ---

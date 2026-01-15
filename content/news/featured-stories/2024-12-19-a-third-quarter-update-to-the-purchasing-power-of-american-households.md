@@ -1,6 +1,6 @@
 ---
 title: A Third Quarter Update to “The Purchasing Power of American Households”
-date: 2024-12-19
+date: 2024-12-19T10:00:00-05:00
 draft: false
 url: /news/featured-stories/a-third-quarter-update-to-the-purchasing-power-of-american-households
 ---

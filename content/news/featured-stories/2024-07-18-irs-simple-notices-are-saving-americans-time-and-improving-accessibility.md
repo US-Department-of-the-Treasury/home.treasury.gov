@@ -1,6 +1,6 @@
 ---
 title: IRS Simple Notices are saving Americans time and improving accessibility
-date: 2024-07-18
+date: 2024-07-18T12:00:00-04:00
 draft: false
 url: /news/featured-stories/irs-simple-notices-are-saving-americans-time-and-improving-accessibility
 ---

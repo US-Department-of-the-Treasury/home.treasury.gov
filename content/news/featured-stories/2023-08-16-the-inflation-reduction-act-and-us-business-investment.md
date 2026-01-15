@@ -1,6 +1,6 @@
 ---
 title: The Inflation Reduction Act and U.S. Business Investment
-date: 2023-08-16
+date: 2023-08-16T11:00:00-04:00
 draft: false
 url: /news/featured-stories/the-inflation-reduction-act-and-us-business-investment
 ---

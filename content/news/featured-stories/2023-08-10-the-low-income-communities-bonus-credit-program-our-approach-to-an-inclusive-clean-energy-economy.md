@@ -1,6 +1,6 @@
 ---
 title: 'The Low-Income Communities Bonus Credit Program: Our Approach to an Inclusive Clean Energy Economy'
-date: 2023-08-10
+date: 2023-08-10T09:45:00-04:00
 draft: false
 url: /news/featured-stories/the-low-income-communities-bonus-credit-program-our-approach-to-an-inclusive-clean-energy-economy
 ---

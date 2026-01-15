@@ -1,6 +1,6 @@
 ---
 title: Secretary Mnuchin Leads Trip to the Middle East and India
-date: 2019-10-25
+date: 2019-10-25T10:08:50-04:00
 draft: false
 url: /news/featured-stories/secretary-mnuchin-leads-trip-to-the-middle-east-and-india
 ---

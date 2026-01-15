@@ -1,6 +1,6 @@
 ---
 title: Treasury Announces Largest North Korean Sanctions Package Targeting 56 Shipping and Trading Companies and Vessels to Further Isolate Rogue Regime
-date: 2018-02-23
+date: 2018-02-23T11:56:56-05:00
 draft: false
 url: /news/featured-stories/treasury-announces-largest-north-korean-sanctions-package-targeting-56
 ---

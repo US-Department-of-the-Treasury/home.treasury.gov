@@ -1,6 +1,6 @@
 ---
 title: 'SAVE THE DATE: U.S.-EU Trade and Technology Council – 2022 Outreach to Stakeholders on Investment Screening'
-date: 2022-12-06
+date: 2022-12-06T10:27:20-05:00
 draft: false
 url: /news/featured-stories/save-the-date-us-eu-trade-and-technology-council-2022-outreach-to-stakeholders-on-investment-screening
 ---

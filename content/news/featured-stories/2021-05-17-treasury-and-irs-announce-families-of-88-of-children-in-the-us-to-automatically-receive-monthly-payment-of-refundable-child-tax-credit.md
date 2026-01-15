@@ -1,6 +1,6 @@
 ---
 title: 'Treasury and IRS Announce Families of 88% of Children in the U.S. to Automatically Receive Monthly Payment of Refundable Child Tax Credit'
-date: 2021-05-17
+date: 2021-05-17T15:53:15-04:00
 draft: false
 url: /news/featured-stories/treasury-and-irs-announce-families-of-88-of-children-in-the-us-to-automatically-receive-monthly-payment-of-refundable-child-tax-credit
 ---

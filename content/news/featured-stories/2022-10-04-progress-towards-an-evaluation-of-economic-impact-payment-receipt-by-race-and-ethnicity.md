@@ -1,6 +1,6 @@
 ---
 title: Progress Towards an Evaluation of Economic Impact Payment Receipt by Race and Ethnicity
-date: 2022-10-04
+date: 2022-10-04T17:42:58-04:00
 draft: false
 url: /news/featured-stories/progress-towards-an-evaluation-of-economic-impact-payment-receipt-by-race-and-ethnicity
 ---

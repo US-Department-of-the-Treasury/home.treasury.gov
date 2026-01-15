@@ -1,6 +1,6 @@
 ---
 title: The Inflation Reduction Act’s Benefits and Costs
-date: 2024-03-01
+date: 2024-03-01T05:00:00-05:00
 draft: false
 url: /news/featured-stories/the-inflation-reduction-acts-benefits-and-costs
 ---

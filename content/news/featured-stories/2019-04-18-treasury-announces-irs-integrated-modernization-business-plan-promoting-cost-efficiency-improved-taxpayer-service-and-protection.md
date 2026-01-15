@@ -1,6 +1,6 @@
 ---
 title: Treasury Announces IRS Integrated Modernization Business Plan Promoting Cost Efficiency, Improved Taxpayer Service and Protection
-date: 2019-04-18
+date: 2019-04-18T13:01:22-04:00
 draft: false
 url: /news/featured-stories/treasury-announces-irs-integrated-modernization-business-plan-promoting-cost-efficiency-improved-taxpayer-service-and-protection
 ---

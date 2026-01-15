@@ -1,6 +1,6 @@
 ---
 title: Student Loans
-date: 2004-09-01
+date: 2004-09-01T08:00:00-04:00
 draft: false
 url: /news/press-releases/221releasestudentloans
 ---

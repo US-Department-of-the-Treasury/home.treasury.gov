@@ -1,6 +1,6 @@
 ---
 title: 'ICYMI: In 2022, American Rescue Plan Funding Helped States & Communities Recover'
-date: 2023-01-03
+date: 2023-01-03T16:33:36-05:00
 draft: false
 url: /news/featured-stories/icymi-in-2022-american-rescue-plan-funding-helped-states-communities-recover
 ---

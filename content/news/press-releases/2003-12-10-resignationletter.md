@@ -1,6 +1,6 @@
 ---
 title: resignation.letter
-date: 2003-12-10
+date: 2003-12-10T07:00:00-05:00
 draft: false
 url: /news/press-releases/resignation.letter
 ---

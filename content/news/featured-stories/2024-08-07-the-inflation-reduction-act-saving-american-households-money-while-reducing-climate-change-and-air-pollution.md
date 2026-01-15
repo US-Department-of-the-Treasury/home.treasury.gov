@@ -1,6 +1,6 @@
 ---
 title: 'The Inflation Reduction Act: Saving American Households Money While Reducing Climate Change and Air Pollution'
-date: 2024-08-07
+date: 2024-08-07T08:01:06-04:00
 draft: false
 url: /news/featured-stories/the-inflation-reduction-act-saving-american-households-money-while-reducing-climate-change-and-air-pollution
 ---

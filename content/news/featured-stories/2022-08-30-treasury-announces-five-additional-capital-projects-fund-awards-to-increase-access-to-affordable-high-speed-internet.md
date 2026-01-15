@@ -1,6 +1,6 @@
 ---
 title: Treasury Announces Five Additional Capital Projects Fund Awards to Increase Access to Affordable, High-Speed Internet
-date: 2022-08-30
+date: 2022-08-30T10:00:00-04:00
 draft: false
 url: /news/featured-stories/treasury-announces-five-additional-capital-projects-fund-awards-to-increase-access-to-affordable-high-speed-internet
 ---

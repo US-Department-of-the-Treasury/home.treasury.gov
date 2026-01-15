@@ -1,6 +1,6 @@
 ---
 title: 'Tax Cuts and Jobs Act: Delivering for Businesses, for Families, and for You'
-date: 2019-12-10
+date: 2019-12-10T13:15:00-05:00
 draft: false
 url: /news/featured-stories/tax-cuts-and-jobs-act-delivering-for-businesses-for-families-and-for-you
 ---

@@ -1,6 +1,6 @@
 ---
 title: Secretary Steven T. Mnuchin’s First 1,000 Days in Office
-date: 2019-11-19
+date: 2019-11-19T11:24:36-05:00
 draft: false
 url: /news/featured-stories/secretary-steven-t-mnuchins-first-1000-days-in-office
 ---

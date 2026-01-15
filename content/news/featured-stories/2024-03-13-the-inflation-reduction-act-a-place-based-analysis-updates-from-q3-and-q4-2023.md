@@ -1,6 +1,6 @@
 ---
 title: 'The Inflation Reduction Act: A Place-Based Analysis, Updates from Q3 and Q4 2023'
-date: 2024-03-13
+date: 2024-03-13T06:30:00-04:00
 draft: false
 url: /news/featured-stories/the-inflation-reduction-act-a-place-based-analysis-updates-from-q3-and-q4-2023
 ---

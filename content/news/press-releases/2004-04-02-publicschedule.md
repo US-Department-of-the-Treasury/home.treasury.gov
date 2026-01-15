@@ -1,6 +1,6 @@
 ---
 title: Public Schedule FOR THE WEEK OF APRIL 2 - APRIL 9
-date: 2004-04-02
+date: 2004-04-02T07:00:00-05:00
 draft: false
 url: /news/press-releases/publicschedule
 ---

@@ -1,6 +1,6 @@
 ---
 title: Minutes of the Meeting of the Treasury Borrowing Advisory Committee of the Securities Industry and Financial Markets Association May 3rd
-date: 2016-05-04
+date: 2016-05-04T08:00:00-04:00
 draft: false
 url: /news/press-releases/jl0534_TBACMinutesPressRelease
 ---

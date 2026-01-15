@@ -1,6 +1,6 @@
 ---
 title: 'Racial Differences in Economic Security: The Racial Wealth Gap'
-date: 2022-09-15
+date: 2022-09-15T14:41:29-04:00
 draft: false
 url: /news/featured-stories/racial-differences-economic-security-racial-wealth-gap
 ---

@@ -1,6 +1,6 @@
 ---
 title: How Financial Reporting Helps American Workers and Ensures that Top Earners Pay Their Fair Share
-date: 2021-10-14
+date: 2021-10-14T08:51:16-04:00
 draft: false
 url: /news/featured-stories/how-financial-reporting-helps-american-workers-and-ensures-that-top-earners-pay-their-fair-share
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'WHAT THEY ARE SAYING:  New Analyses Highlight American Rescue Plan’s Historic Investments in Economic Growth'
-date: 2023-03-17
+date: 2023-03-17T09:00:00-04:00
 draft: false
 url: /news/featured-stories/what-they-are-saying-new-analyses-highlight-american-rescue-plans-historic-investments-in-economic-growth
 ---

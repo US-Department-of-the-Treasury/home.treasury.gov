@@ -4,6 +4,13 @@
   <nav class="news-nav" aria-label="News categories">
     {{ $currentPath := .RelPermalink }}
     
+    {{/* All News - special aggregated view */}}
+    <ul class="news-nav-list news-nav-all">
+      <li class="{{ if eq $currentPath "/news/all/" }}active{{ end }}">
+        <a href="/news/all/">All News</a>
+      </li>
+    </ul>
+    
     {{/* Primary news categories */}}
     <ul class="news-nav-list news-nav-primary">
       <li class="{{ if in $currentPath "press-releases" }}active{{ end }}">

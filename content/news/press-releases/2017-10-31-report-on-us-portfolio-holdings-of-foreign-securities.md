@@ -1,6 +1,6 @@
 ---
 title: Report On U.S. Portfolio Holdings Of Foreign Securities
-date: 2017-10-31
+date: 2017-10-31T16:00:00-04:00
 draft: false
 url: /news/press-releases/report-on-us-portfolio-holdings-of-foreign-securities
 ---

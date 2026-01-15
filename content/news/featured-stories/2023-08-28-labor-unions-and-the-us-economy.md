@@ -1,6 +1,6 @@
 ---
 title: Labor Unions and the U.S. Economy
-date: 2023-08-28
+date: 2023-08-28T15:22:19-04:00
 draft: false
 url: /news/featured-stories/labor-unions-and-the-us-economy
 ---

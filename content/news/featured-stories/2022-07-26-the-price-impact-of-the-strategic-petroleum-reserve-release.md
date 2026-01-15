@@ -1,6 +1,6 @@
 ---
 title: The Price Impact of the Strategic Petroleum Reserve Release
-date: 2022-07-26
+date: 2022-07-26T11:07:08-04:00
 draft: false
 url: /news/featured-stories/the-price-impact-of-the-strategic-petroleum-reserve-release
 ---

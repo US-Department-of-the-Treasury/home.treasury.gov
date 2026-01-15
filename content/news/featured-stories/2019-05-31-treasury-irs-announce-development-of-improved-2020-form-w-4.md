@@ -1,6 +1,6 @@
 ---
 title: Treasury, IRS Announce Development of Improved 2020 Form W-4
-date: 2019-05-31
+date: 2019-05-31T14:18:51-04:00
 draft: false
 url: /news/featured-stories/treasury-irs-announce-development-of-improved-2020-form-w-4
 ---

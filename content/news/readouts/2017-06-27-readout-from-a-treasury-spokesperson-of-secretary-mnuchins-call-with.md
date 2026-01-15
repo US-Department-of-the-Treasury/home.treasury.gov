@@ -1,6 +1,6 @@
 ---
 title: Readout from a Treasury Spokesperson of Secretary Mnuchin’s Call with International Monetary Fund Managing Director Christine Lagarde
-date: 2017-06-27
+date: 2017-06-27T09:32:48-04:00
 draft: false
 url: /news/press-releases/readout-from-a-treasury-spokesperson-of-secretary-mnuchins-call-with
 ---

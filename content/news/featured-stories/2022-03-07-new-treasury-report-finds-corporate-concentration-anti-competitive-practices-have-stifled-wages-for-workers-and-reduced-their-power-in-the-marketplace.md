@@ -1,6 +1,6 @@
 ---
 title: New Treasury Report Finds Corporate Concentration, Anti-competitive Practices Have Stifled Wages for Workers and Reduced their Power in the Marketplace
-date: 2022-03-07
+date: 2022-03-07T12:00:00-05:00
 draft: false
 url: /news/featured-stories/new-treasury-report-finds-corporate-concentration-anti-competitive-practices-have-stifled-wages-for-workers-and-reduced-their-power-in-the-marketplace
 ---

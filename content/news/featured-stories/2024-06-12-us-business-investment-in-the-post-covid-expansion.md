@@ -1,6 +1,6 @@
 ---
 title: U.S. Business Investment in the Post-COVID Expansion
-date: 2024-06-12
+date: 2024-06-12T08:30:00-04:00
 draft: false
 url: /news/featured-stories/us-business-investment-in-the-post-covid-expansion
 ---

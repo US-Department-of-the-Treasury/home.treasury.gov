@@ -1,3 +1,9 @@
+{{ define "head" }}
+{{- $searchCss := resources.Get "css/search.css" }}
+{{- $searchCss = $searchCss | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $searchCss.RelPermalink }}">
+{{ end }}
+
 {{ define "main" }}
 {{/* Redirect /news/ to /news/press-releases/ */}}
 {{ if eq .RelPermalink "/news/" }}
@@ -52,17 +58,19 @@
         <div class="news-article-list">
           {{ range $paginator.Pages }}
           <article class="news-article-item">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-            {{/* Display category tags */}}
-            {{ if .Params.category }}
-            <span class="article-category"><a href="/news/{{ .Params.category | urlize }}/">{{ .Params.category }}</a></span>
-            {{ else }}
-              {{ with .Params.categories }}
-                {{ with index . 0 }}
-                <span class="article-category"><a href="/news/{{ . | urlize }}/">{{ . }}</a></span>
-                {{ end }}
+            <div class="article-meta">
+              {{/* Date and time display */}}
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05-05:00" }}">
+                {{ .Date.Format "January 2, 2006" }} at {{ .Date.Format "3:04 PM" }} EST
+              </time>
+              {{/* Category from section path */}}
+              {{ $section := .CurrentSection.Title }}
+              {{ $sectionPath := path.Base .CurrentSection.RelPermalink }}
+              {{ if and $section (ne $section "News") }}
+              <span class="article-category-divider">|</span>
+              <span class="article-category"><a href="/news/{{ $sectionPath }}/">{{ $section }}</a></span>
               {{ end }}
-            {{ end }}
+            </div>
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
           </article>
           {{ end }}

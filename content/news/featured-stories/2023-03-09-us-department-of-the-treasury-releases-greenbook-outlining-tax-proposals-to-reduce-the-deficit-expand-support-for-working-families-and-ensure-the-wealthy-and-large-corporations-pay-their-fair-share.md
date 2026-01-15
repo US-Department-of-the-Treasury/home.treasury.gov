@@ -1,6 +1,6 @@
 ---
 title: U.S. Department of the Treasury Releases Greenbook, Outlining Tax Proposals to Reduce the Deficit, Expand Support for Working Families, and Ensure the Wealthy and Large Corporations Pay their Fair Share
-date: 2023-03-09
+date: 2023-03-09T15:01:17-05:00
 draft: false
 url: /news/featured-stories/us-department-of-the-treasury-releases-greenbook-outlining-tax-proposals-to-reduce-the-deficit-expand-support-for-working-families-and-ensure-the-wealthy-and-large-corporations-pay-their-fair-share
 ---

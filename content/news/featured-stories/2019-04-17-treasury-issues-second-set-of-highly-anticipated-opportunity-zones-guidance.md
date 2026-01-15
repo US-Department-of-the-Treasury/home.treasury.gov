@@ -1,6 +1,6 @@
 ---
 title: Treasury Issues Second Set of Highly Anticipated Opportunity Zones Guidance
-date: 2019-04-17
+date: 2019-04-17T13:15:00-04:00
 draft: false
 url: /news/featured-stories/treasury-issues-second-set-of-highly-anticipated-opportunity-zones-guidance
 ---

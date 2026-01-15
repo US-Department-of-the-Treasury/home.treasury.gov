@@ -1,6 +1,6 @@
 ---
 title: Readout from a Treasury Spokesperson on Secretary Mnuchin’s call with Sudanese Prime Minister Abdalla Hamdok
-date: 2020-03-26
+date: 2020-03-26T19:00:05-04:00
 draft: false
 url: /news/readouts/readout-from-a-treasury-spokesperson-on-secretary-mnuchins-call-with-sudanese-prime-minister-abdalla-hamdok
 ---

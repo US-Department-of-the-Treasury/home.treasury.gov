@@ -1,6 +1,6 @@
 ---
 title: Treasury, IRS disburse 25 million more Economic Impact Payments under the American Rescue Plan
-date: 2021-04-07
+date: 2021-04-07T09:55:47-04:00
 draft: false
 url: /news/featured-stories/treasury-irs-disburse-25-million-more-economic-impact-payments-under-the-american-rescue-plan
 ---

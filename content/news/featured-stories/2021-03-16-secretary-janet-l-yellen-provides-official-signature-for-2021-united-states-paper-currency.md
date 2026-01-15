@@ -1,6 +1,6 @@
 ---
 title: Secretary Janet L. Yellen Provides Official Signature for 2021 United States Paper Currency
-date: 2021-03-16
+date: 2021-03-16T10:00:00-04:00
 draft: false
 url: /news/featured-stories/secretary-janet-l-yellen-provides-official-signature-for-2021-united-states-paper-currency
 ---

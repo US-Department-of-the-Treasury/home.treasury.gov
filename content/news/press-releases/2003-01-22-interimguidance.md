@@ -1,6 +1,6 @@
 ---
 title: Billing Code 4810-25-M
-date: 2003-01-22
+date: 2003-01-22T07:00:00-05:00
 draft: false
 url: /news/press-releases/interimguidance
 ---

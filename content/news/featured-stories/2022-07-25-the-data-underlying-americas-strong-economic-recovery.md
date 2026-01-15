@@ -1,6 +1,6 @@
 ---
 title: The Data Underlying America’s Strong Economic Recovery
-date: 2022-07-25
+date: 2022-07-25T14:40:39-04:00
 draft: false
 url: /news/featured-stories/the-data-underlying-americas-strong-economic-recovery
 ---

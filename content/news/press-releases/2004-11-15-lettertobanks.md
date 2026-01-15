@@ -1,6 +1,6 @@
 ---
 title: lettertobanks
-date: 2004-11-15
+date: 2004-11-15T07:00:00-05:00
 draft: false
 url: /news/press-releases/lettertobanks
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Housing Crisis in Focus: LIHTC Best Practices to Discourage Qualified Contracts and Keep Housing Affordable for Longer'
-date: 2024-12-12
+date: 2024-12-12T13:00:08-05:00
 draft: false
 url: /news/featured-stories/housing-crisis-in-focus-lihtc-best-practices-to-discourage-qualified-contracts-and-keep-housing-affordable-for-longer
 ---

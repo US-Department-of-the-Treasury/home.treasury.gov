@@ -1,6 +1,6 @@
 ---
 title: Report to the Secretary of the Treasury from the Treasury Borrowing Advisory Committee of the Securities Industry and Financial Markets Association
-date: 2016-05-04
+date: 2016-05-04T08:00:00-04:00
 draft: false
 url: /news/press-releases/jl0534_TBACReportPressRelease
 ---

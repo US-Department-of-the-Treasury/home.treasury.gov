@@ -1,6 +1,6 @@
 ---
 title: Treasury and CBP Announce Deferment of Duties and Fees for Certain Importers During COVID-19 Response
-date: 2020-04-19
+date: 2020-04-19T20:42:16-04:00
 draft: false
 url: /news/press-releases/treasury-and-cbp-announce-deferment-of-duties-and-fees-for-certain-importers-during-covid-19-response
 ---

@@ -1,6 +1,6 @@
 ---
 title: Community Finance Policy
-date: 2022-12-01
+date: 2022-12-01T12:15:00-05:00
 draft: false
 url: /news/featured-stories/community-finance-policy
 ---

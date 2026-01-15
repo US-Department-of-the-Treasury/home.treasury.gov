@@ -1,6 +1,6 @@
 ---
 title: Treasury Report Highlights Impact of American Rescue Plan Funding on Tribal Governments
-date: 2022-11-30
+date: 2022-11-30T11:56:05-05:00
 draft: false
 url: /news/featured-stories/treasury-report-highlights-impact-of-american-rescue-plan-funding-on-tribal-governments
 ---

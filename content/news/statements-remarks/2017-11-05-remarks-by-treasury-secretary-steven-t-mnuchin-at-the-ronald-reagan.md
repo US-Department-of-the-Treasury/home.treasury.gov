@@ -1,6 +1,6 @@
 ---
 title: Remarks by Treasury Secretary Steven T. Mnuchin at the Ronald Reagan Presidential Library
-date: 2017-11-05
+date: 2017-11-05T15:36:32-05:00
 draft: false
 url: /news/featured-stories/remarks-by-treasury-secretary-steven-t-mnuchin-at-the-ronald-reagan
 ---

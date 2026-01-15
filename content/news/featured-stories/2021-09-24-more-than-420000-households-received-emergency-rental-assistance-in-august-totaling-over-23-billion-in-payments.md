@@ -1,6 +1,6 @@
 ---
 title: More than 420,000 Households Received Emergency Rental Assistance in August, Totaling Over $2.3 Billion in Payments
-date: 2021-09-24
+date: 2021-09-24T06:00:00-04:00
 draft: false
 url: /news/featured-stories/more-than-420000-households-received-emergency-rental-assistance-in-august-totaling-over-2.3-billion-in-payments
 ---

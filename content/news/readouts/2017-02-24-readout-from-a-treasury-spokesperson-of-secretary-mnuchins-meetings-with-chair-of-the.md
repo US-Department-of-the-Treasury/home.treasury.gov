@@ -1,6 +1,6 @@
 ---
 title: Readout from a Treasury Spokesperson of Secretary Mnuchin’s Meetings with Chair of the Puerto Rico Financial Oversight and Management Board and the Governor of Puerto Rico
-date: 2017-02-24
+date: 2017-02-24T13:50:46-05:00
 draft: false
 url: /news/readouts/readout-from-a-treasury-spokesperson-of-secretary-mnuchins-meetings-with-chair-of-the
 ---

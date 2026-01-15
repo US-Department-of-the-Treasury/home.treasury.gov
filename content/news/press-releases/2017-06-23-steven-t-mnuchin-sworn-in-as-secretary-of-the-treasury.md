@@ -1,6 +1,6 @@
 ---
 title: Steven T. Mnuchin Sworn in as Secretary of the Treasury
-date: 2017-06-23
+date: 2017-06-23T12:58:35-04:00
 draft: false
 url: /news/press-releases/steven-t-mnuchin-sworn-in-as-secretary-of-the-treasury
 ---

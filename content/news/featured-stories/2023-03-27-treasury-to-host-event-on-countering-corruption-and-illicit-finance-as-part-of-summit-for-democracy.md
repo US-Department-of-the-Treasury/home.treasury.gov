@@ -1,6 +1,6 @@
 ---
 title: Treasury to Host Event on Countering Corruption and Illicit Finance as Part of Summit for Democracy
-date: 2023-03-27
+date: 2023-03-27T10:14:52-04:00
 draft: false
 url: /news/featured-stories/treasury-to-host-event-on-countering-corruption-and-illicit-finance-as-part-of-summit-for-democracy
 ---

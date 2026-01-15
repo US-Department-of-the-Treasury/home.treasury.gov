@@ -1,6 +1,6 @@
 ---
 title: Racial Inequality in the United States
-date: 2022-07-21
+date: 2022-07-21T05:15:00-04:00
 draft: false
 url: /news/featured-stories/racial-inequality-in-the-united-states
 ---

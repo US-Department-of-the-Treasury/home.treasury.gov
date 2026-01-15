@@ -1,6 +1,6 @@
 ---
 title: 'From Car Dealers to Union Workers: Engaging Stakeholders on Historic Biden-Harris Climate Law'
-date: 2024-09-12
+date: 2024-09-12T11:38:17-04:00
 draft: false
 url: /news/featured-stories/from-car-dealers-to-union-workers-engaging-stakeholders-on-historic-biden-harris-climate-law
 ---

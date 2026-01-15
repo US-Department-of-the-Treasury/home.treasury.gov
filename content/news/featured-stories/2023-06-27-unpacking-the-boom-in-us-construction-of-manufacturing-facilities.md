@@ -1,6 +1,6 @@
 ---
 title: Unpacking the Boom in U.S. Construction of Manufacturing Facilities
-date: 2023-06-27
+date: 2023-06-27T11:00:00-04:00
 draft: false
 url: /news/featured-stories/unpacking-the-boom-in-us-construction-of-manufacturing-facilities
 ---

@@ -1,6 +1,6 @@
 ---
 title: The U.S. Economy in Global Context
-date: 2023-10-26
+date: 2023-10-26T08:00:00-04:00
 draft: false
 url: /news/featured-stories/the-us-economy-in-global-context
 ---

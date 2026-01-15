@@ -1,6 +1,6 @@
 ---
 title: 'Coordinating DOE Home Energy Rebates with Energy-Efficient Home Improvement Tax Credits: An Explainer'
-date: 2024-07-19
+date: 2024-07-19T12:30:00-04:00
 draft: false
 url: /news/featured-stories/coordinating-doe-home-energy-rebates-with-energy-efficient-home-improvement-tax-credits-an-explainer
 ---

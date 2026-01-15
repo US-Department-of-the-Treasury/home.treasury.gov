@@ -1,6 +1,6 @@
 ---
 title: 'Racial Differences in Economic Security: Non-Housing Assets'
-date: 2023-01-10
+date: 2023-01-10T09:30:00-05:00
 draft: false
 url: /news/featured-stories/racial-differences-in-economic-security-non-housing-assets
 ---

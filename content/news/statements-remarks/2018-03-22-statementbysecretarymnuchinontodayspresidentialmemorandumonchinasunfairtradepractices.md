@@ -1,6 +1,6 @@
 ---
 title: Statement by Secretary Mnuchin on Presidential Memorandum on China’s Unfair Trade Practices
-date: 2018-03-22
+date: 2018-03-22T13:49:38-04:00
 draft: false
 url: /news/recent-highlights/Statement by Secretary Mnuchin on Today’s Presidential Memorandum on China’s Unfair Trade Practices
 ---

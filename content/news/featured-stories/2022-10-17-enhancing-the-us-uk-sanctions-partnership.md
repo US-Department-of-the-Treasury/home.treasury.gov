@@ -1,6 +1,6 @@
 ---
 title: Enhancing the US-UK Sanctions Partnership
-date: 2022-10-17
+date: 2022-10-17T11:00:00-04:00
 draft: false
 url: /news/featured-stories/enhancing-the-us-uk-sanctions-partnership
 ---

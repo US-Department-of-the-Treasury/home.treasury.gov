@@ -1,6 +1,6 @@
 ---
 title: Memorandum from Deputy Secretary Wally Adeyemo - Inflation Reduction Act – Year 1
-date: 2023-08-16
+date: 2023-08-16T11:18:30-04:00
 draft: false
 url: /news/featured-stories/memorandum-from-deputy-secretary-wally-adeyemo-inflation-reduction-act-year-1
 ---

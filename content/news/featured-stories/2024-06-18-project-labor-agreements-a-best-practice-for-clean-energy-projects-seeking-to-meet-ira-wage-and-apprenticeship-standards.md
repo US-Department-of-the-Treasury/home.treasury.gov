@@ -1,6 +1,6 @@
 ---
 title: 'Project Labor Agreements: A Best Practice for Clean Energy Projects Seeking to Meet IRA Wage and Apprenticeship Standards'
-date: 2024-06-18
+date: 2024-06-18T08:45:00-04:00
 draft: false
 url: /news/featured-stories/project-labor-agreements-a-best-practice-for-clean-energy-projects-seeking-to-meet-ira-wage-and-apprenticeship-standards
 ---

@@ -1,6 +1,6 @@
 ---
 title: Transforming the IRS into a modern organization ready to serve the American people
-date: 2024-05-02
+date: 2024-05-02T14:51:12-04:00
 draft: false
 url: /news/featured-stories/transforming-the-irs-into-a-modern-organization-ready-to-serve-the-american-people
 ---

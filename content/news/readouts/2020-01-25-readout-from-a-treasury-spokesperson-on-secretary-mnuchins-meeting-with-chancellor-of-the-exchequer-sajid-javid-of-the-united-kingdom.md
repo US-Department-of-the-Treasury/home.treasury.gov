@@ -1,6 +1,6 @@
 ---
 title: Readout from a Treasury Spokesperson on Secretary Mnuchin’s meeting with Chancellor of the Exchequer Sajid Javid, of the United Kingdom
-date: 2020-01-25
+date: 2020-01-25T13:57:14-05:00
 draft: false
 url: /news/readouts/readout-from-a-treasury-spokesperson-on-secretary-mnuchins-meeting-with-chancellor-of-the-exchequer-sajid-javid-of-the-united-kingdom
 ---

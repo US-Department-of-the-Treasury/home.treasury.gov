@@ -1,6 +1,6 @@
 ---
 title: 'Fact Sheet: Designation of 15 Individuals Tied to an Al Qaida Cell in Italy'
-date: 2003-11-12
+date: 2003-11-12T07:00:00-05:00
 draft: false
 url: /news/press-releases/italianalqaidacellfactsheet
 ---

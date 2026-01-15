@@ -1,6 +1,6 @@
 ---
 title: Treasury Targets Oil Network Generating Hundreds of Millions of Dollars for Iran’s Military
-date: 2025-02-08
+date: 2025-02-08T16:05:50-05:00
 draft: false
 url: /news/featured-stories/treasury-targets-oil-network-generating-hundreds-of-millions-of-dollars-for-irans-military
 ---

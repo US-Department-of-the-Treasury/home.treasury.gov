@@ -1,6 +1,6 @@
 ---
 title: American Rescue Plan Tax Credits Available to Small Employers to Provide Paid Leave to Employees Receiving COVID-19 Vaccines
-date: 2021-04-21
+date: 2021-04-21T14:30:00-04:00
 draft: false
 url: /news/featured-stories/american-rescue-plan-tax-credits-available-to-small-employers-to-provide-paid-leave-to-employees-receiving-covid-19-vaccines
 ---

@@ -1,6 +1,6 @@
 ---
 title: A Coordinated Strategy to Advance Racial Equity at Treasury
-date: 2021-10-25
+date: 2021-10-25T13:05:59-04:00
 draft: false
 url: /news/featured-stories/a-coordinated-strategy-to-advance-racial-equity-at-treasury
 ---

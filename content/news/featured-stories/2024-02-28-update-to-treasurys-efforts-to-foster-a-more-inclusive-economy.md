@@ -1,6 +1,6 @@
 ---
 title: Update to Treasury’s Efforts to Foster a More Inclusive Economy
-date: 2024-02-28
+date: 2024-02-28T12:00:00-05:00
 draft: false
 url: /news/featured-stories/update-to-treasurys-efforts-to-foster-a-more-inclusive-economy
 ---

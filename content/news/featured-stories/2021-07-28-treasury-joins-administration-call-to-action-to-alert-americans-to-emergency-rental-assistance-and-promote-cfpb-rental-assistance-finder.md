@@ -1,6 +1,6 @@
 ---
 title: Treasury Joins Administration Call to Action to Alert Americans to Emergency Rental Assistance and Promote CFPB “Rental Assistance Finder”
-date: 2021-07-28
+date: 2021-07-28T18:04:35-04:00
 draft: false
 url: /news/featured-stories/treasury-joins-administration-call-to-action-to-alert-americans-to-emergency-rental-assistance-and-promote-cfpb-rental-assistance-finder
 ---

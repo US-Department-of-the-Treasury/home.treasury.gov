@@ -1,6 +1,6 @@
 ---
 title: An Update to “The Purchasing Power of American Households”
-date: 2024-07-18
+date: 2024-07-18T14:09:34-04:00
 draft: false
 url: /news/featured-stories/an-update-to-the-purchasing-power-of-american-households-0
 ---

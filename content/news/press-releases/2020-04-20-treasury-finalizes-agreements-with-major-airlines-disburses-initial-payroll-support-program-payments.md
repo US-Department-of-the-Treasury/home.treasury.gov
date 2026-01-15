@@ -1,6 +1,6 @@
 ---
 title: Treasury Finalizes Agreements with Major Airlines, Disburses Initial Payroll Support Program Payments
-date: 2020-04-20
+date: 2020-04-20T20:14:57-04:00
 draft: false
 url: /news/press-releases/treasury-finalizes-agreements-with-major-airlines-disburses-initial-payroll-support-program-payments
 ---

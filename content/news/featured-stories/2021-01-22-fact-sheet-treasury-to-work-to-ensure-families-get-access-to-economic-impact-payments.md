@@ -1,6 +1,6 @@
 ---
 title: 'FACT SHEET: Treasury to Work to Ensure Families Get Access to Economic Impact Payments '
-date: 2021-01-22
+date: 2021-01-22T15:41:42-05:00
 draft: false
 url: /news/featured-stories/fact-sheet-treasury-to-work-to-ensure-families-get-access-to-economic-impact-payments
 ---

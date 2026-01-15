@@ -1,6 +1,6 @@
 ---
 title: 'Racial Differences in Economic Security: Housing'
-date: 2022-11-04
+date: 2022-11-04T14:00:00-04:00
 draft: false
 url: /news/featured-stories/racial-differences-in-economic-security-housing
 ---

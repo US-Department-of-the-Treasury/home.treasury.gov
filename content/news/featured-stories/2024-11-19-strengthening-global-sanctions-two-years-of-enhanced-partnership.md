@@ -1,6 +1,6 @@
 ---
 title: 'Strengthening Global Sanctions: Two Years of Enhanced Partnership'
-date: 2024-11-19
+date: 2024-11-19T10:30:00-05:00
 draft: false
 url: /news/featured-stories/strengthening-global-sanctions-two-years-of-enhanced-partnership
 ---

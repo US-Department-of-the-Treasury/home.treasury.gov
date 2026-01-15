@@ -1,6 +1,6 @@
 ---
 title: 'FACT SHEET: The American Rescue Plan Will Deliver Immediate Economic Relief to Families '
-date: 2021-03-18
+date: 2021-03-18T17:30:43-04:00
 draft: false
 url: /news/featured-stories/fact-sheet-the-american-rescue-plan-will-deliver-immediate-economic-relief-to-families
 ---

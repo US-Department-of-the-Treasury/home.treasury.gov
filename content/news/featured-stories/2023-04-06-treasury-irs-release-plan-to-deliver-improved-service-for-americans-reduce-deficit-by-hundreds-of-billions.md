@@ -1,6 +1,6 @@
 ---
 title: Treasury, IRS Release Plan to Deliver Improved Service for Americans, Reduce Deficit by Hundreds of Billions
-date: 2023-04-06
+date: 2023-04-06T14:15:00-04:00
 draft: false
 url: /news/featured-stories/treasury-irs-release-plan-to-deliver-improved-service-for-americans-reduce-deficit-by-hundreds-of-billions
 ---

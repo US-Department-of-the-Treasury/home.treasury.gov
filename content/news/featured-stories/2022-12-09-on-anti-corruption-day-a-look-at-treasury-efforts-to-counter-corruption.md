@@ -1,6 +1,6 @@
 ---
 title: On Anti-Corruption Day, A Look at Treasury Efforts to Counter Corruption
-date: 2022-12-09
+date: 2022-12-09T16:03:57-05:00
 draft: false
 url: /news/featured-stories/on-anti-corruption-day-a-look-at-treasury-efforts-to-counter-corruption
 ---

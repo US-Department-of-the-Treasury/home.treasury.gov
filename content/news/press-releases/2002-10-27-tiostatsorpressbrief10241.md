@@ -1,6 +1,6 @@
 ---
 title: tiostatsorpressbrief10241
-date: 2002-10-27
+date: 2002-10-27T07:00:00-05:00
 draft: false
 url: /news/press-releases/tiostatsorpressbrief10241
 ---

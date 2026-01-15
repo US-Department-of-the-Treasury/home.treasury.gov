@@ -1,6 +1,6 @@
 ---
 title: 'One Year On: The OFAC-OFSI Enhanced Partnership '
-date: 2023-11-15
+date: 2023-11-15T11:30:00-05:00
 draft: false
 url: /news/featured-stories/one-year-on-the-ofac-ofsi-enhanced-partnership
 ---

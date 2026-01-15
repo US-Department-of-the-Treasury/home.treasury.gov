@@ -1,6 +1,6 @@
 ---
 title: Explore the History of the U.S Department of the Treasury
-date: 2021-01-20
+date: 2021-01-20T11:30:00-05:00
 draft: false
 url: /news/featured-stories/explore-the-history-of-the-us-department-of-the-treasury
 ---

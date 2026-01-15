@@ -1,6 +1,6 @@
 ---
 title: 'Sanctions and Russia’s War: Limiting Putin’s Capabilities'
-date: 2023-12-14
+date: 2023-12-14T08:12:40-05:00
 draft: false
 url: /news/featured-stories/sanctions-and-russias-war-limiting-putins-capabilities
 ---

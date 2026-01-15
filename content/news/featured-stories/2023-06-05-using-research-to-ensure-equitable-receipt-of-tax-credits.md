@@ -1,6 +1,6 @@
 ---
 title: Using Research to Ensure Equitable Receipt of Tax Credits
-date: 2023-06-05
+date: 2023-06-05T12:30:00-04:00
 draft: false
 url: /news/featured-stories/using-research-to-ensure-equitable-receipt-of-tax-credits
 ---

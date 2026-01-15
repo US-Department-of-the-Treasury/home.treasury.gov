@@ -1,6 +1,6 @@
 ---
 title: Small Business and Entrepreneurship in the Post-COVID Expansion
-date: 2024-09-03
+date: 2024-09-03T16:25:00-04:00
 draft: false
 url: /news/featured-stories/small-business-and-entrepreneurship-in-the-post-covid-expansion
 ---

@@ -1,6 +1,6 @@
 ---
 title: Racial Equity Benefits All Americans
-date: 2023-06-07
+date: 2023-06-07T11:30:00-04:00
 draft: false
 url: /news/featured-stories/racial-equity-benefits-all-americans
 ---

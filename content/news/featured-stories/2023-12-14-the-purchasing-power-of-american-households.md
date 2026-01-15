@@ -1,6 +1,6 @@
 ---
 title: The Purchasing Power of American Households
-date: 2023-12-14
+date: 2023-12-14T11:00:00-05:00
 draft: false
 url: /news/featured-stories/the-purchasing-power-of-american-households
 ---
