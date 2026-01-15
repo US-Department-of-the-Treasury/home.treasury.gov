@@ -30,13 +30,13 @@ The U.S. Council of Economic Advisers and Office of Management and Budget summar
 
 The United States accounted for 13 percent of global carbon dioxide (CO2) emissions in 2022, and a quarter of the cumulative global CO2emissions from fossil fuels burned since pre-industrial times.[5]That means we cannot solve the climate problem ourselves. While we cannot ensure that all other countries contribute equally by reducing emissions, we can presume they will be less likely to pitch in if the United States, the country responsible for the largest share of cumulative emissions to date, fails to act.[6]
 
-That is one reason why President Biden signed the IRA, the largest-ever U.S. federal effort to reduce greenhouse gas pollution. Nine independent analyses reviewed in the journal* Science *project that the IRA will reduce U.S. emissions in 2035 to an average of 20 percent below what they would be without the IRA.[7]
+That is one reason why President Biden signed the IRA, the largest-ever U.S. federal effort to reduce greenhouse gas pollution. Nine independent analyses reviewed in the journal *Science *project that the IRA will reduce U.S. emissions in 2035 to an average of 20 percent below what they would be without the IRA.[7]
 
 Even the most ambitious mitigation efforts, however, will be insufficient to avoid damages from the greenhouse gases already causing atmospheric changes. That leads us to a second set of climate policies that also benefit the economy: policies geared towards adaptation.
 
 ## (2) Adapting to climate change
 
-Adaptation policies include building sea walls and reinforcing buildings, designing new forms of insurance and disaster response, and safeguarding critical infrastructure. Although those steps will be costly,* not*making adaptation investments would be even more costly. Adaptation investments help ensure that when climate-related weather disasters do happen, they cause less damage.
+Adaptation policies include building sea walls and reinforcing buildings, designing new forms of insurance and disaster response, and safeguarding critical infrastructure. Although those steps will be costly,* not* making adaptation investments would be even more costly. Adaptation investments help ensure that when climate-related weather disasters do happen, they cause less damage.
 
 Economic research has corroborated the value of adaptation expenses. Globally, Hallegatte et al. (2013) calculate that spending $50 billion per year to build higher bridges and move transportation routes inland for 136 coastal cities around the world would reduce expected annual losses from climate change in 2050 by nearly $1 trillion.[8]In the United States, Martinich and Crimmins (2019) estimate that proactive adaptation investments in just three areas—coastal properties, roads, and rail—could more than pay for themselves, reducing climate damages by $140 billion per year in 2090 (in 2015 dollars).[9]The magnitudes of these worthwhile investments illustrate how costly it would be* not *to invest in adaptation.
 
@@ -60,7 +60,7 @@ A fourth way that climate policy can promote growth is by backing innovative res
 
 The first is the classic market failure that applies generally to all R&D. Businesses that do invest in new products or production techniques have trouble preventing competitors that do not invest from exploiting their discoveries.[21]As a consequence, many businesses underinvest. But the economy-wide benefits from R&D, including spillovers from researchers to competitors, exceed the returns to individual researchers. The gap between public and private returns is symptomatic of market failures, and a principal justification of government support for R&D of all types, not just climate-related R&D.
 
-The second reason private businesses underinvest in climate-related R&D arises from the fact that the*climate * benefits of mitigating climate change accrue globally, not just to the people or businesses doing the mitigation. In economics jargon, mitigation benefits are a public good. As with any public good, leaving climate R&D to market forces has led to underinvestment.
+The second reason private businesses underinvest in climate-related R&D arises from the fact that the* climate * benefits of mitigating climate change accrue globally, not just to the people or businesses doing the mitigation. In economics jargon, mitigation benefits are a public good. As with any public good, leaving climate R&D to market forces has led to underinvestment.
 
 Because the private sector underinvests, for these two reasons, the economic returns to government funding for climate and energy R&D can be especially large. That return on government investment in R&D motivates President Biden’s argument for many aspects of the IRA, as well as the IIJA and especially the CHIPS Act. The policies establish new R&D programs, strengthen existing ones, and advance public-private R&D partnerships, particularly in parts of the country and in academic institutions that have seen underinvestment.
 
@@ -126,7 +126,7 @@ Zivin, Joshua Graff, Yingquan Song, Qu Tang, and Peng Zhang. 2020. “Temperatur
 
 [19]Mahajan, Megan, Olivia Ashmoore, Jeffrey Rissman, Robbie Orvis, and Anand Gopal. 2022. “Updated Inflation Reduction Act Modeling Using the Energy Policy Simulator.”* Energy Innovation*, August 23, 2022.[https://energyinnovation.org/publication/updated-inflation-reduction-act-modeling-using-the-energy-policy-simulator/](https://energyinnovation.org/publication/updated-inflation-reduction-act-modeling-using-the-energy-policy-simulator/).
 
-[20]Armitage, Sarah, Noël Bakhtian, and Adam Jaffe. 2023. “Innovation Market Failures and the Design of New Climate Policy.” In* Environmental and Energy Policy and the Economy, Vol. 5*, edited by Matthew J. Kotchen, Tatyana Deryugina, and Catherine D. Wolfram. Chicago: University of Chicago Press.
+[20]Armitage, Sarah, Noël Bakhtian, and Adam Jaffe. 2023. “Innovation Market Failures and the Design of New Climate Policy.” In *Environmental and Energy Policy and the Economy, Vol. 5*, edited by Matthew J. Kotchen, Tatyana Deryugina, and Catherine D. Wolfram. Chicago: University of Chicago Press.
 
 [21]Bloom, Nicholas, John Van Reenen, and Heidi Williams. 2019. "A Toolkit of Policies to Promote Innovation."* Journal of Economic Perspectives*33 (3): 163-84.
 

@@ -16,7 +16,7 @@ According to the data released by the Treasury Department today, as of the end o
 
 For renting families, the impact of these efforts has been enormous.  In conjunction with other policies the Biden-Harris Administration has pursued, ERA helped to keep more than a million Americans in their homes in 2021 alone.[2]Assistance has benefited marginalized communities in particular: extremely low-income renters have received close to two-thirds of ERA assistance, while Black families have received 46 percent, and female renters have received nearly 70 percent.[3]
 
-We know there is more to do to keep renters in their homes, and more to do to administer ERA.  But even so, over the past two years, ERA’s impact is clear.  As Matthew Desmond—the author of* Evicted *and founder of Princeton University’s Eviction Lab—has reflected:
+We know there is more to do to keep renters in their homes, and more to do to administer ERA.  But even so, over the past two years, ERA’s impact is clear.  As Matthew Desmond—the author of *Evicted* and founder of Princeton University’s Eviction Lab—has reflected:
 
 The Emergency Rental Assistance Program along with the federal eviction moratorium formed the most important federal housing policy in the last decade.  These combined initiatives were the deepest investment in low-income renters the federal government has made since the nation launched its public housing system.
 

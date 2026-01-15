@@ -16,7 +16,7 @@ Each of these opportunities can reduce the costs of making energy-efficient upgr
 
 - When DOE Home Energy Rebates are applied to a project or product, they are treated as reductions in the purchase price rather than as income for tax purposes. Therefore, households that receive DOE Home Energy Rebates should not report the rebates as income on their income tax returns.[3]
 - When a 25C tax credit is applied to a project or product that has been subject to a DOE Home Energy Rebate, the credit amount is determined based on the adjusted purchase price after it has been reduced by the amount of the rebate. For the HOMES program, the rebate amount is applied proportionately across the set of energy-saving measures. Examples are provided below.
-- In many cases, homeowners and renters can combine DOE Home Energy[Rebates with tax credits](https://www.irs.gov/pub/taxpros/fs-2024-15.pdf)to reduce energy-efficiency improvement costs. However, there are limitations:The HOMES and HEAR rebates cannot be combined with each other, nor can they be combined with other federal grants*for the same technology upgrade or project.* A federal rebate, or a combination of a rebate and tax credit, cannot exceed the total cost of the home improvement project or product.
+- In many cases, homeowners and renters can combine DOE Home Energy[Rebates with tax credits](https://www.irs.gov/pub/taxpros/fs-2024-15.pdf)to reduce energy-efficiency improvement costs. However, there are limitations:The HOMES and HEAR rebates cannot be combined with each other, nor can they be combined with other federal grants* for the same technology upgrade or project.* A federal rebate, or a combination of a rebate and tax credit, cannot exceed the total cost of the home improvement project or product.
 
 Further information regarding the Home Energy Rebates programs is available on[DOE’s website](https://www.energy.gov/scep/home-energy-rebates-frequently-asked-questions-consumers). Further information on the 25C tax credit is available on[IRS’s website](https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit).
 
@@ -113,7 +113,7 @@ The Winthrops are a middle-income family undertaking a home retrofit.
 
 With a predicted energy saving of more than 20 percent (but less than 35 percent) of their home energy use, the Winthrop family is eligible for a HOMES rebate of $2,000 ($2,000 or 50 percent of the total project cost, whichever is less).
 
-Since the Winthrops receive the rebate as an* upfront discount*, the* real*upfront cost of the technology for the retrofit is $4,150.[12]Since the home energy audit, attic insulation, and heat pump are eligible for 25C tax credits of up to 30 percent of the after-rebate cost, the Winthrops can claim a $1,204.50 tax credit when filing their taxes.[13]Table 3 below outlines the eligible tax credit amounts the Winthrops receive for each item.
+Since the Winthrops receive the rebate as an* upfront discount*, the* real* upfront cost of the technology for the retrofit is $4,150.[12]Since the home energy audit, attic insulation, and heat pump are eligible for 25C tax credits of up to 30 percent of the after-rebate cost, the Winthrops can claim a $1,204.50 tax credit when filing their taxes.[13]Table 3 below outlines the eligible tax credit amounts the Winthrops receive for each item.
 
 Table 3: Allocated rebate and 25C tax credit amounts for the Winthrops (all numbers are rounded to the nearest dollar)
 
@@ -205,7 +205,7 @@ After applying both HEAR and HOMES rebates and accounting for eligible tax credi
 
 Since Gomez was able to recoup 100 percent of the cost of his heat pump through the HEAR rebate, the heat pump was not eligible for a § 25C tax credit.
 
-Additionally, Gomez purchased Energy Star windows, which are eligible for the HOMES rebate, but because they were not[Energy Star* Most Efficient*](https://www.energystar.gov/partner_resources/products_partner_resources/energy_star_most_efficient_2024_criteria)windows, they are not eligible for a 25C tax credit.
+Additionally, Gomez purchased Energy Star windows, which are eligible for the HOMES rebate, but because they were not[Energy Star *Most Efficient*](https://www.energystar.gov/partner_resources/products_partner_resources/energy_star_most_efficient_2024_criteria)windows, they are not eligible for a 25C tax credit.
 
 Table 6: HEAR and Allocated HOMES Rebate Amounts and 25C Tax Credits for Peter Gomez (all numbers rounded to the nearest dollar)
 

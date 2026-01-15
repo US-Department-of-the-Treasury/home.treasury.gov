@@ -40,7 +40,7 @@ Source: Bureau of Economic Analysis; Blue Chip Economic Indicators.
 
  
 
-A third benchmark: what can we learn from the conventional modeling tools economists use to understand the drivers of business investment? These models form the basis for the forecasts described above, but by examining their details we can see which economic variables are responsible for the investment's faster-than-forecast recovery after the pandemic. Figure 3 compares business investment growth with the output of a conventional “accelerator model,” a concept first proposed by Alvin Hansen in 1938.[3]Accelerator models hold that business investment growth is related to*changes * in overall output growth: that businesses invest more when the economy grows faster. In the immediate pandemic recovery, these models predicted a quick rebound in investment. But since the economy has cooled from that initial burst of growth, the models have called for slower investment growth as shown on the right side of Figure 3. But actual business investment has nonetheless maintained that stable 4-6 percent growth rate.
+A third benchmark: what can we learn from the conventional modeling tools economists use to understand the drivers of business investment? These models form the basis for the forecasts described above, but by examining their details we can see which economic variables are responsible for the investment's faster-than-forecast recovery after the pandemic. Figure 3 compares business investment growth with the output of a conventional “accelerator model,” a concept first proposed by Alvin Hansen in 1938.[3]Accelerator models hold that business investment growth is related to* changes * in overall output growth: that businesses invest more when the economy grows faster. In the immediate pandemic recovery, these models predicted a quick rebound in investment. But since the economy has cooled from that initial burst of growth, the models have called for slower investment growth as shown on the right side of Figure 3. But actual business investment has nonetheless maintained that stable 4-6 percent growth rate.
 
 ### Figure 3
 
@@ -58,7 +58,7 @@ Source: Bureau of Economic Analysis; U.S. Treasury calculations.
 
  
 
-The surge in factory construction is well documented: spending has more than doubled in real terms since 2021 as shown in Figure 5, as we detailed here[6]last summer, and it has further increased since then. Of course, one should not expect this surge to continue in perpetuity, so its contributions to business investment*growth * should dwindle. But it has reflected a new kind of private investment that helps explain the resilience of overall business investment.
+The surge in factory construction is well documented: spending has more than doubled in real terms since 2021 as shown in Figure 5, as we detailed here[6]last summer, and it has further increased since then. Of course, one should not expect this surge to continue in perpetuity, so its contributions to business investment* growth * should dwindle. But it has reflected a new kind of private investment that helps explain the resilience of overall business investment.
 
  
 

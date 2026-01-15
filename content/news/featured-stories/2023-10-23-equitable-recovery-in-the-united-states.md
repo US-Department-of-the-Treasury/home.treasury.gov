@@ -259,7 +259,7 @@ The actions taken by the Biden-Harris Administration to increase equity are not 
 
 [8]U.S. Bureau of Economic Analysis. 2022. “[Effects of Selected Federal Pandemic Response Programs on Federal Government Receipts, Expenditures, and Saving, 2022Q1 Second](https://www.bea.gov/sites/default/files/2022-05/effects-of-selected-federal-pandemic-response-programs-on-federal-government-receipts-expenditures-and-saving-2022q1-2nd.pdf).” Table. May 26, 2022.
 
-[9]Gelman, Michael, and Melvin Stephens Jr. 2022. “[Chapter 3: Lessons Learned from Economic Impact Payments during COVID-19](https://www.brookings.edu/articles/recession-remedies/).” In* Recession Remedies*, edited by Wendy Edelberg, Louise Sheiner, and David Wessel, 91-122. Washington, D.C.: The Hamilton Project and Hutchins Center on Fiscal & Monetary Policy at Brookings Institution.
+[9]Gelman, Michael, and Melvin Stephens Jr. 2022. “[Chapter 3: Lessons Learned from Economic Impact Payments during COVID-19](https://www.brookings.edu/articles/recession-remedies/).” In *Recession Remedies*, edited by Wendy Edelberg, Louise Sheiner, and David Wessel, 91-122. Washington, D.C.: The Hamilton Project and Hutchins Center on Fiscal & Monetary Policy at Brookings Institution.
 
 [10]Aladangady, Aditya, David Cho, Laura Feiveson, and Eugenio Pinto. 2022. “[Excess Savings during the COVID-19 Pandemic](https://www.federalreserve.gov/econres/notes/feds-notes/excess-savings-during-the-covid-19-pandemic-20221021.html).” FEDS Notes.* Board of Governors of the Federal Reserve System*, October 21, 2022.
 

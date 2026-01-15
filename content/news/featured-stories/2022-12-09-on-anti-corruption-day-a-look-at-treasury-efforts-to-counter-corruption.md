@@ -6,7 +6,7 @@ url: /news/featured-stories/on-anti-corruption-day-a-look-at-treasury-efforts-to
 ---
 By:*Under Secretary for Terrorism and Financial Intelligence Brian Nelson*
 
-International Anti-Corruption Day spotlights the significant threats that corruption poses to the rule of law, economic development, democracy, social cohesion, and national security. On this important day, and in recognition of the Biden-Harris Administration’s* U.S. Strategy on Countering Corruption*—[released](https://www.whitehouse.gov/briefing-room/statements-releases/2021/12/06/fact-sheet-u-s-strategy-on-countering-corruption/)one year ago—the Treasury Department is addressing this challenge with renewed energy and dedication.
+International Anti-Corruption Day spotlights the significant threats that corruption poses to the rule of law, economic development, democracy, social cohesion, and national security. On this important day, and in recognition of the Biden-Harris Administration’s *U.S. Strategy on Countering Corruption*—[released](https://www.whitehouse.gov/briefing-room/statements-releases/2021/12/06/fact-sheet-u-s-strategy-on-countering-corruption/)one year ago—the Treasury Department is addressing this challenge with renewed energy and dedication.
 
 The risks and consequences of corruption are palpable—and perhaps nowhere are they more pronounced than in Putin’s Russia, where corruption and kleptocracy form the bedrock of his power structure. Corruption, by extension, is inexorably linked to the tragedy and bloodshed that Russia continues to inflict on the people on Ukraine.
 

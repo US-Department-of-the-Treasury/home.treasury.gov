@@ -8,9 +8,9 @@ url: /news/featured-stories/post-5-racial-differences-in-educational-experiences
 
 ## Introduction
 
-Free public primary and secondary education in the United States was established to ensure that all Americans have access to educational opportunity and are equipped to fully participate in our democracy. However, laws banning enslaved people from being taught to read, exclusionary Jim Crow laws, and the ruling in* Plessy v. Ferguson*entrenched racial segregation of public schools in the South, and, while not mandated by law, a* de facto*system of segregation became commonplace in Northern states at the same time. These systems were used to deprive people of color of the educational resources required to prosper in society throughout the 19th and 20th centuries.
+Free public primary and secondary education in the United States was established to ensure that all Americans have access to educational opportunity and are equipped to fully participate in our democracy. However, laws banning enslaved people from being taught to read, exclusionary Jim Crow laws, and the ruling in *Plessy v. Ferguson* entrenched racial segregation of public schools in the South, and, while not mandated by law, a* de facto* system of segregation became commonplace in Northern states at the same time. These systems were used to deprive people of color of the educational resources required to prosper in society throughout the 19th and 20th centuries.
 
-Nearly 70 years after the landmark ruling in* Brown v. Board of Education*that ended legal school segregation, substantial racial disparities in educational opportunity and attainment still exist. Recognizing these disparities and understanding their determinants is important because they have stark implications for labor market outcomes, including employment, wages and earnings, and occupations and job quality, all key factors in individuals’ economic wellbeing.
+Nearly 70 years after the landmark ruling in *Brown v. Board of Education* that ended legal school segregation, substantial racial disparities in educational opportunity and attainment still exist. Recognizing these disparities and understanding their determinants is important because they have stark implications for labor market outcomes, including employment, wages and earnings, and occupations and job quality, all key factors in individuals’ economic wellbeing.
 
 In addition, since education is the bedrock of labor productivity, policies that raise the quality and quantity of education for underserved groups have and would boost productivity for the country as a whole.  One well-cited study finds that 40 percent of per capita GDP growth from the period of 1960 to 2010 can be accounted for by women and Black men entering into highly skilled occupations.[1]Although disparity in access to high quality education is only one of many barriers faced by workers of color, these findings demonstrate the potential magnitude of the gains that would come from better fostering the talent innate in our future workforce. Indeed, researchers from the Federal Reserve Bank of San Francisco estimate that removing racial gaps in educational attainment alone—separate from any effect on employment or hours—would have increased GDP in 2019 by $190 billion.[2]
 
@@ -62,7 +62,7 @@ High school completion rates are another important measure of academic achieveme
 
 ** Notes**: Figure displays the percent of people 25-years-old and older who have graduated from high school by race and ethnicity.
 
-** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from* Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
+** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from *Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
 
 ## Racial Disparities in Postsecondary Education
 
@@ -74,7 +74,7 @@ Overall, the share of young adults enrolled in college has increased over the la
 
 ** Notes**: Figure displays the percent of 18- to 24-year-olds enrolled in college or graduate school by race and ethnicity. Data for Asian and Native Hawaiian/Other Pacific Islander individuals separately and for individuals of two or more races are not available until 2003.
 
-** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, October, 1990 through 2020 prepared by the National Center for Education Statistics in August 2021 and retrieved from* Digest of Education Statistics 2021*,[table 302.60](https://nces.ed.gov/programs/digest/d21/tables/dt21_302.60.asp).
+** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, October, 1990 through 2020 prepared by the National Center for Education Statistics in August 2021 and retrieved from *Digest of Education Statistics 2021*,[table 302.60](https://nces.ed.gov/programs/digest/d21/tables/dt21_302.60.asp).
 
 In addition to comparing overall college enrollment rates, it is important to consider the types of schools students enroll in. Students may enroll in institutions of different levels (two-year or four-year) and type (not-for-profit or for-profit). Given evidence of higher returns to an additional year of schooling at four-year institutions than at two-year institutions[13]and evidence that attending a for-profit institution may lead to worse post-college labor market and financial outcomes than not attending college at all,[14]differential enrollment patterns by race and ethnicity may lead to lasting differences in economic security post-college.
 
@@ -84,7 +84,7 @@ Figure 5 shows, for each racial and ethnic group, the distribution of undergradu
 
 ** Notes**: Figure displays the percent of 18- to 24-year-olds enrolled in college or graduate school by race and ethnicity.
 
-** Source**: Data from the U.S. Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS, Spring 2021, Fall Enrollment component and retrieved from* Digest of Education Statistics 2021*, table[306.50](https://nces.ed.gov/programs/digest/d21/tables/dt21_306.50.asp?current=yes).
+** Source**: Data from the U.S. Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS, Spring 2021, Fall Enrollment component and retrieved from *Digest of Education Statistics 2021*, table[306.50](https://nces.ed.gov/programs/digest/d21/tables/dt21_306.50.asp?current=yes).
 
 These differences in enrollment patterns contribute to the racial differences in bachelor’s degree attainment that are evident in Figure 6. Since 1990, the percent of people 25 years old and older with a bachelor’s degree has increased for all racial and ethnic groups, but Black, Hispanic, Native Hawaiian/Other Pacific Islander, and American Indian/Alaska Native individuals still lag behind Asian and white individuals and those of two or more races.
 
@@ -92,7 +92,7 @@ These differences in enrollment patterns contribute to the racial differences in
 
 ** Notes**: Figure displays the percent of people 25 years old and older who have earned a bachelor’s degree by race and ethnicity.
 
-** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from* Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
+** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from *Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
 
 ## Determinants of Racial Disparities in Educational Experiences and Attainment
 
