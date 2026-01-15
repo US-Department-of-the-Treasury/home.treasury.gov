@@ -2446,6 +2446,69 @@ button.nav-link {
   font-size: 1rem;
 }
 
+/* Pagination wrapper with jump-to-page */
+.pagination-wrapper {
+  padding: 1.5rem 0;
+  margin-top: 1rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.pagination-wrapper .pagination {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.pagination-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-100);
+}
+
+.page-count {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+}
+
+.page-jump {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.page-jump-input {
+  width: 70px;
+  padding: 0.375rem 0.5rem;
+  border: 1px solid var(--gray-400);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.page-jump-input:focus {
+  outline: 2px solid var(--treasury-navy-light);
+  outline-offset: 0;
+  border-color: var(--treasury-navy-light);
+}
+
+.page-jump-btn {
+  background: var(--treasury-navy-light);
+  color: #fff;
+  border: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.page-jump-btn:hover {
+  background: var(--treasury-navy);
+}
+
 /* News Responsive */
 @media (max-width: 1024px) {
   .news-three-col {

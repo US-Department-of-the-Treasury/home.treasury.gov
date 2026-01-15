@@ -55,35 +55,98 @@
           {{ end }}
         </div>
         
-        {{/* Pagination - Treasury.gov style (inline, no left arrow, ellipsis) */}}
+        {{/* Pagination with page count and jump-to-page */}}
         {{ if gt $paginator.TotalPages 1 }}
-        <nav class="pagination" aria-label="Pagination">
+        <nav class="pagination-wrapper" aria-label="Pagination">
           {{ $currentPage := $paginator.PageNumber }}
           {{ $totalPages := $paginator.TotalPages }}
+          {{ $baseURL := .CurrentSection.RelPermalink }}
           
-          {{/* First few pages */}}
-          {{ range $paginator.Pagers }}
-            {{ $pageNum := .PageNumber }}
-            {{/* Show pages 1-3 always */}}
-            {{ if le $pageNum 3 }}
-              {{ if eq $pageNum $currentPage }}
-              <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
-              {{ else }}
-              <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
+          <div class="pagination">
+            {{/* Previous Arrow */}}
+            {{ if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}" class="page-arrow prev" aria-label="Previous page">←</a>
+            {{ end }}
+            
+            {{/* First page */}}
+            {{ if eq $currentPage 1 }}
+            <span class="page-number current" aria-current="page">1</span>
+            {{ else }}
+            <a href="{{ $baseURL }}" class="page-number">1</a>
+            {{ end }}
+            
+            {{/* Left ellipsis */}}
+            {{ if gt $currentPage 3 }}
+            <span class="page-ellipsis">...</span>
+            {{ end }}
+            
+            {{/* Pages around current */}}
+            {{ range $paginator.Pagers }}
+              {{ $pageNum := .PageNumber }}
+              {{ if and (gt $pageNum 1) (lt $pageNum $totalPages) }}
+                {{ if and (ge $pageNum (sub $currentPage 1)) (le $pageNum (add $currentPage 1)) }}
+                  {{ if eq $pageNum $currentPage }}
+                  <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
+                  {{ else }}
+                  <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
+                  {{ end }}
+                {{ end }}
               {{ end }}
             {{ end }}
-          {{ end }}
+            
+            {{/* Right ellipsis */}}
+            {{ if lt $currentPage (sub $totalPages 2) }}
+            <span class="page-ellipsis">...</span>
+            {{ end }}
+            
+            {{/* Last page */}}
+            {{ if gt $totalPages 1 }}
+              {{ if eq $currentPage $totalPages }}
+              <span class="page-number current" aria-current="page">{{ $totalPages }}</span>
+              {{ else }}
+              <a href="{{ $baseURL }}page/{{ $totalPages }}/" class="page-number">{{ $totalPages }}</a>
+              {{ end }}
+            {{ end }}
+            
+            {{/* Next Arrow */}}
+            {{ if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}" class="page-arrow next" aria-label="Next page">→</a>
+            {{ end }}
+          </div>
           
-          {{/* Ellipsis if needed */}}
-          {{ if gt $totalPages 4 }}
-          <span class="page-ellipsis">...</span>
-          {{ end }}
-          
-          {{/* Next Arrow only */}}
-          {{ if $paginator.HasNext }}
-          <a href="{{ $paginator.Next.URL }}" class="page-arrow next" aria-label="Next page">→</a>
-          {{ end }}
+          {{/* Page info and jump-to */}}
+          <div class="pagination-info">
+            <span class="page-count">Page {{ $currentPage }} of {{ $totalPages }}</span>
+            <form class="page-jump" onsubmit="return jumpToPage(this, '{{ $baseURL }}', {{ $totalPages }})">
+              <label for="page-jump-input" class="visually-hidden">Go to page</label>
+              <input type="number" 
+                     id="page-jump-input" 
+                     class="page-jump-input" 
+                     min="1" 
+                     max="{{ $totalPages }}" 
+                     placeholder="Page #"
+                     aria-label="Page number">
+              <button type="submit" class="page-jump-btn">Go</button>
+            </form>
+          </div>
         </nav>
+        
+        <script>
+        function jumpToPage(form, baseURL, totalPages) {
+          var input = form.querySelector('input');
+          var page = parseInt(input.value, 10);
+          if (page >= 1 && page <= totalPages) {
+            if (page === 1) {
+              window.location.href = baseURL;
+            } else {
+              window.location.href = baseURL + 'page/' + page + '/';
+            }
+          } else {
+            alert('Please enter a page number between 1 and ' + totalPages);
+          }
+          return false;
+        }
+        </script>
         {{ end }}
       </main>
       
