@@ -8,6 +8,7 @@
         {{ with .CurrentSection }}
         <li><a href="{{ .Permalink }}">{{ .Title | upper }}</a></li>
         {{ end }}
+        <li aria-current="page">{{ $.Title | truncate 50 }}</li>
       </ol>
     </nav>
   </div>

@@ -57,7 +57,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a { color: var(--treasury-navy-light); }
-a:hover { color: var(--treasury-navy); }
+a:hover { 
+  color: var(--treasury-navy); 
+  text-decoration: underline;
+}
+a:focus {
+  outline: 2px solid var(--treasury-gold);
+  outline-offset: 2px;
+}
 img { max-width: 100%; height: auto; }
 
 .container {
@@ -84,10 +91,25 @@ img { max-width: 100%; height: auto; }
 }
 
 /* Global focus styles for accessibility (WCAG 2.4.7, 2.4.11) */
+/* Use :focus for maximum compatibility, :focus-visible for modern browsers */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[role="button"]:focus {
+  outline: 2px solid var(--treasury-gold);
+  outline-offset: 2px;
+}
+
+/* Enhanced focus for keyboard navigation (modern browsers) */
 a:focus-visible,
 button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
 [role="button"]:focus-visible {
-  outline: 2px solid var(--treasury-gold);
+  outline: 3px solid var(--treasury-gold);
   outline-offset: 2px;
 }
 
@@ -267,7 +289,7 @@ button:focus-visible,
   background: transparent;
 }
 
-.usa-banner-content[hidden] { display: none; }
+.usa-banner-content[hidden] { display: none; visibility: hidden; }
 
 .usa-banner-guidance {
   display: flex;
@@ -474,6 +496,7 @@ button.nav-link {
 /* Mega Menu Dropdown - Full Width, Scrollable */
 .mega-menu {
   display: none;
+  visibility: hidden;
   position: absolute;
   top: 100%;
   left: 0;
@@ -494,6 +517,7 @@ button.nav-link {
 /* Show mega menu when button has aria-expanded="true" */
 .nav-item.has-dropdown .nav-link[aria-expanded="true"] + .mega-menu {
   display: block;
+  visibility: visible;
 }
 
 .mega-menu-inner {
@@ -594,6 +618,11 @@ button.nav-link {
 
 .search-dropdown[hidden] {
   display: none;
+  visibility: hidden;
+}
+
+.search-dropdown:not([hidden]) {
+  visibility: visible;
 }
 
 .search-form {
