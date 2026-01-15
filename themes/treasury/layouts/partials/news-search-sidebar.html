@@ -607,7 +607,7 @@
         {{ range $filters.countries }}
         <label class="checkbox-item">
           <input type="checkbox" name="country" value="{{ .id }}">
-          <span>{{ .label }}</span>
+          <span>{{ .flag }} {{ .label }}</span>
         </label>
         {{ end }}
       </div>

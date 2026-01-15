@@ -47,15 +47,15 @@
     {"id": "fiscal-service", "label": "Bureau of the Fiscal Service"}
   ],
   "countries": [
-    {"id": "russia", "label": "Russia"},
-    {"id": "china", "label": "China"},
-    {"id": "iran", "label": "Iran"},
-    {"id": "northkorea", "label": "North Korea"},
-    {"id": "ukraine", "label": "Ukraine"},
-    {"id": "venezuela", "label": "Venezuela"},
-    {"id": "syria", "label": "Syria"},
-    {"id": "cuba", "label": "Cuba"},
-    {"id": "myanmar", "label": "Myanmar"},
-    {"id": "afghanistan", "label": "Afghanistan"}
+    {"id": "russia", "label": "Russia", "flag": "🇷🇺"},
+    {"id": "china", "label": "China", "flag": "🇨🇳"},
+    {"id": "iran", "label": "Iran", "flag": "🇮🇷"},
+    {"id": "northkorea", "label": "North Korea", "flag": "🇰🇵"},
+    {"id": "ukraine", "label": "Ukraine", "flag": "🇺🇦"},
+    {"id": "venezuela", "label": "Venezuela", "flag": "🇻🇪"},
+    {"id": "syria", "label": "Syria", "flag": "🇸🇾"},
+    {"id": "cuba", "label": "Cuba", "flag": "🇨🇺"},
+    {"id": "myanmar", "label": "Myanmar", "flag": "🇲🇲"},
+    {"id": "afghanistan", "label": "Afghanistan", "flag": "🇦🇫"}
   ]
 }
