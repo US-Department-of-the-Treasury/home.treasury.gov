@@ -29,7 +29,8 @@ from bs4 import BeautifulSoup
 
 # Configuration
 BASE_URL = "https://home.treasury.gov/jsonapi/node/news"
-CONTENT_DIR = Path(__file__).parent.parent / "content" / "news"
+DEFAULT_CONTENT_DIR = Path(__file__).parent.parent / "content" / "news"
+CONTENT_DIR = DEFAULT_CONTENT_DIR  # Can be overridden by --output-dir
 TIMEOUT = 30
 
 # News category mapping (name -> UUID from taxonomy_term/news_category)
@@ -582,8 +583,19 @@ Categories:
         action="store_true",
         help="Show detailed output including recategorization decisions",
     )
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        help="Output directory for content (default: content/news/)",
+    )
     
     args = parser.parse_args()
+    
+    # Override output directory if specified
+    global CONTENT_DIR
+    if args.output_dir:
+        CONTENT_DIR = Path(args.output_dir)
+        CONTENT_DIR.mkdir(parents=True, exist_ok=True)
     
     # Validate arguments
     if not args.category and not args.path_filter:
