@@ -17,7 +17,7 @@ We analyze the geographic and socioeconomic distribution of clean investment ann
 - It is well-established that clean investments grew meaningfully after the IRA passed. But we find that clean investments grew especially quickly in “Energy Communities,” areas with a history of fossil fuel production, where clean industry potential exists but opportunity has been scarce.
 - Since the IRA passed, clean investments have been landing in more economically disadvantaged counties: those with below average wages, incomes, employment rates, and college graduation rates. More than 80 percent of post-IRA clean investments have gone to counties with below-average wages; more than 85 percent have gone to counties with below-average college graduation rates. This is true for all regions of the country and all technologies supported by the IRA; the investment and benefits tend to accrue to disadvantaged counties.
 
-### Investments in Energy Communities
+## Investments in Energy Communities
 
 The IRA aims to increase clean energy investment throughout the United States, and especially in communities that historically relied on fossil fuels for employment and wages. Towards these goals, the IRA includes a tax credit for clean electricity investment and production, and a bonus that increases the tax credit for clean electricity investment and production in “Energy Communities.” Energy Communities are defined as areas with a coal mine or coal plant closure, areas that had high fossil fuel employment and a recently high unemployment rate, or brownfield sites (such as land that is underutilized due to pollution from former industrial use).[1]
 
@@ -31,7 +31,7 @@ Source: Rhodium Group and MIT Center for Energy and Environmental Policy Researc
 
 Figure 1 shows that after the IRA was passed, clean investment grew more quickly in Energy Communities than in non-Energy Communities. Before the IRA was signed in August 2022, announced bonus-eligible investment was about $2 billion per month in Energy Communities and $2.5 billion per month in the rest of the United States. After the IRA was signed, clean energy investment announcements increased to $5 billion per month in Energy Communities and about $4 billion per month in non-Energy Communities. Put simply, clean energy investment is booming throughout the United States, and investment is growing even faster in Energy Communities.[5]
 
-### Economic Characteristics of Counties Receiving Clean Investments
+## Economic Characteristics of Counties Receiving Clean Investments
 
 Analyzing broader measures, we again find that clean investments are concentrated in economically disadvantaged counties. We again turn to the Clean Investment Monitor data, with 5,161 active post-2017 project announcements investing $624 billion, of which 869 announcements and $199 billion are post-IRA.[6]The following figures plot the socioeconomic distributions of clean investment dollars and compare distributions to the national aggregate measures.[7]
 
@@ -81,7 +81,7 @@ Moreover, Figure 8 shows these investment trends are happening across all the te
 
 Source: Clean Investment Monitor; Census Bureau; U.S. Treasury calculations. Median household income is the 2021 value.
 
-### Conclusion
+## Conclusion
 
 The Inflation Reduction Act is designed to address climate change while growing the economy. But the IRA was also crafted to grow the economy from the bottom-up and the middle-out, not just on aggregate. Increasing economic growth, mitigating climate change, and improving energy security while benefiting American communities that have historically been left behind is a key element of President Biden’s economic agenda. Clean investments generally, and the IRA specifically, steer investment dollars to Energy Communities with economies historically reliant on fossil fuels and to counties with lower-income and less-educated populations that stand to benefit from increased economic opportunity.
 

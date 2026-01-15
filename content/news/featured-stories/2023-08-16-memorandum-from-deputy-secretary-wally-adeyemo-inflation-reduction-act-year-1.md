@@ -29,7 +29,7 @@ While more productivity gains and long-term economic growth will come in years t
 - ** Tackling climate change**by accelerating the development, adoption, and deployment of clean energy technologies.
  
 
-### Creating Good-Paying Jobs
+## Creating Good-Paying Jobs
 
 A central tenet of the Inflation Reduction Act is spurring job creation across the United States. These investments in clean energy are a prime example of Secretary Yellen’s modern supply-side economics framework—harnessing government action to promote growth while addressing climate change and inequality. Not only do these investments generate long-term economic growth for the whole country, but they also create jobs in disadvantaged communities.
 
@@ -42,7 +42,7 @@ Over the past twelve months, we’ve seen these investments start to translate t
 - Moving forward, clean energy investments[could](https://laborenergy.org/fact-sheets/lep-analysis-of-the-inflation-reduction-act-key-findings-on-jobs-inflation-and-gdp/)[support](https://repeatproject.org/docs/REPEAT_Climate_Progress_and_the_117th_Congress.pdf)over 1.5 million clean energy jobs in the United States by 2030.
  
 
-### Strengthening Our Energy Security
+## Strengthening Our Energy Security
 
 Events of the past year – from climate emergencies and supply chain snarls to Russia’s weaponization of exports – have further demonstrated the acute need to invest in our energy security and transition. The Inflation Reduction Act equips us to do so by accelerating the development and deployment of clean energy, including key supply chains. Getting clean technologies to market faster, supported by reliable supply chains for essential components, is key to building a resilient energy sector, while also ensuring that lower energy costs for Americans are not dependent on unreliable geopolitical actors.
 
@@ -53,7 +53,7 @@ Events of the past year – from climate emergencies and supply chain snarls to 
 - Households that take advantage of the electric vehicle incentives can[save](https://rhg.com/research/taking-stock-2023/)thousands per year on energy and fuel costs, as electric vehicle drivers will see their fuel costs go[down](https://advocacy.consumerreports.org/wp-content/uploads/2020/10/EV-TCO-Overall-Fact-Sheet-FINAL-3.pdf)by about 60 percent.
  
 
-### Tackling Climate Change
+## Tackling Climate Change
 
 Curbing carbon emissions necessitates the development and adoption of clean energy. For too long, the United States has lagged in making the adequate investments needed to accelerate a clean energy transition. The incentives in the Inflation Reduction Act have positioned the United States to lead on clean energy and meet our goals.
 
@@ -67,7 +67,7 @@ These incentives and investments are, of course, part of our broader, whole-of-g
 
  
 
-### Next Steps
+## Next Steps
 
 In our first year of implementation, the Treasury Department has focused on achieving three goals: creating good-paying jobs, strengthening our energy security, and tackling the climate crisis. Our efforts have stretched across the Department, including the Office of Tax Policy, Climate Hub, Inflation Reduction Act Program Office, and the Office of the Deputy Assistant Secretary for Management and Budget. At the same time, the Treasury Department is working closely with the IRS to modernize the agency’s customer service and technology and ensure the Inflation Reduction Act’s clean energy tax incentives are delivered accurately and seamlessly.
 
@@ -77,7 +77,7 @@ At Treasury, we are focused on implementing the clean energy tax provisions as q
 
  
 
-### Clean Energy Investments Announced Since Passage of Inflation Reduction Act
+## Clean Energy Investments Announced Since Passage of Inflation Reduction Act
 
  
 

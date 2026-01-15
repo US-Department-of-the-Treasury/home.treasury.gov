@@ -6,7 +6,7 @@ url: /news/featured-stories/update-to-treasurys-efforts-to-foster-a-more-inclusi
 ---
 On his first day in office, President Biden called upon federal agencies to do everything in their power to remove persistent structural obstacles that have held too many businesses, neighborhoods, and families back from achieving their full potential.  For Black Americans in particular—who have been impacted by acute legacies of racism and policies that still result in disparate outcomes across indicators of health, education, and financial security, and more—this work remains urgent. The Treasury Department is galvanized to unlock the economic potential of underserved Black communities, an endeavor which ultimately means a stronger economy for all of us.  As we reflect on Black History Month and the importance of this work, I want to highlight some of the progress made and to affirm our commitment:
 
-### Equitable Recovery
+## Equitable Recovery
 
 During the Great Recession of 2008-2011, the emotional and financial toll of foreclosure, particularly on underserved families, was devastating.  According to Treasury staff calculations,[Black families lost 44% of their wealth](https://www.federalreserve.gov/econres/scfindex.htm)between 2007 and 2013 and had not fully recovered it when COVID-19 struck.  The potential for such economic scarring commanded swift, decisive action by Congress and the Biden-Harris Administration.  Through President Biden’s historic suite of legislation, starting with the American Rescue Plan, Treasury and other federal agencies were able to put supports in place for economic[recovery, including Black economic recovery, to happen quickly and more equitably](https://home.treasury.gov/news/featured-stories/equitable-recovery-in-the-united-states), the results of which are showing up in meaningful ways:
 
@@ -25,11 +25,11 @@ As Deputy Secretary of the Treasury Wally Adeyemo described in his[fireside chat
 
 Looking ahead, our goal is to make sure these recent achievements are not a one-time attempt but embedded in Treasury’s mission to drive a strong and secure economy in the long-term.  This month, we have two major announcements that reinforce and advance this vision:
 
-### Hiring Treasury’s Inaugural Chief DEIA Officer
+## Hiring Treasury’s Inaugural Chief DEIA Officer
 
 Recently, we welcomed Dr. Rhianna C. Rogers as the first Chief Diversity, Equity, Inclusion, and Accessibility (DEIA) Officer, signifying a strategic move towards transformative leadership.  Dr. Rogers is renowned for her expertise and transformative impact at RAND Corporation and brings a unique background that aligns seamlessly with our commitment to diversity and inclusion.  In her new role, Dr. Rogers will continue to build a Treasury team that empowers all communities, embodying the principles of equity and inclusion.  Her appointment is a testament to the Treasury Department’s forward-thinking approach, ensuring that inclusivity is not just a goal but a lived reality.
 
-### Charting our path forward
+## Charting our path forward
 
 On February 14th, our dedication to an inclusive future was affirmed with the release of the Department’s[Equity Action Plan.](https://home.treasury.gov/system/files/136/EO-14091-Treasury-EAP-2023.pdf)This comprehensive roadmap charts the course forward, outlining six strategies to tackle persistent barriers to economic opportunity that have marginalized underserved communities throughout our nation’s history.  Key strategies include:
 

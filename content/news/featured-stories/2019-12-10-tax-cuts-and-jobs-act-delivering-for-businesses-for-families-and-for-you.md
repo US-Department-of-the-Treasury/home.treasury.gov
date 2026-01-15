@@ -4,11 +4,11 @@ date: 2019-12-10
 draft: false
 url: /news/featured-stories/tax-cuts-and-jobs-act-delivering-for-businesses-for-families-and-for-you
 ---
-### The Tax Cuts and Jobs Act is delivering for families and for you.
+## The Tax Cuts and Jobs Act is delivering for families and for you.
 
 Nearly two years since the passage of the Tax Cuts and Jobs Act (TCJA), our economy is thriving. The TCJA is delivering real,**tangible** benefits for the American people.  Unemployment rates are at**multi-decade lows**, more people are keeping their** hard-earned money**and, most importantly, are enjoying the economic freedom to live their version of the** American dream**. American** workers**and their** families**are experiencing the benefits of** pro-growth policies **that are generating** booming job creation**and** wage growth**.
 
-#### Here are the facts:
+### Here are the facts:
 
 - Thanks in large part to TCJA,** unemployment is at its lowest rate in nearly a half century.**[**[1]**](https://home.treasury.gov/node/add/news#_ftn1)Since November 2016,**24 states** have achieved or matched their lowest-ever unemployment rates.[[2]](https://edit.treasury.gov/node/add/news#_ftn2)Unemployment rates for African Americans, Asian Americans and Hispanic Americans have hit**all-time lows**.[[3]](https://edit.treasury.gov/node/add/news#_ftn3)
 - You are earning more and keeping** more of your hard-earned**money.We are in the midst of a**16-month streak** of 3% year-over-year wage growth.[[4]](https://edit.treasury.gov/node/add/news#_ftn4)The typical family earning $75,000 also received a tax cut of over $2,000.[[5]](https://edit.treasury.gov/node/add/news#_ftn5)
@@ -17,13 +17,13 @@ Nearly two years since the passage of the Tax Cuts and Jobs Act (TCJA), our econ
 - American consumers continue to drive economic growth. Real consumer spending grew at** a strong 2.9%**annual rate in Q3 of 2019, up from the 2.6% pace set during the preceding four quarters.[[12]](https://edit.treasury.gov/node/add/news#_ftn12)Real disposable personal income grew at a 2.9% annual rate in Q3 of 2019, a total** increase of nearly $110 billion**.[[13]](https://edit.treasury.gov/node/add/news#_ftn13)The average pace of annual growth in** real disposable personal income per household under the Trump Administration ($2,577) has nearly doubled the pace**from President Obama’s expansion period ($1,606).[[14]](https://edit.treasury.gov/node/add/news#_ftn14)
 - The stock market is reaching unprecedented heights, allowing the average American to put away more money for their retirement.Both the S&P 500 and Dow Jones Industrial Average** have seen record highs**this fall.[[15]](https://edit.treasury.gov/node/add/news#_ftn15)Since fall of 2016, the S&P 500 has increased a whopping 50.3% which means the** average American saving for retirement by holding the S&P 500 index saw a more than 50% increase in the value of their retirement plan. **[[16]](https://edit.treasury.gov/node/add/news#_ftn16)According to the 2017 Survey of Consumer Finance, the median retirement account had assets of approximately $60,000 in 2016.[[17]](https://edit.treasury.gov/node/add/news#_ftn17)If that account were invested in the stock market for the last three years, that**$60,000 has increased to approximately $90,000**, without including any additional contributions.
 
-### Tax Cuts and Jobs Act: Delivering Real Results for American Businesses
+## Tax Cuts and Jobs Act: Delivering Real Results for American Businesses
 
-#### The Tax Cuts and Jobs Act is delivering for American businesses.
+### The Tax Cuts and Jobs Act is delivering for American businesses.
 
 The TCJA is serving as the jet-fuel our economy needed to** soar to new heights**.It has made our economy** competitive again, **resulting in** higher GDP growth, faster job creation, ** and** increased wages ** for hardworking Americans.  In almost every measurable statistical category, the**U.S. economy is exceeding expectations** and**outperforming** other G7 economies.  As a result of the TCJA, businesses have been able to**invest** in**more workers** and**more U.S. business operations**. Businesses are now able to offer more opportunities to hardworking Americans and our economy is reaping the benefits.
 
-#### Here are the facts:
+### Here are the facts:
 
 - Through TCJA and other administration actions, our economy is** creating jobs at an exceptional pace. **Since November 2016, the economy has added more than**7 million jobs.**[**[18]**](https://edit.treasury.gov/node/add/news#_ftn18)For reference, this is more than the combined 2018 populations of Wyoming, Vermont, Alaska, North Dakota, South Dakota, Delaware, Rhode Island, and Montana.** There are 5.1 million more jobs than the Congressional Budget Office (CBO) had projected in its August 2016 report.**[**[19]**](https://edit.treasury.gov/node/add/news#_ftn19)
 - Over the past twelve months, employment growth has averaged a whopping**183,700 jobs a month**.[[20]](https://edit.treasury.gov/node/add/news#_ftn20)According to the most recent data available from the Bureau of Labor Statistics, there are nearly**1.3 million more job openings** than unemployed persons.[[21]](https://edit.treasury.gov/node/add/news#_ftn21)September 2019 marks the**19th month in a row** where there**were more jobs available** than people to fill them. This is**a first since the data series began in the year 2000**.[[22]](https://edit.treasury.gov/node/add/news#_ftn22)

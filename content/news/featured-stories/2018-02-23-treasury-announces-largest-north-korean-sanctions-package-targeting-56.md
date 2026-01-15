@@ -14,7 +14,7 @@ As a result of today’s action, any property or interests in property of the de
 
  
 
-### OFAC Issues Global Shipping Advisory
+## OFAC Issues Global Shipping Advisory
 
 In addition to sanctions, OFAC issued a global shipping advisory today, in consultation with the U.S. Department of State and the U.S. Coast Guard, to alert persons of the significant sanctions risks to those continuing to enable shipments of goods to and from North Korea.  The advisory also alerts industries to North Korea’s deceptive shipping practices.[Advisory provided](https://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Documents/dprk_vessel_advisory_02232018.pdf).
 
@@ -27,7 +27,7 @@ North Korea is known to employ deceptive shipping practices including, but not l
  
  
 
-### Third-Country Shipping and Oil Targets
+## Third-Country Shipping and Oil Targets
 
 Today, OFAC sanctioned nine international shipping companies and nine of their vessels pursuant to E.O. 13810.  The following vessels have been used to export coal from North Korea or to engage in UN-prohibited ship-to-ship transfers of refined petroleum products.  The regime has been known to use coal export revenues to fund its weapons of mass destruction and missile programs.  These vessels are capable of carrying over $5.5 million worth of coal at a time:
 
@@ -54,7 +54,7 @@ OFAC also designated Taiwan citizen Tsang Yung Yuan pursuant to E.O. 13722.  Ts
 
  
 
-### North Korean Shipping and Trading Companies
+## North Korean Shipping and Trading Companies
 
 OFAC designated the following 16 North Korean shipping companies pursuant to E.O. 13810 for operating in the transportation industry in North Korea and blocked 19 of their North Korean-flagged vessels:
 

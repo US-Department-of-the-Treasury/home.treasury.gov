@@ -18,7 +18,7 @@ The Strategic Operating Plan details five objectives to achieve the goal of prov
 
 The Plan also complies with Secretary Yellen’s directive that IRA resources will not be used to raise audit rates for small businesses and households making less than $400,000 a year, relative to historical levels.
 
-### Customer Service and Taxpayer Experience
+## Customer Service and Taxpayer Experience
 
 Under the Strategic Operating Plan, the IRS will help taxpayers get it right, and taxpayers will be able to seamlessly interact with the IRS in the ways that work best for them on the phone, in-person, and online.
 
@@ -26,7 +26,7 @@ In the first five years of the 10-year plan, taxpayers will be able to securely 
 
 For the first time, the IRS will also help taxpayers identify potential mistakes before filing, quickly fix errors that delay their refunds, and more easily claim the credits and deductions they are eligible for. For example, IRS will prompt taxpayers to correct simple math errors before filing and send emails explaining credits and deductions.
 
-### Technology
+## Technology
 
 Modernizing decades-old technology will drive the IRS’ efforts to provide world-class customer service. In the first five years of the 10-year plan, the IRS will eliminate paper backlogs that have delayed taxpayer refunds by digitizing forms and returns when they are received and transitioning to fully digital correspondence processes. While the IRS will preserve paper filing options, scanning and digitizing all returns at the outset will allow IRS to increase efficiency and improve service.
 
@@ -34,7 +34,7 @@ IRS will also retire outdated components of its core tax processing systems, rep
 
 These technology investments will also allow the IRS to continue to meet and enforce industry and government-wide cybersecurity standards and ensure continued protection of taxpayer data. The certainty provided by Inflation Reduction Act resources will allow for system-wide technology upgrades the IRS has lacked the resources to do.
 
-### Enforcement
+## Enforcement
 
 Due to a lack of resources and loss of top talent, audits of the wealthy and large corporations have plummeted over the last decade, and the amount of taxes evaded by the top 1 percent has exploded to $160 billion per year. Audit rates for millionaires fell by 77 percent, audit rates for large corporations fell by 44 percent, and audit rates for partnerships fell by 80 percent between 2010 and 2017.
 

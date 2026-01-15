@@ -12,7 +12,7 @@ url: /news/featured-stories/treasury-designates-supreme-leader-of-irans-inner-ci
 
 This action is being taken pursuant to President Donald J. Trump’s Executive Order (E.O.) 13876, signed on June 24, 2019. The E.O. imposed sanctions on the Supreme Leader of the Islamic Republic of Iran and the Supreme Leader’s Office (SLO), and authorized sanctions on others associated with the Supreme Leader or the SLO. Today’s actions complement Treasury’s previous additions of Supreme Leader Khamenei and the Iranian regime’s Foreign Minister, Javad Zarif, to OFAC’s List of Specially Designated Nationals and Blocked Persons (SDN List).
 
-### Ebrahim Raisi and Mojtaba Khamenei
+## Ebrahim Raisi and Mojtaba Khamenei
 
 Today, OFAC designated Ebrahim Raisi, the head of Iran’s Judiciary, who was appointed by the Supreme Leader in March 2019. OFAC designated the former head of Iran’s Judiciary Sadegh Amoli Larijani Larijani in January 2018 pursuant to E.O. 13553 for his administrative oversight over the executions of individuals who were juveniles at the time of their crime and the torture and other cruel, inhuman, or degrading treatment or punishment of prisoners in Iran, including amputations.
 
@@ -24,7 +24,7 @@ Mojtaba Khamenei, the second son of the Supreme Leader, is designated today for 
 
 Ebrahim Raisi is being designated pursuant to E.O. 13876 for being a person appointed to a position as a state official of Iran by the Supreme Leader of Iran. Mojtaba Khamenei is being designated for having acted or purported to act for or on behalf of, directly or indirectly, the Supreme Leader of Iran.
 
-### Mohammadi Golpayegani and Vahid Haghanian
+## Mohammadi Golpayegani and Vahid Haghanian
 
 Also designated today is Mohammad Mohammadi Golpayegani, the Supreme Leader’s Chief of Staff and one of the most senior officials within the Supreme Leader’s Office. Mohammadi Golpayegani often represents the Supreme Leader and his office in public engagements on behalf of the Supreme Leader’s Office.
 
@@ -34,7 +34,7 @@ OFAC is also designating Vahid Haghanian who has been referred to as the Supreme
 
 Mohammad Mohammadi Golpayegani is being designated pursuant to E.O. 13876 for having acted or purported to act for or on behalf of, directly or indirectly, the Supreme Leader’s Office. Vahid Haghanian is being designated for having acted or purported to act for or on behalf of, directly or indirectly, the Supreme Leader of Iran.
 
-### Ali Akbar Velayati and Gholam-Ali Hadad-Adel
+## Ali Akbar Velayati and Gholam-Ali Hadad-Adel
 
 OFAC is designating Ali Akbar Velayati, a senior advisor to the Supreme Leader who has helped the Iranian regime extend credit lines to the brutal Assad regime.
 
@@ -46,13 +46,13 @@ Also designated today is Gholam-Ali Hadad-Adel, father-in-law of Mojtaba Khamene
 
 Ali Akbar Velayati is being designated pursuant to E.O. 13876 for having acted or purported to act for or on behalf of, directly or indirectly, the Supreme Leader of Iran. Gholam-Ali Hadad-Adel is being designated for having acted or purported to act for or on behalf of, directly or indirectly, the Supreme Leader of Iran.
 
-### Armed Forces General Staff andMohammad Bagheri
+## Armed Forces General Staff andMohammad Bagheri
 
 OFAC is designating Iran’s Armed Forces General Staff (AFGS), the most senior military body in Iran, which implements policy and monitors and coordinates activities within the armed forces, including the IRGC. Ali Khamenei is also the commander-in-chief of Iran’s armed forces, and exercises his authority by appointing the AFGS chief and various other AFGS commanders. In 2016, Ali Khamenei appointed IRGC General Mohammad Bagheri as the chief of AFGS.
 
 Mohammad Bagheri is designated pursuant to E.O. 13876 for being a person appointed to a position as a state official of Iran by the Supreme Leader of Iran. AFGS is designated for being owned or controlled by, or having acted or purported to act for or on behalf of, directly or indirectly, the Supreme Leader of Iran. The IRGC was designated pursuant to E.O. 13382 on October 25, 2007; subsequently designated pursuant to terrorism authorities pursuant to E.O. 13224 on October 17, 2017; and as a Foreign Terrorist Organization in April 2019.
 
-### Hossein Dehghan andGholam Ali Rashid
+## Hossein Dehghan andGholam Ali Rashid
 
 IRGC Brigadier General Hossein Dehghan who is also being designated today, was appointed by Ali Khamenei as his military aide for the Defense Industries and Armed Forces Logistics. Hossein Dehghan was the commander of IRGC forces in Lebanon and Syria in 1983 when the bombing of a Marine compound in Beirut, Lebanon, killed 241 U.S. service members. Iran’s proxy militia, Hizballah, carried out the attack at the direction of the Iranian regime.
 
@@ -60,7 +60,7 @@ OFAC is designating Gholam Ali Rashid, an IRGC commander, who was appointed by t
 
 Hossein Dehghan and Gholam Ali Rashid are both being designated pursuant to E.O. 13876 for being persons appointed to a position as state official of Iran by the Supreme Leader of Iran.
 
-### Sanctions Implications
+## Sanctions Implications
 
 All property and interests in property of these persons that are in the United States or in the possession or control of U.S. persons must be blocked and reported to OFAC. OFAC’s regulations generally prohibit all dealings by U.S. persons or within (or transiting) the United States that involve any property or interests in property of blocked or designated persons.
 

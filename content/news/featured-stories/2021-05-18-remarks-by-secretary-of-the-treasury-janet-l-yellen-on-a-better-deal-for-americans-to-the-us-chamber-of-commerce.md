@@ -8,7 +8,7 @@ url: /news/featured-stories/remarks-by-secretary-of-the-treasury-janet-l-yellen-
 
 Thank you, Suzanne, for the introduction and for hosting this important forum. The Chamber of Commerce has been a leader in responding to the pandemic and promoting a global recovery. I look forward to continuing to work with you and the private sector to realize the Biden Administration’s vision for a better American economy.
 
-### INTRODUCTION
+## INTRODUCTION
 
 Anyone observing the United States in recent years would see striking contrasts across our economic landscape.
 
@@ -30,9 +30,9 @@ The question today is whether we too can think big and act big. The American peo
 
 Today, I will talk about how the Biden Administration is setting out to do our part—to tackle unaddressed problems that have built up over several decades, improving our economy in ways that will benefit our children and grandchildren. Americans are known for optimism and the ability to achieve what we set our minds to. I have full confidence that we are up to the task.
 
-### TACKLING UNADDRESSED ISSUES
+## TACKLING UNADDRESSED ISSUES
 
-#### Our first problem from day one was COVID-19.
+### Our first problem from day one was COVID-19.
 
 We have experienced a tragic loss of lives over the last year—and also the loss of jobs and livelihoods. By nearly every measure—health, income, wealth, or job loss—lower-income populations have been the hardest hit, with women and people of color facing the worst outcomes.
 
@@ -42,7 +42,7 @@ Beyond vaccines, our goal was to pass the American Rescue Plan to help Americans
 
 At the same time, ending the pandemic gives us the opportunity to shape our recovery and tackle our most pressing socioeconomic challenges.
 
-#### That brings me to the second problem—our long-standing underinvestment in public infrastructure and institutions that drive productivity and support workers and families.
+### That brings me to the second problem—our long-standing underinvestment in public infrastructure and institutions that drive productivity and support workers and families.
 
 To address this, I believe we must reorient our framing of U.S. fiscal policy. For decades, the prevailing focus has been on the need to decrease and then limit the size of government as a share of the economy. Within that framing, there has been broad bipartisan support for ensuring that defense expenditures respond to U.S. security needs and for protecting entitlement spending, which has increased with rising healthcare costs and population aging. Discretionary spending has been compressed as a consequence.
 
@@ -60,13 +60,13 @@ Alongside the Jobs Plan, we are proposing to fundamentally reform the corporate 
 
 We are confident that the investments and tax proposals in the Jobs Plan, taken as a package, will enhance the net profitability of our corporations and improve their global competitiveness. We hope that business leaders will see it this way and support the Jobs Plan.
 
-#### The third problem is that we have failed to meet the looming threat of climate change and we risk falling behind in the race for new low-carbon technologies.
+### The third problem is that we have failed to meet the looming threat of climate change and we risk falling behind in the race for new low-carbon technologies.
 
 We know that climate change poses an existential threat, but we also know that it presents a historic economic opportunity for those companies, industries, and countries that seize the mantle of leadership and drive the transition to a global low carbon economy. Unfortunately, in recent years the federal government largely ignored the problem, while ceding economic leadership to other countries. For example, solar and wind are already the fastest growing segments of the global energy market, but China has taken the lead in both and is racing ahead in developing battery storage technologies as well. Our disadvantage deepened over the last four years with our exit from the Paris Agreement, the removal of dozens of important environmental protections, and our underinvestment in technologies of the future. We are now less prepared than we ought to be for the increasingly frequent and deadly impacts of climate-related weather events and less equipped to lead the global economic transformation underway.
 
 This Administration is acting and will make up for lost time. The** American Jobs Plan **responds to the climate change challenge by investing in new energy infrastructure and supporting research and development that will incentivize innovation in renewable energy technologies. We also need to protect our energy infrastructure against malicious cyber threats. The transition to a greener economy will provide a multi-decade boost to the economy, creating jobs along the way as the private sector participates in the development of new technologies, new investments, and the new products that will drive the global economic transformation.
 
-#### And finally, the fourth problem is the absence of attention to the long-standing impediments and inequities that limit opportunities for social mobility and make everyday life more challenging for many Americans.
+### And finally, the fourth problem is the absence of attention to the long-standing impediments and inequities that limit opportunities for social mobility and make everyday life more challenging for many Americans.
 
 Workers, particularly lower-wage earners, have seen wage growth stagnate over several decades, despite overall rising productivity and national income. There are several contributors to this troubling trend, but one important factor is an erosion in labor’s bargaining power. This partly reflects a decline in unionization and the real minimum wage along with a marked increase in outsourcing, both domestically and globally. Moreover, a large share of the growth in labor income that has occurred has accrued to the top 10 percent of workers in the wage distribution.
 
@@ -82,7 +82,7 @@ The plan also contains a series of meaningful expansions in the earned income ta
 
 The American Families Plan will be paid for by a series of tax reforms that ensure that wealthy individuals are paying their fair share. And we seek to address the rise in tax evasion, which has stacked the deck for decades against responsible and compliant taxpayers.
 
-### AMERICA AS A LEADER IN THE WORLD ECONOMY
+## AMERICA AS A LEADER IN THE WORLD ECONOMY
 
 The initiatives I just outlined are necessary to reshape the American economy, maintain our strong contribution to the global economy, and continue American leadership in the future.
 
@@ -92,7 +92,7 @@ America needs to have a strong presence in global markets. We will fight for a l
 
 At the same time, we should embrace competition abroad as we embrace it at home. Let others innovate and advance. Let us seek to advance faster and further. We ultimately benefit from the positive spillovers of innovation wherever it occurs. As in any competition, if you lose one contest, you work harder to win the next. The better the competition, the stronger you will get. That has been the American way.
 
-### CONCLUSION
+## CONCLUSION
 
 To conclude, it is the time to recommit our government to playing a more active and smarter role in the economy. The Administration’s planned actions are not fiscal stimulus in the way we have seen in the past. Nor are they intended to target a particular size of government. Rather, we’re proposing smart investments—to make our economy more competitive and sustainable, to provide opportunities for all families and workers, and to make our tax system fairer.
 

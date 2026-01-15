@@ -8,7 +8,7 @@ url: /news/featured-stories/treasurys-housing-agenda
 
 In June 2021, I wrote a[blog post](https://secjanetyellen.medium.com/the-state-of-the-housing-market-2f3cece054e)about the state of the American housing market, highlighting the impacts of the COVID-19 pandemic and the steps the Biden-Harris Administration was taking to address the challenges Americans faced. Today, I want to provide an overview of four new actions Treasury is taking in support of increasing the supply of housing.
 
-### Housing Supply
+## Housing Supply
 
 I want to start by putting the current state of the housing market in the context of the robust economic recovery. Real wages are rising, our labor market is historically strong, and inflation has substantially declined. Americans have seen gas prices at the pump decrease by around $1.70, and they’re starting to see the price of goods at the grocery store like eggs and milk decrease significantly as well.
 
@@ -20,7 +20,7 @@ The lack of supply is helping to drive up housing costs for American families. H
 
 That’s why the President has[called on Congress](https://www.whitehouse.gov/omb/briefing-room/2023/03/09/fact-sheet-president-bidens-budget-lowers-housing-costs-and-expands-access-to-affordable-rent-and-home-ownership/)to invest more than $175 billion to advance our housing agenda. It’s also why the Administration supports the bipartisan Congressional tax packagethat would expand the Low-Income Housing Credit (LIHTC) and help create approximately 200,000 housing units. While these investments are much needed, we are not waiting for Congress to act. In the short term, we are taking a number of administrative steps to help preserve or increase the supply of housing throughout the country.
 
-### Treasury’s Ongoing Housing Efforts
+## Treasury’s Ongoing Housing Efforts
 
 When most people think of the Treasury Department, they don’t immediately think about housing policy. Yet over the last several decades, Congress has provided Treasury with a number of tools that we are using to incentivize the preservation and building of more housing.
 
@@ -32,7 +32,7 @@ Finally, we are making leveraged investments in housing markets through our supp
 
 Earlier this year, the CFDI Fund released new funds for the Capital Magnet Fund (CMF), a dedicated program to support affordable housing solutions and community revitalization efforts. Our three rounds of CMF awards since 2021 are projected to develop 96,700 affordable housing units. Last month, the CDFI Fund announced another round of funding availability through the CMF, and we anticipate making more than $246 million available for housing-related uses. And recipients of several other CDFI Fund programs reported lending to support 166,738 affordable housing units in FY2021 and FY2022.
 
-### Today’s Actions
+## Today’s Actions
 
 Today, we are taking four additional steps to enable state and local governments to use federal resources to preserve and expand the supply of housing.
 
@@ -46,7 +46,7 @@ These changes to the SLFRF and ERA programs respond to feedback we have received
 
 **Fourth, we are working with federal and state regulators studying rising insurance costs and decreasing insurance coverage so that we can understand the impact of lack of affordable insurance on housing supply in different parts of the country. ** In part due to the frequency of climate-related disasters, we know that some homeowners are facing rising insurance costs or decreased coverage. Today, we lack granular data about where homeowners have been hardest-hit, and where and to what extent insurers are pulling back from certain markets. That’s why Treasury’s Federal Insurance Office is advancing an effort to collect data on homeowners insurance. Beyond a challenge to today’s homeowners, we also know that these insurance issues can strain operators of multifamily housing. Building on a convening we held last week, we intend to continue monitoring these impacts in close coordination with states, who are the primary regulators of the insurance industry. Finally, while Treasury is focused on increased supply of housing, regulators must also remain attentive to the impact that redlining can have on the cost of housing in certain communities.
 
-### Treasury’s 2024 Housing Agenda
+## Treasury’s 2024 Housing Agenda
 
 The actions we are taking today will have a modest but important impact on housing supply. We know that there is much more to be done to address a problem of this magnitude. That’s why we are committed to building on these efforts to make other critical investments to preserve and expand the housing­­­­ supply in the year ahead and beyond.
 

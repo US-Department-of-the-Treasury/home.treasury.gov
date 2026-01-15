@@ -14,7 +14,7 @@ The Treasury Department will continue to take strong action to foster accountabi
 
  
 
-### Fighting Corruption Starts at Home
+## Fighting Corruption Starts at Home
 
 Corruption undermines public trust and weakens the integrity of our financial system when officials abuse their positions, illicit actors launder funds through U.S. bank accounts and hide their identities and wealth behind U.S.-based shell companies. Self-dealing officials use the scale and vibrancy of the U.S. economy against us, hiding their wealth and exploiting[weaknesses](https://home.treasury.gov/news/press-releases/jy0619)in the United States’ anti-money laundering and countering the financing of terrorism (AML/CFT) framework to carry out their crimes.
 
@@ -24,7 +24,7 @@ Without concerted and systematic efforts to address these weaknesses, illicit ac
 
  
 
-### Treasury’s Regulatory Work to Counter Corruption
+## Treasury’s Regulatory Work to Counter Corruption
 
 Given the scale and global interconnectedness of the U.S. financial system, the steps that Treasury takes to safeguard the U.S. economy will radiate outward—reducing the ability of corrupt actors around the world to move and stash their stolen wealth, and dampening corruption’s corrosive effects on democracy and equitable economic growth.
 
@@ -38,7 +38,7 @@ We know that the corrupt and the self-dealing rarely work alone. So, Treasury is
 
  
 
-### Multilateral Efforts
+## Multilateral Efforts
 
 Corrupt actors will search the world for weak links to carry out their crimes; as long as there are financial or regulatory vulnerabilities around the world to exploit, they can and will. Treasury is working closely with international partners in the Financial Action Task Force (FATF), the G7, and the G20 to strengthen global standards and efforts to fight corruption.
 

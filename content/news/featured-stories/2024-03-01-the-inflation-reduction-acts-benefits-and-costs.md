@@ -19,7 +19,7 @@ In this post, we make a different point: The economic case for the IRA is strong
 - The IRA will yield cumulative global economic benefits from reduced greenhouse gas pollution of over $5 trillion from the present to 2050.[That understates the IRA’s benefits by counting only climate benefits, omitting many of the benefits we described earlier](https://home.treasury.gov/news/featured-stories/the-inflation-reduction-act-pro-growth-climate-policy), including the fact that the IRA will also reduce local air pollution, providing domestic health and productivity gains to the United States. Lower-bound estimates of the benefits from those local pollution reductions range from $20 to $49 billion in 2030 alone, compared to that year’s climate benefits estimated at $137 billion.[1]
 - The IRA’s projected costs to the U.S. federal budget are mostly reductions in taxes owed by U.S. taxpayers or increases in federal payments to those taxpayers.  Those are important but overstate the true resource costs the IRA imposes on the U.S. economy, because they only include one side of each transaction.  Tax credits paid by the federal government are received as benefits by American drivers who purchase electric cars, homeowners who install efficient heat pumps, and investors who build factories and power plants to equip and fuel the clean energy transition
 
-### The Benefits of the IRA: Worldwide Climate BenefitsandImproved Air Quality in the United States
+## The Benefits of the IRA: Worldwide Climate BenefitsandImproved Air Quality in the United States
 
 Burning fossil fuels—for electricity, transportation, manufacturing, or any other purpose—causes two major environmental problems.  One is the global climate damages caused by greenhouse gases, or CO2e.  A second involves damage to* local*air quality here in the United States, including from sulfur dioxide, nitrogen oxides, volatile organic compounds, and particulate matter.
 
@@ -27,7 +27,7 @@ Much of the attention paid to the IRA’s environmental benefits has involved th
 
 Figure 1 depicts the effect of the IRA on CO2e emissions.  The thick black line from 2000 until 2021 shows how historical emissions have been declining for the past 20 years.  The colored lines through 2050 depict projected future emissions, with and without the IRA, based on the six most comprehensive models summarized by* Science*; the thinner colored lines depict each of the six models projections separately; and the thick blue lines depict the average of the six models’ projections with and without the IRA.[3]The green shaded area between the two averages represents the total greenhouse gases (CO2e) that the IRA is projected to mitigate from now through 2050, 21 billion tons.
 
-#### Figure 1. Projected Greenhouse Gas Emissions Reductions
+### Figure 1. Projected Greenhouse Gas Emissions Reductions
 
  Source:  Historic net emissions for 2000-2021 from [EPA Emissions Inventory (2022)](https://cfpub.epa.gov/ghgdata/inventoryexplorer/#allsectors/allsectors/allgas/econsect/all).   Projected future emissions based on Bistline et al. (2023).  Each pair of dashed and solid lines represents the projections from one of the six models, with and without the IRA.  The thick lines represent the simple averages of the six. 
 
@@ -37,7 +37,7 @@ As greenhouse gases accumulate in the atmosphere and temperatures rise, each new
 
 To describe how the economic benefits of the IRA’s greenhouse gas reductions will change over time, Figure 2 multiplies each ton of projected emissions reductions depicted in Figure 1 by the EPA’s assessment of the corresponding year’s value of avoided damages.  The green shaded area in Figure 2 depicts those benefits all the way to 2050, and they amount to $5.6 trillion.
 
-#### Figure 2. Climate Benefits of the IRA
+### Figure 2. Climate Benefits of the IRA
 
  Source:  Projected emissions based on Bistline et al. (2023).  Value of benefits based on  [EPA Social Cost of Greenhouse Gases (2023)](https://www.epa.gov/system/files/documents/2023-12/epa_scghg_2023_report_final.pdf).
 
@@ -47,11 +47,11 @@ The IRA’s $5.6 trillion benefit depicted in Figure 2 represents worldwide gain
 
 But again, as Box 1 explains, assessing the IRA correctly requires using its global benefits, the whole $5.6 trillion.  And importantly, even that[$5.6 trillion valuation understates the IRA’s merits by excluding some direct benefits to the United States we covered in an earlier post](https://home.treasury.gov/news/featured-stories/the-inflation-reduction-act-pro-growth-climate-policy). One critical exclusion is the improved health and productivity that will follow reductions in local air pollutants like particulates and smog.
 
-### Whose climate benefits?
+## Whose climate benefits?
 
 The $5.6 trillion of benefits in Figure 2 rest on the EPA’s official value for the avoided damage from emitting carbon, called the “social cost of greenhouse gases.”  That value represents worldwide gains, not just gains experienced in the United States. Two different U.S. interagency task forces endorsed valuing greenhouse gases using global benefits, not domestic benefits.[6]  They provide multiple justifications. For one, climate change is a global problem.  Every country’s emissions cause damage to every other country.  If the United States and other counties enact climate policies accounting only for their own benefits, solving the climate problem will be impossible.  That’s why at the UN Climate Change Conference in Paris in 2015, nearly 200 countries agreed to submit individual plans as to how they would reduce emissions of the greenhouse gases that contribute to climate change.  By signing the Inflation Reduction Act, President Biden took a significant step towards meeting the U.S. pledge. Common sense and economic research tell us that other countries will be less inclined to participate in an international effort if the United States fails to act.[7]  And it’s not just whether we act that matters, but how much. More common sense—and more research—suggests that the more effort the United States makes to combat climate change, the more other countries will follow.[8]  For every ton of CO2e that the United States pledged to reduce as part of the Paris Agreement, other countries pledged to cut another 2.5 to 10.8 tons.[9] So it makes sense for the United States to enact climate policies targeting benefits beyond just those accruing within our borders. We benefit from other countries’ policies, and their policies depend on ours.Beyond reciprocity with other countries, there are additional reasons why U.S. policy goals should not be restricted to benefits within U.S. borders. Climate damages to other countries will disrupt international trade, tourism, and financial markets to the economic detriment of the United States.  And climate change may contribute to the destabilization of foreign governments and cross-border migration with adverse consequences for the United States.In the context here—evaluating the IRA’s benefits—we can either credit the IRA with its global benefits as measured by the EPA’s social cost of carbon, or we can presume U.S. policy efforts are complemented by other countries’, in which case the benefits of U.S. policies include reductions in climate damages from collective international actions.  Either way, the appropriate benefits to consider are global.
 
-#### Local Pollution Benefits of the IRA
+### Local Pollution Benefits of the IRA
 
 Recent research provides abundant examples of harms from local air pollution.[10]Airborne particulates reduce worker productivity.[11]Pollution causes people to work fewer hours,[12]perform worse on tests of cognition,[13]and even have more car accidents.[14]And the damages are long-lasting. People exposed to more pollution when they are in utero, as small children, or during their later lives, are less likely to attend college, go on work and earn less at their jobs, and are more likely to suffer from dementia more when they are older.[15]
 
@@ -61,13 +61,13 @@ Figure 3 shows how the IRA will deliver benefits in the United States by reducin
 
 All the valuations in Figure 3 are also underestimates because they include only the IRA’s reductions in fatality risk, omitting other important benefits like improved health and productivity, as well as benefits from reductions in other types of local pollution.  One study, by Energy Innovation, also examined the IRA’s effect on non-fatal illnesses. It projects 85,900 fewer asthma attacks in 2030, 3,700 fewer heart attacks, 1,700 fewer hospital admissions, and 350,700 fewer lost workdays.[16]
 
-#### Figure 3. Local Air Pollution Benefits of the IRA
+### Figure 3. Local Air Pollution Benefits of the IRA
 
  Sources:  Resources for the Future (RFF) RFF: “[Beyond Clean Energy: The Financial Incidence and Health Effects of the IRA](https://www.rff.org/publications/reports/beyond-clean-energy-the-financial-incidence-and-health-effects-of-the-ira/)” Table 5.  Energy Innovation (EI): “[Updated Inflation Reduction Act Modeling Using the Energy Policy Simulator](https://energyinnovation.org/publication/updated-inflation-reduction-act-modeling-using-the-energy-policy-simulator/)” Table 5.   Rapid Energy Policy Evaluation and Analysis Toolkit (REPEAT): “[Explore Our Results](https://repeatproject.org/results?comparison=benchmark&state=national&categories=pollution-health&subcategories=premature-mortalities&page=1&limit=25)” comparison of IRA (mid-range) vs IIJA Only.  Mortality risk reductions valued using RFF’s approach, accounting for expected economic growth.  Graph shows undiscounted values: $15.3 million for 2030 and $16.5 million for 2035, both in real 2020 USD. 
 
 Like any forecast, all of these involve uncertain predictions of the future. Nevertheless, they give a sense of the scale of the IRA’s domestic pollution benefits relative to its global climate benefits. The global climate benefits of the IRA for 2030, depicted in Figure 2, amount to $137 billion.  Just one part of the additional local benefits, fatality risk reduction from improved local air quality, would add another 15 to 35% on top of those carbon reduction benefits.
 
-### Fiscal Cost Estimates Overstate the IRA’s True Cost to Our Economy
+## Fiscal Cost Estimates Overstate the IRA’s True Cost to Our Economy
 
 Just as the global value of the IRA’s projected carbon reductions understate its overall benefits, forecasts of the IRA’s fiscal costs overstate its true resource costs to the U.S. economy.* Fiscal costs*are reductions in federal revenues or increases in federal payments.  They are monetary payments from the government to individuals, with no net loss to the country.* Resource costs*are net losses to the aggregate U.S. economy from things like distorted incentives caused by the need to raise taxes, or damages to people and infrastructure from severe weather.
 

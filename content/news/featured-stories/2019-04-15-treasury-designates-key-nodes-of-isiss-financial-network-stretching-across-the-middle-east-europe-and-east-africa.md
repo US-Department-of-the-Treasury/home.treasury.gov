@@ -16,7 +16,7 @@ In order to capitalize fully on this important action, the United States Governm
 
 As a result of today’s action, all property and interests in property of these persons, and of any entities that are owned, directly or indirectly, 50 percent or more by the designated persons, that are in the United States or in the possession or control of U.S. persons are blocked and must be reported to OFAC.  OFAC’s regulations generally prohibit all dealings by U.S. persons or within (or transiting) the United States that involve any property or interests in property of blocked or designated persons.
 
-#### Background on the Rawi Network
+### Background on the Rawi Network
 
 ** Seasoned Money Launderers**
 
@@ -39,7 +39,7 @@ Two of the individuals designated today, Umar Talib Zughayr al-Rawi and Abd al R
 
 Members of the Rawi Network registered several businesses with the GOI in order to acquire QiCard machines, a dedicated system of electronic payment machines used by the GOI to disburse payments to government employees and retirees.  They used these machines to launder funds for ISIS inside and outside of Iraq.  The Rawi Network used funds provided by ISIS to purchase and license at least five QiCard machines.
 
-#### Designated Persons:
+### Designated Persons:
 
 ** Mushtaq Talib Zughayr al-Rawi**
 

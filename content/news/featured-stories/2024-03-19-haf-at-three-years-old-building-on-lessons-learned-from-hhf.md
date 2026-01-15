@@ -12,7 +12,7 @@ Despite fears of a foreclosure crisis after the expiration of the moratorium, fo
 
 [New data](https://home.treasury.gov/system/files/136/HAF-Q4-2023-Quarterly-Report-Data.xlsx)on the HAF program through the end of 2023[released today](https://home.treasury.gov/news/press-releases/jy2188)serve as an example of how  President Biden’s[Investing in America](https://www.whitehouse.gov/invest/)agenda has made significant investments in supporting existing homeowners and helped more Americans maintain housing stability.
 
-### Learning from the Great Recession
+## Learning from the Great Recession
 
 HAF’s success can partially be attributed to[the lessons learned](https://home.treasury.gov/system/files/256/Hardest-Hit-Fund-Program-Report-January-2023.pdf)from the Treasury Department’s Hardest Hit Fund (HHF). Treasury established HHF in 2010 in the Obama-Biden Administration through the Trouble Asset Relief Program in response to the 2008 financial crisis. The Fund allocated $9.6 billion to 18 states and the District of Columbia to assist struggling homeowners during unprecedented home price declines and sustained high unemployment. Though HHF operated under a different economic and mortgage relief environment than HAF, lessons learned from its decentralized "state-based” structure and operational challenges of coordinating homeowner payments with mortgage servicers led to significant improvements in HAF.
 
@@ -24,7 +24,7 @@ Some of the lessons learned from HHF that Treasury incorporated into the design 
 
 State, Tribal, and territory programs varied in how they tailored these strategies to match the needs of their homeowners, resulting in innovative approaches maximizing timely distribution of HAF funds to those most in need of assistance.
 
-### Innovative Approaches
+## Innovative Approaches
 
 The American Rescue Plan Act required distribution of HAF award funds to a broader set of recipients than HHF, expanding the scope of federal assistance to homeowners in all 50 states as well as Tribal government and Tribally Designated Housing Entities, and territories.[1]The legislation also allowed a more comprehensive set of housing assistance options for homeowners, such as payment of utilities, property taxes and fees, prevention of homeowner displacement through home repair and title clearing, and funds to support housing counseling and legal aid.
 
@@ -51,7 +51,7 @@ Overall, ongoing flexibility has been critical in the implementation of HAF prog
 
 While program flexibility to adjust to local needs has been a critical element of HAF program design,[fostering operational standardization and cooperation with mortgage servicers](https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund/promising-practices/promising-practices-for-state-haf-program-administrators-to-collaborate-with-servicers)to maximize timely payments has been critical to the HAF implementation strategy and builds from processes first developed under HHF. HHF program administrators discovered the importance of this coordination and developed standard operations for communicating critical information about homeowners’ mortgages through the development of a Common Data File (CDF). Under the HAF program, Treasury has prioritized facilitating CDF coordination between HAF programs and[mortgage servicers](https://home.treasury.gov/news/press-releases/jy0769)through frequent meetings designed to troubleshoot “real time” operational challenges in implementing these standardized processes. Broad participation in this process has fostered more timely communications, application processing, and mortgage payments.
 
-### Future Considerations
+## Future Considerations
 
 Just as HAF learned from the successes and shortcomings of HHF, HAF has established a blueprint from which future emergency housing programs can learn and grow. Future emergency housing policy makers and program administrators may consider how they might learn from HAF to continue the trajectory of improving the timeliness and effectiveness of flexible locally designed housing programs that have a national impact:
 

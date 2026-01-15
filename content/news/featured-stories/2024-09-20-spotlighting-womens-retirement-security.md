@@ -18,7 +18,7 @@ Despite these remarkable gains, women’s economic well-being continues to lag i
 
 It is increasingly urgent to address the gender gap in retirement security, especially as the U.S. population ages. In this brief, we discuss the latest findings on the gender gap in retirement security and some of its drivers, focusing on the impact of access to retirement savings accounts and variations in their design.[4]We also highlight recent federal initiatives to advance retirement security, including ways in which the federal government is implementing the SECURE 2.0 Act of 2022.[5]
 
-### What is the state of women’s retirement security?
+## What is the state of women’s retirement security?
 
 Recent surveys show that retired women have lower levels of economic security than men, and most prime age working women express a lack of preparedness for future retirement.[6]
 
@@ -32,7 +32,7 @@ Department of the Treasury (Treasury) research also finds gaps in IRA balances b
 
 Consistent with these estimates, the majority of working age women report not being or feeling prepared for retirement.[11]For example, a 2024 national survey conducted by the National Council on Aging and Women’s Institute for a Secure Retirement, shows that less than half of surveyed women aged 25 and above have saved for retirement.[12]Alarmingly, approximately one-third of women surveyed expect that their retirement income or savings will not be enough to pay their monthly bills in retirement. Among the respondents, 59 percent of all women and 81 percent of low-income women indicated that they do not earn enough to save for retirement.[13]
 
-### Larger gaps in retirement security for women of color
+## Larger gaps in retirement security for women of color
 
 Gaps in retirement security are even larger for women of color. For example, according to a study by the Women’s Institute for a Secure Retirement in 2018, 40 percent of white women aged over 65 received income from a pension or retirement savings account. In comparison, only 27 percent of Black women, 26 percent of Asian women, and 20 percent of Hispanic women received income from these sources (Figure 2).[14]Women of color are also less likely to own assets such as homes, businesses, or stock market investments, from which they can draw income or financial security later in life.[15]
 
@@ -40,7 +40,7 @@ Source:Women’s Institute for a Secure Retirementtabulations of U.S. Census Bur
 
  
 
-### What drives the gender gap in retirement security?
+## What drives the gender gap in retirement security?
 
 The gender gap in retirement security can be attributed to ways that the U.S. retirement system magnifies differences in women’s experience in the labor market, impacting their lifetime earnings and shaping their access to and type of retirement savings opportunities. Other factors may include savings and investment behavior, financial capability, and systemic issues that affect asset-building opportunities, such as discrimination.[16]
 
@@ -48,7 +48,7 @@ The gender gap in retirement security can be attributed to ways that the U.S. re
 
 In this brief, we focus on labor market-driven factors such as earnings and retirement savings plan access and design issues.[17]Future publications will examine other drivers and specific policy solutions in more detail.
 
-#### Persistent pay gap, occupational segregation impact women’s ability to save.
+### Persistent pay gap, occupational segregation impact women’s ability to save.
 
 Despite historically high labor force participation rates and gains in educational attainment, women’s labor market opportunities and outcomes lag men’s, leading to lower lifetime earnings and consequently, lower retirement savings.
 
@@ -56,7 +56,7 @@ While the gender pay gap has been narrowing over the past few decades, on averag
 
 In part, the gender pay gap is due to occupational segregation – that is, the overrepresentation of women, particularly women of color, in lower-wage occupations, and conversely the underrepresentation of women in higher-paying occupations.[21]Low wages coupled with limited access to employer-sponsored benefits in these occupations significantly reduce women’s ability to save for retirement.
 
-#### Occupational Segregation
+### Occupational Segregation
 
 * A substantial body of evidence shows that occupational segregation, or an uneven distribution of workers across occupations by gender, race, and ethnicity, is associated with significant differences in wages, benefits, including access to retirement plans, and other job quality factors for workers.*[*[22]*](#_edn22)* Occupational segregation contributes to existing gender and racial wage gaps. *
 
@@ -72,13 +72,13 @@ Notwithstanding occupational segregation, however, research suggests that the ge
 
 The wage gap impacts women’s retirement savings outcomes in several related ways. First, lower pay correlates with a lower capacity to save.[32]Second, lower-paying jobs tend to have fewer benefits, including lower access to employer retirement plans, resulting in smaller or no employer contributions to retirement.[33]Third, because retirement plan contributions are typically based on a percentage of salary, women in lower-paying jobs benefit less from any available employer match than do more highly paid employees.
 
-#### Interrupted careers for caregiving result in lower lifetime earnings and savings.
+### Interrupted careers for caregiving result in lower lifetime earnings and savings.
 
 Women are more likely than men to work part-time and to spend fewer total years in the workforce, often due to taking on unpaid care work for children and other family members. While more men are taking on caregiving responsibilities, in 2022, 14 percent of prime-age women were full-time caregivers compared with 1.5 percent of prime-age men.[34]In that same year, 21 percent of women worked part-time compared with 11 percent of men.[35]Among parents, 22.8 percent of mothers with a child under six years old and 4.3 percent of fathers worked part-time.[36]
 
 The effects of reduced work hours or a complete exit from the labor force compound over time, significantly hampering women’s ability to save for retirement.[37]Reduced tenure can result in foregone employee or employer contributions, reduced retirement account balances, and often lower wages upon re-entry into the workforce.[38]Loss of other employer-sponsored benefits such as health care can also hinder retirement saving efforts or cause financial hardship due to unexpected events.
 
-#### Access to employer-sponsored retirement plans and design of the plans linked to retirement savings outcomes.
+### Access to employer-sponsored retirement plans and design of the plans linked to retirement savings outcomes.
 
 Millions of workers do not have access to employer-sponsored retirement plans, and even among those that do, there are notable differences in retirement savings by gender, race, and ethnicity.
 
@@ -94,7 +94,7 @@ For example, one important flexibility feature in DC plans is that plans may off
 
 More fundamentally, although DC plans include features that may positively impact retirement savings for women, the retirement savings incentives embedded in DC plans, including employer contributions and tax subsidies, widen retirement savings gaps related to early withdrawal or lower income. Because retirement plan contributions, as well as marginal tax rates increase with income, so do savings incentives, accumulating higher levels of subsidies for the higher-income earners who are disproportionately white and male. A recent analysis estimates that bottom 20 percent of earners get only about 70 percent of cumulative tax and employer subsidies as a proportion of their annual lifetime earnings, while the top 20 percent of earners get about 250 percent of their annual lifetime earnings in additional saving subsidies. Changes to employer contributions – for example, making equal contributions per worker rather than matching a percentage of worker savings – may partially mitigate this trend.[46]
 
-### What are some possible policy solutions?
+## What are some possible policy solutions?
 
 The Biden-Harris administration has worked to improve financial security for all Americans, including through a number of recent actions that may improve retirement security for women by decreasing occupational segregation and the gender pay gap.
 
@@ -108,7 +108,7 @@ The SECURE 2.0 Act builds on the earlier Setting Every Community Up for Retireme
 
  
 
-#### Expanding retirement savings opportunities for low-income earners through the Saver’s Match.
+### Expanding retirement savings opportunities for low-income earners through the Saver’s Match.
 
 A key provision in SECURE 2.0 is the Saver’s Match, which aims to support low-income earners’ efforts to save for retirement by creating an annual federal government match up to $1,000 per individual (up to $2,000 per married couple), paid directly to a workplace retirement plan or IRA.[50]The Saver’s Match is designed to be a more inclusive version of the Saver’s Credit, a nonrefundable tax credit that sunsets with the 2026 tax year. Plan sponsors or custodians will be allowed but not required to accept Saver’s Match funds directly into employee accounts.
 
@@ -116,25 +116,25 @@ A key provision in SECURE 2.0 is the Saver’s Match, which aims to support low-
 
 Analysis from the Employee Benefit Research Institute projects that the provision has the potential to help over 20 million eligible Americans save for retirement.[51]Treasury researchers estimate that among Saver’s Match-eligible single and head of household tax filers age 56-65, women are slightly more likely than men to have made contributions to qualified retirement account in 2019, suggesting that they may be likelier to realize benefits from the Saver’s Match. The Treasury Department is tasked to implement the Saver’s Match, which will go into effect in 2027, as well as to promote uptake for eligible recipients.[52]
 
-#### Improving coverage for part-time workers.
+### Improving coverage for part-time workers.
 
 Given women’s higher likelihood of working part-time throughout their careers, SECURE 2.0 may help more women access retirement plans sooner.  In the SECURE Act, 401(k) plans could no longer exclude employees who worked for three consecutive years of 500 hours from being eligible to make elective deferrals in the plan.[53]The SECURE 2.0 Act reduced this requirement to two years and expanded the requirement to 403(b) plans subject to ERISA.
 
  
 
-#### Expanding automatic enrollment in retirement plans.
+### Expanding automatic enrollment in retirement plans.
 
 With certain exceptions, SECURE 2.0 requires certain DC plans (401(k) and 403(b) plans) to automatically enroll and annually increase contributions for eligible employees.[54]Employees may opt out of coverage, but research suggests that employees are 20 times more likely to save if enrollment is automatic.[55]Additional research shows that automatic enrollment is associated with improved retirement outcomes, including increased savings, for lower-compensated employees.[56]
 
  
 
-#### Providing Exemptions for Certain Emergency and Specific-situation Withdrawals
+### Providing Exemptions for Certain Emergency and Specific-situation Withdrawals
 
 SECURE 2.0 created added flexibility for accountholders facing urgent financial hardship, through new exceptions to the 10 percent additional tax for early distributions from applicable eligible retirement plans for certain distributions.[57]An individual may treat a distribution of up to $1,000 per calendar year as an emergency personal expense distribution, due to unforeseeable or immediate financial need. The provision allows for a three-year window to repay the distributions. The law also requires repayment of the sum within three years before another emergency withdrawal can be made.The law also expands specific-situation withdrawal options for survivors of domestic abuse, who may receive a distribution of up to $10,000 without the application of the 10 percent additional tax.  Finally, the law also makes permanent rules regarding distributions for those affected by a federally declared disaster.  These distributions are includible in gross income but are not subject to the 10 percent additional tax.
 
 Although retirement account withdrawals are in general linked to lower long-term economic security, these limited exemptions from withdrawal tax penalties may provide short-term support to women facing financial shocks and could alleviate concerns for workers who hesitate to contribute to retirement plans out of concern for their short-term liquidity.
 
-#### Creating an Emergency Savings Option
+### Creating an Emergency Savings Option
 
 Research shows that women, particularly women of color, are less likely to have three months of emergency savings than men.[58]Research also shows that having lower or no liquid savings increases the likelihood that workers will pause or reduce contributions to retirement savings.[59]SECURE 2.0 allows employers to offer pension-linked emergency savings accounts (PLESAs), in connection with a DC plan, to non-highly compensated employees and to auto-enroll employees in such plans.[60]Subject to certain restrictions, matching contributions are made with respect to PLESA contributions at the same rate as contributions to the underlying linked plan.  In general, the maximum balance in a participant's PLESA is $2,500, and participants can make tax-free withdrawals of funds held in a PLESA at least once a month, as necessary. This extends the tax preference associated with retirement accounts to emergency savings, and can help workers to build, over time, an emergency savings buffer that facilitates withdrawal of funds for emergency purposes without penalties of drawing from retirement savings.[61]
 

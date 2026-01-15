@@ -4,7 +4,7 @@ date: 2023-10-23
 draft: false
 url: /news/featured-stories/equitable-recovery-in-the-united-states
 ---
-### 1. Introduction
+## 1. Introduction
 
 Prospects for the American economy looked grim at the beginning of 2021. The shock of the pandemic and ensuing lockdowns seemed too great for the economy to bear without lasting detrimental effects. Professional forecasters expected the unemployment rate to remain well above 5 percent for the next year. Real GDP by the end of 2021 was expected to be more than 3.5 percent below its pre-pandemic trend.[1]
 
@@ -22,7 +22,7 @@ Pursuing equitable outcomes is a key goal of Biden-Harris policymaking and of th
 
 In this report, we explain why a strong recovery is so critical for our communities of color (Section II), how the design of the Biden-Harris policies was uniquely beneficial for these groups (Section III), and why having the most equitable recovery in recent history is good for all Americans (Section IV).
 
-### 2. A Fast Overall Recovery Helped Communities of Color
+## 2. A Fast Overall Recovery Helped Communities of Color
 
 The COVID pandemic marked a time of unprecedented change in the economy. As the economy shut down in the second quarter of 2020, economic output as measured by real GDP fell 28 percent at an annual rate—the largest quarterly drop in history. Despite the fiscal and monetary policy enacted in 2020, real GDP fell by 1 percent over the four quarters of 2020.
 
@@ -84,13 +84,13 @@ Source: U.S. Bureau of Labor Statistics. 2023. Employed full time: Median usual 
 
 Overall, improvements in labor market outcomes for Black and Hispanic workers were particularly pronounced in the years following the COVID recession relative to both white workers and to previous recoveries.
 
-### 3. Targeted American Rescue Plan Policies Made the Recovery Even More Equitable
+## 3. Targeted American Rescue Plan Policies Made the Recovery Even More Equitable
 
 The previous section reviewed the rapid recovery of the labor market for Black and Hispanic workers. But labor market outcomes are only one piece of financial health, and other measures of financial well-being depended greatly on the institutional details and design of Federal policy. In this section, we review how the specific policies in the ARP helped the most financially vulnerable in the economy. We also present data that suggests these policies were successful at supporting a recovery that was equitable across race and Hispanic origin according to a broad array of financial indicators.
 
   
 
-#### Household Balance Sheet Support
+### Household Balance Sheet Support
 
 In 2021, more than $500 billion were transferred directly to households in the form of Economic Impact Payments (EIPs).[8]In the third, and largest, round of the EIPs (which were a part of the ARP) a qualifying household of four received $5,600, or 63 percent of monthly income for a median household.[9]Because the EIPs were phased out for higher income levels, the transfers were targeted to the bottom half of the income distribution. Due to the EIPs and other Federal, state, and local transfers—like extended unemployment insurance—and additional factors—such as reduced spending in the height of the pandemic—balance sheets remained strong throughout the pandemic, contributing to a speedy and resilient recovery.[10]
 
@@ -116,7 +116,7 @@ Sources: Equifax Information Services LLC; 2010 and 2020 Decennial Census data.
 
   
 
-#### Housing Support
+### Housing Support
 
 Housing security is an important feature of economic stability and, for many families, at risk of deteriorating during a recession. For example, during the Great Recession, both evictions and foreclosures peaked, and housing wealth steeply declined.[14]To support housing stability, the Biden-Harris Administration implemented two programs through Treasury: the Emergency Rental Assistance (ERA) program, which provided over $46 billion to support renters, and the Homeowner Assistance Fund (HAF), which made $10 billion available to support homeowners.[15]
 
@@ -161,7 +161,7 @@ Source: U.S. Census Bureau. 2023. Homeownership Rates by Race and Ethnicity: Bla
 
  
 
-#### Poverty and Child Poverty
+### Poverty and Child Poverty
 
 To prevent households, and particularly children, from experiencing hardship during the pandemic, the ARP expanded the child tax credit for the 2021 tax year, increasing the amount of relief received by eligible households from $2,000 to at least $3,000. The ARP also made the child tax credit fully refundable and allowed half to be paid out as monthly benefits for many taxpayers. In 2022, the child tax credit reverted to its previous level.
 
@@ -185,7 +185,7 @@ Source: U.S. Bureau of Labor Statistics. n.d. (Unadj) Labor Force Participation 
 
  
 
-#### Business and Entrepreneurship Support
+### Business and Entrepreneurship Support
 
 Support for small businesses and entrepreneurship is another crucial way that the Biden-Harris Administration contributed to an equitable recovery. Biden-Harris policies that supported business growth during the pandemic recovery include the continuation of the Paycheck Protection Program (PPP), which provided small businesses with resources to maintain payroll, hire back laid off employees, and cover overhead, and the reauthorization and the expansion of the State Small Business Credit Initiative (SSBCI), which helps small business access capital needed to invest in job-creating opportunities.
 
@@ -211,7 +211,7 @@ Note: Difference in rates were calculated between 1989 and 1992 for the recessio
 
 Source: Board of Governors of the Federal Reserve Board. 2023. Table 9 – (%s & Medians) Family Holdings of Nonfinancial Assets and of Any Asset, by Selected Characteristics of Families and Type of Asset, 1989-2022 Surveys. Survey of Consumer Finances. Last accessed October 19, 2023.
 
-#### State and Local Government Support
+### State and Local Government Support
 
 The State and Local Fiscal Recovery Fund (SLFRF)—one of the largest components of the ARP—was behind all of the measures of financial health discussed above. The SLFRF directly provided $350 billion to state, local, territorial, and Tribal governments to support their response to and recovery from the pandemic. The funds have been used by the recipient governments to support a wide range of equity-promoting policies, including workforce support, childcare infrastructure, and affordable housing.
 
@@ -219,7 +219,7 @@ The broad reach of the SLFRF—both in geography and the scope of projects—sug
 
 The far-reaching impact of the SLFRF is reflected in the uniformly strong labor markets across the country. All states but oneare currently experiencing unemployment rates that are within 1 percentage point or below their pre-pandemic 2019 level of unemployment.Although state level unemployment rates by race are not available, local Black and Hispanic unemployment rates tend to improve when the associated local overall unemployment rate improves. In fact, the sensitivity of state-level unemployment rates for Black men and Hispanic men are, respectively, 2.0 and 1.6 times that of white men, such that Black and Hispanic workers tend to bear the brunt of local recessions and lagging recoveries.[30]Conversely, this means that Black and Hispanic workers have particularly benefited from this geographically broad-based recovery.
 
-### 4. An Equitable Recovery is Good for All
+## 4. An Equitable Recovery is Good for All
 
 Throughout this recovery, the Biden-Harris Administration, along with Secretary Yellen and Deputy Secretary Adeyemo, have prioritized policies that seek to support the well-being of the most disadvantaged households. This administration’s efforts delivered resources and aid effectively to underserved communities and enabled a quicker than expected and historically equitable recovery.
 
@@ -231,7 +231,7 @@ Policies designed to address these inequities increase economy-wide strength, be
 
 The pandemic-induced recession had the potential to lead to a generational downturn in the economy. Although government action was unable to avoid or remedy all of the economic challenges presented by the pandemic, the Biden-Harris Administration’s policy response led us to a rapid, robust, and equitable recovery. The broad-based nature of this recovery has led to a stronger and more resilient economy and will continue to have payoffs well into the future.
 
-### 5. Conclusion
+## 5. Conclusion
 
 We have shown in this paper how Biden-Harris Administration policies have contributed to the most equitable recovery in recent history. Unemployment rates for Black and Hispanic individuals, who have historically fared the worst during economic downturns, recovered more quickly than in past recessions, and real earnings grew twice as much for these workers as they did in the three years following the onset of the Great Recession.
 

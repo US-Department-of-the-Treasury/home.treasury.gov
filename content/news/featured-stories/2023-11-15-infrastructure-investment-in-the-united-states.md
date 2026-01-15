@@ -14,11 +14,11 @@ Two years ago, President Biden signed the Bipartisan Infrastructure Law (“BIL�
 - BIL funding announced to date is flowing to the states that need it most: states with the lowest-rated infrastructure are receiving more funding per capita than states with the highest-rated infrastructure.
 - Historically, states with higher median household incomes tended to invest more in infrastructure. But the BIL has helped reverse that pattern, as lower-income states have tended to receive more BIL funding per capita.
 
-### Macroeconomic Perspective
+## Macroeconomic Perspective
 
 The multi-decade downward trend in U.S. infrastructure investment before the BIL is well documented.2Since most federal infrastructure funding flows through state and local governments, one way to gauge the overall trend is to consider state and local gross investment in equipment and structures (“capital investment” hereafter). Because most federal BIL funding also flows through state and local governments, we consider the history of state and local capital investment as a proxy for infrastructure investment.3
 
-#### Figure 1. Infrastructure investment has trended down for decades and fell sharply during the pandemic, but has rebounded over the past two years.
+### Figure 1. Infrastructure investment has trended down for decades and fell sharply during the pandemic, but has rebounded over the past two years.
 
  
 
@@ -26,15 +26,15 @@ As shown in Figure 1, the share of their budgets that state and local government
 
 Indeed, state and local capital investment typically falls as a share of total state and local spending during economic recoveries, as governments tend not to increase their infrastructure investment just as the economy is rebounding. Figure 2 shows that this recovery conformed to that typical pattern for about the first year and a half of the recovery, into the beginning of 2022. In some sense, such countercyclical investment is intuitive: perhaps infrastructure investment is most beneficial in recessions when job creation is most important. But the initial response to the COVID recession was understandably not focused on conventional public infrastructure. Since the BIL was passed in 2021, capital investment has bucked the typical trend and recovered sharply.
 
-#### Figure 2. Infrastructure investment tends to fall as a share of total state and local spending during the first few years of an economic recovery, but since 2022, this recovery has bucked that trend as infrastructure has rebounded.
+### Figure 2. Infrastructure investment tends to fall as a share of total state and local spending during the first few years of an economic recovery, but since 2022, this recovery has bucked that trend as infrastructure has rebounded.
 
  
 
-### The Bipartisan Infrastructure Law: Directing Funds to States That Need It Most
+## The Bipartisan Infrastructure Law: Directing Funds to States That Need It Most
 
 The pre-BIL decline in infrastructure investment has been broad-based. Figure 3 plots the change in state and local capital investment across states (as a share of GDP by state) from 2009-2021, from the business cycle trough in the Great Recession to the passage of the BIL. Forty-two states saw declining infrastructure investment as a share of their economies over this period.
 
-#### Figure 3. The decline in infrastructure investment over the prior business cycle was broad-based across states.
+### Figure 3. The decline in infrastructure investment over the prior business cycle was broad-based across states.
 
  
 
@@ -42,35 +42,35 @@ To track project announcements related to the BIL, the White House launched* Inv
 
 * Invest.gov*tracks more than $350 billion in announced BIL funding through October 2023. About half the BIL announcements to date focus on major projects like roads and bridges, but a variety of other uses are included as shown in Figure 4. Broadband, public transportation, water infrastructure, and clean energy are especially important contributors.
 
-#### Figure 4. About half of BIL project announcements focus on roads, bridges, and other major projects.
+### Figure 4. About half of BIL project announcements focus on roads, bridges, and other major projects.
 
  
 
 One conclusion from these data is that BIL funding is concentrated in the areas that need it most. The American Society of Civil Engineers (ASCE) grades states on the quality of their infrastructure across several dimensions including roads, bridges, water, and public transit. Overall infrastructure grades for U.S. states range from C+ to D—itself a recognition of the challenged state of our infrastructure overall that the BIL looks to address. Figure 5 shows the announced BIL funding per capita for states at each grade level, showing that states with lower overall grades are receiving more funding per capita. This finding increases confidence that the money is going to the places that outside experts suggest need it most.
 
-#### Figure 5. States with the lowest-rated public infrastructure are receiving more BIL funding per capita than states with the highest-rated infrastructure.
+### Figure 5. States with the lowest-rated public infrastructure are receiving more BIL funding per capita than states with the highest-rated infrastructure.
 
  
 
-### Geographic Distribution of BIL Announcements
+## Geographic Distribution of BIL Announcements
 
 While pre-pandemic infrastructure investment tended to be higher in states with higher household incomes, BIL announcements have the opposite pattern: lower income states are tending to capture more infrastructure investment.
 
 Figure 6 shows that states with higher incomes historically tend to invest more in infrastructure per capita than lower-income states. In 2019, state-level capital investment per capita was 38 percent correlated with state-level household income. In some sense, that is to be expected: states with higher household incomes have more tax revenue per capita to invest in infrastructure.
 
-#### Figure 6. Before the pandemic, state and local infrastructure investment was higher in states with higher household incomes…
+### Figure 6. Before the pandemic, state and local infrastructure investment was higher in states with higher household incomes…
 
  
 
 Notably, though, BIL announcements do not show this pattern. As shown in Figure 7, there is no significant relationship between BIL funding per capita and household income across states. This suggests that BIL announcements reflect a more equitable distribution of infrastructure investment than is normally the case.
 
-#### Figure 7. …but announced BIL data does not show this relationship, as state income levels are not related to their BIL funding…
+### Figure 7. …but announced BIL data does not show this relationship, as state income levels are not related to their BIL funding…
 
  
 
 Moreover, it is clear from Figure 7 that four states—Alaska, North Dakota, Montana, and Wyoming—have seen disproportionate BIL funding per capita. These states have low populations, so one or two significant infrastructure investments greatly increases capital spending per resident. Figure 8 shows that without these four outliers, the relationship between BIL funding and GDP per capita turns negative, suggesting that BIL funding is being directed toward states with lower incomes.
 
-#### Figure 8. …and when removing the distortion from the four rural states with low populations, the relationship flips: BIL funding is tending to go toward lower-income states.
+### Figure 8. …and when removing the distortion from the four rural states with low populations, the relationship flips: BIL funding is tending to go toward lower-income states.
 
  
 
@@ -78,7 +78,7 @@ Moreover, investments in lower-income areas are not only good for equity: they c
 
 To illustrate this point further, we consider BIL announcements on public transportation—an especially important component of our national infrastructure with respect to equity and the environment. Less wealthy Americans are more likely to rely on public transit, and reliable public transit encourages everyone to reduce gasoline use. Historically, capital investment on public transportation has been strikingly small—about 0.1 percent of GDP as shown in Figure 9. Most wealthy countries are spending more, and China spends ten times as much.6Somewhat encouragingly, though, U.S. transit spending has been on a gradual uptrend over the past few decades. BIL announced funding includes more than $34 billion for public transportation already, itself more than a year’s worth of* all*capital spending on public transit by federal, state, and local governments.
 
-#### Figure 9. Capital investment in public transportation is small in aggregate—about 0.1 percent of GDP—but has grown steadily over the past few decades.
+### Figure 9. Capital investment in public transportation is small in aggregate—about 0.1 percent of GDP—but has grown steadily over the past few decades.
 
  
 
@@ -86,11 +86,11 @@ It will surprise no one that capital spending on public transportation is typica
 
 Figure 10 compares per-capita pre-pandemic capital spending on public transportation by state with per-capita BIL funding announcements. The red bars plot 2019 investment; the blue bars plot BIL announcements. In 2019, Hawaii and Washington invested the most per capita on public transportation, followed by New York, Massachusetts, and California. The blue bars show the distribution of BIL announcements, which is much more even across states. Thirty-eight states are receiving more than twice as much BIL transit funding per capita as their pre-pandemic annual transit investment; twenty states are receiving five times as much; and ten states are receiving ten times as much.
 
-#### Figure 10. Per-capita public transportation announcements from BIL funding are much more evenly distributed across states than typical transit investments.
+### Figure 10. Per-capita public transportation announcements from BIL funding are much more evenly distributed across states than typical transit investments.
 
  
 
-### Conclusion
+## Conclusion
 
 It is still too early to assess the full economic benefits of the Bipartisan Infrastructure Law: much of the BIL’s impact on productivity growth will materialize only in the long term. However, there is much reason to be encouraged by the trends observed so far. Not only is the surge in state and local capital spending macroeconomically significant—the largest two-year increase since 1979—but the funding is landing in the places that need it most, those states with lower-rated infrastructure and those states with lower median household incomes. The BIL is an important example of President Biden’s commitment to grow our economy for the long run in an especially equitable manner.
 

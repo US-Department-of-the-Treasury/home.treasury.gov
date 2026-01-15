@@ -22,7 +22,7 @@ But that old objection does not reflect the economic reality that good climate p
 - supporting innovations that have productivity benefits beyond their direct climate effects; and
 - lowering economic reliance on fossil fuels with volatile global market prices.
 
-### (1) Mitigating greenhouse gases
+## (1) Mitigating greenhouse gases
 
 Reducing greenhouse gases mitigates the costly damages those emissions would have caused-- the most direct way that climate policy benefits the economy. Some of those economic costs are obvious, like costs due to more frequent and more powerful hurricanes, floods, and fires.[2]Others are more subtle but still pernicious. Temperature increases have been found to cause declines in students’ academic performance and future incomes, as well as diminish worker productivity, reducing economic potential across the economy.[3]
 
@@ -34,7 +34,7 @@ That is one reason why President Biden signed the IRA, the largest-ever U.S. fed
 
 Even the most ambitious mitigation efforts, however, will be insufficient to avoid damages from the greenhouse gases already causing atmospheric changes. That leads us to a second set of climate policies that also benefit the economy: policies geared towards adaptation.
 
-### (2) Adapting to climate change
+## (2) Adapting to climate change
 
 Adaptation policies include building sea walls and reinforcing buildings, designing new forms of insurance and disaster response, and safeguarding critical infrastructure. Although those steps will be costly,* not*making adaptation investments would be even more costly. Adaptation investments help ensure that when climate-related weather disasters do happen, they cause less damage.
 
@@ -44,7 +44,7 @@ Of course, government policies are not always necessary; many adaptations can be
 
 Moreover, some adaptations like seawalls and road reconstruction are public goods that cannot be left to markets. And that is a reason why President Biden signed the Bipartisan Infrastructure Law. Many parts of the $1.2 trillion law are designed to promote both growth and adaptation to climate change. For example, the law provides $16 billion for upgrading electric power grids.[10]That helps reduce power outages—many of which are caused by extreme weather—that already cost the U.S. economy up to $70 billion each year.
 
-### (3) Reducing local pollution
+## (3) Reducing local pollution
 
 In addition to improving the economy by mitigating and adapting to climate change, climate policy also benefits the economy by reducing local pollution.
 
@@ -54,7 +54,7 @@ Recent economic research provides abundant examples. Air pollution reduces the p
 
 The domestic benefits from reduced local air pollution can be significant. The EPA estimates that its proposed new regulation limiting greenhouse gases from electric power plants will provide global benefits of $5.4 billion in 2030 from mitigated future climate damages.[17]But the agency projects the rule to have even larger domestic* * air pollution benefits inside the United States, ranging from $6.5 to $14 billion in 2030 alone.[18]Similarly, many of the IRA’s climate provisions also have local pollution benefits. One nonpartisan think tank estimated that the IRA will improve local air quality by enough that in 2030 Americans will collectively be losing 350,700 fewer workdays each year to illnesses.[19]
 
-### (4) Spurring innovation and spillovers
+## (4) Spurring innovation and spillovers
 
 A fourth way that climate policy can promote growth is by backing innovative research and development (R&D). Without government support, private businesses underinvest in climate-related R&D for two main reasons.[20]
 
@@ -70,7 +70,7 @@ More systematic evidence comes from the U.S. National Academies, which found tha
 
 In recent years, the U.S. share of GDP devoted to energy-related R&D has lagged that of many OECD countries.[25]In 2021, U.S. federal funds for energy-related R&D amounted to just 39¢ for every $1,000 of GDP. South Korea spent 42¢, Canada 52¢, Japan 57¢, and Norway $1.15.[26]Policies like the Bipartisan Infrastructure Law will help us catch up, by expanding funds for 12 existing R&D programs at the Department of Energy and standing up 60 new programs.[27]
 
-### (5) Reducing economic vulnerability to international price volatility
+## (5) Reducing economic vulnerability to international price volatility
 
 Finally, climate policies that promote clean energy may buffer the economy from fluctuations in fossil fuel prices. Just in the past three years, natural gas prices have quadrupled and then fallen by 50 percent,[28]causing significant swings in electricity prices.[29]And oil prices, which account for more than half of the retail price of gasoline,[30]swung from below $40 per barrel to over $130.[31]
 
@@ -80,7 +80,7 @@ Renewable energy sources like wind and solar are not subject to that type of pri
 
 Economy-wide, international energy price fluctuations have long been blamed for causing or exacerbating recessions.[35]Even temporary recessions cause persistent losses in employment and earnings, especially for young workers just starting out, and those losses are largest for the least advantaged workers, especially nonwhite workers and high school dropouts.[36]Whether recessions in turn reduce aggregate economic growth has been debated, but at least one recent paper estimates that past deep recessions in the United States have resulted in permanent losses in productivity, persistent declines in inputs to production, and lower long-run output.[37]Creating a more stable and resilient energy system may therefore benefit all Americans by making the economy less susceptible to price shocks that can trigger recessions.
 
-### Conclusion
+## Conclusion
 
 This post summarizes five mechanisms through which the Inflation Reduction Act and other climate policies can both increase economic output and reduce climate damage. Policies that mitigate greenhouse gases and local pollution, adapt to climate change, spur innovations in energy technologies, and reduce our economic reliance on fuels with internationally set energy prices don’t just make sense for the environment and for the future of the planet. They make good economic sense for Americans today and in the future.
 

@@ -22,29 +22,29 @@ Our main takeaways are:
 - Since 2000, housing demand has grown more than housing supply. This is largely due to changing demographics: although the construction of housing has kept pace with overall population growth, it has fallen well short of the estimated number of housing units demanded by an aging population.
 - This is a longstanding problem, and substantial fixes will require federal legislative and state and local action.  But the Biden Administration is not waiting for Congress to act and has taken many steps across multiple agencies to increase housing supply. Over the past couple of years, Treasury’s actions include strengthening the Low-Income Housing Tax Credit, implementing historic housing investments as part of the American Rescue Plan, supporting community development financial institutions and minority depository institutions, and permanently extending the Federal Financing Bank’s financing support for a HUD risk-sharing initiative. Today, Secretary Yellen will outline additional efforts at Treasury to expand housing supply.
 
-### I. Housing cost increases
+## I. Housing cost increases
 
 Since 2000, housing costs have been rising faster than median household income (Figure 1). Inflation-adjusted rents have grown steadily, to more than 20 percent above their 2000 level. Inflation-adjusted prices for single-family homes have grown even faster, with a large boom and bust leading up to the financial crisis of the late 2000s and then a particularly sharp increase in the years following the onset of the pandemic. Over the entire period, inflation-adjusted house prices rose about 65 percent. In contrast, inflation-adjusted median household income barely rose over the whole time period.
 
-#### Figure 1. Real Housing Price, Rent and Wage Indexes
+### Figure 1. Real Housing Price, Rent and Wage Indexes
 
 ****
 
 This point is broadly true across regions. From 2000 to 2020, median rents rose faster than median household income in 88 percent of U.S. counties, home to 97 percent of the U.S. population (Figure 2). And median house prices grew faster than overall inflation in 88 percent of counties, home to 95 percent of the population (Figure 3). And both median rents and house prices grew faster than overall inflation in 77 percent of counties, home to 93 percent of the population. Rents and home prices also rose in rural and urban areas, and for both single-family homes and apartments in multi-family buildings.[2]In sum, rising housing costs have been widespread and do not simply reflect a mismatch between locations and sectors in which housing is demanded and supplied.
 
-#### Figure 2: Growth in median rents less growth in median income, 2000 to 2020
+### Figure 2: Growth in median rents less growth in median income, 2000 to 2020
 
 ****
 
-#### Figure 3: Growth in median housing values less growth in median income, 2000 to 2020
+### Figure 3: Growth in median housing values less growth in median income, 2000 to 2020
 
-### II. Demographic Trends
+## II. Demographic Trends
 
 Rising prices have resulted from growth in housing demand exceeding growth in housing supply. Over the last two decades, a major contributor to housing demand growth has been the changing demographic characteristics of the U.S. population. Notably, the population has aged. In 2000, people aged 55 and over made up 20 percent of the U.S. population; by 2020, the 55-and-over share was 30 percent. Older people are more likely to be the head of their own household, so as the population ages, demand for homes rises.[3]
 
 The three panels of Figure 4 visually demonstrate the changing age distribution of housing demand in our population. The blue bars on the left side of each figure show the size of the population in each age range. The gray bars on the right side show the number of households headed by someone in each age range. As the baby boomers have moved from the youngest age ranges in 1980 to the middle age ranges in 2000 to the older age ranges in 2020, the distribution of housing demand has shifted notably.
 
-#### Figure 4: Population and Households by Age
+### Figure 4: Population and Households by Age
 
 One way to understand the interaction between the aging population and housing demand is by calculating the share of each age group that is a head of household. That is simply the ratio of the gray bars on the right side of Figure 4 to the blue bars on the left. Those ratios are called “headship rates.”
 
@@ -52,17 +52,17 @@ Figure 5 shows the headship rates for different age ranges over time. Two facts 
 
 Second, age-specific headship rates have been declining for the past few decades for every adult age group.[5]One plausible explanation for declining headship rates is the rising housing costs detailed in the previous section.
 
-#### Figure 5: Per-Age Headship Rates
+### Figure 5: Per-Age Headship Rates
 
 ****
 
 The youngest groups have experienced the largest declines in headship rates. In 1980, 50 percent of Americans aged 25 to 34 were heads of their own household (the lowest line on Figure 4). In 2020, that number had fallen to around 40 percent. The headship rate for Americans aged 35 to 44 also fell substantially: from almost 55 percent to less than 50 percent. The decline in headship rates for younger Americans can be seen in the rise of young adults living at home over the same period, as shown in Figure 6. This rise is at least partially attributable to rising rents and house prices.[6]
 
-#### Figure 6. Share of Adults Aged 25 to 34 Living with a Parent
+### Figure 6. Share of Adults Aged 25 to 34 Living with a Parent
 
 ****
 
-### III. Housing demand has outpaced supply
+## III. Housing demand has outpaced supply
 
 Housing demand growth since 2000 can be assessed by calculating the number of homes that would be required to accommodate the current U.S. population if headship rates for each age group had stayed at their 2000 values. The top line of Figure 7 shows that calculation, estimating that housing demand grew by 26 percent between 2000 and 2020.
 
@@ -70,11 +70,11 @@ By comparison, Figure 7 shows that the actual housing stock—housing supply—g
 
 In short, housing cost increases have not arisen because population outpaced supply. It has not. Instead, housing cost increases have resulted from housing demand outpacing supply, driven in part by demographic shifts.
 
-#### Figure 7: Population, estimated housing demand, and housing stock percent growth since 2000
+### Figure 7: Population, estimated housing demand, and housing stock percent growth since 2000
 
 ****
 
-### IV. Why construction hasn’t kept up pace and the role of policy
+## IV. Why construction hasn’t kept up pace and the role of policy
 
 So why hasn’t housing construction kept pace with the growth of housing demand? One cause of housing undersupply may be local land-use regulations and zoning restrictions.[7]Minimum lot sizes and limits on multifamily apartment buildings can increase prices by limiting supply.[8]Loosening those regulations would remove barriers to new construction, expand housing supply, and lower the rents faced by all households, including those with lower incomes.[9]
 
@@ -84,7 +84,7 @@ Governments—state, local, and Federal—have good reason to work towards overc
 
 Government policy can support housing supply and affordability in numerous ways: by subsidizing housing construction, by subsidizing renters, by subsidizing home buyers, and by incentivizing state and local governments to remove outdated zoning and land use policies.[14]One of the Federal government’s largest sources of support for affordable housing is administered by Treasury: the Low Income Housing Tax Credit, or LIHTC, which subsidizes the construction and preservation of affordable housing.
 
-### V. Biden-Harris and Treasury Policies
+## V. Biden-Harris and Treasury Policies
 
 The Biden-Harris Administration and Treasury recognize the urgent need to address housing affordability.  In 2022, the Biden-Harris Administration released a[Housing Supply Action Plan](https://www.whitehouse.gov/briefing-room/statements-releases/2022/05/16/president-biden-announces-new-actions-to-ease-the-burden-of-housing-costs/), which included actions across multiple agencies intended to create more affordable housing. In its latest budget, the Biden Administration has called on Congress to invest more than $175 billion to help grow housing supply, including through the expansion of the Low-Income Housing Tax Credit. The Administration has also encouraged state and local governments to work to reduce barriers to more housing construction.
 

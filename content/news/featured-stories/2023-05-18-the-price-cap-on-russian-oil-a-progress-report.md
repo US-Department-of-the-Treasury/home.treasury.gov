@@ -14,7 +14,7 @@ Russian exports have continued to flow, contributing to global oil market stabil
 
 In this post, we review how the price cap policy works and how it is accomplishing these twin goals.
 
-### How the Price Cap Works
+## How the Price Cap Works
 
 Following Russia’s invasion of Ukraine last February, the G7 committed to phasing out its reliance on Russian energy. We each took steps over time to ban the import of Russian products, notably oil. When the EU joined the US, UK, Canada, and others in banning imports of oil and petroleum products from Russia, they took steps to also prohibit services in support of the shipment of such fuel. Many analysts predicted that this total maritime services ban could have led to skyrocketing global oil prices. Investors widely recognized that oil prices could have surged to upwards of $150 per barrel, exacerbating global inflationary pressures. To mitigate these consequences, the G7 and Australia aligned with the EU to ban services related to the movement of Russian oil and petroleum products unless they were purchased below a price cap. Given the leading role the G7 plays in such services – from insurance to shipping to finance – this restriction has worked to limit Russia’s ability to profit from its war while promoting stability in global energy markets.
 
@@ -26,7 +26,7 @@ Despite the complexity of the issue and the speed at which the Coalition needed 
 
 ** The price cap policy benefits low- and middle- income countries. **To be clear, Coalition members have prohibited almost all seaborne oil imports from Russia and are not themselves benefiting directly from Russian sales at the capped prices.  Instead, the direct beneficiaries are mostly emerging market and lower income countries that import oil from Russia. Even for countries who are not using Coalition services, the price cap creates leverage to demand lower prices from Russia. These nations receive drastically lower prices than they did in the first few months after Russia’s invasion of Ukraine. The policy has thus lessened the negative global spillovers from Russia’s war and has been financially helpful for a number of vulnerable countries.
 
-### Economic Impact
+## Economic Impact
 
 Following the implementation of the price cap policy, Russia’s oil revenues have fallen substantially compared to both pre-war levels and the elevated level at the onset of the war. According to the Russian Ministry of Finance, federal government oil revenues from January–March of 2023 were over 40 percent lower than a year prior. Before the war, oil revenues constituted 30–35 percent of the total Russian budget. In 2023, oil revenues have fallen to just 23 percent of the Russian budget.** This decline in revenue has occurred despite Russia’s exporting roughly 5 to 10 percent more crude oil in April 2023 compared to March 2022.**
 

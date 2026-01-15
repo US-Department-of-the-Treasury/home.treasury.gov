@@ -24,7 +24,7 @@ The new imputation method allows Treasury to conduct tax analysis by race and Hi
 
 Previous research on racial disparities in the tax code, such as research by law professors Beverly Moran, William Whitford, and Dorothy Brown, has used self-reported race data but did not have access to tax data.[2]This new work benefits from access to tax data and Treasury’s detailed tax models but relies on imputed, rather than actual, race and ethnicity information.[3]
 
-### Tax expenditures by race and Hispanic ethnicity
+## Tax expenditures by race and Hispanic ethnicity
 
 The new working paper on the distribution of tax expenditures, by Julie-Anne Cronin, Portia DeFilippes, and Robin Fisher of OTA, examines eight of the largest individual income tax expenditures. It estimates the distribution of benefits for certain racial and ethnic groups first on an overall per capita basis, and then within income deciles (tenths of the income distribution).
 

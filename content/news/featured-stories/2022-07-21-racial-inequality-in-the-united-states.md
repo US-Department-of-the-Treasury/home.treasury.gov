@@ -26,7 +26,7 @@ Deputy Secretary of the Treasury Wally Adeyemo emphasized this argument in his S
 
 Below we briefly discuss the origins and persistence of inequality in the United States, highlight some of the key economic indicators of its impact, and give an overview of the issues we will explore in more depth in future posts.
 
-#### Origins and Persistence of Racial Inequality in the United States
+### Origins and Persistence of Racial Inequality in the United States
 
 Racial inequality in the United States today is rooted in longstanding behaviors, beliefs, and public and private policies that resulted in the appropriation of the physical, financial, labor, and other resources of non-white people. While a review of the origins of racial inequity is beyond the scope of this blog, it is important to note the prominent role of inequitable and harmful policies—dating back to before the country’s founding. These include attacks on Native Americans’ political status and expropriation of their land, the reliance on slavery to underpin a significant portion of the colonial and then U.S. economy, and the Jim Crow laws and other formal and informal policies that enforced segregation and severely limited opportunities for non-white Americans. The millions of African Americans who left the southern United States to escape Jim Crow laws faced formal and informal employment, housing, and educational discrimination in destination cities in the North and West.[4]Native Americans who survived the military conquests of the mid-19th century were subject to policies that disenfranchised them, forced their assimilation and relocation, and removed Native children from their households. Anti-Latino sentiment, which grew in the 19th century as emigration from Mexico to the United States increased in the years following the Mexican-American War, grew further following the Great Depression due to concerns that Mexican Americans were taking jobs from European-Americans.[5]Similarly, anti-Asian sentiment grew following the arrival of Chinese immigrants during the California Gold Rush, which was manifested in the Chinese Exclusion Act prohibiting the immigration of Chinese laborers beginning in 1882, and was ignited again after the bombing of Pearl Harbor, with the establishment of Japanese internment camps by executive order, which resulted in the forced relocation and internment of about 120,000 Japanese Americans.[6]
 
@@ -80,7 +80,7 @@ It is important to note that while we have reliable measures and data sources to
 
  
 
-#### Roadmap for this Blog Series
+### Roadmap for this Blog Series
 
 Upcoming posts will discuss in greater depth the extent of racial inequality in economic security and explain how differences in in educational opportunity and attainment, neighborhoods and environmental factors, health and access to healthcare, and employment and job quality, contribute to and are caused by the persistence of racial disparities in economic well-being. Each post will highlight important facts, discuss how key outcomes have evolved over time, and emphasize the connections with other components of economic inequality, with the goal of calling attention to areas where more work is needed to advance racial equity. In addition, we will discuss issues related to data quality and coverage that affect our ability to truly understand the trajectory of racial inequality in the United States.
 

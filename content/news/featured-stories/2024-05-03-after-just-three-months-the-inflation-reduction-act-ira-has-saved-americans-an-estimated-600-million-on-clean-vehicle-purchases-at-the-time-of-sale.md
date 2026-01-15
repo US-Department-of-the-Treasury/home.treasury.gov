@@ -14,7 +14,7 @@ In addition to putting money back into the pockets of American taxpayers, these 
 
 Learn more about the IRA’s clean vehicle credits, its savings for Americans, and its impact on the broader vehicle market below.
 
-### The IRA provides tax credits for qualified clean vehicles
+## The IRA provides tax credits for qualified clean vehicles
 
 The IRA provides new opportunities for eligible consumers to save money on clean vehicles, offering incentives for the purchase of qualifying new (§ 30D) or pre-owned (§ 25E) electric vehicles, plug-in hybrid vehicles, and fuel cell vehicles. There are dozens of vehicle models that qualify for these credits. More information about eligible models can be found on[FuelEconomy.gov](https://fueleconomy.gov/feg/taxcenter.shtml).
 
@@ -28,7 +28,7 @@ Prospective buyers can learn more about these credits by visiting the IRS ([Engl
 
  
 
-### The IRA is saving money for average Americans
+## The IRA is saving money for average Americans
 
 The savings that clean vehicle buyers can expect are not just limited to the time of purchase either. By transitioning from a traditional gas powered vehicle to an electric vehicle, buyers can potentially save thousands annually in lower fuel and maintenance costs.
 
@@ -40,7 +40,7 @@ Based on a[report](https://www.sciencedirect.com/science/article/pii/S2542435120
 
 These estimated lifetime fuel cost savings are likely to increase as clean vehicle efficiency and technology improves over time.
 
-### The IRA is supporting the clean vehicle transition
+## The IRA is supporting the clean vehicle transition
 
 One of the key goals of the IRA is to stimulate the development and demand for a clean vehicle industry that would reduce the U.S.’s reliance on fossil fuel vehicles. Since the passage of the IRA in August 2022, the U.S. has experienced historic shifts in the transition to clean vehicles. The U.S. in 2023 saw 1.46 million passenger clean vehicle (battery electric, fuel cell, plug-in hybrids) sales—the highest annual total ever. That figure also represents a 50% year-over-year increase from 2022.
 
@@ -56,7 +56,7 @@ Over the long-term, this transition is expected to continue as more IRA clean ve
 
 * Figure 3. Source: Treasury analysis of BloombergNEF EV Sales Outlook data*
 
-### Conclusion
+## Conclusion
 
 The new and pre-owned clean vehicle tax credits made available by the IRA are already saving eligible buyers of qualified vehicles thousands of dollars, with total savings amounting to well over $600 million. At the same time, these tax credits are supporting the market for clean vehicles in the U.S. with dramatic sales increases in 2023 and laying the foundation for continuous and increased uptake in the years to come.
 

@@ -22,6 +22,6 @@ Compared to those who received the original notice, there was a 16 percent reduc
 
 The IRS has been working to make notices available to taxpayers online, and, if a taxpayer response is needed, offer a seamless process to digitally respond back to the IRS. The IRS has reviewed and redesigned over 100 notices and is on track to meet its goal of capturing 90 percent of all notice volume for individual taxpayers by the end of this year.
 
-### Related Resources
+## Related Resources
 
 Additional information and taxpayer resources can be found at[IRS.gov](https://www.irs.gov)and on the Treasury Department’s[Taxpayer Resource Hub](https://app.high.powerbigov.us/view?r=eyJrIjoiMmQ2NjhkYTYtYjE3My00MDhkLTkxOTAtYzRlMWI3MGVmZDBlIiwidCI6IjU4ZjFlM2ZhLTU4Y2ItNGNiNi04OGNjLWM5MWNhYzIwN2YxOCJ9).

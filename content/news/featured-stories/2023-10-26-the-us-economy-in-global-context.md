@@ -20,7 +20,7 @@ We offer three key conclusions:
 
 Advanced economies faced different shocks and challenges than the United States. Economies heavily dependent on Russian energy imports were hit hardest by the war in Ukraine with steeper increases in energy prices and a sharper slowdown. As the WEO notes, the euro area suffered an adverse terms-of-trade shock in part due to the energy shock. The WEO also cites analysis showing that the pass-through effects from energy shocks associated with external factors have been a larger driver of core inflation in Europe than in the U.S. Consequently, comparisons across diverse economies must be done carefully. Indeed, many foreign advanced economies have similarly surprised forecasters to the upside. And many risks to the U.S. outlook remain, including tighter credit, persistent uncertainty over government funding, and ongoing autoworker strikes. But across growth, labor, and inflation, the United States’ resilience remains an important source of global economic strength.
 
-### Strong U.S. GDP Recovery
+## Strong U.S. GDP Recovery
 
 The global recovery has been slow and uneven with considerable divergence across countries. In most advanced economies, real GDP has risen above pre-pandemic levels. U.S. real GDP surpassed its pre-pandemic level in the first quarter of 2021 and is now 6.1 percent higher than in Q4 2019.
 
@@ -32,7 +32,7 @@ Even today, most advanced economies are below the trend growth path that they we
 
   
 
-### Labor Markets Remain Resilient
+## Labor Markets Remain Resilient
 
 [Differences in national labor policies](https://home.treasury.gov/news/featured-stories/the-us-economic-recovery-in-international-context-2023)can make unemployment rate comparisons across economics especially difficult. But even so, COVID-era unemployment statistics show significant divergence across the G7. The United States and Canada experienced high spikes in their unemployment rates in April and May of 2020 and supported workers through supplemental unemployment insurance, while several European economies with workshare schemes saw declines in their unemployment rates.
 
@@ -42,7 +42,7 @@ However, after the COVID shock the U.S. unemployment rate rapidly improved and h
 
 Although many other advanced economies have higher unemployment rates than the United States, they are also showing resilience. In August, the euro area unemployment rate returned to its record low of 6.4%.
 
-### Inflation is Gradually Nearing Target
+## Inflation is Gradually Nearing Target
 
 U.S. core CPI inflation (excluding food and energy) has declined significantly over the last 12 months. Cross-country comparisons, however, are not simple because countries have different standards as to what is included in their inflation consumption baskets—most notably regarding owners’ equivalent rent (OER, or the rental value of housing services received by homeowners).  Whereas the United States includes OER in its CPI measure, European inflation statistics do not. Using the core measure of the Harmonized Index of Consumer Prices—excluding food, energy, and OER—enables cross-country comparisons.
 
@@ -50,7 +50,7 @@ U.S. core CPI inflation (excluding food and energy) has declined significantly o
 
 Elevated inflation has been a phenomenon among most industrialized nations. Although inflation in the United States rose earlier than in other G7 economies—reflecting the brisk recovery from the pandemic—it also fell sooner and quicker. Indeed, once we exclude owners’ equivalent rent to make U.S. core inflation comparable to other countries, the U.S. harmonized core inflation is now about 2 percent—well below many other large advanced economies.[1]Some of the differential relative to European economies is due to Russia’s invasion of Ukraine, which raised food and energy prices substantially with some passing through to core inflation. Even despite this challenge, these economies have shown some signs of disinflation recently—welcome trends for their near- and medium-run outlooks.
 
-### Conclusion: Improving Near-Term Outlook
+## Conclusion: Improving Near-Term Outlook
 
 Stronger-than-expected U.S. growth continues to drive surprises to the upside in global growth in 2023, and the IMF notes that the likelihood of a hard landing has receded and the downside risks from last spring have moderated. While important risks for the U.S. economy remain, the progress we have made underscores the value of a swift and growth-oriented policy response while making important investments in our economy’s long-run productive capacity.
 

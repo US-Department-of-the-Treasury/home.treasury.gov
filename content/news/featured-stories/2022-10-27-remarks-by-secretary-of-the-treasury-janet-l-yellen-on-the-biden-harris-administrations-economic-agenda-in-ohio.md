@@ -24,7 +24,7 @@ While these are promising signs, we still face challenges. Today, our economy fa
 
 As our Administration continues to tackle our immediate challenges, we have also been focused on strengthening the long-term foundations of the American economy. I will now turn to the three pillars of our economic plan: expanding our productive capacity, bolstering our economic resilience, and creating an economy that works for all.
 
-### Expanding the Productive Capacity of Our Economy
+## Expanding the Productive Capacity of Our Economy
 
 Earlier this year, I delivered a speech calling for a “modern supply-side” expansion of our economy. With a labor market at full employment, I argued that the current moment was well-suited for a supply-side agenda that increases our economy’s productive capacity. A country’s long-term growth potential depends on, among other things, how many people we have working and the productivity of our workers. Concerted investments in both areas increase the ceiling for what our economy can produce.
 
@@ -36,7 +36,7 @@ Our economic plan invests in everything I just mentioned. But we also know that 
 
 In sum, our investments in infrastructure will boost our economic potential. They will help build on the progress we’ve made in American manufacturing. They will also help our economy cope with unexpected shocks – like pandemics or climate disasters.
 
-### Strengthening Economic Resilience
+## Strengthening Economic Resilience
 
 This brings me to the next pillar of our economic plan: strengthening our economic resilience.
 
@@ -52,7 +52,7 @@ Our economic plan is nurturing the growth of the full semiconductor ecosystem in
 
 There’s already been progress. Major manufacturers are expanding their U.S. footprint. Just last month, Intel broke ground on its $20 billion semiconductor plant outside of Columbus.[5]Intel’s project is said to be the single largest private investment in Ohio’s history. When completed, it will employ thousands of Ohioans and support tens of thousands of additional long-term jobs throughout the ecosystem. We are already seeing reverberating effects of this investment on local communities. For example, Intel is investing $50 million in Ohio colleges and universities to help train the next generation of chipmakers.[6]
 
-### Building an Economy that Works for All
+## Building an Economy that Works for All
 
 Our semiconductor investments demonstrate that government and business can work together to nurture and grow new industries. It also demonstrates that we can work together to broaden economic opportunity and create good-paying jobs. In fact, a deliberate feature of our “modern supply-side” agenda is the allocation of investments across people and places – particularly those that are historically underserved.
 
@@ -80,7 +80,7 @@ By closing the tax gap, we will raise hundreds of billions of dollars in additio
 
 I believe that these tax reforms reflect the values underpinning our entire economic plan: that economic fairness actually adds to, rather than subtracts from, our overall economic strength.
 
-### Conclusion
+## Conclusion
 
 When we look back decades from now, I believe that we will view the past two years as a uniquely difficult time for our country and the world. We’ve gone through so much together: a pandemic, a war in Europe, and an acceleration of climate disasters. There’s much more we must do to ease the strain on working families. But I believe that we will also view this period as a time when we renewed America’s economic strength. We are positioning America to build, innovate, and lead in the 21st century.
 

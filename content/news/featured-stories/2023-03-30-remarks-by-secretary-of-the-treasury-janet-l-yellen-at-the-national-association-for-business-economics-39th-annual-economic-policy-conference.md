@@ -40,11 +40,11 @@ Since my first day at Treasury, I have made it a major priority to restore and s
 
  
 
-### I. The Importance of Financial Stability
+## I. The Importance of Financial Stability
 
  
 
-#### A. Why Financial Stability Matters for the Broader Economy
+### A. Why Financial Stability Matters for the Broader Economy
 
  
 
@@ -68,7 +68,7 @@ Studies show that weak financial systems can amplify business cycles. In a semin
 
  
 
-#### B. The Rationale Behind Financial Stability Policies
+### B. The Rationale Behind Financial Stability Policies
 
  
 
@@ -100,7 +100,7 @@ The fire analogy should make the fundamental rationale for macroprudential finan
 
  
 
-### II. The Post-GFC Financial System
+## II. The Post-GFC Financial System
 
  
 
@@ -152,7 +152,7 @@ In many sectors, nonbanks have increased competition, fostered innovation, and b
 
  
 
-### III. Progress on Unfinished Business
+## III. Progress on Unfinished Business
 
  
 
@@ -168,7 +168,7 @@ Let me start with our work on the banking system, before turning to nonbanks.
 
  
 
-#### A. Banks
+### A. Banks
 
  
 
@@ -200,7 +200,7 @@ Our Administration is committed to making sure that the U.S. banking system rema
 
  
 
-#### B. Nonbanks: Money Market and Open-End Funds
+### B. Nonbanks: Money Market and Open-End Funds
 
  
 
@@ -244,7 +244,7 @@ Abroad, Treasury has worked with the FSB to advance international commitments th
 
  
 
-#### C. Nonbanks: Hedge Funds
+### C. Nonbanks: Hedge Funds
 
  
 
@@ -280,7 +280,7 @@ Second, Treasury’s Office of Financial Research will continue to enhance data 
 
  
 
-#### D. Nonbanks: Digital Assets
+### D. Nonbanks: Digital Assets
 
  
 
@@ -320,7 +320,7 @@ Finally, we are also working to address risks specific to digital assets. This i
 
  
 
-### IV. Debt Limit
+## IV. Debt Limit
 
  
 
@@ -336,7 +336,7 @@ This catastrophe is preventable. Congress must raise or suspend the debt limit. 
 
  
 
-#### V. Conclusion
+### V. Conclusion
 
  
 

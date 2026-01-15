@@ -22,7 +22,7 @@ This blog highlights the important role state, local, and Tribal governments pla
 - The recovery from the COVID recession was especially geographically inclusive.  In 387 out of 389 Metropolitan Statistical Areas (MSAs), the unemployment rate today is lower than the median rate over the past 30 years. And those MSAs that typically face higher unemployment have seen bigger improvements.
 - State, local, and Tribal governments are using support from the American Rescue Plan in innovative ways to grow their economies, create jobs, and make their communities stronger and more resilient.  The investments that originally helped governments respond to and recover from the pandemic are also setting their economies up for long-run success by investing in the workforce and disadvantaged communities, as is consistent with President Biden’s economic agenda and Secretary Yellen’s focus on modern supply-side economics.
 
-### The Importance of State and Local Governments to the American Economy
+## The Importance of State and Local Governments to the American Economy
 
 In 2023, state and local government spent $4 trillion on the wide range of public goods and services that citizens use on a day-to-day basis.  State and local spending falls into seven main categories: public assistance (which includes the state-funded part of unemployment insurance), elementary and secondary education, higher education, health and hospitals, highways and roads, criminal justice, and housing and community development.[2]These spending categories play a key role in protecting our most vulnerable citizens; keeping our citizens healthy; building and maintaining public infrastructure like roads, parks, libraries, and utilities; and investing in our future, most notably through public education.  Local governments play a particularly important role in education, with 40 percent of direct local government spending going to elementary and secondary education in 2020.[3]
 
@@ -32,7 +32,7 @@ In 2023, state and local government spent $4 trillion on the wide range of publ
 
 At nearly 15 percent of GDP, the state and local government sector plays an extremely important role in the economy. In January 2024, state and local governments were responsible for more than 20 million jobs, or 13 percent of total employment and almost seven times the Federal workforce. State and local government employment was the third largest sector in January 2024, behind professional and business services (23 million) and healthcare and social assistance (22 million). Within state and local employment, education employment looms large, accounting for 53 percent of employment in the sector.
 
-### The Pandemic: An Acute Time of Need for State and Local Governments
+## The Pandemic: An Acute Time of Need for State and Local Governments
 
 Like most sectors of the economy, the state, local, and Tribal government sector was in precarious health throughout 2020 and the beginning of 2021.  High unemployment and pandemic-specific needs strained the budgets of these governments.  As unemployment rose, more people became eligible for income-based transfers, such as unemployment insurance and other public welfare, automatically drawing more from state and local budgets.  And pandemic-related expenditures by state and local governments on health and hospitals rose in 2020 and 2021 as state and local governments rushed to expand capacity at hospitals and to enforce new safety protocols for healthcare workers.
 
@@ -46,7 +46,7 @@ These calculations likely understate the increased expenditure needs of state an
 
 At the same time that expenditures were strained, state and local own-source revenues (that is, general revenues that are not transfers from the Federal government) came in 3.5 percent below trend in the fiscal year 2020, before returning to about trend in fiscal year 2021.[5]Given the increased expenditure needs unmet by own-source revenues, balanced budget rules forced state and local governments to cut expenditures in other parts of their budgets.[6]Indeed, in the fall of 2020, 31 states reported using spending cuts to balance their budgets for fiscal year 2021.  Further cuts would have cut key services to households at a critical time with the possibility of dragging down the national economy.  In fact, we saw a stark example of this in the Global Financial Crisis.
 
-### Learning Lessons from the Global Financial Crisis
+## Learning Lessons from the Global Financial Crisis
 
 One important lesson from the GFC was that state and local budget cuts can impose severe costs on the national economy, with long-lasting reverberations.  State and local government employment began falling two years after the onset of the GFC recession and did not fully recover for a decade (Figure 3).  And declining state and local government spending was still a drag on GDP growth more than five years (21 quarters) after the onset of the recession (Figure 4). The American Recovery and Reinvestment Act of 2009 provided about $290 billion in aid to state and local governments, but that fell short of what was needed.[7]
 
@@ -66,7 +66,7 @@ Figures 3 and 4 depict the contrast between the two recessions in the pace of re
 
  
 
-### The Geographic Reach of the American Rescue Plan
+## The Geographic Reach of the American Rescue Plan
 
 The ARP, and particularly its SLFRF program, provided direct support to nearly all state, local, and Tribal governments, including territories, counties, cities and towns, and other special districts.  The broad reach of these policies, in turn, supported a notable geographic breadth in the economic recovery.
 
@@ -83,7 +83,7 @@ In addition, in 387 out of 389 MSAs, the unemployment rate now is lower than the
  
 
 
-### Paving the Way for a Stronger Future
+## Paving the Way for a Stronger Future
 
 State, local, and Tribal governments are using support from the American Rescue Plan in innovative ways to grow their economies, create jobs, and make their communities stronger and more resilient.  The investments that originally helped respond to and recover from the pandemic are also setting up their economies for long-run success.
 
@@ -95,7 +95,7 @@ Another modern supply-side investment has been the provision of support to worke
 
 A third example of modern supply-side economics is the affordable housing programs in the ARP.  Over $18 billion of SLFRF funds have been geared towards housing-related investments.  This represents a substantial 33 percent expansion over the annual amount state and local governments typically spend on housing and community development. Ensuring the provision of safe, affordable housing strengthens the economy by allowing workers to locate closest to the jobs where they are most productive and by providing benefits to children that increase their future long-term success.[15]
 
-### Conclusion
+## Conclusion
 
 State, local, and Tribal governments have an important role in the lives of Americans, and they faced severe challenges in the wake of the COVID pandemic.  Fiscal support from the ARP shared widely across states, Tribal governments, territories, counties, cities, and towns ensured that these governments were able to afford the additional costs of addressing new pressures from the demands of COVID.  These funds also helped to avoid the scarring of a slow recovery, reached areas that have been historically left behind, and increased the resilience of governments going forward.
 

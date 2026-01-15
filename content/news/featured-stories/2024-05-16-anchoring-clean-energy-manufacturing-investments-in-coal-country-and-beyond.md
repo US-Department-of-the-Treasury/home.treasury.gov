@@ -10,7 +10,7 @@ There has long been a need to reinvest in coal country and communities that have
 
 As a crucial component of President Biden’s economic engine, the § 48C credit is incentivizing and anchoring investments in clean energy manufacturing facilities – and the good-paying jobs that go along with them – to strengthen the economies of coal communities and other areas that have experienced underinvestment in past decades.This is a key part of the Inflation Reduction Act’s energy security and manufacturing agenda and is a proven way to help bring success to communities that need reinvestment. Through these efforts, the Biden-Harris Administration and the private sector are writing a new chapter in the history of investing in the nation’s clean energy manufacturing.
 
-### A History of Investing in American Clean Energy Manufacturing
+## A History of Investing in American Clean Energy Manufacturing
 
 After decades of underinvestment and jobs being shipped overseas, American manufacturing faced tremendous headwinds even before the 2008 Great Recession.
 
@@ -35,7 +35,7 @@ Through the allocation of that initial $2.3 billion in the 2010s, the § 48C cre
 
 Through these investments, the Recovery Act’s § 48C credit established a model for other provisions in the Inflation Reduction Act and Infrastructure Investment and Jobs Act by providing incentives to clean energy manufacturing facilities as a method of economic relief for domestic supply chains.
 
-### Updating the § 48C Credit for a New Era
+## Updating the § 48C Credit for a New Era
 
 Over a longer period of time, the coal industry--and the workers and communities centered around it--had undergone a period of economic decline. Although total mine production had outpaced mine employment rates due to mechanization since the 1980s, recent trends pointed both to continuing decline in employment as well as declining production rates overall.[2]
 
@@ -47,7 +47,7 @@ Seeking ways to invest directly in workers and communities where jobs had been l
 
 With the additional funding from the Inflation Reduction Act, Treasury, the IRS, and the Department of Energy (DOE) reestablished the § 48C[program](https://www.energy.gov/infrastructure/qualifying-advanced-energy-project-credit-48c-program)and launched the first allocation round to spur project development and initial investment.
 
-### Timeline and Key Statistics of § 48C Qualifying Advanced Energy Project Program
+## Timeline and Key Statistics of § 48C Qualifying Advanced Energy Project Program
 
 *February 17, 2009:* Enactment of the American Recovery and Reinvestment Act of 2009.
 
@@ -55,7 +55,7 @@ With the additional funding from the Inflation Reduction Act, Treasury, the IRS
 
 *March 4, 2013:* Reallocation[announcement](https://www.energy.gov/sites/prod/files/FACT%20SHEET%20--%2048C%20MANUFACTURING%20TAX%20CREDITS.pdf)for Recovery Act era program.
 
-#### Nearly one decade later…
+### Nearly one decade later…
 
 *August 16, 2022:* Enactment of the Inflation Reduction Act of 2022.
 
@@ -83,7 +83,7 @@ April 29, 2024:    Release of[guidance](https://www.irs.gov/pub/irs-drop/n-24-
 
 The § 48C credit program draws on a proven method of economic investment and sharpens that approach so that incentives draw private investment to unite the longstanding skills found in coal communities with the economic and energy security needs facing the nation today.
 
-### Additional Information on § 48C Qualifying Advanced Energy Project Credit
+## Additional Information on § 48C Qualifying Advanced Energy Project Credit
 
 Treasury and the IRS issued[guidance](https://www.irs.gov/pub/irs-drop/n-24-36.pdf)on Round 2 of the § 48C tax credit on April 29, 2024 and have provided guidance previously on the §48C credit program[here](https://home.treasury.gov/policy-issues/inflation-reduction-act/ira-related-tax-guidance).
 

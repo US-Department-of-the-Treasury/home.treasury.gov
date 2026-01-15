@@ -8,7 +8,7 @@ The current public health crisis and resulting economic crisis have devastated t
 
 The American Rescue Plan will change the course of the pandemic and deliver immediate and direct relief to families and workers impacted by the COVID-19 crisis through no fault of their own. This law is one of the most progressive pieces of legislation in history, and will build a bridge to an equitable economic recovery.
 
-### Economic Impact Payments
+## Economic Impact Payments
 
 Through this third round of Economic Impact Payments, the U.S. Department of the Treasury (Treasury Department) and the Internal Revenue Service (IRS) are ensuring that Americans will receive fast and direct relief during the final phase of the COVID-19 crisis. As of yesterday,**approximately 90 million Economic Impact Payments had been disbursed**, thereby ensuring that** more than $242 billion **of much-needed relief will be received by millions of Americans and their families within days of enactment of the American Rescue Plan. Unlike the prior rounds of Economic Impact Payments, the American Rescue Plan requires a 2021 “true-up” additional payment, when applicable, based on information (such as a recently filed 2020 tax return) that the IRS receives mid-year during 2021. This additional Economic Impact Payment will ensure that Americans and their families receive greater amounts of financial assistance during 2021, rather than waiting to claim a Recovery Rebate Credit on a tax return in 2022.
 
@@ -22,7 +22,7 @@ $75,000 for singles and married persons filing a separate return, up to $112,500
 
 The Treasury Department and the IRS continue to expand outreach to the millions of homeless, rural poor, and other disadvantaged Americans to ensure that they receive Economic Impact Payments. This includes new and continued relationships with homeless shelters, legal aid clinics, and providing Economic Impact Payment information in more than 35 languages.
 
-### Child Tax Credit
+## Child Tax Credit
 
 The American Rescue Plan’s expansion of the Child Tax Credit will substantially reduce child poverty by supplementing the earnings of families receiving the tax credit. Specifically, the Child Tax Credit has been revised in the following ways:
 
@@ -34,7 +34,7 @@ The American Rescue Plan’s expansion of the Child Tax Credit will substantiall
 
 To facilitate the disbursement of Child Tax Credit advance payments during 2021, the American Rescue Plan requires the IRS to establish an online portal for taxpayers to update relevant data for mid-year payment adjustments (for example, the birth of a child during 2021). In addition to this online tool, the Treasury Department and the IRS will carry out a sweeping public awareness campaign parallel to its Economic Impact Payment campaign to reach all Americans who may be eligible for this financial assistance.
 
-### State and Local Fiscal Recovery Fund
+## State and Local Fiscal Recovery Fund
 
 State, local and tribal governments across America have been under an unprecedented strain in the wake of the COVID-19 crisis. While the need for services has increased —including setting up emergency medical facilities, standing up vaccination sites, and supporting struggling small businesses—state and local revenues have plummeted as a result of the economic fallout from the crisis. At the height of the fallout, public sector employment fell by around 1.4 million jobs, including layoffs of 1 million educators, compared to around 750,000 job losses during the Great Recession. As a result, communities have faced
 
@@ -49,7 +49,7 @@ The American Rescue Plan provides**$350 billion dollars ** in emergency funding 
 
 The Rescue Plan will provide needed relief to state, local, and Tribal governments to enable them to continue to support the public health response and lay the foundation for a strong and equitable economic recovery. In addition to helping these governments address the revenue losses they have experienced as a result of the crisis, it will help them cover the costs incurred due responding to the public health emergency and provide support for a recovery – including through assistance to households, small businesses and nonprofits, aid to impacted industries, and support for essential workers. It will also provide resources for state, local, and Tribal governments to invest in infrastructure, including water, sewer, and broadband services.
 
-### Capital Projects Fund
+## Capital Projects Fund
 
 The COVID-19 crisis starkly illuminated key shortcomings – and inequalities – in U.S. infrastructure. While some communities were able to adapt to the pandemic with remote or socially-distanced options for work, education, and health care, others lacked the infrastructure needed to do so, compounding the disruptions of the pandemic and exacerbating existing inequalities, with long-term consequences for American families. One particularly salient infrastructure challenge has been the digital divide and the absence of foundational conditions that enable network connectivity and access. As more and more areas of work and education move online, this divide risks leaving many American families behind.
 
@@ -57,7 +57,7 @@ Recognizing these challenges, the American Rescue Plan provides**$10 billion ** 
 
 The Capital Projects Fund takes critical steps to addressing these challenges laid bare by the pandemic, especially in rural America and low- and moderate-income communities, helping to ensure that all communities have access to the high-quality, modern infrastructure needed to thrive, including internet access.
 
-### Homeowner Assistance Fund
+## Homeowner Assistance Fund
 
 As the economic fallout from the COVID-19 crisis took form, millions of Americans were faced with the pressures of having to decide between making mortgage payments and other essential obligations. This was especially true for the low-income communities and communities of color who bore the brunt of this crisis. Across the country, one in 10 homeowners with a mortgage are behind on payments. The law takes immediate steps to help Americans stay in their homes and keep a roof over their heads.
 
@@ -69,7 +69,7 @@ The American Rescue Plan provides nearly**$10 billion ** for states, territories
 
 The law prioritizes those homeowners that have experienced the greatest hardships, leveraging local and national income indicators to maximize intended impact. Applicable funding uses include delinquent mortgage payments, allowing Americans across the country to take a step in the right direction toward household stabilization. These necessary actions will minimize foreclosures in the coming months, alleviate emergency shelter capacity, and mitigate potential COVID-19 infections.
 
-### Emergency Rental Assistance
+## Emergency Rental Assistance
 
 An underlying consequence of the COVID-19 pandemic is that household stability is not just a financial security issue, but also a health concern. As the country entered the throes of the crisis, many cities and states began creating or expanding rental assistance programs to support at-risk households. The December appropriations bill provided $25 billion of federal relief to be administered by the Emergency Rental Assistance (ERA) program for disbursement to existing state and local government programs. The American Rescue Plan nearly doubles the initial funding to expand the reach and impact of the existing ERA program, taking additional steps to mitigate the financial harm caused by the pandemic and keeping Americans safe as the country addresses the virus.
 
@@ -81,7 +81,7 @@ The American Rescue Plan provides**$21.6 billion ** for states, territories, and
 
 As a result of the American Rescue Plan, states and localities across the country will be better armed to provide relief and assistance to those vulnerable households. The new funding will leverage existing program structures, allowing for money to be disbursed quickly and efficiently to on the ground emergency programs, and ensuring this country’s hardest-hit families to receive their equitable share of relief.
 
-### State Small Business Credit Initiative
+## State Small Business Credit Initiative
 
 It is no secret that the pandemic has disproportionately impacted small businesses across the country, particularly those owned and operated by women and minorities. Every community has had to face the unfortunate reality of local storefronts that are closing or have closed, resulting in friends and family members being furloughed or laid off. Nationally, small business revenue is down 32 percent, and at least 400,000 firms have permanently closed. After a year of the public health crisis, many businesses are hanging on by a thread. Within this law are plans to provide critical assistance to small businesses across the country, facilitating the urgent deployment of capital and support to help these organizations not just persevere, but recover on solid footing.
 
@@ -93,7 +93,7 @@ The American Rescue Plan provides**$10 billion ** to state and Tribal government
 
 This law will inject capital into state small business support and capital access programs, provide collateral support, facilitate loan participation, and enable credit guarantee programs. It will boost state venture capital programs and provide funding for technical support and assistance. This Administration recognizes that small businesses—enterprises that are responsible for two-thirds of net new jobs in this country—are the backbone of the American economy, and a bellwether of economic progress.
 
-### Employee Retention Credit and Paid Leave Credit Programs
+## Employee Retention Credit and Paid Leave Credit Programs
 
 In addition to the SSBCI, the American Rescue Plan extends a number of critical tax benefits to small businesses that are intended to help businesses through to the recovery while keeping up their payrolls and still taking steps to protect health outcomes for employees.
 
@@ -105,7 +105,7 @@ The American Rescue Plan also extends through September 2021 the availability of
 
 **$5,000 ** if they offer paid leave to employees who are sick or quarantining. Paid Leave Credits are a powerful incentive to encourage the offer of paid sick and family leave, which will help keep the virus under control by ensuring sick employees can stay home.
 
-### Unemployment Compensation
+## Unemployment Compensation
 
 Across the nation, millions of Americans lost their jobs in the wake of the COVID-19 pandemic and, as a result, claimed unemployment benefits. The American Rescue Plan waives federal income taxes on the first $10,200 of unemployment benefits received in 2020 by middle- and lower-income taxpayers. The tax relief extends to both workers who received benefits through federal unemployment programs as well as those who received traditional benefits through their state unemployment insurance fund. This law will provide tax relief for Americans who lost their jobs and utilized unemployment benefits last year – allowing millions of workers to focus their benefits on covering essentials during the COVID-19 pandemic.
 

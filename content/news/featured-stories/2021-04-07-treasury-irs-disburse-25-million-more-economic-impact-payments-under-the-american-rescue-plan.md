@@ -22,13 +22,13 @@ Additional  information is available on the first three batches of Economic Imp
 
 No action is needed by most people to obtain this round of Economic Impact Payments. People can check the[Get My Payment](https://www.irs.gov/coronavirus/get-my-payment)tool on IRS.gov on to see if the their payment has been scheduled.
 
-### Payments to non-filer VA beneficiaries will be disbursed on April 14
+## Payments to non-filer VA beneficiaries will be disbursed on April 14
 
 The IRS continues to review data received from Veterans Affairs (VA), which covers veterans and their beneficiaries who receive Compensation and Pension (C&P) benefit payments who don’t normally file a tax return.
 
 If no additional issues arise, the IRS expects to begin processing these VA payment files at the end of this week. Because the majority of these payments will be disbursed electronically, they would be received on the official payment date of April 14. The IRS projects VA beneficiary payment information would be available in the Get My Payment tool this weekend, April 10-11.
 
-### Payments continue to be made rapidly and effectively
+## Payments continue to be made rapidly and effectively
 
 The IRS and Treasury are disbursing Economic Impact Payments authorized by the American Rescue Plan quickly and successfully, while improving on previous rounds of payments.
 
@@ -38,7 +38,7 @@ The IRS and Treasury are disbursing Economic Impact Payments authorized by the A
 - Direct deposits are also more likely to be successfully delivered than mailed payments, and the return rate of direct deposits is also lower than in previous rounds of payments.
 - Over 3.1 million Direct Express cardholders have received payment electronically, more than a half-million more than in previous rounds.  Making most of these payments to Direct Express cards enables cardholders, many of whom are unbanked, to receive their Economic Impact Payment the same way they typically receive their federal benefits.
 
-### Special reminder for those who don't normally file a tax return
+## Special reminder for those who don't normally file a tax return
 
 Some federal benefits recipients may need to file a 2020 tax return, even if they don't usually file, to provide information the IRS needs to send payments for a qualified dependent. Eligible individuals in this group should file a 2020 tax return to be considered for an additional payment for their qualified dependent as quickly as possible.
 

@@ -6,7 +6,7 @@ url: /news/featured-stories/post-5-racial-differences-in-educational-experiences
 ---
 *This is the fifth installment in a series of blog posts on racial inequality produced by the Office of Economic Policy.  The other posts can be found at these links:  *[*1. Racial Inequality in the United States*](https://home.treasury.gov/news/featured-stories/racial-inequality-in-the-united-states)*, *[*2. Racial Differences in Economic Security: The Racial Wealth Gap*](https://home.treasury.gov/news/featured-stories/racial-differences-economic-security-racial-wealth-gap)*, *[*3. Racial Differences in Economic Security: Housing*](https://home.treasury.gov/news/featured-stories/racial-differences-in-economic-security-housing)*, *[*4. Racial Differences in Economic Security: Non-housing Assets*](https://home.treasury.gov/news/featured-stories/racial-differences-in-economic-security-non-housing-assets)
 
-### Introduction
+## Introduction
 
 Free public primary and secondary education in the United States was established to ensure that all Americans have access to educational opportunity and are equipped to fully participate in our democracy. However, laws banning enslaved people from being taught to read, exclusionary Jim Crow laws, and the ruling in* Plessy v. Ferguson*entrenched racial segregation of public schools in the South, and, while not mandated by law, a* de facto*system of segregation became commonplace in Northern states at the same time. These systems were used to deprive people of color of the educational resources required to prosper in society throughout the 19th and 20th centuries.
 
@@ -16,7 +16,7 @@ In addition, since education is the bedrock of labor productivity, policies that
 
 In this blog post, we discuss racial differences in K-12 and postsecondary educational experiences, highlighting current disparities and changes in these disparities during the recent past. We then discuss their key determinants and show these determinants are factors outside students’ control, including the socioeconomic status of their parents, the schools they attend, the neighborhoods in which they live, discrimination in disciplinary actions, the race of the teacher to which they are assigned, and implicit bias in teacher expectations.
 
-### Racial Disparities in Elementary and Secondary Education
+## Racial Disparities in Elementary and Secondary Education
 
 Childhood educational experiences have been shown to shape academic outcomes in adolescence and later in life, impacting indicators of well-being far into adulthood. Racial differences in childhood educational experiences thus have the potential to place children of different races on different trajectories at an early age, making it more difficult for some to achieve economic security in adulthood than others.  In future blog posts in this series, we will discuss the disparities in labor market outcomes and how they are intertwined with the educational disparities outlined in today’s post.
 
@@ -64,7 +64,7 @@ High school completion rates are another important measure of academic achieveme
 
 ** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from* Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
 
-### Racial Disparities in Postsecondary Education
+## Racial Disparities in Postsecondary Education
 
 Racial disparities in education persist beyond high school and into postsecondary education and are evident in the differences in college enrollment rates visible in Figure 4, which shows the percent of 18- to 24-year-olds in each group enrolled in college or graduate school.  College premiums remain high, such that these differences in enrollment and graduation rates will contribute to large disparities in lifetime earnings.[10]
 
@@ -94,9 +94,9 @@ These differences in enrollment patterns contribute to the racial differences in
 
 ** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from* Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
 
-### Determinants of Racial Disparities in Educational Experiences and Attainment
+## Determinants of Racial Disparities in Educational Experiences and Attainment
 
-#### The Role of Socioeconomic Status
+### The Role of Socioeconomic Status
 
 In this section, we will discuss the determinants of the racial disparities in education outlined above. Recall that sizeable achievement gaps exist at the beginning of kindergarten despite relatively similar pre-school enrollment rates. Therefore, these early disparities in achievement must be driven by something other than differences in access to formal schooling prior to elementary school. Research suggests that nearly all of the Black-white reading gap and over 80 percent of the Black-white math gap at the beginning kindergarten can be explained by differences in socioeconomic status and observed family background characteristics.[15]Similarly, there is evidence that socioeconomic factors and family background account for 85 percent of the Hispanic-white gap in reading achievement and 75 percent of the Hispanic-white math gap in kindergarten.[16]Socioeconomic status is measured using total family income and parental education and occupations, and family background characteristics include the age of the child’s mother at first birth, indicators for receiving aid from government social safety net programs, and the number of children’s books in the home.
 
@@ -106,7 +106,7 @@ While most of the achievement gaps at the beginning of kindergarten are attribut
 
 Research on the importance of socioeconomic factors in explaining Hispanic-white achievement gaps in elementary school is less mixed. Most research finds that these factors can explain an increasing share of Hispanic-white achievement gaps as students move through elementary school, so much so that estimates of the gap that are adjusted for differences in socioeconomic status disappear completely by fifth grade.[22]
 
-#### The Role of Schools
+### The Role of Schools
 
 While research suggests observable family background characteristics contribute substantially to racial achievement gaps in elementary and secondary school, there is an active debate about the extent to which schools reduce or exacerbate those disparities.
 
@@ -118,7 +118,7 @@ Finally, schools may impact racial differences in achievement and completion thr
 
 Existing research on the determinants of racial college enrollment and completion gaps indicates that nearly all these gaps are attributable to differences in pre-college characteristics, including family socioeconomic status, other family background variables, and pre-college test scores, the latter of which, as discussed earlier in this blog post, are also largely determined by family characteristics. For example, there is evidence that once pre-college characteristics are taken into account, Black and Hispanic students are more likely to attend and complete colleges of all quality levels than white students.[30]These findings suggest that to improve racial gaps in college attendance and completion, policymakers should focus on improving educational opportunity much earlier in life and economic opportunity for families more broadly.
 
-### Conclusion
+## Conclusion
 
 Racial disparities in educational experiences and attainment begin early in life and persist as individuals progress through school. Recognizing these disparities and understanding their determinants is important because they have stark implications for labor market outcomes, including employment, wages and earnings, and occupations and job quality, all of which are key determinants of economic wellbeing.
 

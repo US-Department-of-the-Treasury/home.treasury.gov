@@ -20,7 +20,7 @@ The economic data from the last two years demonstrates clearly that policies des
 
 Let me highlight how this is true looking at three important indicators of economic wellbeing: (1) employment; (2) access to housing, as measured by eviction rates; and (3) access to high-speed internet, which is essential to small business formation and online education.
 
-### Expanding Employment
+## Expanding Employment
 
 When President Biden took office, our country was still in the grip of a once-in-a-generation public health and economic crisis, with unemployment peaking at nearly 15 percent. Beginning with the American Rescue Plan, President Biden made it a priority to get Americans back to work. The ARP gave small businesses and governments significant resources to keep Americans on the payroll during the worst stretch of the pandemic and to invest in workforce training and other programs to support American workers in the long run.
 
@@ -38,7 +38,7 @@ It is also important to highlight that the policies that created these historic 
 
 The President’s focus on protecting workers and supporting a strong labor market extends beyond gains in the number of Americans employed. These jobs have also been coupled with strong wage gains, especially for those at the bottom of the income distribution. From 2020 to 2022, workers at the 10th percentile saw their wages rise nearly 6 percent even after accounting for inflation.[7]
 
-### Preventing Evictions and Poverty
+## Preventing Evictions and Poverty
 
 AS we’ve recovered from a global pandemic, the Biden-Harris Administration has focused on helping vulnerable Americans avoid the worst-case outcomes, from falling into poverty to facing an eviction. One of the lessons learned from the Great Recession was that these outcomes often expose those who experience them to economic scarring: long-term damage to the economic situations and prospects of individuals and families who suffer shocks like job loss, eviction, or homelessness.
 
@@ -52,7 +52,7 @@ The data on poverty rates tells a similar story. Policies like the ARP’s expan
 
 Supplemental poverty rates help show these gains by race. Black supplemental poverty fell from 14.8 percent in 2020 to 11.2 percent in 2021; the Hispanic rate fell from 14 percent to 11.2 percent; and the white rate fell from 6.5 percent to 5.7 percent. These gains translate to millions of Americans lifted out of poverty across the country.
 
-### Building Broadband Access
+## Building Broadband Access
 
 This same dynamic also played out in our efforts to achieve universal broadband access. Broadband internet is a prerequisite for full participation in the modern economy; without it, whole swaths of the job market and critical educational opportunities are out of reach. When schools and small businesses were forced to shut their doors due to the pandemic, reliable broadband internet was a lifeline for many students and small business owners. For those without, it became yet another barrier. One study found that eighth graders with full access to technology were roughly 27 months ahead of their classmates without reliable technology access during the pandemic.[11]
 
@@ -64,7 +64,7 @@ These investments are already paying dividends in rural communities like Gadsden
 
 Our efforts to provide universal broadband will provide an economic lifeline to these communities—and they will be transformative. In March, U.S. Treasurer Chief Marilynn Malerba received a call placed through a cell phone tower built in the Cherokee Nation of Oklahoma using American Rescue Plan funds that will provide broadband access to the community of Kenwood, OK for the first time. Before this tower was built, residents of this community had to drive ten minutes to place a cell phone call, to say nothing of broadband access. And there are stories like this all over the country—in Tribal communities, urban and rural communities, Black and white communities.
 
-### Conclusion
+## Conclusion
 
 During the Jim Crow era, many segregated communities pursued what Heather McGhee has called “drained-pool politics.”[16]In order to prevent Black and white residents from swimming in the same pools, these communities drained their pools entirely, preventing anyone from enjoying them. While this strategy excluded Black Americans, it also harmed many poor white Americans who could not afford to join the country clubs or private pools where wealthy whites continued to swim on hot days.
 

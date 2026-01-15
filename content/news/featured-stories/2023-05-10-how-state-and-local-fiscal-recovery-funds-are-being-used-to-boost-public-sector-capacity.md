@@ -14,7 +14,7 @@ At Treasury and across the administration, we are focused on ensuring that diffe
 
  
 
-### Using SLFRF to Build Public Sector Capacity
+## Using SLFRF to Build Public Sector Capacity
 
 In the early months of the pandemic, state, local, territorial, and Tribal governments cut over 1.5 million jobs amid sharp declines in revenue.[1]This mirrored the pattern of the Great Recession, when state and local governments cut 137,000 and 437,000 jobs, respectively,[2]and declines in state and local government budgets were a drag on the overall economy for more than three years.[3]During the Great Recession, the lack of fiscal support for state and local governments not only weighed down the overall economy, but also limited the ability of these governments to provide assistance to their residents when they most needed it.
 
@@ -29,22 +29,22 @@ Under the revenue loss eligible use category, recipients may use SLFRF funds to 
 
  
 
-### Examples of how local governments are investing SLFRF to boost public sector capacity
+## Examples of how local governments are investing SLFRF to boost public sector capacity
 
 While the pandemic illustrated the importance of strong and well-resourced local and state governments, there is still more work to be done to ensure governments are prepared for the future. The examples offered below, as reported to Treasury by SLFRF recipients, illustrate how local governments are leveraging SLFRF to build local capacity, including using SLFRF to hire public sector staff that work in dedicated offices or on initiatives focused on administering federal funds.[5]
 
-#### Overall Capacity Building and Service Delivery
+### Overall Capacity Building and Service Delivery
 
 - **Bayamon, Puerto Rico** has budgeted $7 million to upgrade its technology system to provide better services to the public and improve usability for staff. The new system will expand capacity and help improve the ability to plan, execute, and evaluate SLFRF-funded activities as well as other federal and non-federal funded programs that are essential to economic growth.
 - **Seattle, WA** budgeted $1.6 million for the Affordable Seattle program, an online portal available in 16 different languages which connects residents with benefits they may be eligible for. This will improve efficacy of city aid programs by streamlining access. SLFRF funds were used for hiring staff to lead the Affordable Seattle program and covering program costs.
 
-#### Public Sector Employment
+### Public Sector Employment
 
 - **Pittsburgh, PA** spent $52 million to avoid layoffs across all city departments that would otherwise have been necessary due to the negative impact of COVID on the city’s revenue, enabling the city to sustain critical city operations and services.
 - **Syracuse, NY** spent nearly $22 million to support the city’s operations at pre-pandemic levels, ensuring critical government and public safety services wouldn’t face pandemic-related interruptions. Due to an estimated revenue loss of $141 million from the pandemic, the city would have had to reduce staffing levels across all departments, including police and fire, without federal revenue replacement funds.
 - **Tarrant County, TX** budgeted $4.7 million to increase the number of full-time equivalent employees to support essential government functions.
 
-#### Planning, Monitoring, and Oversight
+### Planning, Monitoring, and Oversight
 
 - **Boulder County, CO** budgeted nearly $1.3 million for temporary staff to assist in administering the American Rescue Plan Act. Duties include facilitating requests for funding, ensuring financial compliance, and handling accounting, reporting, account reconciling, audit preparation, and other related duties.
 - **Buffalo, NY** budgeted $400,000 to hire and train staff for a new office within the Department of Administration, Finance, Policy and Urban Affairs, and for a Deputy Director of Planning in the Office of Strategic Planning. These staff will monitor the financial and programmatic reports of subrecipients, research best practices to improve outcomes, and evaluate the effectiveness of the outlined proposals.
@@ -54,7 +54,7 @@ While the pandemic illustrated the importance of strong and well-resourced local
 - **Omaha, NE** budgeted $225,000 to hire a staffer to coordinate and oversee the use of American Rescue Plan Act funds for affordable housing efforts, including distribution of emergency rental assistance. This staffer also helped create a citywide affordable housing action plan and helped establish a HUD Section 108 loan program, which will increase access to low-cost, flexible financing for economic development, housing, and infrastructure projects.
 - **Raleigh, NC** budgeted more than $450,000 on two new positions dedicated to the citywide management and oversight of American Rescue Plan Act grant funding. One position is housed in the Budget & Management Services Department and the other in the Finance Department.
 
-#### Evaluation and Data
+### Evaluation and Data
 
 - **Baltimore, MD** has obligated $600,000 to partner with the University of Baltimore and Morgan State University to support evaluation, research, and evidence-based decision-making about programs and services created or expanded using SLFRF. The University partners are providing the Mayor’s Office of Recovery Programs with implementation advice, impact evaluation, best practices research, administrative data analysis, and performance management.
 
@@ -63,7 +63,7 @@ While the pandemic illustrated the importance of strong and well-resourced local
 
  
 
-### Looking Ahead
+## Looking Ahead
 
 Treasury is committed to helping our nation not only rebuild from the pandemic, but also make investments that will strengthen local communities’ capacity to maximize the impact of historic investments in our nation’s economic future, including those made under the American Rescue Plan Act, Infrastructure Investment and Jobs Act, CHIPS and Science Act, and Inflation Reduction Act.
 

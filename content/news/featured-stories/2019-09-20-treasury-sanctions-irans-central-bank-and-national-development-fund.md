@@ -12,7 +12,7 @@ WASHINGTON- Today, the U.S. Department of the Treasury’s Office of Foreign Ass
 
 “We are putting governments on notice that they are risking the integrity of their financial systems by continuing to work with the Iranian regime’s arm of terror finance, its Central Bank,” said Sigal Mandelker, Under Secretary for Terrorism and Financial Intelligence. “We will vigorously enforce our sanctions to cut off the Iranian regime’s funding of global terrorism and its domestic oppression of the Iranian people, who are the regime’s longest suffering victims.”
 
-### Central Bank of Iran Funds the IRGC, its Qods Force and Hizballah
+## Central Bank of Iran Funds the IRGC, its Qods Force and Hizballah
 
 Today’s action targets the CBI for its financial support to the IRGC-QF and Hizballah.  In May 2018, OFAC[designated](https://home.treasury.gov/news/press-releases/sm0385)the CBI’s then-Governor Valiollah Seif, and the Assistant Director of the International Department Ali Tarzali, for facilitating financial transfers for the IRGC-QF and Hizballah.  Also, in November 2018 and as part of Treasury’s disruption of an international oil-for-terror network, OFAC[designated](https://home.treasury.gov/news/press-releases/sm553)the CBI’s International Department Director Rasul Sajjad, and the CBI’s International Department Director, Hossein Yaghoobi, for conducting financial transactions for the IRGC-QF.
 
@@ -26,7 +26,7 @@ The IRGC-QF, which was designated pursuant to E.O. 13224 on October 25, 2007, is
 
 Hizballah was designated by the Department of State as a Foreign Terrorist Organization in October 1997 pursuant to E.O. 13224 in October 2001.  It was also designated in August 2012 pursuant to E.O. 13582, which targets the Government of Syria and its supporters.
 
-### National Development Fund: A Slush Fund for the IRGC-QF and MODAFL
+## National Development Fund: A Slush Fund for the IRGC-QF and MODAFL
 
 According to Article 84 of the Fifth Development Plan of the Islamic Republic of Iran, the NDF was established to serve the welfare of the Iranian people by allocating revenues that originated from selling oil, gas, gas condensate, and oil products to durable wealth and productive economic investments.  However, the NDF has been used as a slush fund for the IRGC-QF, which has, for years, received hundreds of millions of dollars in cash disbursements from the NDF.
 
@@ -44,7 +44,7 @@ OFAC is designating Etemad Tejarate Pars Co. for having materially assisted, spo
 
 On March 26, 2019, OFAC[designated](https://home.treasury.gov/news/press-releases/sm639)MODAFL pursuant to E.O. 13224 for its role in assisting the IRGC-QF. Wilmington General Trading LLC was also designated on March 26, 2019 for being owned or controlled by Asadollah Seifi who obfuscated millions of dollars’ worth of transactions benefiting the Iranian regime and the purchase of foreign currency for the IRGC.
 
-### Sanctions Implications
+## Sanctions Implications
 
 As a result of today’s action, all property and interests in property of these entities that are in the United States or in the possession or control of U.S. persons must be blocked and reported to OFAC.  OFAC’s regulations generally prohibit all dealings by U.S. persons or within (or transiting) the United States that involve any property or interests in property of blocked or designated persons.
 

@@ -14,7 +14,7 @@ Provisions available to homeowners installing heat pumps include the IRA’s Ene
 
 Additional information on these credits can be found on the Treasury Department’s[Taxpayer Resource Hub](https://home.treasury.gov/ira-homeenergy).
 
-### Why Heat Pumps?
+## Why Heat Pumps?
 
 [Heat pump systems](https://www.energy.gov/energysaver/heat-pump-systems)work in every season, providing energy efficient solutions for heating and cooling homes. Unlike furnaces, which generate their own heat, heat pumps use energy to*move* heat in and out of a home as needed. The process makes heating and cooling homes cheaper and more energy efficient.
 
@@ -28,15 +28,15 @@ There are[several kinds of heat pumps](https://www.energy.gov/energysaver/heat-p
 
 Each type of heat pump has the potential to save consumers money while also reducing their carbon footprint.
 
-### Case Studies
+## Case Studies
 
 The following hypothetical scenarios illustrate the value that heat pumps can provide individuals, especially when used in tandem with credits or rebates in the IRA. Note that savings sums over time are left undiscounted.
 
-#### Case Study A
+### Case Study A
 
 The Pompapanas family has a higher-than-average monthly electrical heating and cooling bill of $200[1]and is interested in buying an air-source heat pump for $12,000.[2]They take advantage of the Energy Efficient Home Improvement Credit, saving $2,000 on their year-end tax return, so the net cost is effectively $10,000. Adding a heat pump reduces the Pompapanas family’s average monthly electricity bill by 65 percent[3]from $200 to $70, saving $130 a month, or $1,560 a year. After 7 years, they will have saved more in energy bills than the upfront cost they paid for the pump. Over 15 years, the family could save as much as $13,400 in net savings.
 
-#### Case Study B
+### Case Study B
 
 The Antlia family lives in a large home with an average monthly electrical heating and cooling bill of $400. They are looking to install a $20,000 geothermal heat pump in their home and to finance the cost over time. Their bank offers them a $15,000 home improvement loan at 10 percent interest to be paid over 15 years with a $5,000 downpayment. They take advantage of the Residential Clean Energy Credit, saving 30 percent of the cost of the geothermal heat pump, or $6,000 on their year-end tax return.
 
@@ -44,15 +44,15 @@ After installing the heat pump, the family’s average monthly utility bill is r
 
 Over the term of the loan, they will make monthly payments of $161, meaning they will have net monthly savings of $139 a month, or $1,668 annually. By the time the loan is paid off in 15 years, the family will have saved approximately $20,000 with their geothermal heat pump after accounting for loan costs.
 
-#### Case Study C
+### Case Study C
 
 Heat pump installations can also benefit low-to-moderate income (LMI) households. The Varmepump family, a moderate-income family, buys an air-source heat pump for $16,000 for their new home. They get a Home Electrification and Appliances Rebate, which saves them $8,000 of their heat pump expenses. If the Varmepump family have sufficient tax liability for that year, they can also take advantage of the Energy Efficient Home Improvement Credit, saving $2,000 on their year-end tax return, so the net cost is effectively $6,000. Adding a heat pump reduces the Varmepump family’s average monthly electricity use for heating and cooling from $150 to $60, saving $90 a month, or $1,080 a year. After 6 years, they will have saved more in energy bills than the upfront cost they paid for the pump. After 12 years, the family will save $6,960 in energy costs.
 
-### Conclusion
+## Conclusion
 
 The Inflation Reduction Act, through the Energy Efficient Home Improvement Credit, the Residential Clean Energy Credit, and the Home Electrification and Appliances Rebate (HEAR) Program, is enabling households, including low-to-moderate income (LMI) households, to power their homes more efficiently and save money. Consumers buying heat pumps outright, with the help of a consumer loan, and/or with the help of a rebate, have the potential to realize tremendous climate and economic impacts. Heat pump buyers can save money on installation costs up front and on energy bills well into the future.
 
-### Relevant Resources
+## Relevant Resources
 
 - [Energy Efficient Home Improvement Credit | Internal Revenue Service](https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit)
 - [Residential Clean Energy Credit | Internal Revenue Service](https://www.irs.gov/credits-deductions/residential-clean-energy-credit)

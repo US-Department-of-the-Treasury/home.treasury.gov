@@ -8,7 +8,7 @@ url: /news/featured-stories/using-research-to-ensure-equitable-receipt-of-tax-cr
 
 As we have written about often here, President Biden’s first executive order directed agencies to examine their policies and programs to identify whether and how they perpetuate barriers to equal opportunity.  As part of this work, a team of researchers at the U.S. Census Bureau, IRS, and Treasury Department recently completed an[analysis of the demographics](https://www.census.gov/library/working-papers/2023/adrm/CES-WP-23-24.html)of the recipients of the first round of Economic Impact Payments (EIPs) paid in 2020 to examine potential disparities in the receipt of these payments by age, income, gender, race and ethnicity, and presence of children.[1]As with all research using tax data, this research carefully followed stringent data protection protocols to prevent disclosure of taxpayer information. This research is part of the Treasury Department’s broader, groundbreaking efforts to assess and acknowledge the impact that policies have had on various demographic groups, as such analysis is critical to informing and designing more equitable policy proposals.
 
-### Background
+## Background
 
 The CARES Act, signed into law in March 2020, provided EIPs to blunt the economic effects of the COVID-19 pandemic. This payment was worth up to $1,200 per adult plus $500 per child under age 17. For a family of four, this payment could provide up to $3,400 in direct financial relief. Subsequent legislation in 2020 and 2021 provided a second and third round of EIPs.
 
@@ -16,7 +16,7 @@ The law instructed the Secretary of the Treasury to issue these payments as rapi
 
 To ensure that as many eligible families received the credit as possible, Congress enacted and Treasury administered a number of novel methods to expand the reach of the credit, including paying the credit on the basis of information on prior-year tax returns, paying the credit on the basis of information known to other federal agencies, establishing an online portal that allowed non-filers to file a simplified 2019 tax return to claim a stimulus payment, and mailing outreach letters to roughly 9 million non-filers who Treasury and the IRS estimated might be eligible for, but had not claimed, a stimulus payment once most payments had been sent.
 
-### Key Findings
+## Key Findings
 
 The researchers find that 55 percent of people who received an EIP did so in the first week the payments were made, and 95 percent received their EIP within six weeks.They find that younger individuals, lower-income families, and families with children received EIPs more quickly, likely due to the higher rate at which these groups receive tax refunds via direct deposit. (In order to issue payments as quickly as possible, payments were first issued electronically to individuals who received a refund via direct deposit on the tax return used to generate their payment.) Approximately 60 percent of multiracial, Hispanic, or Native Hawaiian or Pacific Islander recipients received a payment in the first week, compared to approximately 55 percent of White, American Indian and Alaska Native, Black, or Asian recipients. In contrast, White and Asian recipients were the most likely to receive their payments in the first six weeks, though more than 90 percent of payments were received in the first six weeks for every racial/ethnic subgroup the authors examined.
 
@@ -24,7 +24,7 @@ The authors estimate that 92 percent of potentially eligible individuals receive
 
 **Figure: Recipients as a percent of the estimated potentially eligible population by race/ethnicity **
 
-### Methodology and Related Research
+## Methodology and Related Research
 
 As described in prior[blog](https://home.treasury.gov/news/featured-stories/advancing-equity-analysis-in-tax-policy)[posts](https://home.treasury.gov/news/featured-stories/progress-towards-an-evaluation-of-economic-impact-payment-receipt-by-race-and-ethnicity), this research reflects an interagency collaboration that allowed researchers to build on the strengths of the data available in different agencies. The researchers linked two confidential administrative data sources while carefully following stringent data protection protocols: Census data on race and ethnicity, and IRS data on EIP disbursement.
 

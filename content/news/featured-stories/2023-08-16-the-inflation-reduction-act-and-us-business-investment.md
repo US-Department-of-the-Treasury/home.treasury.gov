@@ -15,7 +15,7 @@ It will take decades before the full effects of the IRA on the economy and the c
 - American business investment has been especially strong in the post-COVID recovery relative to previous recoveries, including research and development (R&D) spending. The IRA, along with the Bipartisan Infrastructure Law and the CHIPS and Science Act, likely explains some of that strength.
 - Investments that have been recently announced in the IRA-related sectors of clean energy, electric vehicles, and batteries are concentrated in relatively disadvantaged communities with lower wages, lower college graduation rates, and lower employment rates. Investing in such communities helps provide opportunity to those who live there but also helps boost national productivity growth.
 
-### Business Investment in the Post-COVID Recovery
+## Business Investment in the Post-COVID Recovery
 
 We begin by reviewing how aggregate private business investment has fared in the recent recovery.  Here, there is evidence that private investment has held up especially well in recent years, despite the recent increase in interest rates, which—all else equal—would tend to slow investment rates.
 
@@ -37,7 +37,7 @@ R&D, an important component of BFI, has been strong in this recovery (Figure 2).
 
 We are seeing strength in business investment in many other sectors as well. By June, real construction of manufacturing facilities had more than doubled since 2021, mainly reflecting new factories in the technology sector (see “[Unpacking the Boom in U.S. Construction of Manufacturing Facilities,”](https://home.treasury.gov/news/featured-stories/unpacking-the-boom-in-us-construction-of-manufacturing-facilities#:~:text=The%20United%20States%20has%20experienced,of%202021%20(Figure%201).)June 27).[2]The CHIPS and Science Act’s significant investments in semiconductor manufacturing reflect an important contributor to that trend, just as the IRA’s incentives for clean tech are another important tailwind for business investment.
 
-### Investing in Clean Technology in Disadvantaged Communities
+## Investing in Clean Technology in Disadvantaged Communities
 
 The IRA is designed to accelerate the development and deployment of clean energy technology that will allow the United States to do its part to help avoid the disastrous effects of climate change. But importantly, making such investments in our manufacturing sector can increase economic returns for economically disadvantaged or struggling communities when the associated job creation occurs within those communities. Such investments help promote equity goals by raising wages in lower-wage communities, and there is also evidence that investment policies enacted in distressed job markets have the highest “bang for the buck.”[3]In fact, for these reasons, the IRA includes important place-based bonuses for locating certain clean energy generation investments in low-income and high-unemployment areas.
 
@@ -75,7 +75,7 @@ Perhaps most strikingly, average wages are much lower in counties that have seen
 
 These communities are poised to reap huge benefits from new investment. New plants could bring people into the labor force who have been left behind.  Both of these outcomes would result in higher incomes for people in these communities.** ** Furthermore, the entire country will reap the benefits of a more productive labor force associated with cleaner technology.
 
-### Conclusion
+## Conclusion
 
 Business investment has been especially resilient in the past few years, as companies invest in R&D which helps grow our economy in the long term. The Inflation Reduction Act encourages these investments in clean technology to help reduce global carbon emissions. At the same time that aggregate investment has increased, reported investments in clean energy, electric vehicles, and batteries are being deployed in communities with weaker labor markets and other disadvantages. These investments in long-term growth, which are also targeted at reducing inequality and addressing climate change, are central to modern supply-side economics and to President Biden’s agenda.
 

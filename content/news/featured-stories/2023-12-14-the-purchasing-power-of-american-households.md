@@ -21,11 +21,11 @@ This blog explores the interplay of wages, employment, and prices to unpack this
 - The U.S. economy now has over 2 million more jobs than pre-pandemic forecasters expected.  Therefore, more and more workers are benefitting from increased purchasing power, thanks to the strong and resilient labor market.[1]
 - This pattern of rising purchasing power is particularly American: other advanced economies have generally seen lower, and in many cases negative, real wage growth.
 
-### Real Wages Across the Income Distribution
+## Real Wages Across the Income Distribution
 
 Biden-Harris policies over the past three years have contributed to strong wage growth—wage growth that has outpaced inflation.  Support for labor unions and strong economic growth have served to create an economy that has strengthened workers’ voices.[2]Workers have capitalized on the environment created by these policies, successfully bargaining for higher wages.  As a result, earnings have outpaced increases in prices such that real wages have increased since before the pandemic.  Real weekly earnings for the median worker grew 1.7 percent between 2019 and 2023.[3]This means that one week of pay for the median worker now buys more than a week of pay did in 2019, despite higher prices.  Furthermore, as shown in Figure 1, the increases in earnings are by no means concentrated at the top: in fact, they skew toward the middle class and the lower end of the income distribution.  The 25thpercentile of the wage distribution saw their nominal weekly earnings grow by $143, from $611 in 2019 to $754 in 2023.  When adjusted for inflation, this amounts to a 3.2 percent increase in real earnings.  Real earnings increases were particularly strong for the median Black and Hispanic Americans, who saw increases of 5.7 and 2.9 percent, respectively.[4]
 
-#### Figure 1: Growth of Real Earnings since Pre-Pandemic Across Income Distribution
+### Figure 1: Growth of Real Earnings since Pre-Pandemic Across Income Distribution
 
 ****
 
@@ -33,15 +33,15 @@ Not only is the level of real earnings higher than before the pandemic, but, as 
 
  
 
-#### Figure 2: Real Wage Growth, Last 12 Months vs. Pre-Pandemic
+### Figure 2: Real Wage Growth, Last 12 Months vs. Pre-Pandemic
 
-### Rising Purchasing Power for the Median American Worker
+## Rising Purchasing Power for the Median American Worker
 
 The typical "consumption bundle" purchased by the average American reflects a mixture of goods and services that have seen different price changes since 2019: increases for some items and declines for others.  Americans are certainly feeling the bite of higher gas and food prices, which were hit hard by Russia’s brutal war in Ukraine.  Since gas and food are purchased frequently and are necessities, they are particularly salient to consumers.  But the prices of many other goods and services have increased by less than median earnings or have outright declined. These include more infrequent or less salient purchases such as televisions, airline fares, internet services, and health insurance.  On net, the price growth of the average consumption bundle—which includes all items typically purchased and is shown in dark blue in Figure 3—has been less than the growth of median earnings.
 
  
 
-#### Figure 3: Examples of Goods and Services with Muted Price Growth or Price Declines from 2019 to 2023
+### Figure 3: Examples of Goods and Services with Muted Price Growth or Price Declines from 2019 to 2023
 
 ****
 
@@ -51,31 +51,31 @@ Overall, these data show that most American workers can afford more goods and se
 
  
 
-#### Figure 4: Expenditure Share of Median Earnings, Change from 2019 to 2023
+### Figure 4: Expenditure Share of Median Earnings, Change from 2019 to 2023
 
 ****
 
  
 
-### Employment Growth Beating Forecasts
+## Employment Growth Beating Forecasts
 
 As shown above, purchasing power has risen for workers that were employed in 2019 and remain employed in 2023.  But this observation alone understates the improvement in purchasing power for American households: not only are workers making higher earnings, but there are more workers than forecasters had predicted before or during the pandemic in 2020.  In fact, the prime-age employment-to-population ratio has recently reached an over 20-year high, a sign of the labor market’s strength. Higher levels of employment mean more workers and households are experiencing and sharing in the strength of real wages.
 
 In Figure 5, we compare today’s labor market outcomes with what the Congressional Budget Office (CBO) expected to occur in 2020.  The first bar shows that employment for the third quarter of 2023 surpassed their pre-pandemic forecast by more than 2 million jobs, suggesting that the labor market is even stronger than had been expected before the pandemic.  And, of course, forecasts were much more dire in the summer of 2020 after the onset of the pandemic.  At that time, CBO expected that by the third quarter of 2023, there would be 8.7 million fewer jobs than there are today (second bar).  Had either of those earlier forecasts come true, those millions of left-out workers would not be sharing in any current wage gains, and their purchasing power would likely have been lower as their families and households would have faced tighter budgets without their labor earnings.
 
-#### Figure 5: Employment—Actual versus Forecasted
+### Figure 5: Employment—Actual versus Forecasted
 
 **
 
-### Real Wage Growth in Global Context
+## Real Wage Growth in Global Context
 
 This marked increase in purchasing power seems to be specific to the United States.  Other advanced economies, which have also experienced elevated rates of inflation, have largely seen* declines*in purchasing power since the pandemic.[7]Of course, these countries all face different challenges.Some of these differentials are due to European economies being more exposed to Russia’s war in Ukraine, which raised food and energy prices substantially.  Still, the United States stands out for the improvement in the purchasing power of American workers.  Figure 6 shows the increase in average real earnings across countries from 2019 to 2023. Note that, for data availability and comparability reasons, we show average hourly earnings for production and non-supervisory workers in the United States rather than real median weekly earnings referenced in some of the figures above.[8]
 
  
 
-#### Figure 6: International Comparison of Real Wage Growth
+### Figure 6: International Comparison of Real Wage Growth
 
-### Conclusion
+## Conclusion
 
 The well-being of American households depends critically on their purchasing power.  Inflation eats into purchasing power, and many Americans have felt the bite of higher prices in their budgets in this recovery. But at the same time, higher wages and increased employment have outweighed the negative from inflation, and overall purchasing power has increased for most households.  The policies of this Administration have prioritized the well-being of American workers and their families—and these policies have worked.  A stronger labor market has meant more bargaining power for workers, new and better jobs for workers to move into, and strong wages for millions more Americans.
 

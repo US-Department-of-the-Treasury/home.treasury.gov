@@ -10,13 +10,13 @@ url: /news/featured-stories/treasury-targets-wide-range-of-terrorists-and-their-
 
 “Since the horrific attacks of 9/11, the U.S. government has refocused its counterterrorism efforts to constantly adapt to emerging threats.  President Trump’s modernized counterterrorism Executive Order enhances the authorities we use to target the finances of terror groups and their leaders to ensure they are as robust as possible,” said Secretary Steven T. Mnuchin.  “These new authorities will allow the U.S. Government to starve terrorists of resources they need to attack the United States and our allies, and will hold foreign financial institutions who continue to do business with them accountable. These new tools aid our unrelenting efforts to cut off terrorists from their sources of support and deprive them of the funds required to carry out their destructive activities.  They serve as a powerful deterrent to radical terror groups and those seeking to aid their nefarious goals.”
 
-### History of Post-9/11 Terrorism Authorities
+## History of Post-9/11 Terrorism Authorities
 
 Twelve days after the attacks of September 11, 2001, the President signed the original E.O. 13224 to disrupt the financial infrastructure of terrorist groups worldwide.  Since then, this authority has become a cornerstone of Treasury’s efforts to prevent terrorist attacks by cutting off sources of funding and denying access to the international financial system.  Yet terrorists and their supporters are constantly seeking to test and evade our counterterrorism measures.  As the U.S. Government confronts evolving threats of worldwide terrorism, the President has significantly enhanced E.O. 13224 to strengthen the U.S. Government’s ability to disrupt terrorist activity by depriving terrorist supporters of financial, material, and logistical backing worldwide
 
 The U.S. Government has leveraged E.O. 13224 to dismantle networks supporting a broad range of terrorist groups from al-Qa’ida and ISIS to Iranian-backed groups like Hizballah and HAMAS.  E.O. 13224 also serves as an important tool in our efforts to drain the financial resources of the Iranian regime’s malign actors including the IRGC, and its foreign expeditionary arm, the Qods Force (IRGC-QF).
 
-### ENHANCED E.O. 13224 Provides New Counterterrorism Tools
+## ENHANCED E.O. 13224 Provides New Counterterrorism Tools
 
 E.O. 13224, as amended, provides the Treasury and State Departments with new tools that allow the U.S. Government to better identify and designate perpetrators of terrorism worldwide.  Specifically, the E.O.:
 
@@ -27,11 +27,11 @@ E.O. 13224, as amended, provides the Treasury and State Departments with new too
 
 This new authority serves to put all foreign financial institutions on notice that enabling terrorists and their financial backers to rely upon the international financial system to facilitate their malign activities will have consequences.  This Administration remains committed to facilitating the peace process in the Middle East and will use this amended authority to sanction those who stand in the way of progress.
 
-### ENHANCED Authorities Allow Treasury to Target Broader Range of Terrorists and Activities
+## ENHANCED Authorities Allow Treasury to Target Broader Range of Terrorists and Activities
 
 These new authorities allow Treasury to target a broad range of new terrorist leaders, supporters, entities, and activities.  Below are the terrorists and sympathizers targeted today under these new authorities:
 
-#### Muhammad Sa’id Izadi (Izadi)
+### Muhammad Sa’id Izadi (Izadi)
 
 ** Izadi is a leader or official of the IRGC-QF.**
 
@@ -41,7 +41,7 @@ Lebanon-based Izadi is the chief of the Palestinian Office of the IRGC­QF Leban
 
 As of late 2016, Izadi required a HAMAS Political Officer member to get permission from three senior HAMAS leaders in order to receive money directly from him.  The HAMAS Political Office member stated Izadi would be sending $1 million dollars in addition to Izadi’s regular allocation, and an additional $1 million dollars earmarked for the HAMAS Political Office member.
 
-#### Zaher Jabarin (Jabarin)
+### Zaher Jabarin (Jabarin)
 
 ** Jabarin is a leader or official of HAMAS.**
 
@@ -57,7 +57,7 @@ Jabarin has served as the primary point of contact between HAMAS and the IRGC-QF
 
 Jabarin was involved in the transfer of millions of dollars to HAMAS via Redin Exchange, also sanctioned today and detailed immediately below.
 
-#### Redin Exchange
+### Redin Exchange
 
 ** Redin Exchange has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, HAMAS.**
 
@@ -71,7 +71,7 @@ In May 2018, Redin Exchange assisted in the transfer of $2 million from the IRGC
 
 In July 2017, a senior HAMAS leader transferred $5.5 million to HAMAS finance chief Zaher Jabarin via Redin Exchange.
 
-#### Marwan Mahdi Salah Al-Rawi (Al-Rawi)
+### Marwan Mahdi Salah Al-Rawi (Al-Rawi)
 
 ** Al-Rawi is a leader or official of Redin Exchange.**
 
@@ -79,7 +79,7 @@ Al-Rawi is identified as Redin Exchange’s Chief Executive Officer (CEO).
 
 In late January 2018, OFAC-designated ISIS financial facilitator Walid Talib Zughayr al-Rawi, was aware of an approximately $500,000 financial transaction of Redin Exchange administrator Marwan al-Rawi.
 
-#### Ismael Tash (Tash)
+### Ismael Tash (Tash)
 
 ** Ismael Tash is a leader or official of Redin Exchange.**
 
@@ -89,7 +89,7 @@ As of January 2019, Tash was a key player in many financial transfers from Iran 
 
 Since at least 2017, Tash has had ongoing contact with a money transfer channel managed by Treasury-designated HAMAS financial facilitator Muhammad Sarur.  This channel has transferred IRGC-QF money to Hamas and in particular HAMAS’s operational arm in the Gaza Strip.
 
-#### SMART Ithalat Ihracat Dis Ticaret Limited Sirketi (SMART)
+### SMART Ithalat Ihracat Dis Ticaret Limited Sirketi (SMART)
 
 ** SMART is owned or controlled by Ismael Tash.**
 
@@ -97,7 +97,7 @@ Tash is the owner of SMART.
 
 SMART is an import/export limited company and possible front company associated with Redin Exchange.  Both SMART and Redin Exchange share the same Istanbul-based address.
 
-#### Saksouk Company for Exchange and Money Transfer (Saksouk)
+### Saksouk Company for Exchange and Money Transfer (Saksouk)
 
 ** Saksouk has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS.**
 
@@ -107,7 +107,7 @@ In mid-2017, an ISIS financial facilitator and U.S. Treasury-designated Fawaz Mu
 
 In July 2017, the Syria-based ISIS Immigration Logistics Committee (ILC) attempted to transfer money to an ISIS ILC affiliate via Saksouk Company.
 
-#### Al Haram Foreign Exchange Co. Ltd. (Al Haram Exchange)
+### Al Haram Foreign Exchange Co. Ltd. (Al Haram Exchange)
 
 ** Al Haram Exchange has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, ISIS.**
 
@@ -117,7 +117,7 @@ As of early 2017, Al Haram Exchange was involved in an ISIS financial transfer b
 
 As of mid-2017, a Syrian-based ISIS facilitator coordinated a money transfer between the Al-Haram Exchange and Fawaz, the owner of the Hanifa Currency Exchange, an entity designated in December 2016 for being owned or controlled by Fawaz.
 
-#### Al-Khalidi Exchange (Al-Khalidi)
+### Al-Khalidi Exchange (Al-Khalidi)
 
 ** Al-Khalidi has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS.**
 
@@ -131,7 +131,7 @@ As of mid-2016, Fawaz al-Rawi, who was subsequently designated in late 2016 as a
 
 As of mid-2015, al-Khalidi’s Istanbul, Izmir, and Sanliurfa branches facilitated money transfers and transactions for ISIS.  During this same timeframe, ISIS maintained a telephone directory of associates and managers of various ISIS offices, which included Syria-based locations for al-Khalidi Exchange and al-Hebo Jewelry Company, also sanctioned today
 
-#### Al-Hebo Jewelry Company (al-Hebo)
+### Al-Hebo Jewelry Company (al-Hebo)
 
 ** Al-Hebo has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS.**
 
@@ -141,7 +141,7 @@ As of early 2017, Raqqah-based al-Hebo was a cash transfer business used by ISIS
 
 In September 2016, an employee of Raqqah-based al-Hebo likely coordinated a money transfer on behalf of a now-deceased, Syria-based, ISIS senior operations official.
 
-#### Muhamad Ali al-Hebo (Muhamad)
+### Muhamad Ali al-Hebo (Muhamad)
 
 ** Muhamad has acted or purported to act for or on behalf of, directly or indirectly, al-Hebo.**
 
@@ -159,7 +159,7 @@ As of late 2016, Muhamad worked at the Raqqah-based al-Khalidi location.
 
 As of early 2016, Muhamad managed the Sanliurfa-based al-Khalidi location.
 
-#### Mohamad Ameen (Ameen)
+### Mohamad Ameen (Ameen)
 
 ** Ameen has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, ISIS-Khorasan (ISIS-K).**
 
@@ -169,13 +169,13 @@ Additionally, as of April 2019, Maldives-based Ameen was actively engaged in lea
 
 Additionally, Ameen is a recruiter and key leader for ISIS in Syria, Afghanistan, and the Maldives.  Ameen used to direct terrorist fighters to Syria, but now sends them to Afghanistan.
 
-#### Mohamed Ahmed Elsayed Ahmed Ibrahim (Ibrahim)
+### Mohamed Ahmed Elsayed Ahmed Ibrahim (Ibrahim)
 
 ** Ibrahim has acted or purported to act for or on behalf of, directly or indirectly, al-Qa’ida.**
 
 Ibrahim, a Brazil-based member of al-Qa’ida, provided facilitation support to al-Qa’ida members and material support to al-Qa’ida.
 
-#### Almaida Marani Salvin (Salvin)
+### Almaida Marani Salvin (Salvin)
 
 ** Salvin has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS-Philippines.**
 
@@ -183,13 +183,13 @@ In April 2019, Salvin was arrested in Zamboanga City, Philippines, based on her 
 
 As of early 2019, Philippine authorities determined Salvin, who was the wife of an ISIS-P leader, conducted financial transactions, procurement, transportation of firearms and explosives, and facilitated the recruitment and travel of foreign fighters to the Philippines.
 
-#### Muhammad Ali Sayid Ahmad (Ahmad)
+### Muhammad Ali Sayid Ahmad (Ahmad)
 
 ** Ahmad has participated in training related to terrorism that was provided by ISIS. **
 
 In an October 2018 public interview, Ahmad recounted his journey to join ISIS.  He stated that he left Toronto to join ISIS in April 2014 and attended basic training as a new ISIS recruit.  In basic training, he learned how to use small arms.  Later he joined a sniper and reconnaissance unit where he received advanced sniper and reconnaissance training.
 
-### SANCTIONS IMPLICATIONS
+## SANCTIONS IMPLICATIONS
 
 As a result of today’s action, all property and interests in property of these targets that are in the United States or in the possession or control of U.S. persons must be blocked and reported to OFAC.  OFAC’s regulations generally prohibit all dealings by U.S. persons or within the United States (including transactions transiting the United States) that involve any property or interests in property of blocked or designated persons.  In addition, persons that engage in certain transactions with the individual designated today may themselves be exposed to sanctions or subject to an enforcement action.
 

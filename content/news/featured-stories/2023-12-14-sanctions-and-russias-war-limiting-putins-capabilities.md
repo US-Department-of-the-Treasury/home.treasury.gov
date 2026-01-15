@@ -17,9 +17,9 @@ This blog offers four key conclusions:
 - Russian’s own policy responses to our sanctions are growing increasingly expensive for Russia.
 - The United States and our partners have taken innovative measures to spare the global economy from unnecessary damage from Russia’s war.
 
-### MACROECONOMIC PERSPECTIVE – RUSSIA FAR BEHIND ITS POTENTIAL
+## MACROECONOMIC PERSPECTIVE – RUSSIA FAR BEHIND ITS POTENTIAL
 
-#### GDP: Russia’s Economy is Falling Behind
+### GDP: Russia’s Economy is Falling Behind
 
 Following its invasion of Ukraine and the imposition of U.S. and partners’ sanctions and other economic measures, Russia’s economy in 2022 contracted by 2.1 percent (Figure 1),[ii]with record-high energy exports cushioning what would have been a far deeper contraction.  Russia’s economy is over 5 percent smaller than had been predicted prior to the escalation, and it is far underperforming other energy exporters (including the United States).   The war and associated multilateral sanctions are putting Russia’s economy under considerable economic strain, contributing to rapidly growing expenditures, a depreciating ruble, increasing inflation, and a tight labor market reflecting a loss of workers.
 
@@ -33,7 +33,7 @@ The United States and partners’ imposition of financial sanctions, export cont
 
 Source: Russian Central Bank and Treasury staff calculations. Three-month rolling average of monthly Imports and Exports of Goods and Services, valued in USD and adjusted for inflation.
 
-#### Emigration: Russia’s People Are Voting with Their Feet
+### Emigration: Russia’s People Are Voting with Their Feet
 
 The economic outlook for Russian households has soured.  An uptick in emigration predated Russia’s full-scale invasion of Ukraine, but the war mobilization effort in 2022 accelerated the trend in young and educated people leaving for opportunities abroad.[v]As Russia mobilized its war effort, emigration has reached historic highs; around 668,000 people left Russia in 2022 — a 71 percent increase over the prior five-year average (Figure 3).  In the long-term, this permanent loss in human capital with further weaken Russia’s growth potential; the Russian government is acutely aware of this, offering subsidized mortgages to get skilled workers to stay.[vi]
 
@@ -45,7 +45,7 @@ Sources: Russia Federal State Statistics Service and Treasury staff estimates.
 
 Note: 2023 estimates include a lower bound (orange bar), based on average monthly emigration through August 2023 and an upper bound (gray bar) based on the maximum monthly emigration values reported in 2023.
 
-#### Foreign Exchange: A Weak Ruble
+### Foreign Exchange: A Weak Ruble
 
 The Russian economy has also experienced volatility in its exchange rate, with the ruble falling then rising then falling again, now down roughly 20 percent against the dollar from early February 2022 to December 2023 (Figure 4). This depreciation, while not a measure of the efficacy of sanctions, does impact Russia’s fiscal balance and has made Russia’s imports more expensive, which – alongside other restrictions imposed by the United States and its partners — make Russia’s ability to acquire war materials more difficult.
 
@@ -55,7 +55,7 @@ The Russian economy has also experienced volatility in its exchange rate, with t
 
 Sources: Russian Central Bank and Treasury staff calculations
 
-### FISCAL OUTLOOK: DIMINISHING ROOM TO SPEND
+## FISCAL OUTLOOK: DIMINISHING ROOM TO SPEND
 
 In 2023, growth in the Russian economy has been largely driven by an increase in government spending on the war in Ukraine, infrastructure, and increased social outlays.  The Russian authorities have doubled the 2023 defense spending target to more than $100 billion (a third of all public expenditure) while pausing public salary increases slated for 2024.  As spending has grown, energy revenues have declined sharply—by almost 40 percent from January through October 2023 relative to 2022 (Figure 5). That decline reflects many factors, including the decline in global oil prices through 2022 and much of 2023, as the targeted sanctions regimes helped avoid the significant Russian supply shock that markets feared after the invasion. Moreover, the effects of two key measures – the EU embargo and the Price Cap – helped reduce Russia’s export earnings by forcing sizeable discounts on Russian exporters in market segments where the EU embargo lowered demand.[vii]This decline in revenue increased pressure on Russia’s fiscal balance, given that oil and gas tax revenue are key sources of Russia’s revenue.  Of course, the rise in global oil prices since Summer 2023 allowed some recovery in Russia's revenues; but increased enforcement of the price cap and related sanctions regimes[viii]continue to limit revenues.
 
@@ -65,7 +65,7 @@ Sources: Russian Ministry of Finance and Treasury staff calculations.  Revenue 
 
 The Russian government has undertaken several policy responses to fill fiscal gaps, including changes to tax policy and utilization of the National Wealth Fund’s (NWF) fiscal reserves, but these all come at a cost.  Disbursals from the NWF, windfall taxes, and domestic debt issuances are covering the deficit in the near-term, but the combination of increased use of the NWF and multilateral sanctions are depleting it; the NWF currently holds about $146 billion, nearly half of which ($72 billion) is in gold and liquid yuan assets.  The immobilization of around $280 billion in Russian reserves in the NWF and Central Bank sovereign assets by U.S., EU, and partner sanctions (roughly half of total foreign reserves pre-war) leaves Russia without access to an important buffer.  As a result of monetary financing and other factors — including a tight labor market — annual inflation stands at 7.5 percent as of end-November and Russia’s Central Bank projects it to reach 7.0–7.5 percent by the end of the year, well above its 4 percent target.  Inflation may continue to rise as sources of nonmonetary finance dwindle.
 
-### RUSSIAN POLICY CHOICES – HARDER AND INCREASINGLY EXPENSIVE
+## RUSSIAN POLICY CHOICES – HARDER AND INCREASINGLY EXPENSIVE
 
 The Russian government has consistently prioritized stop-gap measures over long-term prosperity.  The increase in defense-related spending, for example, coincided with a decline in total household consumption by approximately 2 percent in 2022. Moreover, with efforts by the Central Bank to slow inflation — ultimately increasing the benchmark interest rate to 15 percent — borrowing and investment costs have become more expensive for both citizens and the government.
 
@@ -77,7 +77,7 @@ The consequences of Russia’s war have forced it to retreat from global markets
 
 Source: Russian Central Bank.
 
-### PROTECTING THE GLOBAL ECONOMY: MITIGATING SPILLOVERS
+## PROTECTING THE GLOBAL ECONOMY: MITIGATING SPILLOVERS
 
 Actions taken by the United States, whether on our own or with our partners, have been carefully calibrated to mitigate costs from Russia’s war of choice on the global economy:
 
@@ -85,7 +85,7 @@ Actions taken by the United States, whether on our own or with our partners, hav
 - ** Food Security:**The United States has not imposed sanctions related to Russian agricultural commodities or equipment.  To counter Russia weaponizing hunger, the United States has supported the Black Sea Grain Initiative that helped approximately 33 million metric tons of grain reach global markets, driving down food prices around the world.  Nearly two-thirds of the wheat exported through that deal went to developing countries.  Not only did Russia pull out of the deal on July 17, 2023, but it is now mining Ukraine’s fields, bombing its ports and rails, and burning its silos. The United States continues to work with allies and partners to safeguard global food security and bring grain to the world market.
 - ** European Gas:**President Biden committed to help Europe access liquefied natural gas. Allies and partners, especially in Asia, allowed these energy resources to be directed to Europe as part of this global effort to ensure the EU’s access to energy.  The United States acted quickly to restrict Russia’s ability to gain revenues through its oil and gas sector, including by announcing prohibitions on Russian liquified natural gas imports within weeks of the start of the war.  The United States remains committed to supporting Europe’s energy goals, including through the U.S.-EU Task Force on Energy Security.
 
-### FUTURE ACTIONS
+## FUTURE ACTIONS
 
 The United States and our partners will continue to act to deprive Russia of the resources it uses to harm the people of Ukraine.  G7 Leaders have committed to increase restrictions on Russia’s use of the international financial system to expand its military industrial base, as well as restrictions on exports to Russia of critical inputs.  G7 Leaders have also committed to increase restrictions on Russia’s ability to finance its war from export revenue, including of energy, metals, and diamonds.  All these actions are intended to create an asymmetric reduction in Russia’s capacity for violence while enabling continued global economic prosperity.
 

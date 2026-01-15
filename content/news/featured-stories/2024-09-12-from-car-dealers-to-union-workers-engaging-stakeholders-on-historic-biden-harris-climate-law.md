@@ -24,13 +24,13 @@ Among many things, the IRA created or modified federal tax credits for new and u
 
 Partnering with public, private, and nonprofit entities to build relationships and engage in an ongoing educational dialogue with taxpayers has been fundamental to the IRA Program Office’s stakeholder engagement strategy. This strategy is being implemented across state and local governments, nonprofits, consumers, and historically disadvantaged communities in addition to dealers, unions, manufacturers, and suppliers. A consistent, synchronized engagement effort will continue to be critical as IRA regulatory implementation moves forward.
 
-### Car Dealers
+## Car Dealers
 
 The IRA allows for customers to reduce the up-front cost of a clean vehicle purchase[8]at the time of sale instead of waiting until the next tax filing season. This statutory modification required participating car dealers to register with the IRS through an entirely new system called IRS Energy Credits Online[9]. In partnership with the National Auto Dealer Association (NADA), the IRA Program Office led a series of webinars that drew thousands of dealerships from across the country. Additionally, Treasury and IRS officials traveled to Nevada for a dealer workshop on the new and enhanced clean vehicle tax credits. Throughout these engagements and others, Treasury and the IRS were able to offer ongoing operational assistance and help dealers navigate this new process. One dealer shared with his peers that, “the IRS made working with the [new EV tax credit] really easy.” Another said that their experience with IRS Energy Credits Online was “flawless.”
 
 Over 14,000 car dealers have registered with IRS Energy Credits Online since it launched in January. This has allowed consumers to save more than $1.5 billion in upfront costs on their purchase of more than 225,000 clean vehicles. Dealer, seller, and advocacy group feedback received through roundtables, listening sessions and office hours have been instrumental to dealer participation.
 
-### Organized Labor
+## Organized Labor
 
 The IRA also applied prevailing wage and apprenticeship (PWA) requirements to clean energy construction jobs for the very first time. Treasury—in close partnership with the Department of Labor (DOL)—recently finalized these rules[10], which create an unprecedented opportunity for union workers to lead the clean energy workforce. A recent report by Heatmap[11]said the IRA could, “go down as one of the most important labor laws of recent history.”
 
@@ -38,7 +38,7 @@ Earlier this summer, Deputy Secretary Adeyemo and Acting Department of Labor Sec
 
 Treasury continues to work with the Department of Labor on promoting these new labor rules through tours, workshops, webinars and presentations. Treasury, IRS[13], and DOL[14]have created an extensive set of tools and resources for unions, contractors and subcontractors to better understand the impact of this new provision.
 
-### Manufacturers and Suppliers
+## Manufacturers and Suppliers
 
 New and modified tax credits like the Advanced Manufacturing Production Credit[15]and the Qualifying Advanced Energy Project Credit[16]incentivize companies to onshore America’s clean energy supply chains.  The Motor & Equipment Manufacturers Association (MEMA) hosted the IRA Program Office[17]for a roundtable in Fowlerville, Michigan this summer to talk about how small and midsized suppliers can benefit directly and indirectly from these provisions .
 

@@ -10,25 +10,25 @@ While much work remains to make sure this recovery reaches all Americans and reb
 
 One year after President Biden signed the American Rescue Plan Act into law, its impact is clear to expert analysts and the local leaders on the frontline who are using these funds to ensure their communities emerge from the pandemic stronger than before.Here’s what they are saying:
 
-### Expert Analysis
+## Expert Analysis
 
-#### Moody’s: 4 million more jobs added in 2021 thanks to ARP
+### Moody’s: 4 million more jobs added in 2021 thanks to ARP
 
 - [New analysis from Moody’s](https://www.moodysanalytics.com/-/media/article/2022/global-fiscal-policy-in-the-pandemic.pdf)found that for 2021, the American Rescue Plan resulted in 4 million more jobs and nearly doubled GDP growth. Moody’s finds that without the American Rescue Plan, unemployment would have risen in summer 2021 to back over 7% and remain materially higher after that.*“**The ARP is responsible for adding well over 4 million more jobs in 2021**, and the economy is currently on track to recovering all the jobs lost in the pandemic by the second quarter of this year. ** If there had been no ARP, it would have taken another year for the economy to recover all of these jobs.**”**“The economy is currently on track to recoup all the jobs lost during the pandemic recession by late this year. ** Without government support, this milestone would not have been achieved until summer 2026. Low-wage workers, who have suffered most financially during the pandemic, would have been set back even further**, since they work in industries that have desperately needed government support during the pandemic.”*
 
-#### Princeton Eviction Lab: Millions Avoided Threat of Eviction thanks to ARP
+### Princeton Eviction Lab: Millions Avoided Threat of Eviction thanks to ARP
 
 - [New analysis by Princeton University’s Eviction Lab](https://evictionlab.org/us-eviction-filing-patterns-2021/)published yesterday found that millions of renters avoided the threat of eviction last year due to the federal government’s serious and unprecedented interventions, in significant part through the American Rescue Plan. It also found that low-income and majority-Black neighborhoods that typically see a disproportionate share of eviction cases experienced the largest absolute reduction in filings.*“The last two years have witnessed the largest drop in eviction filings on record. Last year, **millions of renters avoided the threat of eviction thanks to expanded legal protections and new social safety net programs, many of them enacted as part of the American Rescue Plan**. For the second year in a row, eviction filings remained well below normal, pre-pandemic levels. The federal government intervened in the eviction crisis in a serious and unprecedented way. Our data show that that intervention has paid off.”**“Low-income and majority-Black neighborhoods that normally see a disproportionate share of eviction cases experienced the largest absolute reductions in filings. ** Public policies enacted in response to the pandemic have led to a sustained reduction in housing instability and were effective in helping those most in need.**”*
 
-#### Menino Mayor’s Survey: ARP Saved Cities from “Dramatic Cuts”
+### Menino Mayor’s Survey: ARP Saved Cities from “Dramatic Cuts”
 
 - The Menino Mayor’s Survey from the Boston University Initiative on Cities[compared](https://www.bu.edu/ioc/2022/03/09/looking-back-on-arpa-and-americas-cities-a-menino-survey-reflection/)mayors’ fiscal outlook from before and after the American Rescue Plan. They found that after the American Rescue Plan, mayors were significantly more optimistic about the fiscal outlook and the future of their cities.*“In 2020, prior to the American Rescue Plan, cities were expecting “**dramatic cuts**” and that “many critical cornerstones of urban life – including arts and cultural institutions, colleges and universities, public schools, mass transit systems, childcare, hospitals, and locally owned businesses – ** would take years to return to normal, if ever.**”** In 2021, “**A striking 78 percent** of mayors told us they would use the money from the American Rescue Plan to accomplish ‘transformative’ things that would reshape their cities’ long-term futures”**“In short,** stimulus funding from the Biden Administration provided pivotal support for America’s cities**. In 2020, mayors felt cash-strapped and limited in their ability to remedy the enormous social, physical, and economic harms wrought by the COVID-19 pandemic. One year later... they were considerably more optimistic about having the fiscal resources to redress some of those impacts – and had already invested in a number of transformative programs.”*
 
-#### Center for Budget and Policy Priorities: “American Rescue Plan’s Fiscal Recovery Funds Are Helping Produce a Stronger Recovery”
+### Center for Budget and Policy Priorities: “American Rescue Plan’s Fiscal Recovery Funds Are Helping Produce a Stronger Recovery”
 
 - The Center on Budget and Policy Priorities[finds](https://twitter.com/centeronbudget/status/1501564345955893250?s=27)that States have budgeted for 78% of available funds through February 2022. They also[conclude](https://www.cbpp.org/research/state-budget-and-tax/american-rescue-plans-fiscal-recovery-funds-are-helping-produce-a)that:“This robust policy response helped make the COVID-19 recession the shortest on record and helped fuel an economic recovery that has brought unemployment, which peaked at 14.8 percent in April 2020, down to 4.0 percent.”“Surveying the impacts on hardship, the University of Michigan’s H. Luke Shaefer concluded, ‘This is the best, most successful response to an economic crisis that we have ever mounted, and it is not even close.”
 
-### Local Governments
+## Local Governments
 
 Between shuttered downtowns, drops in tourism and necessary new costs like COVID-19 testing, American cities were among the hardest hit by the pandemic. The National League of Cities[reported](https://www.nlc.org/post/2020/12/01/new-survey-data-quantifies-pandemics-impact-on-cities-municipal-revenues-down-twenty-one-percent-while-expenses-increase-seventeen-percent/)in December 2020 that***90% of cities were experiencing revenue declines***, and**76% were shouldering increases in costs due to the pandemic**.
 

@@ -14,7 +14,7 @@ Direct File was made possible by resources from President Biden’s Inflation Re
 
 Direct File is central to the Biden-Harris Administration’s efforts to deliver modern, world-class customer service using Inflation Reduction Act resources. Direct File also advances a goal of the IRS’s Strategic Operation Plan (SOP) to ensure that taxpayers receive tax credits that they are eligible for, like the Child Tax Credit and Earned Income Tax Credit. The IRS will continue to improve the product over time and ensure that it remains free, secure, and easy to use.
 
-### Background on the Direct File Pilot Program
+## Background on the Direct File Pilot Program
 
 The average American spends $270 and 13 hours filing their taxes.*(Taxpayer Burden Survey) * President Biden’s Inflation Reduction Act required the IRS to study the potential for an IRS-run Direct e-File System that would allow taxpayers to file taxes for free, directly with the IRS. After reviewing the report, which showed strong taxpayer interest in a free IRS filing option, the Treasury Department initiated a pilot of IRS Direct File during the 2024 Filing Season.
 

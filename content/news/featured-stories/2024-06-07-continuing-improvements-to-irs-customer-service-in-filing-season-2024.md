@@ -10,7 +10,7 @@ Last year, during[Filing Season 2023](https://home.treasury.gov/news/press-relea
 
 This year, in Filing Season 2024, these improvements have continued, and the IRS has met or exceeded the Secretary’s goals for this filing season, and many of the customer service goals outlined in its[Strategic Operating Plan](https://www.irs.gov/about-irs/irs-inflation-reduction-act-strategic-operating-plan).
 
-### Phone Services
+## Phone Services
 
 The IRS answered more taxpayer calls on its main live assistor lines this year, a**17.3%** increase from 2023. IRS assistors handled 9 million calls, up from 7.7 million the year before. IRS automated lines handled another approximately 8.9 million calls, 500,000 more than the previous year. Additionally, taxpayers received faster response times. Taxpayers waited, on average, just over three minutes for help on the IRS main phone lines. This wait time is consistent with three minutes delivered during in filing season 2023 and less than the average of 28 minutes delivered during filing season 2022.
 
@@ -18,7 +18,7 @@ The IRS answered more taxpayer calls on its main live assistor lines this year, 
 
 Funding provided by the Inflation Reduction Act made possible over 5,000 new hires, which helped drive down call wait time. The IRS also expanded the Customer Callback capabilities that allow eligible taxpayers to hang up if the projected wait time was longer than 15 minutes and receive a call-back after from an available assistor. This is estimated to have collectively saved taxpayers over**1.5 million hours** of hold time.
 
-### Digital Services
+## Digital Services
 
 Filing Season 2024 is also seeing many of the IRS’s new investments in online tools, made possible by IRA resources, lead to better service in the form of increased web traffic and usage by taxpayers. Across all web services, the IRS has seen a**41%** increase in usage rate so far for Filing Season 2024.
 
@@ -34,13 +34,13 @@ For example, updates made over the past year to the “Where's My Refund?” too
 
 The recent funding through the Inflation Reduction Act has made these IRS digital service updates available and improved.
 
-### In-Person Services
+## In-Person Services
 
 In addition to providing excellent customer service by phone and online, the IRS also committed to ensuring that taxpayers who need in-person assistance could do so during Filing Season 2024.
 
 This included opening more Taxpayer Assistance Centers (TACs), Volunteer Income Tax Assistance (VITA) sites, and Tax Counseling for the Elderly (TCE) sites. It also meant keeping them open for longer and expanding the range of services offered.
 
-### Taxpayer Assistance Centers (TAC)
+## Taxpayer Assistance Centers (TAC)
 
 Taxpayers can visit a TAC to ask questions about a tax bill or an IRS audit or to get help resolving a tax problem. The Inflation Reduction Act funding has enabled the IRS to open or reopen 54 TACs, bringing the total number of TACs across the country to over 360. This includes hiring more than 800 new employees to staff these centers.
 
@@ -50,7 +50,7 @@ In approximately 242 TAC locations extended hours were provided during Filing Se
 
 These enhancements together resulted in 784,000 face-to-face contacts with an IRS employee during Filing Season 2024. That’s a year-on-year increase of**37.1%**, and IRS served**22,361** of those taxpayers during extended hours.
 
-### Volunteer Prepared Returns
+## Volunteer Prepared Returns
 
 The IRS also offers free tax return preparation to eligible taxpayers through the Volunteer Income Tax Assistance program and the Tax Counseling for the Elderly program.
 
@@ -68,7 +68,7 @@ While the IRS manages the VITA and TCE programs, the VITA/TCE sites are operated
 
  
 
-### Additional Resources
+## Additional Resources
 
 Visit the resources below to learn more about how the IRS is improving service to taxpayers.
 

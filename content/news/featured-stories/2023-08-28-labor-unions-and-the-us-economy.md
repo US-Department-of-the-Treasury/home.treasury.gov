@@ -22,11 +22,11 @@ Figure 2: Income and Wage Growth since the 1960s
 
 So, how could unions help? Treasury’s report shows that unions have the potential to address some of these negative trends by raising middle-class wages, improving work environments, and promoting demographic equality. Of course, unions should not be the only solution to these structural trends. But the evidence below and in the report suggests that unions can be useful in building the economy from the middle out.
 
-### Wages
+## Wages
 
 One of the most oft-cited benefits of unions is the so-called “union wage premium”—the amount that union members make above and beyond non-members.  While simple comparisons of the wages of union workers and nonunion workers find that union workers typically make about 20 percent more than nonunion workers,[5]economists turn to other types of analysis to capture causal effects of unions on wages. The first approach controls for many worker and occupation characteristics with the goal of comparing the wages earned by two similar workers that differ only in their union status. The other empirical approach is “regression discontinuity analysis,” which compares the wages in workplaces which just barely passed a vote to unionize against wages in workplaces that barely failed to pass the unionization vote. All in all, the evidence from these two approaches points to a union wage premium of around 10 to 15 percent, with larger effects for longer-tenured workers.[6]
 
-### Work environments
+## Work environments
 
 Worker wellbeing is greatly affected by non-wage benefits. Some benefits, such as healthcare benefits and retirement benefits, are a part of the compensation package and have substantial monetary value. Other features of the work environment, like flexible scheduling or workplace safety regulations, may not have direct monetary value but could still be highly valued by workers. For example, one study estimated that the average worker is willing to give up 20 percent of wages to avoid having their schedule frequently changed by their employer on short notice.[7]Another study, co-authored by Secretary Yellen, found that 80 percent of people who like their jobs cite a non-wage reason as the primary cause of their satisfaction and, conversely, 80 percent of people who* dislike *their jobs cite non-wage reasons to explain their dissatisfaction.[8]
 
@@ -36,7 +36,7 @@ Figure 3: Fringe Benefits and Amenities
 
  
 
-### Workplace Equality
+## Workplace Equality
 
 The diverse demographics of modern union membership mean that the benefits of any policy that strengthens today’s unions would be felt across the population.Union membership is now roughly equal across men and women. In 2021, Black men had a particularly high union representation rate at 13 percent, as compared to the population average of 10 percent.[10]
 
@@ -44,13 +44,13 @@ Unions promote within-firm equality by adopting explicit anti-discrimination mea
 
 Empirical studies have confirmed that unions have, indeed, closed race and gender gaps within firms. For example, one study finds that the wage gap between Black and white women was significantly reduced due to union measures.[12]Another study provides evidence of how collective bargaining has reduced gender wage gaps amongst teachers.[13]
 
-### Spillovers
+## Spillovers
 
 The positive effects of unions are not limited to union workers. Nonunionized firms in competition with unionized workplaces may choose to raise wages, change hiring practices, or improve their workplace environment to attract workers.[14]Unions can also affect workplace norms by, say, lobbying for workplace safety improvements, or advocating for changes in minimum wage laws.[15]The empirical evidence finds that these positive spillovers exist. Each 1 percentage point increase in private-sector union membership rates translates to about a 0.3 percent increase in nonunion wages. These estimates are larger for workers without a college degree, the majority of America’s workforce.[16]
 
 Unions may also produce benefits for communities that extend beyond individual workers and employers by enhancing social capital and civic engagement. Union members vote 12 percentage points more often than nonunion members, and nonunion members in union households vote 3 percentage points more often than individuals in nonunion households.[17]In addition, union members are more likely to donate to charity, attend community meetings, participate in a neighborhood project, and volunteer for an organization.[18]
 
-### Conclusion
+## Conclusion
 
 Increased unionization has the potential to contribute to the reversal of the stark increase in inequality seen over the last half century. In turn, increased financial stability to those in the middle or bottom of the income distribution could alleviate borrowing constraints, allowing workers to start businesses, build human capital, and exploit investment opportunities.[19]Reducing inequality can also promote economic resilience by reducing the financial fragility of the bottom 95 percent of the income distribution, making these Americans less sensitive to negative income shocks and thus lessening economic volatility.[20]In short, unions can promote economy-wide growth and resilience.
 
