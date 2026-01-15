@@ -1,0 +1,119 @@
+---
+title: Billing Code 4810-25-M
+date: 2003-01-22
+draft: false
+url: /news/press-releases/interimguidance
+---
+*(Archived Content)*
+
+
+
+**DEPARTMENT OF THE TREASURY **
+
+
+
+**Departmental Offices **
+
+
+
+**Interim Guidance Concerning Certain Conditions for Federal Payment, Non-U.S. Insurers, and Scope of Insurance Coverage in the Terrorism Risk Insurance Act of 2002 **
+
+
+
+**AGENCY: **Department of the Treasury, Departmental Offices.
+
+
+
+**ACTION: **Notice.
+
+
+
+**SUMMARY: **This notice provides additional interim guidance certain conditions for federal payment in Title I of the Terrorism Risk Insurance Act of 2002 as implemented in Department of Treasury s Terrorism Risk Insurance Program.
+
+
+
+**DATES:**This notice is effective immediately and will remain in effect until superceded by regulations or by subsequent notice.
+
+
+
+**FOR FURTHER INFORMATION CONTACT:**Mario Ugoletti, Deputy Director, Office of Financial Institutions and GSE Policy 202-622-2730; Martha Ellett, Attorney-Advisor, Office of the Assistant General Counsel (Banking and Finance) 202-622-0480.
+
+
+
+**SUPPLEMENTARY INFORMATION: **This notice provides additional interim guidance to assist insurers in ascertaining how they may comply with certain immediately applicable provisions of Title I of the Terrorism Risk Insurance Act of 2002 (Pub.L.107-297) (the Act) prior to the issuance of regulations by the Department of the Treasury (Treasury).This notice provides interim guidance concerning the timing and certification of disclosures that Treasury expects to require from an insurer that is making a claim for federal payment under the Terrorism Risk Insurance Program.In addition, this interim guidance addresses the separate line item disclosure requirement in section 103(b)(2)(C), non-U.S. insurer participation in the Program, and the scope of insured loss.The interim guidance contained in this notice, along with interim guidance issued previously by Treasury, may be relied upon by insurers in complying with these statutory requirements prior to the issuance of regulations on these issues. This interim guidance remains in effect until superceded by regulations or subsequent notice.
+
+
+
+**I. Background **
+
+
+
+On November 26, 2002, the President signed into law the Terrorism Risk Insurance Act of 2002.The Act became effective immediately.It establishes a temporary federal program of shared public and private compensation for insured commercial property and casualty losses resulting from an act of terrorism, as defined in the Act.The Terrorism Risk Insurance Program is administered and implemented by Treasury and will sunset on December 31, 2005.
+
+
+
+**II. Interim Guidance **
+
+
+
+Treasury will be issuing regulations to administer and implement certain elements of the Terrorism Risk Insurance Program (Program).To assist insurers in complying with certain statutory requirements prior to the issuance of regulations, Treasury has previously issued interim guidance, located at 67 FR 76206 (December 11, 2002) and at 67 FR 78864 (December 26, 2002) (also located on Treasury s Terrorism Risk Insurance Program website atwww.treasury.gov/trip).This notice contains additional interim guidance concerning disclosures as conditions for federal payment in section 103(b)(2) of the Act, non-U.S. insurer participation in the Program, and the scope of insured loss.
+
+
+
+**How May an Insurer Comply with the Section 103(b)(2) Requirements for Disclosure at the Time of Offer, Purchase and Renewal of the Policy? **
+
+
+
+As conditions for federal payment under the Program, subparagraph 103(b)(2) requires that an insurer provide clear and conspicuous disclosure to the policyholder, for existing policies and for new policies, of the premium charged for insured losses covered by the Program and the federal share of compensation for insured losses under the Program.For policies issued after the date of enactment (November 26, 2002), Subparagraphs 103(b)(2)(B) and (C) require these disclosures to be made to the policyholderat the time of offer, purchase and renewal of the policy.For purposes of interim guidance, Treasury deems an insurer to be in compliance with these disclosure requirements at the time of offer, purchase and renewal if the insurer makes the required clear and conspicuous disclosures to the policyholder or applicant no later than at the time that the insurer first formally offers to provide insurance coverage or renew a policy for a current policyholder, and makes clear and conspicuous reference back to that disclosure as well as the final terms of terrorism insurance coverage at the time the transaction is completed.The required disclosures can be communicated by the use of channels, methods and forms of communication normally used to communicate similar policyholder information.This interim guidance is provided as a safe harbor to assist insurers in complying with conditions for federal payment prior to the issuance of regulations.It is not the exclusive means by which an insurer may comply with the section 103(b)(2) (B) and (C) requirements.
+
+
+
+**How May an Insurer Comply with the Separate Line Item Requirement for Policies Issued More than 90 days After Date of Enactment? **
+
+
+
+Section 103(b)(2)(C) requires that an insurer make the required clear and conspicuous disclosures on a separate line item in the policy for any policy issued more than 90 days after the date of enactment of the Act (November 26, 2002).In previous interim guidance, published at 67 FR 76206 (December 11, 2002), Treasury indicated that additional interim guidance, as appropriate, as well as regulations would be issued on the separate line item requirement.For purposes of interim guidance,Treasury deems an insurer to be in compliance with the separate line item requirement of Section 103(b)(2)(C) if it makes the required clear and conspicuous disclosure:i) on the declarations page of the policy;ii) elsewhere within the policy itself; or iii) in any rider or endorsement that is made a part of the policy, as long as the disclosure is clear and conspicuous and otherwise meets the requirements of section 103(b)(2) and previous interim guidance.This interim guidance is provided as a safe harbor to assist insurers in complying with conditions for federal payment prior to the issuance of regulations; however, it is not the exclusive means by which an insurer may comply with the section 103(b)(2)(C) separate line item requirement.
+
+
+
+**How May an Insurer Certify its Compliance with Required Disclosures as a Condition for Payment in Section 103(b) of the Act? **
+
+
+
+Section 103(b) of the Act sets forth conditions for federal payments for an insured loss that is covered by an insurer, including provision of clear and conspicuous disclosure to the policyholder of the premium charged for insured losses covered by the Program and the federal share of compensation for insured losses under the Program.The Act also requires as a condition for payment that an insurer process a claim for an insured loss and submit a claim to Treasury for payment of the federal share of compensation for the insured loss, along with certain written certifications, including certification of the insurer s compliance with the provisions of subsection 103(b) of the Act.In previous interim guidance, Treasury has addressed the statutory terms insurer and insured losses under the Program, 67 FR 78864 (December 26, 2002), and Treasury intends to issue regulations establishing claims procedures for federal payments under the Program.With regard to an insurer s certification of its compliance with the disclosure requirements in subsection 103(b)(2), Treasury expects to propose regulations that will require an insurer to certify that it complied with the required disclosure(s) to the policyholder on the underlying claim or claims submitted by the insurer for federal payment under the Program.
+
+
+
+**How Do the Nullification Requirement of Section 105 and Other Provisions of the Act Apply to Non-U.S. Insurers? **
+
+
+
+For the purposes of this interim guidance, Treasury views the nullification requirement of Section 105 and other provisions of the Act as they apply to non-U.S. insurers in the context of such insurers required participation under the Act.The provisions of the Act apply to entities that meet the definition of insurer under Section 102(6) of the Act and with the respect to an insured loss covered by the Program.Included among the other requirements of the Act are:the make available requirements of Section 103(c); the disclosure requirements as a condition for Federal payment contained in Section 103(b)(2); and the policy surcharge (recoupment) provisions of Section 103(e)(8).For non-U.S. insurers that are required to participate in the Program, participation requirements for existing policies that provide coverage for insured losses include the make available and other requirements in the Act, such as those listed above, even in the absence of nullification under Section 105.The disclosure standards referenced in this and other interim guidance also would apply.
+
+
+
+**For the Purpose of Determining the Scope of Insured Loss, how is Section 102(5)(B) Interpreted as it Relates to U.S. Air carriers and U.S. Flag Vessels? **
+
+
+
+Section 102(5)(B) defines an insured loss to include losses that occur to an air carrier (as defined in section 40102 of Title 49, United States Code), to a United States flag vessel (or vessel based principally in the United States, on which United States income tax is paid and whose insurance coverage is subject to regulation in the United States) regardless of where the loss occurs.Section 40102 defines an air carrier generally as a United States citizen (individual, partnership, or corporation) that provides foreign or interstate air transportation.
+
+
+
+For the purposes of interim guidance, Treasury is providing further clarification that insured losses under Section 102(5)(B) are only those losses that are incurred by the air carrier or the United States flag vessel.Insured losses under Section 102(5)(B)would not include losses incurred by third parties that are associated with losses incurred by a United States air carrier or a United States flag vessel, unless the cause of the loss originated within the United States.
+
+
+
+**Dated: January 22, 2003**
+
+
+
+**Wayne A. Abernathy**
+
+
+
+**Assistant Secretary of the Treasury **
+
+****
+
+** **
