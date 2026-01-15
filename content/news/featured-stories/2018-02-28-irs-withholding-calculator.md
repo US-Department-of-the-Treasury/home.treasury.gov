@@ -1,0 +1,25 @@
+---
+title: Treasury, IRS Launch New Withholding Calculator
+date: 2018-02-28
+draft: false
+url: /news/featured-stories/irs-withholding-calculator
+---
+**Washington **–As part of the implementation of the Tax Cuts and Jobs Act, workers can start utilizing a new online tool to identify the correct amount of withholding in order to update their W-4 forms. The online withholding calculator was launched today by the U.S. Treasury Department and the Internal Revenue Service (IRS).“This is an exciting time for American workers who are seeing more money reflected in their checks as a result of tax reform,” said Secretary Steven T. Mnuchin. “We want to allow workers to see the new effects of the tax law in their paychecks and this calculator will achieve that.  Employees should also use the calculator every year in order to ensure they continue to have the appropriate withholding. This ‘paycheck checkup’ is more important than ever and will allow employees to see the tax cuts properly reflected in their withholding.”
+
+To use the calculator most efficiently and effectively, following are plan ahead instructions from the IRS.
+
+The Withholding Calculator asks taxpayers to estimate their 2018 income and other items that affect their taxes, including the number of children claimed for the Child Tax Credit, Earned Income Tax Credit and other items.
+
+Take a few minutes and plan ahead to make using the calculator on IRS.gov as easy as possible.
+
+- Gather your most recent pay stub from work. Check to make sure it reflects the amount of Federal income tax that you have had withheld so far in 2018.
+- Have a completed copy of your 2017 (or possibly 2016) tax return handy. Information on that return can help you estimate income and other items for 2018.  However, note that the new tax law made significant changes to itemized deductions.
+- Keep in mind the Withholding Calculator results are only as accurate as the information entered. If your circumstances change during the year, come back to the calculator to make sure your withholding is still correct.
+- The Withholding Calculator does not request personally-identifiable information such as name, Social Security number, address or bank account numbers. The IRS does not save or record the information entered on the calculator. As always, watch out for tax scams, especially via email or phone calls and be especially alert to cybercriminals impersonating the IRS. The IRS does not send emails related to the calculator or the information entered.
+- Use the results from the Withholding Calculator to determine if you should complete a new Form W-4 and, if so, what information to put on a new Form W-4. There is no need to complete the worksheets that accompany Form W-4 if the calculator is used.
+- As a general rule, the fewer withholding allowances you enter on the Form W-4 the higher your tax withholding will be. Entering “0” or “1” on line 5 of the W-4 means more tax will be withheld. Entering a bigger number means less tax withholding, resulting in a smaller tax refund or potentially a tax bill or penalty.
+- If you complete a new Form W-4, you should submit it to your employer as soon as possible. With withholding occurring throughout the year, it’s better to take this step early on.
+
+
+ 
+

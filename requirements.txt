@@ -1,13 +1,22 @@
 # Treasury Site Scraper Dependencies
 # Install with: pip install -r requirements.txt
 
+# Core scraping
 requests>=2.31.0
 beautifulsoup4>=4.12.0
-lxml>=5.0.0
 html2text>=2024.2.26
+
+# Async scraping (for scrape_parallel.py)
 aiohttp>=3.9.0
 aiofiles>=23.2.0
+
+# Utilities
 tqdm>=4.66.0
 PyYAML>=6.0.0
-Pillow>=10.0.0
 python-slugify>=8.0.0
+
+# Optional: For sitemap XML parsing (scrape_treasury.py --discover)
+lxml>=5.0.0
+
+# Note: Pillow removed (not used)
+# Note: Most scripts use html.parser, lxml only needed for XML sitemaps

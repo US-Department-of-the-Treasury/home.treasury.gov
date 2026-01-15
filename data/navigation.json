@@ -2,7 +2,7 @@
   "main_nav": [
     {
       "title": "ABOUT TREASURY",
-      "url": "/about-treasury",
+      "url": "/about/general-information/role-of-the-treasury",
       "active_path": "/about/",
       "columns": [
         {
@@ -25,8 +25,8 @@
             {"title": "Public Affairs", "url": "/about/offices/public-affairs"},
             {"title": "Tax Policy", "url": "/about/offices/tax-policy"},
             {"title": "Terrorism and Financial Intelligence", "url": "/about/offices/terrorism-and-financial-intelligence"},
-            {"title": "Tribal and Native Affairs", "url": "/about/offices/tribal-and-native-affairs"},
-            {"title": "Inspectors General", "url": "/about/offices/inspectors-general"}
+            {"title": "Tribal and Native Affairs", "url": "/policy-issues/tribal-affairs"},
+            {"title": "Inspectors General", "url": "/services/report-fraud-waste-and-abuse/inspectors-general"}
           ]
         },
         {
@@ -85,15 +85,15 @@
     },
     {
       "title": "POLICY ISSUES",
-      "url": "/policy-issues",
+      "url": "/policy-issues/tax-policy",
       "columns": [
         {
           "heading": "COVID19 ECONOMIC RELIEF",
           "links": [
-            {"title": "American Families and Workers", "url": "/policy-issues/coronavirus/american-families-and-workers"},
-            {"title": "Small Businesses", "url": "/policy-issues/coronavirus/small-businesses"},
-            {"title": "State, Local, and Tribal Governments", "url": "/policy-issues/coronavirus/state-local-and-tribal-governments"},
-            {"title": "American Industry", "url": "/policy-issues/coronavirus/american-industry"}
+            {"title": "American Families and Workers", "url": "/policy-issues/coronavirus/assistance-for-American-families-and-workers"},
+            {"title": "Small Businesses", "url": "/policy-issues/coronavirus/assistance-for-small-businesses"},
+            {"title": "State, Local, and Tribal Governments", "url": "/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments"},
+            {"title": "American Industry", "url": "/policy-issues/coronavirus/assistance-for-american-industry"}
           ]
         },
         {
@@ -102,30 +102,30 @@
             {"title": "Revenue Proposals", "url": "/policy-issues/tax-policy/revenue-proposals"},
             {"title": "Tax Expenditures", "url": "/policy-issues/tax-policy/tax-expenditures"},
             {"title": "International Tax", "url": "/policy-issues/tax-policy/international-tax"},
-            {"title": "Treaties and Related Documents", "url": "/policy-issues/tax-policy/treaties-and-related-documents"},
+            {"title": "Treaties and Related Documents", "url": "/policy-issues/tax-policy/treaties"},
             {"title": "Foreign Account Tax Compliance Act (FATCA)", "url": "/policy-issues/tax-policy/foreign-account-tax-compliance-act"},
-            {"title": "Reports", "url": "/policy-issues/tax-policy/reports"},
-            {"title": "Tax Analysis", "url": "/policy-issues/tax-policy/tax-analysis"},
+            {"title": "Reports", "url": "/policy-issues/tax-policy"},
+            {"title": "Tax Analysis", "url": "/policy-issues/tax-policy"},
             {"title": "Tax Regulatory Process", "url": "/policy-issues/tax-policy/tax-regulatory-process"}
           ]
         },
         {
           "heading": "ECONOMIC POLICY",
           "links": [
-            {"title": "Treasury Coupon Issues", "url": "/policy-issues/economic-policy/treasury-coupon-issues"},
-            {"title": "Corporate Bond Yield Curve", "url": "/policy-issues/economic-policy/corporate-bond-yield-curve"},
+            {"title": "Treasury Coupon Issues", "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curves"},
+            {"title": "Corporate Bond Yield Curve", "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curve/corporate-bond-yield-curve"},
             {"title": "Economic Policy Reports", "url": "/policy-issues/economic-policy/economic-policy-reports"},
-            {"title": "Social Security and Medicare", "url": "/policy-issues/economic-policy/social-security-and-medicare"},
+            {"title": "Social Security and Medicare", "url": "/policy-issues/economic-policy"},
             {"title": "Total Taxable Resources", "url": "/policy-issues/economic-policy/total-taxable-resources"}
           ]
         },
         {
           "heading": "TERRORISM AND ILLICIT FINANCE",
           "links": [
-            {"title": "Sanctions", "url": "/policy-issues/terrorism-and-illicit-finance/sanctions"},
-            {"title": "Asset Forfeiture", "url": "/policy-issues/terrorism-and-illicit-finance/asset-forfeiture"},
+            {"title": "Sanctions", "url": "https://ofac.treasury.gov/"},
+            {"title": "Asset Forfeiture", "url": "/policy-issues/terrorism-and-illicit-finance/treasury-executive-office-for-asset-forfeiture-teoaf"},
             {"title": "311 Actions", "url": "/policy-issues/terrorism-and-illicit-finance/311-actions"},
-            {"title": "Terrorist Finance Tracking Program", "url": "/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program"},
+            {"title": "Terrorist Finance Tracking Program", "url": "/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp"},
             {"title": "Money Laundering", "url": "/policy-issues/terrorism-and-illicit-finance/money-laundering"},
             {"title": "Financial Action Task Force", "url": "/policy-issues/terrorism-and-illicit-finance/financial-action-task-force"},
             {"title": "Protecting Charitable Organizations", "url": "/policy-issues/terrorism-and-illicit-finance/protecting-charitable-organizations"}
@@ -136,7 +136,7 @@
           "links": [
             {"title": "Treasury Quarterly Refunding", "url": "/policy-issues/financing-the-government/quarterly-refunding"},
             {"title": "Interest Rate Statistics", "url": "/policy-issues/financing-the-government/interest-rate-statistics"},
-            {"title": "Treasury Securities", "url": "/policy-issues/financing-the-government/treasury-securities"},
+            {"title": "Treasury Securities", "url": "https://www.treasurydirect.gov/"},
             {"title": "Treasury Investor Data", "url": "/policy-issues/financing-the-government/treasury-investor-data"},
             {"title": "Debt Management Research", "url": "/policy-issues/financing-the-government/debt-management-research"}
           ]
@@ -149,9 +149,9 @@
             {"title": "Financial Stability Oversight Council", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc"},
             {"title": "Federal Insurance Office", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/federal-insurance-office"},
             {"title": "RESTORE Act", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act"},
-            {"title": "1603 Program", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/1603-program"},
+            {"title": "1603 Program", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/1603-program-payments-for-specified-energy-property-in-lieu-of-tax-credits"},
             {"title": "The Community Development Financial Institution (CDFI) Fund", "url": "https://www.cdfifund.gov/"},
-            {"title": "Making Home Affordable", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/making-home-affordable"}
+            {"title": "Making Home Affordable", "url": "/data/troubled-assets-relief-program/housing"}
           ]
         },
         {
@@ -160,7 +160,7 @@
             {"title": "Specially Designated Nationals List (SDN List)", "url": "https://ofac.treasury.gov/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists"},
             {"title": "Consolidated Sanctions List", "url": "https://ofac.treasury.gov/consolidated-sanctions-list-non-sdn-lists"},
             {"title": "Search OFAC's Sanctions Lists", "url": "https://sanctionssearch.ofac.treas.gov/"},
-            {"title": "Additional Sanctions Lists", "url": "https://ofac.treasury.gov/specially-designated-nationals-list-sdn-list/additional-ofac-sanctions-lists"},
+            {"title": "Additional Sanctions Lists", "url": "https://ofac.treasury.gov/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists"},
             {"title": "OFAC Recent Actions", "url": "https://ofac.treasury.gov/recent-actions"},
             {"title": "Sanctions Programs and Country Information", "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information"},
             {"title": "Frequently Asked Questions", "url": "https://ofac.treasury.gov/faqs"},
@@ -180,7 +180,7 @@
         {
           "heading": "INTERNATIONAL",
           "links": [
-            {"title": "The Committee on Foreign Investment in the United States (CFIUS)", "url": "/policy-issues/international/cfius"},
+            {"title": "The Committee on Foreign Investment in the United States (CFIUS)", "url": "/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius"},
             {"title": "Outbound Investment Security Program", "url": "/policy-issues/international/outbound-investment-program"},
             {"title": "Exchange Stabilization Fund", "url": "/policy-issues/international/exchange-stabilization-fund"},
             {"title": "G-7 and G-20", "url": "/policy-issues/international/g-7-and-g-20"},
@@ -188,7 +188,7 @@
             {"title": "Multilateral Development Banks", "url": "/policy-issues/international/multilateral-development-banks"},
             {"title": "Macroeconomic and Foreign Exchange Policies of Major Trading Partners", "url": "/policy-issues/international/macroeconomic-and-foreign-exchange-policies-of-major-trading-partners"},
             {"title": "Exchange Rate Analysis", "url": "/policy-issues/international/exchange-rate-analysis"},
-            {"title": "U.S.-China Comprehensive Strategic Economic Dialogue (CED)", "url": "/policy-issues/international/us-china-comprehensive-strategic-economic-dialogue"}
+            {"title": "U.S.-China Comprehensive Strategic Economic Dialogue (CED)", "url": "/policy-issues/international"}
           ]
         },
         {
@@ -196,7 +196,7 @@
           "links": [
             {"title": "Small and Disadvantaged Business Utilization", "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization"},
             {"title": "Small Business Lending Fund", "url": "/policy-issues/small-business-programs/small-business-lending-fund"},
-            {"title": "State Small Business Credit Initiative", "url": "/policy-issues/small-business-programs/state-small-business-credit-initiative"}
+            {"title": "State Small Business Credit Initiative", "url": "https://home.treasury.gov/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci"}
           ]
         },
         {
@@ -209,7 +209,7 @@
     },
     {
       "title": "DATA",
-      "url": "/data",
+      "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curves",
       "columns": [
         {
           "heading": "INTEREST RATES",
@@ -231,7 +231,7 @@
         {
           "heading": "FEDERAL FINANCIAL DATA",
           "links": [
-            {"title": "Your Guide to America's Finances", "url": "https://datalab.usaspending.gov/americas-finance-guide/"},
+            {"title": "Your Guide to America's Finances", "url": "https://www.usaspending.gov/"},
             {"title": "Monthly Treasury Statement", "url": "https://fiscal.treasury.gov/reports-statements/mts/"},
             {"title": "Daily Treasury Statement", "url": "https://fiscal.treasury.gov/reports-statements/dts/"}
           ]
@@ -254,9 +254,9 @@
           "heading": "QUARTERLY REFUNDING",
           "links": [
             {"title": "Debt Management Overview and Quarterly Refunding Process", "url": "/policy-issues/financing-the-government/quarterly-refunding"},
-            {"title": "Most Recent Documents", "url": "/policy-issues/financing-the-government/quarterly-refunding/most-recent-documents"},
-            {"title": "Archives", "url": "/policy-issues/financing-the-government/quarterly-refunding/archives"},
-            {"title": "Webcasts", "url": "/policy-issues/financing-the-government/quarterly-refunding/webcasts"}
+            {"title": "Most Recent Documents", "url": "/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents"},
+            {"title": "Archives", "url": "/policy-issues/financing-the-government/quarterly-refunding/quarterly-refunding-archives"},
+            {"title": "Webcasts", "url": "/news/webcasts"}
           ]
         },
         {
@@ -274,7 +274,7 @@
         {
           "heading": "TREASURY INTERNATIONAL CAPITAL (TIC) SYSTEM",
           "links": [
-            {"title": "U.S International Portfolio Investment Statistics", "url": "/data/treasury-international-capital-tic-system-home-page"},
+            {"title": "U.S International Portfolio Investment Statistics", "url": "/data/treasury-international-capital-tic-system"},
             {"title": "Release Dates", "url": "/data/treasury-international-capital-tic-system-home-page/release-dates-of-tic-data-0"},
             {"title": "Forms and Instructions", "url": "/data/treasury-international-capital-tic-system-home-page/tic-forms-instructions"},
             {"title": "TIC Press Releases", "url": "/data/tic-press-releases-by-topic"}
@@ -298,7 +298,7 @@
             {"title": "Federal CDO Council", "url": "/about/offices/management/office-of-the-chief-data-officer"},
             {"title": "Data.gov", "url": "https://www.data.gov/"},
             {"title": "Treasury Open Data", "url": "https://fiscaldata.treasury.gov/"},
-            {"title": "Evidence Act H.R.4174", "url": "/about/offices/management/office-of-the-chief-data-officer/evidence-act"},
+            {"title": "Evidence Act H.R.4174", "url": "/about/offices/management/office-of-the-chief-data-officer"},
             {"title": "Datafoundation.org", "url": "https://www.datafoundation.org/"}
           ]
         }
@@ -306,15 +306,15 @@
     },
     {
       "title": "SERVICES",
-      "url": "/services",
+      "url": "/services/report-fraud-waste-and-abuse",
       "columns": [
         {
           "heading": "REPORT FRAUD, WASTE & ABUSE",
           "links": [
-            {"title": "Report COVID-19 Scam Attempts", "url": "/services/report-fraud-waste-and-abuse/report-covid-19-scam-attempts"},
+            {"title": "Report COVID-19 Scam Attempts", "url": "/services/report-fraud-waste-and-abuse/report-scam-attempts"},
             {"title": "Report Scam Attempts", "url": "/services/report-fraud-waste-and-abuse/report-scam-attempts"},
-            {"title": "Report Fraud Related to Government Contracts", "url": "/services/report-fraud-waste-and-abuse/report-fraud-related-to-government-contracts"},
-            {"title": "Inspectors General", "url": "/about/offices/inspectors-general"}
+            {"title": "Report Fraud Related to Government Contracts", "url": "/services/report-fraud-waste-and-abuse/inspectors-general"},
+            {"title": "Inspectors General", "url": "/services/report-fraud-waste-and-abuse/inspectors-general"}
           ]
         },
         {
@@ -322,14 +322,14 @@
           "links": [
             {"title": "Buy, Manage, and Redeem", "url": "https://www.treasurydirect.gov/"},
             {"title": "Treasury Hunt - Search for Matured Bonds", "url": "https://treasuryhunt.gov/"},
-            {"title": "Cashing Savings Bonds in Disaster-Declared Areas", "url": "/services/bonds-and-securities/cashing-savings-bonds-in-disaster-declared-areas"},
-            {"title": "Frequently Asked Questions", "url": "/services/bonds-and-securities/frequently-asked-questions"}
+            {"title": "Cashing Savings Bonds in Disaster-Declared Areas", "url": "https://www.treasurydirect.gov/"},
+            {"title": "Frequently Asked Questions", "url": "https://www.treasurydirect.gov/help-center/"}
           ]
         },
         {
           "heading": "GRANT PROGRAMS",
           "links": [
-            {"title": "Pay for Results (SIPPRA)", "url": "/services/grant-programs/pay-for-results"},
+            {"title": "Pay for Results (SIPPRA)", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service"},
             {"title": "RESTORE Act", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act"},
             {"title": "Community Development Financial Institution (CDFI) Fund", "url": "https://www.cdfifund.gov/"}
           ]
@@ -338,10 +338,10 @@
           "heading": "TREASURY PAYMENTS",
           "links": [
             {"title": "Where is my Refund?", "url": "https://www.irs.gov/refunds"},
-            {"title": "Lost or Expired Check", "url": "/services/treasury-payments/lost-or-expired-check"},
+            {"title": "Lost or Expired Check", "url": "https://fiscal.treasury.gov/"},
             {"title": "Direct Express Card", "url": "https://www.usdirectexpress.com/"},
-            {"title": "Non-Benefit Federal Payments", "url": "/services/treasury-payments/non-benefit-federal-payments"},
-            {"title": "Electronic Federal Benefit Payments - GoDirect", "url": "https://godirect.gov/"}
+            {"title": "Non-Benefit Federal Payments", "url": "https://fiscal.treasury.gov/"},
+            {"title": "Electronic Federal Benefit Payments - GoDirect", "url": "https://fiscal.treasury.gov/directexpress/"}
           ]
         },
         {
@@ -357,7 +357,7 @@
         {
           "heading": "AUCTIONS",
           "links": [
-            {"title": "IRS Auctions", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/irs-auctions"},
+            {"title": "IRS Auctions", "url": "https://www.irsauctions.gov/"},
             {"title": "Real Estate", "url": "https://www.treasuryauctions.gov/"},
             {"title": "General Property, Vehicles, Vessels & Aircraft", "url": "https://www.treasuryauctions.gov/"}
           ]
@@ -365,8 +365,8 @@
         {
           "heading": "KLINE-MILLER MULTIEMPLOYER PENSION REFORM ACT OF 2014",
           "links": [
-            {"title": "Applications", "url": "/services/kline-miller/applications"},
-            {"title": "Frequently Asked Questions", "url": "/services/kline-miller/frequently-asked-questions"}
+            {"title": "Applications", "url": "/services/the-multiemployer-pension-reform-act-of-2014/applications-for-benefit-suspension"},
+            {"title": "Frequently Asked Questions", "url": "/services/the-multiemployer-pension-reform-act-of-2014/frequently-asked-questions-about-the-kline-miller-multiemployer-pension-reform-act"}
           ]
         },
         {
@@ -398,11 +398,11 @@
         {
           "heading": "GOVERNMENT SHARED SERVICES",
           "links": [
-            {"title": "Treasury Franchise Fund (TFF)", "url": "/about/offices/management/treasury-franchise-fund"},
-            {"title": "Administrative Resource Center (ARC)", "url": "https://www.fiscal.treasury.gov/arc/"},
-            {"title": "Shared Services Program (SSP)", "url": "/about/offices/management/shared-services-program"},
-            {"title": "Financial Management (FM) Marketplace Catalog", "url": "https://www.fiscal.treasury.gov/fm/"},
-            {"title": "TreasuryDirect", "url": "https://www.treasurydirect.gov/govt/"},
+            {"title": "Treasury Franchise Fund (TFF)", "url": "https://www.fiscal.treasury.gov/"},
+            {"title": "Administrative Resource Center (ARC)", "url": "https://arc.fiscal.treasury.gov/"},
+            {"title": "Shared Services Program (SSP)", "url": "https://www.fiscal.treasury.gov/"},
+            {"title": "Financial Management (FM) Marketplace Catalog", "url": "https://www.fiscal.treasury.gov/"},
+            {"title": "TreasuryDirect", "url": "https://www.treasurydirect.gov/"},
             {"title": "Invoice Processing Platform", "url": "https://www.fiscal.treasury.gov/ipp/"}
           ]
         },
@@ -410,7 +410,7 @@
           "heading": "TOURS AND LIBRARY",
           "links": [
             {"title": "Historic Treasury Building", "url": "/about/history/the-treasury-building"},
-            {"title": "Library", "url": "/about/history/treasury-library"},
+            {"title": "Library", "url": "/about/history"},
             {"title": "Curator", "url": "/about/history/curator"},
             {"title": "Bureau of Engraving and Printing", "url": "https://www.bep.gov/"},
             {"title": "U.S. Mint", "url": "https://www.usmint.gov/"}
@@ -447,10 +447,10 @@
         {
           "heading": "PRESS INFORMATION",
           "links": [
-            {"title": "Press Contacts", "url": "/news/press-contacts"},
-            {"title": "Weekly Public Schedule Archive", "url": "/news/weekly-public-schedule-archive"},
+            {"title": "Press Contacts", "url": "/news/contacts-for-members-of-the-media"},
+            {"title": "Weekly Public Schedule Archive", "url": "https://search.usa.gov/search/docs?utf8=%E2%9C%93&affiliate=treas&sort_by=&dc=9123&query=weekly-schedule-updates"},
             {"title": "Webcasts", "url": "/news/webcasts"},
-            {"title": "Media Advisories Archive", "url": "/news/media-advisories-archive"},
+            {"title": "Media Advisories Archive", "url": "https://search.usa.gov/search/docs?utf8=%E2%9C%93&affiliate=treas&sort_by=&dc=9121&query=media-advisories"},
             {"title": "Subscribe to Press Releases", "url": "https://public.govdelivery.com/accounts/USTREAS/subscriber/new?topic_id=USTREAS_49"}
           ]
         },
@@ -480,7 +480,7 @@
       {
         "heading": "THE PUBLIC",
         "links": [
-          {"title": "Auctions", "url": "/services/auctions"},
+          {"title": "Auctions", "url": "https://home.treasury.gov/services/treasury-auctions"},
           {"title": "Report Scam Attempts", "url": "/services/report-fraud-waste-and-abuse/report-scam-attempts"},
           {"title": "Savings Bonds", "url": "https://www.treasurydirect.gov/"}
         ]
@@ -488,7 +488,7 @@
       {
         "heading": "BUSINESSES",
         "links": [
-          {"title": "Government Contracting Small Business Contacts", "url": "/about/small-business-contacts"},
+          {"title": "Government Contracting Small Business Contacts", "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization-0"},
           {"title": "Form 941, employer's quarterly federal tax return", "url": "https://www.irs.gov/forms-pubs/about-form-941"},
           {"title": "Employer Identification Number (EIN)", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online"}
         ]
@@ -497,7 +497,7 @@
         "heading": "FINANCIAL INSTITUTIONS",
         "links": [
           {"title": "Specially Designated Nationals list", "url": "https://ofac.treasury.gov/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists"},
-          {"title": "Interest rate statistics", "url": "/resource-center/data-chart-center/interest-rates/"},
+          {"title": "Interest rate statistics", "url": "/policy-issues/financing-the-government/interest-rate-statistics"},
           {"title": "Quarterly refunding information", "url": "/policy-issues/financing-the-government/quarterly-refunding"}
         ]
       },
@@ -505,8 +505,8 @@
         "heading": "GOVERNMENT",
         "links": [
           {"title": "Budget, Financial Reporting, Planning and Performance", "url": "/about/budget-financial-reporting-planning-and-performance"},
-          {"title": "Shared Services", "url": "/about/offices/management/shared-services-program"},
-          {"title": "TreasuryDirect for Government", "url": "https://www.treasurydirect.gov/govt/"}
+          {"title": "Shared Services", "url": "https://www.fiscal.treasury.gov/"},
+          {"title": "TreasuryDirect for Government", "url": "https://www.treasurydirect.gov/"}
         ]
       }
     ]

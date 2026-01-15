@@ -3,11 +3,12 @@
   <div class="container">
     <nav aria-label="Breadcrumb">
       <ol class="breadcrumbs-list">
-        <li><a href="/">HOME</a></li>
+        <li><a href="https://home.treasury.gov/">HOME</a></li>
         <li><a href="/news/">NEWS</a></li>
         {{ with .CurrentSection }}
         <li><a href="{{ .Permalink }}">{{ .Title | upper }}</a></li>
         {{ end }}
+        <li aria-current="page">{{ $.Title | truncate 50 }}</li>
       </ol>
     </nav>
   </div>
@@ -20,13 +21,17 @@
       {{ partial "news-sidebar.html" . }}
       
       {{/* Main Content */}}
-      <main class="news-main-content">
+      <div class="news-main-content" role="region" aria-label="Article content">
         <article class="news-article">
           <header class="news-article-header">
             {{/* Show category - use section title as fallback */}}
             {{ $category := .Params.category | default .CurrentSection.Title }}
             <span class="news-category"><a href="{{ .CurrentSection.Permalink }}">{{ $category | upper }}</a></span>
             <h1>{{ .Title }}</h1>
+            {{/* Publication date - required for government press releases */}}
+            <p class="article-date">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            </p>
             <div class="heading-underline"></div>
           </header>
           
@@ -45,10 +50,10 @@
           </aside>
           {{ end }}
         </article>
-      </main>
+      </div>
       
       {{/* Right Sidebar */}}
-      {{ partial "latest-news.html" . }}
+      {{ partial "news-search-sidebar.html" . }}
     </div>
   </div>
 </div>

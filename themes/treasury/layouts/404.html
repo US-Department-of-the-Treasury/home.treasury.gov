@@ -1,0 +1,21 @@
+{{ define "main" }}
+<script>
+  // Redirect to the same path on the live Treasury site
+  (function() {
+    var currentPath = window.location.pathname + window.location.search;
+    var treasuryUrl = 'https://home.treasury.gov' + currentPath;
+    
+    // Redirect immediately
+    window.location.replace(treasuryUrl);
+  })();
+</script>
+
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://home.treasury.gov/">
+</noscript>
+
+<div class="container" style="padding: 4rem 0; text-align: center;">
+  <h1>Redirecting...</h1>
+  <p>This page is not yet available. You are being redirected to <a href="https://home.treasury.gov/">home.treasury.gov</a>.</p>
+</div>
+{{ end }}

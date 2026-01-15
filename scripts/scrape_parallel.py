@@ -58,7 +58,7 @@ def get_soup(url: str) -> BeautifulSoup:
     """Fetch URL and return BeautifulSoup object."""
     response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     response.raise_for_status()
-    return BeautifulSoup(response.text, "lxml")
+    return BeautifulSoup(response.text, "html.parser")
 
 
 def extract_article_links(soup: BeautifulSoup, base_url: str) -> list:
@@ -206,7 +206,7 @@ def extract_article_data(soup: BeautifulSoup, url: str) -> dict:
 
 def html_to_markdown(html: str) -> str:
     """Convert HTML content to Markdown."""
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, "html.parser")
     
     for i in range(1, 7):
         for h in soup.find_all(f"h{i}"):

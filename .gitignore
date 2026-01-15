@@ -33,6 +33,9 @@ deploy/config.env
 *.tmp
 *.bak
 
+# Deprecated files (kept for reference)
+deprecated/
+
 # Terraform
 terraform/.terraform/
 terraform/*.tfstate

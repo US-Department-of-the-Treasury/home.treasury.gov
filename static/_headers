@@ -1,0 +1,45 @@
+# CDN/Edge Headers for Hugo Static Site
+# These headers are processed by Netlify/Cloudflare Pages, or can guide Akamai configuration
+
+# Global defaults
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# HTML pages - short cache, must revalidate
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/news/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+# CSS & JS - long cache with fingerprint in URL
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: text/css; charset=utf-8
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: application/javascript; charset=utf-8
+
+# Images - long cache
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# WebP images
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: image/webp
+
+# Fonts
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# Service Worker - no cache
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  Content-Type: application/javascript; charset=utf-8

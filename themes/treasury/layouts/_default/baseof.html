@@ -20,16 +20,27 @@
   {{- end }}
   <meta property="og:site_name" content="{{ site.Title }}">
   
-  <!-- Fonts - matching Treasury -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Merriweather:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts - self-hosted (no external CDN dependency) -->
+  {{- $fonts := resources.Get "css/fonts.css" }}
+  {{- $fonts = $fonts | minify | fingerprint }}
+  <link rel="preload" href="{{ $fonts.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ $fonts.RelPermalink }}"></noscript>
+  
+  <!-- Preload critical fonts -->
+  <link rel="preload" href="/fonts/source-sans-pro-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/merriweather-700.woff2" as="font" type="font/woff2" crossorigin>
   
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
   
-  <!-- Styles -->
-  <link rel="stylesheet" href="{{ "css/treasury.css" | relURL }}">
+  <!-- Critical CSS - inlined for faster first paint -->
+  {{- partial "critical-css.html" . }}
+  
+  <!-- Main Styles - loaded async with fingerprinting for cache busting -->
+  {{- $css := resources.Get "css/treasury.css" }}
+  {{- $css = $css | minify | fingerprint }}
+  <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ $css.RelPermalink }}"></noscript>
   
   <!-- Canonical -->
   <link rel="canonical" href="{{ .Permalink }}">
@@ -57,8 +68,21 @@
   <!-- Footer -->
   {{- partial "footer.html" . }}
   
-  <!-- Scripts -->
-  <script src="{{ "js/treasury.js" | relURL }}"></script>
+  <!-- Scripts - deferred & fingerprinted for caching -->
+  {{- $js := resources.Get "js/treasury.js" }}
+  {{- $js = $js | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
   {{- block "scripts" . }}{{- end }}
+  
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').catch(function(err) {
+          console.log('SW registration failed:', err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>

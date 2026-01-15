@@ -8,7 +8,7 @@
   <div class="container">
     <nav aria-label="Breadcrumb">
       <ol class="breadcrumbs-list">
-        <li><a href="/">HOME</a></li>
+        <li><a href="https://home.treasury.gov/">HOME</a></li>
         <li><a href="/news/">NEWS</a></li>
         <li><span aria-current="page">{{ .Title | upper }}</span></li>
       </ol>
@@ -36,7 +36,23 @@
         {{ end }}
         
         <div class="news-article-list">
-          {{ $paginator := .Paginate .Pages 10 }}
+          {{/* Filter pages based on section - exclude Readouts/Statements/Testimonies from Press Releases */}}
+          {{ $pages := .Pages }}
+          {{ if eq .Title "Press Releases" }}
+            {{ $filtered := slice }}
+            {{ range .Pages }}
+              {{ $title := .Title }}
+              {{ $isReadout := hasPrefix $title "Readout" }}
+              {{ $isREADOUT := hasPrefix $title "READOUT" }}
+              {{ $isStatement := hasPrefix $title "Statement" }}
+              {{ $isTestimony := hasPrefix $title "Testimony" }}
+              {{ if not (or $isReadout $isREADOUT $isStatement $isTestimony) }}
+                {{ $filtered = $filtered | append . }}
+              {{ end }}
+            {{ end }}
+            {{ $pages = $filtered }}
+          {{ end }}
+          {{ $paginator := .Paginate $pages 10 }}
           {{ range $paginator.Pages }}
           <article class="news-article-item">
             <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
