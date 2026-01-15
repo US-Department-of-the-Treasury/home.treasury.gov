@@ -15,8 +15,8 @@ The resilience of the entire global economy is a testament to the international 
 We offer three key conclusions:
 
 - **The United States has seen a particularly strong GDP recovery and is on track this year to reach the level that would have been predicted by the pre-pandemic trend.**
-- ** Global labor markets continue to strengthen, and the United States has been especially resilient.**
-- ** U.S. inflation has cooled sooner and more quickly than in other advanced economies.**
+- **Global labor markets continue to strengthen, and the United States has been especially resilient.**
+- **U.S. inflation has cooled sooner and more quickly than in other advanced economies.**
 
 Advanced economies faced different shocks and challenges than the United States. Economies heavily dependent on Russian energy imports were hit hardest by the war in Ukraine with steeper increases in energy prices and a sharper slowdown. As the WEO notes, the euro area suffered an adverse terms-of-trade shock in part due to the energy shock. The WEO also cites analysis showing that the pass-through effects from energy shocks associated with external factors have been a larger driver of core inflation in Europe than in the U.S. Consequently, comparisons across diverse economies must be done carefully. Indeed, many foreign advanced economies have similarly surprised forecasters to the upside. And many risks to the U.S. outlook remain, including tighter credit, persistent uncertainty over government funding, and ongoing autoworker strikes. But across growth, labor, and inflation, the United States’ resilience remains an important source of global economic strength.
 

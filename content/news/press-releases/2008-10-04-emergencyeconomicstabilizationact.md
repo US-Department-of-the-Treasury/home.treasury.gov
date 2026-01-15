@@ -6,7 +6,7 @@ url: /news/press-releases/emergencyeconomicstabilizationact
 ---
 *(Archived Content)*
 
-**Treasury to Move Rapidly to Implement New Authorities, Stabilize Financial System and Economic Security** Treasury Secretary Paulson commended Congress for passing the Emergency Economic Stabilization Act and vowed to move quickly and methodically to implement the new authorities. The American people will appreciate the leadership of their elected representatives and senators who took bold action to stem a severe credit crunch that threatens to cost many jobs and undermine access to credit for working Americans, said Paulson.** LINKS**
+**Treasury to Move Rapidly to Implement New Authorities, Stabilize Financial System and Economic Security**Treasury Secretary Paulson commended Congress for passing the Emergency Economic Stabilization Act and vowed to move quickly and methodically to implement the new authorities. The American people will appreciate the leadership of their elected representatives and senators who took bold action to stem a severe credit crunch that threatens to cost many jobs and undermine access to credit for working Americans, said Paulson.**LINKS**
 
 - [Bush Discusses Economic Rescue Plan](http://www.whitehouse.gov/news/releases/2008/09/20080930.html)
 - [Paulson Statement on Emergency Economic Stabilization Act Vote](https://home.treasury.gov/news/press-releases/hp1168)

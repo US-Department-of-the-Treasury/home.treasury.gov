@@ -22,6 +22,6 @@ Panel Discussion:
 - Lakshmi Kumar, Policy Director of Global Financial Integrity
 - Concepción Verdugo Yepes, IMF Senior Economist
 
-** WHEN:** Tuesday, March 28, 2023 at 10:30 AM ET** WHERE:** U.S. Department of the Treasury Cash Room, 1500 Pennsylvania Ave NW, Washington DC
+**WHEN:**Tuesday, March 28, 2023 at 10:30 AM ET**WHERE:**U.S. Department of the Treasury Cash Room, 1500 Pennsylvania Ave NW, Washington DC
 
 Media interested in attending this event should RSVP to[press@treasury.gov](mailto:press@treasury.gov).

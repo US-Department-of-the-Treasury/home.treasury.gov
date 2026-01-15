@@ -39,7 +39,7 @@ Average Payment Amount 
 
 			($s)
 
-** All Returns, total 59,301 14,886,893 423**
+**All Returns, total 59,301 14,886,893 423**
 
   Alabama
 913

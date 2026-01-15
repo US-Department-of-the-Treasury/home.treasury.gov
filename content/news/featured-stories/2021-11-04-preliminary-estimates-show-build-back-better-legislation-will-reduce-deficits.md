@@ -24,7 +24,7 @@ Even beyond their sizable revenue-raising potential, these collective policies m
 
 These are historic policy achievements in and of themselves—and they also pay for transformational investments that will improve the lives of American workers, our children, and the generations that will follow.
 
-**Revenue Raisers and Savings in Build Back Better Act** Revenue
+**Revenue Raisers and Savings in Build Back Better Act**Revenue
 
 (in billions)
 
@@ -80,4 +80,4 @@ Unless otherwise noted, all estimates are from the[Joint Committee on Taxation](
 
 * Source:[U.S. Department of the Treasury](https://home.treasury.gov/system/files/136/Yellen_Neal_Congressional_Budget.pdf).
 
-** Source: The framework released by the White House last week proposed repealing the prescription drug rebate rule as negotiations continued on prescription drug reform. Based on the[Congressional Budget Office](https://www.cbo.gov/system/files/2019-05/55151-SupplementalMaterial.pdf), adjusted downward for reforms in bipartisan infrastructure framework, this would have saved about $150 billion. Other components of the Administration estimate the deal reached on prescription drug reform announced this week, which includes additional reforms, will generate about an additional $100 billion in savings, based on[Congressional Budget Office](https://www.cbo.gov/system/files/2019-12/hr3_complete.pdf)[estimates](https://www.finance.senate.gov/imo/media/doc/2020-03-13%20PDPRA-SFC%20CBO%20Table.pdf)of prescription drug negotiations in previous legislation. A more precise CBO estimate will be available in the future.
+**Source: The framework released by the White House last week proposed repealing the prescription drug rebate rule as negotiations continued on prescription drug reform. Based on the[Congressional Budget Office](https://www.cbo.gov/system/files/2019-05/55151-SupplementalMaterial.pdf), adjusted downward for reforms in bipartisan infrastructure framework, this would have saved about $150 billion. Other components of the Administration estimate the deal reached on prescription drug reform announced this week, which includes additional reforms, will generate about an additional $100 billion in savings, based on[Congressional Budget Office](https://www.cbo.gov/system/files/2019-12/hr3_complete.pdf)[estimates](https://www.finance.senate.gov/imo/media/doc/2020-03-13%20PDPRA-SFC%20CBO%20Table.pdf)of prescription drug negotiations in previous legislation. A more precise CBO estimate will be available in the future.
