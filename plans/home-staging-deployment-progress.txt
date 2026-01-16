@@ -35,3 +35,10 @@ Started: 2026-01-15
 - Files changed: terraform/outputs.tf
 - Learnings: Conditional outputs work well for optional features
 - Next: Apply Terraform infrastructure changes
+
+## Iteration 6 - Apply Terraform infrastructure changes
+- Completed: Applied all Terraform changes - ACM cert, Route53 records, CloudFront update
+- Resources: 6 added, 1 changed, 0 destroyed
+- Certificate ARN: arn:aws:acm:us-east-1:463735866612:certificate/c9091d12-19fb-408d-bc30-39754b3a100a
+- Learnings: ACM validation was fast (~1 second after DNS record created), CloudFront update took ~3.5 minutes
+- Next: Build and deploy Hugo site content to S3

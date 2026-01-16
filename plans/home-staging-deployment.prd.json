@@ -87,7 +87,7 @@
         "CloudFront distribution status is Deployed"
       ],
       "priority": "high",
-      "passes": false
+      "passes": true
     },
     {
       "id": "deploy-hugo-content",
