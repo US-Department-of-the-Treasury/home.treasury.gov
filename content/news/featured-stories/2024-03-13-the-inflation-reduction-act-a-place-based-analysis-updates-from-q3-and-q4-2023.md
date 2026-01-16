@@ -24,7 +24,7 @@ Source: Clean Investment Monitor; Census Bureau; U.S. Treasury calculations. Med
 
 Figure 3 describes a similar analysis based on education rather than income.  Before the IRA passed, 79% of announced clean investments were in counties with college graduation rates below the U.S. aggregate rate. Since the IRA passed, 84% of announced clean investments have been in counties with college graduation rates below the U.S. aggregate rate.
 
-** Clean investments have historically been concentrated in places with low incomes and educational attainments, and this is especially true since the IRA passed.**
+**Clean investments have historically been concentrated in places with low incomes and educational attainments, and this is especially true since the IRA passed.**
 
  
 

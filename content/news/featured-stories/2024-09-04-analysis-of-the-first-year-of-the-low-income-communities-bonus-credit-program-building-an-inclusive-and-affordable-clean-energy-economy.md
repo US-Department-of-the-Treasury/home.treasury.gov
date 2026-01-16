@@ -61,7 +61,7 @@ There was robust demand for the Program in the first year, which was open for ap
 
 Through a rigorous process, the IRS awarded allocations to more than 49,000 solar energy facilities across the country. There were only a small number of applications from and no awards to qualified wind facilities. While only certain Program categories were oversubscribed, awards were prioritized toward facilities that met additional selection criteria, over facilities that did not meet additional selection criteria and capacity was allocated toward categories that provided direct savings to households. 325 megawatts of unused capacity rolled over to the 2024 Program year.
 
-** Table 1. Facilities Receiving Program Year 2023 Allocations under IRC 48(e) Low-Income Communities Bonus Program by Application Category [1]** 
+**Table 1. Facilities Receiving Program Year 2023 Allocations under IRC 48(e) Low-Income Communities Bonus Program by Application Category [1]** 
 
 Number ofFacilities
 
@@ -115,7 +115,7 @@ Facilities that are part of a qualified low-income economic benefit project
 
 694,230
 
-** Detail may not add to total because of rounding. [1] Application categories are established in IRC 48(e)(2) and further described in 26 CFR 1.48(e)-1(b)(2). Subcategories for facilities located in a low-income community are described in 26 CFR 1.48(e)-1(i).**
+**Detail may not add to total because of rounding. [1] Application categories are established in IRC 48(e)(2) and further described in 26 CFR 1.48(e)-1(b)(2). Subcategories for facilities located in a low-income community are described in 26 CFR 1.48(e)-1(i).**
 
 Source: IRS, RAAS, Statistics of Income, August 2024.
 

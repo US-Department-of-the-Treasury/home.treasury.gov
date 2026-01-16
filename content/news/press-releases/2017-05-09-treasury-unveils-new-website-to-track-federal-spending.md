@@ -6,7 +6,7 @@ url: /news/press-releases/treasury-unveils-new-website-to-track-federal-spending
 ---
 *Easy-to-Use Site Follows Nearly $4 Trillion in Government Spending from Washington, D.C. to Communities Across America*
 
-**Washington** – The U.S. Department of the Treasury today launched the Beta.USAspending.gov website to put important data into the hands of taxpayers by empowering them to track how their tax dollars are spent. The new site is designed to follow federal agency spending and, for the first time, links spending data to awards distributed by the government. 
+**Washington**– The U.S. Department of the Treasury today launched the Beta.USAspending.gov website to put important data into the hands of taxpayers by empowering them to track how their tax dollars are spent. The new site is designed to follow federal agency spending and, for the first time, links spending data to awards distributed by the government. 
  
 “The new site provides taxpayers with the ability to track nearly $4 trillion in government spending from Washington, D.C. directly into their communities and cities,” said U.S. Treasury Secretary Steven T. Mnuchin. “Furthermore, greater access to data will drive better decision making and strengthen accountability and transparency – qualities central to the Administration’s focus on a more innovative and effective government.”
  

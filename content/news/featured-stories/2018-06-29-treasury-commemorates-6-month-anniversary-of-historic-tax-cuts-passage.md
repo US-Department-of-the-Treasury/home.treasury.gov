@@ -4,7 +4,7 @@ date: 2018-06-29T10:59:29-04:00
 draft: false
 url: /news/featured-stories/treasury-commemorates-6-month-anniversary-of-historic-tax-cuts-passage
 ---
-**Washington** —Today the Treasury Department commemorated the six month anniversary of the passage of the Tax Cuts and Jobs Act and launched an updated[webpage](https://home.treasury.gov/TaxCutCutCut)informing hardworking Americans of the benefits of this historic legislation.
+**Washington**—Today the Treasury Department commemorated the six month anniversary of the passage of the Tax Cuts and Jobs Act and launched an updated[webpage](https://home.treasury.gov/TaxCutCutCut)informing hardworking Americans of the benefits of this historic legislation.
 
 “Six months after the passage of historic tax cuts and reform, hardworking taxpayers are experiencing an economic renewal,” said U.S. Treasury Secretary Steven T. Mnuchin.  “Business optimism is soaring with job creators across the country expressing confidence in the healthy economy.  Hundreds of companies have announced wage increases, bonuses, new hiring, or enhanced benefits for millions of workers.  America is open for business. Families are seeing better careers and bigger paychecks.”
 

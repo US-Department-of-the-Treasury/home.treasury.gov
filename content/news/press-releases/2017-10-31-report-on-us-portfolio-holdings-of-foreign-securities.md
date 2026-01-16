@@ -16,7 +16,7 @@ This survey measured the value of U.S. portfolio holdings of foreign securities 
 
 U.S. portfolio holdings of foreign securities by country at the end of 2016 were the largest for the Cayman Islands ($1.37 trillion), followed by the United Kingdom ($1.20 trillion), Japan ($854 billion), and Canada ($831 billion) (see Table 2).  These four countries attracted 43 percent of total U.S. portfolio investment, versus 42 percent the previous year.The surveys are part of an internationally coordinated effort under the auspices of the International Monetary Fund (IMF) to improve the measurement of portfolio asset holdings.
 
-** Table 1.  U.S. holdings of foreign securities, by type of security, as of survey dates [1]** (Billions of dollars)
+**Table 1.  U.S. holdings of foreign securities, by type of security, as of survey dates [1]**(Billions of dollars)
 
 Type of Security
 
@@ -48,11 +48,11 @@ Short-term debt securities
 
 308
 
-** Total 9,455 9,891**
+**Total 9,455 9,891**
 
 U.S. Portfolio Investment by Country
 
-** Table 2.  Market value of U.S. portfolio holdings of foreign securities, by country and type of security, for countries attracting the most U.S. investment, as of December 31, 2016 [1]** (Billions of dollars)
+**Table 2.  Market value of U.S. portfolio holdings of foreign securities, by country and type of security, for countries attracting the most U.S. investment, as of December 31, 2016 [1]**(Billions of dollars)
 
 			Country or category
 

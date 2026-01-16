@@ -32,7 +32,7 @@ But the distribution of the underreporting tax gap is also the natural byproduct
 
 In fact, about half of the individual income tax gap accrues to income streams from proprietorships, partnerships, and S-corporations, where there is either little or no information available to the IRS to verify the veracity of tax filings. As Table 2 makes clear, a significant share of this income accrues to those at the very top of the distribution.
 
-** Table 2: Distribution of Proprietorship, Partnership, and S-Corporation Income  Corrected Adjusted Gross Income   Proprietorship income2  Partnership and S-corporation income3**
+**Table 2: Distribution of Proprietorship, Partnership, and S-Corporation Income  Corrected Adjusted Gross Income   Proprietorship income2  Partnership and S-corporation income3**
 
 Less than $0
 
@@ -72,7 +72,7 @@ $500,000 and over
 
 2From individual income tax returns that report or should have reported Schedule C income.
 3From individual income tax returns that report or should have reported Schedule E income.  
-** NOTE:** The underlying data for the table below is individual audit outcomes based on random audits done by the IRS National Research Program for tax year 2014 (the most recent year available). Income is adjusted for economic growth to current dollars, and the underreported income and self-employment tax is estimated through a tax calculator. Crucially, the table presents results by taxpayers’ corrected income, defined as the sum of reported and misreported income. Distributing unreported income in this manner appropriately adjusts for the fact that taxpayers who misreport income will appear to have lower incomes, when in reality they may well be higher-income taxpayers. Indeed, the difference between reported and corrected income is precisely what results in a substantial misreporting tax gap.
+**NOTE:**The underlying data for the table below is individual audit outcomes based on random audits done by the IRS National Research Program for tax year 2014 (the most recent year available). Income is adjusted for economic growth to current dollars, and the underreported income and self-employment tax is estimated through a tax calculator. Crucially, the table presents results by taxpayers’ corrected income, defined as the sum of reported and misreported income. Distributing unreported income in this manner appropriately adjusts for the fact that taxpayers who misreport income will appear to have lower incomes, when in reality they may well be higher-income taxpayers. Indeed, the difference between reported and corrected income is precisely what results in a substantial misreporting tax gap.
 
 It is important to understand what this improved information reporting proposal is not: It is not about using new financial account information reports to increase enforcement scrutiny on lower-income taxpayers. The Administration has been clear that audit rates will not rise relative to recent years for those with under $400,000 in actual income.  Instead, these proposals are about targeting enforcement actions where they belong: on higher earners who do not fully report their tax liabilities.
 

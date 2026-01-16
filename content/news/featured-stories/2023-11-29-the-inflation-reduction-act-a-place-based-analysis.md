@@ -37,7 +37,7 @@ Analyzing broader measures, we again find that clean investments are concentrate
 
 Figure 2 shows that 81% of clean investment dollars announced since the IRA passed have been for projects in counties with below-average weekly wages.
 
-** Figure 2. 81% of clean investment dollars since the IRA passed land in counties with below-average weekly wages.**
+**Figure 2. 81% of clean investment dollars since the IRA passed land in counties with below-average weekly wages.**
 
  
 
@@ -45,19 +45,19 @@ Source: Clean Investment Monitor; Quarterly Census of Employment & Wages; U.S. T
 
 Not only are average wages lower in places receiving clean energy investments, but employment is lower as well. Figure 3 shows that nearly three-quarters of investments are being announced in counties where a smaller share of the population is employed, suggesting weaker labor markets overall than the national aggregate.
 
-** Figure 3. 70% of clean investment dollars since the IRA passed are in counties where a smaller share of the population is employed.**
+**Figure 3. 70% of clean investment dollars since the IRA passed are in counties where a smaller share of the population is employed.**
 
 Source: Clean Investment Monitor; Census American Community Survey 2021; U.S. Treasury calculations. Employment-population ratios reflect 2021 annual averages.
 
 In addition to having lower wages and employment, Figure 4 shows that counties attracting more clean energy investment announcements also have lower household incomes.
 
-** Figure 4. 78% of clean investment dollars since the IRA passed flow to counties with below-average median household incomes.**
+**Figure 4. 78% of clean investment dollars since the IRA passed flow to counties with below-average median household incomes.**
 
 Source: Clean Investment Monitor; Census American Community Survey 2021; U.S. Treasury calculations. Median household income is the 2021 value.
 
 Finally, as well as having lower wages, employment, and household incomes, Figure 5 shows that the majority of announced clean investment is for projects in counties with below average college graduation rates.
 
-** Figure 5. 86% of clean investment dollars since the IRA passed are landing in counties with below-average college graduation rates.**
+**Figure 5. 86% of clean investment dollars since the IRA passed are landing in counties with below-average college graduation rates.**
 
 Source: Clean Investment Monitor; Census American Community Survey 2021; U.S. Treasury calculations. College graduation rate is defined as a Bachelor’s degree or higher.
 
@@ -65,19 +65,19 @@ Importantly, these findings are generally consistent across regions of the count
 
 Figure 6 shows a time series of announced clean investments according to whether they are in counties with average wage above or below the national average. Total clean energy investments have been meaningfully higher in aggregate since the second half of 2021—and especially since the IRA passed in mid-2022. But importantly, most of that growth is accounted for by investments in counties with below-average wages.
 
-** Figure 6. Total clean energy investments have risen in recent years, especially in low-wage counties.**
+**Figure 6. Total clean energy investments have risen in recent years, especially in low-wage counties.**
 
 Source: Clean Investment Monitor; Quarterly Census of Employment & Wages; U.S. Treasury calculations. Average weekly wages reflect 2022 annual averages.
 
 Another way to visualize this dynamic is presented in Figure 7, which compares the median household income distribution of clean investment dollars in the post-IRA era with the pre-IRA era. Clean investments generally flow to poorer communities, but this effect has been especially pronounced since the IRA passed: 68 percent of investments went to low-income counties before the IRA passed, and 78 percent are going to low-income counties since.
 
-** Figure 7. The share of clean investment dollars going to low-income counties rose from 68 percent to 78 percent when the IRA passed.**
+**Figure 7. The share of clean investment dollars going to low-income counties rose from 68 percent to 78 percent when the IRA passed.**
 
 Source: Clean Investment Monitor; Census Bureau; U.S. Treasury calculations. Median household income is the 2021 value. “Pre-IRA” refers to clean investments from 2018, when the Clean Investment Monitor dataset begins through July 2023, and “Post-IRA” refers to August 2023 and later.
 
 Moreover, Figure 8 shows these investment trends are happening across all the technologies supported by IRA dollars, including zero emission vehicles, carbon management, and sustainable aviation fuel (SAF), among others.  The post-IRA data show the trend appears across each investment type, without concentration in just one or two types.
 
-** Figure 8. Clean investment dollars are landing mostly in low-income counties across each of the twelve technologies categorized by the Clean Investment Monitor.**
+**Figure 8. Clean investment dollars are landing mostly in low-income counties across each of the twelve technologies categorized by the Clean Investment Monitor.**
 
 Source: Clean Investment Monitor; Census Bureau; U.S. Treasury calculations. Median household income is the 2021 value.
 

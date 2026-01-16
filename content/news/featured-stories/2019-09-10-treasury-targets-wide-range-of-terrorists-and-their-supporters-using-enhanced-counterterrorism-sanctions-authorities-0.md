@@ -6,7 +6,7 @@ url: /news/featured-stories/treasury-targets-wide-range-of-terrorists-and-their-
 ---
 *President Trump’s Updated E.O. 13224 Provides New Tools to Deter Evolving Threats*
 
-**Washington** – Today, the U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) utilized newly enhanced counterterrorism sanctions authorities to designate a series of terrorist leaders, facilitators, and entities.  Equipped with new tools from President Trump’s recently updated Executive Order (E.O.) 13224, which became effective today, Treasury designated 15 leaders, individuals, and entities affiliated with terror groups.  Today’s action targets a wide array of groups, including entities affiliated with HAMAS, the Islamic State of Iraq and Syria (ISIS), al-Qa’ida, and the Islamic Revolutionary Guard Corps Qods-Force (IRGC-QF), and combined with actions taken by the State Department amounts to some of the furthest reaching designations of terrorists and their supporters in the past 15 years.
+**Washington**– Today, the U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) utilized newly enhanced counterterrorism sanctions authorities to designate a series of terrorist leaders, facilitators, and entities.  Equipped with new tools from President Trump’s recently updated Executive Order (E.O.) 13224, which became effective today, Treasury designated 15 leaders, individuals, and entities affiliated with terror groups.  Today’s action targets a wide array of groups, including entities affiliated with HAMAS, the Islamic State of Iraq and Syria (ISIS), al-Qa’ida, and the Islamic Revolutionary Guard Corps Qods-Force (IRGC-QF), and combined with actions taken by the State Department amounts to some of the furthest reaching designations of terrorists and their supporters in the past 15 years.
 
 “Since the horrific attacks of 9/11, the U.S. government has refocused its counterterrorism efforts to constantly adapt to emerging threats.  President Trump’s modernized counterterrorism Executive Order enhances the authorities we use to target the finances of terror groups and their leaders to ensure they are as robust as possible,” said Secretary Steven T. Mnuchin.  “These new authorities will allow the U.S. Government to starve terrorists of resources they need to attack the United States and our allies, and will hold foreign financial institutions who continue to do business with them accountable. These new tools aid our unrelenting efforts to cut off terrorists from their sources of support and deprive them of the funds required to carry out their destructive activities.  They serve as a powerful deterrent to radical terror groups and those seeking to aid their nefarious goals.”
 
@@ -33,21 +33,21 @@ These new authorities allow Treasury to target a broad range of new terrorist le
 
 ### Muhammad Sa’id Izadi (Izadi)
 
-** Izadi is a leader or official of the IRGC-QF.**
+**Izadi is a leader or official of the IRGC-QF.**
 
 Lebanon-based Izadi is the chief of the Palestinian Office of the IRGC­QF Lebanon Corp.
 
-** Izadi has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, HAMAS.**
+**Izadi has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, HAMAS.**
 
 As of late 2016, Izadi required a HAMAS Political Officer member to get permission from three senior HAMAS leaders in order to receive money directly from him.  The HAMAS Political Office member stated Izadi would be sending $1 million dollars in addition to Izadi’s regular allocation, and an additional $1 million dollars earmarked for the HAMAS Political Office member.
 
 ### Zaher Jabarin (Jabarin)
 
-** Jabarin is a leader or official of HAMAS.**
+**Jabarin is a leader or official of HAMAS.**
 
 Turkey-based Jabarin is the head of HAMAS’s Finance Office.  In this capacity, he manages HAMAS’s yearly budget amounting to tens of millions of dollars, is in charge of all HAMAS’s income from various elements around the world, and seeks to obtain additional sources of funding for HAMAS.
 
-** Jabarin has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, HAMAS.**
+**Jabarin has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, HAMAS.**
 
 In his capacity as head of HAMAS’s Finance Department, Jabarin was focused on developing a financial network in Turkey that would allow HAMAS to raise, invest, and launder money prior to transferring it to Gaza and the West Bank.
 
@@ -59,7 +59,7 @@ Jabarin was involved in the transfer of millions of dollars to HAMAS via Redin E
 
 ### Redin Exchange
 
-** Redin Exchange has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, HAMAS.**
+**Redin Exchange has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, HAMAS.**
 
 As of March 2019, the Turkey-based Redin Exchange and Treasury-designated financial facilitator Muhammad Sarur were involved in a $10 million dollar transfer to HAMAS’s operational arm, the Izz-Al-Din Al-Qassam Brigades.
 
@@ -73,7 +73,7 @@ In July 2017, a senior HAMAS leader transferred $5.5 million to HAMAS finance ch
 
 ### Marwan Mahdi Salah Al-Rawi (Al-Rawi)
 
-** Al-Rawi is a leader or official of Redin Exchange.**
+**Al-Rawi is a leader or official of Redin Exchange.**
 
 Al-Rawi is identified as Redin Exchange’s Chief Executive Officer (CEO).
 
@@ -81,7 +81,7 @@ In late January 2018, OFAC-designated ISIS financial facilitator Walid Talib Zug
 
 ### Ismael Tash (Tash)
 
-** Ismael Tash is a leader or official of Redin Exchange.**
+**Ismael Tash is a leader or official of Redin Exchange.**
 
 Tash is Redin Exchange’s Deputy CEO and is in charge of Redin Exchange’s foreign relations.
 
@@ -91,7 +91,7 @@ Since at least 2017, Tash has had ongoing contact with a money transfer channel 
 
 ### SMART Ithalat Ihracat Dis Ticaret Limited Sirketi (SMART)
 
-** SMART is owned or controlled by Ismael Tash.**
+**SMART is owned or controlled by Ismael Tash.**
 
 Tash is the owner of SMART.
 
@@ -99,7 +99,7 @@ SMART is an import/export limited company and possible front company associated 
 
 ### Saksouk Company for Exchange and Money Transfer (Saksouk)
 
-** Saksouk has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS.**
+**Saksouk has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS.**
 
 In late 2018, Saksouk handled fund transfers on behalf of Syria-based ISIS members.
 
@@ -109,7 +109,7 @@ In July 2017, the Syria-based ISIS Immigration Logistics Committee (ILC) attempt
 
 ### Al Haram Foreign Exchange Co. Ltd. (Al Haram Exchange)
 
-** Al Haram Exchange has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, ISIS.**
+**Al Haram Exchange has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, ISIS.**
 
 As of April 2019, ISIS members in Syria received instruction to conduct all financial transactions with Al Haram Exchange.
 
@@ -119,7 +119,7 @@ As of mid-2017, a Syrian-based ISIS facilitator coordinated a money transfer bet
 
 ### Al-Khalidi Exchange (Al-Khalidi)
 
-** Al-Khalidi has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS.**
+**Al-Khalidi has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS.**
 
 As of September 2017, ISIS-affiliated al-Khalidi served as a hawala financial exchange office.  All locations were run by two individuals who knowingly assisted ISIS members in financial transfers.  Al-Khalidi’s office in Mayadin, Syria also served as an internet café for ISIS members in addition to its function as a hawala money transfer office.
 
@@ -133,7 +133,7 @@ As of mid-2015, al-Khalidi’s Istanbul, Izmir, and Sanliurfa branches facilitat
 
 ### Al-Hebo Jewelry Company (al-Hebo)
 
-** Al-Hebo has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS.**
+**Al-Hebo has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS.**
 
 As of late 2017, al-Hebo’s location in Gaziantep, Turkey was involved in an ISIS scheme to convert gold into cash to more efficiently and secretly send funds via hawalas in Turkey to ISIS sleeper cells in Iraq and Syria.
 
@@ -143,7 +143,7 @@ In September 2016, an employee of Raqqah-based al-Hebo likely coordinated a mone
 
 ### Muhamad Ali al-Hebo (Muhamad)
 
-** Muhamad has acted or purported to act for or on behalf of, directly or indirectly, al-Hebo.**
+**Muhamad has acted or purported to act for or on behalf of, directly or indirectly, al-Hebo.**
 
 As of late 2016, Turkey-based al-Hebo owner, Muhamad, was involved in procuring precious metals to enable ISIS to produce its own ISIS coinage.
 
@@ -151,7 +151,7 @@ As of late 2016, Muhamad was the General Manager of an al-Hebo location in Raqqa
 
 As of early 2016, Muhamad managed the Sanliurfa-based al-Hebo location.
 
-** Muhamad has acted or purported to act for or on behalf of, directly or indirectly, al-Khalidi.**
+**Muhamad has acted or purported to act for or on behalf of, directly or indirectly, al-Khalidi.**
 
 As of early 2017, al-Hebo and al-Khalidi were both under the control and management of Muhamad.  During this same timeframe, Muhamad was involved in operating jewelry stores and money exchange/transfer businesses in Istanbul, Urfa, and Gaziantep, Turkey. These businesses operated under the name al-Khalidi.
 
@@ -161,7 +161,7 @@ As of early 2016, Muhamad managed the Sanliurfa-based al-Khalidi location.
 
 ### Mohamad Ameen (Ameen)
 
-** Ameen has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, ISIS-Khorasan (ISIS-K).**
+**Ameen has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, ISIS-Khorasan (ISIS-K).**
 
 Ameen is an ISIS-K recruiter who encouraged people to join ISIS-Khorasan (ISIS-K).  Ameen told a Maldivian citizen and digital media member of ISIS-K to go to Afghanistan because the ISIS-K media group needed him.  The ISIS-K digital media member was told he would receive $700 monthly in salary and was responsible for translating material for Ameen.
 
@@ -171,13 +171,13 @@ Additionally, Ameen is a recruiter and key leader for ISIS in Syria, Afghanistan
 
 ### Mohamed Ahmed Elsayed Ahmed Ibrahim (Ibrahim)
 
-** Ibrahim has acted or purported to act for or on behalf of, directly or indirectly, al-Qa’ida.**
+**Ibrahim has acted or purported to act for or on behalf of, directly or indirectly, al-Qa’ida.**
 
 Ibrahim, a Brazil-based member of al-Qa’ida, provided facilitation support to al-Qa’ida members and material support to al-Qa’ida.
 
 ### Almaida Marani Salvin (Salvin)
 
-** Salvin has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS-Philippines.**
+**Salvin has materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to, ISIS-Philippines.**
 
 In April 2019, Salvin was arrested in Zamboanga City, Philippines, based on her suspected unlawful manufacture, sale, acquisition, disposition, importation, or possession of an explosive or incendiary device.  During the raid, the Philippine authorities recovered improvised explosive device components, as well as bank accounts and passbooks for Salvin linked to ISIS-Philippines (ISIS-P) funding.
 
@@ -185,7 +185,7 @@ As of early 2019, Philippine authorities determined Salvin, who was the wife of 
 
 ### Muhammad Ali Sayid Ahmad (Ahmad)
 
-** Ahmad has participated in training related to terrorism that was provided by ISIS.**
+**Ahmad has participated in training related to terrorism that was provided by ISIS.**
 
 In an October 2018 public interview, Ahmad recounted his journey to join ISIS.  He stated that he left Toronto to join ISIS in April 2014 and attended basic training as a new ISIS recruit.  In basic training, he learned how to use small arms.  Later he joined a sniper and reconnaissance unit where he received advanced sniper and reconnaissance training.
 

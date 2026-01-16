@@ -4,7 +4,7 @@ date: 2018-01-09T13:14:30-05:00
 draft: false
 url: /news/featured-stories/over-one-million-american-workers-receiving-bonuses-in-response-to-tax-reform
 ---
-**Washington** – U.S. Treasury Secretary Steven T. Mnuchin issued the following statement announcing significant workforce investments in response to tax reform:
+**Washington**– U.S. Treasury Secretary Steven T. Mnuchin issued the following statement announcing significant workforce investments in response to tax reform:
 
 “To date, over one million American workers and counting are receiving special bonuses in response to President Trump signing the Tax Cuts & Jobs Act.  Many other middle-income families are seeing their wages increased, and companies across the country are announcing additional hiring and workforce investments.
 
