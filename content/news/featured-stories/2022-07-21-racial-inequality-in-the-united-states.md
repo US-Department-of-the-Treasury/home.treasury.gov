@@ -16,7 +16,7 @@ In her January 2022 remarks at the 2022 ‘Virtual Davos Agenda’ hosted by the
 
 There are, of course, moral, legal, microeconomic, and other reasons to promote a more just and equitable society. In a series of blog posts over the coming months, we will focus on the economic argument for reducing racial inequality. The economic cost of racial inequality is borne not just by the individuals directly faced with limited opportunities, but also has spillovers to the entire U.S. economy. Especially as the country becomes more racially diverse (see Figure 1), inequality poses an ongoing threat to our individual and collective economic welfare.
 
-**Figure 1: Changing Racial and Ethnic Composition of the U.S. Population**Notes: Hispanic refers to anyone of Hispanic ethnicity, regardless of race. The remaining groups exclude anyone of Hispanic ethnicity. Prior to the 1980 decennial census, individuals were not directly asked about whether they were of Hispanic origins. For data before the 1980 decennial census, Hispanic is imputed by IPUMS.Source: Treasury calculations using U.S. Census Bureau data from IPUMS. Steven Ruggles, Sarah Flood, Sophia Foster, Ronald Goeken, Jose Pacas, Megan Schouweiler and Matthew Sobek. IPUMS USA: Version 11.0 [dataset]. Minneapolis, MN: IPUMS, 2021.[https://doi.org/10.18128/D010.V11.0](https://doi.org/10.18128/D010.V11.0)
+**Figure 1: Changing Racial and Ethnic Composition of the U.S. Population ** Notes: Hispanic refers to anyone of Hispanic ethnicity, regardless of race. The remaining groups exclude anyone of Hispanic ethnicity. Prior to the 1980 decennial census, individuals were not directly asked about whether they were of Hispanic origins. For data before the 1980 decennial census, Hispanic is imputed by IPUMS.Source: Treasury calculations using U.S. Census Bureau data from IPUMS. Steven Ruggles, Sarah Flood, Sophia Foster, Ronald Goeken, Jose Pacas, Megan Schouweiler and Matthew Sobek. IPUMS USA: Version 11.0 [dataset]. Minneapolis, MN: IPUMS, 2021.[https://doi.org/10.18128/D010.V11.0](https://doi.org/10.18128/D010.V11.0)
 
 Deputy Secretary of the Treasury Wally Adeyemo emphasized this argument in his September 2021 blog post: “The exclusion of communities of color from the ladder of economic opportunity holds back economic growth for the entire country. Pursuing racial equity is a vital opportunity to drive innovation and boost growth across the U.S. economy.”[3]When people gain access to the resources they need to build their economic future and withstand financial shocks, it is not just good for individuals and their families, but it also benefits the communities where they live, work, and invest, with beneficial spillovers to the economy as a whole. Likewise, when investments are made that allow millions of people who have been held back economically to reach their full economic potential, it gives the United States an important advantage in an increasingly competitive global economy. We cannot afford to leave talent and opportunity on the table.
 
@@ -38,7 +38,7 @@ These disparities are evident in the persistent over-representation of Black and
 
  
 
-**Figure 2. Poverty Rate by Race and Hispanic Origin: 1959 to 2019  Figure 3. Household Net Worth by Race and Hispanic Origin: 1989 to 2019**
+** Figure 2. Poverty Rate by Race and Hispanic Origin: 1959 to 2019  Figure 3. Household Net Worth by Race and Hispanic Origin: 1989 to 2019**
 
  
 

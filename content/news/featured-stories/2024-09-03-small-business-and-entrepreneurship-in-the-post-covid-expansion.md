@@ -8,10 +8,10 @@ Eric Van Nostrand,*Assistant Secretary for Economic Policy (P.D.O.)*
 
 Small businesses play a disproportionately large role in our labor markets: half the Americans that work for a private business work for a small one.[1]And with entrepreneurship surging since the pandemic, that role is poised to grow further. Americans are finding it an especially good time to start a small business. This note explores the impact small businesses and entrepreneurs have had on the U.S. economy in the post-COVID economic expansion. Our key conclusions:
 
-- **Small businesses created over 70 percent of net new jobs since 2019.**In the previous business cycle, small businesses created 64 percent of net new jobs.
-- **Small business optimism is rebounding as inflation falls.**Multiple measures of business optimism show substantial increases in recent months. More than 70 percent of small business leaders expect revenues to grow over the next year, the most since the pandemic.
-- **Entrepreneurship continues to surge: the United States is averaging 430,000 new business applications per month in 2024, 50 percent more than in 2019.**The subset of applications for businesses most likely to hire employees has also risen to 140,000 per month, 30 percent more than in 2019.
-- **Entrepreneurs are also growing more diverse: forty-three percent of self-employed Americans are female, more than ever before.**Black, Asian, and Hispanic shares of self-employed Americans are also near all-time highs. Opportunity in this expansion is applying more broadly than before.
+- **Small businesses created over 70 percent of net new jobs since 2019.** In the previous business cycle, small businesses created 64 percent of net new jobs.
+- ** Small business optimism is rebounding as inflation falls.** Multiple measures of business optimism show substantial increases in recent months. More than 70 percent of small business leaders expect revenues to grow over the next year, the most since the pandemic.
+- ** Entrepreneurship continues to surge: the United States is averaging 430,000 new business applications per month in 2024, 50 percent more than in 2019.** The subset of applications for businesses most likely to hire employees has also risen to 140,000 per month, 30 percent more than in 2019.
+- ** Entrepreneurs are also growing more diverse: forty-three percent of self-employed Americans are female, more than ever before.** Black, Asian, and Hispanic shares of self-employed Americans are also near all-time highs. Opportunity in this expansion is applying more broadly than before.
 
 Important headwinds remain. Credit for small businesses is still historically tight, although that trend has eased somewhat in recent months. And business owners, like households, still face costs that are too high. But given the recent progress, it is important to recognize the central role small businesses play in the U.S. economy.
 

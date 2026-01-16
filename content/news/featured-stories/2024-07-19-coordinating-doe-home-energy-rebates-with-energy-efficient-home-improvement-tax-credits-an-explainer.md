@@ -46,7 +46,7 @@ For example, Anthony Evans receives a $2,000 rebate for a whole-house energy-sav
 
 Table 1: Allocated rebate and 25C tax credit amounts for Anthony Evans
 
-**Upgrade Qualifying Expenditure  Allocated HOMES Rebate  Remaining Household cost after Rebate 25C Tax Credit  Net expense after applying rebate and tax credit**Heat pump for space heating and cooling
+**Upgrade Qualifying Expenditure  Allocated HOMES Rebate  Remaining Household cost after Rebate 25C Tax Credit  Net expense after applying rebate and tax credit ** Heat pump for space heating and cooling
 
 $3,000
 
@@ -90,7 +90,7 @@ For example, if Sofia Joseph purchases a new heat pump water heater for $2,000 a
 
 Table 2: Eligible rebate and 25C tax credit amounts for Sofia Joseph
 
-**Upgrade Qualifying Expenditure   HEAR Rebate  Remaining Household Expense After Rebate 25C Tax Credit  Net expense after applying rebate and tax credit**Heat Pump Water Heater 
+** Upgrade Qualifying Expenditure   HEAR Rebate  Remaining Household Expense After Rebate 25C Tax Credit  Net expense after applying rebate and tax credit ** Heat Pump Water Heater 
 
 $2,000
 
@@ -117,7 +117,7 @@ Since the Winthrops receive the rebate as an*upfront discount*, the*real* upfron
 
 Table 3: Allocated rebate and 25C tax credit amounts for the Winthrops (all numbers are rounded to the nearest dollar)
 
-**Upgrade Qualifying Expenditure  Allocated HOMES Rebate  Remaining Household Expense after Rebate 25C Tax Credit  Net expense after applying rebate and tax credit**Home energy audit
+**Upgrade Qualifying Expenditure  Allocated HOMES Rebate  Remaining Household Expense after Rebate 25C Tax Credit  Net expense after applying rebate and tax credit ** Home energy audit
 
 $450
 
@@ -209,7 +209,7 @@ Additionally, Gomez purchased Energy Star windows, which are eligible for the HO
 
 Table 6: HEAR and Allocated HOMES Rebate Amounts and 25C Tax Credits for Peter Gomez (all numbers rounded to the nearest dollar)
 
-**Upgrade Qualifying Expenditure  HEAR Rebate Allocated HOMES Rebate   Remaining Household Expense after Rebate 25C Tax Credit  Net expense after applying rebate and tax credit**Home energy audit
+**Upgrade Qualifying Expenditure  HEAR Rebate Allocated HOMES Rebate   Remaining Household Expense after Rebate 25C Tax Credit  Net expense after applying rebate and tax credit ** Home energy audit
 
 $450
 
@@ -305,7 +305,7 @@ By coordinating the use of these credits and rebates, American families will sav
 
 [2]The expanded 25C tax credit became applicable to property placed in service on or after January 1, 2023.
 
-[3]Contractors and installers **are**required to include DOE Home Energy Rebates paid directly to them in their taxable income.
+[3]Contractors and installers ** are** required to include DOE Home Energy Rebates paid directly to them in their taxable income.
 
 [4]Individual states and territories, however, may limit eligibility to lower-income households.[The U.S. Department of Housing and Urban Development’s Office of Policy Development and Research](https://www.huduser.gov/portal/datasets/il.html#2021_query)provides information for understanding AMI.
 

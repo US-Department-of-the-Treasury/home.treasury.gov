@@ -4,7 +4,7 @@ date: 2019-04-17T13:15:00-04:00
 draft: false
 url: /news/featured-stories/treasury-issues-second-set-of-highly-anticipated-opportunity-zones-guidance
 ---
-**Washington**– The U.S. Department of the Treasury today issued its second set of proposed regulations related to the new Opportunity Zones tax incentive. The tax benefit, created by the 2017 Tax Cuts and Jobs Act, is designed to drive economic development and create jobs by encouraging long-term investments in economically distressed communities nationwide.
+**Washington** – The U.S. Department of the Treasury today issued its second set of proposed regulations related to the new Opportunity Zones tax incentive. The tax benefit, created by the 2017 Tax Cuts and Jobs Act, is designed to drive economic development and create jobs by encouraging long-term investments in economically distressed communities nationwide.
 
 “We are pleased to issue guidance that provides greater flexibility for communities and investors as we continue to encourage investment and development in Opportunity Zones,” said Secretary Steven T. Mnuchin.  “This incentive will foster economic revitalization, create jobs and spur economic growth that will move these communities forward and create a brighter future.”
 

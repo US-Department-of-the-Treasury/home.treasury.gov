@@ -6,7 +6,7 @@ url: /news/press-releases/tiostatsorpressbrief10241
 ---
 *(Archived Content)*
 
-**TERM INVESTMENT OP  TIO  N PILOT PROGRAM  FACT SHEET**In April 2002, the Fiscal Service introduced, on a pilot basis, a new investment option for Treasury Tax and Loan depositaries to test the viability of placing balances for a defined term through a competitive auction process.The new investment tool is called the Term Investment Option, or TIO.
+**TERM INVESTMENT OP  TIO  N PILOT PROGRAM  FACT SHEET ** In April 2002, the Fiscal Service introduced, on a pilot basis, a new investment option for Treasury Tax and Loan depositaries to test the viability of placing balances for a defined term through a competitive auction process.The new investment tool is called the Term Investment Option, or TIO.
 
  
 
@@ -56,7 +56,7 @@ Our future plans include focusing on:
 
  
 
-**OTHER FACTS**Net interest earnings since the inception of the program stand at $4.98 million.This total includes estimated net interest earnings on the TIO invested on October 20 and on October 27.
+** OTHER FACTS ** Net interest earnings since the inception of the program stand at $4.98 million.This total includes estimated net interest earnings on the TIO invested on October 20 and on October 27.
 
  
 

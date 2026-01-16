@@ -4,7 +4,7 @@ date: 2018-03-22T13:49:38-04:00
 draft: false
 url: /news/recent-highlights/Statement by Secretary Mnuchin on Today’s Presidential Memorandum on China’s Unfair Trade Practices
 ---
-**Washington**– U.S. Secretary of the Treasury Steven T. Mnuchin issued the following statement today on the Presidential Memorandum on China’s unfair trade practices:
+**Washington** – U.S. Secretary of the Treasury Steven T. Mnuchin issued the following statement today on the Presidential Memorandum on China’s unfair trade practices:
 
 “There is a shared recognition between China and the United States that our two countries must adjust the balance in our trade relationship, including addressing the trade deficit. We will continue to engage in discussions to meet these goals.
 

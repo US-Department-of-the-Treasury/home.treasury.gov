@@ -14,11 +14,11 @@ If you are **not a member of the media**, please visit the [Treasury contact pag
 
 There are numerous telephone, mail, and email scams where individuals claim to be Treasury Department employees and offer to grant money or threaten arrests or fines unless your personal information is provided. If you have received a suspicious message from someone claiming to be a Treasury employee (non-IRS), please report it to the Treasury Inspector General.
 
-**Email:** [OIGCounsel@oig.treas.gov](mailto:OIGCounsel@oig.treas.gov)** Phone:** 800-359-3898 (toll free)
+** Email: ** [OIGCounsel@oig.treas.gov](mailto:OIGCounsel@oig.treas.gov)** Phone: ** 800-359-3898 (toll free)
 
 If you have received a suspicious message from someone claiming to be from the Internal Revenue Service (IRS), please report it to the IRS.
 
-**Email:** [phishing@irs.gov](mailto:phishing@irs.gov)** Phone:** 800-366-4484 (toll free)
+** Email: ** [phishing@irs.gov](mailto:phishing@irs.gov)** Phone:** 800-366-4484 (toll free)
 
 ## Ground Rules for Interviewing Treasury Officials
 

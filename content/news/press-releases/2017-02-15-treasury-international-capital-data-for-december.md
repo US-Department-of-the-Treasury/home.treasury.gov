@@ -24,7 +24,7 @@ About TIC Data
 
 The monthly data on holdings of long-term securities, as well as the monthly table on Major Foreign Holders of Treasury Securities, reflect foreign holdings of U.S. securities collected primarily on the basis of custodial data.  These data help provide a window into foreign ownership of U.S. securities, but they cannot attribute holdings of U.S. securities with complete accuracy.  For example, if a U.S. Treasury security purchased by a foreign resident is held in a custodial account in a third country, the true ownership of the security will not be reflected in the data.  The custodial data will also not properly attribute U.S. Treasury securities managed by foreign private portfolio managers who invest on behalf of residents of other countries.  In addition, foreign countries may hold dollars and other U.S. assets that are not captured in the TIC data.  For these reasons, it is difficult to draw precise conclusions from TIC data about changes in the foreign holdings of U.S. financial assets by individual countries.
 
-**TIC Monthly Reports on Cross-Border Financial Flows**
+** TIC Monthly Reports on Cross-Border Financial Flows**
 
 (Billions of dollars, not seasonally adjusted)
 
@@ -41,7 +41,7 @@ Dec
 
  
  
-**Foreigners' Acquisitions of Long-term Securities**
+** Foreigners' Acquisitions of Long-term Securities**
 
 1
  
@@ -72,13 +72,13 @@ Gross Sales of Domestic U.S. Securities
 3
  
  
-**Domestic Securities Purchased, net** (line 1 less line 2) /1**249.3 155.6 155.6 68.4 -46.6 -12.0 17.0 -13.9**
+** Domestic Securities Purchased, net** (line 1 less line 2) /1** 249.3 155.6 155.6 68.4 -46.6 -12.0 17.0 -13.9**
 
 4
  
  
  
-**Private, net /2 171.0 368.0 368.0 356.8 -7.9 26.8 15.9 -32.0**
+** Private, net /2 171.0 368.0 368.0 356.8 -7.9 26.8 15.9 -32.0**
 
 5
 
@@ -132,7 +132,7 @@ Equities, net
  
  
  
-**Official, net /3 78.3 -212.4 -212.4 -288.3 -38.7 -38.8 1.1 18.1**
+** Official, net /3 78.3 -212.4 -212.4 -288.3 -38.7 -38.8 1.1 18.1**
 
 10
 
@@ -211,7 +211,7 @@ Gross Sales of Foreign Securities to U.S. Residents
 16
  
  
-**Foreign Securities Purchased, net** (line 14 less line 15) /4**25.9 161.9 161.9 187.1 20.4 15.4 17.5 1.1**
+** Foreign Securities Purchased, net** (line 14 less line 15) /4** 25.9 161.9 161.9 187.1 20.4 15.4 17.5 1.1**
 
 17
 
@@ -240,27 +240,27 @@ Foreign Equities Purchased, net
 19
  
  
-**Net Long-term Securities Transactions**(line 3 plus line 16):**275.3 317.5 317.5 255.5 -26.2 3.3 34.4 -12.9**
+** Net Long-term Securities Transactions** (line 3 plus line 16): ** 275.3 317.5 317.5 255.5 -26.2 3.3 34.4 -12.9**
 
 20
  
  
-**Other Acquisitions of Long-term Securities, net /5 -79.1 -277.5 -277.5 -272.4 -36.5 -21.9 -18.5 -16.6**
+** Other Acquisitions of Long-term Securities, net /5 -79.1 -277.5 -277.5 -272.4 -36.5 -21.9 -18.5 -16.6**
 
 21
  
-**Net Foreign Acquisition of Long-term Securities**
+** Net Foreign Acquisition of Long-term Securities**
 
 (lines 19 and 20)**: 196.1 40.0 40.0 -16.9 -62.7 -18.6 15.9 -29.4**
 
 22
  
-**Increase in Foreign Holdings of Dollar-denominated Short-term U.S. Securities and Other Custody Liabilities: /6 7.1 71.0 71.0 35.2 28.9 -20.2 1.7 33.5**
+** Increase in Foreign Holdings of Dollar-denominated Short-term U.S. Securities and Other Custody Liabilities: /6 7.1 71.0 71.0 35.2 28.9 -20.2 1.7 33.5**
 
 23
  
  
-**U.S. Treasury Bills -13.9 53.1 53.1 -54.8 9.0 -36.9 0.2 11.1**
+** U.S. Treasury Bills -13.9 53.1 53.1 -54.8 9.0 -36.9 0.2 11.1**
 
 24
  
@@ -293,7 +293,7 @@ Official, net
 26
  
  
-**Other Negotiable Instruments and Selected Other Liabilities: /7 21.0 17.9 17.9 89.9 19.9 16.6 1.5 22.4**
+** Other Negotiable Instruments and Selected Other Liabilities: /7 21.0 17.9 17.9 89.9 19.9 16.6 1.5 22.4**
 
 27
  
@@ -325,10 +325,10 @@ Official, net
 
 29
  
-**Change in Banks' Own Net Dollar-denominated Liabilities 73.2 -177.1 -177.1 -60.9 -122.0 53.4 12.6 -46.8**
+** Change in Banks' Own Net Dollar-denominated Liabilities 73.2 -177.1 -177.1 -60.9 -122.0 53.4 12.6 -46.8**
 
 30
-**Monthly Net TIC Flows** (lines 21,22,29) /8**276.5 -66.1 -66.1 -42.6 -155.8 14.6 30.2 -42.8 of which**
+** Monthly Net TIC Flows** (lines 21,22,29) /8** 276.5 -66.1 -66.1 -42.6 -155.8 14.6 30.2 -42.8 of which**
 
 31
  

@@ -10,7 +10,7 @@ In late 2021, the United States announced its first-ever whole-of government[str
 
 The event is open to credentialed press and will also be livestreamed[here](https://treas.yorkcast.com/webcast/Play/421808d7f8ff4cf9a7af402684b47e711d).
 
-**WHO:**
+**WHO: **
 
 Opening Remarks: Secretary of the Treasury Janet L. Yellen
 
@@ -22,6 +22,6 @@ Panel Discussion:
 - Lakshmi Kumar, Policy Director of Global Financial Integrity
 - Concepción Verdugo Yepes, IMF Senior Economist
 
-**WHEN:**Tuesday, March 28, 2023 at 10:30 AM ET**WHERE:**U.S. Department of the Treasury Cash Room, 1500 Pennsylvania Ave NW, Washington DC
+** WHEN: ** Tuesday, March 28, 2023 at 10:30 AM ET ** WHERE:** U.S. Department of the Treasury Cash Room, 1500 Pennsylvania Ave NW, Washington DC
 
 Media interested in attending this event should RSVP to[press@treasury.gov](mailto:press@treasury.gov).
