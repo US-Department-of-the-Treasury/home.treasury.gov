@@ -1,14 +1,7 @@
 {{ define "main" }}
-<script>
-  // Redirect to the same path on the live Treasury site
-  (function() {
-    var currentPath = window.location.pathname + window.location.search;
-    var treasuryUrl = 'https://home.treasury.gov' + currentPath;
-    
-    // Redirect immediately
-    window.location.replace(treasuryUrl);
-  })();
-</script>
+{{/* Load external redirect script for CSP compliance */}}
+{{ $redirectJS := resources.Get "js/redirect-404.js" | minify | fingerprint }}
+<script src="{{ $redirectJS.RelPermalink }}"></script>
 
 <noscript>
   <meta http-equiv="refresh" content="0; url=https://home.treasury.gov/">

@@ -19,27 +19,48 @@ if [[ -f "$SCRIPT_DIR/config.env" ]]; then
   source "$SCRIPT_DIR/config.env"
 fi
 
-# Configuration - set in deploy/config.env (copy from config.env.example)
-S3_BUCKET_STAGING="${S3_BUCKET_STAGING:-treasury-hugo-staging}"
-S3_BUCKET_PROD="${S3_BUCKET_PROD:-treasury-hugo-prod}"
+# Default configuration
 AWS_REGION="${AWS_REGION:-us-east-1}"
-CLOUDFRONT_DISTRIBUTION_ID="${CLOUDFRONT_DISTRIBUTION_ID:-}"
+SSM_PREFIX="${SSM_PREFIX:-/treasury-home}"
 
 # Parse arguments
 ENVIRONMENT="${1:-staging}"
 
+# Fetch configuration from SSM (primary) or fall back to config.env
+fetch_ssm_param() {
+  local param_name="$1"
+  local default_value="$2"
+  local value
+  value=$(aws ssm get-parameter --name "${SSM_PREFIX}/${ENVIRONMENT}/${param_name}" --query 'Parameter.Value' --output text 2>/dev/null || true)
+  if [[ -n "$value" && "$value" != "None" ]]; then
+    echo "$value"
+  else
+    echo "$default_value"
+  fi
+}
+
 case "$ENVIRONMENT" in
-  staging)
-    S3_BUCKET="$S3_BUCKET_STAGING"
-    echo "🚀 Deploying to STAGING ($S3_BUCKET)"
-    ;;
-  prod|production)
-    S3_BUCKET="$S3_BUCKET_PROD"
-    echo "⚠️  You are about to deploy to PRODUCTION ($S3_BUCKET)"
-    read -p "Are you sure? (yes/no): " CONFIRM
-    if [[ "$CONFIRM" != "yes" ]]; then
-      echo "Deployment cancelled."
-      exit 0
+  staging|prod|production)
+    # Normalize production
+    [[ "$ENVIRONMENT" == "production" ]] && ENVIRONMENT="prod"
+
+    # Fetch bucket name from SSM
+    S3_BUCKET=$(fetch_ssm_param "S3_BUCKET_NAME" "")
+
+    if [[ -z "$S3_BUCKET" ]]; then
+      echo "❌ Could not find S3 bucket name in SSM: ${SSM_PREFIX}/${ENVIRONMENT}/S3_BUCKET_NAME"
+      exit 1
+    fi
+
+    if [[ "$ENVIRONMENT" == "prod" ]]; then
+      echo "⚠️  You are about to deploy to PRODUCTION ($S3_BUCKET)"
+      read -p "Are you sure? (yes/no): " CONFIRM
+      if [[ "$CONFIRM" != "yes" ]]; then
+        echo "Deployment cancelled."
+        exit 0
+      fi
+    else
+      echo "🚀 Deploying to STAGING ($S3_BUCKET)"
     fi
     ;;
   *)
@@ -113,12 +134,23 @@ aws s3 sync "$BUILD_DIR" "s3://$S3_BUCKET" \
   --cache-control "max-age=3600" \
   --delete
 
-# Invalidate CloudFront if configured
-if [[ -n "$CLOUDFRONT_DISTRIBUTION_ID" && "$ENVIRONMENT" == "prod" ]]; then
-  echo "🔄 Invalidating CloudFront cache..."
+# Invalidate CloudFront cache (required for every deploy)
+# Fetch distribution ID from SSM if not set
+if [[ -z "$CLOUDFRONT_DISTRIBUTION_ID" ]]; then
+  SSM_PATH="/treasury-home/${ENVIRONMENT}/CLOUDFRONT_DISTRIBUTION_ID"
+  CLOUDFRONT_DISTRIBUTION_ID=$(aws ssm get-parameter --name "$SSM_PATH" --query 'Parameter.Value' --output text 2>/dev/null || true)
+fi
+
+if [[ -n "$CLOUDFRONT_DISTRIBUTION_ID" ]]; then
+  echo "🔄 Invalidating CloudFront cache (distribution: $CLOUDFRONT_DISTRIBUTION_ID)..."
   aws cloudfront create-invalidation \
     --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" \
-    --paths "/*"
+    --paths "/*" \
+    --output text
+  echo "   Invalidation created - cache will clear within 1-2 minutes"
+else
+  echo "⚠️  No CloudFront distribution ID found - skipping cache invalidation"
+  echo "   Set CLOUDFRONT_DISTRIBUTION_ID in config.env or SSM parameter: /treasury-home/${ENVIRONMENT}/CLOUDFRONT_DISTRIBUTION_ID"
 fi
 
 echo "✅ Deployment complete!"

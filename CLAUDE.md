@@ -1,0 +1,83 @@
+# Treasury Home Hugo Site
+
+Hugo-based static site for home.treasury.gov deployed to AWS S3/CloudFront.
+
+## Deployment
+
+```bash
+./deploy/s3-sync.sh staging   # Deploy to staging
+./deploy/s3-sync.sh prod      # Deploy to production (requires confirmation)
+```
+
+The deploy script automatically:
+- Builds Hugo site with `--minify`
+- Syncs to S3 with appropriate cache headers
+- Invalidates CloudFront cache (fetches config from SSM)
+
+## Pre-Deployment Checklist
+
+**REQUIRED before every deploy:**
+
+### CSP Compliance Check
+
+This site enforces strict Content Security Policy. Before deploying, verify:
+
+1. **No inline scripts** - All JavaScript must be in external `.js` files
+   - Check: `grep -r "<script>" themes/ --include="*.html" | grep -v "src="`
+   - Should return NO results (except Hugo template tags)
+
+2. **No inline event handlers** - No `onclick`, `onload`, etc. in HTML
+   - Check: `grep -rE "on(click|load|change|submit|error)=" themes/ --include="*.html"`
+   - Should return NO results
+
+3. **External scripts only from 'self'** - No CDN scripts allowed
+   - All JS must be in `themes/treasury/assets/js/` and loaded via Hugo pipes
+
+### CSP Policy Reference
+
+```
+script-src 'self'              # Only external scripts from same origin
+style-src 'self' 'unsafe-inline'  # Styles can be inline (for Hugo)
+img-src 'self' data: https:    # Images from self, data URIs, or HTTPS
+```
+
+### Quick CSP Test After Deploy
+
+Open browser DevTools Console and check for CSP violations:
+- Navigate to https://home-staging.awsdev.treasury.gov/news/search/
+- Look for "Content Security Policy" errors
+- All pages with JavaScript should be tested
+
+## Hugo Assets
+
+JavaScript files go in `themes/treasury/assets/js/` and are loaded via Hugo pipes:
+
+```go
+{{ $js := resources.Get "js/myfile.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}"></script>
+```
+
+This ensures:
+- Files are minified in production
+- Cache-busting via content hash
+- CSP compliance (external script from 'self')
+
+## SSM Parameters
+
+Configuration is stored in AWS SSM Parameter Store:
+
+| Parameter | Description |
+|-----------|-------------|
+| `/treasury-home/staging/S3_BUCKET_NAME` | S3 bucket for staging |
+| `/treasury-home/staging/CLOUDFRONT_DISTRIBUTION_ID` | CloudFront distribution |
+| `/treasury-home/staging/CLOUDFRONT_DOMAIN` | CloudFront domain |
+| `/treasury-home/staging/SITE_URL` | Public site URL |
+
+## Infrastructure
+
+Terraform configuration in `terraform/` manages:
+- S3 bucket with static website hosting
+- CloudFront distribution with custom domain
+- ACM certificate for HTTPS
+- Route53 DNS records
+- robots.txt for non-production environments
