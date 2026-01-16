@@ -101,7 +101,7 @@
         "Site content is visible and styled correctly"
       ],
       "priority": "high",
-      "passes": false
+      "passes": true
     }
   ],
   "postCompletion": {

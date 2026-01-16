@@ -42,3 +42,10 @@ Started: 2026-01-15
 - Certificate ARN: arn:aws:acm:us-east-1:463735866612:certificate/c9091d12-19fb-408d-bc30-39754b3a100a
 - Learnings: ACM validation was fast (~1 second after DNS record created), CloudFront update took ~3.5 minutes
 - Next: Build and deploy Hugo site content to S3
+
+## Iteration 7 - Build and deploy Hugo site content to S3
+- Completed: Built 14,749 pages with hugo --minify, synced 1.2GB to S3, created CloudFront invalidation
+- Site URL: https://home-staging.awsdev.treasury.gov
+- Verification: HTTP 200, all security headers present (HSTS, CSP, X-Frame-Options, etc.)
+- Learnings: S3 sync with --delete removes Terraform-managed objects; may need to adjust workflow
+- DEPLOYMENT COMPLETE
