@@ -6,7 +6,7 @@ url: /news/featured-stories/the-us-economic-recovery-in-international-context
 ---
 *​By:  Assistant Secretary for Economic Policy Benjamin Harris and Deputy Assistant Secretary for Macroeconomics Neil Mehrotra*
 
-**Overview**The economic recovery from the pandemic in the United States has been historic relative to prior episodes and has also been robust relative to the recoveries of many other major advanced economies. And while a counterfactual recovery is impossible to observe, research suggests that the actions taken by the Biden Administration meaningfully contributed to the pace of recovery and strength of the labor market. Other advanced economies similarly undertook significant policy actions to respond to the pandemic that have bolstered their economic recoveries.
+**Overview** The economic recovery from the pandemic in the United States has been historic relative to prior episodes and has also been robust relative to the recoveries of many other major advanced economies. And while a counterfactual recovery is impossible to observe, research suggests that the actions taken by the Biden Administration meaningfully contributed to the pace of recovery and strength of the labor market. Other advanced economies similarly undertook significant policy actions to respond to the pandemic that have bolstered their economic recoveries.
 
 This blog compares the US recovery along five key characteristics relative to other advanced economies:
 

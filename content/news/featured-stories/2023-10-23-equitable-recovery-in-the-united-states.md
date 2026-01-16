@@ -298,7 +298,7 @@ The actions taken by the Biden-Harris Administration to increase equity are not 
 
 [29]Fazio, Catherine E., Jorge Guzman, Yupeng Liu, and Scott Stern. 2021. “[How is COVID Changing the Geography of Entrepreneurship? Evidence from the Startup Cartography Project](https://www.nber.org/papers/w28787).”*NBER*, working paper no. 28787.
 
-[30]Hoynes, Hilary, Douglas L. Miller, and Jessamyn Schaller. 2012. "Who Suffers during Recessions?"*Journal of Economic Perspectives*26 (3): 27-48**.**
+[30]Hoynes, Hilary, Douglas L. Miller, and Jessamyn Schaller. 2012. "Who Suffers during Recessions?"*Journal of Economic Perspectives*26 (3): 27-48 **.**
 
 [31]Buckman, Shelby R., Laura Y. Choi, Mary C. Daly, and Lily M. Seitelman. 2021. “[The Economic Gains from Equity](https://www.brookings.edu/articles/the-economic-gains-from-equity/).”*Brookings Papers on Economic Activity*, September 8, 2021.; Hsieh, Chang-Tai, Erik Hurst, Charles I. Jones, and Peter J. Klenow. 2019. “The Allocation of Talent and U.S. Economic Growth.”*Econometrica*87 (5): 1439-1474.
 

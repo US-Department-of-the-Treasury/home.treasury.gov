@@ -24,7 +24,7 @@ Even beyond their sizable revenue-raising potential, these collective policies m
 
 These are historic policy achievements in and of themselves—and they also pay for transformational investments that will improve the lives of American workers, our children, and the generations that will follow.
 
-**Revenue Raisers and Savings in Build Back Better Act**Revenue
+**Revenue Raisers and Savings in Build Back Better Act** Revenue
 
 (in billions)
 

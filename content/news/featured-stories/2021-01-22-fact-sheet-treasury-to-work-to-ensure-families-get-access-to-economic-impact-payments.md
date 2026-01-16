@@ -20,8 +20,8 @@ In particular, the Treasury Department will:
 
  
 
-1. **Work to reach households who were issued – but did not cash – payments:**Hundreds of thousands of CARES Act checks and debit cards have not been cashed or activated – for example, if the recipient mistakenly discarded the delivery. The IRS and Treasury will work quickly to either reissue unclaimed benefits or conduct outreach with those who did not claim their benefits to encourage claiming the benefit on their 2020 tax return, while taking steps to prevent fraud by – for example – turning off previously-issued debit cards when new payments are made.
+1. **Work to reach households who were issued – but did not cash – payments:** Hundreds of thousands of CARES Act checks and debit cards have not been cashed or activated – for example, if the recipient mistakenly discarded the delivery. The IRS and Treasury will work quickly to either reissue unclaimed benefits or conduct outreach with those who did not claim their benefits to encourage claiming the benefit on their 2020 tax return, while taking steps to prevent fraud by – for example – turning off previously-issued debit cards when new payments are made.
 
  
 
-1. **Analyze unserved households:**Developing a better understanding of which groups of potentially eligible households have not filed for and received Economic Impact Payments could allow the IRS and Treasury, as well as partners, to target their outreach efforts. For example, such research would allow greater outreach in ZIP codes with higher levels of non-payment or to householdswho benefit from other government assistance programs.
+1. **Analyze unserved households:** Developing a better understanding of which groups of potentially eligible households have not filed for and received Economic Impact Payments could allow the IRS and Treasury, as well as partners, to target their outreach efforts. For example, such research would allow greater outreach in ZIP codes with higher levels of non-payment or to householdswho benefit from other government assistance programs.

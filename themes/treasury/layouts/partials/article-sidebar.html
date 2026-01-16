@@ -1,0 +1,435 @@
+{{/* Article Sidebar - Search, Subscribe, and Metadata */}}
+<aside class="article-sidebar" id="article-sidebar">
+  {{/* Actions */}}
+  <div class="sidebar-actions">
+    <a href="/news/search/" class="btn-sidebar-action btn-advanced-search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+      Advanced Search
+    </a>
+    <a href="https://public.govdelivery.com/accounts/USTREAS/subscriber/new" class="btn-sidebar-action btn-subscribe" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+        <polyline points="22,6 12,13 2,6"></polyline>
+      </svg>
+      Subscribe to Updates
+    </a>
+  </div>
+  
+  {{/* Article Metadata */}}
+  <div class="article-metadata" id="article-metadata">
+    <h3 class="metadata-title">About This Article</h3>
+    <div class="metadata-loading" id="metadata-loading">Loading...</div>
+    <div class="metadata-content" id="metadata-content" style="display: none;"></div>
+  </div>
+</aside>
+
+<style>
+/* Article Sidebar */
+.article-sidebar {
+  padding-left: 0;
+}
+
+/* Action Buttons */
+.sidebar-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-sidebar-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-advanced-search {
+  background: #fff;
+  border: 2px solid var(--treasury-navy-light);
+  color: var(--treasury-navy-light);
+}
+
+.btn-advanced-search:hover {
+  background: var(--treasury-navy-light);
+  color: #fff;
+}
+
+.btn-subscribe {
+  background: var(--treasury-green);
+  color: #fff;
+}
+
+.btn-subscribe:hover {
+  background: #256d35;
+  color: #fff;
+}
+
+/* Metadata Section */
+.article-metadata {
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  padding: 1rem;
+}
+
+.metadata-title {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-600);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.metadata-loading {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  font-style: italic;
+}
+
+.metadata-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.metadata-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.metadata-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.metadata-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+
+.metadata-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.metadata-tag--admin {
+  background: #e8f4fd;
+  color: #0050b4;
+  border: 1px solid #b8daff;
+}
+
+.metadata-tag--admin:hover {
+  background: #0050b4;
+  color: #fff;
+}
+
+.metadata-tag--secretary {
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffc107;
+}
+
+.metadata-tag--secretary:hover {
+  background: #856404;
+  color: #fff;
+}
+
+.metadata-tag--topic {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.metadata-tag--topic:hover {
+  background: #155724;
+  color: #fff;
+}
+
+.metadata-tag--office {
+  background: #e2e3e5;
+  color: #383d41;
+  border: 1px solid #d6d8db;
+}
+
+.metadata-tag--office:hover {
+  background: #383d41;
+  color: #fff;
+}
+
+.metadata-tag--section {
+  background: var(--treasury-navy-light);
+  color: #fff;
+}
+
+.metadata-tag--section:hover {
+  background: var(--treasury-navy);
+}
+
+.metadata-tag--country {
+  background: #f8f9fa;
+  color: #495057;
+  border: 1px solid #dee2e6;
+}
+
+.metadata-tag--country:hover {
+  background: #495057;
+  color: #fff;
+}
+
+.country-flag {
+  font-size: 0.875rem;
+}
+
+.metadata-value {
+  font-size: 0.875rem;
+  color: var(--gray-700);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .article-sidebar {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--gray-200);
+  }
+  
+  .sidebar-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .btn-sidebar-action {
+    flex: 1;
+    min-width: 150px;
+  }
+}
+</style>
+
+<script>
+(function() {
+  const currentUrl = window.location.pathname;
+  const metadataContent = document.getElementById('metadata-content');
+  const metadataLoading = document.getElementById('metadata-loading');
+  
+  // Admin labels
+  const adminLabels = {
+    'trump2': 'Trump Administration II',
+    'biden': 'Biden Administration',
+    'trump1': 'Trump Administration I',
+    'obama': 'Obama Administration'
+  };
+  
+  // Secretary labels
+  const secretaryLabels = {
+    'bessent': 'Scott Bessent',
+    'yellen': 'Janet Yellen',
+    'mnuchin': 'Steven Mnuchin',
+    'lew': 'Jack Lew',
+    'geithner': 'Timothy Geithner'
+  };
+  
+  // Topic labels
+  const topicLabels = {
+    'sanctions': 'Sanctions & OFAC',
+    'tax': 'Tax Policy',
+    'economy': 'Economic Policy',
+    'debt': 'Debt & Budget',
+    'financial': 'Financial Regulation',
+    'fincrime': 'Financial Crimes',
+    'terrorism': 'Terrorism & Illicit Finance',
+    'international': 'International Affairs',
+    'climate': 'Climate & Energy',
+    'recovery': 'Economic Recovery',
+    'currency': 'Currency & Monetary Policy',
+    'covid': 'COVID-19 Response'
+  };
+  
+  // Country labels with flags
+  const countryLabels = {
+    'russia': { label: 'Russia', flag: '🇷🇺' },
+    'china': { label: 'China', flag: '🇨🇳' },
+    'iran': { label: 'Iran', flag: '🇮🇷' },
+    'northkorea': { label: 'North Korea', flag: '🇰🇵' },
+    'ukraine': { label: 'Ukraine', flag: '🇺🇦' },
+    'venezuela': { label: 'Venezuela', flag: '🇻🇪' },
+    'syria': { label: 'Syria', flag: '🇸🇾' },
+    'cuba': { label: 'Cuba', flag: '🇨🇺' },
+    'myanmar': { label: 'Myanmar', flag: '🇲🇲' },
+    'afghanistan': { label: 'Afghanistan', flag: '🇦🇫' }
+  };
+  
+  // Office labels
+  const officeLabels = {
+    'ofac': 'OFAC',
+    'fincen': 'FinCEN',
+    'irs': 'IRS',
+    'occ': 'OCC',
+    'fiscal': 'Fiscal Service',
+    'mint': 'U.S. Mint',
+    'bep': 'BEP',
+    'international-affairs': 'International Affairs'
+  };
+  
+  // Build search URL
+  function buildSearchUrl(param, value) {
+    return `/news/search/?${param}=${encodeURIComponent(value)}`;
+  }
+  
+  // Render metadata
+  function renderMetadata(article) {
+    let html = '';
+    
+    // Published Date & Time
+    if (article.dateTimeDisplay) {
+      html += `
+        <div class="metadata-group">
+          <span class="metadata-label">Published</span>
+          <span class="metadata-value">${article.dateTimeDisplay}</span>
+        </div>
+      `;
+    } else if (article.dateDisplay) {
+      html += `
+        <div class="metadata-group">
+          <span class="metadata-label">Published</span>
+          <span class="metadata-value">${article.dateDisplay}</span>
+        </div>
+      `;
+    }
+    
+    // Section/Type
+    if (article.section) {
+      const sectionSlug = article.section.toLowerCase().replace(/\s+&?\s*/g, '-');
+      html += `
+        <div class="metadata-group">
+          <span class="metadata-label">Category</span>
+          <div class="metadata-tags">
+            <a href="/news/search/?type=${sectionSlug}" class="metadata-tag metadata-tag--section">${article.section}</a>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Administration
+    if (article.president) {
+      const label = adminLabels[article.president] || article.president;
+      html += `
+        <div class="metadata-group">
+          <span class="metadata-label">Administration</span>
+          <div class="metadata-tags">
+            <a href="/news/search/?admin=${article.president}" class="metadata-tag metadata-tag--admin">${label}</a>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Secretary
+    if (article.secretary) {
+      const label = secretaryLabels[article.secretary] || article.secretary;
+      html += `
+        <div class="metadata-group">
+          <span class="metadata-label">Treasury Secretary</span>
+          <div class="metadata-tags">
+            <a href="/news/search/?secretary=${article.secretary}" class="metadata-tag metadata-tag--secretary">${label}</a>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Topics
+    if (article.topics && article.topics.length > 0) {
+      const topicTags = article.topics.map(t => {
+        const label = topicLabels[t] || t;
+        return `<a href="/news/search/?topic=${t}" class="metadata-tag metadata-tag--topic">${label}</a>`;
+      }).join('');
+      
+      html += `
+        <div class="metadata-group">
+          <span class="metadata-label">Topics</span>
+          <div class="metadata-tags">${topicTags}</div>
+        </div>
+      `;
+    }
+    
+    // Offices
+    if (article.offices && article.offices.length > 0) {
+      const officeTags = article.offices.map(o => {
+        const label = officeLabels[o] || o.toUpperCase();
+        return `<a href="/news/search/?office=${o}" class="metadata-tag metadata-tag--office">${label}</a>`;
+      }).join('');
+      
+      html += `
+        <div class="metadata-group">
+          <span class="metadata-label">Treasury Offices</span>
+          <div class="metadata-tags">${officeTags}</div>
+        </div>
+      `;
+    }
+    
+    // Countries
+    if (article.countries && article.countries.length > 0) {
+      const countryTags = article.countries.map(c => {
+        const info = countryLabels[c] || { label: c, flag: '' };
+        const flagSpan = info.flag ? `<span class="country-flag">${info.flag}</span> ` : '';
+        return `<a href="/news/search/?country=${c}" class="metadata-tag metadata-tag--country">${flagSpan}${info.label}</a>`;
+      }).join('');
+      
+      html += `
+        <div class="metadata-group">
+          <span class="metadata-label">Countries Mentioned</span>
+          <div class="metadata-tags">${countryTags}</div>
+        </div>
+      `;
+    }
+    
+    return html;
+  }
+  
+  // Load article metadata
+  async function loadMetadata() {
+    try {
+      const response = await fetch('/index.json');
+      const index = await response.json();
+      
+      // Find current article
+      const article = index.find(item => item.url === currentUrl);
+      
+      if (article) {
+        metadataContent.innerHTML = renderMetadata(article);
+        metadataContent.style.display = 'flex';
+        metadataLoading.style.display = 'none';
+      } else {
+        metadataLoading.textContent = 'Metadata not available';
+      }
+    } catch (error) {
+      console.error('Failed to load metadata:', error);
+      metadataLoading.textContent = 'Failed to load metadata';
+    }
+  }
+  
+  loadMetadata();
+})();
+</script>

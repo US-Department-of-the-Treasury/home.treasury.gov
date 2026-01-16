@@ -124,8 +124,11 @@
     "title" .Title 
     "url" .RelPermalink 
     "date" $dateStr
+    "time" (.Date.Format "3:04 PM")
     "dateDisplay" (.Date.Format "January 2, 2006")
+    "dateTimeDisplay" (.Date.Format "January 2, 2006 at 3:04 PM EST")
     "section" .CurrentSection.Title
+    "sectionUrl" .CurrentSection.RelPermalink
     "president" $president
     "secretary" $secretary
     "topics" $topics

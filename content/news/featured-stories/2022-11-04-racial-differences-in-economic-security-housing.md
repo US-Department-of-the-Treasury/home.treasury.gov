@@ -24,7 +24,7 @@ The benefits from homeownership have not been shared equally.  In the second qu
 
   
 
-**Notes:**Figure displays the proportion of all households that are homeowners.  Hispanic includes anyone of Hispanic ethnicity regardless of race.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, and American Indian or Alaska Native and those who report two or more races.**Source:**U.S. Census Bureau data via the Federal Reserve Bank of St. Louis.
+**Notes:** Figure displays the proportion of all households that are homeowners.  Hispanic includes anyone of Hispanic ethnicity regardless of race.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, and American Indian or Alaska Native and those who report two or more races. **Source:** U.S. Census Bureau data via the Federal Reserve Bank of St. Louis.
 
  
 
@@ -36,7 +36,7 @@ These disparities impact the economic security of Americans of all ages and have
 
 ### Figure 2. Racial Homeownership Gaps Over the Lifecycle, 2019
 
-**Notes**: Figure displays homeownership rates by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska Native, or any other race.**Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
+**Notes**: Figure displays homeownership rates by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska Native, or any other race. **Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
 
  
 
@@ -60,7 +60,7 @@ Notably, just prior to and during the Great Recession, foreclosure rates skyrock
 
 ### Figure 3. Racial Differences in the Quarterly Foreclosure Rate
 
-**Notes:**The figure plots the quarterly foreclosure rate by race and ethnicity from a sample of homeowners with observed purchase prices in the Home Mortgage Disclosure Act data.**Source:**Data provided by Amir Kermani.  See the following paper for a detailed description of the data: Kermani, Amir, and Francis Wong. 2021. “Racial Disparities in Housing Returns.” NBER Working Paper 29306.
+**Notes:** The figure plots the quarterly foreclosure rate by race and ethnicity from a sample of homeowners with observed purchase prices in the Home Mortgage Disclosure Act data. **Source:** Data provided by Amir Kermani.  See the following paper for a detailed description of the data: Kermani, Amir, and Francis Wong. 2021. “Racial Disparities in Housing Returns.” NBER Working Paper 29306.
 
  
 
@@ -74,7 +74,7 @@ Together, differences in the homeownership rates, home values, housing returns, 
 
  
 
-**Notes**: Figure displays average housing equity wealth by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska native, or any other race.**Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
+**Notes**: Figure displays average housing equity wealth by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska native, or any other race. **Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
 
  
 

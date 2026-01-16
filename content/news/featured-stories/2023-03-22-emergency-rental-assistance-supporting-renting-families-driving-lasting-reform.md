@@ -4,7 +4,7 @@ date: 2023-03-22T09:10:00-04:00
 draft: false
 url: /news/featured-stories/emergency-rental-assistance-supporting-renting-families-driving-lasting-reform
 ---
-**Jacob Leibenluft, Chief Recovery Officer**COVID-19 pushed families across the country to fall behind on their rent—many of whom already struggled with the cost of housing.  At the end of 2020, nearly a fifth of renting households reported being behind on rent. One in six reported that eviction within two months was very likely.
+**Jacob Leibenluft, Chief Recovery Officer** COVID-19 pushed families across the country to fall behind on their rent—many of whom already struggled with the cost of housing.  At the end of 2020, nearly a fifth of renting households reported being behind on rent. One in six reported that eviction within two months was very likely.
 
 Research has made clear the grave consequences of eviction for families.  Evictions can interrupt school and work, undermine physical and mental health, and make it more challenging to qualify for housing assistance benefits or find new housing.  Eviction can cause tenants to lose possessions, or face food insecurity.[1]As the pandemic destabilized life for many Americans, these risks grew even more serious.
 

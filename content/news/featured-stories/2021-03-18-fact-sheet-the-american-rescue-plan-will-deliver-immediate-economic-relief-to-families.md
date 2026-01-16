@@ -10,7 +10,7 @@ The American Rescue Plan will change the course of the pandemic and deliver imme
 
 ## Economic Impact Payments
 
-Through this third round of Economic Impact Payments, the U.S. Department of the Treasury (Treasury Department) and the Internal Revenue Service (IRS) are ensuring that Americans will receive fast and direct relief during the final phase of the COVID-19 crisis. As of yesterday, **approximately 90 million Economic Impact Payments had been disbursed**, thereby ensuring that**more than $242 billion**of much-needed relief will be received by millions of Americans and their families within days of enactment of the American Rescue Plan. Unlike the prior rounds of Economic Impact Payments, the American Rescue Plan requires a 2021 “true-up” additional payment, when applicable, based on information (such as a recently filed 2020 tax return) that the IRS receives mid-year during 2021. This additional Economic Impact Payment will ensure that Americans and their families receive greater amounts of financial assistance during 2021, rather than waiting to claim a Recovery Rebate Credit on a tax return in 2022.
+Through this third round of Economic Impact Payments, the U.S. Department of the Treasury (Treasury Department) and the Internal Revenue Service (IRS) are ensuring that Americans will receive fast and direct relief during the final phase of the COVID-19 crisis. As of yesterday, **approximately 90 million Economic Impact Payments had been disbursed**, thereby ensuring that **more than $242 billion** of much-needed relief will be received by millions of Americans and their families within days of enactment of the American Rescue Plan. Unlike the prior rounds of Economic Impact Payments, the American Rescue Plan requires a 2021 “true-up” additional payment, when applicable, based on information (such as a recently filed 2020 tax return) that the IRS receives mid-year during 2021. This additional Economic Impact Payment will ensure that Americans and their families receive greater amounts of financial assistance during 2021, rather than waiting to claim a Recovery Rebate Credit on a tax return in 2022.
 
 Those eligible will automatically receive an Economic Impact Payment of up to $1,400 for individuals or
 
@@ -26,11 +26,11 @@ The Treasury Department and the IRS continue to expand outreach to the millions 
 
 The American Rescue Plan’s expansion of the Child Tax Credit will substantially reduce child poverty by supplementing the earnings of families receiving the tax credit. Specifically, the Child Tax Credit has been revised in the following ways:
 
-1. **The credit amount has been increased.**The American Rescue Plan increased the amount of the Child Tax Credit from $2,000 to $3,600 for children under age 6, and $3,000 for other children under age 18.
-2. **The credit’s scope has been expanded.**Children 17 years old and younger, as opposed to 16 years old and younger, will now be covered by the Child Tax Credit.
-3. **Credit amounts will be made through advance payments during 2021.**Individuals eligible for a 2021 Child Tax Credit will receive advance payments of the individual’s credit, which the IRS and the Bureau of the Fiscal Service will make through periodic payments from July 1, to December 31, 2021. This change will allow struggling families to receive financial assistance now, rather than waiting until the 2022 tax filing season to receive the Child Tax Credit benefit.
-4. **The credit is now fully refundable.**By making the Child Tax Credit fully refundable, low- income households will be entitled to receive the full credit benefit, as significantly expanded and increased by the American Rescue Plan.
-5. **The credit is now extended to Puerto Rico and the U.S. Territories.**For the first time, low- income families residing in Puerto Rico and the U.S. Territories will receive this vital financial assistance to better support their children’s development and health and educational attainment.
+1. **The credit amount has been increased.** The American Rescue Plan increased the amount of the Child Tax Credit from $2,000 to $3,600 for children under age 6, and $3,000 for other children under age 18.
+2. **The credit’s scope has been expanded.** Children 17 years old and younger, as opposed to 16 years old and younger, will now be covered by the Child Tax Credit.
+3. **Credit amounts will be made through advance payments during 2021.** Individuals eligible for a 2021 Child Tax Credit will receive advance payments of the individual’s credit, which the IRS and the Bureau of the Fiscal Service will make through periodic payments from July 1, to December 31, 2021. This change will allow struggling families to receive financial assistance now, rather than waiting until the 2022 tax filing season to receive the Child Tax Credit benefit.
+4. **The credit is now fully refundable.** By making the Child Tax Credit fully refundable, low- income households will be entitled to receive the full credit benefit, as significantly expanded and increased by the American Rescue Plan.
+5. **The credit is now extended to Puerto Rico and the U.S. Territories.** For the first time, low- income families residing in Puerto Rico and the U.S. Territories will receive this vital financial assistance to better support their children’s development and health and educational attainment.
 
 To facilitate the disbursement of Child Tax Credit advance payments during 2021, the American Rescue Plan requires the IRS to establish an online portal for taxpayers to update relevant data for mid-year payment adjustments (for example, the birth of a child during 2021). In addition to this online tool, the Treasury Department and the IRS will carry out a sweeping public awareness campaign parallel to its Economic Impact Payment campaign to reach all Americans who may be eligible for this financial assistance.
 
@@ -40,7 +40,7 @@ State, local and tribal governments across America have been under an unpreceden
 
 untenable choices, between laying off educators, firefighters and other frontline workers or failing to provide services that communities rely on.
 
-The American Rescue Plan provides**$350 billion dollars**in emergency funding for state, local, territorial, and Tribal governments to remedy this mismatch between rising costs and falling revenues. This includes:
+The American Rescue Plan provides **$350 billion dollars** in emergency funding for state, local, territorial, and Tribal governments to remedy this mismatch between rising costs and falling revenues. This includes:
 
 - $195 billion for states, (a minimum of $500 million for each State);
 - $130 billion for local governments (a minimum of $1.25 billion per state is provided by the statute inclusive of the amounts allocated to local governments within the state);
@@ -53,7 +53,7 @@ The Rescue Plan will provide needed relief to state, local, and Tribal governmen
 
 The COVID-19 crisis starkly illuminated key shortcomings – and inequalities – in U.S. infrastructure. While some communities were able to adapt to the pandemic with remote or socially-distanced options for work, education, and health care, others lacked the infrastructure needed to do so, compounding the disruptions of the pandemic and exacerbating existing inequalities, with long-term consequences for American families. One particularly salient infrastructure challenge has been the digital divide and the absence of foundational conditions that enable network connectivity and access. As more and more areas of work and education move online, this divide risks leaving many American families behind.
 
-Recognizing these challenges, the American Rescue Plan provides**$10 billion**for states, territories, and Tribes to cover the costs of capital projects like broadband infrastructure.
+Recognizing these challenges, the American Rescue Plan provides **$10 billion** for states, territories, and Tribes to cover the costs of capital projects like broadband infrastructure.
 
 The Capital Projects Fund takes critical steps to addressing these challenges laid bare by the pandemic, especially in rural America and low- and moderate-income communities, helping to ensure that all communities have access to the high-quality, modern infrastructure needed to thrive, including internet access.
 
@@ -61,7 +61,7 @@ The Capital Projects Fund takes critical steps to addressing these challenges la
 
 As the economic fallout from the COVID-19 crisis took form, millions of Americans were faced with the pressures of having to decide between making mortgage payments and other essential obligations. This was especially true for the low-income communities and communities of color who bore the brunt of this crisis. Across the country, one in 10 homeowners with a mortgage are behind on payments. The law takes immediate steps to help Americans stay in their homes and keep a roof over their heads.
 
-The American Rescue Plan provides nearly**$10 billion**for states, territories, and Tribes to provide relief for our country’s most vulnerable homeowners. This includes:
+The American Rescue Plan provides nearly **$10 billion** for states, territories, and Tribes to provide relief for our country’s most vulnerable homeowners. This includes:
 
 - A minimum of $50 million for each state, the District of Columbia and Puerto Rico;
 - $30 million for the territories of Guam, American Samoa, the United States Virgin Islands, and the Commonwealth of the Northern Mariana Islands;
@@ -73,7 +73,7 @@ The law prioritizes those homeowners that have experienced the greatest hardship
 
 An underlying consequence of the COVID-19 pandemic is that household stability is not just a financial security issue, but also a health concern. As the country entered the throes of the crisis, many cities and states began creating or expanding rental assistance programs to support at-risk households. The December appropriations bill provided $25 billion of federal relief to be administered by the Emergency Rental Assistance (ERA) program for disbursement to existing state and local government programs. The American Rescue Plan nearly doubles the initial funding to expand the reach and impact of the existing ERA program, taking additional steps to mitigate the financial harm caused by the pandemic and keeping Americans safe as the country addresses the virus.
 
-The American Rescue Plan provides**$21.6 billion**for states, territories, and local governments to assist households that are unable to pay rent and utilities due to the COVID-19 crisis. This includes:
+The American Rescue Plan provides **$21.6 billion** for states, territories, and local governments to assist households that are unable to pay rent and utilities due to the COVID-19 crisis. This includes:
 
 - A minimum of $152 million for each state and the District of Columbia;
 - $305 million for the Commonwealth of Puerto Rico, the United States Virgin Islands, Guam, the Commonwealth of the Northern Mariana Islands, and American Samoa;
@@ -85,7 +85,7 @@ As a result of the American Rescue Plan, states and localities across the countr
 
 It is no secret that the pandemic has disproportionately impacted small businesses across the country, particularly those owned and operated by women and minorities. Every community has had to face the unfortunate reality of local storefronts that are closing or have closed, resulting in friends and family members being furloughed or laid off. Nationally, small business revenue is down 32 percent, and at least 400,000 firms have permanently closed. After a year of the public health crisis, many businesses are hanging on by a thread. Within this law are plans to provide critical assistance to small businesses across the country, facilitating the urgent deployment of capital and support to help these organizations not just persevere, but recover on solid footing.
 
-The American Rescue Plan provides**$10 billion**to state and Tribal governments to fund small business credit expansion initiatives. This program will build off the inaugural model developed in 2011 during the Obama-Biden Administration, in which nearly $1.5 billion in capital supported over $8 billion in new lending and investing activity across 142 different programs in its first 5 years. The new iteration will expand in scale and include:
+The American Rescue Plan provides **$10 billion** to state and Tribal governments to fund small business credit expansion initiatives. This program will build off the inaugural model developed in 2011 during the Obama-Biden Administration, in which nearly $1.5 billion in capital supported over $8 billion in new lending and investing activity across 142 different programs in its first 5 years. The new iteration will expand in scale and include:
 
 - $1.5 billion for states to support businesses owned by socially and economically disadvantaged people;
 - $1 billion for an incentive program to boost funding tranches for states that show robust support for such businesses; and
@@ -99,7 +99,7 @@ In addition to the SSBCI, the American Rescue Plan extends a number of critical 
 
 The American Rescue Plan extends the availability of the Employee Retention Credit for small businesses through December 2021 and allows businesses to offset their current payroll tax liabilities by **up to $7,000 per employee per quarter**. This credit of up to $28,000 per employee for 2021 is available to small businesses who have seen their revenues decline, or even been temporarily shuttered, due to COVID.
 
-The American Rescue Plan also extends through September 2021 the availability of Paid Leave Credits for small and midsize businesses that offer paid leave to employees who may take leave due to illness, quarantine, or caregiving. Businesses can take **dollar-for-dollar tax credits equal to wages of up to $5,000**if they offer paid leave to employees who are sick or quarantining. Paid Leave Credits are a powerful incentive to encourage the offer of paid sick and family leave, which will help keep the virus under control by ensuring sick employees can stay home.
+The American Rescue Plan also extends through September 2021 the availability of Paid Leave Credits for small and midsize businesses that offer paid leave to employees who may take leave due to illness, quarantine, or caregiving. Businesses can take **dollar-for-dollar tax credits equal to wages of up to $5,000** if they offer paid leave to employees who are sick or quarantining. Paid Leave Credits are a powerful incentive to encourage the offer of paid sick and family leave, which will help keep the virus under control by ensuring sick employees can stay home.
 
 ## Unemployment Compensation
 

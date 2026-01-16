@@ -1,9 +1,3 @@
-{{ define "head" }}
-{{- $searchCss := resources.Get "css/search.css" }}
-{{- $searchCss = $searchCss | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $searchCss.RelPermalink }}">
-{{ end }}
-
 {{ define "main" }}
 {{/* All News aggregation page */}}
 <div class="breadcrumbs">
@@ -20,24 +14,19 @@
 
 <div class="news-page-section">
   <div class="container">
-    <div class="news-three-col">
+    <div class="news-two-col">
       {{/* Left Sidebar */}}
       {{ partial "news-sidebar.html" . }}
       
       {{/* Main Content */}}
-      <main class="news-main-content">
+      <main class="news-main-content news-main-full">
         <header class="news-page-header">
           <h1 class="page-title">{{ .Title }}</h1>
           <div class="title-underline"></div>
         </header>
         
-        {{/* Mobile Filter Toggle */}}
-        <button class="mobile-filter-toggle" id="mobile-filter-toggle" aria-expanded="false" aria-controls="mobile-search-panel">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
-          </svg>
-          Filter & Search
-        </button>
+        {{/* Inline Filters */}}
+        {{ partial "news-inline-filters.html" . }}
         
         {{ if .Content }}
         <div class="news-intro">
@@ -53,132 +42,132 @@
         {{/* Paginate all news */}}
         {{ $paginator := .Paginate $allNews 10 }}
         
-        {{/* Results Count */}}
-        <div class="results-summary">
-          <span class="results-count-display">Showing {{ len $paginator.Pages }} of {{ len $allNews }} articles</span>
-        </div>
-        
-        <div class="news-article-list">
-          {{ range $paginator.Pages }}
-          <article class="news-article-item">
-            <div class="article-meta">
-              {{/* Date and time display */}}
-              <time datetime="{{ .Date.Format "2006-01-02T15:04:05-05:00" }}">
-                {{ .Date.Format "January 2, 2006" }} at {{ .Date.Format "3:04 PM" }} EST
-              </time>
-              {{/* Category from section path */}}
-              {{ $section := .CurrentSection.Title }}
-              {{ $sectionPath := path.Base .CurrentSection.RelPermalink }}
-              {{ if and $section (ne $section "News") }}
-              <span class="article-category-divider">|</span>
-              <span class="article-category"><a href="/news/{{ $sectionPath }}/">{{ $section }}</a></span>
-              {{ end }}
-            </div>
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-          </article>
-          {{ end }}
-        </div>
-        
-        {{/* Pagination with page count and jump-to-page */}}
-        {{ if gt $paginator.TotalPages 1 }}
-        <nav class="pagination-wrapper" aria-label="Pagination">
-          {{ $currentPage := $paginator.PageNumber }}
-          {{ $totalPages := $paginator.TotalPages }}
-          {{ $baseURL := "/news/all/" }}
+        {{/* Paginated Content (wrapped for JS toggle) */}}
+        <div id="paginated-content">
+          {{/* Results Count */}}
+          <div class="results-summary">
+            <span class="results-count-display">Showing {{ len $paginator.Pages }} of {{ len $allNews }} articles</span>
+          </div>
           
-          <div class="pagination">
-            {{/* First Button */}}
-            {{ if gt $currentPage 1 }}
-            <a href="{{ $baseURL }}" class="page-nav first" aria-label="First page">« First</a>
-            {{ else }}
-            <span class="page-nav first disabled" aria-disabled="true">« First</span>
+          <div class="news-article-list">
+            {{ range $paginator.Pages }}
+            <article class="news-article-item">
+              <div class="article-meta">
+                {{/* Date and time display */}}
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05-05:00" }}">
+                  {{ .Date.Format "January 2, 2006" }} at {{ .Date.Format "3:04 PM" }} EST
+                </time>
+                {{/* Category from section path */}}
+                {{ $section := .CurrentSection.Title }}
+                {{ $sectionPath := path.Base .CurrentSection.RelPermalink }}
+                {{ if and $section (ne $section "News") }}
+                <span class="article-category-divider">|</span>
+                <span class="article-category"><a href="/news/{{ $sectionPath }}/">{{ $section }}</a></span>
+                {{ end }}
+              </div>
+              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            </article>
             {{ end }}
+          </div>
+          
+          {{/* Pagination with page count and jump-to-page */}}
+          {{ if gt $paginator.TotalPages 1 }}
+          <nav class="pagination-wrapper" aria-label="Pagination">
+            {{ $currentPage := $paginator.PageNumber }}
+            {{ $totalPages := $paginator.TotalPages }}
+            {{ $baseURL := "/news/all/" }}
             
-            {{/* Show 5 page numbers centered around current */}}
-            {{ $startPage := 1 }}
-            {{ $endPage := $totalPages }}
-            
-            {{/* Calculate window of 5 pages */}}
-            {{ if gt $totalPages 5 }}
-              {{ $startPage = sub $currentPage 2 }}
-              {{ if lt $startPage 1 }}
-                {{ $startPage = 1 }}
+            <div class="pagination">
+              {{/* First Button */}}
+              {{ if gt $currentPage 1 }}
+              <a href="{{ $baseURL }}" class="page-nav first" aria-label="First page">« First</a>
+              {{ else }}
+              <span class="page-nav first disabled" aria-disabled="true">« First</span>
               {{ end }}
-              {{ $endPage = add $startPage 4 }}
-              {{ if gt $endPage $totalPages }}
-                {{ $endPage = $totalPages }}
-                {{ $startPage = sub $endPage 4 }}
-              {{ end }}
-            {{ end }}
-            
-            {{/* Left ellipsis */}}
-            {{ if gt $startPage 1 }}
-            <span class="page-ellipsis">...</span>
-            {{ end }}
-            
-            {{/* Page numbers */}}
-            {{ range $paginator.Pagers }}
-              {{ $pageNum := .PageNumber }}
-              {{ if and (ge $pageNum $startPage) (le $pageNum $endPage) }}
-                {{ if eq $pageNum $currentPage }}
-                <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
-                {{ else }}
-                <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
+              
+              {{/* Show 5 page numbers centered around current */}}
+              {{ $startPage := 1 }}
+              {{ $endPage := $totalPages }}
+              
+              {{/* Calculate window of 5 pages */}}
+              {{ if gt $totalPages 5 }}
+                {{ $startPage = sub $currentPage 2 }}
+                {{ if lt $startPage 1 }}
+                  {{ $startPage = 1 }}
+                {{ end }}
+                {{ $endPage = add $startPage 4 }}
+                {{ if gt $endPage $totalPages }}
+                  {{ $endPage = $totalPages }}
+                  {{ $startPage = sub $endPage 4 }}
                 {{ end }}
               {{ end }}
-            {{ end }}
+              
+              {{/* Left ellipsis */}}
+              {{ if gt $startPage 1 }}
+              <span class="page-ellipsis">...</span>
+              {{ end }}
+              
+              {{/* Page numbers */}}
+              {{ range $paginator.Pagers }}
+                {{ $pageNum := .PageNumber }}
+                {{ if and (ge $pageNum $startPage) (le $pageNum $endPage) }}
+                  {{ if eq $pageNum $currentPage }}
+                  <span class="page-number current" aria-current="page">{{ $pageNum }}</span>
+                  {{ else }}
+                  <a href="{{ .URL }}" class="page-number">{{ $pageNum }}</a>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              
+              {{/* Right ellipsis */}}
+              {{ if lt $endPage $totalPages }}
+              <span class="page-ellipsis">...</span>
+              {{ end }}
+              
+              {{/* Last Button */}}
+              {{ if lt $currentPage $totalPages }}
+              <a href="{{ $baseURL }}page/{{ $totalPages }}/" class="page-nav last" aria-label="Last page">Last »</a>
+              {{ else }}
+              <span class="page-nav last disabled" aria-disabled="true">Last »</span>
+              {{ end }}
+            </div>
             
-            {{/* Right ellipsis */}}
-            {{ if lt $endPage $totalPages }}
-            <span class="page-ellipsis">...</span>
-            {{ end }}
-            
-            {{/* Last Button */}}
-            {{ if lt $currentPage $totalPages }}
-            <a href="{{ $baseURL }}page/{{ $totalPages }}/" class="page-nav last" aria-label="Last page">Last »</a>
-            {{ else }}
-            <span class="page-nav last disabled" aria-disabled="true">Last »</span>
-            {{ end }}
-          </div>
+            {{/* Page info and jump-to */}}
+            <div class="pagination-info">
+              <span class="page-count">Page {{ $currentPage }} of {{ $totalPages }}</span>
+              <form class="page-jump" onsubmit="return jumpToPage(this, '{{ $baseURL }}', {{ $totalPages }})">
+                <label for="page-jump-input" class="visually-hidden">Go to page</label>
+                <input type="number" 
+                       id="page-jump-input" 
+                       class="page-jump-input" 
+                       min="1" 
+                       max="{{ $totalPages }}" 
+                       placeholder="Page #"
+                       aria-label="Page number">
+                <button type="submit" class="page-jump-btn">Go</button>
+              </form>
+            </div>
+          </nav>
           
-          {{/* Page info and jump-to */}}
-          <div class="pagination-info">
-            <span class="page-count">Page {{ $currentPage }} of {{ $totalPages }}</span>
-            <form class="page-jump" onsubmit="return jumpToPage(this, '{{ $baseURL }}', {{ $totalPages }})">
-              <label for="page-jump-input" class="visually-hidden">Go to page</label>
-              <input type="number" 
-                     id="page-jump-input" 
-                     class="page-jump-input" 
-                     min="1" 
-                     max="{{ $totalPages }}" 
-                     placeholder="Page #"
-                     aria-label="Page number">
-              <button type="submit" class="page-jump-btn">Go</button>
-            </form>
-          </div>
-        </nav>
-        
-        <script>
-        function jumpToPage(form, baseURL, totalPages) {
-          var input = form.querySelector('input');
-          var page = parseInt(input.value, 10);
-          if (page >= 1 && page <= totalPages) {
-            if (page === 1) {
-              window.location.href = baseURL;
+          <script>
+          function jumpToPage(form, baseURL, totalPages) {
+            var input = form.querySelector('input');
+            var page = parseInt(input.value, 10);
+            if (page >= 1 && page <= totalPages) {
+              if (page === 1) {
+                window.location.href = baseURL;
+              } else {
+                window.location.href = baseURL + 'page/' + page + '/';
+              }
             } else {
-              window.location.href = baseURL + 'page/' + page + '/';
+              alert('Please enter a page number between 1 and ' + totalPages);
             }
-          } else {
-            alert('Please enter a page number between 1 and ' + totalPages);
+            return false;
           }
-          return false;
-        }
-        </script>
-        {{ end }}
+          </script>
+          {{ end }}
+        </div>
       </main>
-      
-      {{/* Right Sidebar - Keyword Search */}}
-      {{ partial "news-search-sidebar.html" . }}
     </div>
   </div>
 </div>

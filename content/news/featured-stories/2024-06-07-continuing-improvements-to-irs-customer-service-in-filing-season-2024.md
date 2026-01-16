@@ -12,21 +12,21 @@ This year, in Filing Season 2024, these improvements have continued, and the IRS
 
 ## Phone Services
 
-The IRS answered more taxpayer calls on its main live assistor lines this year, a**17.3%**increase from 2023. IRS assistors handled 9 million calls, up from 7.7 million the year before. IRS automated lines handled another approximately 8.9 million calls, 500,000 more than the previous year. Additionally, taxpayers received faster response times. Taxpayers waited, on average, just over three minutes for help on the IRS main phone lines. This wait time is consistent with three minutes delivered during in filing season 2023 and less than the average of 28 minutes delivered during filing season 2022.
+The IRS answered more taxpayer calls on its main live assistor lines this year, a **17.3%** increase from 2023. IRS assistors handled 9 million calls, up from 7.7 million the year before. IRS automated lines handled another approximately 8.9 million calls, 500,000 more than the previous year. Additionally, taxpayers received faster response times. Taxpayers waited, on average, just over three minutes for help on the IRS main phone lines. This wait time is consistent with three minutes delivered during in filing season 2023 and less than the average of 28 minutes delivered during filing season 2022.
 
 *Source: IRS Data Book 2019-2023. IRS estimates for 2024*
 
-Funding provided by the Inflation Reduction Act made possible over 5,000 new hires, which helped drive down call wait time. The IRS also expanded the Customer Callback capabilities that allow eligible taxpayers to hang up if the projected wait time was longer than 15 minutes and receive a call-back after from an available assistor. This is estimated to have collectively saved taxpayers over**1.5 million hours**of hold time.
+Funding provided by the Inflation Reduction Act made possible over 5,000 new hires, which helped drive down call wait time. The IRS also expanded the Customer Callback capabilities that allow eligible taxpayers to hang up if the projected wait time was longer than 15 minutes and receive a call-back after from an available assistor. This is estimated to have collectively saved taxpayers over **1.5 million hours** of hold time.
 
 ## Digital Services
 
-Filing Season 2024 is also seeing many of the IRS’s new investments in online tools, made possible by IRA resources, lead to better service in the form of increased web traffic and usage by taxpayers. Across all web services, the IRS has seen a**41%**increase in usage rate so far for Filing Season 2024.
+Filing Season 2024 is also seeing many of the IRS’s new investments in online tools, made possible by IRA resources, lead to better service in the form of increased web traffic and usage by taxpayers. Across all web services, the IRS has seen a **41%** increase in usage rate so far for Filing Season 2024.
 
 Examples of these usage increases include:
 
-- **17%**increase in visits to IRS.gov where taxpayers can find helpful information, tax forms, and much more.
-- **30%**increase in use of “Where’s My Refund?” tool for taxpayers to check their refund status.
-- **25%**increase in the use of IRS Online account where individual taxpayers can view specific details about their federal tax account.
+- **17%** increase in visits to IRS.gov where taxpayers can find helpful information, tax forms, and much more.
+- **30%** increase in use of “Where’s My Refund?” tool for taxpayers to check their refund status.
+- **25%** increase in the use of IRS Online account where individual taxpayers can view specific details about their federal tax account.
 
 The increases in usage by taxpayers speaks to the attention and resources the IRS has devoted to making the online experience more accessible, customer-friendly, and reliable.
 
@@ -48,7 +48,7 @@ In addition to expanding sites and staff, the IRS extended its hours of operatio
 
 In approximately 242 TAC locations extended hours were provided during Filing Season 2024, with nearly 13,000 extra service hours provided to taxpayers.
 
-These enhancements together resulted in 784,000 face-to-face contacts with an IRS employee during Filing Season 2024. That’s a year-on-year increase of**37.1%**, and IRS served**22,361**of those taxpayers during extended hours.
+These enhancements together resulted in 784,000 face-to-face contacts with an IRS employee during Filing Season 2024. That’s a year-on-year increase of **37.1%**, and IRS served **22,361** of those taxpayers during extended hours.
 
 ## Volunteer Prepared Returns
 
@@ -62,7 +62,7 @@ VITA sites offer free tax help to people who need assistance in preparing their 
 
 Similarly, the TCE program offers free tax help for those who are 60 years of age and older, specializing in questions about pensions and retirement-related issues unique to seniors.
 
-While the IRS manages the VITA and TCE programs, the VITA/TCE sites are operated by IRS partners and staffed by over 72,000 volunteers at over 9,000 different locations. Throughout Filing Season 2024, these programs and their volunteers helped to prepare over 2.7 million tax returns, **up 300,000**from last year.
+While the IRS manages the VITA and TCE programs, the VITA/TCE sites are operated by IRS partners and staffed by over 72,000 volunteers at over 9,000 different locations. Throughout Filing Season 2024, these programs and their volunteers helped to prepare over 2.7 million tax returns, **up 300,000** from last year.
 
 [You can find more information about the impact of the IRA, including its impact on IRS modernization here](https://home.treasury.gov/policy-issues/inflation-reduction-act/impact-and-stories).
 

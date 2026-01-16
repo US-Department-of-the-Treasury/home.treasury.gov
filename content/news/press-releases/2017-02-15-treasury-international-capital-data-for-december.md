@@ -72,7 +72,7 @@ Gross Sales of Domestic U.S. Securities
 3
  
  
-**Domestic Securities Purchased, net** (line 1 less line 2) /1**249.3 155.6 155.6 68.4 -46.6 -12.0 17.0 -13.9**
+**Domestic Securities Purchased, net** (line 1 less line 2) /1 **249.3 155.6 155.6 68.4 -46.6 -12.0 17.0 -13.9**
 
 4
  
@@ -211,7 +211,7 @@ Gross Sales of Foreign Securities to U.S. Residents
 16
  
  
-**Foreign Securities Purchased, net** (line 14 less line 15) /4**25.9 161.9 161.9 187.1 20.4 15.4 17.5 1.1**
+**Foreign Securities Purchased, net** (line 14 less line 15) /4 **25.9 161.9 161.9 187.1 20.4 15.4 17.5 1.1**
 
 17
 
@@ -240,7 +240,7 @@ Foreign Equities Purchased, net
 19
  
  
-**Net Long-term Securities Transactions**(line 3 plus line 16):**275.3 317.5 317.5 255.5 -26.2 3.3 34.4 -12.9**
+**Net Long-term Securities Transactions** (line 3 plus line 16): **275.3 317.5 317.5 255.5 -26.2 3.3 34.4 -12.9**
 
 20
  
@@ -251,7 +251,7 @@ Foreign Equities Purchased, net
  
 **Net Foreign Acquisition of Long-term Securities**
 
-(lines 19 and 20)**: 196.1 40.0 40.0 -16.9 -62.7 -18.6 15.9 -29.4**
+(lines 19 and 20) **: 196.1 40.0 40.0 -16.9 -62.7 -18.6 15.9 -29.4**
 
 22
  
@@ -328,7 +328,7 @@ Official, net
 **Change in Banks' Own Net Dollar-denominated Liabilities 73.2 -177.1 -177.1 -60.9 -122.0 53.4 12.6 -46.8**
 
 30
-**Monthly Net TIC Flows** (lines 21,22,29) /8**276.5 -66.1 -66.1 -42.6 -155.8 14.6 30.2 -42.8 of which**
+**Monthly Net TIC Flows** (lines 21,22,29) /8 **276.5 -66.1 -66.1 -42.6 -155.8 14.6 30.2 -42.8 of which**
 
 31
  
