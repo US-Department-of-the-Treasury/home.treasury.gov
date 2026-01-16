@@ -29,3 +29,9 @@ Started: 2026-01-15
 - Files changed: terraform/main.tf
 - Learnings: CloudFront provides hosted_zone_id attribute that resolves to Z2FDTNDATAQYW2
 - Next: Update Terraform outputs for custom domain
+
+## Iteration 5 - Update Terraform outputs for custom domain
+- Completed: Added custom_domain and certificate_arn outputs, updated site_url to use custom domain
+- Files changed: terraform/outputs.tf
+- Learnings: Conditional outputs work well for optional features
+- Next: Apply Terraform infrastructure changes
