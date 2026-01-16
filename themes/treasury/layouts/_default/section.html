@@ -1,0 +1,80 @@
+{{ define "main" }}
+<!-- Section Hero -->
+<section class="section-hero" aria-labelledby="section-heading">
+  <div class="container">
+    <h1 id="section-heading">{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="lead">{{ . }}</p>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Section Layout with Sidebar -->
+<div class="container">
+  <div class="section-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="section-sidebar" aria-label="Section navigation">
+      <nav class="section-nav">
+        <h3>In This Section</h3>
+        <ul>
+          {{ range .Sections }}
+          <li>
+            <a href="{{ .Permalink }}"{{ if eq $.Page.RelPermalink .RelPermalink }} class="active" aria-current="page"{{ end }}>
+              {{ .Title }}
+            </a>
+          </li>
+          {{ end }}
+          {{ range .RegularPages }}
+          <li>
+            <a href="{{ .Permalink }}"{{ if eq $.Page.RelPermalink .RelPermalink }} class="active" aria-current="page"{{ end }}>
+              {{ .Title }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="section-content">
+      {{ with .Content }}
+      <div class="prose" style="margin-bottom: 2rem;">
+        {{ . }}
+      </div>
+      {{ end }}
+
+      {{ if or .Sections .RegularPages }}
+      <div class="content-cards">
+        {{/* Display subsections first */}}
+        {{ range .Sections }}
+        <a href="{{ .Permalink }}" class="content-card">
+          <h3>{{ .Title }}</h3>
+          {{ with .Description }}
+          <p>{{ . | truncate 120 }}</p>
+          {{ else }}
+          {{ with .Summary }}
+          <p>{{ . | plainify | truncate 120 }}</p>
+          {{ end }}
+          {{ end }}
+        </a>
+        {{ end }}
+
+        {{/* Then display regular pages */}}
+        {{ range .RegularPages }}
+        <a href="{{ .Permalink }}" class="content-card">
+          <h3>{{ .Title }}</h3>
+          {{ with .Description }}
+          <p>{{ . | truncate 120 }}</p>
+          {{ else }}
+          {{ with .Summary }}
+          <p>{{ . | plainify | truncate 120 }}</p>
+          {{ end }}
+          {{ end }}
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

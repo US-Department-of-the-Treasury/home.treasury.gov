@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="content-page">
+  <div class="container">
+    <div class="content-page-layout">
+      <!-- Sidebar Navigation -->
+      <aside class="section-sidebar" aria-label="Section navigation">
+        <nav class="section-nav">
+          <h3>{{ with .Parent }}{{ .Title }}{{ else }}Navigation{{ end }}</h3>
+          <ul>
+            {{ $parent := .Parent }}
+            {{ if $parent }}
+              {{/* Link to parent section */}}
+              <li>
+                <a href="{{ $parent.Permalink }}">
+                  ← Back to {{ $parent.Title }}
+                </a>
+              </li>
+              {{/* Sibling pages */}}
+              {{ range $parent.Pages }}
+              <li>
+                <a href="{{ .Permalink }}"{{ if eq $.Page.RelPermalink .RelPermalink }} class="active" aria-current="page"{{ end }}>
+                  {{ .Title }}
+                </a>
+              </li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <article class="content-page-main">
+        {{- partial "breadcrumbs.html" . }}
+        
+        <h1>{{ .Title }}</h1>
+        
+        {{ with .Params.last_updated }}
+        <p class="content-meta">
+          <time datetime="{{ . }}">Last updated: {{ time.Format "January 2, 2006" . }}</time>
+        </p>
+        {{ end }}
+
+        <div class="prose">
+          {{ .Content }}
+        </div>
+
+        {{/* Related Links */}}
+        {{ with .Params.related_links }}
+        <div class="related-links">
+          <h4>Related Links</h4>
+          <ul>
+            {{ range . }}
+            <li><a href="{{ .url }}">{{ .title }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{/* Tags */}}
+        {{ with .Params.tags }}
+        <div class="related-links">
+          <h4>Topics</h4>
+          <ul>
+            {{ range . }}
+            <li><a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

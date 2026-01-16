@@ -1,8 +1,159 @@
 {{ define "main" }}
-{{/* Homepage redirects to live Treasury site - our homepage clone is not ready yet */}}
-<script>window.location.replace("https://home.treasury.gov/");</script>
-<noscript><meta http-equiv="refresh" content="0; url=https://home.treasury.gov/"></noscript>
-<div class="container" style="padding: 4rem 0; text-align: center;">
-  <p>Redirecting to <a href="https://home.treasury.gov/">home.treasury.gov</a>...</p>
-</div>
+<!-- Hero Section -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <h1 id="hero-heading" class="hero-title">U.S. Department of the Treasury</h1>
+      <p class="hero-description">Maintain a strong economy by promoting conditions that enable economic growth at home and abroad, strengthen national security, and manage the U.S. Government's finances and resources.</p>
+      <div class="hero-actions">
+        <a href="/news/press-releases/" class="btn btn-primary">Latest News</a>
+        <a href="/about/general-information/role-of-the-treasury" class="btn btn-secondary">About Treasury</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="{{ "images/treasury-building.jpg" | relURL }}" alt="U.S. Treasury Building in Washington, D.C.">
+    </div>
+  </div>
+</section>
+
+<!-- Quick Links Section -->
+<section class="quick-links" aria-labelledby="quick-links-heading">
+  <div class="container">
+    <h2 id="quick-links-heading" class="sr-only">Quick Links</h2>
+    <div class="quick-links-grid">
+      <a href="/services/taxes/" class="quick-link-card">
+        <div class="quick-link-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>
+        </div>
+        <span class="quick-link-title">Taxes & IRS</span>
+      </a>
+      <a href="https://www.treasurydirect.gov/" class="quick-link-card">
+        <div class="quick-link-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M12 12h.01"/></svg>
+        </div>
+        <span class="quick-link-title">Savings Bonds</span>
+      </a>
+      <a href="/services/currency-and-coins/" class="quick-link-card">
+        <div class="quick-link-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v12M8 10h8M8 14h8"/></svg>
+        </div>
+        <span class="quick-link-title">Currency & Coins</span>
+      </a>
+      <a href="/about/careers-at-treasury/" class="quick-link-card">
+        <div class="quick-link-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        </div>
+        <span class="quick-link-title">Careers</span>
+      </a>
+      <a href="/data/" class="quick-link-card">
+        <div class="quick-link-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg>
+        </div>
+        <span class="quick-link-title">Data & Charts</span>
+      </a>
+      <a href="/services/report-fraud-waste-and-abuse/" class="quick-link-card">
+        <div class="quick-link-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <span class="quick-link-title">Report Fraud</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Featured News Section -->
+<section class="featured-news" aria-labelledby="featured-news-heading">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="featured-news-heading">Latest News</h2>
+      <a href="/news/press-releases/" class="view-all-link">View All News →</a>
+    </div>
+    
+    <div class="news-grid">
+      {{/* Get latest press releases */}}
+      {{ $pressReleases := where site.RegularPages "Section" "news" }}
+      {{ $pressReleases = $pressReleases | first 6 }}
+      
+      {{ range $index, $page := $pressReleases }}
+      <article class="news-card{{ if eq $index 0 }} news-card-featured{{ end }}">
+        <div class="news-card-content">
+          {{ with .Params.date }}
+          <time datetime="{{ . }}" class="news-card-date">{{ time.Format "January 2, 2006" . }}</time>
+          {{ end }}
+          <h3 class="news-card-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h3>
+          {{ if eq $index 0 }}
+          <p class="news-card-excerpt">{{ .Summary | plainify | truncate 200 }}</p>
+          {{ end }}
+          {{ with .Params.offices }}
+          <span class="news-card-tag">{{ index . 0 }}</span>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Policy Highlights Section -->
+<section class="policy-highlights" aria-labelledby="policy-heading">
+  <div class="container">
+    <h2 id="policy-heading">Policy Areas</h2>
+    <div class="policy-grid">
+      <a href="/policy-issues/tax-policy/" class="policy-card">
+        <h3>Tax Policy</h3>
+        <p>Developing and implementing tax policies that grow the economy and create jobs.</p>
+      </a>
+      <a href="/policy-issues/international/" class="policy-card">
+        <h3>International Affairs</h3>
+        <p>Protecting the U.S. economy and promoting global economic stability and development.</p>
+      </a>
+      <a href="/policy-issues/terrorism-and-illicit-finance/" class="policy-card">
+        <h3>Financial Intelligence</h3>
+        <p>Combating terrorism financing, money laundering, and other financial crimes.</p>
+      </a>
+      <a href="/policy-issues/financing-the-government/" class="policy-card">
+        <h3>Financing the Government</h3>
+        <p>Managing federal finances and the public debt to ensure fiscal responsibility.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Bureaus Section -->
+<section class="bureaus-section" aria-labelledby="bureaus-heading">
+  <div class="container">
+    <h2 id="bureaus-heading">Treasury Bureaus</h2>
+    <div class="bureaus-grid">
+      <a href="https://www.irs.gov/" class="bureau-card" rel="noopener">
+        <img src="{{ "images/bureaus/irs-logo.svg" | relURL }}" alt="" class="bureau-logo">
+        <span>Internal Revenue Service</span>
+      </a>
+      <a href="https://www.fiscal.treasury.gov/" class="bureau-card" rel="noopener">
+        <img src="{{ "images/bureaus/fiscal-logo.svg" | relURL }}" alt="" class="bureau-logo">
+        <span>Bureau of the Fiscal Service</span>
+      </a>
+      <a href="https://www.usmint.gov/" class="bureau-card" rel="noopener">
+        <img src="{{ "images/bureaus/mint-logo.svg" | relURL }}" alt="" class="bureau-logo">
+        <span>U.S. Mint</span>
+      </a>
+      <a href="https://www.bep.gov/" class="bureau-card" rel="noopener">
+        <img src="{{ "images/bureaus/bep-logo.svg" | relURL }}" alt="" class="bureau-logo">
+        <span>Bureau of Engraving & Printing</span>
+      </a>
+      <a href="https://www.fincen.gov/" class="bureau-card" rel="noopener">
+        <img src="{{ "images/bureaus/fincen-logo.svg" | relURL }}" alt="" class="bureau-logo">
+        <span>FinCEN</span>
+      </a>
+      <a href="https://www.occ.gov/" class="bureau-card" rel="noopener">
+        <img src="{{ "images/bureaus/occ-logo.svg" | relURL }}" alt="" class="bureau-logo">
+        <span>Office of the Comptroller</span>
+      </a>
+    </div>
+    <div class="bureaus-cta">
+      <a href="/about/bureaus/" class="btn btn-outline">View All Bureaus</a>
+    </div>
+  </div>
+</section>
 {{ end }}
