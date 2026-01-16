@@ -328,11 +328,14 @@
 </style>
 
 <script>
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('[InlineFilters] Initializing...');
+  
   // Get current section from URL
   const currentPath = window.location.pathname;
   const sectionMatch = currentPath.match(/\/news\/([^\/]+)/);
   const currentSection = sectionMatch ? sectionMatch[1] : 'all';
+  console.log('[InlineFilters] Current section:', currentSection);
   
   // State
   let searchIndex = null;
@@ -358,6 +361,12 @@
   const resultsListEl = document.getElementById('inline-results-list');
   const resultsCountEl = document.getElementById('inline-results-count');
   const resultsPaginationEl = document.getElementById('inline-results-pagination');
+  
+  console.log('[InlineFilters] DOM elements:', {
+    paginatedContentEl: !!paginatedContentEl,
+    filteredResultsEl: !!filteredResultsEl,
+    applyBtn: !!applyBtn
+  });
   
   // Load search index
   async function loadSearchIndex() {
@@ -596,26 +605,32 @@
   
   // Apply filters
   async function applyFilters() {
+    console.log('[InlineFilters] applyFilters called with:', activeFilters);
     const hasFilters = activeFilters.datePreset || activeFilters.dateFrom || activeFilters.dateTo || activeFilters.keyword;
     
     if (!hasFilters) {
+      console.log('[InlineFilters] No filters, resetting to paginated view');
       // Reset to paginated view
-      filteredResultsEl.style.display = 'none';
-      paginatedContentEl.style.display = 'block';
-      activeFiltersEl.style.display = 'none';
+      if (filteredResultsEl) filteredResultsEl.style.display = 'none';
+      if (paginatedContentEl) paginatedContentEl.style.display = 'block';
+      if (activeFiltersEl) activeFiltersEl.style.display = 'none';
       return;
     }
     
     // Load and filter
+    console.log('[InlineFilters] Loading search index...');
     const index = await loadSearchIndex();
+    console.log('[InlineFilters] Search index loaded, total items:', index.length);
+    
     const filtered = filterResults(index);
+    console.log('[InlineFilters] Filtered results:', filtered.length);
     
     // Sort by date descending
     filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
     
     // Show filtered results
-    paginatedContentEl.style.display = 'none';
-    filteredResultsEl.style.display = 'block';
+    if (paginatedContentEl) paginatedContentEl.style.display = 'none';
+    if (filteredResultsEl) filteredResultsEl.style.display = 'block';
     
     renderResults(filtered);
     updateActiveFiltersDisplay();
@@ -674,10 +689,15 @@
     }
   });
   
-  applyBtn.addEventListener('click', () => {
-    activeFilters.keyword = keywordInput.value.trim();
-    applyFilters();
-  });
+  if (applyBtn) {
+    applyBtn.addEventListener('click', () => {
+      console.log('[InlineFilters] Apply button clicked, keyword:', keywordInput.value);
+      activeFilters.keyword = keywordInput.value.trim();
+      applyFilters();
+    });
+  } else {
+    console.error('[InlineFilters] Apply button not found!');
+  }
   
   // Clear all
   if (clearBtn) {
@@ -699,10 +719,12 @@
       dateFromInput.value = '';
       dateToInput.value = '';
       keywordInput.value = '';
-      filteredResultsEl.style.display = 'none';
-      paginatedContentEl.style.display = 'block';
-      activeFiltersEl.style.display = 'none';
+      if (filteredResultsEl) filteredResultsEl.style.display = 'none';
+      if (paginatedContentEl) paginatedContentEl.style.display = 'block';
+      if (activeFiltersEl) activeFiltersEl.style.display = 'none';
     });
   }
-})();
+  
+  console.log('[InlineFilters] Initialization complete');
+});
 </script>
