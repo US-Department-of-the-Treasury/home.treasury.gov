@@ -11,3 +11,9 @@ Started: 2026-01-15
 - Files changed: terraform/variables.tf, terraform/main.tf
 - Learnings: Used conditional count on data source for optional custom domain support
 - Next: Create ACM certificate with DNS validation
+
+## Iteration 2 - Create ACM certificate with DNS validation
+- Completed: Added ACM certificate in us-east-1, Route53 validation records, and validation waiter
+- Files changed: terraform/main.tf
+- Learnings: Used for_each with conditional for DNS validation records to handle dynamic validation options
+- Next: Update CloudFront distribution with custom domain and certificate

@@ -34,7 +34,7 @@
         "terraform validate succeeds"
       ],
       "priority": "high",
-      "passes": false
+      "passes": true
     },
     {
       "id": "update-cloudfront-domain",
