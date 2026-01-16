@@ -29,7 +29,7 @@ Sources: IMF and Treasury staff calculations. Pre-escalation Russian trajectory 
 
 The United States and partners’ imposition of financial sanctions, export controls, the EU crude oil embargo, and the Price Cap on Russian oil[iii]have combined to make it more difficult for Russia’s war industry to source key high-tech components and other needed intermediate inputs.  The decline in Russia’s 2022 growth was driven by a 14 percent contraction in exports and 11 percent decline in imports over 2021, among other factors (Figure 2). As a result, Russia has pursued a costly realignment of its supply chains to import lower-quality substitutes from third countries.  Russia has also struggled to access key inputs needed for its war due to U.S. and partners’ sanctions and export controls that limit its access to key technologies.  Russia cannot yet domestically manufacture these advanced weapons – the United States and its partners are taking actions to help ensure that it never does.  Russia is now more isolated, relying on individuals and entities willing to resupply its military and perpetuate its heinous war against Ukraine.  The United States imposed sanctions last month to hold these actors accountable, in measures that will further constrain Russia’s ability to acquire technology and equipment to wage its war.[iv]
 
-**Figure 2: Real Russian Trade Flows – Y/y % change**Source: Russian Central Bank and Treasury staff calculations. Three-month rolling average of monthly Imports and Exports of Goods and Services, valued in USD and adjusted for inflation.
+**Figure 2: Real Russian Trade Flows – Y/y % change** Source: Russian Central Bank and Treasury staff calculations. Three-month rolling average of monthly Imports and Exports of Goods and Services, valued in USD and adjusted for inflation.
 
 ### Emigration: Russia’s People Are Voting with Their Feet
 
@@ -47,7 +47,7 @@ Note: 2023 estimates include a lower bound (orange bar), based on average monthl
 
 The Russian economy has also experienced volatility in its exchange rate, with the ruble falling then rising then falling again, now down roughly 20 percent against the dollar from early February 2022 to December 2023 (Figure 4). This depreciation, while not a measure of the efficacy of sanctions, does impact Russia’s fiscal balance and has made Russia’s imports more expensive, which – alongside other restrictions imposed by the United States and its partners — make Russia’s ability to acquire war materials more difficult.
 
-**Figure 4. Value of Ruble - Ruble per USD**Sources: Russian Central Bank and Treasury staff calculations
+**Figure 4. Value of Ruble - Ruble per USD** Sources: Russian Central Bank and Treasury staff calculations
 
 ## FISCAL OUTLOOK: DIMINISHING ROOM TO SPEND
 

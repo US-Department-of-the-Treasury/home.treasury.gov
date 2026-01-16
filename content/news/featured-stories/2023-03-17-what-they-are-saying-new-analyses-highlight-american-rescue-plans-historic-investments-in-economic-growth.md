@@ -58,7 +58,7 @@ In addition, here is a[link to a blog on NLC’s website](https://www.nlc.org/ar
 
 “[Arkansas Uses Capital Projects Fund to Connect Rural Areas](https://www.benton.org/blog/arkansas-uses-capital-projects-fund-connect-rural-areas)looks at how 35,000 more[Arkansas](https://www.whitehouse.gov/wp-content/uploads/2023/03/ARP-State-by-State_Arkansas.pdf)homes and businesses will receive affordable, high-speed internet…”
 
-**Economic Policy Institute **:** Two years later, American Rescue Plan funds are still a transformative resource: State and local governments—particularly in the South—should invest unspent funds in workers, families, and communities**
+**Economic Policy Institute**:**Two years later, American Rescue Plan funds are still a transformative resource: State and local governments—particularly in the South—should invest unspent funds in workers, families, and communities**
 
 “During ARPA’s second year, many governments used SLFRF dollars to tackle deep inequities in their communities, not just to deal with the immediate challenges of the pandemic but to make transformative investments whose benefits will last long into the future.
 

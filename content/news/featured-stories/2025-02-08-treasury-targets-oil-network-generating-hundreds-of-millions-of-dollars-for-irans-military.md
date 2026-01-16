@@ -18,7 +18,7 @@ OFAC designated Sepehr Energy pursuant to E.O. 13224, as amended, on[November 29
 
 Sepehr Energy and its affiliate companies, which operate under the umbrella of the AFGS, use deceitful evasion methods such as falsification of maritime documents to obfuscate the Iranian origin of the oil that it trades and transports to overseas buyers, including the PRC. This revenue stream generates billions of dollars for the AFGS each year, which is used to fund Iran’s military and proxies and their destabilizing activities around the world.
 
-The Comoros-flagged and sanctioned oil tanker ANTHEA (IMO: 9281683), currently known as the **SIRI**, is operating off the coast of Singapore laden with millions of barrels of Iranian crude oil in the interest of Sepehr Energy and the AFGS. The SIRI is obfuscating its identity by operating as the NEW PRIME. Iranian national **Arash Lavian**(Lavian) serves as the SIRI’s master and has taken steps to falsify shipping documents and physically hide the true name of the SIRI to conceal that the vessel is sanctioned.
+The Comoros-flagged and sanctioned oil tanker ANTHEA (IMO: 9281683), currently known as the **SIRI**, is operating off the coast of Singapore laden with millions of barrels of Iranian crude oil in the interest of Sepehr Energy and the AFGS. The SIRI is obfuscating its identity by operating as the NEW PRIME. Iranian national **Arash Lavian** (Lavian) serves as the SIRI’s master and has taken steps to falsify shipping documents and physically hide the true name of the SIRI to conceal that the vessel is sanctioned.
 
 Arash Lavian is being designated pursuant to E.O. 13224, as amended, for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, Sepehr Energy. OFAC is also updating the Specially Designated Nationals and Blocked Persons List (SDN List) to reflect that the ANTHEA now operates as the SIRI.
 
@@ -38,7 +38,7 @@ Miletus Line Ltd, Gozoso Group Ltd, Ocean Dolphin Ship Management Ltd, and Umbra
 
 ## AFGS OVERSIGHT OF SEPEHR ENERGY AND ITS AFFILIATES
 
-The AFGS continues to directly oversee the operations of Sepehr Energy. AFGS Brigadier General **Jamshid Eshaghi**(Eshaghi) serves as the AFGS Office of Budget and Financial Affairs Chief and previously served as an official of Sepehr Energy. Eshaghi previously coordinated with the Islamic Revolutionary Guard Corps (IRGC) on the sale of Iranian crude oil to the PRC.
+The AFGS continues to directly oversee the operations of Sepehr Energy. AFGS Brigadier General **Jamshid Eshaghi** (Eshaghi) serves as the AFGS Office of Budget and Financial Affairs Chief and previously served as an official of Sepehr Energy. Eshaghi previously coordinated with the Islamic Revolutionary Guard Corps (IRGC) on the sale of Iranian crude oil to the PRC.
 
 Sepehr Energy is the parent company of several Iran-based companies operating in the Iranian oil sector: **Sepehr Energy Hamta Pars**, **Sepehr Energy Jahan Nama Taban**, and **Sepehr Energy Paya Gostar Jahan**, which share many of the same company officials. Like Sepehr Energy, these companies facilitate Iranian oil shipments on behalf of the AFGS. For example, in January 2025, Sepehr Energy Jahan Nama Taban arranged the shipment of nearly two million barrels of oil to the PRC via the OXIS. **Farshad Ghazi** serves as the managing director of Sepehr Energy Hamta Pars. **Farbod Mohseni Ahari** serves as the chairman of Sepehr Energy Paya Gostar Jahan. **Mohammad Ali Riazi Kolahdozmahaleh** has served as the chairman of the board of directors for multiple Sepehr Energy companies.
 
@@ -46,7 +46,7 @@ Sepehr Energy Hamta Pars, Sepehr Energy Jahan Nama Taban, and Sepehr Energy Paya
 
 ## ADDITIONAL SHADOW FLEET DESIGNATIONS
 
-The Panama-flagged **CH BILLION**(IMO: 9276585) and the Hong Kong-flagged **STAR FOREST**(IMO: 9237632) are being identified as blocked property for their role in transporting Iranian oil to the PRC. As recently as January 2025, these vessels onboarded Iranian crude oil from storage in the PRC, part of a scheme involving Iran’s military, which stands to profit from the sale of the oil on these vessels.
+The Panama-flagged **CH BILLION** (IMO: 9276585) and the Hong Kong-flagged **STAR FOREST** (IMO: 9237632) are being identified as blocked property for their role in transporting Iranian oil to the PRC. As recently as January 2025, these vessels onboarded Iranian crude oil from storage in the PRC, part of a scheme involving Iran’s military, which stands to profit from the sale of the oil on these vessels.
 
 CH BILLION and STAR FOREST have a history of transporting Iranian oil. In August 2024, the CH BILLION conducted a ship-to-ship transfer with the National Iranian tanker Company (NITC) tanker HEDY (IMO: 9212888) and received more than 600,000 barrels of Iranian crude oil. Over the past few years, the STAR FOREST has shipped over 100 million dollars’ worth of oil on behalf of the IRGC to the PRC.
 
