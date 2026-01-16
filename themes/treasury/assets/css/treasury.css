@@ -3304,6 +3304,16 @@ button.nav-link {
   object-fit: contain;
 }
 
+.bureau-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--treasury-navy);
+}
+
 .bureau-card span {
   font-size: 0.875rem;
   font-weight: 600;
