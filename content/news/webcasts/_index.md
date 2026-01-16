@@ -26,12 +26,12 @@ type: "news"
 
 ### Archive
 
-- [2024 Webcasts](https://home.treasury.gov/news/webcasts/2024)
-- [2023 Webcasts](https://home.treasury.gov/news/webcasts/2023)
-- [2022 Webcasts](https://home.treasury.gov/news/webcasts/2022)
-- [2021 Webcasts](https://home.treasury.gov/news/webcasts/2021)
-- [2020 Webcasts](https://home.treasury.gov/news/webcasts/2020)
-- [2019 Webcasts](https://home.treasury.gov/news/webcasts/2019)
-- [2018 Webcasts](https://home.treasury.gov/news/webcasts/2018)
-- [2017 Webcasts](https://home.treasury.gov/news/webcasts/2017)
-- [2016 Webcasts](https://home.treasury.gov/news/webcasts/2016)
+- [2024 Webcasts](/news/webcasts/2024)
+- [2023 Webcasts](/news/webcasts/2023)
+- [2022 Webcasts](/news/webcasts/2022)
+- [2021 Webcasts](/news/webcasts/2021)
+- [2020 Webcasts](/news/webcasts/2020)
+- [2019 Webcasts](/news/webcasts/2019)
+- [2018 Webcasts](/news/webcasts/2018)
+- [2017 Webcasts](/news/webcasts/2017)
+- [2016 Webcasts](/news/webcasts/2016)

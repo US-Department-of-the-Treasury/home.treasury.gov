@@ -70,10 +70,28 @@
     </div>
     
     <div class="news-grid">
-      {{/* Get latest press releases */}}
-      {{ $pressReleases := where site.RegularPages "Section" "news" }}
-      {{ $pressReleases = $pressReleases | first 6 }}
+      {{/* Get latest press releases - filter by URL path */}}
+      {{ $pressReleases := slice }}
+      {{ range site.RegularPages.ByDate.Reverse }}
+        {{ if strings.Contains .RelPermalink "/news/press-releases/" }}
+          {{ if lt (len $pressReleases) 6 }}
+            {{ $pressReleases = $pressReleases | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
       
+      {{ if eq (len $pressReleases) 0 }}
+      {{/* Fallback: show placeholder if no press releases available */}}
+      <article class="news-card news-card-featured">
+        <div class="news-card-content">
+          <time class="news-card-date">Latest</time>
+          <h3 class="news-card-title">
+            <a href="/news/press-releases/">View Latest Press Releases</a>
+          </h3>
+          <p class="news-card-excerpt">Visit our press releases page to see the latest news from the Department of the Treasury.</p>
+        </div>
+      </article>
+      {{ else }}
       {{ range $index, $page := $pressReleases }}
       <article class="news-card{{ if eq $index 0 }} news-card-featured{{ end }}">
         <div class="news-card-content">
@@ -92,6 +110,28 @@
         </div>
       </article>
       {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Secretary Spotlight Section -->
+<section class="secretary-spotlight" aria-labelledby="secretary-heading">
+  <div class="container">
+    <div class="spotlight-grid">
+      <div class="spotlight-image">
+        <img src="{{ "images/secretary-bessent.webp" | relURL }}" alt="Secretary of the Treasury Scott Bessent">
+      </div>
+      <div class="spotlight-content">
+        <span class="spotlight-label">Meet the Secretary</span>
+        <h2 id="secretary-heading">Scott Bessent</h2>
+        <p class="spotlight-role">79th Secretary of the Treasury</p>
+        <p class="spotlight-text">Secretary Bessent leads the Department of the Treasury in its mission to maintain a strong economy and create economic opportunity for all Americans.</p>
+        <div class="spotlight-actions">
+          <a href="/about/general-information/officials" class="btn btn-primary">Learn More</a>
+          <a href="/news/press-releases/statements-remarks" class="btn btn-outline">Statements & Remarks</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>

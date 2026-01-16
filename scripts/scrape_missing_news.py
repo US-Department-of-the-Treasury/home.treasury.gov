@@ -180,10 +180,17 @@ def scrape_page(url: str) -> Optional[dict]:
     
     soup = BeautifulSoup(response.text, "html.parser")
     
-    # Extract title
-    title_elem = soup.find("h1") or soup.find("title")
-    title = title_elem.get_text(strip=True) if title_elem else "Untitled"
-    title = re.sub(r"\s*\|\s*U\.S\. Department of the Treasury$", "", title)
+    # Extract title - prefer og:title which has the correct article title
+    title = "Untitled"
+    og_title = soup.find("meta", {"property": "og:title"})
+    if og_title and og_title.get("content"):
+        title = og_title.get("content").strip()
+    else:
+        # Fallback to title tag
+        title_tag = soup.find("title")
+        if title_tag:
+            title = title_tag.get_text(strip=True)
+            title = re.sub(r"\s*\|\s*U\.S\. Department of the Treasury$", "", title)
     
     # Extract date
     date_str = None
