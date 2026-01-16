@@ -1,6 +1,6 @@
 ---
 title: Progress Towards an Evaluation of Economic Impact Payment Receipt by Race and Ethnicity
-date: 2022-10-04
+date: 2022-10-04T17:42:58-04:00
 draft: false
 url: /news/featured-stories/progress-towards-an-evaluation-of-economic-impact-payment-receipt-by-race-and-ethnicity
 ---
@@ -25,9 +25,6 @@ The agencies continue to work on several challenges. Perhaps most importantly, i
 The agencies are continuing to work together to better understand the quality of the match between the Census Bureau and IRS data, including efforts to better understand the scope of potential double-counting between the Census and IRS data and to improve the accuracy of estimates of potential eligibility.
 
 Once complete, this work will allow the agencies to examine the distribution of EIP receipt by race and ethnicity and to assess the nature of any disparities in receipt and the timing of receipt by race and ethnicity.  This type of analysis can generate important insights about how the tax system operates in practice, which can in turn inform future efforts to ensure equitable implementation of public policies.
-
-
- 
 
 1 Executive Order 13985, “Executive Order on Advancing Racial Equity and Support for Underserved Communities Through the Federal Government,” January 20, 2021.[https://www.federalregister.gov/documents/2021/01/25/2021-01753/advancing-racial-equity-and-support-for-underserved-communities-through-the-federal-government](https://www.federalregister.gov/documents/2021/01/25/2021-01753/advancing-racial-equity-and-support-for-underserved-communities-through-the-federal-government)
 

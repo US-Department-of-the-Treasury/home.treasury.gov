@@ -1,6 +1,6 @@
 ---
 title: 'American Rescue Plan: Treasury’s Progress and Impact After Six Months'
-date: 2021-09-16
+date: 2021-09-16T12:15:00-04:00
 draft: false
 url: /news/featured-stories/American-rescue-plan-treasurys-progress-and-impact-after-six-months
 ---

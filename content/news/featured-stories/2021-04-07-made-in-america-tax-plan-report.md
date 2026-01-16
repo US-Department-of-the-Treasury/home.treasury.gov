@@ -1,6 +1,6 @@
 ---
 title: Made in America Tax Plan Report
-date: 2021-04-07
+date: 2021-04-07T11:30:00-04:00
 draft: false
 url: /news/featured-stories/made-in-america-tax-plan-report
 ---

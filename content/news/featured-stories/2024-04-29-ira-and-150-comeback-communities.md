@@ -1,6 +1,6 @@
 ---
 title: IRA and 150 Comeback Communities
-date: 2024-04-29
+date: 2024-04-29T16:00:00-04:00
 draft: false
 url: /news/featured-stories/ira-and-150-comeback-communities
 ---

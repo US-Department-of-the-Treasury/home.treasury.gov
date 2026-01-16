@@ -1,26 +1,24 @@
 ---
 title: Combating Human Trafficking
-date: 2020-01-29
+date: 2020-01-29T14:00:00-05:00
 draft: false
 url: /news/featured-stories/combating-human-trafficking
 ---
 Human trafficking poses a grave threat to the rule of law and endangers the safety and security of citizens in the United States and around the world.  In addition to its enormous human cost, human trafficking is estimated to generate billions in illicit revenue each year, making it one of the most profitable crimes in the world. Treasury’s 2020 National Strategy for Combating Terrorist and Other Illicit Financing identified money laundering linked to human trafficking as one of the most significant illicit finance threats facing the United States.
 
-### Treasury's Role in combating Human Trafficking
+## Treasury's Role in combating Human Trafficking
 
 Human trafficking is a transnational threat that preys on society’s most vulnerable populations and poses significant harm to persons in every sector of the economy. The U.S. Department of the Treasury brings significant financial expertise to the fight against human trafficking and is committed to leveraging the Department’s economic tools to target, disrupt, and counter those who undermine American values and engage in human trafficking.
 
 [View more information on U.S. Government and financial institutions’ efforts to combat money laundering related to human trafficking and recommendations to improve those efforts](https://home.treasury.gov/system/files/136/Report-Money-Laundering-Human-Trafficking.pdf).
 
-
-### Tools For Combating Human Trafficking
+## Tools For Combating Human Trafficking
 
 Treasury has various tools and offices to support the mission of combating human trafficking, including anti-money laundering (AML) and sanctions authorities. The Office of Terrorism and Financial Intelligence (TFI) integrates countering the financial operations of human trafficking networks into Treasury’s strategy to safeguard the financial system and combat illicit threats. TFI, through the Office of Terrorist Financing and Financial Crimes (TFFC), the Financial Crimes Enforcement Network (FinCEN), the Office of Foreign Assets Control (OFAC), and the Office of Intelligence Analysis (OIA), coordinates with other Federal agencies, state and local law enforcement, and foreign governments to combat human trafficking.
 
+## Prevent
 
-### Prevent
-
-#### Multilateral Development Banks
+### Multilateral Development Banks
 
 Treasury has also committed to leading the fight against human trafficking at the Multilateral Development Banks (MDBs), and has been consistently introducing this issue into development conversation for several years. As a result, the MDBs are integrating anti-human trafficking provisions into their project development and social safeguards into their procurement processes.
 
@@ -29,13 +27,13 @@ On January 9, 2019, President Trump signed into law the Trafficking Victims Prot
 - [Trafficking Victims Protection Reauthorization Act of 2017](https://www.congress.gov/115/plaws/publ427/PLAW-115publ427.htm)
 - [Managing Risks Associated with Modern Slavery](https://www.ifc.org/wps/wcm/connect/5e5238a6-98b3-445e-a2d6-efe44260b7f8/GPN_Managing-Risks-Associated-with-Modern-Slavery.pdf?MOD=AJPERES&CVID=mR5Bx5h)
 
-### Protect
+## Protect
 
 One challenge many survivors face is they lack “foundational” identity documents such as a birth certificate or driver’s license, which are needed to access the global financial system. Treasury has been leading efforts to support a risk-based approach to the use of responsible digital identity solutions to help survivors of human trafficking to access the financial system.
 
 - [FATF Guidance on Digital ID](http://www.fatf-gafi.org/publications/fatfrecommendations/documents/digital-identity-guidance.html)
 
-#### Identifying Human Trafficking Networks
+### Identifying Human Trafficking Networks
 
 Treasury continues to identify and track the activities of human traffickers with data made available through Bank Secrecy Act reporting requirements and other sources. Treasury’s FinCEN published an advisory on human trafficking to help financial institutions identify the movement of human traffickers’ funds and to support law enforcement investigations that use financial intelligence.
 
@@ -48,11 +46,11 @@ From August 1, 2018 to December 31, 2019, 6,672 Suspicious Activity Reports (SAR
 - [FINCEN Suspicious Activity Report Statistics](https://www.fincen.gov/reports/sar-stats)
 - [Financial Action Task Force (FATF) Report on Financial Flows from Human Trafficking](https://www.fatf-gafi.org/media/fatf/content/images/Human-Trafficking-2018.pdf)
 
-### Prosecute
+## Prosecute
 
 Treasury takes action against human traffickers wherever they may be—at home and abroad. TFFC develops policy, initiatives, and strategies to deploy its full range of financial authorities. OIA, FinCEN, OFAC, and the Internal Revenue Service (IRS) collect and analyze financial intelligence and data to identify human traffickers and their networks, disrupt and disable the financial underpinnings of these networks, and support law enforcement investigations that lead to accountability and justice.
 
-#### Office of Foreign Assets Control
+### Office of Foreign Assets Control
 
 OFAC applies financial sanctions and oversees a range of sanctions programs that can target human trafficking, including several country programs focused on human rights and corruption. These programs also target activities that typically occur with human trafficking, including narcotics trafficking, human rights abuse and corruption, malicious cyber-enabled activities, terrorism, and transnational organized crime. As a result of U.S. financial sanctions, U.S. persons are generally prohibited from engaging in dealings with a blocked (or designated) person, and the designated person’s property and interests in property are blocked.
 
@@ -69,7 +67,7 @@ OFAC Press Releases:
 
  
 
-#### Internal Revenue Service Criminal Investigation (IRS-CI)
+### Internal Revenue Service Criminal Investigation (IRS-CI)
 
 The Internal Revenue Service’s Criminal Investigation (IRS-CI) division is the lawenforcement arm of the IRS. IRS-CI partners with the Department of Justice, as well as federal, state, local, tribal, and foreign law enforcement to investigate labor trafficking and sex trafficking cases from a financial perspective. IRS-CI special agents and professional staff identify and trace the cash, electronic funds, virtual currency, real estate, and other assets generated by human trafficking in order to build criminal cases within their jurisdiction and potentially seize and ultimately forfeit those criminal proceeds, which may then be returned to the victims in the form of restitution.
 
@@ -81,13 +79,9 @@ Related News:
 - [Human traffickers face cash crunch after Western Union probe](https://www.asiatimes.com/2017/02/article/needs-pic-human-traffickers-face-cash-crunch-western-union-probe/)
 - [Sex Trafficking Ring Leader Gets Life in Federal Prison](https://www.kveo.com/news/local-news/sex-trafficking-ring-leader-gets-life-in-federal-prison/)
 
- 
+## Partners
 
- 
-
-### Partners
-
-#### Partnership to Combat Human Rights Abuse and Corruption
+### Partnership to Combat Human Rights Abuse and Corruption
 
 Treasury has demonstrated its resolve to identify and hold accountable human rights abusers, facilitators of human trafficking, and corrupt actors who undermine peace, stability, and the rule of law. In December 2019, TFI hosted its inaugural Partnership to Combat Human Rights Abuse and Corruption event, bringing together over 100 NGOs, industry, and government partners to combat human rights abuse and corruption through enhanced information sharing and coordination on illicit finance and corruption networks. Treasury led a panel discussion on information sharing models with financial institutions and NGOs on combating human trafficking.
 
@@ -95,7 +89,7 @@ Treasury has demonstrated its resolve to identify and hold accountable human rig
 
 “Treasury looks to NGOs to be our eyes on the ground both to track individual crimes and abuses and, more broadly, to understand when whole governments bear responsibility.” –Deputy Secretary Justin Muzinich
 
-#### Intergovernmental Forums
+### Intergovernmental Forums
 
 Treasury engages on an international level through intergovernmental forums such as the Financial Action Task Force (FATF), which sets global standards for AML/CFT, and the Egmont Group of Financial Intelligence Units (Egmont Group). Treasury participates in these forums to strengthen AML/CFT awareness and promote greater understanding of human trafficking, exchange information to identify and disrupt networks, and incorporate law enforcement and interagency partners into our efforts.
 
@@ -106,7 +100,7 @@ To complement TFFC’s efforts at the FATF, FinCEN launched a human trafficking 
 - [FATF's Report on Financial Flows from Human Trafficking](https://www.fatf-gafi.org/media/fatf/content/images/Human-Trafficking-2018.pdf)
 - [Egmont Group of Financial Intelligence Units - Annual Report 2017/2018](https://egmontgroup.org/sites/default/files/filedepot/EGAR_2017-2018/EGAR-2018-Annual-Report-Digital.pdf)
 
-#### President's Interagency Task Force
+### President's Interagency Task Force
 
 The President’s Interagency Task Force to Monitor and Combat Trafficking in Persons (PITF) is a cabinet-level entity created by the Trafficking Victims Protection Act of 2000 (TVPA). PITF includes 19 departments and agencies across the federal government, including the Department of the Treasury, that are responsible for coordinating U.S. government-wide efforts to combat trafficking in persons. The PITF meets annually and is chaired by the Secretary of State.
 
@@ -120,8 +114,4 @@ For example, TFFC conducts outreach to the financial services industry to identi
 - [Meeting of the President's Interagency Task Force to Monitor and Combat Trafficking In Persons, October 24, 2016](https://2009-2017.state.gov/j/tip/rls/rm/2016/263538.htm)
 - [Meeting of the President's Interagency Task Force to Monitor and Combat Trafficking in Persons, October 2019](https://www.youtube.com/watch?v=YKAGVWRxnFU)
 - [President's Interagency Task Force Meeting on Trafficking, October 2016](https://www.youtube.com/watch?v=Nl3svI7uPeQ)
-
- 
- 
- 
 

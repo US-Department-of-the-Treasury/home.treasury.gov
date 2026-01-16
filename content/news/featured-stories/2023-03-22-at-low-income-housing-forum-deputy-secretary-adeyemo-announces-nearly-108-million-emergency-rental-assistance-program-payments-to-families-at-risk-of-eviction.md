@@ -1,10 +1,10 @@
 ---
 title: At Low Income Housing Forum, Deputy Secretary Adeyemo Announces Nearly 10.8 Million Emergency Rental Assistance Program Payments to Families at Risk of Eviction
-date: 2023-03-22
+date: 2023-03-22T09:59:37-04:00
 draft: false
 url: /news/featured-stories/at-low-income-housing-forum-deputy-secretary-adeyemo-announces-nearly-108-million-emergency-rental-assistance-program-payments-to-families-at-risk-of-eviction
 ---
-*Alongside data, Treasury releases *[* new blog *](https://home.treasury.gov/news/featured-stories/emergency-rental-assistance-supporting-renting-families-driving-lasting-reform)* detailing how ERA had expanded reach to tenants in need while building long-term eviction prevention infrastructure *
+*Alongside data, Treasury releases *[*new blog *](https://home.treasury.gov/news/featured-stories/emergency-rental-assistance-supporting-renting-families-driving-lasting-reform)*detailing how ERA had expanded reach to tenants in need while building long-term eviction prevention infrastructure *
 
 WASHINGTON – During remarks at the National Low Income Housing Coalition’s 2023 Housing Policy Forum, Deputy Secretary of the Treasury Wally Adeyemo announced new data from the U.S. Department of the Treasury showing nearly 10.8 million Emergency Rental Assistance (ERA) payments made to households at risk of eviction while investing in projects to support long-term housing stability. The new Treasury Department data covers payments made through December 31, 2022.
 

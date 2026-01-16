@@ -1,6 +1,6 @@
 ---
 title: Disparities in the Benefits of Tax Expenditures by Race and Ethnicity
-date: 2023-01-20
+date: 2023-01-20T09:00:00-05:00
 draft: false
 url: /news/featured-stories/disparities-in-the-benefits-of-tax-expenditures-by-race-and-ethnicity
 ---
@@ -24,15 +24,13 @@ The new imputation method allows Treasury to conduct tax analysis by race and Hi
 
 Previous research on racial disparities in the tax code, such as research by law professors Beverly Moran, William Whitford, and Dorothy Brown, has used self-reported race data but did not have access to tax data.[2]This new work benefits from access to tax data and Treasury’s detailed tax models but relies on imputed, rather than actual, race and ethnicity information.[3]
 
-### Tax expenditures by race and Hispanic ethnicity
+## Tax expenditures by race and Hispanic ethnicity
 
 The new working paper on the distribution of tax expenditures, by Julie-Anne Cronin, Portia DeFilippes, and Robin Fisher of OTA, examines eight of the largest individual income tax expenditures. It estimates the distribution of benefits for certain racial and ethnic groups first on an overall per capita basis, and then within income deciles (tenths of the income distribution).
 
 On an overall per capita basis, the paper finds that the preferential rates for capital gains and dividends, deduction for pass-through income, charitable deduction, home mortgage interest deduction, and deduction for employer-provided health insurance disproportionately benefit White families. In contrast, Black and Hispanic families, who make up a disproportionate share of low-wage workers, disproportionately benefit from the Earned Income Tax Credit, which is designed to help low- to moderate-income workers and their families. Hispanic families, who have comparatively low rates of employer-sponsored health insurance, also disproportionately benefit from the Premium Tax Credit, which provides assistance for the purchase of health insurance through the Marketplaces. Finally, Hispanic families disproportionately benefit from the Child Tax Credit. The current analysis focuses on Black, White, and Hispanic people due to high levels of uncertainty in estimates for other groups.
 
 The analysis also examines disparities in the benefits of tax expenditures by race within income deciles. The findings within income decile are particularly stark for the preferential rates for capital gains and dividends. White families generally are more likely to benefit from these preferential rates across the income distribution (see figure below) and receive larger benefits at the high-income levels at which the benefits from these preferential rates are most pronounced. The same is likely true of the deduction for pass-through income, but the differences within income class are not statistically significant.
-
-
 
 In contrast, the Child Tax Credit disproportionately benefits Hispanic families within income decile across the middle of the income distribution (but not at the top or bottom of the income distribution).  The Earned Income Tax Credit disproportionately benefits Hispanic families in the lower-middle income ranges. The patterns within income deciles for these credits are more variable for Black families.
 
@@ -48,6 +46,6 @@ While many questions remain, these initial findings emphasize the scrutiny that 
 
 [1]See, for example, Sorbero, Melony E., Roald Euller, Aaron Kofner, and Marc N. Elliott. 2022.*Imputation of Race and Ethnicity in Health Insurance Marketplace Enrollment Data, 2015–2022 Open Enrollment Periods*. The RAND Corporation.
 
-[2]Moran, Beverly I., and William Whitford, 1996. “A Black Critique of the Internal Revenue Code.”* Wisconsin Law Review*4, 751-820. Brown, Dorothy A., 2021.* The Whiteness of Wealth: How the Tax System Impoverishes Black Americans—And How We Can Fix It.*New York, NY: Crown Publishing Group.
+[2]Moran, Beverly I., and William Whitford, 1996. “A Black Critique of the Internal Revenue Code.”*Wisconsin Law Review*4, 751-820. Brown, Dorothy A., 2021.*The Whiteness of Wealth: How the Tax System Impoverishes Black Americans—And How We Can Fix It.*New York, NY: Crown Publishing Group.
 
 [3]Taxpayer data used in the research was kept in a secured Treasury or IRS repository, and all results have been reviewed to ensure that no confidential information is disclosed.

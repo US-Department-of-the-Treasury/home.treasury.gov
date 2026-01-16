@@ -1,38 +1,34 @@
 ---
 title: 'Post 5: Racial Differences in Educational Experiences and Attainment'
-date: 2023-06-09
+date: 2023-06-09T14:08:13-04:00
 draft: false
 url: /news/featured-stories/post-5-racial-differences-in-educational-experiences-and-attainment
 ---
 *This is the fifth installment in a series of blog posts on racial inequality produced by the Office of Economic Policy.  The other posts can be found at these links:  *[*1. Racial Inequality in the United States*](https://home.treasury.gov/news/featured-stories/racial-inequality-in-the-united-states)*, *[*2. Racial Differences in Economic Security: The Racial Wealth Gap*](https://home.treasury.gov/news/featured-stories/racial-differences-economic-security-racial-wealth-gap)*, *[*3. Racial Differences in Economic Security: Housing*](https://home.treasury.gov/news/featured-stories/racial-differences-in-economic-security-housing)*, *[*4. Racial Differences in Economic Security: Non-housing Assets*](https://home.treasury.gov/news/featured-stories/racial-differences-in-economic-security-non-housing-assets)
 
-### Introduction
+## Introduction
 
-Free public primary and secondary education in the United States was established to ensure that all Americans have access to educational opportunity and are equipped to fully participate in our democracy. However, laws banning enslaved people from being taught to read, exclusionary Jim Crow laws, and the ruling in* Plessy v. Ferguson*entrenched racial segregation of public schools in the South, and, while not mandated by law, a* de facto*system of segregation became commonplace in Northern states at the same time. These systems were used to deprive people of color of the educational resources required to prosper in society throughout the 19th and 20th centuries.
+Free public primary and secondary education in the United States was established to ensure that all Americans have access to educational opportunity and are equipped to fully participate in our democracy. However, laws banning enslaved people from being taught to read, exclusionary Jim Crow laws, and the ruling in *Plessy v. Ferguson*entrenched racial segregation of public schools in the South, and, while not mandated by law, a*de facto* system of segregation became commonplace in Northern states at the same time. These systems were used to deprive people of color of the educational resources required to prosper in society throughout the 19th and 20th centuries.
 
-Nearly 70 years after the landmark ruling in* Brown v. Board of Education*that ended legal school segregation, substantial racial disparities in educational opportunity and attainment still exist. Recognizing these disparities and understanding their determinants is important because they have stark implications for labor market outcomes, including employment, wages and earnings, and occupations and job quality, all key factors in individuals’ economic wellbeing.
+Nearly 70 years after the landmark ruling in *Brown v. Board of Education* that ended legal school segregation, substantial racial disparities in educational opportunity and attainment still exist. Recognizing these disparities and understanding their determinants is important because they have stark implications for labor market outcomes, including employment, wages and earnings, and occupations and job quality, all key factors in individuals’ economic wellbeing.
 
 In addition, since education is the bedrock of labor productivity, policies that raise the quality and quantity of education for underserved groups have and would boost productivity for the country as a whole.  One well-cited study finds that 40 percent of per capita GDP growth from the period of 1960 to 2010 can be accounted for by women and Black men entering into highly skilled occupations.[1]Although disparity in access to high quality education is only one of many barriers faced by workers of color, these findings demonstrate the potential magnitude of the gains that would come from better fostering the talent innate in our future workforce. Indeed, researchers from the Federal Reserve Bank of San Francisco estimate that removing racial gaps in educational attainment alone—separate from any effect on employment or hours—would have increased GDP in 2019 by $190 billion.[2]
 
 In this blog post, we discuss racial differences in K-12 and postsecondary educational experiences, highlighting current disparities and changes in these disparities during the recent past. We then discuss their key determinants and show these determinants are factors outside students’ control, including the socioeconomic status of their parents, the schools they attend, the neighborhoods in which they live, discrimination in disciplinary actions, the race of the teacher to which they are assigned, and implicit bias in teacher expectations.
 
-### Racial Disparities in Elementary and Secondary Education
+## Racial Disparities in Elementary and Secondary Education
 
 Childhood educational experiences have been shown to shape academic outcomes in adolescence and later in life, impacting indicators of well-being far into adulthood. Racial differences in childhood educational experiences thus have the potential to place children of different races on different trajectories at an early age, making it more difficult for some to achieve economic security in adulthood than others.  In future blog posts in this series, we will discuss the disparities in labor market outcomes and how they are intertwined with the educational disparities outlined in today’s post.
 
 Although school enrollment rates are similar across race and ethnicity for three- to five-year-old children,[3]research indicates that substantial gaps in reading and math achievement exist at the beginning of kindergarten as shown in Table 1. Black-white gaps in reading and math are about one-half and three-quarters of a standard deviation, respectively, and Hispanic-white gaps in both subjects are similarly large.[4]Gaps between students of any other race, a diverse category which includes Asian, Native Hawaiian/Other Pacific Islander, and American Indian/Alaska Native children in addition to children of multiple races, and white students are about 0.4 standard deviations for both reading and math.[5]
 
-**Table 1. Racial Achievement Gaps in Elementary and Middle School**
-
- Reading Fall KSpring KSpring 1Spring 3Spring 5Spring 8Asian0.220.320.330.110.080.17Other-0.41-0.28-0.30-0.37-0.32-0.33Hispanic-0.48-0.26-0.26-0.33-0.34-0.36Black-0.53-0.58-0.54-0.77-0.87-0.95 
+**Table 1. Racial Achievement Gaps in Elementary and Middle School**Reading Fall KSpring KSpring 1Spring 3Spring 5Spring 8Asian0.220.320.330.110.080.17Other-0.41-0.28-0.30-0.37-0.32-0.33Hispanic-0.48-0.26-0.26-0.33-0.34-0.36Black-0.53-0.58-0.54-0.77-0.87-0.95 
 
 Math
 
  Fall KSpring KSpring 1Spring 3Spring 5Spring 8Asian0.070.050.010.080.290.38Other-0.42-0.29-0.34-0.40-0.30-0.33Hispanic-0.76-0.65-0.53-0.50-0.45-0.44Black-0.73-0.80-0.77-0.90-0.99-1.00
 
-** Notes**: Table shows estimated achievement gaps in standard deviations for each racial and ethnic group relative to white students. Standard deviation units are based on the standard deviation across all students for a given test-grade-year combination. The Asian category is comprised of Asian-origin students who are proficient in oral English at the beginning of kindergarten. Data are from the Early Childhood Longitudinal Study – Kindergarten Class of 1998-99 public-use K-9 longitudinal data set. See Reardon, Robinson-Cimpian, and Weathers (2015) for details.
-
-** Source**: Table 3 of Reardon, Sean F., Joseph P. Robinson-Cimpian, and Ericka S. Weathers. 2015. “Patterns and Trends in Racial/Ethnic and Socioeconomic Academic Achievement Gaps.”* In Handbook of Research in Education Finance and Policy*, edited by Helen F. Ladd and Margaret E. Goertz, 499-518. New York: Routledge.
+**Notes**: Table shows estimated achievement gaps in standard deviations for each racial and ethnic group relative to white students. Standard deviation units are based on the standard deviation across all students for a given test-grade-year combination. The Asian category is comprised of Asian-origin students who are proficient in oral English at the beginning of kindergarten. Data are from the Early Childhood Longitudinal Study – Kindergarten Class of 1998-99 public-use K-9 longitudinal data set. See Reardon, Robinson-Cimpian, and Weathers (2015) for details.**Source**: Table 3 of Reardon, Sean F., Joseph P. Robinson-Cimpian, and Ericka S. Weathers. 2015. “Patterns and Trends in Racial/Ethnic and Socioeconomic Academic Achievement Gaps.”*In Handbook of Research in Education Finance and Policy*, edited by Helen F. Ladd and Margaret E. Goertz, 499-518. New York: Routledge.
 
 Although the Black-white and Hispanic-white gaps for reading and math are similar at the beginning of elementary school, the Black-white gaps widen as students progress through secondary school while the Hispanic-white gaps shrink. The Black-white gaps in reading and math expand from 0.53 and 0.73 standard deviations, respectively, in the fall of kindergarten to 0.95 and 1 standard deviations, respectively, in the spring of 8th grade. In contrast, the Hispanic-white reading and math gaps fall from 0.48 and 0.76 to 0.36 and 0.44, respectively, over the same period.[6]
 
@@ -42,61 +38,33 @@ In addition to highlighting trends in achievement gaps as students progress thro
 
 Prior to 2011, the scores of Asian and Native Hawaiian/Other Pacific Islander students were reported together, and students in this combined group performed similarly to if not slightly better than white students in both reading and math. However, as evident from the trends for students in these two groups reported separately after 2011, this aggregation masks important heterogeneity, with Asian students consistently outperforming white students in both reading and math and Native Hawaiian/Other Pacific Islander students consistently lagging behind.
 
-**Figure 1. Racial Differences in 4th Grade Reading Achievement**
-
-** Notes**: Figure displays differences between the National Assessment of Educational Progress (NAEP) Reading composite scale score for 4th graders in each racial/ethnic group relative to the score for white 4th graders.
-
-** Source**: Data from the U.S. Department of Education, National Center for Education Statistics, National Assessment of Educational Progress (NAEP) Reading Assessments, retrieved from the[Main NAEP Data Explorer](https://www.nationsreportcard.gov/ndecore/xplore/NDE).
-
- 
-
-** Figure 2. Racial Differences in 4th Grade Math Achievement**
-
-** Notes**: Figure displays differences between the National Assessment of Educational Progress (NAEP) Mathematics composite scale score for 4th graders in each racial/ethnic group relative to the score for white 4th graders.
-
-** Source**: Data from the U.S. Department of Education, National Center for Education Statistics, National Assessment of Educational Progress (NAEP) Mathematics Assessments, retrieved from the[Main NAEP Data Explorer](https://www.nationsreportcard.gov/ndecore/xplore/NDE).
+**Figure 1. Racial Differences in 4th Grade Reading Achievement  Notes**: Figure displays differences between the National Assessment of Educational Progress (NAEP) Reading composite scale score for 4th graders in each racial/ethnic group relative to the score for white 4th graders.**Source**: Data from the U.S. Department of Education, National Center for Education Statistics, National Assessment of Educational Progress (NAEP) Reading Assessments, retrieved from the[Main NAEP Data Explorer](https://www.nationsreportcard.gov/ndecore/xplore/NDE).**Figure 2. Racial Differences in 4th Grade Math Achievement  Notes**: Figure displays differences between the National Assessment of Educational Progress (NAEP) Mathematics composite scale score for 4th graders in each racial/ethnic group relative to the score for white 4th graders.**Source**: Data from the U.S. Department of Education, National Center for Education Statistics, National Assessment of Educational Progress (NAEP) Mathematics Assessments, retrieved from the[Main NAEP Data Explorer](https://www.nationsreportcard.gov/ndecore/xplore/NDE).
 
 High school completion rates are another important measure of academic achievement in secondary school since high school completion is required for many jobs and to pursue postsecondary education. Figure 3 shows differences in high school completion by race and ethnicity over the last three decades. Since 1992, the percent of adults 25-years-old and older who have graduated from high school has increased for all racial and ethnic groups, with the largest improvements occurring among Black and Hispanic individuals, the groups with the lowest completion rates in 1992. High school completion rates increased from 68 percent in 1992 to 91 percent in 2021 for Black individuals and from 53 percent to 74 percent over that same period for Hispanic individuals. While there is still a relatively large gap in the Hispanic high school completion rate relative to others, it is clear that progress has been and continues to be made on this dimension.
 
-** Figure 3. High School Completion Rates by Race and Ethnicity**
+**Figure 3. High School Completion Rates by Race and Ethnicity  Notes**: Figure displays the percent of people 25-years-old and older who have graduated from high school by race and ethnicity.**Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from *Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
 
-** Notes**: Figure displays the percent of people 25-years-old and older who have graduated from high school by race and ethnicity.
-
-** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from* Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
-
-### Racial Disparities in Postsecondary Education
+## Racial Disparities in Postsecondary Education
 
 Racial disparities in education persist beyond high school and into postsecondary education and are evident in the differences in college enrollment rates visible in Figure 4, which shows the percent of 18- to 24-year-olds in each group enrolled in college or graduate school.  College premiums remain high, such that these differences in enrollment and graduation rates will contribute to large disparities in lifetime earnings.[10]
 
 Overall, the share of young adults enrolled in college has increased over the last three decades, with the largest gains occurring for Black and Hispanic individuals. In 1990, 25 percent of Black 18- to 24-year-olds were enrolled in college or graduate school, and by 2020, that number had risen to 36 percent. Over the same period, the share of Hispanic young adults enrolled in college or graduate school more than doubled from 16 percent to over 35 percent. White and Asian young adults, who had the highest rates of college enrollment in 1990, experienced smaller gains of roughly 6 to 7 percentage points, as did American Indian/Alaska Native young adults.[11]In contrast, the enrolled share of Native Hawaiian/Other Pacific Islander young adults and those belonging to two or more races declined between 2010 and 2020 from 36 percent to 34 percent and from 38 percent to 34 percent, respectively.[12]
 
-**Figure 4. College Enrollment by Race and Ethnicity**
-
-** Notes**: Figure displays the percent of 18- to 24-year-olds enrolled in college or graduate school by race and ethnicity. Data for Asian and Native Hawaiian/Other Pacific Islander individuals separately and for individuals of two or more races are not available until 2003.
-
-** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, October, 1990 through 2020 prepared by the National Center for Education Statistics in August 2021 and retrieved from* Digest of Education Statistics 2021*,[table 302.60](https://nces.ed.gov/programs/digest/d21/tables/dt21_302.60.asp).
+**Figure 4. College Enrollment by Race and Ethnicity  Notes**: Figure displays the percent of 18- to 24-year-olds enrolled in college or graduate school by race and ethnicity. Data for Asian and Native Hawaiian/Other Pacific Islander individuals separately and for individuals of two or more races are not available until 2003.**Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, October, 1990 through 2020 prepared by the National Center for Education Statistics in August 2021 and retrieved from *Digest of Education Statistics 2021*,[table 302.60](https://nces.ed.gov/programs/digest/d21/tables/dt21_302.60.asp).
 
 In addition to comparing overall college enrollment rates, it is important to consider the types of schools students enroll in. Students may enroll in institutions of different levels (two-year or four-year) and type (not-for-profit or for-profit). Given evidence of higher returns to an additional year of schooling at four-year institutions than at two-year institutions[13]and evidence that attending a for-profit institution may lead to worse post-college labor market and financial outcomes than not attending college at all,[14]differential enrollment patterns by race and ethnicity may lead to lasting differences in economic security post-college.
 
 Figure 5 shows, for each racial and ethnic group, the distribution of undergraduates across institution levels and control of institution in Fall 2020. Asian and white undergraduates, along with undergraduates of two or more races are most likely to be enrolled at four-year institutions. In contrast, Hispanic, American Indian/Alaska Native, Black, and Native Hawaiian/Other Pacific Islander undergraduates are most likely to be enrolled at two-year institutions, although, notably, the share of Hispanic students enrolled at two-year institutions is nearly 10 percentage points larger than the share of Black students enrolled at these institutions. Black and Native Hawaiian/Other Pacific Islander students are much more likely than any other group to enrolled at for-profit institutions, both two- and four-year.
 
-**Figure 5. Racial Differences in Undergraduate Enrollment by Level and Type**
-
-** Notes**: Figure displays the percent of 18- to 24-year-olds enrolled in college or graduate school by race and ethnicity.
-
-** Source**: Data from the U.S. Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS, Spring 2021, Fall Enrollment component and retrieved from* Digest of Education Statistics 2021*, table[306.50](https://nces.ed.gov/programs/digest/d21/tables/dt21_306.50.asp?current=yes).
+**Figure 5. Racial Differences in Undergraduate Enrollment by Level and Type  Notes**: Figure displays the percent of 18- to 24-year-olds enrolled in college or graduate school by race and ethnicity.**Source**: Data from the U.S. Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS, Spring 2021, Fall Enrollment component and retrieved from *Digest of Education Statistics 2021*, table[306.50](https://nces.ed.gov/programs/digest/d21/tables/dt21_306.50.asp?current=yes).
 
 These differences in enrollment patterns contribute to the racial differences in bachelor’s degree attainment that are evident in Figure 6. Since 1990, the percent of people 25 years old and older with a bachelor’s degree has increased for all racial and ethnic groups, but Black, Hispanic, Native Hawaiian/Other Pacific Islander, and American Indian/Alaska Native individuals still lag behind Asian and white individuals and those of two or more races.
 
-**Figure 6. Racial Differences in Bachelor’s Degree Attainment**
+**Figure 6. Racial Differences in Bachelor’s Degree Attainment  Notes**: Figure displays the percent of people 25 years old and older who have earned a bachelor’s degree by race and ethnicity.**Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from *Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
 
-** Notes**: Figure displays the percent of people 25 years old and older who have earned a bachelor’s degree by race and ethnicity.
+## Determinants of Racial Disparities in Educational Experiences and Attainment
 
-** Source**: Data from the U.S. Department of Commerce, U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement, 1990 through 2021, prepared by the National Center for Education Statistics in November 2021 and retrieved from* Digest of Education Statistics 2021*,[table 104.10](https://nces.ed.gov/programs/digest/d21/tables/dt21_104.10.asp).
-
-### Determinants of Racial Disparities in Educational Experiences and Attainment
-
-#### The Role of Socioeconomic Status
+### The Role of Socioeconomic Status
 
 In this section, we will discuss the determinants of the racial disparities in education outlined above. Recall that sizeable achievement gaps exist at the beginning of kindergarten despite relatively similar pre-school enrollment rates. Therefore, these early disparities in achievement must be driven by something other than differences in access to formal schooling prior to elementary school. Research suggests that nearly all of the Black-white reading gap and over 80 percent of the Black-white math gap at the beginning kindergarten can be explained by differences in socioeconomic status and observed family background characteristics.[15]Similarly, there is evidence that socioeconomic factors and family background account for 85 percent of the Hispanic-white gap in reading achievement and 75 percent of the Hispanic-white math gap in kindergarten.[16]Socioeconomic status is measured using total family income and parental education and occupations, and family background characteristics include the age of the child’s mother at first birth, indicators for receiving aid from government social safety net programs, and the number of children’s books in the home.
 
@@ -106,7 +74,7 @@ While most of the achievement gaps at the beginning of kindergarten are attribut
 
 Research on the importance of socioeconomic factors in explaining Hispanic-white achievement gaps in elementary school is less mixed. Most research finds that these factors can explain an increasing share of Hispanic-white achievement gaps as students move through elementary school, so much so that estimates of the gap that are adjusted for differences in socioeconomic status disappear completely by fifth grade.[22]
 
-#### The Role of Schools
+### The Role of Schools
 
 While research suggests observable family background characteristics contribute substantially to racial achievement gaps in elementary and secondary school, there is an active debate about the extent to which schools reduce or exacerbate those disparities.
 
@@ -118,7 +86,7 @@ Finally, schools may impact racial differences in achievement and completion thr
 
 Existing research on the determinants of racial college enrollment and completion gaps indicates that nearly all these gaps are attributable to differences in pre-college characteristics, including family socioeconomic status, other family background variables, and pre-college test scores, the latter of which, as discussed earlier in this blog post, are also largely determined by family characteristics. For example, there is evidence that once pre-college characteristics are taken into account, Black and Hispanic students are more likely to attend and complete colleges of all quality levels than white students.[30]These findings suggest that to improve racial gaps in college attendance and completion, policymakers should focus on improving educational opportunity much earlier in life and economic opportunity for families more broadly.
 
-### Conclusion
+## Conclusion
 
 Racial disparities in educational experiences and attainment begin early in life and persist as individuals progress through school. Recognizing these disparities and understanding their determinants is important because they have stark implications for labor market outcomes, including employment, wages and earnings, and occupations and job quality, all of which are key determinants of economic wellbeing.
 

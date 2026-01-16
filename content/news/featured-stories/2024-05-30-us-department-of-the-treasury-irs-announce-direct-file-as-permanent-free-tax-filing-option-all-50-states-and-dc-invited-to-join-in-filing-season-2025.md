@@ -1,6 +1,6 @@
 ---
 title: U.S. Department of the Treasury, IRS Announce Direct File as Permanent Free Tax Filing Option, All 50 States and D.C. Invited to Join in Filing Season 2025
-date: 2024-05-30
+date: 2024-05-30T13:00:00-04:00
 draft: false
 url: /news/featured-stories/us-department-of-the-treasury-irs-announce-direct-file-as-permanent-free-tax-filing-option-all-50-states-and-dc-invited-to-join-in-filing-season-2025
 ---
@@ -10,11 +10,11 @@ WASHINGTON—Today, the U.S. Department of the Treasury and Internal Revenue Ser
 
 Direct File was made possible by resources from President Biden’s Inflation Reduction Act to invest in the IRS and deliver world-class service to American taxpayers that saves them time and money. The Treasury Department’s goal in the coming years is to expand the reach and tax scope of Direct File to provide an option for working-and middle-class taxpayers nationwide.
 
-“President Biden is committed to saving Americans time and money and ensuring families receive the tax benefits they’re owed. Providing a free tool to all Americans who want the option to file directly with the IRS is key to achieving those goals,” said**U.S. Secretary of the Treasury Janet L. Yellen.**“After a successful pilot, we are making Direct File permanent and inviting all 50 states to offer this free filing option to their residents. The Treasury Department and IRS look forward to working with states to expand Direct File for Americans across the country.”
+“President Biden is committed to saving Americans time and money and ensuring families receive the tax benefits they’re owed. Providing a free tool to all Americans who want the option to file directly with the IRS is key to achieving those goals,” said **U.S. Secretary of the Treasury Janet L. Yellen.**“After a successful pilot, we are making Direct File permanent and inviting all 50 states to offer this free filing option to their residents. The Treasury Department and IRS look forward to working with states to expand Direct File for Americans across the country.”
 
 Direct File is central to the Biden-Harris Administration’s efforts to deliver modern, world-class customer service using Inflation Reduction Act resources. Direct File also advances a goal of the IRS’s Strategic Operation Plan (SOP) to ensure that taxpayers receive tax credits that they are eligible for, like the Child Tax Credit and Earned Income Tax Credit. The IRS will continue to improve the product over time and ensure that it remains free, secure, and easy to use.
 
-### Background on the Direct File Pilot Program
+## Background on the Direct File Pilot Program
 
 The average American spends $270 and 13 hours filing their taxes.*(Taxpayer Burden Survey) * President Biden’s Inflation Reduction Act required the IRS to study the potential for an IRS-run Direct e-File System that would allow taxpayers to file taxes for free, directly with the IRS. After reviewing the report, which showed strong taxpayer interest in a free IRS filing option, the Treasury Department initiated a pilot of IRS Direct File during the 2024 Filing Season.
 

@@ -1,10 +1,10 @@
 ---
 title: Treasury Department Submits Housing Reform Plan to President
-date: 2019-09-05
+date: 2019-09-05T17:00:19-04:00
 draft: false
 url: /news/featured-stories/treasury-department-submits-housing-reform-plan-to-president
 ---
-**WASHINGTON**– The U.S. Department of the Treasury today released its plan to reform the housing finance system. The Treasury Housing Reform Plan (Plan) consists of a series of recommended legislative and administrative reforms that are designed to protect American taxpayers against future bailouts, preserve the 30-year fixed-rate mortgage, and help hardworking Americans fulfill their goal of buying a home.
+**WASHINGTON** – The U.S. Department of the Treasury today released its plan to reform the housing finance system. The Treasury Housing Reform Plan (Plan) consists of a series of recommended legislative and administrative reforms that are designed to protect American taxpayers against future bailouts, preserve the 30-year fixed-rate mortgage, and help hardworking Americans fulfill their goal of buying a home.
 
 “The Trump Administration is committed to promoting much needed reforms to the housing finance system that will protect taxpayers and help Americans who want to buy a home,” said U.S. Treasury Secretary Steven T. Mnuchin. “An effective and efficient Federal housing finance system will also meaningfully contribute to the continued economic growth under this Administration.”
 

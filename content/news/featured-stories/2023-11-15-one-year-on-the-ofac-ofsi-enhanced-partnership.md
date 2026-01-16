@@ -1,6 +1,6 @@
 ---
 title: 'One Year On: The OFAC-OFSI Enhanced Partnership '
-date: 2023-11-15
+date: 2023-11-15T11:30:00-05:00
 draft: false
 url: /news/featured-stories/one-year-on-the-ofac-ofsi-enhanced-partnership
 ---
@@ -12,11 +12,11 @@ As Directors of these organizations, we were delighted to mark the one-year mile
 
 The Enhanced Partnership is a forward leap to ensure the implementation of robust, cutting-edge financial sanctions.  Amidst ever evolving threats to international security, prompted by the global instability resulting from Russia’s illegal and unprovoked invasion of Ukraine, the United Kingdom and United States are working collaboratively to tackle these issues.  This partnership is anchored by a shared vision for the effective implementation of sanctions through the active use of robust authorities, coupled with calibrated exceptions such as general licenses and clear messaging and support to the private sector through regular and responsive guidance.  This common picture has allowed us to align our priorities and maximize opportunities for co-operation.
 
-### Regular Exchanges
+## Regular Exchanges
 
 Over the past year, the Enhanced Partnership has included quarterly virtual and in-person exchanges at all levels of seniority.  They have enabled colleagues in the United Kingdom and the United States working on challenging cross-jurisdictional issues to explore different perspectives, improve understanding, and identify innovative ways to tackle important issues such as those relating to trust services and digital assets.
 
-### Joint Industry Guidance and Engagement
+## Joint Industry Guidance and Engagement
 
 OFSI and OFAC issued our first joint[fact-sheet](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1165959/OFAC_OFSI_June_28_508_Final.pdf)to provide further clarity on United Kingdom and United States Russia-related humanitarian authorizations.  We have heard directly from non-governmental organizations (NGOs) and financial institutions that this guidance has enabled them to continue to provide and facilitate aid and support to the world’s most vulnerable populations.  We have also participated jointly on a number of key industry panels and global events, discussing topics such as circumvention, enforcement, and international alignment.
 
@@ -28,7 +28,7 @@ We also utilized the in-person visit to conduct a series of joint engagements to
 
 Members of both teams then held the first joint OFSI-OFAC roundtable with fintech and digital asset stakeholders, focused on sanctions compliance best practices across both jurisdictions in this sector.  OFSI and OFAC committed to participate in regular joint engagements and will look to replicate this model in the coming months with the humanitarian sector, in recognition of the wide-ranging benefits such dialogues provide to government and industry, and the NGO community alike.
 
-### Commitment to Ongoing Collaboration
+## Commitment to Ongoing Collaboration
 
 Both the United Kingdom and United States governments as well as our stakeholders have already felt the benefits of this Enhanced Partnership, which will be of ever-growing importance as we face an increasingly complex sanctions implementation landscape.  We are deeply grateful for the commitment of stakeholders and their constructive engagement, which in turn shapes our policy approach. We are proud of our enduring alliance and are excited for the opportunities to come as our Enhanced Partnership continues to prosper.
 

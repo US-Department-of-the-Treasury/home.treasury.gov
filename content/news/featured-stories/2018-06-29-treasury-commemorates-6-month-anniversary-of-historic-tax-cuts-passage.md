@@ -1,6 +1,6 @@
 ---
 title: Treasury Commemorates 6 Month Anniversary of Historic Tax Cuts Passage
-date: 2018-06-29
+date: 2018-06-29T10:59:29-04:00
 draft: false
 url: /news/featured-stories/treasury-commemorates-6-month-anniversary-of-historic-tax-cuts-passage
 ---

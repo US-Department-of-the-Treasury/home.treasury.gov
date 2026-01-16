@@ -1,6 +1,6 @@
 ---
 title: Secretary Mnuchin Travels to Pennsylvania with President Trump, Highlights Benefits of Tax Reform
-date: 2018-01-18
+date: 2018-01-18T20:04:02-05:00
 draft: false
 url: /news/featured-stories/secretary-mnuchin-travels-to-pennsylvania-with-president-trump-highlights
 ---

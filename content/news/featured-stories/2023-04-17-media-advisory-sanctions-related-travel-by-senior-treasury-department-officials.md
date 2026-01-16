@@ -1,6 +1,6 @@
 ---
 title: 'Media Advisory: Sanctions-Related Travel by Senior Treasury Department Officials'
-date: 2023-04-17
+date: 2023-04-17T12:21:26-04:00
 draft: false
 url: /news/featured-stories/media-advisory-sanctions-related-travel-by-senior-treasury-department-officials
 ---
@@ -14,7 +14,7 @@ Following this week’s[major designations](https://home.treasury.gov/news/press
 
 In Central Europe, Under Secretary Nelson will meet with government officials, financial institutions and other businesses that have continued exposure to Russia, and manufacturers and participants in key industries.
 
-### Under Secretary Nelson’s Schedule
+## Under Secretary Nelson’s Schedule
 
 April 16 – 18: Zurich and Bern, Switzerland
 
@@ -26,7 +26,7 @@ April 21 – 22: Berlin, Germany
 
 In Central Asia, Assistant Secretary Rosenberg will join counterparts from the European Union, the United Kingdom, and the U.S. Department of Commerce to meet with government officials and private businesses to help enhance compliance and counter evasion in trade and associated financial payments.
 
-### Assistant Secretary Rosenberg’s Schedule
+## Assistant Secretary Rosenberg’s Schedule
 
 April 23 – 26: Astana and Almaty, Kazakhstan
 

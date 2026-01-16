@@ -1,6 +1,6 @@
 ---
 title: 'Racial Differences in Economic Security: Housing'
-date: 2022-11-04
+date: 2022-11-04T14:00:00-04:00
 draft: false
 url: /news/featured-stories/racial-differences-in-economic-security-housing
 ---
@@ -14,19 +14,17 @@ Homeownership can have some drawbacks, including high transaction costs, the lac
 
 In this post, we begin by discussing racial disparities in rates of homeownership, their persistence over time and across the lifecycle, and their determinants.  We then highlight differences in home values, housing returns, and distressed home sales across groups and conclude by showing how all of these factors combine to produce large disparities in housing equity wealth.
 
-### Homeownership
+## Homeownership
 
 The benefits from homeownership have not been shared equally.  In the second quarter of 2022, the homeownership rate for white households was 75 percent compared to 45 percent for Black households, 48 percent for Hispanic households, and 57 percent for non-Hispanic households of any other race.  Like the overall racial wealth gaps, these gaps in homeownership rates have changed little over the last three decades (see Figure 1).  In fact, the Black-white gap in homeownership rates was the same in 2020 as it was in 1970, just two years after the passage of the Fair Housing Act of 1968, which sought to end racial discrimination in the housing market.[3]
 
  
 
-#### Figure 1. Racial Homeownership Gaps Over Time
+### Figure 1. Racial Homeownership Gaps Over Time
 
   
 
-**Notes:** Figure displays the proportion of all households that are homeowners.  Hispanic includes anyone of Hispanic ethnicity regardless of race.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, and American Indian or Alaska Native and those who report two or more races.
-
-**Source: ** U.S. Census Bureau data via the Federal Reserve Bank of St. Louis.
+**Notes:**Figure displays the proportion of all households that are homeowners.  Hispanic includes anyone of Hispanic ethnicity regardless of race.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, and American Indian or Alaska Native and those who report two or more races.**Source:**U.S. Census Bureau data via the Federal Reserve Bank of St. Louis.
 
  
 
@@ -36,11 +34,9 @@ These disparities impact the economic security of Americans of all ages and have
 
  
 
-#### Figure 2. Racial Homeownership Gaps Over the Lifecycle, 2019
+### Figure 2. Racial Homeownership Gaps Over the Lifecycle, 2019
 
-**Notes**: Figure displays homeownership rates by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska Native, or any other race.
-
-** Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
+**Notes**: Figure displays homeownership rates by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska Native, or any other race.**Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
 
  
 
@@ -50,51 +46,39 @@ Also to blame is past and current discrimination in the private mortgage market,
 
 Finally, continued gaps in homeownership can be partially attributed to stark differences in other indicators of economic well-being, such as inheritances, family income, and education.[13]For instance, Black and Hispanic households get less down-payment assistance from relatives, a result of receiving markedly less intergenerational inheritances and gifts than white Americans[14]that further underscores the long-lasting benefits of wealth accumulation for households and the harms from its absence.[15]We will explore the disparities in income and education in future blog posts.
 
-### Home Values and Housing Returns
+## Home Values and Housing Returns
 
 In addition to racial disparities in homeownership rates, there are also significant differences in home values and housing returns—defined as the difference between what the home is sold for and the all-in costs of buying and owning the home—across races and ethnic groups.  Research suggests that the ratio of the average white household’s home value to the average Black household’s home value today is 2.5, the same as it was in 1970,[16]and that housing returns are 3.7 and 2.0 percentage points lower for Black and Hispanic homeowners, respectively, than for white homeowners.[17]
 
 Differences in housing returns may be driven by differences in the costs of purchasing a home or in home appreciation.  With respect to housing costs, there is evidence that Black and Hispanic homebuyers have paid more than white homebuyers for similar quality homes[18]and bear a higher property tax burden than white homeowners within the same jurisdiction.[19]At the same time, research suggests neighborhoods with higher shares of Black and Hispanic residents have experienced lower real housing appreciation,[20]and homes in those neighborhoods are more likely than homes in majority non-Hispanic white neighborhoods to be appraised at values below contract prices,[21]the latter of which could disproportionately burden Black and Hispanic refinancers.  Appraisal bias is a form of discrimination which has only recently started to receive sufficient attention,[22]and it could severely limit Black and Hispanic homeowner’s ability to refinance.  It is an important area for future research and policy action.[23]
 
-### Distressed Home Sales
+## Distressed Home Sales
 
 Racial differences in rates of distressed home sales also contribute to racial differences in housing wealth and the racial wealth gap.  Distressed home sales tend to generate substantial wealth loss because most mortgage defaults occur among homeowners with positive home equity[24]and most homes sold in foreclosure are sold at a considerable discount.[25]Therefore, groups that are more likely to experience distressed sales have the potential to be disproportionately harmed, and, over the last three decades, rates of foreclosure have consistently been higher for Black or Hispanic households than for white households (see Figure 3).
 
 Notably, just prior to and during the Great Recession, foreclosure rates skyrocketed for Hispanic and Black households and increased relatively modestly for white households.  The preponderance of evidence that Black and Hispanic borrowers were offered higher-cost mortgage products than similarly qualified non-Hispanic white borrowers between 2004 to 2007 suggests that high-risk lending practices disproportionately directed at these groups may explain the relatively large differences in financial distress during this period.[26]In addition, a recent study highlights the roles of higher rates of income instability and illiquidity among Black and Hispanic homeowners in explaining differences in financial distress across groups over the last several decades.[27]
 
- 
- 
+### Figure 3. Racial Differences in the Quarterly Foreclosure Rate
 
-#### Figure 3. Racial Differences in the Quarterly Foreclosure Rate
-
-** Notes:**The figure plots the quarterly foreclosure rate by race and ethnicity from a sample of homeowners with observed purchase prices in the Home Mortgage Disclosure Act data.
-
-** Source:**Data provided by Amir Kermani.  See the following paper for a detailed description of the data: Kermani, Amir, and Francis Wong. 2021. “Racial Disparities in Housing Returns.” NBER Working Paper 29306.
+**Notes:**The figure plots the quarterly foreclosure rate by race and ethnicity from a sample of homeowners with observed purchase prices in the Home Mortgage Disclosure Act data.**Source:**Data provided by Amir Kermani.  See the following paper for a detailed description of the data: Kermani, Amir, and Francis Wong. 2021. “Racial Disparities in Housing Returns.” NBER Working Paper 29306.
 
  
 
 The large increases in rates of foreclosure for Black and Hispanic households during the Great Recession led to larger losses of housing equity wealth during this period for these groups.  From peak to trough prior to and during the Great Recession, total housing equity wealth for white households in the United States fell by 41 percent.  In contrast, housing equity wealth fell by 51 percent for other race households, 53 percent for Black households, and over 70 percent for Hispanic households.[28]
 
-### Overall Housing Wealth
+## Overall Housing Wealth
 
 Together, differences in the homeownership rates, home values, housing returns, and distressed home sales have contributed to large racial gaps in housing equity wealth that widen over the lifecycle (see Figure 4).  The average white household and the average household of any other race possess more housing equity wealth than the average Black and Hispanic households, no matter the age of the household head.  The average white household whose head is younger than 35 has $30,000 and $20,000 more in housing equity wealth than the average Black or Hispanic household in that same age group.  By the time household heads are 55 or older, these gaps will have widened to $175,000 and $145,000, respectively.
 
- 
- 
- 
- 
-
-#### Figure 4. Racial Differences in Housing Equity Wealth Over the Lifecycle, 2019
+### Figure 4. Racial Differences in Housing Equity Wealth Over the Lifecycle, 2019
 
  
 
-** Notes**: Figure displays average housing equity wealth by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska native, or any other race.
-
-** Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
+**Notes**: Figure displays average housing equity wealth by age group and race/ethnicity.  Other includes people who are Asian, Native Hawaiian or Pacific Islander, American Indian and Alaska native, or any other race.**Source**: Treasury calculations using data from the 2019 Survey of Consumer Finances.
 
  
 
-### The Path Forward
+## The Path Forward
 
 The special role that homeownership plays in wealth building and economic security underscores the need to address the disparities outlined in this blog post.  Owning a home continues to be the primary source of wealth for most Americans, and efforts must be made to extend the benefits of homeownership to people who have long been shut out of the market.  In addition, increasing homeownership rates for Black and Hispanic households can have long-lasting effects that spread to other households and future generations as well.[29]
 

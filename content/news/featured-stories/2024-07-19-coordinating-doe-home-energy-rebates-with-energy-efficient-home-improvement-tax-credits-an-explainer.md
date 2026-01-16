@@ -1,6 +1,6 @@
 ---
 title: 'Coordinating DOE Home Energy Rebates with Energy-Efficient Home Improvement Tax Credits: An Explainer'
-date: 2024-07-19
+date: 2024-07-19T12:30:00-04:00
 draft: false
 url: /news/featured-stories/coordinating-doe-home-energy-rebates-with-energy-efficient-home-improvement-tax-credits-an-explainer
 ---
@@ -12,7 +12,7 @@ In addition to the rebate programs, the IRA expanded and extended the[Energy Eff
 
 Each of these opportunities can reduce the costs of making energy-efficient upgrades to homes. In some cases, a household will be able to receive a home energy rebate and also claim a tax credit on the remaining costs of the same upgrade, providing additional savings.
 
-### Key takeaways
+## Key takeaways
 
 - When DOE Home Energy Rebates are applied to a project or product, they are treated as reductions in the purchase price rather than as income for tax purposes. Therefore, households that receive DOE Home Energy Rebates should not report the rebates as income on their income tax returns.[3]
 - When a 25C tax credit is applied to a project or product that has been subject to a DOE Home Energy Rebate, the credit amount is determined based on the adjusted purchase price after it has been reduced by the amount of the rebate. For the HOMES program, the rebate amount is applied proportionately across the set of energy-saving measures. Examples are provided below.
@@ -20,7 +20,7 @@ Each of these opportunities can reduce the costs of making energy-efficient upgr
 
 Further information regarding the Home Energy Rebates programs is available on[DOE’s website](https://www.energy.gov/scep/home-energy-rebates-frequently-asked-questions-consumers). Further information on the 25C tax credit is available on[IRS’s website](https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit).
 
-### Uses and restrictions
+## Uses and restrictions
 
 As provided in[DOE guidance](https://www.energy.gov/scep/home-energy-rebates-application-guidance), Home Efficiency Rebates eligibility depends on the project meeting either the modeled or measured energy savings threshold. The predicted (modeled) energy savings of the home upgrade will need to achieve at least 20 percent energy savings to be eligible for the rebate. If projects are predicted to save at least 35 percent of energy, then those will be eligible for a higher rebate value. The measured energy savings for the home will need to achieve at least 15 percent to be eligible for the rebate.
 
@@ -28,13 +28,13 @@ The law does not limit HOMES rebate eligibility based on household income, but h
 
 HEAR program eligibility is limited to households below 150 percent of AMI. Households at or below 80 percent of AMI are eligible for larger rebates.[5]The law applies to rented, single-family, or multifamily homes.
 
-### Examples of households using DOE Home Energy Rebates and 25C tax credits
+## Examples of households using DOE Home Energy Rebates and 25C tax credits
 
 Many state and local governments and utilities have their own benefit programs that can be combined with 25C tax credits.[6]
 
 The following examples illustrate how DOE Home Energy Rebates and the 25C tax credits can be used to reduce the cost of energy-saving home upgrades.[7]
 
-### Example 1: HOMES rebates with all retrofit measures eligible for 25C tax credits
+## Example 1: HOMES rebates with all retrofit measures eligible for 25C tax credits
 
 If a taxpayer purchases item(s) eligible for both a HOMES rebate and 25C tax credit, the taxpayer may make a pro rata allocation of amounts received as rebates to individually itemized expenditures as a share of total project cost in determining the amounts paid or incurred for such items under § 25C.[8]
 
@@ -46,7 +46,7 @@ For example, Anthony Evans receives a $2,000 rebate for a whole-house energy-sav
 
 Table 1: Allocated rebate and 25C tax credit amounts for Anthony Evans
 
-**Upgrade****Qualifying Expenditure ****Allocated HOMES Rebate ****Remaining Household cost after Rebate****25C Tax Credit ****Net expense after applying rebate and tax credit** Heat pump for space heating and cooling
+**Upgrade Qualifying Expenditure  Allocated HOMES Rebate  Remaining Household cost after Rebate 25C Tax Credit  Net expense after applying rebate and tax credit**Heat pump for space heating and cooling
 
 $3,000
 
@@ -82,7 +82,7 @@ $3,000
 
 **$2,100**
 
-### Example 2: HEAR rebates with all retrofit measures eligible for 25C tax credits
+## Example 2: HEAR rebates with all retrofit measures eligible for 25C tax credits
 
 Taxpayers who receive rebates under the HEAR program who are also eligible for the 25C tax credit must reduce the amount of qualified expenditures used to calculate the 25C tax credit by the amount of the rebate from the program.
 
@@ -90,7 +90,7 @@ For example, if Sofia Joseph purchases a new heat pump water heater for $2,000 a
 
 Table 2: Eligible rebate and 25C tax credit amounts for Sofia Joseph
 
-** Upgrade****Qualifying Expenditure **** HEAR Rebate ****Remaining Household Expense After Rebate****25C Tax Credit ****Net expense after applying rebate and tax credit** Heat Pump Water Heater 
+**Upgrade Qualifying Expenditure   HEAR Rebate  Remaining Household Expense After Rebate 25C Tax Credit  Net expense after applying rebate and tax credit**Heat Pump Water Heater 
 
 $2,000
 
@@ -102,7 +102,7 @@ $1,000
 
 **$700**
 
-### Example 3: HOMES rebate with some retrofit measures eligible for 25C tax credits
+## Example 3: HOMES rebate with some retrofit measures eligible for 25C tax credits
 
 The Winthrops are a middle-income family undertaking a home retrofit.
 
@@ -113,11 +113,11 @@ The Winthrops are a middle-income family undertaking a home retrofit.
 
 With a predicted energy saving of more than 20 percent (but less than 35 percent) of their home energy use, the Winthrop family is eligible for a HOMES rebate of $2,000 ($2,000 or 50 percent of the total project cost, whichever is less).
 
-Since the Winthrops receive the rebate as an* upfront discount*, the* real*upfront cost of the technology for the retrofit is $4,150.[12]Since the home energy audit, attic insulation, and heat pump are eligible for 25C tax credits of up to 30 percent of the after-rebate cost, the Winthrops can claim a $1,204.50 tax credit when filing their taxes.[13]Table 3 below outlines the eligible tax credit amounts the Winthrops receive for each item.
+Since the Winthrops receive the rebate as an*upfront discount*, the*real* upfront cost of the technology for the retrofit is $4,150.[12]Since the home energy audit, attic insulation, and heat pump are eligible for 25C tax credits of up to 30 percent of the after-rebate cost, the Winthrops can claim a $1,204.50 tax credit when filing their taxes.[13]Table 3 below outlines the eligible tax credit amounts the Winthrops receive for each item.
 
 Table 3: Allocated rebate and 25C tax credit amounts for the Winthrops (all numbers are rounded to the nearest dollar)
 
-**Upgrade****Qualifying Expenditure ****Allocated HOMES Rebate ****Remaining Household Expense after Rebate****25C Tax Credit ****Net expense after applying rebate and tax credit ** Home energy audit
+**Upgrade Qualifying Expenditure  Allocated HOMES Rebate  Remaining Household Expense after Rebate 25C Tax Credit  Net expense after applying rebate and tax credit**Home energy audit
 
 $450
 
@@ -183,7 +183,7 @@ Since the 25C tax credits are nonrefundable, the Winthrops were only able to cla
 
 In this example, the smart thermostat is part of the retrofit receiving a HOMES rebate, but it does not qualify for a 25C tax credit.[14]
 
-### Example 4: HOMES and HEAR rebates with some retrofit measures eligible for 25C tax credits
+## Example 4: HOMES and HEAR rebates with some retrofit measures eligible for 25C tax credits
 
 Peter Gomez is returning to his childhood home, which he inherited, and which needs a retrofit. Peter’s household income is below 80 percent of AMI.
 
@@ -205,15 +205,11 @@ After applying both HEAR and HOMES rebates and accounting for eligible tax credi
 
 Since Gomez was able to recoup 100 percent of the cost of his heat pump through the HEAR rebate, the heat pump was not eligible for a § 25C tax credit.
 
-Additionally, Gomez purchased Energy Star windows, which are eligible for the HOMES rebate, but because they were not[Energy Star* Most Efficient*](https://www.energystar.gov/partner_resources/products_partner_resources/energy_star_most_efficient_2024_criteria)windows, they are not eligible for a 25C tax credit.
+Additionally, Gomez purchased Energy Star windows, which are eligible for the HOMES rebate, but because they were not[Energy Star *Most Efficient*](https://www.energystar.gov/partner_resources/products_partner_resources/energy_star_most_efficient_2024_criteria)windows, they are not eligible for a 25C tax credit.
 
 Table 6: HEAR and Allocated HOMES Rebate Amounts and 25C Tax Credits for Peter Gomez (all numbers rounded to the nearest dollar)
 
-**Upgrade****Qualifying Expenditure ****HEAR Rebate****Allocated HOMES Rebate **
-
-** Remaining Household Expense after Rebate**
-
- **25C Tax Credit ****Net expense after applying rebate and tax credit ** Home energy audit
+**Upgrade Qualifying Expenditure  HEAR Rebate Allocated HOMES Rebate   Remaining Household Expense after Rebate 25C Tax Credit  Net expense after applying rebate and tax credit**Home energy audit
 
 $450
 
@@ -297,7 +293,7 @@ $7,550
 
 **$7,196**
 
-### Related resources
+## Related resources
 
 Additional information on these credits can be found at[IRS.gov/HomeEnergy](https://www.irs.gov/credits-deductions/home-energy-tax-credits)and on the Treasury Department’s[Taxpayer Resource Hub](https://home.treasury.gov/ira-homeenergy).
 
@@ -309,7 +305,7 @@ By coordinating the use of these credits and rebates, American families will sav
 
 [2]The expanded 25C tax credit became applicable to property placed in service on or after January 1, 2023.
 
-[3]Contractors and installers** are**required to include DOE Home Energy Rebates paid directly to them in their taxable income.
+[3]Contractors and installers **are**required to include DOE Home Energy Rebates paid directly to them in their taxable income.
 
 [4]Individual states and territories, however, may limit eligibility to lower-income households.[The U.S. Department of Housing and Urban Development’s Office of Policy Development and Research](https://www.huduser.gov/portal/datasets/il.html#2021_query)provides information for understanding AMI.
 

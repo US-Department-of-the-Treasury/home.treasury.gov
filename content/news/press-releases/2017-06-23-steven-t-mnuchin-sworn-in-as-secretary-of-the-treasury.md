@@ -1,0 +1,27 @@
+---
+title: Steven T. Mnuchin Sworn in as Secretary of the Treasury
+date: 2017-06-23T12:58:35-04:00
+draft: false
+url: /news/press-releases/steven-t-mnuchin-sworn-in-as-secretary-of-the-treasury
+---
+​
+
+**WASHINGTON** — Steven T. Mnuchin was sworn in to serve as the 77th Secretary of the Treasury. In this role, Secretary Mnuchin will be the principal economic advisor to President Donald J. Trump on domestic and international financial, economic, and tax issues.  Secretary Mnuchin is responsible for the executive branch agency whose mission includes maintaining a strong economy, promoting conditions that enable job growth and stability, protecting the integrity of the financial system, strengthening national security, and managing the U.S. Government’s finances effectively.
+ 
+President Trump selected Mnuchin in November 2016 to serve as Secretary of the Treasury.  Secretary Mnuchin succeeds Jacob J. Lew, who served in the position under President Obama.
+
+### Biography of Secretary of the Treasury Steven Terner Mnuchin
+
+Steven Terner Mnuchin was sworn in as the 77th Secretary of the Treasury on February 13, 2017.
+
+As Secretary of the Treasury, Mr. Mnuchin is responsible for the executive branch agency whose mission is to maintain a strong economy, foster economic growth, and create job opportunities by promoting the conditions that enable prosperity and stability at home and abroad. He is also responsible for strengthening national security by combating economic threats and protecting the integrity of our financial system as well as managing the U.S. Government’s finances.
+ 
+Prior to his confirmation, Secretary Mnuchin was Finance Chairman for Donald J. Trump for President, Inc. In this role he spent the last year traveling with the President. He met with hundreds of business leaders. He also served as a Senior Economic Advisor to the President in crafting his economic positions and economic speeches.
+ 
+Prior to his confirmation he also served as Founder, Chairman, and Chief Executive Officer of Dune Capital Management. He also founded OneWest Bank Group LLC and served as its Chairman and Chief Executive Officer until its sale to CIT Group Inc. was the first bank merger over 50 billion dollars post financial crisis.
+ 
+Earlier in his career, Secretary Mnuchin worked at The Goldman Sachs Group, Inc. where he was a Partner and served as Chief Information Officer.  He has extensive experience in global financial markets and oversaw trading in U.S. government securities, mortgages, money markets, and municipal bonds.
+ 
+Secretary Mnuchin is committed to philanthropic activities and previously served as a Member of the Boards of the Museum of Contemporary Art Los Angeles (MOCA), the Whitney Museum of Art, the Hirshhorn Museum and Sculpture Garden on the Mall, the UCLA Health System Board, the New York Presbyterian Hospital Board, and the Los Angeles Police Foundation. He was born and raised in New York City. Secretary Mnuchin holds a Bachelor’s Degree from Yale University.
+ 
+####

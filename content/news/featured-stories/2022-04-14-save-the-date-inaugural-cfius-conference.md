@@ -1,6 +1,6 @@
 ---
 title: 'Save the Date: Inaugural CFIUS Conference '
-date: 2022-04-14
+date: 2022-04-14T15:43:02-04:00
 draft: false
 url: /news/featured-stories/save-the-date-inaugural-cfius-conference
 ---

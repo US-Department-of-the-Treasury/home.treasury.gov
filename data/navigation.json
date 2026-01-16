@@ -455,9 +455,10 @@
           ]
         },
         {
-          "heading": "TWITTER",
+          "heading": "CONNECT",
           "links": [
-            {"title": "View All Tweets", "url": "https://twitter.com/USTreasury"}
+            {"title": "@USTreasury on X", "url": "https://twitter.com/USTreasury"},
+            {"title": "Subscribe to Updates", "url": "https://public.govdelivery.com/accounts/USTREAS/subscriber/new"}
           ]
         }
       ]
@@ -513,11 +514,11 @@
   },
   "news_sidebar": [
     {"title": "Press Releases", "url": "/news/press-releases", "active": true},
-    {"title": "Statements & Remarks", "url": "https://home.treasury.gov/news/press-releases/statements-remarks", "indent": true},
-    {"title": "Readouts", "url": "https://home.treasury.gov/news/press-releases/readouts", "indent": true},
-    {"title": "Testimonies", "url": "https://home.treasury.gov/news/press-releases/testimonies", "indent": true},
-    {"title": "Featured Stories", "url": "https://home.treasury.gov/news/featured-stories"},
-    {"title": "Webcasts", "url": "https://home.treasury.gov/news/webcasts"},
-    {"title": "Press Contacts", "url": "https://home.treasury.gov/news/contacts-for-members-of-the-media"}
+    {"title": "Statements & Remarks", "url": "/news/statements-remarks/", "indent": true},
+    {"title": "Readouts", "url": "/news/readouts/", "indent": true},
+    {"title": "Testimonies", "url": "/news/testimonies/", "indent": true},
+    {"title": "Featured Stories", "url": "/news/featured-stories/"},
+    {"title": "Webcasts", "url": "/news/webcasts/"},
+    {"title": "Press Contacts", "url": "/news/contacts-for-members-of-the-media/"}
   ]
 }

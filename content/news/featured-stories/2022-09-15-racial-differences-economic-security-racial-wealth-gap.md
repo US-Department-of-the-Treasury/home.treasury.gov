@@ -1,6 +1,6 @@
 ---
 title: 'Racial Differences in Economic Security: The Racial Wealth Gap'
-date: 2022-09-15
+date: 2022-09-15T14:41:29-04:00
 draft: false
 url: /news/featured-stories/racial-differences-economic-security-racial-wealth-gap
 ---
@@ -8,7 +8,7 @@ url: /news/featured-stories/racial-differences-economic-security-racial-wealth-g
 
 This summer the Treasury Department initiated a blog series focusing on economic issues surrounding racial equity. This post is the second blog entry in this series, focusing on the racial wealth gap as a key component to assessing economic security. Indeed, racial differences in household wealth are some of the most visible and impactful manifestations of racial inequality in the United States. Unfortunately, as we describe below, racial wealth gaps continue to persist—threatening the economic security of impacted families and weakening the economy as a whole.
 
-### The Importance of Wealth for Economic Security
+## The Importance of Wealth for Economic Security
 
 Wealth is defined as the total financial value of what an individual or household owns (assets) minus all debts (liabilities). Assets include the value of a home and other physical assets, retirement savings, other financial investments, cash, and money in the bank. Liabilities include home mortgages, auto loans, credit card debt, student debt, and other types of debt and money owed. Wealth is distinct from income received from working or investments. Households can turn income into wealth by saving or investing.
 
@@ -18,7 +18,7 @@ Research indicates that there are long-lasting advantages of wealth accumulation
 
 Furthermore, the benefits of wealth extend beyond economic security to health and psychological well-being. Negative wealth shocks have been shown to significantly reduce physical and mental health and survival rates among elderly adults, with psychological stress stemming from wealth loss as a key mechanism.[6]Wealth may also affect health through access to the high-quality healthcare it affords.
 
-### Racial Wealth Gaps Today and Over Time
+## Racial Wealth Gaps Today and Over Time
 
 The fundamental importance of wealth for economic security and general wellbeing makes the large disparities in wealth by race a serious concern for the economic health of families and the U.S. economy as a whole. Using data from the Survey of Consumer Finances (SCF), researchers at the Federal Reserve Bank of St. Louis find that the median white family had $184,000 in wealth in 2019 compared to just $38,000 and $23,000 for the median Hispanic and Black families, respectively (see Figure 1). Moreover, their analysis shows that the median wealth gap between white and Black families has hardly changed over the last 20 years. Meanwhile, the gap between white and Hispanic families has improved slightly, but it remains large.[7]
 
@@ -38,7 +38,7 @@ Concerningly, research indicates that, under current conditions, the racial weal
 
 Research on this and other important questions related to the wealth gap requires better data on wealth and the differences in economic outcomes by race and ethnicity. Wealth is inherently difficult to measure, and race has become more challenging to measure over time as Americans are increasingly likely to self-identify as belonging to more than one race. In conjunction with more research, more high-quality, publicly available data are needed to help craft well-informed policy solutions aimed at reducing these persistent disparities.
 
-### Addressing Racial Differences in Wealth will Benefit All Americans
+## Addressing Racial Differences in Wealth will Benefit All Americans
 
 The racial gaps in economic security in the United States are stark and have been exacerbated by policies that hinder people of color from building wealth. Moreover, inequitable policies and practices that prevent wealth-building by some groups have been shown to negatively impact economic security for all.
 

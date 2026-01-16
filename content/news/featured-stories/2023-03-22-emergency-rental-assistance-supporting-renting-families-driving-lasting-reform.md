@@ -1,12 +1,10 @@
 ---
 title: 'Emergency Rental Assistance: Supporting Renting Families, Driving Lasting Reform'
-date: 2023-03-22
+date: 2023-03-22T09:10:00-04:00
 draft: false
 url: /news/featured-stories/emergency-rental-assistance-supporting-renting-families-driving-lasting-reform
 ---
-**Jacob Leibenluft, Chief Recovery Officer**
-
-COVID-19 pushed families across the country to fall behind on their rent—many of whom already struggled with the cost of housing.  At the end of 2020, nearly a fifth of renting households reported being behind on rent. One in six reported that eviction within two months was very likely.
+**Jacob Leibenluft, Chief Recovery Officer**COVID-19 pushed families across the country to fall behind on their rent—many of whom already struggled with the cost of housing.  At the end of 2020, nearly a fifth of renting households reported being behind on rent. One in six reported that eviction within two months was very likely.
 
 Research has made clear the grave consequences of eviction for families.  Evictions can interrupt school and work, undermine physical and mental health, and make it more challenging to qualify for housing assistance benefits or find new housing.  Eviction can cause tenants to lose possessions, or face food insecurity.[1]As the pandemic destabilized life for many Americans, these risks grew even more serious.
 
@@ -16,11 +14,11 @@ According to the data released by the Treasury Department today, as of the end o
 
 For renting families, the impact of these efforts has been enormous.  In conjunction with other policies the Biden-Harris Administration has pursued, ERA helped to keep more than a million Americans in their homes in 2021 alone.[2]Assistance has benefited marginalized communities in particular: extremely low-income renters have received close to two-thirds of ERA assistance, while Black families have received 46 percent, and female renters have received nearly 70 percent.[3]
 
-We know there is more to do to keep renters in their homes, and more to do to administer ERA.  But even so, over the past two years, ERA’s impact is clear.  As Matthew Desmond—the author of* Evicted *and founder of Princeton University’s Eviction Lab—has reflected:
+We know there is more to do to keep renters in their homes, and more to do to administer ERA.  But even so, over the past two years, ERA’s impact is clear.  As Matthew Desmond—the author of *Evicted* and founder of Princeton University’s Eviction Lab—has reflected:
 
 The Emergency Rental Assistance Program along with the federal eviction moratorium formed the most important federal housing policy in the last decade.  These combined initiatives were the deepest investment in low-income renters the federal government has made since the nation launched its public housing system.
 
-### COVID-19’s Threat to Families in Rental Housing
+## COVID-19’s Threat to Families in Rental Housing
 
 Even before COVID-19 emerged, Americans faced an eviction crisis rooted in the high cost of housing.  As of 2018, nearly half of renter households were cost-burdened, paying more than 30 percent of their income on rent, while one in four households below the poverty line spent more than 70 percent of their income on housing.  Evictions were frequent: between 2000 and 2016, Americans faced 3.6 million evictions each year on average, with seven evictions filed every minute in 2016.[4]Policy support for renters facing eviction—such as eviction diversion programs—was also relatively rare.
 
@@ -30,7 +28,7 @@ With so many renters unable to pay rent, landlords saw incomes fall, too—espec
 
 The pandemic thus put renters and landlords under enormous stress.  And while the federal eviction moratorium was a powerful stopgap tool for keeping Americans in their homes, it was only a temporary solution.  The moratorium gave many hard-pressed renter families with lost income more time to pay bills without fear of eviction.  But it did not directly assist renters as they tried to catch back up on payments.  Nor could it make their landlords whole, or help to repair the rent flows on which a functioning rental housing market ultimately relies.  As COVID-19 persisted, it was increasingly clear that low-income renters needed access to direct financial support if rental housing were to begin to stabilize and recover.
 
-### Standing Up ERA
+## Standing Up ERA
 
 Against this backdrop, Congress established the two component pieces of ERA: first, the initial $25 billion program in December 2020, now called ERA1, and then a $21.55 billion expansion as part of the American Rescue Plan, now called ERA2.  Tasked with administering these programs, Treasury confronted a race against the clock as millions of Americans faced the risk of eviction and landlords struggled with lost income.
 
@@ -41,7 +39,7 @@ These efforts positioned grantees to swiftly deliver rental assistance to renter
 - In Pierce County, WA, which had no pre-existing rental assistance program, ERA program leaders moved swiftly to stand up the County’s program.  To facilitate application processing, the County developed an online portal that opened in March 2021.  Pierce County hosted webinars with landlords and tenants, held events at public libraries and low-income housing facilities, and partnered with other jurisdictions and nonprofits to efficiently deliver assistance while limiting duplicative services.
 - The State of Alaska, the Municipality of Anchorage, and 15 agencies representing 148 Tribes collaboratively developed a standardized mobile-friendly application system.  They launched their application in mid-February 2021 and used five nonprofit providers from across the state to engage in outreach.  The collaborative planning and implementation approach led to one third of renters within Alaska applying to the program, with Alaska Native/American Indian renters representing 28 percent of applicants.
 
-### Leveraging Flexibilities to Reach Renters
+## Leveraging Flexibilities to Reach Renters
 
 Even as the first rental assistance payments began to reach renters and grantees developed experience and capacity, Treasury continued to strengthen its policy guidance.  We worked to provide programs an increasingly broad range of flexible tools to meet the need for assistance in their communities:
 
@@ -57,7 +55,7 @@ These flexibilities and outreach efforts led assistance expenditures to increase
 
 Because of these efforts, when the federal eviction moratorium was lifted in August 2021, grantees were positioned to respond rapidly.  Instead of the alarming spike in evictions that many feared, eviction filings remained below their historical averages.  Data from the Eviction Lab suggests that evictions remained roughly 23 percent below historic averages in the first full year following the end of the national eviction moratorium.
 
-### Accelerating Assistance through Reallocation
+## Accelerating Assistance through Reallocation
 
 As we reviewed grantees’ performance in 2021, it became clear that many had leveraged flexibilities and adopted best practices, allowing them to rapidly disburse assistance to renters in need.  Other grantees, however, struggled to implement successful program designs and had fallen off track, limiting access to assistance and creating risk that funds wouldn’t be promptly expended.  Further, in some cases, grantees received more funds than were realistically needed in their area over the short term, even if they had administered strong programs.
 
@@ -71,7 +69,7 @@ Treasury has also encouraged and prioritized voluntary reallocation—that is, a
 
 While we sought to route funds to areas with high demonstrated need and robust programs, Treasury also prioritized keeping funds within the states to which they were originally allocated.  We did so because when reallocated funds stay in an area, they frequently remain available to the same or a similar pool of renters.  For example, a slow-performing city might voluntarily reallocate funds to its state’s higher-performing program, or a state could reallocate unneeded funds to Tribal grantees.  In-state reallocation thus has promoted access to rental assistance in areas with governments that may have lost funds in our reallocation process due to their program performance.
 
-### A Legacy of Reform
+## A Legacy of Reform
 
 Today, ERA programs serve communities across the country, and Treasury is committed to working with grantees to continue ERA’s success as the programs move forward.  But even as ERA remains ongoing, we can already start to see the legacy that this investment in housing stability will leave behind.
 
@@ -88,7 +86,7 @@ Each of these programs or policies represents a critical protection for renters 
 
 President Biden’s Budget also provides $3 billion for efforts to build on ERA and further build out eviction infrastructure.  It includes funding for eviction diversion programs, rental assistance, expanded access to counsel, and other resources for tenants facing eviction.
 
-*          *          *
+* * *
 
 Throughout ERA, renters have been the most important witnesses to the impact of the program for families.  One renter told a grantee that “[r]ent help saved me and my kids from being out in the cold and homeless.”  Another said that “[w]ithout you, I couldn’t have continued my cancer treatment, if I had become homeless.”  As we reflect back on ERA, we remember that these stories are the ultimate measure of the program, as well as critical illustrations of the importance of housing stability to families.
 
@@ -98,16 +96,16 @@ Looking ahead, we know important work remains, both to support grantees througho
 
  
 
-[1]* See, e.g*., Matthew Desmond,* Evicted *(New York: 2016), 295-99 (summarizing research on toll of eviction).
+[1]*See, e.g*., Matthew Desmond,*Evicted *(New York: 2016), 295-99 (summarizing research on toll of eviction).
 
 [2]Peter Hepburn et al., Eviction Lab, “Preliminary Analysis: Eviction Filing Patterns in 2021” (Mar. 8, 2022),[https://evictionlab.org/us-eviction-filing-patterns-2021/](https://evictionlab.org/us-eviction-filing-patterns-2021/).
 
-[3]Office of Evaluation Sciences,* Equity in the Distribution of the Emergency Rental Assistance Program*(2022),[https://oes.gsa.gov/projects/era-equity/](https://oes.gsa.gov/projects/era-equity/).
+[3]Office of Evaluation Sciences,*Equity in the Distribution of the Emergency Rental Assistance Program*(2022),[https://oes.gsa.gov/projects/era-equity/](https://oes.gsa.gov/projects/era-equity/).
 
-[4]Emily Benfer et al.,* The COVID-19 Eviction Crisis: An Estimated 30-40 Million People in America Are at Risk*(Aug. 7, 2020),[https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf](https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf), 2.
+[4]Emily Benfer et al.,*The COVID-19 Eviction Crisis: An Estimated 30-40 Million People in America Are at Risk*(Aug. 7, 2020),[https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf](https://nlihc.org/sites/default/files/The_Eviction_Crisis_080720.pdf), 2.
 
-[5]* See *Consumer Financial Protection Bureau,* Housing Insecurity and the COVID-19 Pandemic *(Mar. 2021),[https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf](https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf), 6, 15.
+[5]*See *Consumer Financial Protection Bureau,*Housing Insecurity and the COVID-19 Pandemic *(Mar. 2021),[https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf](https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf), 6, 15.
 
-[6]Elijah de la Campa, Vincent J. Reina & Christopher Herbert,* How Are Landlords Faring During the Pandemic?*(Aug. 2021),[https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf](https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf), 2.
+[6]Elijah de la Campa, Vincent J. Reina & Christopher Herbert,*How Are Landlords Faring During the Pandemic?*(Aug. 2021),[https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf](https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_covid_impact_landlords_survey_de_la_campa_2021_2.pdf), 2.
 
-[7]* See *National Low Income Housing Coalition, ERASE State and Local Tenant Protections Database,[https://nlihc.org/tenant-protections](https://nlihc.org/tenant-protections).
+[7]*See *National Low Income Housing Coalition, ERASE State and Local Tenant Protections Database,[https://nlihc.org/tenant-protections](https://nlihc.org/tenant-protections).

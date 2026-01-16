@@ -1,6 +1,6 @@
 ---
 title: Treasury Department Announces Inaugural Members of Formal Advisory Committee on Racial Equity
-date: 2022-10-04
+date: 2022-10-04T08:46:23-04:00
 draft: false
 url: /news/featured-stories/treasury-department-announces-inaugural-members-of-formal-advisory-committee-on-racial-equity
 ---

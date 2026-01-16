@@ -1,6 +1,6 @@
 ---
 title: Community Finance Policy
-date: 2022-12-01
+date: 2022-12-01T12:15:00-05:00
 draft: false
 url: /news/featured-stories/community-finance-policy
 ---
@@ -26,23 +26,15 @@ In addition to deploying tens of billions of dollars in partnership with CDFIs a
 
 Taken together, these data-driven policies will help direct federal funding to institutions that best serve financially underserved communities. They can also be a model for private, socially minded capital investments.
 
-***
-
 The private sector has also stepped up its efforts to support CDFIs and MDIs. In July, Vice President Harris announced the formation of the Economic Opportunity Coalition (EOC) – a group of companies and social-sector organizations working together to advance racial and economic equity. That group came together out of conversations that began at last year’s Freedman’s Bank Forum, and they reconvened again this year to share their progress.
 
 At the Freedman’s Bank Forum this year, EOC members including Bank of America, Intercontinental Exchange, Next Street, PayPal, and Wells Fargo announced that they will be moving more than $550 million in new deposits into MDIs to increase access to affordable capital in communities of color. This initial tranche will set them on the path to meet a larger commitment to move $1 billion in deposits into these institutions and will augment the investments the Administration has made through ECIP. These steps demonstrate the meaningful progress we can make when the public and private sectors both support communities of color and expand financial opportunity in under-resourced communities.
-
-***
 
 Moving forward, one important way the Administration’s efforts can help guide this discussion is by making available some of the data we’ve collected on CDFIs and MDIs in the process of implementing these programs. Private-sector organizations may find Treasury’s approach to impact assessment informative. In that spirit, for the first time, Treasury is publicly sharing examples of[ECIP applicants that provided definitive data that demonstrates strong track records in deep-impact lending](https://home.treasury.gov/system/files/136/ECIP-Impact-Document.pdf).[1]Deep-impact lending includes, for example, loans to low-income borrowers and underserved small businesses, for deeply affordable housing, and in persistent-poverty communities.
 
 These metrics are part of the framework Treasury has developed to provide clarity about the purpose and economic impact of community development investment. We believe robust program implementation requires attention to data to help ensure funds go where they will have the greatest impact and meet the needs of underserved communities. Treasury also recognizes that this framework may help private investors understand how to target their support for CDFIs and MDIs
 
-***
-
 Just as we are in a transformational moment for community investing policy and practice, we are in a similarly transformational moment for climate-focused investment.  The Inflation Reduction Act made available historic resources to address climate change. Nearly three quarters of the Inflation Reduction Act’s $369 billion climate change investment - $270 billion – is delivered via tax incentives, putting Treasury at the forefront of this landmark law.  Treasury is working expeditiously to implement the law’s tax provisions and investment programs so the climate and economic benefits of this historic legislation can be felt as quickly as possible. We are also working to develop frameworks for measuring the impact and value of climate investment, as well as to create the systems for gathering the data required by those frameworks. In order to identify best practices and encourage public-private partnerships, the CDFI Fund will be engaging with CDFIs that finance climate-resilience activities and will commission research to inform an approach to climate resilience in CDFI Fund programs and data collection.
-
-***
 
 [Through the implementation of the American Rescue Plan](https://home.treasury.gov/news/press-releases/jy0709), Treasury’s policies have supported an equitable recovery from the economic impacts of the COVID crisis.  Building on that experience we plan to continue to put equity at the heart of our work to implement new legislation, like the Inflation Reduction Act, and to collaborate with the private sector to build a more inclusive economy.
 

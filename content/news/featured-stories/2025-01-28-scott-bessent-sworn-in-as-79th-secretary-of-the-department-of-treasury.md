@@ -1,6 +1,6 @@
 ---
 title: Scott Bessent sworn in as 79th Secretary of the Department of Treasury
-date: 2025-01-28
+date: 2025-01-28T17:10:00-05:00
 draft: false
 url: /news/featured-stories/scott-bessent-sworn-in-as-79th-secretary-of-the-department-of-treasury
 ---

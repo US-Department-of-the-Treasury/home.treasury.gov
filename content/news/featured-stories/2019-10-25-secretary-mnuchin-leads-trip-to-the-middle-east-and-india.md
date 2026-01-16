@@ -1,12 +1,12 @@
 ---
 title: Secretary Mnuchin Leads Trip to the Middle East and India
-date: 2019-10-25
+date: 2019-10-25T10:08:50-04:00
 draft: false
 url: /news/featured-stories/secretary-mnuchin-leads-trip-to-the-middle-east-and-india
 ---
 *Treasury delegation to Israel, Saudi Arabia, UAE, India and Qatar will advance AML/CFT priorities, strengthen bilateral economic and trade relationships, and further cooperation in support of market-oriented, pro-growth economic policies.*
 
-**WASHINGTON **– The U.S. Department of the Treasury today announced some of the key engagements that will occur during Secretary Steven T. Mnuchin’s upcoming trip to the Middle East and India. Secretary Mnuchin, accompanied by Senior Advisor to the President Jared Kushner, Under Secretary for International Affairs Brent McIntosh and Assistant Secretary for Terrorist Financing and Financial Crimes Marshall Billingslea, will lead a delegation to discuss important national security initiatives to combat terrorism and illicit finance, strengthen bilateral economic partnerships, and promote economic growth.
+**WASHINGTON** – The U.S. Department of the Treasury today announced some of the key engagements that will occur during Secretary Steven T. Mnuchin’s upcoming trip to the Middle East and India. Secretary Mnuchin, accompanied by Senior Advisor to the President Jared Kushner, Under Secretary for International Affairs Brent McIntosh and Assistant Secretary for Terrorist Financing and Financial Crimes Marshall Billingslea, will lead a delegation to discuss important national security initiatives to combat terrorism and illicit finance, strengthen bilateral economic partnerships, and promote economic growth.
 
 “Our trip will include official meetings and events with leaders from Israel, Saudi Arabia, the UAE, India and Qatar, and focus on combatting terrorism and illicit finance, while also strengthening bilateral economic relations,” said Secretary Mnuchin. “We look forward to engaging with our partners across the Middle East and in India to confront Iran’s malign and destabilizing influence, strengthen our joint efforts to combat terrorism financing networks, and create economic conditions that foster growth and promote prosperity for people around the world.”
 
@@ -18,21 +18,21 @@ While in India the Secretary and delegation members will also conduct bilateral 
 
 A partial itinerary of the Secretary’s schedule is included below:
 
-Monday, October 28, 2019** Tel Aviv, Israel **– Secretary Mnuchin and the delegation will participate in a series of meetings and events in Israel, including bilateral meetings with Prime Minister Benjamin Netanyahu as well as other senior government officials to discuss terrorist financing, economic cooperation and national security issues.
+Monday, October 28, 2019**Tel Aviv, Israel**– Secretary Mnuchin and the delegation will participate in a series of meetings and events in Israel, including bilateral meetings with Prime Minister Benjamin Netanyahu as well as other senior government officials to discuss terrorist financing, economic cooperation and national security issues.
 
-Tuesday, October 29, 2019** Tel Aviv, Israel and Riyadh, Saudi Arabia **– Secretary Mnuchin and the delegation will participate in a roundtable with biotech and health industry leaders in Tel Aviv and will have bilateral meetings with official government counterparts in Saudi Arabia to discuss counterterrorism and economic topics.
+Tuesday, October 29, 2019**Tel Aviv, Israel and Riyadh, Saudi Arabia**– Secretary Mnuchin and the delegation will participate in a roundtable with biotech and health industry leaders in Tel Aviv and will have bilateral meetings with official government counterparts in Saudi Arabia to discuss counterterrorism and economic topics.
 
-Wednesday, October 30, 2019** Riyadh, Saudi Arabia **– Secretary Mnuchin will participate in a panel on capital markets development at the Future Investment Initiative conference. The Secretary and the delegation will also meet with senior government officials, including Minister of Finance Mohammed Al-Jadaan, to discuss mutual counterterrorism and illicit finance priorities including the TFTC, and will participate in official events.
+Wednesday, October 30, 2019**Riyadh, Saudi Arabia**– Secretary Mnuchin will participate in a panel on capital markets development at the Future Investment Initiative conference. The Secretary and the delegation will also meet with senior government officials, including Minister of Finance Mohammed Al-Jadaan, to discuss mutual counterterrorism and illicit finance priorities including the TFTC, and will participate in official events.
 
-Thursday, October 31, 2019** Abu Dhabi**, United Arab Emirates – Secretary Mnuchin and the delegation will meet with official government counterparts in U.A.E, including Crown Prince Mohammed Bin Zayed, to discuss national security and collaboration on illicit finance issues. Secretary Mnuchin and the delegation will also participate in a dinner with business leaders.
+Thursday, October 31, 2019**Abu Dhabi**, United Arab Emirates – Secretary Mnuchin and the delegation will meet with official government counterparts in U.A.E, including Crown Prince Mohammed Bin Zayed, to discuss national security and collaboration on illicit finance issues. Secretary Mnuchin and the delegation will also participate in a dinner with business leaders.
 
-Friday, November 1, 2019** New Dehli, India**– Secretary Mnuchin and the delegation will participate in the Ministerial meeting of the U.S.  – India Economic and Financial Partnership and conduct bilateral meetings on economic issues.
+Friday, November 1, 2019**New Dehli, India**– Secretary Mnuchin and the delegation will participate in the Ministerial meeting of the U.S.  – India Economic and Financial Partnership and conduct bilateral meetings on economic issues.
 
-Saturday, November 2, 2019** Mumbai, India **– Secretary Mnuchin and the delegation will participate in official meetings and events including roundtable discussions with Indian business leaders.
+Saturday, November 2, 2019**Mumbai, India**– Secretary Mnuchin and the delegation will participate in official meetings and events including roundtable discussions with Indian business leaders.
 
-Sunday, November 3, 2019** Doha, Qatar **– Secretary Mnuchin and the delegation will meet with the Amir of Qatar, Sheikh Tamim Bin Hamad Al-Thani, Prime Minister Abdullah Bin Nasser Bin Khalifa Al-Thani and other senior Qatari officials to discuss collaborative efforts to counter terrorism finance networks and strengthen Qatar’s AML/CFT regime.
+Sunday, November 3, 2019**Doha, Qatar**– Secretary Mnuchin and the delegation will meet with the Amir of Qatar, Sheikh Tamim Bin Hamad Al-Thani, Prime Minister Abdullah Bin Nasser Bin Khalifa Al-Thani and other senior Qatari officials to discuss collaborative efforts to counter terrorism finance networks and strengthen Qatar’s AML/CFT regime.
 
-Monday, November 4, 2019** Doha, Qatar **– Secretary Mnuchin and the delegation will participate in bilateral meetings with official government counterparts.
+Monday, November 4, 2019**Doha, Qatar**– Secretary Mnuchin and the delegation will participate in bilateral meetings with official government counterparts.
 
-* NOTE: Details are subject to change.*
+*NOTE: Details are subject to change.*
 

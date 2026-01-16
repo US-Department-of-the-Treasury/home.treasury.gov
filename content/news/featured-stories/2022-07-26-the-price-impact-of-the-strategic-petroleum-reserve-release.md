@@ -1,6 +1,6 @@
 ---
 title: The Price Impact of the Strategic Petroleum Reserve Release
-date: 2022-07-26
+date: 2022-07-26T11:07:08-04:00
 draft: false
 url: /news/featured-stories/the-price-impact-of-the-strategic-petroleum-reserve-release
 ---
@@ -18,10 +18,6 @@ We consider large and small options for the demand elasticities, or the response
 
 It is unclear how much of these changes in oil prices were passed through to retail gasoline and diesel prices. In general, we would expect one-for-one passthrough: a $1 per barrel decrease in crude would lower the price of gasoline by $1 per barrel, equal to $0.024 per gallon, since there are 42 gallons of gasoline per barrel. However, recently refining markets have been very tight, and it’s possible that a $1 change in crude oil would not lead to an equal decline in the retail price of gasoline. The following table summarizes estimated impacts of the SPR releases on gasoline prices, assuming full pass-through:
 
- 
-
- 
-
 Demand elasticities
 
 Newell and Prest (2017)
@@ -38,18 +34,4 @@ $0.13-$0.31
 
 $0.33
 
-**U.S. + IEA**
-
-**$0.17-$0.42**
-
-**$0.38**
-
- 
-
- 
-
- 
-
- 
-
-** As shown in the table above, our analysis suggests that President Biden’s historic SPR release, in coordination with IEA partners, lowered the price of gasoline by 17 cents to 42 cents per gallon, with an alternate approach suggesting a point estimate of 38 cents per gallon.**This decline in prices had meaningful benefits for American consumers and helped to mitigate the impacts of rising gas prices on economywide inflation. Moving forward, the Biden Administration is committed to further addressing concerns about rising energy prices.
+**U.S. + IEA $0.17-$0.42 $0.38  As shown in the table above, our analysis suggests that President Biden’s historic SPR release, in coordination with IEA partners, lowered the price of gasoline by 17 cents to 42 cents per gallon, with an alternate approach suggesting a point estimate of 38 cents per gallon.**This decline in prices had meaningful benefits for American consumers and helped to mitigate the impacts of rising gas prices on economywide inflation. Moving forward, the Biden Administration is committed to further addressing concerns about rising energy prices.

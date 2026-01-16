@@ -1,6 +1,6 @@
 ---
 title: Treasury Targets Oil Network Generating Hundreds of Millions of Dollars for Iran’s Military
-date: 2025-02-08
+date: 2025-02-08T16:05:50-05:00
 draft: false
 url: /news/featured-stories/treasury-targets-oil-network-generating-hundreds-of-millions-of-dollars-for-irans-military
 ---
@@ -14,51 +14,49 @@ Today’s action is being taken pursuant to the counterterrorism authority Execu
 
 OFAC designated Sepehr Energy pursuant to E.O. 13224, as amended, on[November 29, 2023](https://home.treasury.gov/news/press-releases/jy1932), for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, Iran’s Ministry of Defense and Armed Forces Logistics (MODAFL). OFAC designated MODAFL pursuant to E.O. 13224 on[March 26, 2019](https://home.treasury.gov/news/press-releases/sm639)for providing material support to Iran’s Islamic Revolutionary Guard Corps-Qods Force. On October 11, 2024, the Secretary of the Treasury identified the petroleum and petrochemical sectors of the Iranian economy as subject to sanctions pursuant to section 1(a)(i) of E.O. 13902.
 
-### THE SIRI
+## THE SIRI
 
 Sepehr Energy and its affiliate companies, which operate under the umbrella of the AFGS, use deceitful evasion methods such as falsification of maritime documents to obfuscate the Iranian origin of the oil that it trades and transports to overseas buyers, including the PRC. This revenue stream generates billions of dollars for the AFGS each year, which is used to fund Iran’s military and proxies and their destabilizing activities around the world.
 
-The Comoros-flagged and sanctioned oil tanker ANTHEA (IMO: 9281683), currently known as the**SIRI**, is operating off the coast of Singapore laden with millions of barrels of Iranian crude oil in the interest of Sepehr Energy and the AFGS. The SIRI is obfuscating its identity by operating as the NEW PRIME. Iranian national** Arash Lavian**(Lavian) serves as the SIRI’s master and has taken steps to falsify shipping documents and physically hide the true name of the SIRI to conceal that the vessel is sanctioned.
+The Comoros-flagged and sanctioned oil tanker ANTHEA (IMO: 9281683), currently known as the **SIRI**, is operating off the coast of Singapore laden with millions of barrels of Iranian crude oil in the interest of Sepehr Energy and the AFGS. The SIRI is obfuscating its identity by operating as the NEW PRIME. Iranian national **Arash Lavian**(Lavian) serves as the SIRI’s master and has taken steps to falsify shipping documents and physically hide the true name of the SIRI to conceal that the vessel is sanctioned.
 
 Arash Lavian is being designated pursuant to E.O. 13224, as amended, for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, Sepehr Energy. OFAC is also updating the Specially Designated Nationals and Blocked Persons List (SDN List) to reflect that the ANTHEA now operates as the SIRI.
 
-India-based crew management company** Marshal Ship Management Private Limited**, which maintains additional offices in the Philippines and the UAE, provided crew members for the SIRI, as well as multiple other Sepehr Energy-linked ships, including the sanctioned vessels ELSA (IMO: 9256468), HEBE (IMO: 9259185), and BOREAS (IMO: 9248497). Crew members provided by Marshal Ship Management Private Limited have aided Sepehr Energy in falsifying shipping documents and presenting those documents to port authorities.
+India-based crew management company **Marshal Ship Management Private Limited**, which maintains additional offices in the Philippines and the UAE, provided crew members for the SIRI, as well as multiple other Sepehr Energy-linked ships, including the sanctioned vessels ELSA (IMO: 9256468), HEBE (IMO: 9259185), and BOREAS (IMO: 9248497). Crew members provided by Marshal Ship Management Private Limited have aided Sepehr Energy in falsifying shipping documents and presenting those documents to port authorities.
 
-Indian national** Ryan Xavier Aranha **acts as a director for Marshal Ship Management Private Limited.
+Indian national **Ryan Xavier Aranha**acts as a director for Marshal Ship Management Private Limited.
 
 Marshal Ship Management Private Limited is being designated pursuant to E.O. 13224, as amended, for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, Sepehr Energy. Ryan Xavier Aranha is being designated for having acted or purported to act for or on behalf of, directly or indirectly, Marshal Ship Management Private Limited.
 
-### OTHER AFGS COMMERCIAL ACTIVITY
+## OTHER AFGS COMMERCIAL ACTIVITY
 
-Sanctioned Sepehr Energy official Elyas Niroomand Toomaj (Toomaj) continues to orchestrate illicit Iranian oil shipments on behalf of Sepehr Energy and the AFGS. In December 2024, Sepehr Energy and Toomaj shipped nearly two million barrels of Iranian heavy crude oil, worth over $100 million, aboard the Cameroon-flagged** OXIS**(IMO: 9224805), owned by Seychelles-based** Miletus Line Ltd**, for delivery to the PRC. Similarly, Sepehr Energy used the Panama-flagged** GIOIOSA**(IMO: 9198082), owned by Hong Kong-based** Gozoso Group Ltd**, to transport over 700,000 barrels of Iranian oil, worth tens of millions of dollars, for delivery to the PRC. Hong Kong-based** Ocean Dolphin Ship Management****Ltd** acted as the manager and operator of the GIOIOSA and Kazakhstan-based and Seychelles-registered**Umbra Navi Ship Management Corp**(Umbra Navi) acted as the technical manager of the OXIS during these shipments.
+Sanctioned Sepehr Energy official Elyas Niroomand Toomaj (Toomaj) continues to orchestrate illicit Iranian oil shipments on behalf of Sepehr Energy and the AFGS. In December 2024, Sepehr Energy and Toomaj shipped nearly two million barrels of Iranian heavy crude oil, worth over $100 million, aboard the Cameroon-flagged **OXIS** (IMO: 9224805), owned by Seychelles-based **Miletus Line Ltd**, for delivery to the PRC. Similarly, Sepehr Energy used the Panama-flagged **GIOIOSA** (IMO: 9198082), owned by Hong Kong-based **Gozoso Group Ltd**, to transport over 700,000 barrels of Iranian oil, worth tens of millions of dollars, for delivery to the PRC. Hong Kong-based **Ocean Dolphin Ship Management Ltd**acted as the manager and operator of the GIOIOSA and Kazakhstan-based and Seychelles-registered **Umbra Navi Ship Management Corp** (Umbra Navi) acted as the technical manager of the OXIS during these shipments.
 
 The OXIS and Umbra Navi were previously sanctioned by the Department of State pursuant to E.O. 14024 on[January 10, 2025](https://2021-2025.state.gov/office-of-the-spokesperson/releases/2025/01/sanctions-to-degrade-russias-energy-sector)for their role in a ship-to-ship transfer of Russian-origin crude oil benefitting U.S.-designated Joint Stock Company SOVCOMFLOT. Toomaj was designated alongside Sepehr Energy pursuant to E.O. 13224, as amended, for having acted or purported to act for or on behalf of, directly or indirectly, Sepehr Energy.
 
 Miletus Line Ltd, Gozoso Group Ltd, Ocean Dolphin Ship Management Ltd, and Umbra Navi are being designated pursuant to E.O. 13224, as amended, for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, Sepehr Energy. The OXIS and GIOIOSA are being identified pursuant to E.O. 13224, as amended, as blocked property in the interest of Miletus Line Ltd and Gozoso Group Ltd, respectively.
 
-### AFGS OVERSIGHT OF SEPEHR ENERGY AND ITS AFFILIATES
+## AFGS OVERSIGHT OF SEPEHR ENERGY AND ITS AFFILIATES
 
-The AFGS continues to directly oversee the operations of Sepehr Energy. AFGS Brigadier General** Jamshid Eshaghi**(Eshaghi) serves as the AFGS Office of Budget and Financial Affairs Chief and previously served as an official of Sepehr Energy. Eshaghi previously coordinated with the Islamic Revolutionary Guard Corps (IRGC) on the sale of Iranian crude oil to the PRC.
+The AFGS continues to directly oversee the operations of Sepehr Energy. AFGS Brigadier General **Jamshid Eshaghi**(Eshaghi) serves as the AFGS Office of Budget and Financial Affairs Chief and previously served as an official of Sepehr Energy. Eshaghi previously coordinated with the Islamic Revolutionary Guard Corps (IRGC) on the sale of Iranian crude oil to the PRC.
 
-Sepehr Energy is the parent company of several Iran-based companies operating in the Iranian oil sector:** Sepehr Energy Hamta Pars**,** Sepehr Energy Jahan Nama Taban**, and** Sepehr Energy Paya Gostar Jahan**, which share many of the same company officials. Like Sepehr Energy, these companies facilitate Iranian oil shipments on behalf of the AFGS. For example, in January 2025, Sepehr Energy Jahan Nama Taban arranged the shipment of nearly two million barrels of oil to the PRC via the OXIS.
-
-** Farshad Ghazi**serves as the managing director of Sepehr Energy Hamta Pars.** Farbod Mohseni Ahari**serves as the chairman of Sepehr Energy Paya Gostar Jahan.** Mohammad Ali Riazi Kolahdozmahaleh**has served as the chairman of the board of directors for multiple Sepehr Energy companies.
+Sepehr Energy is the parent company of several Iran-based companies operating in the Iranian oil sector: **Sepehr Energy Hamta Pars**, **Sepehr Energy Jahan Nama Taban**, and **Sepehr Energy Paya Gostar Jahan**, which share many of the same company officials. Like Sepehr Energy, these companies facilitate Iranian oil shipments on behalf of the AFGS. For example, in January 2025, Sepehr Energy Jahan Nama Taban arranged the shipment of nearly two million barrels of oil to the PRC via the OXIS. **Farshad Ghazi**serves as the managing director of Sepehr Energy Hamta Pars. **Farbod Mohseni Ahari**serves as the chairman of Sepehr Energy Paya Gostar Jahan. **Mohammad Ali Riazi Kolahdozmahaleh**has served as the chairman of the board of directors for multiple Sepehr Energy companies.
 
 Sepehr Energy Hamta Pars, Sepehr Energy Jahan Nama Taban, and Sepehr Energy Paya Gostar Jahan are being designated pursuant to E.O. 13224, as amended, for being owned, controlled, or directed by, directly or indirectly, Sepehr Energy. Farshad Ghazi, Farbod Mohseni Ahari, Jamshid Eshaghi, and Mohammad Ali Riazi Kolahdozmahaleh are being designated pursuant to E.O. 13224, as amended, for having acted or purported to act for or on behalf of, directly or indirectly, Sepehr Energy.
 
-### ADDITIONAL SHADOW FLEET DESIGNATIONS
+## ADDITIONAL SHADOW FLEET DESIGNATIONS
 
-The Panama-flagged** CH BILLION **(IMO: 9276585) and the Hong Kong-flagged** STAR FOREST**(IMO: 9237632) are being identified as blocked property for their role in transporting Iranian oil to the PRC. As recently as January 2025, these vessels onboarded Iranian crude oil from storage in the PRC, part of a scheme involving Iran’s military, which stands to profit from the sale of the oil on these vessels.
+The Panama-flagged **CH BILLION**(IMO: 9276585) and the Hong Kong-flagged **STAR FOREST**(IMO: 9237632) are being identified as blocked property for their role in transporting Iranian oil to the PRC. As recently as January 2025, these vessels onboarded Iranian crude oil from storage in the PRC, part of a scheme involving Iran’s military, which stands to profit from the sale of the oil on these vessels.
 
 CH BILLION and STAR FOREST have a history of transporting Iranian oil. In August 2024, the CH BILLION conducted a ship-to-ship transfer with the National Iranian tanker Company (NITC) tanker HEDY (IMO: 9212888) and received more than 600,000 barrels of Iranian crude oil. Over the past few years, the STAR FOREST has shipped over 100 million dollars’ worth of oil on behalf of the IRGC to the PRC.
 
-Hong Kong-based** Young Folks International Trading Co., Limited**is the registered owner, ship manager, and operator of the CH BILLION. PRC-based** Lucky Ocean Shipping Limited**is the operator and manager of the STAR FOREST.
+Hong Kong-based **Young Folks International Trading Co., Limited**is the registered owner, ship manager, and operator of the CH BILLION. PRC-based **Lucky Ocean Shipping Limited**is the operator and manager of the STAR FOREST.
 
 Young Folks International Trading Co., Limited and Lucky Ocean Shipping Limited are being designated pursuant to E.O. 13902 for operating in Iran’s petroleum sector.
 
 The CH BILLION is being identified as property in which Young Folks International Trading Co., Limited has an interest. STAR FOREST is being identified as property in which Lucky Ocean Shipping Limited has an interest.
 
-### SANCTIONS IMPLICATIONS
+## SANCTIONS IMPLICATIONS
 
 As a result of today’s action, all property and interests in property of the designated persons described above that are in the United States or in the possession or control of U.S. persons is blocked and must be reported to OFAC. In addition, any entities that are owned, directly or indirectly, individually or in the aggregate, 50 percent or more by one or more blocked persons are also blocked. Unless authorized by a general or specific license issued by OFAC or exempt, U.S. sanctions generally prohibit all transactions by U.S. persons or within (or transiting) the United States that involve any property or interests in property of designated or otherwise blocked persons.
 

@@ -1,12 +1,12 @@
 ---
 title: Under Secretary Mandelker Remarks at the 19th Annual International Conference on Counterterrorism
-date: 2019-09-11
+date: 2019-09-11T12:05:37-04:00
 draft: false
 url: /news/featured-stories/under-secretary-mandelker-remarks-at-the-19th-annual-international-conference-on-counterterrorism-0
 ---
 *Enhancing Counterterrorism Sanctions: Progress since 9/11 to Adapt to Evolving Threats*
 
-* As Delivered*
+*As Delivered*
 
 It is an honor to speak at the Annual International Conference on Counterterrorism.  It is particularly meaningful for me to speak before this audience on the anniversary of 9/11, as we pay tribute to the nearly 3,000 victims of the 9/11 attacks.
 
@@ -26,7 +26,7 @@ We have put aside whatever political differences our countries may have.  Toget
 
 We must perpetually evolve our fight against terrorists as we share tactics, strategies, and information to prevent another attack from ever occurring again.
 
-### Treasury’s History, Post-9/11 Mission Change, and TFI Today
+## Treasury’s History, Post-9/11 Mission Change, and TFI Today
 
 As the Under Secretary for Terrorism and Financial Intelligence, or TFI, it is my greatest honor to lead the U.S. Treasury Department’s efforts to counter terrorism around the world through the tools that we have to disrupt terrorist financing.
 
@@ -44,7 +44,7 @@ TFI took its current shape in the years following the 9/11 attacks.  Two weeks 
 
 This Executive Order has become the preeminent U.S. Government counterterrorism sanctions tool, and the Treasury and State Departments have used it to sanction over 1,500 individuals and entities involved in terrorism.  We have sanctioned thousands more under complementary authorities.  Our broad range of authorities and expertise, backed by intelligence, allows us to turn terrorist financiers into international pariahs overnight.
 
-### Examples of TFI Actions Under Trump Administration
+## Examples of TFI Actions Under Trump Administration
 
 Since the start of the Trump Administration, in our many sanctions programs, TFI has issued more than 190 tranches of sanctions targeting more than 2,600 individuals, entities, vessels, and aircraft.  This includes snapping back sanctions on the world’s largest state sponsor of terrorism, the Iranian regime.  In 2018, OFAC sanctioned more terrorists and supporters of terrorism than in any of the last 15 years.
 
@@ -64,7 +64,7 @@ These sanctions are demonstrably working.  Hizballah, which historically relied
 
 Employees of Hizballah’s media and military systems are also complaining of deep pay cuts.  This lack of funding ultimately degrades their malign influence, and is the direct result of our pressure on Iran and its terror proxies.
 
-### Network Sanctions Central to Counterterrorism Strategy
+## Network Sanctions Central to Counterterrorism Strategy
 
 In just the last three weeks, we have continued to ramp up the pressure across our counterterrorism portfolio, including Hizballah, HAMAS, and Iran’s other militant and terrorist proxies.  We also continue to target ISIS and Al-Qa’ida with a loud and steady drumbeat of impactful counterterrorism actions.
 
@@ -78,7 +78,7 @@ On September 4th, we also sanctioned another international network of close to 4
 
 In Spring 2019, this IRGC-Qods Force–run network sold hundreds of millions of dollars’ worth of Iranian oil predominantly to Syria.  Let me be clear: anyone who helps the IRGC and its Qods Force gain access to funds it uses to engage in its destructive behavior risks being sanctioned themselves.  And we will continue to work with banks and governments around the world to cut them off from the international financial system.
 
-### The Evolution of Counterterrorism Authorities
+## The Evolution of Counterterrorism Authorities
 
 As our capabilities for combating terror have improved, our terrorist adversaries have likewise changed tactics for financing and facilitating their attacks.
 
@@ -92,7 +92,7 @@ Third, we established an extremely important provision that empowers us to targe
 
 As part of this roll-out, Treasury and the State Department also announced the designation of 28 individuals and entities, representing leaders, operatives, and financiers, from 11 terrorist groups world-wide.
 
-### Digital Currencies: The Next Front in the Counterterrorism Fight?
+## Digital Currencies: The Next Front in the Counterterrorism Fight?
 
 Finally, before I conclude, I would like to address the issue of crypto or digital currencies.  Terrorist organizations and their supporters and sympathizers are constantly looking for new ways to raise and transfer funds without detection or tracking by law enforcement.  While most terrorist groups still primarily rely on the traditional financial system and cash to transfer funds, without the appropriate strong safeguards cryptocurrencies could become the next frontier.
 
@@ -100,7 +100,7 @@ Earlier this year, in February 2019, we saw HAMAS solicit bitcoin donations via 
 
 The digital asset industry has spent a tremendous amount of energy and expertise in developing new systems to transmit value.  That industry now needs to harness that technological expertise and apply it to the tough problems we need to solve in illicit finance – both because not doing so threatens national security, and because it is the only way for them to pass regulatory muster.  Absent appropriate safeguards to keep our nations and our communities safe from terrorists, rogue regimes, and others who threaten us, the U.S. will work with governments around the world to make sure that non-compliant networks and fintechs do not survive.
 
-### Conclusion
+## Conclusion
 
 Eighteen years ago, on that clear blue morning, we woke up in a very different world from that in which we now live.  In the years following 9/11, many cities were targets of similar acts of terrorism, from Madrid and London to Amman, Bali, and Mumbai.  Since that time, we have disrupted the ability of terrorists to get access to the financing they need to implement their vicious plans.  Not a single country can take this responsibility on alone.  We need venues like this conference and multinational coalitions to effectively stop terrorists and those who finance them.
 

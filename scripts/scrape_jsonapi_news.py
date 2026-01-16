@@ -21,7 +21,7 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Tuple
 from urllib.parse import urlencode
 
 import requests
@@ -29,7 +29,8 @@ from bs4 import BeautifulSoup
 
 # Configuration
 BASE_URL = "https://home.treasury.gov/jsonapi/node/news"
-CONTENT_DIR = Path(__file__).parent.parent / "content" / "news"
+DEFAULT_CONTENT_DIR = Path(__file__).parent.parent / "content" / "news"
+CONTENT_DIR = DEFAULT_CONTENT_DIR  # Can be overridden by --output-dir
 TIMEOUT = 30
 
 # News category mapping (name -> UUID from taxonomy_term/news_category)
@@ -52,18 +53,33 @@ HEADERS = {
 
 
 def html_to_markdown(html_content: str) -> str:
-    """Convert HTML content to clean Markdown."""
+    """Convert HTML content to clean Markdown with 508-compliant heading hierarchy.
+    
+    Ensures headings start at H2 (since H1 is reserved for page title) and
+    maintains proper sequential hierarchy (H2 → H3 → H4, no skips).
+    """
     if not html_content:
         return ""
     
     soup = BeautifulSoup(html_content, "html.parser")
     
-    # Process elements in order
-    # Headers
-    for i in range(1, 7):
-        for h in soup.find_all(f"h{i}"):
+    # Process headers - shift all up to ensure proper hierarchy
+    # Content headings should be H2+ (H1 is page title in Hugo template)
+    # H1 in content → H2, H2 → H2, H3 → H3, H4 → H3, etc.
+    heading_map = {
+        "h1": 2,  # H1 in content becomes H2
+        "h2": 2,  # H2 stays H2
+        "h3": 3,  # H3 stays H3
+        "h4": 3,  # H4 becomes H3 (avoid deep nesting)
+        "h5": 3,  # H5 becomes H3
+        "h6": 3,  # H6 becomes H3
+    }
+    
+    for tag_name, target_level in heading_map.items():
+        for h in soup.find_all(tag_name):
             text = h.get_text(strip=True)
-            h.replace_with(f"\n\n{'#' * i} {text}\n\n")
+            if text:
+                h.replace_with(f"\n\n{'#' * target_level} {text}\n\n")
     
     # Bold/Strong
     for tag in soup.find_all(["strong", "b"]):
@@ -159,6 +175,79 @@ def create_slug(path_alias: str) -> str:
     return slug or "untitled"
 
 
+def find_existing_content(content_dir: Path) -> dict:
+    """Build index of existing content for duplicate detection.
+    
+    Returns:
+        Dictionary with multiple indexes:
+        - 'urls': set of URL slugs
+        - 'release_numbers': set of press release numbers
+        - 'files': dict of filepath -> (date, slug)
+    """
+    index = {
+        "urls": set(),
+        "release_numbers": set(),
+        "files": {},
+    }
+    
+    for category_dir in content_dir.iterdir():
+        if not category_dir.is_dir():
+            continue
+        
+        for md_file in category_dir.glob("*.md"):
+            if md_file.name == "_index.md":
+                continue
+            
+            try:
+                with open(md_file, "r", encoding="utf-8") as f:
+                    content = f.read(2000)  # Only read front matter
+                
+                # Extract URL
+                url_match = re.search(r"^url:\s*(.+)$", content, re.MULTILINE)
+                if url_match:
+                    url = url_match.group(1).strip().strip("'\"")
+                    slug = url.rstrip("/").split("/")[-1].lower()
+                    index["urls"].add(slug)
+                
+                # Extract press release number
+                pr_match = re.search(r"^press_release_number:\s*(.+)$", content, re.MULTILINE)
+                if pr_match:
+                    pr_num = pr_match.group(1).strip().upper()
+                    index["release_numbers"].add(pr_num)
+                
+                # Track file
+                index["files"][str(md_file)] = md_file.stem
+                
+            except Exception:
+                continue
+    
+    return index
+
+
+def is_duplicate(item: dict, existing_index: dict) -> Tuple[bool, str]:
+    """Check if an item is a duplicate of existing content.
+    
+    Returns:
+        Tuple of (is_duplicate, reason)
+    """
+    attrs = item.get("attributes", {})
+    
+    # Check URL slug
+    path = attrs.get("path", {})
+    alias = path.get("alias", "") if isinstance(path, dict) else ""
+    if alias:
+        slug = alias.rstrip("/").split("/")[-1].lower()
+        if slug in existing_index["urls"]:
+            return True, f"URL slug '{slug}' already exists"
+    
+    # Check press release number
+    release_num = extract_release_number(alias)
+    if release_num and release_num.upper() in existing_index["release_numbers"]:
+        return True, f"Press release {release_num} already exists"
+    
+    return False, ""
+
+
 def fetch_news_items(
     category: str = None,
     limit: int = 100,
@@ -250,37 +339,89 @@ def fetch_news_items(
     return items[:limit]
 
 
-def determine_category(item: dict) -> str:
-    """Determine the category slug from the item's relationships."""
+def determine_category(item: dict, use_title_analysis: bool = True) -> str:
+    """Determine the category slug from the item's relationships and content.
+    
+    Priority order:
+    1. Drupal taxonomy category (most reliable)
+    2. Title keyword analysis (catches miscategorized content)
+    3. URL path analysis (fallback)
+    
+    Args:
+        item: The JSON API item
+        use_title_analysis: If True, also analyze title for category hints
+    """
+    attrs = item.get("attributes", {})
+    title = attrs.get("title", "").lower()
+    
+    # Method 1: Check Drupal taxonomy category (highest priority)
     rels = item.get("relationships", {})
     cat_rel = rels.get("field_news_news_category", {})
     cat_data = cat_rel.get("data", {})
     
+    drupal_category = None
     if cat_data:
         cat_uuid = cat_data.get("id", "")
-        return CATEGORY_UUID_TO_SLUG.get(cat_uuid, "press-releases")
+        drupal_category = CATEGORY_UUID_TO_SLUG.get(cat_uuid)
     
-    # Fallback: try to determine from path
-    attrs = item.get("attributes", {})
+    # Method 2: Title keyword analysis (catches miscategorized content)
+    title_category = None
+    if use_title_analysis:
+        if title.startswith("readout"):
+            title_category = "readouts"
+        elif (title.startswith("statement by") or 
+              title.startswith("joint statement") or
+              title.startswith("remarks by")):
+            title_category = "statements-remarks"
+        elif title.startswith("testimony") or "testifies" in title:
+            title_category = "testimonies"
+    
+    # Method 3: URL path analysis (fallback)
     path = attrs.get("path", {})
     alias = path.get("alias", "") if isinstance(path, dict) else ""
     
-    if "/press-releases/" in alias:
-        return "press-releases"
-    elif "/featured-stories/" in alias:
-        return "featured-stories"
-    elif "/statements-remarks/" in alias or "/readouts/" in alias:
-        return "readouts"
+    path_category = None
+    if "/featured-stories/" in alias:
+        path_category = "featured-stories"
+    elif "/readouts/" in alias:
+        path_category = "readouts"
+    elif "/statements-remarks/" in alias:
+        path_category = "statements-remarks"
     elif "/testimonies/" in alias:
-        return "testimonies"
+        path_category = "testimonies"
+    elif "/press-releases/" in alias:
+        path_category = "press-releases"
     
-    return "press-releases"
+    # Priority: title_category > drupal_category > path_category
+    # Title analysis catches items that Drupal miscategorized
+    if title_category:
+        return title_category
+    if drupal_category:
+        return drupal_category
+    if path_category:
+        return path_category
+    
+    return "press-releases"  # Default fallback
 
 
-def save_item(item: dict, category_override: str = None, skip_existing: bool = True) -> Optional[Path]:
-    """Save a news item as a Hugo markdown file.
+def save_item(
+    item: dict,
+    category_override: str = None,
+    skip_existing: bool = True,
+    existing_index: dict = None,
+    respect_drupal_url: bool = True,
+) -> Optional[Path]:
+    """Save a news item as a Hugo markdown file with 508-compliant formatting.
 
-    If skip_existing is True, existing files are not overwritten.
+    Args:
+        item: The JSON API item data
+        category_override: Force output to specific category folder
+        skip_existing: If True, don't overwrite existing files
+        existing_index: Pre-built index for fast duplicate detection
+        respect_drupal_url: If True, keep original Drupal URL; if False, use Hugo category
+        
+    Returns:
+        Path to saved file, or None if skipped
     """
     attrs = item.get("attributes", {})
     
@@ -314,8 +455,14 @@ def save_item(item: dict, category_override: str = None, skip_existing: bool = T
     release_number = extract_release_number(alias)
     slug = create_slug(alias)
     
-    # Determine category
-    category = category_override or determine_category(item)
+    # Determine category - use smart detection if no override
+    category = category_override or determine_category(item, use_title_analysis=True)
+    
+    # Check for duplicates using index if provided
+    if existing_index:
+        is_dup, reason = is_duplicate(item, existing_index)
+        if is_dup:
+            return None  # Skip duplicates silently
     
     # Create filename: YYYY-MM-DD-slug.md
     filename = f"{date_str}-{slug}.md"
@@ -428,8 +575,29 @@ Categories:
         action="store_true",
         help="Show what would be scraped without saving",
     )
+    parser.add_argument(
+        "--no-recategorize",
+        action="store_true",
+        help="Don't recategorize based on title analysis (use Drupal category as-is)",
+    )
+    parser.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Show detailed output including recategorization decisions",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        help="Output directory for content (default: content/news/)",
+    )
     
     args = parser.parse_args()
+    
+    # Override output directory if specified
+    global CONTENT_DIR
+    if args.output_dir:
+        CONTENT_DIR = Path(args.output_dir)
+        CONTENT_DIR.mkdir(parents=True, exist_ok=True)
     
     # Validate arguments
     if not args.category and not args.path_filter:
@@ -441,7 +609,15 @@ Categories:
     print(f"📁 Output: {CONTENT_DIR}")
     print()
     
+    # Build index of existing content for duplicate detection
+    print("📊 Building content index for duplicate detection...")
+    existing_index = find_existing_content(CONTENT_DIR)
+    print(f"   Found {len(existing_index['urls'])} existing URLs")
+    print(f"   Found {len(existing_index['release_numbers'])} existing press release numbers")
+    print()
+    
     total_saved = 0
+    total_duplicates = 0
     
     # Path filter mode: fetch all matching items regardless of category
     if args.path_filter:
@@ -493,25 +669,44 @@ Categories:
             else:
                 saved = 0
                 skipped = 0
+                recategorized = 0
                 for item in items:
                     try:
+                        # Determine actual category (may differ from output_category)
+                        actual_category = determine_category(item, use_title_analysis=True)
+                        if actual_category != output_category:
+                            recategorized += 1
+                        
                         filepath = save_item(
                             item,
-                            output_category,
+                            category_override=actual_category,  # Use detected category
                             skip_existing=not args.overwrite_existing,
+                            existing_index=existing_index,
                         )
                         if filepath is None:
                             skipped += 1
                         else:
                             saved += 1
+                            # Update index with new item
+                            attrs = item.get("attributes", {})
+                            path = attrs.get("path", {})
+                            alias = path.get("alias", "") if isinstance(path, dict) else ""
+                            if alias:
+                                slug = alias.rstrip("/").split("/")[-1].lower()
+                                existing_index["urls"].add(slug)
+                            release_num = extract_release_number(alias)
+                            if release_num:
+                                existing_index["release_numbers"].add(release_num.upper())
                     except Exception as e:
                         attrs = item.get("attributes", {})
                         title = attrs.get("title", "unknown")[:40]
                         print(f"   ⚠️ Error saving '{title}': {e}")
                 
-                print(f"   ✅ Saved {saved} new items to content/news/{output_category}/")
+                print(f"   ✅ Saved {saved} new items")
+                if recategorized:
+                    print(f"   🔄 Recategorized {recategorized} items based on title analysis")
                 if skipped:
-                    print(f"   ⏭️ Skipped {skipped} existing items")
+                    print(f"   ⏭️ Skipped {skipped} existing/duplicate items")
                 total_saved += saved
         else:
             print(f"   No items found matching {args.path_filter}")
@@ -562,25 +757,44 @@ Categories:
             
             saved = 0
             skipped = 0
+            recategorized = 0
             for item in items:
                 try:
+                    # Determine actual category based on content analysis
+                    actual_category = determine_category(item, use_title_analysis=True)
+                    if actual_category != category:
+                        recategorized += 1
+                    
                     filepath = save_item(
                         item,
-                        category,
+                        category_override=actual_category,  # Use detected category
                         skip_existing=not args.overwrite_existing,
+                        existing_index=existing_index,
                     )
                     if filepath is None:
                         skipped += 1
                     else:
                         saved += 1
+                        # Update index with new item
+                        attrs = item.get("attributes", {})
+                        path = attrs.get("path", {})
+                        alias = path.get("alias", "") if isinstance(path, dict) else ""
+                        if alias:
+                            slug = alias.rstrip("/").split("/")[-1].lower()
+                            existing_index["urls"].add(slug)
+                        release_num = extract_release_number(alias)
+                        if release_num:
+                            existing_index["release_numbers"].add(release_num.upper())
                 except Exception as e:
                     attrs = item.get("attributes", {})
                     title = attrs.get("title", "unknown")[:40]
                     print(f"   ⚠️ Error saving '{title}': {e}")
             
-            print(f"   ✅ Saved {saved} new items to content/news/{category}/")
+            print(f"   ✅ Saved {saved} new items")
+            if recategorized:
+                print(f"   🔄 Recategorized {recategorized} items based on title analysis")
             if skipped:
-                print(f"   ⏭️ Skipped {skipped} existing items")
+                print(f"   ⏭️ Skipped {skipped} existing/duplicate items")
             total_saved += saved
     
     print("\n" + "=" * 50)

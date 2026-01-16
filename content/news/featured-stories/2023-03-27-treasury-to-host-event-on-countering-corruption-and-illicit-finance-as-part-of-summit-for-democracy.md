@@ -1,6 +1,6 @@
 ---
 title: Treasury to Host Event on Countering Corruption and Illicit Finance as Part of Summit for Democracy
-date: 2023-03-27
+date: 2023-03-27T10:14:52-04:00
 draft: false
 url: /news/featured-stories/treasury-to-host-event-on-countering-corruption-and-illicit-finance-as-part-of-summit-for-democracy
 ---
@@ -22,8 +22,6 @@ Panel Discussion:
 - Lakshmi Kumar, Policy Director of Global Financial Integrity
 - Concepción Verdugo Yepes, IMF Senior Economist
 
-** WHEN:**Tuesday, March 28, 2023 at 10:30 AM ET
-
-** WHERE: **U.S. Department of the Treasury Cash Room, 1500 Pennsylvania Ave NW, Washington DC
+**WHEN:**Tuesday, March 28, 2023 at 10:30 AM ET**WHERE:**U.S. Department of the Treasury Cash Room, 1500 Pennsylvania Ave NW, Washington DC
 
 Media interested in attending this event should RSVP to[press@treasury.gov](mailto:press@treasury.gov).

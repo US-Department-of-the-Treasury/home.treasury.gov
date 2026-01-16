@@ -1,6 +1,6 @@
 ---
 title: 'Project Labor Agreements: A Best Practice for Clean Energy Projects Seeking to Meet IRA Wage and Apprenticeship Standards'
-date: 2024-06-18
+date: 2024-06-18T08:45:00-04:00
 draft: false
 url: /news/featured-stories/project-labor-agreements-a-best-practice-for-clean-energy-projects-seeking-to-meet-ira-wage-and-apprenticeship-standards
 ---
@@ -18,7 +18,7 @@ Both of our agencies encourage developers to consider[Project Labor Agreements](
 
 Based on public comments, and in consultation with the Department of Labor, the Treasury Department and the IRS recognize that PLAs can help taxpayers comply with the IRA’s PWA requirements. Accordingly, the final rules provide that taxpayers with qualifying PLAs in place will not have to pay penalties if the IRS finds that they have any PWA violations, as long as they promptly pay workers the back wages and interest that those workers are owed.  Additionally, the IRS will take into account whether a taxpayer has a qualifying PLA—and evidence, including statements from counterparties, of whether a qualifying PLA was complied with—when conducting audits.
 
-### PLAs Have Important Benefits for Workers and Project Developers
+## PLAs Have Important Benefits for Workers and Project Developers
 
 To qualify for the special provisions in the final rules, a PLA must meet certain requirements tailored to the unique context of the IRA’s PWA provisions. A qualifying PLA must, at a minimum:
 
@@ -35,7 +35,7 @@ Qualifying PLAs can help ensure compliance with PWA requirements while deliverin
 
 PLAs also provide other valuable benefits to taxpayers, project developers, employers, and workers. PLAs help to organize complex construction projects—as many IRA clean energy projects will be—and to ensure efficient and timely completion. For example, qualifying PLAs require no-strike, no-lockout clauses that help prevent costly delays associated with labor unrest. By requiring all parties to enter into one agreement that contains universal terms that govern construction work, PLAs can streamline the administration of large projects. At the same time, PLAs provide strong worker protections and enforcement mechanisms for addressing labor violations, can improve worker safety and health, and often contain terms that support programs that maintain and grow a diverse skilled workforce.
 
-### The Final Rules Include Special Provisions for the Use of PLAs to Help Ensure PWA Compliance
+## The Final Rules Include Special Provisions for the Use of PLAs to Help Ensure PWA Compliance
 
 Recognizing that PLAs may help taxpayers comply with the IRA’s PWA requirements, the final rules include special provisions for taxpayers using qualifying PLAs for the construction of clean energy projects.
 
@@ -45,6 +45,6 @@ In addition, the preamble to the final rules explains that the IRS will take int
 
 As described above, PLAs have built-in worker protections and enforcement mechanisms that will help taxpayers comply with the PWA requirements, including terms requiring the payment of prevailing wages and hiring of apprentices consistent with the PWA requirements. These built-in features can be a useful tool in ensuring compliance with the PWA requirements.
 
-### Conclusion
+## Conclusion
 
 The IRS takes enforcement of federal tax law seriously, including for the IRA tax credits’ PWA requirements, and the IRS is working on a memorandum of understanding with DOL to be signed by the end of the year to support the IRS’s efforts in ensuring compliance with the PWA requirements. PLAs help ensure the type of high-road labor practices that the PWA requirements in the IRA are trying to encourage, including the payment of prevailing wages and hiring of apprentices. PLAs provide benefits to taxpayers, project developers and workers alike.

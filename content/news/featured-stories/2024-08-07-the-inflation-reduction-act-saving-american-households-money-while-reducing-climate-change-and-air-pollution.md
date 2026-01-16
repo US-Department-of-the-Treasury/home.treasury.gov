@@ -1,6 +1,6 @@
 ---
 title: 'The Inflation Reduction Act: Saving American Households Money While Reducing Climate Change and Air Pollution'
-date: 2024-08-07
+date: 2024-08-07T08:01:06-04:00
 draft: false
 url: /news/featured-stories/the-inflation-reduction-act-saving-american-households-money-while-reducing-climate-change-and-air-pollution
 ---
@@ -12,7 +12,7 @@ Matthew Ashenfarb, Research Economist, Office of Climate & Energy Economics
 
 The Inflation Reduction Act, or IRA, extended and expanded[tax credits](https://www.energy.gov/sites/default/files/2023-02/Tax%20Credit%20Table.pdf)that help households invest in residential clean energy such as solar panels, as well as home energy efficiency. New[data from the Internal Revenue Service](https://www.irs.gov/statistics/soi-tax-stats-clean-energy-tax-credit-statistics)show that more than 3.4 million American families have already claimed more than $8 billion in residential clean energy and home energy efficiency credits against their 2023 federal income taxes, the first year that the IRA’s full adjustments to the value and scope of these tax credits were in effect. This blog presents statistics on residential energy tax credit claims for tax year 2023. Investments in clean energy and energy efficiency benefit households by lowering and stabilizing their monthly utility bills, and all Americans by mitigating climate change and air pollution.
 
-### New Data on Household Energy Tax Credit Claims
+## New Data on Household Energy Tax Credit Claims
 
 Table 1 summarizes the new data on the residential clean energy and energy efficient home improvement tax credits for tax year 2023 tax returns filed and processed through May 23, 2024.[1]More than 1.2 million American families have claimed over $6 billion in credits for residential clean energy investments – such as solar electricity generation, solar water heating, and battery storage, among other technologies – averaging $5 thousand per family. 2.3 million families have claimed more than $2 billion in credits for energy efficient home improvements – such as heat pumps, efficient air conditioners, insulation, windows, and doors – averaging $880 per family.
 
@@ -22,13 +22,9 @@ Solar electricity investments accounted for the largest number of residential cl
 
 Families in all 50 states, the District of Columbia, and Puerto Rico claimed these credits. Nearly half of the families who claimed one or both credits had incomes in 2023 of less than $100,000.
 
-#### Table 1: Residential energy tax credits claimed for tax year 2023
+### Table 1: Residential energy tax credits claimed for tax year 2023
 
- **Number of returns​a****Credit value​a, b**
-
-** Residential Clean **
-
-** Energy Credit**
+ **Number of returns​a Credit value​a, b  Residential Clean   Energy Credit**
 
 1,246,440
 
@@ -36,7 +32,7 @@ Total: $6.3 billion,
 
 Average per return: $5,084
 
-* Selected examples*       Rooftop solar
+*Selected examples*       Rooftop solar
 
 752,300
 
@@ -44,8 +40,7 @@ Up to 30% of cost     Batteries
 
 48,840
 
-Up to 30% of cost   **Energy Efficient Home **
-** Improvement Credit**
+Up to 30% of cost   **Energy Efficient Home   Improvement Credit**
 
 2,338,430
 
@@ -53,7 +48,7 @@ Total: $2.1 billion,
 
 Average per return: $882
 
-* Selected examples*       Home insulation
+*Selected examples*       Home insulation
 
 699,440
 
@@ -81,13 +76,13 @@ Source: IRS, Research, Applied Analytics, and Statistics Division.
 
  
 
-### Clean Energy and Energy Efficiency Benefit American Households
+## Clean Energy and Energy Efficiency Benefit American Households
 
 The households that have taken advantage of these credits will benefit by saving money on their monthly utility bills. One major example is the savings from installing solar panels. The savings from solar vary from locality to locality, but recent[research](https://emp.lbl.gov/news/new-berkeley-lab-study-quantifies-rooftop-solars-impact-energy-burden-across-half)quantifying the savings in 2021 for about 500,000 households across the U.S. that have adopted residential solar finds that the median adopting customer saw total electricity bill savings of $2,230 annually.[5],[6]
 
 Even more Americans have taken advantage of the energy efficiency upgrades such as insulation, windows, doors, and heat pumps. Heat pumps can provide both heating and cooling – potentially replacing both a fossil-fuel-powered furnace and a dedicated air conditioner. Figure 1 shows the range of typical expected utility bill savings for installing a heat pump and improving insulation and windows based on recent[research](https://doi.org/10.1016/j.joule.2024.01.022).[7]The bars in the graph show the range between the 25th and 75th percentile of annual bill savings for households with different heating types. Variation in savings results from differences in local energy prices, local climate, and home sizes. For households that primarily heat with fuel oil or propane (each about 4 percent of U.S. households), bill savings are quite large – from about $1,000 to $3,100 per year.[8]For households that are using electric, non-heat pump heating (21 percent of households) the projected savings are about $300 to $1,200 per year. For households with gas heating (54 percent), the range is narrower, about $30 to $600 per year.
 
-#### Figure 1: Most households save on their utility bills by switching from another heat source to an electric heat pump.
+### Figure 1: Most households save on their utility bills by switching from another heat source to an electric heat pump.
 
 Note: Figure shows after-purchase annual utility bill savings for switching from various fuel sources (shown on the vertical axis) to an efficient heat pump and improving the building envelope (insulation, windows, and doors). The estimates are only for homes with air conditioning and do not include the upfront cost of the heat pump or envelope improvements. Figure data sourced from the[Department of Energy](https://www.energy.gov/policy/articles/most-americans-heat-pump-can-lower-bills-right-now). Original figure reports prices for winter 2021-2022, so values are inflated from January 2022 to June 2024 using[Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCSL).
 
@@ -95,14 +90,11 @@ These investments yield benefits beyond the immediate bill savings. Reducing ene
 
  
 
-### Energy Efficiency Mitigates Climate Change and Improves Air Quality
+## Energy Efficiency Mitigates Climate Change and Improves Air Quality
 
 Energy efficiency and clean energy investments combat climate change and clean the air Americans breathe. The extent of benefits depend on what fuel the efficient appliance is reducing or replacing, where the household is located, and how much heating and cooling they use. The same study mentioned above estimates that deploying heat pumps for every household would result in emission reductions equivalent to 330-590 million tons of CO2 per year, or 5-9 percent of current national emissions. According to the EPA, reducing CO2 emissions by one ton has a social benefit of $255 in impacts on health, property damage, labor productivity, energy costs, and agriculture so this would translate to a social benefit of $84 billion to $150 billion per year.[11]
 
 There are also air pollution benefits to burning less fuel or having the combustion farther from where people live and breathe (e.g., at power plants for electrified appliances rather than natural gas or propane in the home). Cleaner air is linked to a variety of health benefits, including reducing the likelihood of premature mortality as well as stroke, heart disease, lung cancer, dementia, and respiratory diseases like asthma.[12]It can even reduce the number of car accidents.[13]Reducing air pollution also comes with economic benefits, such as improved worker attendance and productivity,[14]and improved test scores in educational settings.[15]
-
- 
- 
 
 [1]The estimates are based on tax returns as initially processed by IRS and do not reflect amended returns or errors that were corrected after initial processing. Future estimates will be updated. See IRS tables for additional caveats.
 

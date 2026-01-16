@@ -1,6 +1,6 @@
 ---
 title: 'The Low-Income Communities Bonus Credit Program: Our Approach to an Inclusive Clean Energy Economy'
-date: 2023-08-10
+date: 2023-08-10T09:45:00-04:00
 draft: false
 url: /news/featured-stories/the-low-income-communities-bonus-credit-program-our-approach-to-an-inclusive-clean-energy-economy
 ---
@@ -16,9 +16,9 @@ The program builds on the President’s economic strategy of driving economic gr
 
 Our approach draws directly on Secretary Yellen’s modern supply-side economics framework that investment in underserved people and places can lead to disproportionately higher rates of return. Federal investments like the ones provided by this program will not only promote economic growth, but also help address inequality. With this program, we have the opportunity to deliver transformational technology to vulnerable communities, like the one that RYSE serves in Richmond, ensuring that they benefit from energy cost savings.
 
-### Our Approach on 48(e):
+## Our Approach on 48(e):
 
-#### We set ambitious public goals to keep ourselves accountable and to help stakeholders align with our policies.
+### We set ambitious public goals to keep ourselves accountable and to help stakeholders align with our policies.
 
 Specifically, in line with Congress’ direction, this program seeks to:
 
@@ -26,13 +26,13 @@ Specifically, in line with Congress’ direction, this program seeks to:
 2. Encourage new market participants in the clean energy economy; and
 3. Provide social and economic benefits to people and communities that have been historically overburdened with pollution, adverse health or environmental effects, and marginalized from economic opportunities.
 
-#### We listened to those most impacted by economic, climate, and environmental inequality.
+### We listened to those most impacted by economic, climate, and environmental inequality.
 
 Treasury engaged with a wide range of[businesses](https://home.treasury.gov/news/press-releases/jy1447),[non-profits](https://home.treasury.gov/news/press-releases/jy1418), and individuals to hear feedback from stakeholders that directly represent or serve the people and places most at risk of being left behind in the transition to a clean energy economy. We read hundreds of comments and hosted roundtables with community-based organizations, affordable housing developers, labor groups, Tribal representatives, rural communities, and those with new business models that aim to serve low-income households. The final regulations released today reflects that feedback.
 
 Importantly, throughout this process we recognized the link between economic inequality and communities most impacted by climate change. Communities where levels of inequality are greatest, including rural, Black, Latino, AANHPI, Native, and low-income white communities, are disproportionately impacted by climate events. Residents in these communities are also more likely to lack access to secure, good-paying jobs, quality affordable housing and pay disproportionately higher energy costs.
 
-#### We have created access for the people, places, and institutions that don’t always benefit from federal resources.
+### We have created access for the people, places, and institutions that don’t always benefit from federal resources.
 
 To be eligible for the bonus, applicants must be developing a small solar or wind installation in a low-income community, on Indian land, as part of affordable or public housing, or they must be delivering direct financial benefits to low-income households. To further our impact, we focused on the people and places disproportionately impacted by energy insecurity, and, through our implementation efforts, have prioritized access for the institutions that serve them.
 
@@ -42,7 +42,7 @@ To improve these rates, at least 50 percent of the program’s capacity is set-a
 
 Unfortunately, we know that places with the highest need, highest cost, and greatest opportunity for cost savings are the same places with the fewest resources to access new clean energy technology. These communities are also the ones with the least capacity to apply for and be awarded the bonus credits that can fund the necessary changes. If we implement the program in a way that defaults to where capacity already exists, we will exacerbate a divide that leaves our most vulnerable behind. To build an equitable green economy and meet the Administration’s ambitious climate goals, all entrepreneurs, small businesses, and mission-driven nonprofits must be able to participate.
 
-#### We’re taking the long-term view on our investment.
+### We’re taking the long-term view on our investment.
 
 Congress designed this provision to create incentives in untapped markets, support new market participants, and serve more low-income households, thereby fostering a more inclusive and equitable economy. We know that these ambitious goals will take time to come to fruition, but we are committed to building an economy that works for everyone. We’ve built the program to be flexible so as the clean energy industry evolves, this program does too.
 

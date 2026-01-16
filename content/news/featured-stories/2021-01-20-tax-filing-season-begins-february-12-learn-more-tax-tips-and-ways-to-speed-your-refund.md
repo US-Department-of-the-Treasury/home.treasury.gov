@@ -1,6 +1,6 @@
 ---
 title: Tax Filing Season Begins February 12; Learn More Tax Tips and Ways to Speed Your Refund
-date: 2021-01-20
+date: 2021-01-20T11:29:00-05:00
 draft: false
 url: /news/featured-stories/tax-filing-season-begins-february-12-learn-more-tax-tips-and-ways-to-speed-your-refund
 ---

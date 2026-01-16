@@ -1,6 +1,6 @@
 ---
-title: International Women’s Day 2021 – A Conversation on “The Age of Womenomics”, Secretary Janet Yellen & IMF Managing Director Kristalina Georgieva
-date: 2021-03-08
+title: 'International Women’s Day 2021 – A Conversation on “The Age of Womenomics”, Secretary Janet Yellen & IMF Managing Director Kristalina Georgieva'
+date: 2021-03-08T10:13:49-05:00
 draft: false
 url: /news/featured-stories/international-womens-day-2021-a-conversation-on-the-age-of-womenomics-secretary-janet-yellen-imf-managing-director-kristalina-georgieva
 ---

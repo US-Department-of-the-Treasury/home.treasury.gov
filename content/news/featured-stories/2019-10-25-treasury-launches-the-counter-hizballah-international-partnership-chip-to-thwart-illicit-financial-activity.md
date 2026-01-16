@@ -1,6 +1,6 @@
 ---
 title: Treasury Launches the Counter-Hizballah International Partnership (CHIP) to Thwart Illicit Financial Activity
-date: 2019-10-25
+date: 2019-10-25T10:17:10-04:00
 draft: false
 url: /news/featured-stories/treasury-launches-the-counter-hizballah-international-partnership-chip-to-thwart-illicit-financial-activity
 ---

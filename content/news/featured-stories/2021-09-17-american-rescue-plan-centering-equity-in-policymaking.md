@@ -1,6 +1,6 @@
 ---
 title: 'American Rescue Plan: Centering Equity in Policymaking'
-date: 2021-09-17
+date: 2021-09-17T11:05:00-04:00
 draft: false
 url: /news/featured-stories/american-rescue-plan-centering-equity-in-policymaking
 ---

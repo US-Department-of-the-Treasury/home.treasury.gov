@@ -1,10 +1,10 @@
 ---
 title: Secretary Mnuchin Travels to California to Discuss Tax Reform with Business Leaders, Hardworking Americans
-date: 2017-11-01
+date: 2017-11-01T17:17:47-04:00
 draft: false
 url: /news/featured-stories/secretary-mnuchin-travels-to-california-to-discuss-tax-reform-with-business
 ---
-**Washington **– U.S. Treasury Secretary Steven T. Mnuchin is in California this week meeting with local business leaders and hardworking Americans on the importance of tax reform.
+**Washington**– U.S. Treasury Secretary Steven T. Mnuchin is in California this week meeting with local business leaders and hardworking Americans on the importance of tax reform.
 
 "Delivering tax reform to middle income Americans is my top priority. With President Trump in Asia, my colleagues in the Cabinet and I are traveling across the country to ensure we carry his voice and message to the American people who deserve to keep more of their hard-earned dollars," said Secretary Mnuchin.
 

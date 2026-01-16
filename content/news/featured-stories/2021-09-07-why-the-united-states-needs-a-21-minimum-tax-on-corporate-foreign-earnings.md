@@ -1,6 +1,6 @@
 ---
-title: Why the United States Needs a 21% Minimum Tax on Corporate Foreign Earnings
-date: 2021-09-07
+title: 'Why the United States Needs a 21% Minimum Tax on Corporate Foreign Earnings'
+date: 2021-09-07T08:30:00-04:00
 draft: false
 url: /news/featured-stories/why-the-united-states-needs-a-21-minimum-tax-on-corporate-foreign-earnings
 ---
@@ -16,16 +16,11 @@ Corporations have defended a lower rate on foreign income by arguing that their 
 
 Further, in a generational achievement,[134 countries](https://www.oecd.org/tax/beps/beps-actions/action1/), representing more than 90% of the world’s GDP, have agreed[to rewrite the international tax rules](https://www.oecd.org/tax/beps/statement-on-a-two-pillar-solution-to-address-the-tax-challenges-arising-from-the-digitalisation-of-the-economy-july-2021.pdf)to impose a global minimum tax on corporate foreign earnings, thereby ending the race to the bottom that has starved nations of revenues. In the realm of tax competition, no country wins and working and middle class people around the world lose.
 
- 
-
-
 Global Decline in Corporate Tax Rates
 
  
 
 Importantly, the global minimum tax will function as a floor, not a ceiling, and will therefore allow nations to calibrate the precise rate to their specific country’s needs. The United States must and can act boldly here, leading the way with a 21% minimum tax on the foreign earnings of U.S. corporations. With a global minimum tax now on the horizon, U.S. corporations will be more competitive than they ever were before, as foreign corporations will face minimum tax rates almost worldwide. Importantly, the agreement includes enforcement provisions that encourage countries to join by imposing unfavorable tax treatment on companies based in recalcitrant countries. And with the establishment of a level playing field, the global minimum tax deal creates reliable revenues going forward, benefitting generations to come.
-
-
 
 Current Global and U.S. Minimum Rates on Corporate Foreign Earnings
 

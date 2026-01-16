@@ -1,6 +1,6 @@
 ---
 title: The IRS doesn’t have what they need to serve Americans well—Congress can help
-date: 2022-04-18
+date: 2022-04-18T05:00:00-04:00
 draft: false
 url: /news/featured-stories/the-irs-doesnt-have-what-they-need-to-serve-americans-well-congress-can-help
 ---

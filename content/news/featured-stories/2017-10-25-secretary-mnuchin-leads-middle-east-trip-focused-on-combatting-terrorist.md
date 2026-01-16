@@ -1,6 +1,6 @@
 ---
 title: Secretary Mnuchin Leads Middle East Trip Focused on Combatting Terrorist Financing
-date: 2017-10-25
+date: 2017-10-24T17:53:43-04:00
 draft: false
 url: /news/featured-stories/secretary-mnuchin-leads-middle-east-trip-focused-on-combatting-terrorist
 ---

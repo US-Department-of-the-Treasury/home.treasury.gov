@@ -1,6 +1,6 @@
 ---
 title: Exploring Title Insurance, Consumer Protection, and Opportunities for Potential Reforms
-date: 2024-12-23
+date: 2024-12-23T15:00:00-05:00
 draft: false
 url: /news/featured-stories/exploring-title-insurance-consumer-protection-and-opportunities-for-potential-reforms
 ---
@@ -10,9 +10,9 @@ On July 10, 2024, the U.S. Department of the Treasury’s Federal Insurance Offi
 
 At the roundtable, senior Treasury officials led discussions with a wide array of stakeholders about the structure of the title insurance industry, the costs and benefits of title insurance, consumer awareness and protection, the regulatory environment, and various proposals for reforms. This note highlights some of the issues discussed and ideas considered at the roundtable, and outlines ongoing and potential policy-related steps concerning title insurance and housing affordability.
 
-### Title Insurance and THE Title Industry
+## Title Insurance and THE Title Industry
 
-#### Title Policies and Services
+### Title Policies and Services
 
 In general, a title insurance policy insures the interests of the owners or other persons (mainly mortgage lenders) in real property against loss or damage arising from any or all of the following conditions that existed on or before the policy date: (1) defects in or liens or encumbrances on the insured title; (2) unmarketability of the insured title; (3) invalidity, lack of priority or unenforceability of liens, or encumbrances on the stated property; (4) lack of legal right of access to the land; or (5) unenforceability of rights in title to the land.[3]
 
@@ -22,67 +22,67 @@ There are two types of title insurance policies offered in residential real esta
 
 When both an owner’s policy and a lender’s policy are issued at closing in a purchase or refinance transaction, some insurers may offer a reduced price for one of these policies (“simultaneous issue discount”) since it requires limited or no additional title work to support a second policy. In refinance transactions, where a new lender’s policy is generally required by the lender to ensure clean title since the date the prior mortgage was issued (and to insure a new lender and/or for new coverage amounts), many title insurers offer “reissue” rates that provide some cost savings as well.[4]In some states, the buyer pays for the lender’s policy, and may choose to obtain an owner’s policy (that could be subject to a simultaneous issue discount).  In other states it is common for the property seller to pay for an owner’s title policy, and the buyer pays for the lender’s policy (the cost of which may reflect a simultaneous issue discount).
 
-#### The Title Insurance Market
+### The Title Insurance Market
 
 According to Fannie Mae, the average cost in the United States for title and settlement services, inclusive of the lender’s policy, is $1,900.[5]The Consumer Financial Protection Bureau (CFPB) reports that title insurance premiums typically range from 0.5 to 1.0 percent of the purchase price.[6]The title industry noted that these cost estimates are overstated because they do not factor in certain seller credits and they count some third-party fees as part of the title charge, even if they are not paid to the title company.[7]Industry loss ratios, which generally range from 3 to 7 percent, are extremely low in comparison to property and casualty insurers in general. Industry officials and others, however, note that title insurer combined ratios—which take into account both expenses and losses—range from 95 to 102 percent, broadly in line with that of other insurance products. Some of the roundtable discussion focused on the various cost components that make up those expenses.
 
-#### Regulation
+### Regulation
 
 In the United States the business of insurance, including title insurance, is primarily regulated by the states, the District of Columbia, and the five U.S. territories.[8]In most states, the law specifies that title insurance rates may not be excessive, inadequate, or unfairly discriminatory. Rate regulation varies among the states. Some states regulate only the risk premium, while other states regulate an all-inclusive premium, which generally includes all costs of issuing the policy, search expenses, and the risk premium. Moreover, states regulate title insurance rates in several distinct ways: prior approval (rate must be approved by the regulator prior to use), file and use (rates must be filed prior to use, no advance approval required), or by use and file (rates are filed after they are used in the market). In a few states, rates are established by regulation set by the state’s insurance regulator.
 
-### THE Title Insurance Roundtable
+## THE Title Insurance Roundtable
 
 The title insurance roundtable brought together a diverse group of participants for discussions about the title insurance marketplace, the regulatory landscape, consumer protection, and potential reforms that might help lead to lower costs for consumers and help expand access to homeownership. Academics and other participants stressed the importance of obtaining quantitative data and conducting independent research to ensure that any discussions on potential reforms are grounded in data-driven analysis. Some of the discussions are summarized below.
 
-#### Consumer Concerns
+### Consumer Concerns
 
 Consumer groups expressed concerns with the way that title insurance is marketed and sold, which they said results in limited or no price competition. They highlighted that title insurance marketing and distribution is focused on lender and real estate stakeholders, even though the borrower pays for the lender’s insurance policy. Consumer groups shared concerns that (despite applicable state and federal law) the pricing of title insurance is not transparent, and that consumers have little knowledge of how the rates are determined, or even what they are paying for, which can hamper the ability of consumers to make informed decisions. For example, in some states, the title insurance premium includes some of the costs of title clearing and preparing for the closing; in others the premium is supposed to reflect only the cost of risk.[9]Title insurance may be bundled with other closing costs in a real estate transaction, which can make it challenging for consumers to understand the charges for each respective service or product. Moreover, some title companies market policies with various enhancements, at increased cost, and consumers may not be informed of the value of these products.
 
 Consumer groups also noted that many potential home buyers face challenges in accumulating sufficient funds for down payments and other costs that are required for closing a housing transaction. These challenges for consumers can be exacerbated by the cost of title insurance, considering that the median savings account balance for American families is just $8,000.[10]Moreover, some participants suggested that in various ways consumer interests are not being protected—for example, that borrowers who are not aware of the availability of simultaneous issue or reissue discounts may be charged undiscounted rates.
 
-#### Title Industry Profitability
+### Title Industry Profitability
 
 Industry officials emphasized that a large and costly part of its role is the labor-intensive process of identifying and curing title defects on a property’s title before the transaction closes. Accordingly, they noted that the industry’s generally low loss ratio reflects their effectiveness before closing and in reducing risk of loss to policyholders and the insurers. According to the American Land Title Association (ALTA), even with the benefit of increasing automation, for the average purchase transaction, the search, exam, and curative and closing services takes over 20  hours of time to complete if no extraordinary defects or issues are found.[11]In addition, industry participants noted that title insurance prices have had very little growth in real terms over the past 5 to 10 years.
 
 Industry participants also emphasized that title insurance may protect insured parties from the risk of events such as escrow fraud, cyber-enabled crimes, and equity stripping. They noted that such events have been occurring more frequently and cannot be cured in advance.
 
-#### Alternative Structures and the Iowa Model
+### Alternative Structures and the Iowa Model
 
 Participants discussed alternative structures, consumer protection, and the role of the government-sponsored enterprises. For example, consumer groups suggested that the cost of title insurance might be lower if lenders used their market power to negotiate prices with insurers, or if lenders (rather than sellers) paid the premium for lender’s title policies. It was also suggested that the requirement for lenders to have title insurance is driven by the interests of investors in conforming loan securities.
 
 Participants also discussed the approach to title insurance in Iowa, which is the only state in the country that provides title coverage through a not-for-profit state-administered program. The Title Guarantee Division of the Iowa Finance Authority relies on attorney abstracts and opinion letters, and for residential transactions will issue a lender’s guaranty of up to $750,000 for a flat fee of $175. An owner’s guaranty generally is provided at no additional charge.[12]Industry representatives cautioned that the borrower bears the cost for the attorney’s work and opinion letter and potentially other settlement costs, so that the $175 fee is not directly comparable to the costs of title insurance and settlement services in other states. Other participants noted the potential utility and cost effectiveness of attorney opinion letters in some instances, if acceptable to lenders.
 
-### Observations and Recommendations
+## Observations and Recommendations
 
 Title insurance provides benefits to consumers and lenders by identifying and curing title defects, defending the interests of the insureds in case of title-related disputes after closing, including reimbursing losses from covered title-related defects that emerge after the transfer of property ownership, and providing a source of compensation for various fraudulent activities that can damage homeowners. Roundtable participants noted multiple areas of the title insurance industry that could benefit from potential reforms, including product design, distribution, pricing, and regulation. However, reaching definitive conclusions on appropriate paths forward for potential reforms is challenging because views are generally informed by anecdotal evidence or proprietary data.
 
 Even though consumers spend as much as $22 billion on title insurance each year, the lack of publicly available data on the U.S. market means that there is relatively little independent research on the title insurance market.[13]Various industry participants noted their potential willingness to work with other stakeholders on efforts to increase data availability to researchers, so long as sufficient confidentiality protections are maintained. Treasury supports increased and independent qualitative and quantitative analyses of the cost structure of title insurance, claims, expenses, and variations in state insurance regulation to better assess the cost of title insurance and the extent to which the title insurance industry is benefiting consumers and homeowners. Treasury also encourages academic and industry participants to explore potential areas of cooperation, including the potential sharing of anonymized industry data with interested researchers.
 
-#### New Research Initiatives
+### New Research Initiatives
 
 It is notable that subsequent to the roundtable, the American Academy of Actuaries and the National Association of Insurance Commissioners (NAIC) both announced new research initiatives related to title insurance.[14]Both of these research initiatives are promising developments that could help increase independent data-driven assessments of the title insurance market. Treasury will monitor and consider the outcomes of these initiatives.
 
-#### Lenders Pay for Title Insurance
+### Lenders Pay for Title Insurance
 
 Some consumer groups have suggested that the cost of title insurance would be lower if lenders used their market power to negotiate prices with insurers.[15]This may be an area where additional data and independent analysis could help with assessment of the potential benefit of any reforms. Industry participants also countered the view that borrowers receive no benefit from the lender’s policies they pay for. They noted that in the absence of this coverage lenders would look to the borrowers—who typically warrant that they have good title on the property serving as mortgage collateral—to bear the cost of title defects that affect the lender’s interest.
 
-#### Consumer Education
+### Consumer Education
 
 The roundtable also suggests areas for collaboration among industry, consumer advocates, and regulators to increase consumer education. Some of these initiatives could include exploring ways to provide more accessible disclosure and breakdowns of title insurance fees, continuing efforts to educate consumers (such as helping consumers to understand the difference between lender’s and owner’s policies, the potential availability of discounts, and the scope of “premium” coverage enhancements) and encouraging consumers to shop around for title insurance. The NAIC’s Title Insurance Task Force developed a Title Insurance Consumer Shopping Tool in 2015, which is periodically updated, as a guide for consumers regarding title insurance and how to shop for it.[16]Further evaluation by the NAIC concerning accessibility and usefulness of the shopping tool for consumers in light of market developments should be considered. A related avenue to consider relates to opportunities for title agents and housing advocates to collaborate on increasing consumer education and awareness directed, for example, at ensuring that consumers take full advantage of premium discounts that may be available. Some roundtable participants, however, noted that the effectiveness of consumer education regarding title insurance may be limited, because many consumers only purchase homes infrequently, and they may simply rely on the recommendations of their real estate agent, rather than focusing on any details concerning the product or the insurers and agents involved in delivering it.
 
-#### State Regulatory Differences in Title Insurance
+### State Regulatory Differences in Title Insurance
 
 The research initiatives described above could also help identify recommendations for state regulators around harmonizing rate filings and related matters. More harmonization of state regulation, which could be addressed in amendments to relevant NAIC model laws, might improve the ability of policymakers to conduct direct comparisons. Moreover, to the degree that these efforts do not result in improved consumer outcomes, consideration should be given as to whether other regulatory solutions, at the state or federal level, are needed.
 
-#### Technology
+### Technology
 
 Some insurers are exploring various technological advancements (including the use of artificial intelligence) and others have invested in tools such as decision engines that automate aspects of the title examination and document collection. Such efforts may help drive down costs in the title industry over time. Nevertheless, stakeholders noted that further digitization of state and local records is needed to reduce costs and inefficiencies.  To that end, identifying funding sources to facilitate the digitization of local land records could be beneficial.
 
-#### Iowa’s Model
+### Iowa’s Model
 
 Some roundtable participants remarked that there should be careful consideration into whether aspects of Iowa’s practices around title coverage (e.g., attorney opinion letters) can or should be adapted for implementation in other states. They also noted that studying the relative costs and benefits of Iowa’s approach as compared to that in other states may yield useful insights to regulators and policymakers. There were a variety of views on the relative merits of the two systems and whether Iowa’s approach is scalable.[17]Additional research in this area could be a potential topic for additional projects by the American Academy of Actuaries or the NAIC.
 
-### LOOKING AHEAD
+## LOOKING AHEAD
 
 Treasury will continue to monitor the title insurance industry and its role in housing affordability and explore opportunities for potential title insurance reform where appropriate, including by consulting and collaborating with state insurance regulators and other stakeholders.
 
@@ -94,13 +94,13 @@ Treasury will continue to monitor the title insurance industry and its role in h
 
 [4]Owners may choose to obtain a policy in connection with refinancing as well, even if one was issued when the property was originally financed, particularly if the value of the property has increased substantially during the intervening years.
 
-[5]Fannie Mae,* Barriers to Entry: Closing Costs for First-Time and Low-Income Homebuyers*(December 2021),[https://www.fanniemae.com/media/42286/display](https://www.fanniemae.com/media/42286/display)
+[5]Fannie Mae,*Barriers to Entry: Closing Costs for First-Time and Low-Income Homebuyers*(December 2021),[https://www.fanniemae.com/media/42286/display](https://www.fanniemae.com/media/42286/display)
 
 [6]Consumer Financial Protection Bureau,Request for Information Regarding Fees Imposed in Residential Mortgage Transactions, 89 Fed. Reg. 48400 (June 6, 2024),[https://www.federalregister.gov/documents/2024/06/06/2024-12443/request-for-information-regarding-fees-imposed-in-residential-mortgage-transactions#footnote-4-p48400](https://www.federalregister.gov/documents/2024/06/06/2024-12443/request-for-information-regarding-fees-imposed-in-residential-mortgage-transactions#footnote-4-p48400).
 
 [7]American Land Title Association, Comment Letter on Request for Information Regarding Fees Imposed in Residential Mortgage Transactions (August 2, 2024),[https://www.regulations.gov/comment/CFPB-2024-0021-0950](https://www.regulations.gov/comment/CFPB-2024-0021-0950)
 
-[8]However, there is also interaction with federal laws that impact most real estate transactions, including the Real Estate Settlement Procedures Act and Truth-In-Lending Act.* See, e.g.*, CFPB,* Factsheet: TRID Title Insurance Disclosures*(June 9, 2020),[https://files.consumerfinance.gov/f/documents/cfpb_tila-respa_title-insurance-disclosures-factsheet.pdf](https://files.consumerfinance.gov/f/documents/cfpb_tila-respa_title-insurance-disclosures-factsheet.pdf).
+[8]However, there is also interaction with federal laws that impact most real estate transactions, including the Real Estate Settlement Procedures Act and Truth-In-Lending Act.*See, e.g.*, CFPB,*Factsheet: TRID Title Insurance Disclosures*(June 9, 2020),[https://files.consumerfinance.gov/f/documents/cfpb_tila-respa_title-insurance-disclosures-factsheet.pdf](https://files.consumerfinance.gov/f/documents/cfpb_tila-respa_title-insurance-disclosures-factsheet.pdf).
 
 [9]Comment letter from National Consumer Law Center, et al. (July 12, 2024),[https://www.nclc.org/wp-content/uploads/2024/07/Coalition-Letter-on-Title-Insurance-Issues.pdf](https://www.nclc.org/wp-content/uploads/2024/07/Coalition-Letter-on-Title-Insurance-Issues.pdf).
 
@@ -114,8 +114,8 @@ Treasury will continue to monitor the title insurance industry and its role in h
 
 [14]NAIC, Draft Minutes of the Title Insurance (C) Task Force (August 14, 2024),[https://content.naic.org/sites/default/files/national_meeting/15_Minutes-TITF.pdf](https://content.naic.org/sites/default/files/national_meeting/15_Minutes-TITF.pdf); The NAIC-ARIA Insurance Regulation Partnership is a collaboration between state insurance regulators and scholars with an interest in insurance regulation. September 2024 Request for Research– Title Insurance,[https://content.naic.org/sites/default/files/request-for-research-title-insurance.pdf](https://content.naic.org/sites/default/files/request-for-research-title-insurance.pdf)
 
-[15]The Government Accountability Office (GAO) noted this idea in a 2007 report. GAO,* Actions Needed to Improve Oversight of the Title Industry and Better Protect Consumers*(April 2007), p. 53. (“The first alternative model would require lenders to pay for title insurance, on the theory that as regular purchasers of title insurance, lenders would be better informed and could potentially use their market power to obtain lower prices.”)
+[15]The Government Accountability Office (GAO) noted this idea in a 2007 report. GAO,*Actions Needed to Improve Oversight of the Title Industry and Better Protect Consumers*(April 2007), p. 53. (“The first alternative model would require lenders to pay for title insurance, on the theory that as regular purchasers of title insurance, lenders would be better informed and could potentially use their market power to obtain lower prices.”)
 
-[16]The NAIC publishes a template of the tool, and individual state insurance departments, in turn, may make it available.* See, e.g.*, “A Consumer Guide to Title Insurance,” Maryland Insurance Administration,[https://insurance.maryland.gov/Consumer/Documents/publications/titleinsurancebrochure.pdf](https://insurance.maryland.gov/Consumer/Documents/publications/titleinsurancebrochure.pdf).
+[16]The NAIC publishes a template of the tool, and individual state insurance departments, in turn, may make it available.*See, e.g.*, “A Consumer Guide to Title Insurance,” Maryland Insurance Administration,[https://insurance.maryland.gov/Consumer/Documents/publications/titleinsurancebrochure.pdf](https://insurance.maryland.gov/Consumer/Documents/publications/titleinsurancebrochure.pdf).
 
-[17]* See, e.g.*, “Myths vs Facts: ALTA Responds to Inaccurate Commentary About Title Insurance,” Digital Title News (October 2023),[https://digital.titlenews.org/titlenews/october_2023](https://digital.titlenews.org/titlenews/october_2023); “Top Three Reasons Iowans Oppose Title Insurance,” Henry Hamilton III (Past President, Iowa State Bar Assoc), Iowa Bar Blog (Nov. 1, 2022),[Top Three Reasons Iowans Oppose Title Insurance - Iowa Bar Blog](https://www.iowabar.org/?pg=IowaBarBlog&blAction=showEntry&blogEntry=89949).* See also*Shannon Strickler, Note, Iowa’s Title Guaranty System: Is It Superior to Other States’ Commercial Title Insurance?, Drake Law Review 51:385 (2002),[https://drakelawreview.org/wp-content/uploads/2015/04/strickler_note.pdf](https://drakelawreview.org/wp-content/uploads/2015/04/strickler_note.pdf).
+[17]*See, e.g.*, “Myths vs Facts: ALTA Responds to Inaccurate Commentary About Title Insurance,” Digital Title News (October 2023),[https://digital.titlenews.org/titlenews/october_2023](https://digital.titlenews.org/titlenews/october_2023); “Top Three Reasons Iowans Oppose Title Insurance,” Henry Hamilton III (Past President, Iowa State Bar Assoc), Iowa Bar Blog (Nov. 1, 2022),[Top Three Reasons Iowans Oppose Title Insurance - Iowa Bar Blog](https://www.iowabar.org/?pg=IowaBarBlog&blAction=showEntry&blogEntry=89949).*See also*Shannon Strickler, Note, Iowa’s Title Guaranty System: Is It Superior to Other States’ Commercial Title Insurance?, Drake Law Review 51:385 (2002),[https://drakelawreview.org/wp-content/uploads/2015/04/strickler_note.pdf](https://drakelawreview.org/wp-content/uploads/2015/04/strickler_note.pdf).

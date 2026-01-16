@@ -1,6 +1,6 @@
 ---
 title: 'Strengthening Global Sanctions: Two Years of Enhanced Partnership'
-date: 2024-11-19
+date: 2024-11-19T10:30:00-05:00
 draft: false
 url: /news/featured-stories/strengthening-global-sanctions-two-years-of-enhanced-partnership
 ---
@@ -10,13 +10,13 @@ In October 2024, representatives from the United Kingdom’s (UK) Office of Fina
 
 This year marked a significant milestone in our enduring relationship as we moved from establishing a shared understanding to developing critical solutions to common problems via ongoing communication throughout the year.  Whilst our annual technical exchange is an important feature of our relationship, it is the regular engagement between colleagues across all levels of our organizations that truly embodies the enhanced partnership.
 
-### Joint Engagement
+## Joint Engagement
 
 One of the most enriching aspects of the partnership, including these exchanges, is the opportunity to conduct joint private sector outreach.  As part of the exchange, we met with the Bank Policy Institute to discuss critical issues facing financial institutions, differences in UK and U.S. sanctions regimes, and possibilities for future alignment.
 
 The private sector is a critical partner in helping uphold our shared national security goals, and we welcome opportunities to not only promote compliance and understanding, but also hear about shared challenges when navigating our sanctions regimes.  Both OFAC and OFSI have made significant progress this year on new initiatives to support sanctions implementation by the private sector.  OFAC has begun updating its “baseline” FAQs on general sanctions questions and issues, issued key[humanitarian guidance](https://ofac.treasury.gov/media/932736/download?inline)in Arabic, and published an[introductory sanctions guidance](https://ofac.treasury.gov/media/933526/download?inline)document in Spanish.  OFSI introduced the eagerly awaited frequently asked questions (FAQs) to help support industry in understanding and implementing UK sanctions.
 
-### Information Sharing
+## Information Sharing
 
 A critical part of implementing sanctions effectively is ensuring that we are sharing the right information, with the right people, at the right time.  As such, a highlight of this year’s visit included the signing of a Memorandum of Understanding (MOU).  This MOU enhances our ability to collaborate and share information, further fortifying our coordinated efforts in implementing and enforcing sanctions.  While we were already committed to sharing information of common interest through existing information sharing channels, the MOU will further support these efforts.
 
@@ -24,13 +24,13 @@ Analysis continues to be at the heart of how we design, implement, and understan
 
 Similarly, we are delighted to see the reciprocal secondee program enter its second year.  With OFAC and OFSI secondees now embedded with the other office, the program continues to function as a critical way to share expertise, best practices, and collaborate on projects of common interest.  Going forward, these secondees will continue to support effective information sharing, while identifying future areas to share their hands-on experience and ensure the enhanced partnership’s objectives progress at all levels.
 
-### Modernization
+## Modernization
 
 The ability of our organizations to quickly adapt and respond to new challenges in an increasingly complex sanctions landscape is critical to our success.  During the exchange, we discussed organizational modernization, software that helps support our licensing and enforcement functions, and the use of new technologies as we look to stay at the cutting-edge of implementation.  As part of this, we reflected on how[OFAC’s recent announcement of its modernization efforts](https://home.treasury.gov/news/press-releases/jy2544)could be adapted and replicated within the UK to ensure delivery of timely and effective responses to those seeking to comply with our regulations.
 
 Similarly, retaining and attracting talent also remains a critical part of ensuring that our organizations have the right skillsets to accomplish our mission.  The exchange included a Women in Sanctions roundtable to bring together viewpoints from both organizations, fostering a dynamic exchange of ideas and experiences.  The roundtable not only highlighted the significant contributions of women in the field of sanctions but also underscored the importance of gender diversity and inclusion in achieving our objectives.
 
-### Looking Ahead
+## Looking Ahead
 
 The second anniversary of OFAC and OFSI’s partnership is more than just a milestone; it is a reaffirmation of our unwavering commitment to global security through the development and implementation of effective sanctions.  The recent exchange underscores the strength of the UK and U.S. sanctions relationship and strong bonds between our offices.  In an increasingly volatile world, together we have set the stage for continued collaboration and success in the years to come.
 

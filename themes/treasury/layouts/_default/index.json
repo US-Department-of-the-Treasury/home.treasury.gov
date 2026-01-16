@@ -1,0 +1,136 @@
+{{- $searchIndex := slice -}}
+
+{{- /* President date ranges (inauguration dates) */ -}}
+{{- $presidents := slice
+  (dict "id" "trump2" "label" "Trump II" "start" "2025-01-20" "end" "2029-01-20")
+  (dict "id" "biden" "label" "Biden" "start" "2021-01-20" "end" "2025-01-20")
+  (dict "id" "trump1" "label" "Trump I" "start" "2017-01-20" "end" "2021-01-20")
+  (dict "id" "obama" "label" "Obama" "start" "2009-01-20" "end" "2017-01-20")
+  (dict "id" "bush" "label" "Bush" "start" "2001-01-20" "end" "2009-01-20")
+  (dict "id" "clinton" "label" "Clinton" "start" "1993-01-20" "end" "2001-01-20")
+-}}
+
+{{- /* Secretary date ranges */ -}}
+{{- $secretaries := slice
+  (dict "id" "bessent" "label" "Scott Bessent" "start" "2025-01-28" "end" "2029-01-20")
+  (dict "id" "yellen" "label" "Janet Yellen" "start" "2021-01-26" "end" "2025-01-28")
+  (dict "id" "mnuchin" "label" "Steven Mnuchin" "start" "2017-02-13" "end" "2021-01-20")
+  (dict "id" "lew" "label" "Jack Lew" "start" "2013-02-28" "end" "2017-01-20")
+  (dict "id" "geithner" "label" "Timothy Geithner" "start" "2009-01-26" "end" "2013-01-25")
+  (dict "id" "paulson" "label" "Henry Paulson" "start" "2006-07-10" "end" "2009-01-20")
+  (dict "id" "snow" "label" "John Snow" "start" "2003-02-03" "end" "2006-06-30")
+  (dict "id" "oneill" "label" "Paul O'Neill" "start" "2001-01-20" "end" "2002-12-31")
+  (dict "id" "summers" "label" "Lawrence Summers" "start" "1999-07-02" "end" "2001-01-20")
+  (dict "id" "rubin" "label" "Robert Rubin" "start" "1995-01-11" "end" "1999-07-02")
+-}}
+
+{{- /* Topic keywords mapping */ -}}
+{{- $topicKeywords := dict
+  "sanctions" (slice "sanction" "ofac" "designat" "blocked" "specially designated" "sdn" "magnitsky" "ieepa" "executive order" "blocked property")
+  "tax" (slice "tax" "irs" "internal revenue" "refund" "filing" "taxpayer" "tcja" "deduction" "credit")
+  "fincrime" (slice "fincen" "money laundering" "aml" "bsa" "bank secrecy" "financial crime" "illicit" "terrorist financing" "suspicious activity")
+  "international" (slice "g7" "g20" "imf" "world bank" "bilateral" "multilateral" "foreign" "international")
+  "debt" (slice "debt" "treasury securities" "auction" "bond" "bill" "note" "borrowing" "debt limit" "fiscal")
+  "climate" (slice "climate" "clean energy" "ira" "inflation reduction" "green" "renewable" "carbon" "emission")
+  "covid" (slice "covid" "pandemic" "ppp" "paycheck protection" "eidl" "cares" "relief" "stimulus" "economic impact payment")
+-}}
+
+{{- /* Office keywords mapping */ -}}
+{{- $officeKeywords := dict
+  "ofac" (slice "ofac" "office of foreign assets" "sanctions" "sdn" "blocked" "designat")
+  "fincen" (slice "fincen" "financial crimes enforcement" "bsa" "aml" "suspicious activity" "currency transaction")
+  "occ" (slice "occ" "comptroller of the currency" "national bank" "federal savings" "thrift")
+  "irs" (slice "irs" "internal revenue" "tax" "refund" "filing" "taxpayer")
+  "tfi" (slice "terrorism and financial intelligence" "tfi" "terrorist financing" "illicit finance")
+  "domestic-finance" (slice "domestic finance" "financial markets" "debt management" "fiscal" "treasury securities")
+  "international-affairs" (slice "international affairs" "g7" "g20" "imf" "world bank" "bilateral")
+  "fiscal-service" (slice "fiscal service" "payment" "collection" "government account" "do not pay")
+-}}
+
+{{- /* Country keywords */ -}}
+{{- $countryKeywords := dict
+  "russia" (slice "russia" "russian" "moscow" "kremlin" "putin")
+  "china" (slice "china" "chinese" "beijing" "prc" "people's republic")
+  "iran" (slice "iran" "iranian" "tehran" "irgc" "islamic republic")
+  "northkorea" (slice "north korea" "dprk" "pyongyang" "kim jong")
+  "ukraine" (slice "ukraine" "ukrainian" "kyiv" "kiev")
+  "venezuela" (slice "venezuela" "venezuelan" "caracas" "maduro")
+  "syria" (slice "syria" "syrian" "damascus" "assad")
+  "cuba" (slice "cuba" "cuban" "havana")
+  "myanmar" (slice "myanmar" "burma" "burmese")
+  "afghanistan" (slice "afghanistan" "afghan" "kabul" "taliban")
+-}}
+
+{{- range where .Site.RegularPages "Section" "news" -}}
+  {{- $page := . -}}
+  {{- $dateStr := .Date.Format "2006-01-02" -}}
+  {{- $titleLower := .Title | lower -}}
+  {{- $contentLower := .Plain | lower -}}
+  {{- $combined := printf "%s %s" $titleLower $contentLower -}}
+  
+  {{- /* Determine president */ -}}
+  {{- $president := "" -}}
+  {{- range $presidents -}}
+    {{- if and (ge $dateStr .start) (lt $dateStr .end) -}}
+      {{- $president = .id -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* Determine secretary */ -}}
+  {{- $secretary := "" -}}
+  {{- range $secretaries -}}
+    {{- if and (ge $dateStr .start) (lt $dateStr .end) -}}
+      {{- $secretary = .id -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* Detect topics */ -}}
+  {{- $topics := slice -}}
+  {{- range $topic, $keywords := $topicKeywords -}}
+    {{- range $keywords -}}
+      {{- if in $combined . -}}
+        {{- if not (in $topics $topic) -}}
+          {{- $topics = $topics | append $topic -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* Detect offices */ -}}
+  {{- $offices := slice -}}
+  {{- range $office, $keywords := $officeKeywords -}}
+    {{- range $keywords -}}
+      {{- if in $combined . -}}
+        {{- if not (in $offices $office) -}}
+          {{- $offices = $offices | append $office -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* Detect countries */ -}}
+  {{- $countries := slice -}}
+  {{- range $country, $keywords := $countryKeywords -}}
+    {{- range $keywords -}}
+      {{- if in $combined . -}}
+        {{- if not (in $countries $country) -}}
+          {{- $countries = $countries | append $country -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- $searchIndex = $searchIndex | append (dict 
+    "title" .Title 
+    "url" .RelPermalink 
+    "date" $dateStr
+    "dateDisplay" (.Date.Format "January 2, 2006")
+    "section" .CurrentSection.Title
+    "president" $president
+    "secretary" $secretary
+    "topics" $topics
+    "offices" $offices
+    "countries" $countries
+  ) -}}
+{{- end -}}
+{{- $searchIndex | jsonify -}}

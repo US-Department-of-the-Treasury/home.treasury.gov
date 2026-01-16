@@ -1,10 +1,10 @@
 ---
-title: Treasury and the Terrorist Financing Targeting Center Partners Sanction Taliban Facilitators and their Iranian Supporters 
-date: 2018-10-23
+title: Treasury and the Terrorist Financing Targeting Center Partners Sanction Taliban Facilitators and their Iranian Supporters
+date: 2018-10-23T12:20:13-04:00
 draft: false
 url: /news/featured-stories/treasury-and-the-terrorist-financing-targeting-center-partners-sanction
 ---
-**RIYADH **– Today, the seven member nations of the Terrorist Financing Targeting Center (TFTC) took significant actions to expose and disrupt Taliban actors and their Iranian sponsors that seek to undermine the security of the Afghan Government.  The TFTC Member States designated nine individuals associated with the Taliban, including those facilitating Iranian support to bolster the terrorist group.  The U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) designated these key Taliban members and their Iranian regime sponsors in partnership with the other TFTC Member States: the Kingdom of Saudi Arabia, the Kingdom of Bahrain, the State of Kuwait, the Sultanate of Oman, the State of Qatar, and the United Arab Emirates (UAE).
+**RIYADH** – Today, the seven member nations of the Terrorist Financing Targeting Center (TFTC) took significant actions to expose and disrupt Taliban actors and their Iranian sponsors that seek to undermine the security of the Afghan Government.  The TFTC Member States designated nine individuals associated with the Taliban, including those facilitating Iranian support to bolster the terrorist group.  The U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) designated these key Taliban members and their Iranian regime sponsors in partnership with the other TFTC Member States: the Kingdom of Saudi Arabia, the Kingdom of Bahrain, the State of Kuwait, the Sultanate of Oman, the State of Qatar, and the United Arab Emirates (UAE).
 
 “The TFTC has again demonstrated its tremendous value to international security by disrupting and exposing key Taliban members who are involved in suicide attacks, and other lethal activities.  We are also targeting key Iranian sponsors providing financial and material support to the Taliban,” said Treasury Secretary Steven Mnuchin.  “Iran’s provision of military training, financing, and weapons to the Taliban is yet another example of Tehran’s blatant regional meddling and support for terrorism.  The United States and our partners will not tolerate the Iranian regime exploiting Afghanistan to further their destabilizing behavior.  Iran’s support to the Taliban stands in stark violation of United Nations Security Council Resolutions and epitomizes the regime’s utter disregard for fundamental international norms.”
 
@@ -14,7 +14,7 @@ This is the third coordinated TFTC designation action since the Center was annou
 
 These designations support President Trump’s South Asia Strategy by exposing and disrupting actors seeking to undermine the Afghan government, and disrupting terrorist safe havens in South Asia.  We will continue to actively target those providing financial support to the Taliban until there is a negotiated peace settlement.  The inclusion of Iranian Islamic Revolutionary Guards Corps – Qods Force (IRGC-QF) members supporting Taliban elements in this action highlights the scope of the Iranian regime’s malign activities and regionally destabilizing behavior, and furthers the U.S. maximum pressure campaign against Iran.
 
-### Mohammad Ebrahim Owhadi (Owhadi)
+## Mohammad Ebrahim Owhadi (Owhadi)
 
 Mohammad Ebrahim Owhadi was designated for acting for or on behalf of IRGC-QF and for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to or in support of, the Taliban.
 
@@ -26,7 +26,7 @@ As of 2014, Owhadi was the second deputy at the IRGC-QF base in Birjand, Iran, a
 
 As of 2008, Owhadi was an official at an IRGC base in Nehbandan, Iran, where several youth between the ages of twelve and fifteen years old were being trained in terrorist and suicide attacks.  Officials stationed at Nehbandan were subordinate to IRGC officials in Birjand.
 
-### Esma’il Razavi (Razavi)
+## Esma’il Razavi (Razavi)
 
 Esma’il Razavi was designated for acting for or on behalf of IRGC-QF and for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to or in support of, the Taliban.
 
@@ -34,7 +34,7 @@ Razavi was in charge of the training center at the IRGC-QF base in Birjand, Iran
 
 In 2008, as the senior IRGC-QF official in Birjand, his base supported anti-coalition militants in Farah and Herat Provinces.
 
-### Abdullah Samad Faroqui (Samad)
+## Abdullah Samad Faroqui (Samad)
 
 Abdullah Samad Faroqui was designated for acting for or on behalf of the Taliban.
 
@@ -44,13 +44,13 @@ In early 2006, Samad was part of a group of Taliban leaders that traveled to Zah
 
 Additionally, in mid-2017, Samad received money from the IRGC through a hawala in Herat, City, Herat Province, Afghanistan.
 
-### Mohammad Daoud Muzzamil (Daoud)
+## Mohammad Daoud Muzzamil (Daoud)
 
 Mohammad Daoud Muzzamil was designated for acting for or on behalf of the Taliban.
 
 As of late 2017, Daoud, the former Taliban Deputy Shadow Governor for Helmand Province Afghanistan, had been appointed the Shadow Governor for Farah Province, Afghanistan.   In early 2017, Daoud was appointed as leader of the Taliban’s Quetta Military Commission.
 
-### Abdul Rahim Manan (Rahim)
+## Abdul Rahim Manan (Rahim)
 
 Abdul Rahim Manan was designated for acting for or on behalf of the Taliban.
 
@@ -58,7 +58,7 @@ Rahim is the Taliban’s Shadow Governor for Helmand Province, Afghanistan, who 
 
 In late 2007, Rahim oversaw the logistics of lethal aid transfers from the IRGC-QF to the Taliban.  Rahim, a senior Taliban commander, worked with Iran’s primary interlocutor with the Taliban to request supplies and coordinate lethal aid shipments.
 
-### Naim Barich (Barich)
+## Naim Barich (Barich)
 
 Naim Barich was designated by TFTC Member states for action for or on behalf of the Taliban.  Barich was designated by OFAC on November 15, 2012, pursuant to the Kingpin Act, for the significant role he plays in international narcotics trafficking.  Barich also appears on the United Nations Security Council Resolution 1988 Sanctions List due to his support for the Taliban.
 
@@ -66,7 +66,7 @@ As of late 2017, Barich was the Taliban shadow minister of foreign affairs and m
 
 Since at least 2006, IRGC-QF officers provided weapons to Barich.
 
-### Abdul Aziz (Aziz)
+## Abdul Aziz (Aziz)
 
 Abdul Aziz was designated for assisting in, sponsoring, or providing financial, material, or technological support for, or financial or other services to or in support of the Taliban.
 
@@ -76,7 +76,7 @@ In addition, in late February 2017, Aziz planned to travel to China to establish
 
 Aziz, a Pakistan-based narcotics trafficker, has served as a middleman for the sale of opium from Afghan farmers to Iranian and Turkish narcotics traffickers.
 
-### Sadr Ibrahim (Ibrahim)
+## Sadr Ibrahim (Ibrahim)
 
 Sadr Ibrahim was designated for acting for or on behalf of the Taliban.
 
@@ -84,7 +84,7 @@ For the past four years, Ibrahim served as the leader of the Taliban’s Militar
 
 In 2018, Iranian officials agreed to provide Ibrahim with monetary support and individualized training in order to prevent a possible tracing back to Iran.  Iranian trainers would help build Taliban tactical and combat capabilities.
 
-### Hafiz Majid (Majid)
+## Hafiz Majid (Majid)
 
 Hafiz Majid was designated for acting for or on behalf of the Taliban.
 

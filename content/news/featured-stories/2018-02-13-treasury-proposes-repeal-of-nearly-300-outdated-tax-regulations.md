@@ -1,6 +1,6 @@
 ---
-title: Treasury Proposes Repeal of Nearly 300 Outdated Tax Regulations 
-date: 2018-02-13
+title: Treasury Proposes Repeal of Nearly 300 Outdated Tax Regulations
+date: 2018-02-13T12:18:29-05:00
 draft: false
 url: /news/featured-stories/treasury-proposes-repeal-of-nearly-300-outdated-tax-regulations
 ---
