@@ -7,6 +7,15 @@ locals {
   bucket_name = "${var.project_name}-${var.environment}-${random_id.bucket_suffix.hex}"
 }
 
+# =============================================================================
+# Route53 Zone Data Source (for custom domain)
+# =============================================================================
+
+data "aws_route53_zone" "main" {
+  count = var.enable_custom_domain ? 1 : 0
+  name  = var.route53_zone_name
+}
+
 # S3 Bucket for static site content
 resource "aws_s3_bucket" "site" {
   bucket        = local.bucket_name
