@@ -16,7 +16,7 @@
 
 <div class="news-page-section">
   <div class="container">
-    <div class="news-three-col">
+    <div class="news-article-layout">
       {{/* Left Sidebar */}}
       {{ partial "news-sidebar.html" . }}
       
@@ -28,9 +28,9 @@
             {{ $category := .Params.category | default .CurrentSection.Title }}
             <span class="news-category"><a href="{{ .CurrentSection.Permalink }}">{{ $category | upper }}</a></span>
             <h1>{{ .Title }}</h1>
-            {{/* Publication date - required for government press releases */}}
+            {{/* Publication date and time - required for government press releases */}}
             <p class="article-date">
-              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05-05:00" }}">{{ .Date.Format "January 2, 2006" }} at {{ .Date.Format "3:04 PM" }} EST</time>
             </p>
             <div class="heading-underline"></div>
           </header>
@@ -52,9 +52,34 @@
         </article>
       </div>
       
-      {{/* Right Sidebar */}}
-      {{ partial "news-search-sidebar.html" . }}
+      {{/* Right Sidebar - Article Metadata */}}
+      {{ partial "article-sidebar.html" . }}
     </div>
   </div>
 </div>
+
+<style>
+/* Article Layout - 3 columns for single articles */
+.news-article-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr 280px;
+  gap: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .news-article-layout {
+    grid-template-columns: 180px 1fr;
+  }
+  
+  .news-article-layout .article-sidebar {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .news-article-layout {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 {{ end }}

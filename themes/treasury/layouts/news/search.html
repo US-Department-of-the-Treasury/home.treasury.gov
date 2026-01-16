@@ -1,0 +1,1136 @@
+{{ define "main" }}
+<div class="breadcrumbs">
+  <div class="container">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumbs-list">
+        <li><a href="https://home.treasury.gov/">HOME</a></li>
+        <li><a href="/news/">NEWS</a></li>
+        <li><span aria-current="page">ADVANCED SEARCH</span></li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="news-page-section">
+  <div class="container">
+    <div class="advanced-search-page">
+      <header class="news-page-header">
+        <h1 class="page-title">Advanced Search</h1>
+        <div class="title-underline"></div>
+        <p class="search-intro">Search across all Treasury news, press releases, statements, testimonies, and more.</p>
+      </header>
+      
+      {{/* Advanced Search Form - Collapsible */}}
+      <div class="advanced-search-form" id="advanced-search-form">
+        <button type="button" class="form-toggle" id="form-toggle" aria-expanded="true">
+          <span class="toggle-text">Search Filters</span>
+          <svg class="toggle-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+        <div class="form-content" id="form-content">
+        <div class="search-form-grid">
+          {{/* Keyword Search */}}
+          <div class="form-group form-group-full">
+            <label for="search-keyword">Keywords</label>
+            <input type="text" id="search-keyword" class="form-input form-input-lg" placeholder="Enter search terms...">
+          </div>
+          
+          {{/* Date Range */}}
+          <div class="form-group">
+            <label for="search-date-from">From Date</label>
+            <input type="date" id="search-date-from" class="form-input">
+          </div>
+          
+          <div class="form-group">
+            <label for="search-date-to">To Date</label>
+            <input type="date" id="search-date-to" class="form-input">
+          </div>
+          
+          {{/* Quick Date Presets */}}
+          <div class="form-group form-group-full">
+            <label>Quick Date Filters</label>
+            <div class="date-presets">
+              <button type="button" class="preset-btn" data-preset="today">Today</button>
+              <button type="button" class="preset-btn" data-preset="week">Past Week</button>
+              <button type="button" class="preset-btn" data-preset="month">Past Month</button>
+              <button type="button" class="preset-btn" data-preset="quarter">Past 3 Months</button>
+              <button type="button" class="preset-btn" data-preset="year">Past Year</button>
+            </div>
+          </div>
+          
+          {{/* Content Type */}}
+          <div class="form-group">
+            <label for="search-type">Content Type</label>
+            <select id="search-type" class="form-select">
+              <option value="">All Types</option>
+              <option value="press-releases">Press Releases</option>
+              <option value="statements-remarks">Statements & Remarks</option>
+              <option value="readouts">Readouts</option>
+              <option value="testimonies">Testimonies</option>
+              <option value="featured-stories">Featured Stories</option>
+            </select>
+          </div>
+          
+          {{/* Administration */}}
+          <div class="form-group">
+            <label for="search-admin">Administration</label>
+            <select id="search-admin" class="form-select">
+              <option value="">All Administrations</option>
+              <option value="trump-2">Trump Administration (2025-)</option>
+              <option value="biden">Biden Administration (2021-2025)</option>
+              <option value="trump-1">Trump Administration (2017-2021)</option>
+              <option value="obama">Obama Administration (2009-2017)</option>
+            </select>
+          </div>
+          
+          {{/* Secretary */}}
+          <div class="form-group">
+            <label for="search-secretary">Treasury Secretary</label>
+            <select id="search-secretary" class="form-select">
+              <option value="">All Secretaries</option>
+              <option value="bessent">Scott Bessent</option>
+              <option value="yellen">Janet Yellen</option>
+              <option value="mnuchin">Steven Mnuchin</option>
+              <option value="lew">Jack Lew</option>
+              <option value="geithner">Timothy Geithner</option>
+            </select>
+          </div>
+          
+          {{/* Topic */}}
+          <div class="form-group">
+            <label for="search-topic">Topic</label>
+            <select id="search-topic" class="form-select">
+              <option value="">All Topics</option>
+              <option value="sanctions">Sanctions & OFAC</option>
+              <option value="tax">Tax Policy</option>
+              <option value="economy">Economic Policy</option>
+              <option value="debt">Debt & Budget</option>
+              <option value="financial">Financial Regulation</option>
+              <option value="terrorism">Terrorism & Illicit Finance</option>
+              <option value="international">International Affairs</option>
+              <option value="recovery">Economic Recovery</option>
+            </select>
+          </div>
+          
+          {{/* Office */}}
+          <div class="form-group">
+            <label for="search-office">Treasury Office</label>
+            <select id="search-office" class="form-select">
+              <option value="">All Offices</option>
+              <option value="ofac">OFAC (Sanctions)</option>
+              <option value="fincen">FinCEN</option>
+              <option value="irs">IRS</option>
+              <option value="occ">OCC</option>
+              <option value="fiscal-service">Bureau of Fiscal Service</option>
+              <option value="tfi">Terrorism & Financial Intelligence</option>
+              <option value="domestic-finance">Domestic Finance</option>
+              <option value="international-affairs">International Affairs</option>
+            </select>
+          </div>
+          
+          {{/* Country */}}
+          <div class="form-group">
+            <label for="search-country">Country</label>
+            <select id="search-country" class="form-select">
+              <option value="">All Countries</option>
+              <option value="russia">🇷🇺 Russia</option>
+              <option value="china">🇨🇳 China</option>
+              <option value="iran">🇮🇷 Iran</option>
+              <option value="northkorea">🇰🇵 North Korea</option>
+              <option value="ukraine">🇺🇦 Ukraine</option>
+              <option value="venezuela">🇻🇪 Venezuela</option>
+              <option value="syria">🇸🇾 Syria</option>
+              <option value="cuba">🇨🇺 Cuba</option>
+              <option value="myanmar">🇲🇲 Myanmar</option>
+              <option value="afghanistan">🇦🇫 Afghanistan</option>
+            </select>
+          </div>
+        </div>
+        
+        {{/* Action Buttons */}}
+        <div class="search-actions">
+          <button type="button" class="btn-search" id="run-search-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            Search
+          </button>
+          <button type="button" class="btn-reset" id="reset-search-btn">Clear All</button>
+        </div>
+        </div>{{/* End form-content */}}
+      </div>
+      
+      {{/* Results Area */}}
+      <div class="search-results-area" id="search-results-area" style="display: none;">
+        {{/* Active Filter Tags */}}
+        <div class="active-filter-tags" id="active-filter-tags" style="display: none;"></div>
+        
+        <div class="results-header">
+          <span class="results-count" id="results-count">Showing 0 results</span>
+          <button type="button" class="btn-modify-search" id="modify-search-btn">Modify Search</button>
+        </div>
+        
+        <div class="results-list" id="results-list"></div>
+        
+        <div class="results-pagination" id="results-pagination"></div>
+        
+        <div class="load-more-container" id="load-more-container" style="display: none;">
+          <button type="button" class="btn-load-more" id="load-more-btn">Load More Results</button>
+        </div>
+      </div>
+      
+      {{/* Empty State */}}
+      <div class="search-empty-state" id="search-empty-state">
+        <div class="empty-icon">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+        </div>
+        <h3>Search Treasury News</h3>
+        <p>Use the filters above to find press releases, statements, testimonies, and other Treasury news.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Advanced Search Page Styles */
+.advanced-search-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.search-intro {
+  font-size: 1.0625rem;
+  color: var(--gray-600);
+  margin-top: 0.75rem;
+  max-width: 600px;
+}
+
+/* Search Form */
+.advanced-search-form {
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  margin: 1.5rem 0;
+}
+
+/* Form Toggle Header */
+.form-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--treasury-navy);
+  text-align: left;
+}
+
+.form-toggle:hover {
+  background: rgba(0,0,0,0.02);
+}
+
+.toggle-icon {
+  transition: transform 0.2s ease;
+}
+
+.form-toggle[aria-expanded="false"] .toggle-icon {
+  transform: rotate(-90deg);
+}
+
+/* Form Content - Collapsible */
+.form-content {
+  padding: 0 1.5rem 1.5rem;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.form-content.collapsed {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.search-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-full {
+  grid-column: 1 / -1;
+}
+
+.form-group label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-bottom: 0.375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.form-input,
+.form-select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--gray-300);
+  font-size: 0.9375rem;
+  background: #fff;
+}
+
+.form-input-lg {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: 2px solid var(--treasury-navy-light);
+  outline-offset: 0;
+  border-color: var(--treasury-navy-light);
+}
+
+/* Date Presets */
+.date-presets {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.preset-btn {
+  background: #fff;
+  border: 1px solid var(--gray-300);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.preset-btn:hover {
+  border-color: var(--treasury-navy-light);
+  color: var(--treasury-navy-light);
+}
+
+.preset-btn.active {
+  background: var(--treasury-navy-light);
+  border-color: var(--treasury-navy-light);
+  color: #fff;
+}
+
+/* Action Buttons */
+.search-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.btn-search {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--treasury-navy-light);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  background: var(--treasury-navy);
+}
+
+.btn-reset {
+  background: #fff;
+  color: var(--gray-700);
+  border: 1px solid var(--gray-300);
+  padding: 0.75rem 1.25rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-reset:hover {
+  background: var(--gray-100);
+  border-color: var(--gray-400);
+}
+
+/* Validation Message */
+.search-validation {
+  display: none;
+  background: #fef3cd;
+  border: 1px solid #ffc107;
+  color: #856404;
+  padding: 0.625rem 1rem;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+/* Loading Spinner */
+.btn-search:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Active Filter Tags */
+.active-filter-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  margin-bottom: 1rem;
+}
+
+.filter-tags-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gray-600);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.filter-tag {
+  display: inline-block;
+  background: var(--treasury-navy-light);
+  color: #fff;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Results Area - Full width like main page */
+.search-results-area {
+  margin-top: 2rem;
+}
+
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.results-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin: 0;
+}
+
+.results-count {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  font-style: italic;
+}
+
+.btn-modify-search {
+  background: none;
+  border: 1px solid var(--treasury-navy-light);
+  color: var(--treasury-navy-light);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.btn-modify-search:hover {
+  background: var(--treasury-navy-light);
+  color: #fff;
+}
+
+/* Results list - matches main page style */
+.results-list {
+  border-top: 1px solid var(--gray-200);
+}
+
+.results-list .news-article-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.results-list .news-article-item:first-child {
+  padding-top: 1.5rem;
+}
+
+.results-list .news-article-item h2 {
+  font-family: var(--font-heading);
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin: 0.375rem 0 0;
+  line-height: 1.35;
+}
+
+.results-list .news-article-item h2 a {
+  color: var(--treasury-navy-light);
+  text-decoration: none;
+}
+
+.results-list .news-article-item h2 a:hover {
+  text-decoration: underline;
+}
+
+.results-list .article-meta {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 0.375rem;
+}
+
+.results-list .article-meta time {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+}
+
+.results-list .article-category-divider {
+  margin: 0 0.625rem;
+  color: var(--gray-400);
+}
+
+.results-list .article-category {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--treasury-navy-light);
+}
+
+/* Newly loaded item highlight */
+.results-list .news-article-item.newly-loaded {
+  animation: highlight-fade 2s ease-out;
+}
+
+@keyframes highlight-fade {
+  0% { background-color: rgba(255, 190, 46, 0.3); }
+  100% { background-color: transparent; }
+}
+
+/* No Results Message */
+.no-results-message {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--gray-600);
+  font-size: 1rem;
+  background: var(--gray-100);
+  border: 1px dashed var(--gray-300);
+  margin: 1rem 0;
+}
+
+/* Empty State */
+.search-empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--gray-500);
+}
+
+.empty-icon {
+  margin-bottom: 1rem;
+}
+
+.empty-icon svg {
+  stroke: var(--gray-300);
+}
+
+.search-empty-state h3 {
+  font-size: 1.25rem;
+  color: var(--gray-700);
+  margin-bottom: 0.5rem;
+}
+
+.search-empty-state p {
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 0.9375rem;
+}
+
+/* Load More Button */
+.load-more-container {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid var(--gray-200);
+  margin-top: 1rem;
+}
+
+.btn-load-more {
+  background: #fff;
+  border: 2px solid var(--treasury-navy-light);
+  color: var(--treasury-navy-light);
+  padding: 0.75rem 2rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-load-more:hover {
+  background: var(--treasury-navy-light);
+  color: #fff;
+}
+
+.btn-load-more:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Pagination (fallback) */
+.results-pagination {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .search-form-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-group-full {
+    grid-column: 1;
+  }
+  
+  .date-presets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .search-actions {
+    flex-direction: column;
+  }
+  
+  .btn-search,
+  .btn-reset {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+(function() {
+  // State
+  let searchIndex = null;
+  let currentResults = [];
+  let displayedCount = 0;
+  const perPage = 15;
+  
+  // DOM elements
+  const formToggle = document.getElementById('form-toggle');
+  const formContent = document.getElementById('form-content');
+  const keywordInput = document.getElementById('search-keyword');
+  const dateFromInput = document.getElementById('search-date-from');
+  const dateToInput = document.getElementById('search-date-to');
+  const typeSelect = document.getElementById('search-type');
+  const adminSelect = document.getElementById('search-admin');
+  const secretarySelect = document.getElementById('search-secretary');
+  const topicSelect = document.getElementById('search-topic');
+  const officeSelect = document.getElementById('search-office');
+  const countrySelect = document.getElementById('search-country');
+  const presetBtns = document.querySelectorAll('.preset-btn');
+  const searchBtn = document.getElementById('run-search-btn');
+  const resetBtn = document.getElementById('reset-search-btn');
+  const modifySearchBtn = document.getElementById('modify-search-btn');
+  const resultsArea = document.getElementById('search-results-area');
+  const emptyState = document.getElementById('search-empty-state');
+  const resultsList = document.getElementById('results-list');
+  const resultsCount = document.getElementById('results-count');
+  const loadMoreContainer = document.getElementById('load-more-container');
+  const loadMoreBtn = document.getElementById('load-more-btn');
+  
+  // Form toggle functionality
+  function collapseForm() {
+    formContent.classList.add('collapsed');
+    formToggle.setAttribute('aria-expanded', 'false');
+  }
+  
+  function expandForm() {
+    formContent.classList.remove('collapsed');
+    formToggle.setAttribute('aria-expanded', 'true');
+  }
+  
+  formToggle.addEventListener('click', () => {
+    const isExpanded = formToggle.getAttribute('aria-expanded') === 'true';
+    if (isExpanded) {
+      collapseForm();
+    } else {
+      expandForm();
+    }
+  });
+  
+  // Modify search button - expand form
+  modifySearchBtn.addEventListener('click', () => {
+    expandForm();
+    formContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  
+  // Administration date ranges
+  const adminDates = {
+    'trump-2': { from: '2025-01-20', to: null },
+    'biden': { from: '2021-01-20', to: '2025-01-19' },
+    'trump-1': { from: '2017-01-20', to: '2021-01-19' },
+    'obama': { from: '2009-01-20', to: '2017-01-19' }
+  };
+  
+  // Secretary date ranges (approximate)
+  const secretaryDates = {
+    'bessent': { from: '2025-01-27', to: null },
+    'yellen': { from: '2021-01-26', to: '2025-01-20' },
+    'mnuchin': { from: '2017-02-13', to: '2021-01-20' },
+    'lew': { from: '2013-02-28', to: '2017-01-20' },
+    'geithner': { from: '2009-01-26', to: '2013-01-25' }
+  };
+  
+  // Load search index
+  async function loadSearchIndex() {
+    if (searchIndex) return searchIndex;
+    try {
+      const response = await fetch('/index.json');
+      searchIndex = await response.json();
+      return searchIndex;
+    } catch (error) {
+      console.error('Failed to load search index:', error);
+      return [];
+    }
+  }
+  
+  // Date helpers
+  function getPresetDateRange(preset) {
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    
+    switch (preset) {
+      case 'today':
+        return { from: today, to: today };
+      case 'week':
+        const weekAgo = new Date(today);
+        weekAgo.setDate(weekAgo.getDate() - 7);
+        return { from: weekAgo, to: today };
+      case 'month':
+        const monthAgo = new Date(today);
+        monthAgo.setMonth(monthAgo.getMonth() - 1);
+        return { from: monthAgo, to: today };
+      case 'quarter':
+        const quarterAgo = new Date(today);
+        quarterAgo.setMonth(quarterAgo.getMonth() - 3);
+        return { from: quarterAgo, to: today };
+      case 'year':
+        const yearAgo = new Date(today);
+        yearAgo.setFullYear(yearAgo.getFullYear() - 1);
+        return { from: yearAgo, to: today };
+      default:
+        return null;
+    }
+  }
+  
+  function formatDateForInput(date) {
+    return date.toISOString().split('T')[0];
+  }
+  
+  // Get current filters
+  function getFilters() {
+    return {
+      keyword: keywordInput.value.trim(),
+      dateFrom: dateFromInput.value,
+      dateTo: dateToInput.value,
+      type: typeSelect.value,
+      admin: adminSelect.value,
+      secretary: secretarySelect.value,
+      topic: topicSelect.value,
+      office: officeSelect.value,
+      country: countrySelect.value
+    };
+  }
+  
+  // Filter results
+  function filterResults(items, filters) {
+    return items.filter(item => {
+      // Keyword
+      if (filters.keyword) {
+        const searchText = (item.title + ' ' + (item.content || '')).toLowerCase();
+        const keywords = filters.keyword.toLowerCase().split(/\s+/);
+        if (!keywords.every(kw => searchText.includes(kw))) return false;
+      }
+      
+      // Date range
+      const itemDate = new Date(item.date);
+      if (filters.dateFrom && itemDate < new Date(filters.dateFrom)) return false;
+      if (filters.dateTo) {
+        const toDate = new Date(filters.dateTo);
+        toDate.setHours(23, 59, 59, 999);
+        if (itemDate > toDate) return false;
+      }
+      
+      // Content type (section)
+      if (filters.type) {
+        const itemSection = item.section?.toLowerCase().replace(/\s+&?\s*/g, '-') || '';
+        if (itemSection !== filters.type) return false;
+      }
+      
+      // Administration (date-based)
+      if (filters.admin && adminDates[filters.admin]) {
+        const adminRange = adminDates[filters.admin];
+        if (adminRange.from && itemDate < new Date(adminRange.from)) return false;
+        if (adminRange.to && itemDate > new Date(adminRange.to)) return false;
+      }
+      
+      // Secretary (date-based)
+      if (filters.secretary && secretaryDates[filters.secretary]) {
+        const secRange = secretaryDates[filters.secretary];
+        if (secRange.from && itemDate < new Date(secRange.from)) return false;
+        if (secRange.to && itemDate > new Date(secRange.to)) return false;
+      }
+      
+      // Topic (if available in metadata)
+      if (filters.topic && item.topics) {
+        const topics = Array.isArray(item.topics) ? item.topics : [item.topics];
+        if (!topics.some(t => t.toLowerCase().includes(filters.topic))) return false;
+      }
+      
+      // Office
+      if (filters.office && item.offices) {
+        const offices = Array.isArray(item.offices) ? item.offices : [item.offices];
+        if (!offices.some(o => o.toLowerCase().includes(filters.office))) return false;
+      }
+      
+      // Country
+      if (filters.country && item.countries) {
+        const countries = Array.isArray(item.countries) ? item.countries : [item.countries];
+        if (!countries.includes(filters.country)) return false;
+      }
+      
+      return true;
+    });
+  }
+  
+  // Render a single item
+  function renderItem(item) {
+    const date = new Date(item.date);
+    const dateStr = date.toLocaleDateString('en-US', { 
+      year: 'numeric', month: 'long', day: 'numeric',
+      hour: 'numeric', minute: '2-digit'
+    });
+    
+    return `
+      <article class="news-article-item">
+        <div class="article-meta">
+          <time datetime="${item.date}">${dateStr} EST</time>
+          ${item.section ? `<span class="article-category-divider">|</span><span class="article-category">${item.section}</span>` : ''}
+        </div>
+        <h2><a href="${item.url}">${item.title}</a></h2>
+      </article>
+    `;
+  }
+  
+  // Render initial results
+  function renderResults(items, append = false) {
+    currentResults = items;
+    
+    if (!append) {
+      displayedCount = 0;
+      resultsList.innerHTML = '';
+    }
+    
+    // Get next batch
+    const nextBatch = items.slice(displayedCount, displayedCount + perPage);
+    displayedCount += nextBatch.length;
+    
+    // Append items
+    resultsList.innerHTML += nextBatch.map(renderItem).join('');
+    
+    // Update count
+    resultsCount.textContent = `Showing ${displayedCount} of ${items.length} results`;
+    
+    // Show/hide load more button
+    if (displayedCount < items.length) {
+      loadMoreContainer.style.display = 'block';
+      loadMoreBtn.textContent = `Load More (${items.length - displayedCount} remaining)`;
+    } else {
+      loadMoreContainer.style.display = 'none';
+    }
+    
+    // Show results, hide empty state
+    resultsArea.style.display = 'block';
+    emptyState.style.display = 'none';
+  }
+  
+  // Load more handler
+  loadMoreBtn.addEventListener('click', () => {
+    // Mark the position of the first new item
+    const previousCount = displayedCount;
+    
+    renderResults(currentResults, true);
+    
+    // Scroll to the first new result
+    const allItems = resultsList.querySelectorAll('.news-article-item');
+    if (allItems.length > previousCount) {
+      const firstNewItem = allItems[previousCount];
+      if (firstNewItem) {
+        firstNewItem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Add a brief highlight effect
+        firstNewItem.classList.add('newly-loaded');
+        setTimeout(() => firstNewItem.classList.remove('newly-loaded'), 2000);
+      }
+    }
+  });
+  
+  // Show validation message
+  function showValidation(message) {
+    let validationEl = document.getElementById('search-validation');
+    if (!validationEl) {
+      validationEl = document.createElement('div');
+      validationEl.id = 'search-validation';
+      validationEl.className = 'search-validation';
+      searchBtn.parentNode.insertBefore(validationEl, searchBtn);
+    }
+    validationEl.textContent = message;
+    validationEl.style.display = 'block';
+    
+    // Auto-hide after 5 seconds
+    setTimeout(() => {
+      validationEl.style.display = 'none';
+    }, 5000);
+  }
+  
+  // Build active filters summary
+  function getActiveFiltersSummary(filters) {
+    const tags = [];
+    if (filters.keyword) tags.push({ type: 'keyword', label: `"${filters.keyword}"` });
+    if (filters.dateFrom && filters.dateTo) {
+      tags.push({ type: 'date', label: `${filters.dateFrom} to ${filters.dateTo}` });
+    } else if (filters.dateFrom) {
+      tags.push({ type: 'date', label: `From ${filters.dateFrom}` });
+    } else if (filters.dateTo) {
+      tags.push({ type: 'date', label: `Until ${filters.dateTo}` });
+    }
+    if (filters.type) tags.push({ type: 'type', label: typeSelect.options[typeSelect.selectedIndex].text });
+    if (filters.admin) tags.push({ type: 'admin', label: adminSelect.options[adminSelect.selectedIndex].text });
+    if (filters.secretary) tags.push({ type: 'secretary', label: secretarySelect.options[secretarySelect.selectedIndex].text });
+    if (filters.topic) tags.push({ type: 'topic', label: topicSelect.options[topicSelect.selectedIndex].text });
+    if (filters.office) tags.push({ type: 'office', label: officeSelect.options[officeSelect.selectedIndex].text });
+    if (filters.country) tags.push({ type: 'country', label: countrySelect.options[countrySelect.selectedIndex].text });
+    return tags;
+  }
+  
+  // Render filter tags
+  function renderFilterTags(filters) {
+    const tags = getActiveFiltersSummary(filters);
+    const filterTagsEl = document.getElementById('active-filter-tags');
+    
+    if (tags.length === 0) {
+      filterTagsEl.style.display = 'none';
+      return;
+    }
+    
+    filterTagsEl.innerHTML = `
+      <span class="filter-tags-label">Active filters:</span>
+      ${tags.map(t => `<span class="filter-tag">${t.label}</span>`).join('')}
+    `;
+    filterTagsEl.style.display = 'flex';
+  }
+  
+  // Set loading state
+  function setLoading(loading) {
+    if (loading) {
+      searchBtn.disabled = true;
+      searchBtn.innerHTML = `
+        <svg class="spinner" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10" stroke-dasharray="32" stroke-dashoffset="12"></circle>
+        </svg>
+        Searching...
+      `;
+    } else {
+      searchBtn.disabled = false;
+      searchBtn.innerHTML = `
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        Search
+      `;
+    }
+  }
+  
+  // Run search
+  async function runSearch() {
+    const filters = getFilters();
+    
+    // Check if any filters are set
+    const hasFilters = Object.values(filters).some(v => v);
+    
+    if (!hasFilters) {
+      showValidation('Please enter at least one search filter');
+      return;
+    }
+    
+    // Show loading state
+    setLoading(true);
+    
+    const index = await loadSearchIndex();
+    const filtered = filterResults(index, filters);
+    
+    // Sort by date descending
+    filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
+    
+    // Hide loading
+    setLoading(false);
+    
+    // If no results, show message but keep form expanded
+    if (filtered.length === 0) {
+      resultsArea.style.display = 'block';
+      emptyState.style.display = 'none';
+      resultsList.innerHTML = '<div class="no-results-message">No results found. Try adjusting your search criteria.</div>';
+      resultsCount.textContent = '0 results';
+      loadMoreContainer.style.display = 'none';
+      renderFilterTags(filters);
+      // Keep form expanded so user can modify search
+      return;
+    }
+    
+    // Collapse the form and show results (NO auto-scroll - page stays stable)
+    collapseForm();
+    renderFilterTags(filters);
+    renderResults(filtered);
+    
+    // Hide empty state
+    emptyState.style.display = 'none';
+  }
+  
+  // Event handlers
+  presetBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const preset = btn.dataset.preset;
+      const isActive = btn.classList.contains('active');
+      
+      presetBtns.forEach(b => b.classList.remove('active'));
+      
+      if (isActive) {
+        dateFromInput.value = '';
+        dateToInput.value = '';
+      } else {
+        btn.classList.add('active');
+        const range = getPresetDateRange(preset);
+        dateFromInput.value = formatDateForInput(range.from);
+        dateToInput.value = formatDateForInput(range.to);
+      }
+    });
+  });
+  
+  // Clear preset when manually changing dates
+  dateFromInput.addEventListener('change', () => {
+    presetBtns.forEach(b => b.classList.remove('active'));
+  });
+  
+  dateToInput.addEventListener('change', () => {
+    presetBtns.forEach(b => b.classList.remove('active'));
+  });
+  
+  // Search button
+  searchBtn.addEventListener('click', runSearch);
+  
+  // Enter key in keyword field
+  keywordInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      runSearch();
+    }
+  });
+  
+  // Reset button
+  resetBtn.addEventListener('click', () => {
+    keywordInput.value = '';
+    dateFromInput.value = '';
+    dateToInput.value = '';
+    typeSelect.value = '';
+    adminSelect.value = '';
+    secretarySelect.value = '';
+    topicSelect.value = '';
+    officeSelect.value = '';
+    countrySelect.value = '';
+    presetBtns.forEach(b => b.classList.remove('active'));
+    
+    currentResults = [];
+    displayedCount = 0;
+    resultsList.innerHTML = '';
+    resultsArea.style.display = 'none';
+    emptyState.style.display = 'block';
+    document.getElementById('active-filter-tags').style.display = 'none';
+    expandForm();
+  });
+  
+  // Check for URL parameters on load and auto-search
+  const urlParams = new URLSearchParams(window.location.search);
+  let hasParams = false;
+  
+  if (urlParams.get('q')) {
+    keywordInput.value = urlParams.get('q');
+    hasParams = true;
+  }
+  if (urlParams.get('type')) {
+    typeSelect.value = urlParams.get('type');
+    hasParams = true;
+  }
+  if (urlParams.get('admin')) {
+    adminSelect.value = urlParams.get('admin');
+    hasParams = true;
+  }
+  if (urlParams.get('secretary')) {
+    secretarySelect.value = urlParams.get('secretary');
+    hasParams = true;
+  }
+  if (urlParams.get('topic')) {
+    topicSelect.value = urlParams.get('topic');
+    hasParams = true;
+  }
+  if (urlParams.get('office')) {
+    officeSelect.value = urlParams.get('office');
+    hasParams = true;
+  }
+  if (urlParams.get('country')) {
+    countrySelect.value = urlParams.get('country');
+    hasParams = true;
+  }
+  if (urlParams.get('from')) {
+    dateFromInput.value = urlParams.get('from');
+    hasParams = true;
+  }
+  if (urlParams.get('to')) {
+    dateToInput.value = urlParams.get('to');
+    hasParams = true;
+  }
+  
+  // Auto-run search if parameters were passed
+  if (hasParams) {
+    runSearch();
+  }
+})();
+</script>
+{{ end }}

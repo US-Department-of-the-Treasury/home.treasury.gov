@@ -1,0 +1,708 @@
+{{/* Inline Filter Bar - Quick filters for news sections */}}
+<div class="inline-filters" id="inline-filters">
+  <div class="filter-row">
+    {{/* Quick Date Toggles */}}
+    <div class="quick-filters">
+      <button type="button" class="quick-filter-btn" data-filter="today">Today</button>
+      <button type="button" class="quick-filter-btn" data-filter="week">This Week</button>
+      <button type="button" class="quick-filter-btn" data-filter="month">This Month</button>
+      <button type="button" class="quick-filter-btn" data-filter="year">This Year</button>
+    </div>
+
+    {{/* Date Range */}}
+    <div class="date-range-group">
+      <label for="filter-date-from" class="visually-hidden">From date</label>
+      <input type="date" id="filter-date-from" class="date-picker" placeholder="From">
+      <span class="date-separator">–</span>
+      <label for="filter-date-to" class="visually-hidden">To date</label>
+      <input type="date" id="filter-date-to" class="date-picker" placeholder="To">
+    </div>
+
+    {{/* Keyword Search */}}
+    <div class="keyword-search-group">
+      <label for="filter-keyword" class="visually-hidden">Search by keyword</label>
+      <input type="text" id="filter-keyword" class="keyword-input" placeholder="Search keywords...">
+      <button type="button" class="search-btn" id="apply-filters-btn" aria-label="Apply filters">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+      </button>
+    </div>
+
+    {{/* Advanced Search Link */}}
+    <a href="/news/search/" class="advanced-search-link">
+      Advanced Search
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+
+  {{/* Active Filters Display */}}
+  <div class="active-filters" id="active-filters" style="display: none;">
+    <span class="active-label">Filtering:</span>
+    <div class="filter-tags" id="filter-tags"></div>
+    <button type="button" class="clear-all-btn" id="clear-filters-btn">Clear All</button>
+  </div>
+</div>
+
+{{/* Results area - replaces the original article list when filtering */}}
+<div id="filtered-results" style="display: none;">
+  <div class="results-summary">
+    <span class="results-count-display" id="inline-results-count">Showing 0 results</span>
+    <button type="button" class="reset-btn" id="reset-to-paginated">Reset</button>
+  </div>
+  <div class="news-article-list" id="inline-results-list"></div>
+  <div class="results-pagination" id="inline-results-pagination"></div>
+</div>
+
+<style>
+/* Inline Filter Bar Styles */
+.inline-filters {
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  padding: 0.875rem 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Quick Filter Buttons */
+.quick-filters {
+  display: flex;
+  gap: 0.375rem;
+}
+
+.quick-filter-btn {
+  background: #fff;
+  border: 1px solid var(--gray-300);
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.quick-filter-btn:hover {
+  border-color: var(--treasury-navy-light);
+  color: var(--treasury-navy-light);
+}
+
+.quick-filter-btn.active {
+  background: var(--treasury-navy-light);
+  border-color: var(--treasury-navy-light);
+  color: #fff;
+}
+
+/* Date Range */
+.date-range-group {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.date-picker {
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--gray-300);
+  font-size: 0.8125rem;
+  width: 130px;
+  background: #fff;
+}
+
+.date-picker:focus {
+  outline: 2px solid var(--treasury-navy-light);
+  outline-offset: 0;
+  border-color: var(--treasury-navy-light);
+}
+
+.date-separator {
+  color: var(--gray-400);
+  font-size: 0.875rem;
+}
+
+/* Keyword Search */
+.keyword-search-group {
+  display: flex;
+  flex: 1;
+  max-width: 280px;
+  min-width: 180px;
+}
+
+.keyword-input {
+  flex: 1;
+  padding: 0.4rem 0.625rem;
+  border: 1px solid var(--gray-300);
+  border-right: none;
+  font-size: 0.875rem;
+  background: #fff;
+}
+
+.keyword-input:focus {
+  outline: 2px solid var(--treasury-navy-light);
+  outline-offset: 0;
+  border-color: var(--treasury-navy-light);
+  z-index: 1;
+}
+
+.search-btn {
+  background: var(--treasury-navy-light);
+  border: 1px solid var(--treasury-navy-light);
+  color: #fff;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn:hover {
+  background: var(--treasury-navy);
+  border-color: var(--treasury-navy);
+}
+
+/* Advanced Search Link */
+.advanced-search-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--treasury-navy-light);
+  text-decoration: none;
+  padding: 0.4rem 0;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.advanced-search-link:hover {
+  text-decoration: underline;
+}
+
+.advanced-search-link svg {
+  transition: transform 0.15s ease;
+}
+
+.advanced-search-link:hover svg {
+  transform: translateX(2px);
+}
+
+/* Active Filters */
+.active-filters {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--gray-200);
+  flex-wrap: wrap;
+}
+
+.active-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gray-600);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.filter-tags {
+  display: flex;
+  gap: 0.375rem;
+  flex-wrap: wrap;
+}
+
+.filter-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  background: var(--treasury-navy-light);
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.filter-tag .remove-tag {
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.filter-tag .remove-tag:hover {
+  color: #fff;
+}
+
+.clear-all-btn {
+  background: none;
+  border: none;
+  color: var(--treasury-navy-light);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  text-decoration: underline;
+}
+
+.clear-all-btn:hover {
+  color: var(--treasury-navy);
+}
+
+/* Results area */
+#filtered-results .results-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reset-btn {
+  background: none;
+  border: none;
+  color: var(--treasury-navy-light);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.reset-btn:hover {
+  color: var(--treasury-navy);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .filter-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+  
+  .quick-filters {
+    flex-wrap: wrap;
+  }
+  
+  .date-range-group {
+    width: 100%;
+  }
+  
+  .date-picker {
+    flex: 1;
+    width: auto;
+  }
+  
+  .keyword-search-group {
+    max-width: none;
+    width: 100%;
+  }
+  
+  .advanced-search-link {
+    margin-left: 0;
+    justify-content: center;
+    padding: 0.5rem;
+    background: var(--gray-200);
+  }
+}
+
+@media (max-width: 480px) {
+  .quick-filters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.375rem;
+    width: 100%;
+  }
+  
+  .quick-filter-btn {
+    text-align: center;
+  }
+}
+</style>
+
+<script>
+(function() {
+  // Get current section from URL
+  const currentPath = window.location.pathname;
+  const sectionMatch = currentPath.match(/\/news\/([^\/]+)/);
+  const currentSection = sectionMatch ? sectionMatch[1] : 'all';
+  
+  // State
+  let searchIndex = null;
+  let activeFilters = {
+    datePreset: null,
+    dateFrom: null,
+    dateTo: null,
+    keyword: ''
+  };
+  
+  // DOM elements
+  const quickFilterBtns = document.querySelectorAll('.quick-filter-btn');
+  const dateFromInput = document.getElementById('filter-date-from');
+  const dateToInput = document.getElementById('filter-date-to');
+  const keywordInput = document.getElementById('filter-keyword');
+  const applyBtn = document.getElementById('apply-filters-btn');
+  const clearBtn = document.getElementById('clear-filters-btn');
+  const resetBtn = document.getElementById('reset-to-paginated');
+  const activeFiltersEl = document.getElementById('active-filters');
+  const filterTagsEl = document.getElementById('filter-tags');
+  const filteredResultsEl = document.getElementById('filtered-results');
+  const paginatedContentEl = document.getElementById('paginated-content');
+  const resultsListEl = document.getElementById('inline-results-list');
+  const resultsCountEl = document.getElementById('inline-results-count');
+  const resultsPaginationEl = document.getElementById('inline-results-pagination');
+  
+  // Load search index
+  async function loadSearchIndex() {
+    if (searchIndex) return searchIndex;
+    try {
+      const response = await fetch('/index.json');
+      searchIndex = await response.json();
+      return searchIndex;
+    } catch (error) {
+      console.error('Failed to load search index:', error);
+      return [];
+    }
+  }
+  
+  // Date helpers
+  function getDateRange(preset) {
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    
+    switch (preset) {
+      case 'today':
+        return { from: today, to: today };
+      case 'week':
+        const weekAgo = new Date(today);
+        weekAgo.setDate(weekAgo.getDate() - 7);
+        return { from: weekAgo, to: today };
+      case 'month':
+        const monthAgo = new Date(today);
+        monthAgo.setMonth(monthAgo.getMonth() - 1);
+        return { from: monthAgo, to: today };
+      case 'year':
+        const yearAgo = new Date(today);
+        yearAgo.setFullYear(yearAgo.getFullYear() - 1);
+        return { from: yearAgo, to: today };
+      default:
+        return null;
+    }
+  }
+  
+  function formatDateForInput(date) {
+    return date.toISOString().split('T')[0];
+  }
+  
+  function formatDateDisplay(dateStr) {
+    const date = new Date(dateStr);
+    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+  
+  // Section name mapping (URL path -> display names)
+  const sectionMap = {
+    'press-releases': ['press releases', 'press-releases'],
+    'readouts': ['readouts'],
+    'statements-remarks': ['statements & remarks', 'statements-remarks', 'statements remarks'],
+    'testimonies': ['testimonies'],
+    'featured-stories': ['featured stories', 'featured-stories'],
+    'webcasts': ['webcasts']
+  };
+  
+  // Filter the search index
+  function filterResults(items) {
+    return items.filter(item => {
+      // Section filter (built-in based on current page)
+      if (currentSection !== 'all') {
+        const itemSection = (item.section || '').toLowerCase();
+        const validSections = sectionMap[currentSection] || [currentSection];
+        if (!validSections.some(s => itemSection.includes(s) || s.includes(itemSection))) {
+          return false;
+        }
+      }
+      
+      // Date filter
+      if (activeFilters.dateFrom || activeFilters.dateTo) {
+        const itemDate = new Date(item.date);
+        if (activeFilters.dateFrom && itemDate < new Date(activeFilters.dateFrom)) return false;
+        if (activeFilters.dateTo) {
+          const toDate = new Date(activeFilters.dateTo);
+          toDate.setHours(23, 59, 59, 999);
+          if (itemDate > toDate) return false;
+        }
+      }
+      
+      // Keyword filter
+      if (activeFilters.keyword) {
+        const searchText = (item.title + ' ' + (item.content || '')).toLowerCase();
+        const keywords = activeFilters.keyword.toLowerCase().split(/\s+/);
+        if (!keywords.every(kw => searchText.includes(kw))) return false;
+      }
+      
+      return true;
+    });
+  }
+  
+  // Render results
+  function renderResults(items, page = 1) {
+    const perPage = 10;
+    const start = (page - 1) * perPage;
+    const end = start + perPage;
+    const pageItems = items.slice(start, end);
+    const totalPages = Math.ceil(items.length / perPage);
+    
+    // Update count
+    resultsCountEl.textContent = `Showing ${pageItems.length} of ${items.length} results`;
+    
+    // Render items
+    resultsListEl.innerHTML = pageItems.map(item => {
+      const date = new Date(item.date);
+      const dateStr = date.toLocaleDateString('en-US', { 
+        year: 'numeric', month: 'long', day: 'numeric',
+        hour: 'numeric', minute: '2-digit', timeZoneName: 'short'
+      });
+      
+      return `
+        <article class="news-article-item">
+          <div class="article-meta">
+            <time datetime="${item.date}">${dateStr}</time>
+            ${item.section ? `<span class="article-category-divider">|</span><span class="article-category">${item.section}</span>` : ''}
+          </div>
+          <h2><a href="${item.url}">${item.title}</a></h2>
+        </article>
+      `;
+    }).join('');
+    
+    // Render pagination
+    if (totalPages > 1) {
+      let paginationHtml = '';
+      
+      // Previous
+      if (page > 1) {
+        paginationHtml += `<button class="page-arrow" data-page="${page - 1}">← Prev</button>`;
+      }
+      
+      // Page numbers
+      const startPage = Math.max(1, page - 2);
+      const endPage = Math.min(totalPages, page + 2);
+      
+      if (startPage > 1) {
+        paginationHtml += `<button class="page-number" data-page="1">1</button>`;
+        if (startPage > 2) paginationHtml += `<span class="page-ellipsis">...</span>`;
+      }
+      
+      for (let i = startPage; i <= endPage; i++) {
+        const currentClass = i === page ? 'current' : '';
+        paginationHtml += `<button class="page-number ${currentClass}" data-page="${i}">${i}</button>`;
+      }
+      
+      if (endPage < totalPages) {
+        if (endPage < totalPages - 1) paginationHtml += `<span class="page-ellipsis">...</span>`;
+        paginationHtml += `<button class="page-number" data-page="${totalPages}">${totalPages}</button>`;
+      }
+      
+      // Next
+      if (page < totalPages) {
+        paginationHtml += `<button class="page-arrow" data-page="${page + 1}">Next →</button>`;
+      }
+      
+      resultsPaginationEl.innerHTML = paginationHtml;
+      resultsPaginationEl.style.display = 'flex';
+      
+      // Add pagination click handlers
+      resultsPaginationEl.querySelectorAll('[data-page]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          renderResults(items, parseInt(btn.dataset.page));
+          filteredResultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+    } else {
+      resultsPaginationEl.style.display = 'none';
+    }
+  }
+  
+  // Update active filters display
+  function updateActiveFiltersDisplay() {
+    const tags = [];
+    
+    if (activeFilters.datePreset) {
+      const presetLabels = {
+        today: 'Today',
+        week: 'This Week',
+        month: 'This Month',
+        year: 'This Year'
+      };
+      tags.push({ type: 'preset', label: presetLabels[activeFilters.datePreset] });
+    } else if (activeFilters.dateFrom || activeFilters.dateTo) {
+      let label = '';
+      if (activeFilters.dateFrom && activeFilters.dateTo) {
+        label = `${formatDateDisplay(activeFilters.dateFrom)} – ${formatDateDisplay(activeFilters.dateTo)}`;
+      } else if (activeFilters.dateFrom) {
+        label = `From ${formatDateDisplay(activeFilters.dateFrom)}`;
+      } else {
+        label = `Until ${formatDateDisplay(activeFilters.dateTo)}`;
+      }
+      tags.push({ type: 'date', label });
+    }
+    
+    if (activeFilters.keyword) {
+      tags.push({ type: 'keyword', label: `"${activeFilters.keyword}"` });
+    }
+    
+    if (tags.length > 0) {
+      filterTagsEl.innerHTML = tags.map(tag => `
+        <span class="filter-tag" data-type="${tag.type}">
+          ${tag.label}
+          <button class="remove-tag" aria-label="Remove filter">×</button>
+        </span>
+      `).join('');
+      
+      // Add remove handlers
+      filterTagsEl.querySelectorAll('.remove-tag').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const type = e.target.closest('.filter-tag').dataset.type;
+          if (type === 'preset') {
+            activeFilters.datePreset = null;
+            activeFilters.dateFrom = null;
+            activeFilters.dateTo = null;
+            quickFilterBtns.forEach(b => b.classList.remove('active'));
+            dateFromInput.value = '';
+            dateToInput.value = '';
+          } else if (type === 'date') {
+            activeFilters.dateFrom = null;
+            activeFilters.dateTo = null;
+            dateFromInput.value = '';
+            dateToInput.value = '';
+          } else if (type === 'keyword') {
+            activeFilters.keyword = '';
+            keywordInput.value = '';
+          }
+          applyFilters();
+        });
+      });
+      
+      activeFiltersEl.style.display = 'flex';
+    } else {
+      activeFiltersEl.style.display = 'none';
+    }
+  }
+  
+  // Apply filters
+  async function applyFilters() {
+    const hasFilters = activeFilters.datePreset || activeFilters.dateFrom || activeFilters.dateTo || activeFilters.keyword;
+    
+    if (!hasFilters) {
+      // Reset to paginated view
+      filteredResultsEl.style.display = 'none';
+      paginatedContentEl.style.display = 'block';
+      activeFiltersEl.style.display = 'none';
+      return;
+    }
+    
+    // Load and filter
+    const index = await loadSearchIndex();
+    const filtered = filterResults(index);
+    
+    // Sort by date descending
+    filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
+    
+    // Show filtered results
+    paginatedContentEl.style.display = 'none';
+    filteredResultsEl.style.display = 'block';
+    
+    renderResults(filtered);
+    updateActiveFiltersDisplay();
+  }
+  
+  // Event handlers
+  quickFilterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const preset = btn.dataset.filter;
+      const isActive = btn.classList.contains('active');
+      
+      // Toggle off if clicking same button
+      quickFilterBtns.forEach(b => b.classList.remove('active'));
+      
+      if (isActive) {
+        activeFilters.datePreset = null;
+        activeFilters.dateFrom = null;
+        activeFilters.dateTo = null;
+        dateFromInput.value = '';
+        dateToInput.value = '';
+      } else {
+        btn.classList.add('active');
+        activeFilters.datePreset = preset;
+        const range = getDateRange(preset);
+        activeFilters.dateFrom = formatDateForInput(range.from);
+        activeFilters.dateTo = formatDateForInput(range.to);
+        dateFromInput.value = activeFilters.dateFrom;
+        dateToInput.value = activeFilters.dateTo;
+      }
+      
+      applyFilters();
+    });
+  });
+  
+  // Date inputs
+  dateFromInput.addEventListener('change', () => {
+    activeFilters.datePreset = null;
+    activeFilters.dateFrom = dateFromInput.value;
+    quickFilterBtns.forEach(b => b.classList.remove('active'));
+    applyFilters();
+  });
+  
+  dateToInput.addEventListener('change', () => {
+    activeFilters.datePreset = null;
+    activeFilters.dateTo = dateToInput.value;
+    quickFilterBtns.forEach(b => b.classList.remove('active'));
+    applyFilters();
+  });
+  
+  // Keyword
+  keywordInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      activeFilters.keyword = keywordInput.value.trim();
+      applyFilters();
+    }
+  });
+  
+  applyBtn.addEventListener('click', () => {
+    activeFilters.keyword = keywordInput.value.trim();
+    applyFilters();
+  });
+  
+  // Clear all
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      activeFilters = { datePreset: null, dateFrom: null, dateTo: null, keyword: '' };
+      quickFilterBtns.forEach(b => b.classList.remove('active'));
+      dateFromInput.value = '';
+      dateToInput.value = '';
+      keywordInput.value = '';
+      applyFilters();
+    });
+  }
+  
+  // Reset button
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      activeFilters = { datePreset: null, dateFrom: null, dateTo: null, keyword: '' };
+      quickFilterBtns.forEach(b => b.classList.remove('active'));
+      dateFromInput.value = '';
+      dateToInput.value = '';
+      keywordInput.value = '';
+      filteredResultsEl.style.display = 'none';
+      paginatedContentEl.style.display = 'block';
+      activeFiltersEl.style.display = 'none';
+    });
+  }
+})();
+</script>
