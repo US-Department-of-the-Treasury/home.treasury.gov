@@ -17,3 +17,9 @@ Started: 2026-01-15
 - Files changed: terraform/main.tf
 - Learnings: Used for_each with conditional for DNS validation records to handle dynamic validation options
 - Next: Update CloudFront distribution with custom domain and certificate
+
+## Iteration 3 - Update CloudFront distribution with custom domain and certificate
+- Completed: Added aliases and updated viewer_certificate to use ACM cert conditionally
+- Files changed: terraform/main.tf
+- Learnings: depends_on cannot be conditional, but implicit dependencies through resource references work
+- Next: Create Route53 A and AAAA records for CloudFront

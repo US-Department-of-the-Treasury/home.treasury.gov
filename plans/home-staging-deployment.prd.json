@@ -48,7 +48,7 @@
         "terraform validate succeeds"
       ],
       "priority": "high",
-      "passes": false
+      "passes": true
     },
     {
       "id": "create-dns-records",
