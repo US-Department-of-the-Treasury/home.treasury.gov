@@ -105,11 +105,11 @@
     }
   ],
   "postCompletion": {
-    "securityReview": false,
+    "securityReview": true,
     "codeQualityReview": false,
-    "testsAdded": false,
-    "seedDataChecked": false,
-    "fixturesUpdated": false,
+    "testsAdded": true,
+    "seedDataChecked": true,
+    "fixturesUpdated": true,
     "docsChecked": false,
     "learningsExtracted": false,
     "criticalFindings": []
