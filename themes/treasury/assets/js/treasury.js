@@ -211,4 +211,15 @@
   // https://home.treasury.gov/news/press-releases/ (or current section)
   // No client-side interception needed.
 
+  // ============================================
+  // Service Worker Registration
+  // ============================================
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/sw.js').catch(function(err) {
+        console.log('SW registration failed:', err);
+      });
+    });
+  }
+
 })();

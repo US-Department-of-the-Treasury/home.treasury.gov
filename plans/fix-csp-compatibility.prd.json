@@ -1,0 +1,102 @@
+{
+  "name": "Fix CSP Compatibility",
+  "description": "Fix Content Security Policy compatibility issues causing CSS and JS to fail on production. The deployed site has strict CSP (script-src 'self') that blocks inline event handlers and scripts. This causes: CSS not applying (onload handlers blocked), Service worker not registering (inline script blocked), and image fallback not working (onerror blocked).",
+  "created": "2026-01-16",
+  "ship_sprint_id": null,
+  "confidence": 85,
+  "feedbackLoops": {
+    "build": "cd /Users/CorcosS/code/home.treasury.gov && hugo --minify"
+  },
+  "userStories": [
+    {
+      "id": "fix-css-loading",
+      "title": "Fix CSS loading to work with CSP",
+      "description": "Change CSS loading from async preload pattern with inline onload handlers to standard stylesheet loading. The current pattern uses 'onload=...' which is blocked by script-src 'self'. Since critical CSS is already inlined, normal stylesheet loading will work fine.",
+      "verification": [
+        "Build Hugo site with 'hugo --minify'",
+        "Check generated HTML has <link rel='stylesheet'> instead of preload with onload",
+        "Verify no 'onload=' attributes on CSS links"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "fix-service-worker",
+      "title": "Move service worker registration to external JS",
+      "description": "Move the inline service worker registration script to the external treasury.js file. The inline <script> block in baseof.html is blocked by CSP 'script-src self'.",
+      "verification": [
+        "Build Hugo site",
+        "Verify no inline <script> blocks in baseof.html (only external script references)",
+        "Check treasury.js includes service worker registration"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "fix-image-onerror",
+      "title": "Remove inline onerror handler from image",
+      "description": "Remove the onerror='this.style.display=none' from the Secretary Bessent image in index.html. This inline event handler is blocked by CSP. If the image doesn't load, it will just show the alt text which is acceptable.",
+      "verification": [
+        "Build Hugo site",
+        "Verify no onerror attributes in generated HTML",
+        "Check index.html image tag has no inline event handlers"
+      ],
+      "priority": "medium",
+      "passes": true
+    },
+    {
+      "id": "deploy-and-verify",
+      "title": "Deploy and verify site works on staging",
+      "description": "Sync changes to S3, invalidate CloudFront cache, and verify the deployed site now works correctly.",
+      "verification": [
+        "Run S3 sync: aws s3 sync public/ s3://treasury-home-staging-8554d295/ --delete",
+        "Invalidate CloudFront: aws cloudfront create-invalidation --distribution-id EY38PK55WTBDQ --paths '/*'",
+        "curl the deployed CSS file and verify 200 response",
+        "Wait for CloudFront propagation (30 seconds)"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "playwright-visual-test",
+      "title": "Visual verification with Playwright - both sites match",
+      "description": "Use Playwright MCP to visually verify that the dev server (localhost:1313) and deployed site (home-staging.awsdev.treasury.gov) look identical. Test homepage layout, hero section, navigation appearance.",
+      "verification": [
+        "Use Playwright to navigate to localhost:1313 and take screenshot",
+        "Use Playwright to navigate to home-staging.awsdev.treasury.gov and take screenshot",
+        "Verify both have: alert banner, government banner, proper header with logo, hero section with image on right",
+        "Verify both have: two-column news layout (Featured Stories, Press Releases)"
+      ],
+      "priority": "high",
+      "passes": true
+    },
+    {
+      "id": "playwright-mega-menu-test",
+      "title": "Functional verification - mega menu dropdown works",
+      "description": "Use Playwright MCP to verify the NEWS dropdown mega-menu works on both dev and deployed sites.",
+      "verification": [
+        "Use Playwright to navigate to localhost:1313",
+        "Click on NEWS nav item",
+        "Verify mega-menu appears with multiple columns (Featured Stories, Press Releases, etc.)",
+        "Use Playwright to navigate to home-staging.awsdev.treasury.gov",
+        "Click on NEWS nav item",
+        "Verify mega-menu appears with same content"
+      ],
+      "priority": "high",
+      "passes": true
+    }
+  ],
+  "postCompletion": {
+    "securityReview": true,
+    "codeQualityReview": true,
+    "testsAdded": true,
+    "seedDataChecked": true,
+    "fixturesUpdated": true,
+    "docsChecked": true,
+    "learningsExtracted": true,
+    "criticalFindings": [],
+    "followUpIssues": [
+      "news/all.html and news/list.html have additional inline handlers (pagination jumpToPage) that need CSP remediation - separate from core layout fixes"
+    ]
+  }
+}

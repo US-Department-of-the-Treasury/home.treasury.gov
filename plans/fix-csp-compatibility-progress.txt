@@ -1,0 +1,17 @@
+# Progress Log
+PRD: plans/fix-csp-compatibility.prd.json
+Started: 2026-01-16T03:15:00Z
+
+## Root Cause Analysis
+
+The deployed site at home-staging.awsdev.treasury.gov has Content Security Policy headers configured in Terraform that include `script-src 'self'`. This blocks:
+
+1. **Inline onload handlers** on CSS preload links - CSS is preloaded but never applied because the handler that changes rel="preload" to rel="stylesheet" is blocked
+2. **Inline <script> blocks** - The service worker registration script in baseof.html
+3. **Inline onerror handlers** - The fallback on the Secretary image
+
+The dev server (hugo server) doesn't send CSP headers, so everything works locally.
+
+---
+
+(Progress will be appended here as stories complete)
