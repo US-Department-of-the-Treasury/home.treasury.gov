@@ -23,3 +23,9 @@ Started: 2026-01-15
 - Files changed: terraform/main.tf
 - Learnings: depends_on cannot be conditional, but implicit dependencies through resource references work
 - Next: Create Route53 A and AAAA records for CloudFront
+
+## Iteration 4 - Create Route53 A and AAAA records for CloudFront
+- Completed: Added A and AAAA alias records pointing to CloudFront distribution
+- Files changed: terraform/main.tf
+- Learnings: CloudFront provides hosted_zone_id attribute that resolves to Z2FDTNDATAQYW2
+- Next: Update Terraform outputs for custom domain
