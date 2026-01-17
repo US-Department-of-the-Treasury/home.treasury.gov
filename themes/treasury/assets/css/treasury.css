@@ -1799,8 +1799,8 @@ button.nav-link {
 }
 
 .required-plugins a {
-  color: rgba(255,255,255,0.8);
-  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
   display: inline-flex;
   align-items: center;
   padding: 4px 0;
