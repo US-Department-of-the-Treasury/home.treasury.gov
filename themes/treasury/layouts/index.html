@@ -1,211 +1,144 @@
 {{ define "main" }}
-<!-- Hero Section -->
-<section class="hero" aria-labelledby="hero-heading">
-  <div class="hero-inner">
+{{/* Treasury Homepage */}}
+
+{{/* Hero Section - Secretary */}}
+<section class="hero-section">
+  <div class="hero-inner container">
     <div class="hero-content">
-      <h1 id="hero-heading" class="hero-title">U.S. Department of the Treasury</h1>
-      <p class="hero-description">Maintain a strong economy by promoting conditions that enable economic growth at home and abroad, strengthen national security, and manage the U.S. Government's finances and resources.</p>
-      <div class="hero-actions">
-        <a href="/news/press-releases/" class="btn btn-primary">Latest News</a>
-        <a href="/about/general-information/role-of-the-treasury" class="btn btn-secondary">About Treasury</a>
-      </div>
+      <p class="hero-label">TREASURY LEADERSHIP</p>
+      <h1 class="hero-title">Secretary Bessent</h1>
     </div>
     <div class="hero-image">
-      <img src="{{ "images/treasury-building.webp" | relURL }}" alt="U.S. Treasury Building in Washington, D.C.">
+      <img src="/images/secretary-bessent.jpg" alt="Secretary Scott Bessent">
     </div>
   </div>
 </section>
 
-<!-- Quick Links Section -->
-<section class="quick-links" aria-labelledby="quick-links-heading">
+{{/* News Section */}}
+<section class="home-news-section">
   <div class="container">
-    <h2 id="quick-links-heading" class="sr-only">Quick Links</h2>
-    <div class="quick-links-grid">
-      <a href="/services/taxes/" class="quick-link-card">
-        <div class="quick-link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>
-        </div>
-        <span class="quick-link-title">Taxes & IRS</span>
-      </a>
-      <a href="https://www.treasurydirect.gov/" class="quick-link-card">
-        <div class="quick-link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M12 12h.01"/></svg>
-        </div>
-        <span class="quick-link-title">Savings Bonds</span>
-      </a>
-      <a href="/services/currency-and-coins/" class="quick-link-card">
-        <div class="quick-link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v12M8 10h8M8 14h8"/></svg>
-        </div>
-        <span class="quick-link-title">Currency & Coins</span>
-      </a>
-      <a href="/about/careers-at-treasury/" class="quick-link-card">
-        <div class="quick-link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-        </div>
-        <span class="quick-link-title">Careers</span>
-      </a>
-      <a href="/data/" class="quick-link-card">
-        <div class="quick-link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg>
-        </div>
-        <span class="quick-link-title">Data & Charts</span>
-      </a>
-      <a href="/services/report-fraud-waste-and-abuse/" class="quick-link-card">
-        <div class="quick-link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <span class="quick-link-title">Report Fraud</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- Featured News Section -->
-<section class="featured-news" aria-labelledby="featured-news-heading">
-  <div class="container">
-    <div class="section-header">
-      <h2 id="featured-news-heading">Latest News</h2>
-      <a href="/news/press-releases/" class="view-all-link">View All News →</a>
-    </div>
-    
-    <div class="news-grid">
-      {{/* Get latest press releases - filter by URL path */}}
-      {{ $pressReleases := slice }}
-      {{ range site.RegularPages.ByDate.Reverse }}
-        {{ if strings.Contains .RelPermalink "/news/press-releases/" }}
-          {{ if lt (len $pressReleases) 6 }}
-            {{ $pressReleases = $pressReleases | append . }}
-          {{ end }}
+    <div class="home-news-grid">
+      {{/* Featured Stories */}}
+      <div class="news-column featured-stories">
+        <h2 class="section-heading">Featured Stories</h2>
+        {{ $featured := where site.RegularPages "Section" "news" }}
+        {{ $featured = where $featured ".Params.type" "featured-story" }}
+        {{ if not $featured }}
+          {{ $featured = (site.GetPage "news/featured-stories").Pages }}
         {{ end }}
-      {{ end }}
-      
-      {{ if eq (len $pressReleases) 0 }}
-      {{/* Fallback: show placeholder if no press releases available */}}
-      <article class="news-card news-card-featured">
-        <div class="news-card-content">
-          <time class="news-card-date">Latest</time>
-          <h3 class="news-card-title">
-            <a href="/news/press-releases/">View Latest Press Releases</a>
-          </h3>
-          <p class="news-card-excerpt">Visit our press releases page to see the latest news from the Department of the Treasury.</p>
-        </div>
-      </article>
-      {{ else }}
-      {{ range $index, $page := $pressReleases }}
-      <article class="news-card{{ if eq $index 0 }} news-card-featured{{ end }}">
-        <div class="news-card-content">
-          {{ with .Params.date }}
-          <time datetime="{{ . }}" class="news-card-date">{{ time.Format "January 2, 2006" . }}</time>
+        {{ range first 4 $featured.ByDate.Reverse }}
+        <article class="news-item">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          {{ if .Params.description }}
+          <p>{{ .Params.description | truncate 120 }}</p>
           {{ end }}
-          <h3 class="news-card-title">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </h3>
-          {{ if eq $index 0 }}
-          <p class="news-card-excerpt">{{ .Summary | plainify | truncate 200 }}</p>
-          {{ end }}
-          {{ with .Params.offices }}
-          <span class="news-card-tag">{{ index . 0 }}</span>
-          {{ end }}
-        </div>
-      </article>
-      {{ end }}
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-<!-- Secretary Spotlight Section -->
-<section class="secretary-spotlight" aria-labelledby="secretary-heading">
-  <div class="container">
-    <div class="spotlight-grid">
-      <div class="spotlight-image">
-        <img src="{{ "images/secretary-bessent.webp" | relURL }}" alt="Secretary of the Treasury Scott Bessent">
+        </article>
+        {{ end }}
+        <a href="/news/featured-stories/" class="view-all-link">MORE →</a>
       </div>
-      <div class="spotlight-content">
-        <span class="spotlight-label">Meet the Secretary</span>
-        <h2 id="secretary-heading">Scott Bessent</h2>
-        <p class="spotlight-role">79th Secretary of the Treasury</p>
-        <p class="spotlight-text">Secretary Bessent leads the Department of the Treasury in its mission to maintain a strong economy and create economic opportunity for all Americans.</p>
-        <div class="spotlight-actions">
-          <a href="/about/general-information/officials" class="btn btn-primary">Learn More</a>
-          <a href="/news/press-releases/statements-remarks" class="btn btn-outline">Statements & Remarks</a>
-        </div>
+
+      {{/* Press Releases */}}
+      <div class="news-column press-releases">
+        <h2 class="section-heading">Press Releases</h2>
+        {{ $releases := (site.GetPage "news/press-releases").Pages }}
+        {{ range first 4 $releases.ByDate.Reverse }}
+        <article class="news-item">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        </article>
+        {{ end }}
+        <a href="/news/press-releases/" class="view-all-link">MORE →</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Policy Highlights Section -->
-<section class="policy-highlights" aria-labelledby="policy-heading">
+{{/* Data Center Section */}}
+<section class="data-center-section">
   <div class="container">
-    <h2 id="policy-heading">Policy Areas</h2>
-    <div class="policy-grid">
-      <a href="/policy-issues/tax-policy/" class="policy-card">
-        <h3>Tax Policy</h3>
-        <p>Developing and implementing tax policies that grow the economy and create jobs.</p>
+    <h2 class="section-heading">Data Center</h2>
+    <div class="data-grid">
+      <div class="data-card">
+        <h3>Daily Treasury Yield Curve Rates</h3>
+        <div class="data-table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>1 Mo</th>
+                <th>3 Mo</th>
+                <th>6 Mo</th>
+                <th>1 Yr</th>
+                <th>2 Yr</th>
+                <th>3 Yr</th>
+                <th>5 Yr</th>
+                <th>7 Yr</th>
+                <th>10 Yr</th>
+                <th>20 Yr</th>
+                <th>30 Yr</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>4.37</td>
+                <td>4.32</td>
+                <td>4.26</td>
+                <td>4.19</td>
+                <td>4.26</td>
+                <td>4.32</td>
+                <td>4.43</td>
+                <td>4.53</td>
+                <td>4.62</td>
+                <td>4.89</td>
+                <td>4.84</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <a href="/data/treasury-yield-curve-rates/" class="data-link">View all rates →</a>
+      </div>
+
+      <div class="data-stats">
+        <div class="stat-card">
+          <span class="stat-value">$3.54</span>
+          <span class="stat-label">Trillion - Treasury Marketable Securities Outstanding</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">1.56</span>
+          <span class="stat-label">Percent - Average Interest Rate</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">4.77</span>
+          <span class="stat-label">Years - Average Maturity</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">3.96</span>
+          <span class="stat-label">Years - Weighted Average Maturity</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* Tools Section */}}
+<section class="tools-section">
+  <div class="container">
+    <h2 class="section-heading">Tools</h2>
+    <div class="tools-grid">
+      <a href="https://ofac.treasury.gov/" class="tool-card">
+        <h3>Financial Sanctions</h3>
+        <p>Search OFAC sanctions lists, find guidance, and report potential violations</p>
       </a>
-      <a href="/policy-issues/international/" class="policy-card">
-        <h3>International Affairs</h3>
-        <p>Protecting the U.S. economy and promoting global economic stability and development.</p>
+      <a href="/data/interest-rates/" class="tool-card">
+        <h3>Daily Interest Rates</h3>
+        <p>View current and historical interest rate data</p>
       </a>
-      <a href="/policy-issues/terrorism-and-illicit-finance/" class="policy-card">
-        <h3>Financial Intelligence</h3>
-        <p>Combating terrorism financing, money laundering, and other financial crimes.</p>
-      </a>
-      <a href="/policy-issues/financing-the-government/" class="policy-card">
-        <h3>Financing the Government</h3>
-        <p>Managing federal finances and the public debt to ensure fiscal responsibility.</p>
+      <a href="https://www.treasuryhunt.gov/" class="tool-card">
+        <h3>Treasury Hunt</h3>
+        <p>Search for your unclaimed U.S. savings bonds</p>
       </a>
     </div>
   </div>
 </section>
 
-<!-- Bureaus Section -->
-<section class="bureaus-section" aria-labelledby="bureaus-heading">
-  <div class="container">
-    <h2 id="bureaus-heading">Treasury Bureaus</h2>
-    <div class="bureaus-grid">
-      <a href="https://www.irs.gov/" class="bureau-card" rel="noopener">
-        <div class="bureau-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>
-        </div>
-        <span>Internal Revenue Service</span>
-      </a>
-      <a href="https://www.fiscal.treasury.gov/" class="bureau-card" rel="noopener">
-        <div class="bureau-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="10"/></svg>
-        </div>
-        <span>Bureau of the Fiscal Service</span>
-      </a>
-      <a href="https://www.usmint.gov/" class="bureau-card" rel="noopener">
-        <div class="bureau-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v12M8 9h8M8 15h8"/></svg>
-        </div>
-        <span>U.S. Mint</span>
-      </a>
-      <a href="https://www.bep.gov/" class="bureau-card" rel="noopener">
-        <div class="bureau-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M12 12h.01"/><circle cx="12" cy="12" r="3"/></svg>
-        </div>
-        <span>Bureau of Engraving & Printing</span>
-      </a>
-      <a href="https://www.fincen.gov/" class="bureau-card" rel="noopener">
-        <div class="bureau-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4M12 16h.01"/></svg>
-        </div>
-        <span>FinCEN</span>
-      </a>
-      <a href="https://www.occ.gov/" class="bureau-card" rel="noopener">
-        <div class="bureau-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M3 7v14M21 7v14M6 7V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3"/><path d="M9 21v-4M15 21v-4M9 14h6"/></svg>
-        </div>
-        <span>Office of the Comptroller</span>
-      </a>
-    </div>
-    <div class="bureaus-cta">
-      <a href="/about/general-information/organizational-chart/" class="btn btn-outline">View All Bureaus</a>
-    </div>
-  </div>
-</section>
 {{ end }}

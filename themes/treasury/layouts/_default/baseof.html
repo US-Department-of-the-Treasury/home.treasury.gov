@@ -23,8 +23,7 @@
   <!-- Fonts - self-hosted (no external CDN dependency) -->
   {{- $fonts := resources.Get "css/fonts.css" }}
   {{- $fonts = $fonts | minify | fingerprint }}
-  <link rel="preload" href="{{ $fonts.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ $fonts.RelPermalink }}"></noscript>
+  <link rel="stylesheet" href="{{ $fonts.RelPermalink }}">
   
   <!-- Preload critical fonts -->
   <link rel="preload" href="/fonts/source-sans-pro-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -36,11 +35,10 @@
   <!-- Critical CSS - inlined for faster first paint -->
   {{- partial "critical-css.html" . }}
   
-  <!-- Main Styles - loaded async with fingerprinting for cache busting -->
+  <!-- Main Styles - fingerprinted for cache busting -->
   {{- $css := resources.Get "css/treasury.css" }}
   {{- $css = $css | minify | fingerprint }}
-  <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ $css.RelPermalink }}"></noscript>
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   
   <!-- Canonical -->
   <link rel="canonical" href="{{ .Permalink }}">
@@ -73,17 +71,6 @@
   {{- $js = $js | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" defer></script>
   {{- block "scripts" . }}{{- end }}
-  
-  <!-- Service Worker Registration -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js').catch(function(err) {
-          console.log('SW registration failed:', err);
-        });
-      });
-    }
-  </script>
-  
+
 </body>
 </html>
