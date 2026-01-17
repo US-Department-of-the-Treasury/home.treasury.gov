@@ -214,11 +214,11 @@
         {
           "heading": "INTEREST RATES",
           "links": [
-            {"title": "Daily Treasury Par Yield Curve Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=yield"},
-            {"title": "Daily Treasury Par Real Yield Curve Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=tcmreal"},
-            {"title": "Daily Treasury Bill Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=bill"},
-            {"title": "Daily Treasury Long-Term Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=lt"},
-            {"title": "Daily Treasury Real Long-Term Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=reallt"}
+            {"title": "Daily Treasury Par Yield Curve Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"},
+            {"title": "Daily Treasury Par Real Yield Curve Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve"},
+            {"title": "Daily Treasury Bill Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_bill_rates"},
+            {"title": "Daily Treasury Long-Term Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_long_term_rate"},
+            {"title": "Daily Treasury Real Long-Term Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_long_term"}
           ]
         },
         {
