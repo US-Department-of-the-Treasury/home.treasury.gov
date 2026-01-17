@@ -5,7 +5,7 @@
       <!-- Sidebar Navigation -->
       <aside class="section-sidebar" aria-label="Section navigation">
         <nav class="section-nav">
-          <h3>{{ with .Parent }}{{ .Title }}{{ else }}Navigation{{ end }}</h3>
+          <h2 class="sidebar-heading">{{ with .Parent }}{{ .Title }}{{ else }}Navigation{{ end }}</h2>
           <ul>
             {{ $parent := .Parent }}
             {{ if $parent }}
@@ -47,7 +47,7 @@
         {{/* Related Links */}}
         {{ with .Params.related_links }}
         <div class="related-links">
-          <h4>Related Links</h4>
+          <h2 class="related-heading">Related Links</h2>
           <ul>
             {{ range . }}
             <li><a href="{{ .url }}">{{ .title }}</a></li>
@@ -59,7 +59,7 @@
         {{/* Tags */}}
         {{ with .Params.tags }}
         <div class="related-links">
-          <h4>Topics</h4>
+          <h2 class="related-heading">Topics</h2>
           <ul>
             {{ range . }}
             <li><a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a></li>
