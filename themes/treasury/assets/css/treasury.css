@@ -1636,6 +1636,7 @@ button.nav-link {
   padding: 0.875rem 0;
   font-size: 0.8125rem;
   border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5rem;
 }
 
 .breadcrumbs-list {
@@ -1675,6 +1676,225 @@ button.nav-link {
 .breadcrumbs-list li:last-child span {
   color: var(--gray-700);
   font-weight: 600;
+}
+
+/* ============================================
+   Content Page Layout (About, Policy, etc.)
+   ============================================ */
+.content-page {
+  padding: 0;
+}
+
+.content-page .container {
+  padding-top: 0;
+}
+
+.content-page-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  padding: 2rem 0 3rem;
+}
+
+.section-sidebar {
+  padding-right: 0;
+}
+
+.section-sidebar .sidebar-heading {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--treasury-navy);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--treasury-gold);
+}
+
+.section-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section-nav li {
+  margin: 0;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.section-nav a {
+  display: block;
+  padding: 0.625rem 0.5rem;
+  color: var(--treasury-navy-light);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.section-nav a:hover {
+  background: var(--gray-100);
+  color: var(--treasury-navy);
+}
+
+.section-nav a.active {
+  background: var(--treasury-navy-light);
+  color: #fff;
+  font-weight: 600;
+}
+
+.content-page-main {
+  max-width: 900px;
+}
+
+.content-page-header {
+  margin-bottom: 1.5rem;
+}
+
+.content-page-main h1 {
+  font-family: var(--font-heading);
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: var(--treasury-navy-light);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.content-page-header .title-underline {
+  width: 60px;
+  height: 4px;
+  margin-top: 0.75rem;
+  background: var(--treasury-gold);
+}
+
+.content-page-main .breadcrumbs {
+  background: transparent;
+  padding: 0;
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+
+.content-meta {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin-bottom: 1.5rem;
+}
+
+.prose {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--gray-800);
+}
+
+.prose h2 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--treasury-navy-light);
+  margin: 2rem 0 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.prose h3 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin: 1.5rem 0 0.75rem;
+}
+
+.prose p {
+  margin: 0 0 1rem;
+}
+
+.prose ul, .prose ol {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+.prose a {
+  color: var(--treasury-navy-light);
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
+
+.related-links {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.related-heading {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin: 0 0 1rem;
+}
+
+.related-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.related-links li {
+  margin-bottom: 0.5rem;
+}
+
+.related-links a {
+  color: var(--treasury-navy-light);
+  text-decoration: none;
+}
+
+.related-links a:hover {
+  text-decoration: underline;
+}
+
+/* Content Page - Responsive */
+@media (max-width: 900px) {
+  .content-page-layout {
+    grid-template-columns: 180px 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-page-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-sidebar {
+    background: var(--gray-50);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--gray-200);
+  }
+  
+  .section-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .section-nav li {
+    border: none;
+  }
+  
+  .section-nav a {
+    padding: 0.375rem 0.75rem;
+    background: var(--gray-100);
+    border-radius: 4px;
+    font-size: 0.8125rem;
+  }
 }
 
 /* ============================================
