@@ -375,7 +375,7 @@ test.describe('Homepage Link Validation', () => {
 });
 
 test.describe('No Redirects to Old Treasury Site', () => {
-  test('should not have any links that redirect to home.treasury.gov', async ({ page }) => {
+  test('should not have unintentional links that redirect to home.treasury.gov', async ({ page }) => {
     await page.goto('/');
     await page.waitForLoadState('networkidle');
 
@@ -384,13 +384,20 @@ test.describe('No Redirects to Old Treasury Site', () => {
       anchors.map(a => a.getAttribute('href')).filter(h => h !== null) as string[]
     );
 
-    // Check for any explicit links to home.treasury.gov
-    const oldTreasuryLinks = allLinks.filter(href => 
-      href.includes('home.treasury.gov')
-    );
+    // Known allowed external links to home.treasury.gov (for data that isn't migrated)
+    const allowedExternalPatterns = [
+      'resource-center/data-chart-center/interest-rates',  // Live interest rate data
+    ];
+
+    // Check for any explicit links to home.treasury.gov that aren't in allowed list
+    const oldTreasuryLinks = allLinks.filter(href => {
+      if (!href.includes('home.treasury.gov')) return false;
+      // Check if it matches any allowed pattern
+      return !allowedExternalPatterns.some(pattern => href.includes(pattern));
+    });
 
     if (oldTreasuryLinks.length > 0) {
-      console.log('Links to old treasury site found:');
+      console.log('Unexpected links to old treasury site found:');
       oldTreasuryLinks.forEach(l => console.log(`  - ${l}`));
     }
 

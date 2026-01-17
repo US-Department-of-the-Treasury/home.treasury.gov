@@ -215,7 +215,9 @@ test.describe('Performance - Resource Loading', () => {
 
 test.describe('Performance - Caching Headers', () => {
   
-  test('static assets have cache headers', async ({ page }) => {
+  test('static assets have cache headers', async ({ page, baseURL }) => {
+    // Skip cache header tests on dev server (Hugo doesn't set cache headers)
+    test.skip(baseURL?.includes('localhost') || false, 'Cache headers not set on dev server');
     const assetsWithCaching: { url: string; cacheControl: string | null }[] = [];
     
     page.on('response', response => {
