@@ -59,64 +59,72 @@
   <div class="container">
     <h2 class="section-heading">Data Center</h2>
     <div class="data-grid">
-      <div class="data-card">
-        <h3>Daily Treasury Yield Curve Rates</h3>
-        <div class="data-table-container">
-          <table class="data-table">
-            <caption class="visually-hidden">Daily Treasury Yield Curve Rates by maturity period</caption>
-            <thead>
-              <tr>
-                <th scope="col">1 Mo</th>
-                <th scope="col">3 Mo</th>
-                <th scope="col">6 Mo</th>
-                <th scope="col">1 Yr</th>
-                <th scope="col">2 Yr</th>
-                <th scope="col">3 Yr</th>
-                <th scope="col">5 Yr</th>
-                <th scope="col">7 Yr</th>
-                <th scope="col">10 Yr</th>
-                <th scope="col">20 Yr</th>
-                <th scope="col">30 Yr</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>4.37</td>
-                <td>4.32</td>
-                <td>4.26</td>
-                <td>4.19</td>
-                <td>4.26</td>
-                <td>4.32</td>
-                <td>4.43</td>
-                <td>4.53</td>
-                <td>4.62</td>
-                <td>4.89</td>
-                <td>4.84</td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="data-card rates-card">
+        <div class="data-card-header">
+          <h3>Daily Treasury Yield Curve Rates</h3>
+          <span class="data-date">As of January 17, 2026</span>
         </div>
-        <a href="/data/treasury-yield-curve-rates/" class="data-link">View all rates →</a>
+        <div class="rates-display">
+          <div class="rate-item">
+            <span class="rate-term">1 Mo</span>
+            <span class="rate-value">4.37%</span>
+          </div>
+          <div class="rate-item">
+            <span class="rate-term">3 Mo</span>
+            <span class="rate-value">4.32%</span>
+          </div>
+          <div class="rate-item">
+            <span class="rate-term">6 Mo</span>
+            <span class="rate-value">4.26%</span>
+          </div>
+          <div class="rate-item">
+            <span class="rate-term">1 Yr</span>
+            <span class="rate-value">4.19%</span>
+          </div>
+          <div class="rate-item">
+            <span class="rate-term">2 Yr</span>
+            <span class="rate-value">4.26%</span>
+          </div>
+          <div class="rate-item">
+            <span class="rate-term">5 Yr</span>
+            <span class="rate-value">4.43%</span>
+          </div>
+          <div class="rate-item">
+            <span class="rate-term">10 Yr</span>
+            <span class="rate-value highlight">4.62%</span>
+          </div>
+          <div class="rate-item">
+            <span class="rate-term">30 Yr</span>
+            <span class="rate-value">4.84%</span>
+          </div>
+        </div>
+        <a href="/resource-center/data-chart-center/" class="data-link">View all interest rate data →</a>
       </div>
 
-      <div class="data-stats">
+      <div class="data-stats-grid">
         <div class="stat-card">
-          <span class="stat-value">$3.54</span>
-          <span class="stat-label">Trillion - Treasury Marketable Securities Outstanding</span>
+          <span class="stat-value">$36.2T</span>
+          <span class="stat-label">National Debt</span>
         </div>
         <div class="stat-card">
-          <span class="stat-value">1.56</span>
-          <span class="stat-label">Percent - Average Interest Rate</span>
+          <span class="stat-value">$3.54T</span>
+          <span class="stat-label">Marketable Securities</span>
         </div>
         <div class="stat-card">
           <span class="stat-value">4.77</span>
-          <span class="stat-label">Years - Average Maturity</span>
+          <span class="stat-label">Years Avg Maturity</span>
         </div>
         <div class="stat-card">
-          <span class="stat-value">3.96</span>
-          <span class="stat-label">Years - Weighted Average Maturity</span>
+          <span class="stat-value">$1.1T</span>
+          <span class="stat-label">Monthly Revenue</span>
         </div>
       </div>
+    </div>
+    <div class="data-links-row">
+      <a href="/policy-issues/financing-the-government/interest-rate-statistics/" class="data-quick-link">Interest Rate Statistics</a>
+      <a href="/policy-issues/financing-the-government/debt-management/" class="data-quick-link">Debt Management</a>
+      <a href="/data/treasury-international-capital-tic-system/" class="data-quick-link">TIC Data</a>
+      <a href="/resource-center/data-chart-center/" class="data-quick-link">All Data & Charts</a>
     </div>
   </div>
 </section>
@@ -124,19 +132,27 @@
 {{/* Tools Section */}}
 <section class="tools-section">
   <div class="container">
-    <h2 class="section-heading">Tools</h2>
+    <h2 class="section-heading">Tools & Resources</h2>
     <div class="tools-grid">
-      <a href="https://ofac.treasury.gov/" class="tool-card" rel="noopener">
-        <h3>Financial Sanctions</h3>
-        <p>Search OFAC sanctions lists, find guidance, and report potential violations</p>
+      <a href="https://ofac.treasury.gov/" class="tool-card" target="_blank" rel="noopener">
+        <div class="tool-icon">🔍</div>
+        <h3>OFAC Sanctions Search</h3>
+        <p>Search sanctions lists and find compliance guidance</p>
       </a>
-      <a href="/data/interest-rates/" class="tool-card">
-        <h3>Daily Interest Rates</h3>
+      <a href="/policy-issues/financing-the-government/interest-rate-statistics/" class="tool-card">
+        <div class="tool-icon">📊</div>
+        <h3>Interest Rate Statistics</h3>
         <p>View current and historical interest rate data</p>
       </a>
-      <a href="https://www.treasuryhunt.gov/" class="tool-card" rel="noopener">
+      <a href="https://www.treasuryhunt.gov/" class="tool-card" target="_blank" rel="noopener">
+        <div class="tool-icon">💰</div>
         <h3>Treasury Hunt</h3>
         <p>Search for your unclaimed U.S. savings bonds</p>
+      </a>
+      <a href="https://www.treasurydirect.gov/" class="tool-card" target="_blank" rel="noopener">
+        <div class="tool-icon">🏛️</div>
+        <h3>TreasuryDirect</h3>
+        <p>Buy Treasury securities directly from the government</p>
       </a>
     </div>
   </div>
