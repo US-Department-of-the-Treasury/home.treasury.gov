@@ -65,13 +65,16 @@ test.describe('CSP Compliance - Console Error Monitoring', () => {
     });
     
     await page.goto(TEST_PAGES.advancedSearch);
-    await waitForPageReady(page);
+    await page.waitForLoadState('domcontentloaded');
     
     // Also interact with the page to trigger any dynamic JS
-    const searchInput = page.locator('input[type="text"], input[type="search"]').first();
+    const searchInput = page.locator('#search-keyword');
     if (await searchInput.count() > 0) {
       await searchInput.fill('test');
-      await page.keyboard.press('Enter');
+      const searchBtn = page.locator('#run-search-btn');
+      if (await searchBtn.count() > 0) {
+        await searchBtn.click();
+      }
       await waitForPageReady(page);
     }
     
@@ -224,26 +227,27 @@ test.describe('CSP Compliance - Interactive Elements', () => {
   
   test('form submit works without inline handler', async ({ page }) => {
     await page.goto(TEST_PAGES.advancedSearch);
-    await waitForPageReady(page);
+    await page.waitForLoadState('domcontentloaded');
     
-    const form = page.locator('form').first();
+    // Check for forms (div-based or traditional)
+    const form = page.locator('#advanced-search-form, form').first();
     
-    if (await form.count() > 0) {
-      // Check form doesn't have inline onsubmit
-      const onsubmit = await form.getAttribute('onsubmit');
-      expect(onsubmit).toBeNull();
-      
-      // Verify form can be submitted
-      const input = page.locator('input[type="text"], input[type="search"]').first();
-      if (await input.count() > 0) {
-        await input.fill('test');
-        await page.keyboard.press('Enter');
-        await waitForPageReady(page);
-        
-        // Page should respond (URL change or results update)
-        expect(page.url()).toBeDefined();
-      }
-    }
+    // Check form doesn't have inline onsubmit
+    const onsubmit = await form.getAttribute('onsubmit').catch(() => null);
+    expect(onsubmit).toBeNull();
+    
+    // Verify input works
+    const input = page.locator('#search-keyword');
+    await expect(input).toBeVisible({ timeout: 10000 });
+    await input.fill('test');
+    
+    // Click search button instead of form submit (div-based form)
+    const searchBtn = page.locator('#run-search-btn');
+    await searchBtn.click();
+    await page.waitForTimeout(500);
+    
+    // Page should respond
+    expect(page.url()).toBeDefined();
   });
 
   test('buttons work without inline handlers', async ({ page }) => {

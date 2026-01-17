@@ -159,18 +159,28 @@ test.describe('News List - Keyword Search', () => {
     await page.goto(TEST_PAGES.pressReleases);
     await waitForPageReady(page);
     
-    const searchInput = page.locator('input[type="text"], input[type="search"], input[name*="keyword"]').first();
+    // The news list has inline filters with id filter-keyword
+    const searchInput = page.locator('#filter-keyword, .keyword-input');
     
-    if (await searchInput.count() > 0) {
+    if (await searchInput.count() > 0 && await searchInput.isVisible()) {
       await searchInput.fill('sanctions');
-      await page.keyboard.press('Enter');
-      await waitForPageReady(page);
       
-      // Should have results or no-results message
-      const hasResults = await page.locator('article, .news-item').count() > 0;
-      const hasNoResultsMessage = await page.locator(':text-matches("no result", "i")').count() > 0;
+      // Click the apply filters button
+      const applyBtn = page.locator('#apply-filters-btn, button.search-btn');
+      if (await applyBtn.count() > 0) {
+        await applyBtn.click();
+      } else {
+        await page.keyboard.press('Enter');
+      }
       
-      expect(hasResults || hasNoResultsMessage).toBe(true);
+      await page.waitForTimeout(1000);
+      
+      // Should have results or filtered results
+      const hasResults = await page.locator('.news-article-item, article, .news-item').count() > 0;
+      expect(hasResults).toBe(true);
+    } else {
+      // Skip if no keyword filter on this page
+      test.skip();
     }
   });
 });
@@ -251,11 +261,13 @@ test.describe('News List - All News Page', () => {
   });
 
   test('news items link to detail pages', async ({ page }) => {
-    const firstItemLink = page.locator('article a, .news-item a').first();
+    const firstItemLink = page.locator('.news-article-item a, article a, .news-item a').first();
     
     if (await firstItemLink.count() > 0) {
       const href = await firstItemLink.getAttribute('href');
-      expect(href).toMatch(/^\/news\//);
+      // Links can be relative or absolute, and may include localhost in dev
+      expect(href).toBeTruthy();
+      expect(href).toMatch(/\/news\//);
     }
   });
 });
