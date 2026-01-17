@@ -175,10 +175,6 @@
         <div class="results-list" id="results-list"></div>
         
         <div class="results-pagination" id="results-pagination"></div>
-        
-        <div class="load-more-container" id="load-more-container" style="display: none;">
-          <button type="button" class="btn-load-more" id="load-more-btn">Load More Results</button>
-        </div>
       </div>
       
       {{/* Empty State */}}
@@ -431,6 +427,12 @@
 /* Results Area - Full width like main page */
 .search-results-area {
   margin-top: 2rem;
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+.search-results-area.fade-out {
+  opacity: 0;
 }
 
 .results-header {
@@ -473,6 +475,8 @@
 /* Results list - matches main page style */
 .results-list {
   border-top: 1px solid var(--gray-200);
+  max-height: none;
+  overflow-y: visible;
 }
 
 .results-list .news-article-item {
@@ -552,6 +556,12 @@
   text-align: center;
   padding: 3rem 1rem;
   color: var(--gray-500);
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+.search-empty-state.fade-out {
+  opacity: 0;
 }
 
 .empty-icon {
@@ -574,38 +584,53 @@
   font-size: 0.9375rem;
 }
 
-/* Load More Button */
-.load-more-container {
-  text-align: center;
+/* Pagination */
+.results-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
   padding: 2rem 0;
   border-top: 1px solid var(--gray-200);
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
-.btn-load-more {
+.results-pagination .page-nav,
+.results-pagination .page-number {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--gray-300);
   background: #fff;
-  border: 2px solid var(--treasury-navy-light);
   color: var(--treasury-navy-light);
-  padding: 0.75rem 2rem;
-  font-size: 0.9375rem;
-  font-weight: 600;
   cursor: pointer;
   transition: all 0.15s ease;
 }
 
-.btn-load-more:hover {
+.results-pagination .page-nav:hover:not(.disabled),
+.results-pagination .page-number:hover:not(.current) {
   background: var(--treasury-navy-light);
+  border-color: var(--treasury-navy-light);
   color: #fff;
 }
 
-.btn-load-more:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.results-pagination .page-number.current {
+  background: var(--treasury-navy-light);
+  border-color: var(--treasury-navy-light);
+  color: #fff;
+  cursor: default;
 }
 
-/* Pagination (fallback) */
-.results-pagination {
-  display: none;
+.results-pagination .page-nav.disabled {
+  color: var(--gray-400);
+  cursor: default;
+  background: var(--gray-100);
+}
+
+.results-pagination .page-ellipsis {
+  padding: 0.5rem 0.375rem;
+  color: var(--gray-500);
 }
 
 /* Responsive */

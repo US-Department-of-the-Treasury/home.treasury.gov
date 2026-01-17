@@ -196,7 +196,7 @@
           "links": [
             {"title": "Small and Disadvantaged Business Utilization", "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization"},
             {"title": "Small Business Lending Fund", "url": "/policy-issues/small-business-programs/small-business-lending-fund"},
-            {"title": "State Small Business Credit Initiative", "url": "https://home.treasury.gov/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci"}
+            {"title": "State Small Business Credit Initiative", "url": "/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci"}
           ]
         },
         {
@@ -465,12 +465,12 @@
     },
     {
       "title": "YEAR IN REVIEW",
-      "url": "https://home.treasury.gov/2025/index.html",
+      "url": "/year-in-review/",
       "columns": []
     },
     {
       "title": "WORKING FAMILIES TAX CUTS",
-      "url": "https://home.treasury.gov/wftc/index.html",
+      "url": "/working-families-tax-cuts/",
       "columns": []
     }
   ],
@@ -481,7 +481,7 @@
       {
         "heading": "THE PUBLIC",
         "links": [
-          {"title": "Auctions", "url": "https://home.treasury.gov/services/treasury-auctions"},
+          {"title": "Auctions", "url": "/services/treasury-auctions"},
           {"title": "Report Scam Attempts", "url": "/services/report-fraud-waste-and-abuse/report-scam-attempts"},
           {"title": "Savings Bonds", "url": "https://www.treasurydirect.gov/"}
         ]

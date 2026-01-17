@@ -2958,6 +2958,8 @@ button.nav-link {
   gap: 0;
   align-items: stretch;
   min-height: 450px;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-section .hero-content {
@@ -2981,8 +2983,25 @@ button.nav-link {
   font-size: 3.5rem;
   font-weight: 300;
   color: #fff;
-  margin: 0;
+  margin: 0 0 1.5rem;
   line-height: 1.1;
+}
+
+.hero-bg-seal {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 450px;
+  height: 450px;
+  background: url('/images/treasury-seal.svg') center/contain no-repeat;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-section .hero-content .slide-readmore {
+  margin-top: 1rem;
 }
 
 .hero-section .hero-image {
@@ -3006,6 +3025,10 @@ button.nav-link {
     min-height: auto;
   }
   
+  .hero-bg-seal {
+    display: none;
+  }
+  
   .hero-section .hero-inner {
     grid-template-columns: 1fr;
     min-height: auto;
@@ -3014,6 +3037,7 @@ button.nav-link {
   .hero-section .hero-content {
     padding: 2rem 1.5rem;
     text-align: center;
+    align-items: center;
   }
   
   .hero-section .hero-title {
