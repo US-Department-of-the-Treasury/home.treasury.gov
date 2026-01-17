@@ -2,6 +2,7 @@
 title: "The Treasury Building"
 date: 2026-01-17
 draft: false
+layout: content-page
 url: /about/history/the-treasury-building/
 description: "History and information about the historic Treasury Building in Washington, D.C., one of the oldest federal buildings in the nation."
 ---

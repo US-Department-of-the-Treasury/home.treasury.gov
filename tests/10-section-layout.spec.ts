@@ -28,6 +28,7 @@ const contentPages = [
   { name: 'Organizational Chart', url: '/about/general-information/organizational-chart/' },
   { name: 'Role of the Treasury', url: '/about/general-information/role-of-the-treasury/' },
   { name: 'Orders and Directives', url: '/about/general-information/orders-and-directives/' },
+  { name: 'The Treasury Building', url: '/about/history/the-treasury-building/' },
 ];
 
 test.describe('Section Layout - Structure', () => {

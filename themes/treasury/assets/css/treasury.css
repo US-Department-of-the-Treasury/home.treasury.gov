@@ -37,7 +37,11 @@
    ============================================ */
 *, *::before, *::after { box-sizing: border-box; }
 
-html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+html { 
+  font-size: 16px; 
+  -webkit-font-smoothing: antialiased; 
+  overflow-x: hidden;
+}
 
 body {
   margin: 0;
@@ -46,6 +50,7 @@ body {
   line-height: 1.6;
   color: var(--gray-900);
   background: #fff;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1925,23 +1930,39 @@ button.nav-link {
 @media (max-width: 768px) {
   .content-page-layout {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem 0 2rem;
+  }
+  
+  .content-page-main {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .content-page-main h1 {
+    font-size: 1.75rem;
+    word-wrap: break-word;
   }
   
   .section-sidebar {
     background: var(--gray-50);
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
     border: 1px solid var(--gray-200);
+    overflow-x: auto;
   }
   
   .section-nav ul {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    margin: 0;
+    padding: 0;
   }
   
   .section-nav li {
     border: none;
+    flex-shrink: 0;
   }
   
   .section-nav a {
@@ -1949,6 +1970,20 @@ button.nav-link {
     background: var(--gray-100);
     border-radius: 4px;
     font-size: 0.8125rem;
+    white-space: nowrap;
+  }
+  
+  .content-cards {
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .content-card {
+    padding: 1rem;
+  }
+  
+  .prose {
+    font-size: 1rem;
   }
 }
 
@@ -3143,6 +3178,13 @@ button.nav-link {
 }
 
 @media (max-width: 480px) {
+  /* Prevent horizontal overflow on small mobile */
+  .container {
+    padding: 0 1rem;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
   .search-quick-links {
     grid-template-columns: 1fr;
     gap: 1.25rem;
