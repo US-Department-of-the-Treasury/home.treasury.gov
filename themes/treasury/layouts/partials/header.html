@@ -70,11 +70,20 @@
                   
                   {{/* Always show View All link */}}
                   {{ range .links }}
-                  <li class="view-all"><a href="{{ .url }}">{{ .title }} →</a></li>
+                  {{ $url := .url }}
+                  {{ if and (hasPrefix $url "/") (not (hasSuffix $url "/")) (not (strings.Contains $url ".")) }}
+                    {{ $url = printf "%s/" $url }}
+                  {{ end }}
+                  <li class="view-all"><a href="{{ $url }}">{{ .title }} →</a></li>
                   {{ end }}
                 {{ else }}
                   {{ range .links }}
-                  <li><a href="{{ .url }}">{{ .title }}</a></li>
+                  {{/* Add trailing slash to internal URLs that don't have one */}}
+                  {{ $url := .url }}
+                  {{ if and (hasPrefix $url "/") (not (hasSuffix $url "/")) (not (strings.Contains $url ".")) }}
+                    {{ $url = printf "%s/" $url }}
+                  {{ end }}
+                  <li><a href="{{ $url }}">{{ .title }}</a></li>
                   {{ end }}
                 {{ end }}
               </ul>
@@ -112,7 +121,11 @@
             <h4>{{ .heading }}</h4>
             <ul>
               {{ range .links }}
-              <li><a href="{{ .url }}">{{ .title }}</a></li>
+              {{ $url := .url }}
+              {{ if and (hasPrefix $url "/") (not (hasSuffix $url "/")) (not (strings.Contains $url ".")) }}
+                {{ $url = printf "%s/" $url }}
+              {{ end }}
+              <li><a href="{{ $url }}">{{ .title }}</a></li>
               {{ end }}
             </ul>
           </div>
