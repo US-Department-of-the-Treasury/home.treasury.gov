@@ -441,7 +441,7 @@
           "heading": "REMARKS AND STATEMENTS",
           "type": "articles",
           "links": [
-            {"title": "View All", "url": "/news/press-releases/statements-remarks"}
+            {"title": "View All", "url": "/news/statements-remarks/"}
           ]
         },
         {
@@ -465,12 +465,12 @@
     },
     {
       "title": "YEAR IN REVIEW",
-      "url": "/2025/index.html",
+      "url": "https://home.treasury.gov/2025/index.html",
       "columns": []
     },
     {
       "title": "WORKING FAMILIES TAX CUTS",
-      "url": "/wftc/index.html",
+      "url": "https://home.treasury.gov/wftc/index.html",
       "columns": []
     }
   ],
