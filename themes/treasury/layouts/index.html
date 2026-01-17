@@ -1,160 +1,104 @@
 {{ define "main" }}
-{{/* Treasury Homepage */}}
+{{/* Treasury Homepage - Matching live home.treasury.gov design */}}
 
-{{/* Hero Section - Secretary */}}
-<section class="hero-section">
-  <div class="hero-bg-seal"></div>
-  <div class="hero-inner container">
-    <div class="hero-content">
-      <p class="hero-label">TREASURY LEADERSHIP</p>
-      <h1 class="hero-title">Secretary Bessent</h1>
-      <a href="/about/general-information/officials/secretary-bessent/" class="slide-readmore">READ MORE</a>
+{{/* Hero Slider Section - Full width image with headline overlay */}}
+<section class="hero-slider" aria-label="Featured content">
+  <div class="slick-slider" role="region" aria-roledescription="carousel">
+    {{/* Slide 1 - Secretary Bessent */}}
+    <div class="hero-slide active" style="background-image: url('/images/secretary-bessent-hero.jpg');">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <a href="/news/featured-stories/scott-bessent-sworn-in-as-79th-secretary-of-the-department-of-treasury/" class="slide-headline">
+          Scott Bessent sworn in as 79th Secretary of the Department of Treasury
+        </a>
+      </div>
     </div>
-    <div class="hero-image">
-      <img src="/images/secretary-bessent.jpg" alt="Secretary Scott Bessent">
+    {{/* Slide 2 - Treasury Building */}}
+    <div class="hero-slide" style="background-image: url('/images/treasury-building.webp');">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <a href="/about/history/the-treasury-building/" class="slide-headline">
+          About the U.S. Department of the Treasury
+        </a>
+      </div>
     </div>
+  </div>
+  <div class="slider-dots" role="tablist" aria-label="Slide controls">
+    <button class="slider-dot active" role="tab" aria-selected="true" aria-label="Slide 1" data-slide="0"></button>
+    <button class="slider-dot" role="tab" aria-selected="false" aria-label="Slide 2" data-slide="1"></button>
   </div>
 </section>
 
-{{/* News Section */}}
-<section class="home-news-section">
+{{/* Three Column News/Content Section */}}
+<section class="home-content-section">
   <div class="container">
-    <div class="home-news-grid">
-      {{/* Featured Stories */}}
-      <div class="news-column featured-stories">
-        <h2 class="section-heading">Featured Stories</h2>
-        {{ $featured := where site.RegularPages "Section" "news" }}
-        {{ $featured = where $featured ".Params.type" "featured-story" }}
-        {{ if not $featured }}
-          {{ $featured = (site.GetPage "news/featured-stories").Pages }}
-        {{ end }}
-        {{ range first 4 $featured.ByDate.Reverse }}
-        <article class="news-item">
-          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-          {{ if .Params.description }}
-          <p>{{ .Params.description | truncate 120 }}</p>
+    <div class="home-three-col">
+      
+      {{/* Column 1: Featured Stories */}}
+      <div class="home-column">
+        <h2 class="column-heading">Featured Stories</h2>
+        <ul class="home-news-list">
+          {{ $featuredStories := (site.GetPage "news/featured-stories").Pages }}
+          {{ range first 5 $featuredStories.ByDate.Reverse }}
+          <li>
+            <a href="{{ .Permalink }}">{{ .Title | truncate 80 }}</a>
+          </li>
           {{ end }}
-        </article>
-        {{ end }}
-        <a href="/news/featured-stories/" class="view-all-link">MORE →</a>
+        </ul>
+        <a href="/news/featured-stories/" class="column-more">More Featured Stories →</a>
       </div>
 
-      {{/* Press Releases */}}
-      <div class="news-column press-releases">
-        <h2 class="section-heading">Press Releases</h2>
-        {{ $releases := (site.GetPage "news/press-releases").Pages }}
-        {{ range first 4 $releases.ByDate.Reverse }}
-        <article class="news-item">
-          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        </article>
-        {{ end }}
-        <a href="/news/press-releases/" class="view-all-link">MORE →</a>
+      {{/* Column 2: Press Releases */}}
+      <div class="home-column">
+        <h2 class="column-heading">Press Releases</h2>
+        <ul class="home-news-list">
+          {{ $releases := (site.GetPage "news/press-releases").Pages }}
+          {{ range first 5 $releases.ByDate.Reverse }}
+          <li>
+            <a href="{{ .Permalink }}">{{ .Title | truncate 80 }}</a>
+          </li>
+          {{ end }}
+        </ul>
+        <a href="/news/press-releases/" class="column-more">More Press Releases →</a>
       </div>
+
+      {{/* Column 3: Remarks & Statements */}}
+      <div class="home-column">
+        <h2 class="column-heading">Remarks & Statements</h2>
+        <ul class="home-news-list">
+          {{ $remarks := (site.GetPage "news/statements-remarks").Pages }}
+          {{ range first 5 $remarks.ByDate.Reverse }}
+          <li>
+            <a href="{{ .Permalink }}">{{ .Title | truncate 80 }}</a>
+          </li>
+          {{ end }}
+        </ul>
+        <a href="/news/statements-remarks/" class="column-more">More Remarks & Statements →</a>
+      </div>
+
     </div>
   </div>
 </section>
 
-{{/* Data Center Section */}}
-<section class="data-center-section">
+{{/* Quick Links / Data Section */}}
+<section class="home-quicklinks-section">
   <div class="container">
-    <h2 class="section-heading">Data Center</h2>
-    <div class="data-grid">
-      <div class="data-card rates-card">
-        <div class="data-card-header">
-          <h3>Daily Treasury Yield Curve Rates</h3>
-          <span class="data-date">As of January 17, 2026</span>
-        </div>
-        <div class="rates-display">
-          <div class="rate-item">
-            <span class="rate-term">1 Mo</span>
-            <span class="rate-value">4.37%</span>
-          </div>
-          <div class="rate-item">
-            <span class="rate-term">3 Mo</span>
-            <span class="rate-value">4.32%</span>
-          </div>
-          <div class="rate-item">
-            <span class="rate-term">6 Mo</span>
-            <span class="rate-value">4.26%</span>
-          </div>
-          <div class="rate-item">
-            <span class="rate-term">1 Yr</span>
-            <span class="rate-value">4.19%</span>
-          </div>
-          <div class="rate-item">
-            <span class="rate-term">2 Yr</span>
-            <span class="rate-value">4.26%</span>
-          </div>
-          <div class="rate-item">
-            <span class="rate-term">5 Yr</span>
-            <span class="rate-value">4.43%</span>
-          </div>
-          <div class="rate-item">
-            <span class="rate-term">10 Yr</span>
-            <span class="rate-value highlight">4.62%</span>
-          </div>
-          <div class="rate-item">
-            <span class="rate-term">30 Yr</span>
-            <span class="rate-value">4.84%</span>
-          </div>
-        </div>
-        <a href="/resource-center/data-chart-center/" class="data-link">View all interest rate data →</a>
-      </div>
-
-      <div class="data-stats-grid">
-        <div class="stat-card">
-          <span class="stat-value">$36.2T</span>
-          <span class="stat-label">National Debt</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-value">$3.54T</span>
-          <span class="stat-label">Marketable Securities</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-value">4.77</span>
-          <span class="stat-label">Years Avg Maturity</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-value">$1.1T</span>
-          <span class="stat-label">Monthly Revenue</span>
-        </div>
-      </div>
-    </div>
-    <div class="data-links-row">
-      <a href="/policy-issues/financing-the-government/interest-rate-statistics/" class="data-quick-link">Interest Rate Statistics</a>
-      <a href="/policy-issues/financing-the-government/debt-management/" class="data-quick-link">Debt Management</a>
-      <a href="/data/treasury-international-capital-tic-system/" class="data-quick-link">TIC Data</a>
-      <a href="/resource-center/data-chart-center/" class="data-quick-link">All Data & Charts</a>
-    </div>
-  </div>
-</section>
-
-{{/* Tools Section */}}
-<section class="tools-section">
-  <div class="container">
-    <h2 class="section-heading">Tools & Resources</h2>
-    <div class="tools-grid">
-      <a href="https://ofac.treasury.gov/" class="tool-card" target="_blank" rel="noopener">
-        <div class="tool-icon">🔍</div>
-        <h3>OFAC Sanctions Search</h3>
-        <p>Search sanctions lists and find compliance guidance</p>
+    <div class="quicklinks-grid">
+      <a href="https://ofac.treasury.gov/" class="quicklink-card" target="_blank" rel="noopener">
+        <span class="quicklink-title">OFAC Sanctions Search</span>
+        <span class="quicklink-desc">Search sanctions lists and compliance guidance</span>
       </a>
-      <a href="/policy-issues/financing-the-government/interest-rate-statistics/" class="tool-card">
-        <div class="tool-icon">📊</div>
-        <h3>Interest Rate Statistics</h3>
-        <p>View current and historical interest rate data</p>
+      <a href="/policy-issues/financing-the-government/interest-rate-statistics/" class="quicklink-card">
+        <span class="quicklink-title">Interest Rate Statistics</span>
+        <span class="quicklink-desc">Current and historical interest rate data</span>
       </a>
-      <a href="https://www.treasuryhunt.gov/" class="tool-card" target="_blank" rel="noopener">
-        <div class="tool-icon">💰</div>
-        <h3>Treasury Hunt</h3>
-        <p>Search for your unclaimed U.S. savings bonds</p>
+      <a href="https://www.treasurydirect.gov/" class="quicklink-card" target="_blank" rel="noopener">
+        <span class="quicklink-title">TreasuryDirect</span>
+        <span class="quicklink-desc">Buy Treasury securities directly</span>
       </a>
-      <a href="https://www.treasurydirect.gov/" class="tool-card" target="_blank" rel="noopener">
-        <div class="tool-icon">🏛️</div>
-        <h3>TreasuryDirect</h3>
-        <p>Buy Treasury securities directly from the government</p>
+      <a href="https://fiscaldata.treasury.gov/" class="quicklink-card" target="_blank" rel="noopener">
+        <span class="quicklink-title">Fiscal Data</span>
+        <span class="quicklink-desc">Federal financial data and reports</span>
       </a>
     </div>
   </div>

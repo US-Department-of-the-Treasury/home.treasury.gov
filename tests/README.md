@@ -36,6 +36,7 @@ npm run test:local
 | `6-csp-compliance.spec.ts` | CSP violations, inline handlers, external resources |
 | `7-accessibility-axe.spec.ts` | WCAG 2.2 AA automated checks via axe-core |
 | `8-performance.spec.ts` | Load times, layout stability, image loading |
+| `9-link-validation.spec.ts` | Mega menu and homepage link validation, no old treasury.gov redirects |
 
 ## Test Pages
 
