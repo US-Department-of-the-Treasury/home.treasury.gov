@@ -49,17 +49,18 @@ test.describe('Mega Menu Link Validation', () => {
   });
 
   test('all About Treasury mega menu links should be valid', async ({ page, baseURL }) => {
-    // Open About Treasury menu
-    const aboutMenu = page.locator('.main-nav a:has-text("About")').first();
+    // Open About Treasury menu - uses button element with nav-link class
+    const aboutMenu = page.locator('.nav-item button:has-text("About")').first();
     await expect(aboutMenu).toBeVisible({ timeout: 10000 });
-    await aboutMenu.hover();
+    await aboutMenu.click();
     await page.waitForTimeout(500);
 
     // Get all links in the dropdown
     const megaMenu = page.locator('.mega-menu').first();
     await expect(megaMenu).toBeVisible({ timeout: 5000 });
 
-    const links = await megaMenu.$$eval('a[href]', (anchors) => 
+    // Get links using evaluateAll instead of $$eval for locators
+    const links = await megaMenu.locator('a[href]').evaluateAll((anchors) => 
       anchors.map(a => ({
         href: a.getAttribute('href'),
         text: a.textContent?.trim()
@@ -106,16 +107,16 @@ test.describe('Mega Menu Link Validation', () => {
   });
 
   test('all Policy Issues mega menu links should be valid', async ({ page, baseURL }) => {
-    // Open Policy Issues menu
-    const policyMenu = page.locator('.main-nav a:has-text("Policy")').first();
+    // Open Policy Issues menu - uses button element
+    const policyMenu = page.locator('.nav-item button:has-text("Policy")').first();
     await expect(policyMenu).toBeVisible({ timeout: 10000 });
-    await policyMenu.hover();
+    await policyMenu.click();
     await page.waitForTimeout(500);
 
     const megaMenu = page.locator('.mega-menu').nth(1);
     await expect(megaMenu).toBeVisible({ timeout: 5000 });
 
-    const links = await megaMenu.$$eval('a[href]', (anchors) => 
+    const links = await megaMenu.locator('a[href]').evaluateAll((anchors) => 
       anchors.map(a => ({
         href: a.getAttribute('href'),
         text: a.textContent?.trim()
@@ -152,16 +153,16 @@ test.describe('Mega Menu Link Validation', () => {
   });
 
   test('all Data mega menu links should be valid', async ({ page, baseURL }) => {
-    // Open Data menu
-    const dataMenu = page.locator('.main-nav a:has-text("Data")').first();
+    // Open Data menu - uses button element
+    const dataMenu = page.locator('.nav-item button:has-text("Data")').first();
     await expect(dataMenu).toBeVisible({ timeout: 10000 });
-    await dataMenu.hover();
+    await dataMenu.click();
     await page.waitForTimeout(500);
 
     const megaMenu = page.locator('.mega-menu').nth(2);
     await expect(megaMenu).toBeVisible({ timeout: 5000 });
 
-    const links = await megaMenu.$$eval('a[href]', (anchors) => 
+    const links = await megaMenu.locator('a[href]').evaluateAll((anchors) => 
       anchors.map(a => ({
         href: a.getAttribute('href'),
         text: a.textContent?.trim()
@@ -198,16 +199,16 @@ test.describe('Mega Menu Link Validation', () => {
   });
 
   test('all Services mega menu links should be valid', async ({ page, baseURL }) => {
-    // Open Services menu
-    const servicesMenu = page.locator('.main-nav a:has-text("Services")').first();
+    // Open Services menu - uses button element
+    const servicesMenu = page.locator('.nav-item button:has-text("Services")').first();
     await expect(servicesMenu).toBeVisible({ timeout: 10000 });
-    await servicesMenu.hover();
+    await servicesMenu.click();
     await page.waitForTimeout(500);
 
     const megaMenu = page.locator('.mega-menu').nth(3);
     await expect(megaMenu).toBeVisible({ timeout: 5000 });
 
-    const links = await megaMenu.$$eval('a[href]', (anchors) => 
+    const links = await megaMenu.locator('a[href]').evaluateAll((anchors) => 
       anchors.map(a => ({
         href: a.getAttribute('href'),
         text: a.textContent?.trim()
@@ -244,16 +245,16 @@ test.describe('Mega Menu Link Validation', () => {
   });
 
   test('all News mega menu links should be valid', async ({ page, baseURL }) => {
-    // Open News menu
-    const newsMenu = page.locator('.main-nav a:has-text("News")').first();
+    // Open News menu - uses button element
+    const newsMenu = page.locator('.nav-item button:has-text("News")').first();
     await expect(newsMenu).toBeVisible({ timeout: 10000 });
-    await newsMenu.hover();
+    await newsMenu.click();
     await page.waitForTimeout(500);
 
     const megaMenu = page.locator('.mega-menu').nth(4);
     await expect(megaMenu).toBeVisible({ timeout: 5000 });
 
-    const links = await megaMenu.$$eval('a[href]', (anchors) => 
+    const links = await megaMenu.locator('a[href]').evaluateAll((anchors) => 
       anchors.map(a => ({
         href: a.getAttribute('href'),
         text: a.textContent?.trim()

@@ -298,7 +298,7 @@
             {"title": "Federal CDO Council", "url": "/about/offices/management/office-of-the-chief-data-officer"},
             {"title": "Data.gov", "url": "https://www.data.gov/"},
             {"title": "Treasury Open Data", "url": "https://fiscaldata.treasury.gov/"},
-            {"title": "Evidence Act H.R.4174", "url": "/about/offices/management/office-of-the-chief-data-officer"},
+            {"title": "Office of the Chief Data Officer", "url": "/about/offices/management/office-of-the-chief-data-officer"},
             {"title": "Datafoundation.org", "url": "https://www.datafoundation.org/"}
           ]
         }
@@ -329,7 +329,7 @@
         {
           "heading": "GRANT PROGRAMS",
           "links": [
-            {"title": "Pay for Results (SIPPRA)", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service"},
+            {"title": "Pay for Results (SIPPRA)", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra"},
             {"title": "RESTORE Act", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act"},
             {"title": "Community Development Financial Institution (CDFI) Fund", "url": "https://www.cdfifund.gov/"}
           ]
