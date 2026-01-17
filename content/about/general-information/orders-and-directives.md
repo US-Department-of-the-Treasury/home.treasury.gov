@@ -2,6 +2,7 @@
 title: "Orders and Directives"
 date: 2026-01-17
 draft: false
+layout: content-page
 url: /about/general-information/orders-and-directives/
 description: "Treasury Orders and Directives that govern the organization and operations of the U.S. Department of the Treasury."
 ---
