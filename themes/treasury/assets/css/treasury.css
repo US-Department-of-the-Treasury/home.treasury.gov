@@ -1031,6 +1031,7 @@ button.nav-link {
 }
 
 .slide-headline:hover {
+  color: var(--treasury-gold);
   text-decoration: underline;
   background: rgba(0, 45, 114, 0.95);
 }
