@@ -1,18 +1,24 @@
 {
   "$schema": "https://developer.akamai.com/schemas/papi/v1/rules.json",
-  "description": "Hugo Site Caching Rules for Akamai Property Manager",
+  "description": "Hugo Site Caching Rules for Akamai Property Manager - Full Site Migration",
   "rules": [
     {
-      "name": "Hugo HTML Pages",
+      "name": "Hugo HTML Pages - News",
       "criteria": [
         {
           "name": "path",
           "options": {
             "matchOperator": "MATCHES_ONE_OF",
             "values": [
+              "/news/*",
               "/news/press-releases/*",
               "/news/readouts/*",
-              "/news/statements-remarks/*"
+              "/news/statements-remarks/*",
+              "/news/testimonies/*",
+              "/news/featured-stories/*",
+              "/news/media-advisories/*",
+              "/news/weekly-public-schedule/*",
+              "/news/weekly-schedule-updates/*"
             ]
           }
         },
@@ -40,6 +46,200 @@
           }
         }
       ]
+    },
+    {
+      "name": "Hugo HTML Pages - About Section",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "MATCHES_ONE_OF",
+            "values": [
+              "/about/*",
+              "/about/general-information/*",
+              "/about/offices/*",
+              "/about/history/*",
+              "/about/careers-at-treasury/*",
+              "/about/budget-financial-reporting-planning-and-performance/*"
+            ]
+          }
+        },
+        {
+          "name": "contentType",
+          "options": {
+            "matchOperator": "IS",
+            "values": ["text/html"]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "MAX_AGE",
+            "ttl": "15m",
+            "mustRevalidate": true
+          }
+        },
+        {
+          "name": "gzipResponse",
+          "options": {
+            "behavior": "ALWAYS"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hugo HTML Pages - Policy Issues",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "MATCHES_ONE_OF",
+            "values": [
+              "/policy-issues/*",
+              "/policy-issues/tax-policy/*",
+              "/policy-issues/international/*",
+              "/policy-issues/terrorism-and-illicit-finance/*",
+              "/policy-issues/financing-the-government/*",
+              "/policy-issues/consumer-policy/*",
+              "/policy-issues/small-business-programs/*",
+              "/policy-issues/economic-policy/*"
+            ]
+          }
+        },
+        {
+          "name": "contentType",
+          "options": {
+            "matchOperator": "IS",
+            "values": ["text/html"]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "MAX_AGE",
+            "ttl": "15m",
+            "mustRevalidate": true
+          }
+        },
+        {
+          "name": "gzipResponse",
+          "options": {
+            "behavior": "ALWAYS"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hugo HTML Pages - Services & Data",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "MATCHES_ONE_OF",
+            "values": [
+              "/services/*",
+              "/data/*",
+              "/resource-center/*"
+            ]
+          }
+        },
+        {
+          "name": "contentType",
+          "options": {
+            "matchOperator": "IS",
+            "values": ["text/html"]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "MAX_AGE",
+            "ttl": "15m",
+            "mustRevalidate": true
+          }
+        },
+        {
+          "name": "gzipResponse",
+          "options": {
+            "behavior": "ALWAYS"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hugo Homepage",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "MATCHES_ONE_OF",
+            "values": [
+              "/",
+              "/index.html"
+            ]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "MAX_AGE",
+            "ttl": "5m",
+            "mustRevalidate": true
+          }
+        },
+        {
+          "name": "gzipResponse",
+          "options": {
+            "behavior": "ALWAYS"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Static Assets - PDFs and Documents",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "MATCHES_ONE_OF",
+            "values": [
+              "/system/files/*.pdf",
+              "/system/files/*.PDF",
+              "/system/files/*.doc",
+              "/system/files/*.docx",
+              "/system/files/*.xls",
+              "/system/files/*.xlsx",
+              "/system/files/*.ppt",
+              "/system/files/*.pptx"
+            ]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "MAX_AGE",
+            "ttl": "30d"
+          }
+        },
+        {
+          "name": "prefreshCache",
+          "options": {
+            "enabled": true,
+            "prefreshval": 90
+          }
+        }
+      ],
+      "comments": "Documents cached for 30 days"
     },
     {
       "name": "Hugo Static Assets (Fingerprinted)",
@@ -100,7 +300,12 @@
               "/images/*.webp",
               "/images/*.png",
               "/images/*.jpg",
-              "/images/*.svg"
+              "/images/*.svg",
+              "/system/files/*.jpg",
+              "/system/files/*.jpeg",
+              "/system/files/*.png",
+              "/system/files/*.gif",
+              "/system/files/*.svg"
             ]
           }
         }
@@ -131,6 +336,41 @@
         }
       ],
       "comments": "Images cached for 1 year. WebP served when browser supports it."
+    },
+    {
+      "name": "Fonts",
+      "criteria": [
+        {
+          "name": "path",
+          "options": {
+            "matchOperator": "MATCHES_ONE_OF",
+            "values": [
+              "/fonts/*.woff2",
+              "/fonts/*.woff",
+              "/fonts/*.ttf"
+            ]
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "caching",
+          "options": {
+            "behavior": "MAX_AGE",
+            "ttl": "365d"
+          }
+        },
+        {
+          "name": "modifyOutgoingResponseHeader",
+          "options": {
+            "action": "MODIFY",
+            "standardModifyHeaderAction": "ADD",
+            "headerValue": "Access-Control-Allow-Origin",
+            "newHeaderValue": "*"
+          }
+        }
+      ],
+      "comments": "Fonts cached for 1 year with CORS support"
     },
     {
       "name": "Service Worker - No Cache",
@@ -187,5 +427,23 @@
       ],
       "comments": "Brotli first, gzip fallback for text-based content"
     }
-  ]
+  ],
+  "origin_routing": {
+    "description": "Path-based routing for Hugo migration",
+    "hugo_paths": [
+      "/",
+      "/about/*",
+      "/policy-issues/*",
+      "/services/*",
+      "/data/*",
+      "/resource-center/*",
+      "/news/*",
+      "/css/*",
+      "/js/*",
+      "/images/*",
+      "/fonts/*",
+      "/system/files/*"
+    ],
+    "drupal_fallback": "All other paths route to Drupal origin"
+  }
 }

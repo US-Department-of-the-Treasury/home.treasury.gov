@@ -2,7 +2,7 @@
   // State
   let searchIndex = null;
   let currentResults = [];
-  let displayedCount = 0;
+  let currentPage = 1;
   const perPage = 15;
 
   // DOM elements
@@ -25,8 +25,7 @@
   const emptyState = document.getElementById('search-empty-state');
   const resultsList = document.getElementById('results-list');
   const resultsCount = document.getElementById('results-count');
-  const loadMoreContainer = document.getElementById('load-more-container');
-  const loadMoreBtn = document.getElementById('load-more-btn');
+  const resultsPagination = document.getElementById('results-pagination');
 
   // Form toggle functionality
   function collapseForm() {
@@ -228,59 +227,113 @@
     '</article>';
   }
 
-  // Render initial results
-  function renderResults(items, append) {
+  // Render results with pagination
+  function renderResults(items, page) {
     currentResults = items;
+    currentPage = page || 1;
 
-    if (!append) {
-      displayedCount = 0;
-      resultsList.innerHTML = '';
-    }
+    var totalPages = Math.ceil(items.length / perPage);
+    var start = (currentPage - 1) * perPage;
+    var end = start + perPage;
+    var pageItems = items.slice(start, end);
 
-    // Get next batch
-    var nextBatch = items.slice(displayedCount, displayedCount + perPage);
-    displayedCount += nextBatch.length;
-
-    // Append items
-    resultsList.innerHTML += nextBatch.map(renderItem).join('');
+    // Render items
+    resultsList.innerHTML = pageItems.map(renderItem).join('');
 
     // Update count
-    resultsCount.textContent = 'Showing ' + displayedCount + ' of ' + items.length + ' results';
+    var showingStart = start + 1;
+    var showingEnd = Math.min(end, items.length);
+    resultsCount.textContent = 'Showing ' + showingStart + '-' + showingEnd + ' of ' + items.length + ' results';
 
-    // Show/hide load more button
-    if (displayedCount < items.length) {
-      loadMoreContainer.style.display = 'block';
-      loadMoreBtn.textContent = 'Load More (' + (items.length - displayedCount) + ' remaining)';
+    // Render pagination
+    if (totalPages > 1) {
+      renderPagination(totalPages);
     } else {
-      loadMoreContainer.style.display = 'none';
+      resultsPagination.innerHTML = '';
+      resultsPagination.style.display = 'none';
     }
 
-    // Show results, hide empty state
-    resultsArea.style.display = 'block';
-    emptyState.style.display = 'none';
+    // Show results, hide empty state - with smooth transition
+    if (resultsArea.style.display === 'none') {
+      // First time showing results - fade in
+      emptyState.style.display = 'none';
+      resultsArea.classList.add('fade-out');
+      resultsArea.style.display = 'block';
+      // Force reflow then remove fade-out to trigger fade-in
+      resultsArea.offsetHeight;
+      resultsArea.classList.remove('fade-out');
+    } else {
+      // Already showing results, just update
+      resultsArea.style.display = 'block';
+      emptyState.style.display = 'none';
+    }
   }
 
-  // Load more handler
-  loadMoreBtn.addEventListener('click', function() {
-    // Mark the position of the first new item
-    var previousCount = displayedCount;
+  // Render pagination controls
+  function renderPagination(totalPages) {
+    var html = '';
 
-    renderResults(currentResults, true);
+    // First button
+    if (currentPage > 1) {
+      html += '<button class="page-nav first" data-page="1">« First</button>';
+    } else {
+      html += '<span class="page-nav first disabled">« First</span>';
+    }
 
-    // Scroll to the first new result
-    var allItems = resultsList.querySelectorAll('.news-article-item');
-    if (allItems.length > previousCount) {
-      var firstNewItem = allItems[previousCount];
-      if (firstNewItem) {
-        firstNewItem.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        // Add a brief highlight effect
-        firstNewItem.classList.add('newly-loaded');
-        setTimeout(function() {
-          firstNewItem.classList.remove('newly-loaded');
-        }, 2000);
+    // Calculate window of 5 pages
+    var startPage = 1;
+    var endPage = totalPages;
+
+    if (totalPages > 5) {
+      startPage = currentPage - 2;
+      if (startPage < 1) startPage = 1;
+      endPage = startPage + 4;
+      if (endPage > totalPages) {
+        endPage = totalPages;
+        startPage = endPage - 4;
       }
     }
-  });
+
+    // Left ellipsis
+    if (startPage > 1) {
+      html += '<span class="page-ellipsis">...</span>';
+    }
+
+    // Page numbers
+    for (var i = startPage; i <= endPage; i++) {
+      if (i === currentPage) {
+        html += '<span class="page-number current" aria-current="page">' + i + '</span>';
+      } else {
+        html += '<button class="page-number" data-page="' + i + '">' + i + '</button>';
+      }
+    }
+
+    // Right ellipsis
+    if (endPage < totalPages) {
+      html += '<span class="page-ellipsis">...</span>';
+    }
+
+    // Last button
+    if (currentPage < totalPages) {
+      html += '<button class="page-nav last" data-page="' + totalPages + '">Last »</button>';
+    } else {
+      html += '<span class="page-nav last disabled">Last »</span>';
+    }
+
+    resultsPagination.innerHTML = html;
+    resultsPagination.style.display = 'flex';
+
+    // Add click handlers
+    var pageButtons = resultsPagination.querySelectorAll('[data-page]');
+    pageButtons.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var page = parseInt(btn.dataset.page);
+        renderResults(currentResults, page);
+        // Scroll to top of results
+        resultsArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  }
 
   // Show validation message
   function showValidation(message) {
@@ -388,7 +441,8 @@
         emptyState.style.display = 'none';
         resultsList.innerHTML = '<div class="no-results-message">No results found. Try adjusting your search criteria.</div>';
         resultsCount.textContent = '0 results';
-        loadMoreContainer.style.display = 'none';
+        resultsPagination.innerHTML = '';
+        resultsPagination.style.display = 'none';
         renderFilterTags(filters);
         // Keep form expanded so user can modify search
         return;
@@ -397,7 +451,7 @@
       // Collapse the form and show results (NO auto-scroll - page stays stable)
       collapseForm();
       renderFilterTags(filters);
-      renderResults(filtered);
+      renderResults(filtered, 1);
 
       // Hide empty state
       emptyState.style.display = 'none';
@@ -450,8 +504,9 @@
     }
   });
 
-  // Reset button
+  // Reset button - smooth transition
   resetBtn.addEventListener('click', function() {
+    // Clear form fields immediately
     keywordInput.value = '';
     dateFromInput.value = '';
     dateToInput.value = '';
@@ -465,13 +520,41 @@
       b.classList.remove('active');
     });
 
-    currentResults = [];
-    displayedCount = 0;
-    resultsList.innerHTML = '';
-    resultsArea.style.display = 'none';
-    emptyState.style.display = 'block';
+    // Hide filter tags
     document.getElementById('active-filter-tags').style.display = 'none';
+
+    // Expand the form first
     expandForm();
+
+    // Smooth scroll to top of form
+    formToggle.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // If results are showing, fade them out smoothly
+    if (resultsArea.style.display !== 'none') {
+      resultsArea.classList.add('fade-out');
+
+      // After fade animation, hide results and show empty state
+      setTimeout(function() {
+        currentResults = [];
+        currentPage = 1;
+        resultsList.innerHTML = '';
+        resultsPagination.innerHTML = '';
+        resultsPagination.style.display = 'none';
+        resultsArea.style.display = 'none';
+        resultsArea.classList.remove('fade-out');
+
+        // Show empty state with fade in
+        emptyState.classList.add('fade-out');
+        emptyState.style.display = 'block';
+        // Force reflow then remove fade-out to trigger fade-in
+        emptyState.offsetHeight;
+        emptyState.classList.remove('fade-out');
+      }, 250);
+    } else {
+      // Results weren't showing, just reset state
+      currentResults = [];
+      currentPage = 1;
+    }
   });
 
   // Check for URL parameters on load and auto-search

@@ -1,14 +1,24 @@
 {{ define "main" }}
-{{/* Load external redirect script for CSP compliance */}}
-{{ $redirectJS := resources.Get "js/redirect-404.js" | minify | fingerprint }}
-<script src="{{ $redirectJS.RelPermalink }}"></script>
-
-<noscript>
-  <meta http-equiv="refresh" content="0; url=https://home.treasury.gov/">
-</noscript>
-
-<div class="container" style="padding: 4rem 0; text-align: center;">
-  <h1>Redirecting...</h1>
-  <p>This page is not yet available. You are being redirected to <a href="https://home.treasury.gov/">home.treasury.gov</a>.</p>
+<div class="container" style="padding: 4rem 2rem; max-width: 800px; margin: 0 auto;">
+  <h1 style="font-size: 3rem; margin-bottom: 1rem; color: var(--treasury-navy);">Page Not Found</h1>
+  <p style="font-size: 1.25rem; margin-bottom: 2rem; color: var(--gray-600);">
+    Sorry, the page you're looking for doesn't exist or may have been moved.
+  </p>
+  
+  <div style="margin-bottom: 3rem;">
+    <h2 style="font-size: 1.25rem; margin-bottom: 1rem;">Here are some helpful links:</h2>
+    <ul style="list-style: none; padding: 0; margin: 0;">
+      <li style="margin-bottom: 0.75rem;"><a href="/" style="color: var(--treasury-blue);">Home</a></li>
+      <li style="margin-bottom: 0.75rem;"><a href="/news/" style="color: var(--treasury-blue);">News</a></li>
+      <li style="margin-bottom: 0.75rem;"><a href="/news/press-releases/" style="color: var(--treasury-blue);">Press Releases</a></li>
+      <li style="margin-bottom: 0.75rem;"><a href="/policy-issues/" style="color: var(--treasury-blue);">Policy Issues</a></li>
+      <li style="margin-bottom: 0.75rem;"><a href="/about/" style="color: var(--treasury-blue);">About Treasury</a></li>
+      <li style="margin-bottom: 0.75rem;"><a href="/services/" style="color: var(--treasury-blue);">Services</a></li>
+    </ul>
+  </div>
+  
+  <p style="color: var(--gray-500);">
+    If you believe this is an error, please <a href="mailto:webmaster@treasury.gov" style="color: var(--treasury-blue);">contact us</a>.
+  </p>
 </div>
 {{ end }}

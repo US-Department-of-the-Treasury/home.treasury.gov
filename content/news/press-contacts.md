@@ -1,45 +1,51 @@
 ---
-title: "Contacts for Members of the Media"
-date: 2026-01-15
+title: "Press Contacts"
+date: 2026-01-17
 draft: false
-type: "news"
-url: /news/contacts-for-members-of-the-media
+url: /news/contacts-for-members-of-the-media/
+aliases:
+  - /news/contacts-for-members-of-the-media
+layout: content-page
+description: "Contact information for members of the media seeking to reach the U.S. Department of the Treasury."
 ---
 
-Members of the media may email inquiries or interview requests to [press@treasury.gov](mailto:press@treasury.gov).
+The Office of Public Affairs is the primary media contact for the U.S. Department of the Treasury.
 
-If you are **not a member of the media**, please visit the [Treasury contact page](https://home.treasury.gov/utility/contact). **Please do NOT send any personal information over email, including Social Security Numbers and banking information.**
+### General Media Inquiries
 
-## Report Scam Attempts
+**Email:** [press@treasury.gov](mailto:press@treasury.gov)
 
-There are numerous telephone, mail, and email scams where individuals claim to be Treasury Department employees and offer to grant money or threaten arrests or fines unless your personal information is provided. If you have received a suspicious message from someone claiming to be a Treasury employee (non-IRS), please report it to the Treasury Inspector General.
+**Phone:** (202) 622-2960
 
-**Email:**[OIGCounsel@oig.treas.gov](mailto:OIGCounsel@oig.treas.gov) **Phone:** 800-359-3898 (toll free)
+### Press Room
 
-If you have received a suspicious message from someone claiming to be from the Internal Revenue Service (IRS), please report it to the IRS.
+For press releases, statements, and other news, visit our [News section](/news/).
 
-**Email:**[phishing@irs.gov](mailto:phishing@irs.gov) **Phone:** 800-366-4484 (toll free)
+### Social Media
 
-## Ground Rules for Interviewing Treasury Officials
+- **Twitter/X:** [@USTreasury](https://twitter.com/USTreasury)
+- **Facebook:** [U.S. Department of the Treasury](https://www.facebook.com/ustreasury)
 
-Ground rules must be agreed upon at the beginning of a conversation or an interview with U.S. Department of the Treasury officials. The discussion should proceed only after you and the officials are clear on exactly how the information can be used or attributed.
+## Bureau Press Contacts
 
-### On the Record
+For media inquiries related to specific Treasury bureaus:
 
-Information may be quoted directly and attributed to the official by name and title.
+| Bureau | Contact |
+|--------|---------|
+| Internal Revenue Service (IRS) | [IRS Newsroom](https://www.irs.gov/newsroom) |
+| Bureau of Engraving and Printing | [BEP Media](https://www.bep.gov/media) |
+| U.S. Mint | [Mint News](https://www.usmint.gov/news) |
+| FinCEN | [FinCEN Media](https://www.fincen.gov/news-room) |
+| Office of the Comptroller of the Currency | [OCC Media](https://www.occ.gov/news-issuances/index-news-issuances.html) |
 
-### On Background
+## OFAC Media Inquiries
 
-The official's remarks may be quoted directly or paraphrased and are attributed to a "Treasury official" or "Administration official," as determined by the official.
+For sanctions-related media inquiries, contact the Office of Foreign Assets Control:
 
-### On Deep Background
+**Email:** [ofac_feedback@treasury.gov](mailto:ofac_feedback@treasury.gov)
 
-The source cannot be quoted or identified in any manner, not even as "an unnamed source." The information is usually couched in such phrases as "it is understood that" or "it has been learned." The information may be used to help present the story or to gain a better understanding of the subject, but the knowledge is that of the reporter, not the source.
+## Additional Resources
 
-### Off the Record
-
-Nothing of what the journalist is told may be used in the story. The information is meant only for the education of the reporter.
-
----
-
-[Subscribe to Press Releases](https://public.govdelivery.com/accounts/USTREAS/subscriber/new?topic_id=USTREAS_49)
+- [Press Releases](/news/press-releases/)
+- [Statements & Remarks](/news/statements-remarks/)
+- [Testimonies](/news/testimonies/)

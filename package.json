@@ -1,0 +1,20 @@
+{
+  "name": "treasury-home-tests",
+  "version": "1.0.0",
+  "description": "Playwright UX & Accessibility tests for home.treasury.gov",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:staging": "BASE_URL=https://home-staging.awsdev.treasury.gov playwright test",
+    "test:local": "BASE_URL=http://localhost:1313 playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.8.2",
+    "@playwright/test": "^1.40.1"
+  },
+  "keywords": ["playwright", "testing", "accessibility", "treasury"],
+  "license": "MIT"
+}

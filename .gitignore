@@ -51,3 +51,9 @@ hugo.dev.toml
 .claude/deploy-logs/
 .claude/*.local.md
 plans/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+test-results/
+blob-report/
