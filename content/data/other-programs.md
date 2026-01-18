@@ -6,8 +6,6 @@ url: /data/other-programs/
 description: "Data from various Treasury programs and initiatives."
 ---
 
-## Other Treasury Programs Data
-
 This page provides access to data from various Treasury programs and initiatives not covered in other data sections.
 
 ### Available Data Sets

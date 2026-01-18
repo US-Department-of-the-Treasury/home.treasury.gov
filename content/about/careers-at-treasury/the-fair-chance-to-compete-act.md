@@ -6,8 +6,6 @@ url: /about/careers-at-treasury/the-fair-chance-to-compete-act/
 description: "Information about the Fair Chance to Compete for Jobs Act and how it affects Treasury hiring."
 ---
 
-## The Fair Chance to Compete for Jobs Act
-
 The Fair Chance to Compete for Jobs Act (Fair Chance Act) provides individuals with arrest or conviction records a fair chance to compete for federal employment.
 
 ### What Is the Fair Chance Act?

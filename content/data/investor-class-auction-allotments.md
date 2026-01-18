@@ -6,8 +6,6 @@ url: /data/investor-class-auction-allotments/
 description: "Data on Treasury auction results by investor class, including primary dealers, direct bidders, and indirect bidders."
 ---
 
-## Investor Class Auction Allotments
-
 The U.S. Department of the Treasury publishes data on auction allotments by investor class for Treasury securities.
 
 ### Understanding Auction Data

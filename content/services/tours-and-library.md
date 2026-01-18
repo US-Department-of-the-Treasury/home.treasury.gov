@@ -7,8 +7,6 @@ url: /services/tours-and-library
 description: "Treasury Building tours and library resources."
 ---
 
-## Treasury Building Tours
-
 The Treasury Building, a National Historic Landmark, offers public tours showcasing its rich history and architecture.
 
 ### Tour Information

@@ -9,8 +9,6 @@ layout: content-page
 description: "Contact information for members of the media seeking to reach the U.S. Department of the Treasury."
 ---
 
-## Office of Public Affairs
-
 The Office of Public Affairs is the primary media contact for the U.S. Department of the Treasury.
 
 ### General Media Inquiries

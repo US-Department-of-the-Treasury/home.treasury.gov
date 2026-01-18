@@ -7,8 +7,6 @@ url: /about/budget-financial-reporting-planning-and-performance/strategic-plan
 description: "Treasury's strategic plan outlining goals and objectives."
 ---
 
-## Strategic Goals
-
 The Department of the Treasury's strategic plan outlines our mission, goals, and objectives for serving the American people.
 
 ### Goal 1: Promote Economic Growth

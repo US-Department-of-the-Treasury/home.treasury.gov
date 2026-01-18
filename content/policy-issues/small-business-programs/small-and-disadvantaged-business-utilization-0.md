@@ -9,8 +9,6 @@ layout: content-page
 description: "Information about Treasury's Office of Small and Disadvantaged Business Utilization (OSDBU) and contracting opportunities."
 ---
 
-## Office of Small and Disadvantaged Business Utilization (OSDBU)
-
 The Office of Small and Disadvantaged Business Utilization (OSDBU) promotes the use of small, disadvantaged, women-owned, HUBZone, veteran-owned, and service-disabled veteran-owned small businesses in Treasury's procurement process.
 
 ### Our Mission

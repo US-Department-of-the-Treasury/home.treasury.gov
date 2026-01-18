@@ -6,8 +6,6 @@ url: /footer/privacy-act/
 description: "Information about the Privacy Act and how Treasury protects your personal information."
 ---
 
-## Privacy Act
-
 The Privacy Act of 1974 (5 U.S.C. § 552a) protects personal information that the federal government collects and maintains about individuals.
 
 ### Your Rights Under the Privacy Act

@@ -6,8 +6,6 @@ url: /about/offices/general-counsel/
 description: "The Office of the General Counsel provides legal advice and counsel to the Secretary of the Treasury and Treasury components."
 ---
 
-## Office of the General Counsel
-
 The Office of the General Counsel (OGC) serves as the chief legal officer for the Department of the Treasury, providing legal counsel and support to the Secretary and all Treasury offices and bureaus.
 
 ### Mission

@@ -6,8 +6,6 @@ url: /policy-issues/economic-policy/total-taxable-resources/
 description: "Treasury estimates of total taxable resources by state for federal grant allocation purposes."
 ---
 
-## Total Taxable Resources
-
 The U.S. Department of the Treasury publishes estimates of Total Taxable Resources (TTR) for each state, which are used in various federal grant allocation formulas.
 
 ### What Are Total Taxable Resources?

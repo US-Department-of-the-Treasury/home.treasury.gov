@@ -6,8 +6,6 @@ url: /footer/no-fear-act/
 description: "No FEAR Act reporting data for the U.S. Department of the Treasury."
 ---
 
-## No FEAR Act
-
 The Notification and Federal Employee Antidiscrimination and Retaliation Act of 2002 (No FEAR Act) requires federal agencies to post certain data related to Equal Employment Opportunity (EEO) complaints.
 
 ### Purpose

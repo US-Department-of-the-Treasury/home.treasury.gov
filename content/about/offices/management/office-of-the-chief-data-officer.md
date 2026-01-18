@@ -6,8 +6,6 @@ url: /about/offices/management/office-of-the-chief-data-officer/
 description: "The Office of the Chief Data Officer manages Treasury's data governance, analytics, and open data initiatives."
 ---
 
-## Office of the Chief Data Officer
-
 The Office of the Chief Data Officer (OCDO) leads the Treasury Department's efforts to manage, govern, and leverage data as a strategic asset.
 
 ### Mission

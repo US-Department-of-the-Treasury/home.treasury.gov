@@ -6,8 +6,6 @@ url: /policy-issues/coronavirus/assistance-for-state-local-and-tribal-government
 description: "Treasury programs providing COVID-19 relief to state, local, and tribal governments."
 ---
 
-## Assistance for State, Local, and Tribal Governments
-
 The U.S. Department of the Treasury administered significant programs to help state, local, and tribal governments respond to the COVID-19 pandemic and support economic recovery.
 
 ### Coronavirus State and Local Fiscal Recovery Funds

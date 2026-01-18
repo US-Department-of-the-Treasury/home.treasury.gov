@@ -6,8 +6,6 @@ url: /policy-issues/tax-policy/foreign-account-tax-compliance-act/
 description: "Information about FATCA requirements for foreign financial institutions and U.S. taxpayers with foreign accounts."
 ---
 
-## Foreign Account Tax Compliance Act (FATCA)
-
 The Foreign Account Tax Compliance Act (FATCA) requires foreign financial institutions to report information about financial accounts held by U.S. taxpayers to the IRS.
 
 ### Purpose

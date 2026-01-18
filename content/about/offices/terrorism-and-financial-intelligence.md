@@ -7,8 +7,6 @@ url: /about/offices/terrorism-and-financial-intelligence
 description: "The Office of Terrorism and Financial Intelligence combats financial crimes and threats."
 ---
 
-## Overview
-
 The Office of Terrorism and Financial Intelligence (TFI) marshals the Department's intelligence and enforcement functions with the twin aims of safeguarding the financial system against illicit use and combating rogue nations, terrorist facilitators, weapons of mass destruction proliferators, money launderers, drug kingpins, and other national security threats.
 
 ## Key Components

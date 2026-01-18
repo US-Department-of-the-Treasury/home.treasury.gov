@@ -6,8 +6,6 @@ url: /data/treasury-coupon-issues-and-corporate-bond-yield-curve/corporate-bond-
 description: "The corporate bond yield curve used for pension funding calculations under ERISA."
 ---
 
-## Corporate Bond Yield Curve
-
 The U.S. Department of the Treasury publishes a corporate bond yield curve used for defined benefit pension plan funding calculations required under the Employee Retirement Income Security Act (ERISA).
 
 ### Purpose

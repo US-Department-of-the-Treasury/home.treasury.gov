@@ -9,8 +9,6 @@ aliases:
   - /policy-issues/tax-policy/overview/
 ---
 
-## Office of Tax Policy
-
 The Office of Tax Policy develops and implements tax policies and programs; reviews regulations and rulings to administer the Internal Revenue Code; negotiates tax treaties for the United States; and provides economic and legal policy analysis for domestic and international tax policy decisions.
 
 ### Key Responsibilities

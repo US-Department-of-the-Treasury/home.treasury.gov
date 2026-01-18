@@ -7,8 +7,6 @@ url: /policy-issues/small-business-programs/cdfi-fund
 description: "The Community Development Financial Institutions Fund."
 ---
 
-## About the CDFI Fund
-
 The Community Development Financial Institutions (CDFI) Fund promotes economic revitalization and community development through investment in and assistance to CDFIs.
 
 ## Mission

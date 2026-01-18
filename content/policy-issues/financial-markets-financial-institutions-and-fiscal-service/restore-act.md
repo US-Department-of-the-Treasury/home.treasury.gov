@@ -6,8 +6,6 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "The RESTORE Act directs Clean Water Act penalties from the Deepwater Horizon spill to Gulf Coast restoration."
 ---
 
-## RESTORE Act
-
 The Resources and Ecosystems Sustainability, Tourist Opportunities, and Revived Economies of the Gulf Coast States Act (RESTORE Act) directs Clean Water Act penalties from the Deepwater Horizon oil spill to Gulf Coast restoration.
 
 ### Overview

@@ -8,8 +8,6 @@ aliases:
 description: "Legal notices, disclaimers, and policies for the Treasury website."
 ---
 
-## Site Policies and Notices
-
 This page contains important legal information about the U.S. Department of the Treasury website.
 
 ### Disclaimer

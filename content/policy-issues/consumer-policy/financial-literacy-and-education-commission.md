@@ -6,8 +6,6 @@ url: /policy-issues/consumer-policy/financial-literacy-and-education-commission/
 description: "The FLEC coordinates federal efforts to promote financial literacy and education."
 ---
 
-## Financial Literacy and Education Commission (FLEC)
-
 The Financial Literacy and Education Commission (FLEC) coordinates the federal government's efforts to promote financial literacy and education across America.
 
 ### About FLEC

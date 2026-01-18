@@ -6,8 +6,6 @@ url: /about/budget-financial-reporting-planning-and-performance/agency-financial
 description: "The U.S. Department of the Treasury's annual Agency Financial Report provides audited financial statements and performance information."
 ---
 
-## Agency Financial Report
-
 The U.S. Department of the Treasury publishes an annual Agency Financial Report (AFR) that provides a comprehensive overview of the Department's financial performance and condition.
 
 ### Purpose of the AFR

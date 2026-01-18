@@ -6,8 +6,6 @@ url: /policy-issues/financing-the-government/quarterly-refunding/
 description: "Information about Treasury's quarterly refunding process and debt management."
 ---
 
-## Quarterly Refunding
-
 The U.S. Department of the Treasury conducts quarterly refunding operations to finance the federal government's borrowing needs. This process is a key component of Treasury's debt management strategy.
 
 ### What Is Quarterly Refunding?

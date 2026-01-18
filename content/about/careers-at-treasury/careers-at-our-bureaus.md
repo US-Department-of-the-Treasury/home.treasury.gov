@@ -6,8 +6,6 @@ url: /about/careers-at-treasury/careers-at-our-bureaus/
 description: "Career opportunities at Treasury Department bureaus including the IRS, U.S. Mint, and Bureau of Engraving and Printing."
 ---
 
-## Careers at Treasury Bureaus
-
 The U.S. Department of the Treasury consists of multiple bureaus, each offering unique career opportunities across various fields and locations nationwide.
 
 ### Internal Revenue Service (IRS)

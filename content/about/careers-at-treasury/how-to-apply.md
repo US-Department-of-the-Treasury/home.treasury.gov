@@ -6,8 +6,6 @@ url: /about/careers-at-treasury/how-to-apply/
 description: "Guide to applying for positions at the U.S. Department of the Treasury through USAJOBS."
 ---
 
-## How to Apply for Treasury Positions
-
 All positions at the U.S. Department of the Treasury are posted on [USAJOBS](https://www.usajobs.gov/), the federal government's official employment website.
 
 ### Step-by-Step Application Process

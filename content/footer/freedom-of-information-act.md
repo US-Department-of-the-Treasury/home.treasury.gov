@@ -6,8 +6,6 @@ url: /footer/freedom-of-information-act/
 description: "How to submit FOIA requests to the U.S. Department of the Treasury."
 ---
 
-## Freedom of Information Act (FOIA)
-
 The Freedom of Information Act (FOIA) provides the public with the right to request access to records from any federal agency.
 
 ### Submitting a FOIA Request

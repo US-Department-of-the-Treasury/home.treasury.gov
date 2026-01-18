@@ -6,8 +6,6 @@ url: /policy-issues/international/international-monetary-fund/
 description: "Treasury's role in U.S. engagement with the International Monetary Fund."
 ---
 
-## International Monetary Fund
-
 The U.S. Department of the Treasury leads U.S. engagement with the International Monetary Fund (IMF), the international organization responsible for promoting global monetary cooperation and financial stability.
 
 ### U.S. Role at the IMF

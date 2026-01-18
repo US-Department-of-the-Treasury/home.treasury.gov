@@ -7,8 +7,6 @@ url: /resource-center/data-chart-center
 description: "Interactive charts and data visualizations."
 ---
 
-## Data Visualizations
-
 The Data Chart Center provides interactive visualizations of Treasury and economic data.
 
 ## Available Charts

@@ -6,8 +6,6 @@ url: /policy-issues/international/the-committee-on-foreign-investment-in-the-uni
 description: "CFIUS reviews foreign investments in U.S. businesses for national security implications."
 ---
 
-## The Committee on Foreign Investment in the United States (CFIUS)
-
 CFIUS is an interagency committee that reviews certain transactions involving foreign investment in the United States to determine their effect on national security.
 
 ### About CFIUS

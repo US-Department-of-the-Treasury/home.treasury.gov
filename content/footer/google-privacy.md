@@ -8,8 +8,6 @@ aliases:
 description: "Information about how Google Analytics is used on the Treasury website."
 ---
 
-## Google Analytics Privacy Information
-
 The U.S. Department of the Treasury uses Google Analytics to help understand how visitors use our website.
 
 ### What Google Analytics Collects

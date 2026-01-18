@@ -8,8 +8,6 @@ aliases:
 description: "Privacy policy for the U.S. Department of the Treasury website."
 ---
 
-## Website Privacy Policy
-
 The U.S. Department of the Treasury is committed to protecting your privacy when you visit our website.
 
 ### Information We Collect

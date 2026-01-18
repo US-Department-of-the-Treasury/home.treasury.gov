@@ -6,8 +6,6 @@ url: /services/treasury-auctions/
 description: "Information about property auctions conducted by the U.S. Department of the Treasury and its bureaus."
 ---
 
-## Treasury Auctions
-
 The U.S. Department of the Treasury and its bureaus conduct various auctions of property and assets.
 
 ### Internal Revenue Service (IRS) Auctions

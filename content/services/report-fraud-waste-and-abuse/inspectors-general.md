@@ -6,8 +6,6 @@ url: /services/report-fraud-waste-and-abuse/inspectors-general/
 description: "Contact information for Treasury's Inspectors General to report fraud, waste, and abuse."
 ---
 
-## Treasury Inspectors General
-
 The Treasury Department is overseen by three Inspectors General who investigate fraud, waste, abuse, and misconduct. You can report concerns directly to these offices.
 
 ### Treasury Office of Inspector General (OIG)

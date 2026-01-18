@@ -6,8 +6,6 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "The Federal Insurance Office monitors the insurance industry and represents the U.S. internationally on insurance matters."
 ---
 
-## Federal Insurance Office
-
 The Federal Insurance Office (FIO), established by the Dodd-Frank Act, monitors the insurance industry and represents the United States on prudential aspects of international insurance matters.
 
 ### Mission

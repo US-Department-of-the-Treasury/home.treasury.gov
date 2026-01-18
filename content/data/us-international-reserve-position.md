@@ -7,8 +7,6 @@ url: /data/us-international-reserve-position
 description: "Data on U.S. international reserve assets."
 ---
 
-## U.S. International Reserve Position
-
 Treasury publishes weekly data on the U.S. international reserve position, including reserve assets and other foreign currency assets.
 
 ## Components

@@ -6,8 +6,6 @@ url: /policy-issues/international/exchange-rate-analysis/
 description: "Treasury's analysis of foreign exchange rates and currency practices of major trading partners."
 ---
 
-## Exchange Rate Analysis
-
 The U.S. Department of the Treasury monitors and analyzes foreign exchange rates and the currency practices of America's major trading partners.
 
 ### Congressional Reports

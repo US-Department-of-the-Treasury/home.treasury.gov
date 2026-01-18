@@ -6,8 +6,6 @@ url: /policy-issues/international/outbound-investment-program/
 description: "Treasury's program addressing national security concerns from certain U.S. outbound investments."
 ---
 
-## Outbound Investment Security Program
-
 The U.S. Department of the Treasury administers the Outbound Investment Security Program, which addresses national security concerns arising from certain U.S. investments in countries of concern.
 
 ### Program Overview

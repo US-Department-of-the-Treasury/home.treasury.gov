@@ -6,8 +6,6 @@ url: /policy-issues/terrorism-and-illicit-finance/treasury-executive-office-for-
 description: "TEOAF administers the Treasury Forfeiture Fund and manages seized and forfeited assets."
 ---
 
-## Treasury Executive Office for Asset Forfeiture (TEOAF)
-
 The Treasury Executive Office for Asset Forfeiture (TEOAF) administers the Treasury Forfeiture Fund and manages the seizure and forfeiture of assets related to financial crimes.
 
 ### Mission

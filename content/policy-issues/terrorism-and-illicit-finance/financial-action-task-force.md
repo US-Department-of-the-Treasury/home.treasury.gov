@@ -6,8 +6,6 @@ url: /policy-issues/terrorism-and-illicit-finance/financial-action-task-force/
 description: "Treasury's engagement with the Financial Action Task Force on anti-money laundering standards."
 ---
 
-## Financial Action Task Force (FATF)
-
 The Financial Action Task Force is the global standard-setting body for anti-money laundering (AML) and combating the financing of terrorism (CFT). The U.S. Department of the Treasury represents the United States in FATF.
 
 ### About FATF

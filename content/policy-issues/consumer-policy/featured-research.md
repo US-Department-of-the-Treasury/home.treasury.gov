@@ -6,8 +6,6 @@ url: /policy-issues/consumer-policy/featured-research/
 description: "Research on consumer financial issues from the Treasury Department."
 ---
 
-## Featured Research
-
 The U.S. Department of the Treasury conducts and supports research on consumer financial issues to inform policy development and improve consumer outcomes.
 
 ### Research Areas

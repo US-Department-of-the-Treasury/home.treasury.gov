@@ -6,8 +6,6 @@ url: /policy-issues/tax-policy/revenue-proposals/
 description: "Treasury's revenue proposals and analysis of tax policy changes."
 ---
 
-## Revenue Proposals
-
 The U.S. Department of the Treasury develops revenue proposals as part of the Administration's budget process, providing detailed explanations of proposed changes to the tax code.
 
 ### The Green Book

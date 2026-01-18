@@ -6,8 +6,6 @@ url: /policy-issues/terrorism-and-illicit-finance/money-laundering/
 description: "Treasury's efforts to combat money laundering and enforce anti-money laundering laws."
 ---
 
-## Money Laundering
-
 The U.S. Department of the Treasury leads federal efforts to combat money laundering through policy development, regulation, and enforcement.
 
 ### What Is Money Laundering?

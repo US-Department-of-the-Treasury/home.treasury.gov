@@ -6,8 +6,6 @@ url: /policy-issues/financing-the-government/debt-management-research/
 description: "Research on Treasury debt management practices, auction design, and securities markets."
 ---
 
-## Debt Management Research
-
 The U.S. Department of the Treasury supports and publishes research on debt management, auction design, and Treasury securities markets.
 
 ### Research Areas

@@ -7,8 +7,6 @@ url: /services/government-shared-services
 description: "Treasury's shared services for federal agencies."
 ---
 
-## Shared Services Overview
-
 Treasury provides shared services to federal agencies, helping to improve efficiency and reduce costs across government.
 
 ## Administrative Resource Center (ARC)

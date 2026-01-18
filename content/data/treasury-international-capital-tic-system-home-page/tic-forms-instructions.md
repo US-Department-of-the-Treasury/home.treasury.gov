@@ -6,8 +6,6 @@ url: /data/treasury-international-capital-tic-system-home-page/tic-forms-instruc
 description: "Forms and instructions for reporting to the Treasury International Capital (TIC) system."
 ---
 
-## TIC Forms and Instructions
-
 The Treasury International Capital (TIC) system collects data from U.S. financial institutions and other entities on cross-border portfolio investment and banking activity.
 
 ### Who Must Report

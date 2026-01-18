@@ -6,8 +6,6 @@ url: /policy-issues/tax-policy/treaties/
 description: "Information about U.S. tax treaties, protocols, and treaty-related documents."
 ---
 
-## Tax Treaties and Related Documents
-
 The United States has income tax treaties with numerous countries to prevent double taxation and facilitate cross-border economic activity.
 
 ### Purpose of Tax Treaties

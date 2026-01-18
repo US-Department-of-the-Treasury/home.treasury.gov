@@ -7,8 +7,6 @@ url: /about/general-information/officials
 description: "Current leadership and officials of the U.S. Department of the Treasury."
 ---
 
-## Secretary of the Treasury
-
 The Secretary of the Treasury is the principal economic advisor to the President and plays a critical role in policy-making by bringing an economic and government financial policy perspective to issues facing the government. The Secretary is responsible for formulating and recommending domestic and international financial, economic, and tax policy; participating in the formulation of broad fiscal policies; and managing the public debt.
 
 For information about the current Secretary, visit the [Secretary's biography page](/about/general-information/secretary).

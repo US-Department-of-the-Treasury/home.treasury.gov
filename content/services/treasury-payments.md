@@ -7,8 +7,6 @@ url: /services/treasury-payments
 description: "Information about government payments issued by the Treasury."
 ---
 
-## Federal Payments
-
 The Bureau of the Fiscal Service disburses most federal payments on behalf of agencies.
 
 ## Types of Payments

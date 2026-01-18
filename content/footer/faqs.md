@@ -8,8 +8,6 @@ aliases:
 description: "Frequently asked questions about the U.S. Department of the Treasury."
 ---
 
-## Frequently Asked Questions
-
 ### About Treasury
 
 **What does the Treasury Department do?**

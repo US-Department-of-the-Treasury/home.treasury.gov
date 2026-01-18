@@ -7,8 +7,6 @@ url: /services/currency-and-coins
 description: "Information about U.S. currency and coin production."
 ---
 
-## U.S. Currency
-
 The Bureau of Engraving and Printing (BEP) designs, engraves, and prints all U.S. paper currency.
 
 ### Current Denominations

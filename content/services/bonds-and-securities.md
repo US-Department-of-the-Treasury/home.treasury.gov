@@ -7,8 +7,6 @@ url: /services/bonds-and-securities
 description: "Information about Treasury bonds, bills, notes, and savings bonds."
 ---
 
-## Treasury Securities
-
 The U.S. Treasury issues several types of securities to finance government operations:
 
 ### Treasury Bills (T-Bills)

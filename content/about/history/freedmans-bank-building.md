@@ -6,8 +6,6 @@ url: /about/history/freedmans-bank-building/
 description: "History of the Freedman's Savings and Trust Company building and its connection to the Treasury Department."
 ---
 
-## Freedman's Bank Building
-
 The Freedman's Savings and Trust Company, commonly known as the Freedman's Bank, holds a significant place in American financial history and in the legacy of the U.S. Department of the Treasury.
 
 ### History of the Freedman's Bank

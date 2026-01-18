@@ -7,8 +7,6 @@ url: /about/offices/economic-policy
 description: "The Office of Economic Policy analyzes economic conditions and develops policy recommendations."
 ---
 
-## Overview
-
 The Office of Economic Policy assists policymakers by analyzing and reporting on current and prospective economic developments in the domestic and world economies.
 
 ## Key Responsibilities

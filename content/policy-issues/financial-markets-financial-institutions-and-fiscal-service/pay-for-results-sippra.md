@@ -7,8 +7,6 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "Information about the Social Impact Partnerships to Pay for Results Act (SIPPRA) program administered by Treasury."
 ---
 
-## Social Impact Partnerships to Pay for Results Act (SIPPRA)
-
 The Social Impact Partnerships to Pay for Results Act (SIPPRA), enacted as part of the Bipartisan Budget Act of 2018, authorizes up to $100 million in federal funding for state and local pay-for-results projects.
 
 ### About SIPPRA

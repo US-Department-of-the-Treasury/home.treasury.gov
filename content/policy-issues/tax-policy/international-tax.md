@@ -6,8 +6,6 @@ url: /policy-issues/tax-policy/international-tax/
 description: "Treasury's work on international tax policy, including treaties, transfer pricing, and global tax coordination."
 ---
 
-## International Tax
-
 The U.S. Department of the Treasury plays a leading role in developing international tax policy, negotiating tax treaties, and coordinating with other countries on global tax issues.
 
 ### Key Areas

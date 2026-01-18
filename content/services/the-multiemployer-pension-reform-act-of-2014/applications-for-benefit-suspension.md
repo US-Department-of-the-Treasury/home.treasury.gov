@@ -6,8 +6,6 @@ url: /services/the-multiemployer-pension-reform-act-of-2014/applications-for-ben
 description: "Information about multiemployer pension plan applications for benefit suspension under MPRA."
 ---
 
-## Applications for Benefit Suspension
-
 The Multiemployer Pension Reform Act of 2014 (MPRA) allows certain financially troubled multiemployer pension plans to apply to Treasury for approval to suspend benefits.
 
 ### Background

@@ -6,8 +6,6 @@ url: /policy-issues/terrorism-and-illicit-finance/protecting-charitable-organiza
 description: "Treasury guidance to help charitable organizations protect against terrorist financing abuse."
 ---
 
-## Protecting Charitable Organizations
-
 The U.S. Department of the Treasury is committed to protecting the integrity of charitable giving while preventing the abuse of charitable organizations for terrorist financing.
 
 ### The Challenge

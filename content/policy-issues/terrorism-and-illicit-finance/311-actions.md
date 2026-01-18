@@ -6,8 +6,6 @@ url: /policy-issues/terrorism-and-illicit-finance/311-actions/
 description: "Treasury actions under Section 311 of the USA PATRIOT Act against foreign jurisdictions and financial institutions."
 ---
 
-## Section 311 Actions
-
 Section 311 of the USA PATRIOT Act authorizes the Secretary of the Treasury to require domestic financial institutions to take special measures against foreign jurisdictions, financial institutions, or transactions that are of primary money laundering concern.
 
 ### What Is Section 311?

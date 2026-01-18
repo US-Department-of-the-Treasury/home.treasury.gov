@@ -6,8 +6,6 @@ url: /policy-issues/small-business-programs/state-small-business-credit-initiati
 description: "The State Small Business Credit Initiative supports small businesses by providing funding to states, territories, and Tribal governments."
 ---
 
-## State Small Business Credit Initiative (SSBCI)
-
 The State Small Business Credit Initiative (SSBCI) is a program administered by the U.S. Department of the Treasury that provides funding to states, the District of Columbia, territories, and Tribal governments to support small business lending and investment programs.
 
 ### Program Overview

@@ -6,8 +6,6 @@ url: /about/careers-at-treasury/benefits-and-growth/
 description: "Comprehensive benefits and career growth opportunities available to Treasury Department employees."
 ---
 
-## Benefits and Career Growth at Treasury
-
 The U.S. Department of the Treasury offers a comprehensive benefits package and numerous opportunities for professional development and career advancement.
 
 ### Federal Employee Benefits

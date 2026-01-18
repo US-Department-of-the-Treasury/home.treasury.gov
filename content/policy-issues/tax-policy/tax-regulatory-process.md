@@ -6,8 +6,6 @@ url: /policy-issues/tax-policy/tax-regulatory-process/
 description: "How Treasury and the IRS develop tax regulations and guidance."
 ---
 
-## Tax Regulatory Process
-
 The U.S. Department of the Treasury and the Internal Revenue Service develop regulations and guidance to implement the tax laws enacted by Congress.
 
 ### Types of Guidance

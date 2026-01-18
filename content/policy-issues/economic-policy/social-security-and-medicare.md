@@ -7,8 +7,6 @@ url: /policy-issues/economic-policy/social-security-and-medicare/
 description: "Treasury's role in Social Security and Medicare policy, including the Secretary's position as Managing Trustee."
 ---
 
-## Social Security and Medicare
-
 The Secretary of the Treasury serves as the Managing Trustee of the Social Security and Medicare Trust Funds, a role that underscores Treasury's central responsibility in ensuring the financial integrity of these critical programs.
 
 ### The Secretary's Role as Managing Trustee

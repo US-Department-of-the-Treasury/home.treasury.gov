@@ -7,8 +7,6 @@ url: /policy-issues/tax-policy/overview
 description: "Overview of Treasury's tax policy work."
 ---
 
-## Tax Policy Mission
-
 The Office of Tax Policy advises the Secretary on domestic and international tax policy, develops tax legislative proposals, and provides economic analysis of tax issues.
 
 ## Key Areas

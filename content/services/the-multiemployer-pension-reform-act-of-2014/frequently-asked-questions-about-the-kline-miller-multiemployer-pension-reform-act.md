@@ -6,8 +6,6 @@ url: /services/the-multiemployer-pension-reform-act-of-2014/frequently-asked-que
 description: "FAQs about the Multiemployer Pension Reform Act of 2014 and Treasury's role in benefit suspension applications."
 ---
 
-## Frequently Asked Questions About MPRA
-
 The Multiemployer Pension Reform Act of 2014 (MPRA), also known as the Kline-Miller Act, made significant changes to the rules governing multiemployer pension plans.
 
 ### General Questions

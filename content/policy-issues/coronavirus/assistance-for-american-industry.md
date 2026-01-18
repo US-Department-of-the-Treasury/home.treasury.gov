@@ -6,8 +6,6 @@ url: /policy-issues/coronavirus/assistance-for-american-industry/
 description: "Treasury programs supporting American industries affected by the COVID-19 pandemic."
 ---
 
-## Assistance for American Industry
-
 The U.S. Department of the Treasury administered programs to support critical American industries severely impacted by the COVID-19 pandemic.
 
 ### Airline Industry Support

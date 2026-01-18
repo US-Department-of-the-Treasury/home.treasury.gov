@@ -7,8 +7,6 @@ url: /about/general-information/orders-and-directives/
 description: "Treasury Orders and Directives that govern the organization and operations of the U.S. Department of the Treasury."
 ---
 
-## Treasury Orders and Directives
-
 Treasury Orders and Directives are official documents that establish the organization, policies, and procedures of the U.S. Department of the Treasury.
 
 ### Treasury Orders

@@ -6,8 +6,6 @@ url: /policy-issues/international/multilateral-development-banks/
 description: "Treasury's oversight of U.S. participation in multilateral development banks."
 ---
 
-## Multilateral Development Banks
-
 The U.S. Department of the Treasury oversees U.S. participation in the multilateral development banks (MDBs), which provide financing for development in countries around the world.
 
 ### Key Institutions

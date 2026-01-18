@@ -7,8 +7,6 @@ url: /about/general-information/organizational-chart
 description: "Organizational structure of the U.S. Department of the Treasury."
 ---
 
-## Department Structure
-
 The U.S. Department of the Treasury is organized into departmental offices and operating bureaus.
 
 ### Departmental Offices

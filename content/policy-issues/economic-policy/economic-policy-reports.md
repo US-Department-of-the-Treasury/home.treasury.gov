@@ -6,8 +6,6 @@ url: /policy-issues/economic-policy/economic-policy-reports/
 description: "Reports and analysis from Treasury's Office of Economic Policy."
 ---
 
-## Economic Policy Reports
-
 The U.S. Department of the Treasury's Office of Economic Policy produces research and analysis on a wide range of economic issues affecting the American economy.
 
 ### Types of Reports

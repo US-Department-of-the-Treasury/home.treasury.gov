@@ -6,8 +6,6 @@ url: /policy-issues/international/g-7-and-g-20/
 description: "Treasury's engagement with the G-7 and G-20 on international economic and financial issues."
 ---
 
-## G-7 and G-20
-
 The U.S. Department of the Treasury represents the United States in the G-7 and G-20 forums on international economic and financial issues.
 
 ### The G-7

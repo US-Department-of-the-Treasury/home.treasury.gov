@@ -7,8 +7,6 @@ url: /data/treasury-international-capital-tic-system
 description: "International capital flows and holdings data."
 ---
 
-## TIC System Overview
-
 The Treasury International Capital (TIC) reporting system collects data on cross-border portfolio investment flows and positions between U.S. residents and foreign residents.
 
 ## Key Data Series

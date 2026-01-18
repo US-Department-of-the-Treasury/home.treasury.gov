@@ -7,8 +7,6 @@ url: /about/history/the-treasury-building/
 description: "History and information about the historic Treasury Building in Washington, D.C., one of the oldest federal buildings in the nation."
 ---
 
-## The Treasury Building
-
 The Treasury Building is one of the oldest federal buildings in Washington, D.C., and is a National Historic Landmark. Located at 1500 Pennsylvania Avenue NW, directly east of the White House, the building has served as the headquarters of the U.S. Department of the Treasury since 1836.
 
 ### History

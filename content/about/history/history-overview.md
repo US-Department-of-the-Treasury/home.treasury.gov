@@ -7,8 +7,6 @@ url: /about/history/history-overview
 description: "An overview of Treasury's 235+ year history."
 ---
 
-## Founding
-
 The Department of the Treasury was established by Act of Congress on September 2, 1789, to manage government revenue.
 
 ## Early Years

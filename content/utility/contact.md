@@ -6,8 +6,6 @@ url: /utility/contact/
 description: "Contact information for the U.S. Department of the Treasury."
 ---
 
-## Contact the Treasury Department
-
 ### General Inquiries
 
 **Mailing Address**

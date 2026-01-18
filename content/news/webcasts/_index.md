@@ -5,8 +5,6 @@ draft: false
 type: "news"
 ---
 
-## 2025
-
 | Event | Date |
 |-------|------|
 | [Trump Accounts Press Conference](https://usdotyorktel.rev.vbrick.com/#/events/2c7f246d-8e11-48bc-b948-252311a437e9) | December 17, 2025 10:00AM |

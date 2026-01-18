@@ -7,8 +7,6 @@ url: /data/treasury-open-data
 description: "Access Treasury's open data resources."
 ---
 
-## Open Data at Treasury
-
 Treasury is committed to making government data accessible to the public in open, machine-readable formats.
 
 ## Data Sources

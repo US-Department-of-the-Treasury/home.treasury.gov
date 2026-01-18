@@ -6,8 +6,6 @@ url: /policy-issues/financing-the-government/treasury-investor-data/
 description: "Data on investors in Treasury securities, including foreign holdings and investor composition."
 ---
 
-## Treasury Investor Data
-
 The U.S. Department of the Treasury publishes data on ownership of Treasury securities, providing insight into who holds U.S. government debt.
 
 ### Types of Investor Data

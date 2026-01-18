@@ -6,8 +6,6 @@ url: /policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-pro
 description: "The Terrorist Finance Tracking Program uses financial data to identify and track terrorist networks."
 ---
 
-## Terrorist Finance Tracking Program (TFTP)
-
 The Terrorist Finance Tracking Program is a critical counterterrorism tool that uses financial data to identify, track, and pursue terrorists and their networks.
 
 ### Program Overview

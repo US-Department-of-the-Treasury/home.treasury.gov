@@ -6,8 +6,6 @@ url: /policy-issues/international/macroeconomic-and-foreign-exchange-policies-of
 description: "Treasury's semiannual report on the currency practices of major U.S. trading partners."
 ---
 
-## Macroeconomic and Foreign Exchange Policies of Major Trading Partners
-
 The U.S. Department of the Treasury submits semiannual reports to Congress examining the macroeconomic and foreign exchange policies of America's major trading partners.
 
 ### Legal Requirement

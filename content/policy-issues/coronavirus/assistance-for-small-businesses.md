@@ -6,8 +6,6 @@ url: /policy-issues/coronavirus/assistance-for-small-businesses/
 description: "Treasury programs supporting small businesses during the COVID-19 pandemic."
 ---
 
-## Assistance for Small Businesses
-
 The U.S. Department of the Treasury administered and supported multiple programs to help small businesses survive and recover from the COVID-19 pandemic.
 
 ### Paycheck Protection Program (PPP)

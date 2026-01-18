@@ -6,8 +6,6 @@ url: /policy-issues/consumer-policy/innovations-in-financial-services/
 description: "Treasury's work on financial technology, digital assets, and innovation in financial services."
 ---
 
-## Innovations in Financial Services
-
 The U.S. Department of the Treasury monitors and shapes policy related to innovations in financial services, including fintech, digital assets, and emerging payment technologies.
 
 ### Areas of Focus

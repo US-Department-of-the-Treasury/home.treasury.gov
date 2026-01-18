@@ -7,8 +7,6 @@ url: /about/offices/domestic-finance
 description: "The Office of Domestic Finance advises on financial services policy, federal lending, and fiscal policy."
 ---
 
-## Overview
-
 The Office of Domestic Finance advises and assists the Secretary of the Treasury in areas of domestic finance, including:
 
 - Financial institutions policy

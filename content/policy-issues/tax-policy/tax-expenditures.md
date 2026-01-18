@@ -6,8 +6,6 @@ url: /policy-issues/tax-policy/tax-expenditures/
 description: "Analysis of tax expenditures - provisions that reduce tax liability through exclusions, deductions, and credits."
 ---
 
-## Tax Expenditures
-
 Tax expenditures are provisions in the tax code that reduce tax liability through exclusions, exemptions, deductions, credits, deferrals, and preferential tax rates.
 
 ### What Are Tax Expenditures?

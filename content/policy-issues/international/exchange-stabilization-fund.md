@@ -6,8 +6,6 @@ url: /policy-issues/international/exchange-stabilization-fund/
 description: "The Exchange Stabilization Fund is used to promote exchange rate stability and counter disorderly currency markets."
 ---
 
-## Exchange Stabilization Fund
-
 The Exchange Stabilization Fund (ESF) is a Treasury-controlled fund used to promote exchange rate stability and counter disorderly conditions in foreign exchange markets.
 
 ### Legal Authority

@@ -6,8 +6,6 @@ url: /about/careers-at-treasury/studentinternship-programs/pathways-programs/
 description: "Federal internship and employment programs for students and recent graduates at Treasury."
 ---
 
-## Pathways Programs
-
 The Pathways Programs offer federal internship and employment opportunities for students and recent graduates to begin their careers in federal service.
 
 ### Three Pathways to Federal Careers

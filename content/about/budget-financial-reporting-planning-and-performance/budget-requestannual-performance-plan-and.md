@@ -6,8 +6,6 @@ url: /about/budget-financial-reporting-planning-and-performance/budget-requestan
 description: "Treasury's annual budget requests, performance plans, and annual performance reports."
 ---
 
-## Budget Request and Annual Performance Plan
-
 The U.S. Department of the Treasury submits annual budget requests to Congress and publishes performance plans and reports to demonstrate how resources support the Department's mission.
 
 ### Congressional Budget Justification

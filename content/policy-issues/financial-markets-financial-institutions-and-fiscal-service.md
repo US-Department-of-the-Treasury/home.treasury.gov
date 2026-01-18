@@ -6,8 +6,6 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "Treasury policy on financial markets, financial institutions, and fiscal operations."
 ---
 
-## Financial Markets, Financial Institutions, and Fiscal Service
-
 The U.S. Department of the Treasury develops policy on financial markets, financial institutions, and fiscal service to promote a strong, stable, and efficient financial system.
 
 ### Financial Markets

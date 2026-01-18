@@ -6,8 +6,6 @@ url: /about/history/treasurers-of-the-united-states/
 description: "A history of the Treasurers of the United States, whose signatures appear on U.S. currency."
 ---
 
-## Treasurers of the United States
-
 The Treasurer of the United States is an official in the U.S. Department of the Treasury whose signature appears on U.S. currency. The position was established by the First Congress in 1789.
 
 ### Role of the Treasurer

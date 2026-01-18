@@ -7,8 +7,6 @@ url: /services/report-fraud-waste-and-abuse
 description: "How to report fraud, waste, and abuse related to Treasury programs."
 ---
 
-## Report Concerns
-
 The Department of the Treasury is committed to preventing and detecting fraud, waste, and abuse.
 
 ## How to Report

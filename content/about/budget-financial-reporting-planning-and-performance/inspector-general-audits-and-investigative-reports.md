@@ -6,8 +6,6 @@ url: /about/budget-financial-reporting-planning-and-performance/inspector-genera
 description: "Reports from Treasury's Inspectors General on audits, evaluations, and investigations."
 ---
 
-## Inspector General Audits and Investigative Reports
-
 The Treasury Department is overseen by multiple Inspectors General who conduct independent audits, evaluations, and investigations to promote efficiency and prevent fraud, waste, and abuse.
 
 ### Treasury Inspectors General

@@ -6,8 +6,6 @@ url: /policy-issues/small-business-programs/small-and-disadvantaged-business-uti
 description: "Treasury's Office of Small and Disadvantaged Business Utilization helps small businesses access contracting opportunities."
 ---
 
-## Small and Disadvantaged Business Utilization
-
 The Office of Small and Disadvantaged Business Utilization (OSDBU) helps small businesses access contracting opportunities with the U.S. Department of the Treasury.
 
 ### Mission

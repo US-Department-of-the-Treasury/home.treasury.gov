@@ -6,8 +6,6 @@ url: /policy-issues/financing-the-government/quarterly-refunding/quarterly-refun
 description: "Archive of past quarterly refunding statements and Treasury borrowing documents."
 ---
 
-## Quarterly Refunding Archives
-
 This archive contains historical quarterly refunding announcements and related documents from the U.S. Department of the Treasury.
 
 ### Available Archives

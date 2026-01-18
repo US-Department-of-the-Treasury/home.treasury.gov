@@ -6,8 +6,6 @@ url: /about/careers-at-treasury/veterans-employment/
 description: "Information for veterans seeking employment at the U.S. Department of the Treasury."
 ---
 
-## Veterans Employment at Treasury
-
 The U.S. Department of the Treasury values the skills, leadership, and dedication that veterans bring to our workforce. We are committed to recruiting, hiring, and retaining veterans.
 
 ### Veterans' Preference

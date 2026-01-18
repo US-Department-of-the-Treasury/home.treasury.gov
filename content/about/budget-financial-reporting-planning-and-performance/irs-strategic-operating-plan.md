@@ -6,8 +6,6 @@ url: /about/budget-financial-reporting-planning-and-performance/irs-strategic-op
 description: "Information about the IRS Strategic Operating Plan for transforming tax administration."
 ---
 
-## IRS Strategic Operating Plan
-
 The Internal Revenue Service Strategic Operating Plan outlines a multi-year vision for transforming tax administration to better serve taxpayers and the nation.
 
 ### Vision

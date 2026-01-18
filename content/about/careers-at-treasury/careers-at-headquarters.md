@@ -7,8 +7,6 @@ url: /about/careers-at-treasury/careers-at-headquarters
 description: "Career opportunities at Treasury headquarters in Washington, D.C."
 ---
 
-## Working at Treasury Headquarters
-
 Treasury headquarters is located in the historic Treasury Building adjacent to the White House in Washington, D.C.
 
 ## Career Areas

@@ -7,8 +7,6 @@ url: /policy-issues/tribal-affairs
 description: "Treasury's engagement with tribal governments and Native communities."
 ---
 
-## Office of Tribal and Native Affairs
-
 The Office of Tribal and Native Affairs coordinates Treasury's engagement with tribal governments and Native communities.
 
 ## Mission

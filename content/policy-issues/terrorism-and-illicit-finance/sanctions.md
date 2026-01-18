@@ -7,8 +7,6 @@ url: /policy-issues/terrorism-and-illicit-finance/sanctions
 description: "U.S. economic and trade sanctions programs."
 ---
 
-## Office of Foreign Assets Control (OFAC)
-
 OFAC administers and enforces economic sanctions programs based on U.S. foreign policy and national security goals.
 
 ## Current Sanctions Programs

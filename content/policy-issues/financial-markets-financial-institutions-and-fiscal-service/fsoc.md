@@ -6,8 +6,6 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "FSOC identifies risks to U.S. financial stability and coordinates regulatory responses."
 ---
 
-## Financial Stability Oversight Council (FSOC)
-
 The Financial Stability Oversight Council is responsible for identifying risks to the financial stability of the United States and coordinating regulatory responses.
 
 ### About FSOC

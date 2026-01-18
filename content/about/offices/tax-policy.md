@@ -6,8 +6,6 @@ url: /about/offices/tax-policy/
 description: "The Office of Tax Policy develops and implements federal tax policy and analyzes the effects of tax legislation."
 ---
 
-## Office of Tax Policy
-
 The Office of Tax Policy (OTP) is responsible for developing and implementing federal tax policies and providing analysis of tax issues for the Secretary of the Treasury.
 
 ### Mission

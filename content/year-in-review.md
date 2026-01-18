@@ -6,8 +6,6 @@ url: /year-in-review/
 description: "Highlights of the U.S. Department of the Treasury's accomplishments and initiatives over the past year."
 ---
 
-## Treasury Year in Review
-
 The U.S. Department of the Treasury plays a central role in promoting economic growth and stability, managing the government's finances, and protecting the integrity of the financial system.
 
 ### Key Accomplishments

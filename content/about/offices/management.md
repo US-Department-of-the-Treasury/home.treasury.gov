@@ -6,8 +6,6 @@ url: /about/offices/management/
 description: "The Office of Management oversees Treasury's administrative operations, including human resources, facilities, and information technology."
 ---
 
-## Office of Management
-
 The Office of Management provides administrative leadership and support services for the U.S. Department of the Treasury, ensuring efficient and effective operations across the department.
 
 ### Mission

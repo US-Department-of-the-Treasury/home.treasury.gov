@@ -6,8 +6,6 @@ url: /about/history/curator/
 description: "The Office of the Curator manages the Treasury Department's historic collections, artifacts, and the preservation of the Treasury Building."
 ---
 
-## Office of the Curator
-
 The Office of the Curator is responsible for managing the U.S. Department of the Treasury's historic collections, artifacts, artwork, and the preservation of the Treasury Building as a National Historic Landmark.
 
 ### Responsibilities

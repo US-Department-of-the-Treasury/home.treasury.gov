@@ -6,8 +6,6 @@ url: /data/troubled-assets-relief-program/
 description: "Reports and data on the Troubled Assets Relief Program (TARP) administered by Treasury during the 2008 financial crisis."
 ---
 
-## Troubled Assets Relief Program (TARP)
-
 The Troubled Assets Relief Program (TARP) was created in 2008 to stabilize the financial system during the financial crisis. This page provides access to TARP data and reports.
 
 ### Program Overview

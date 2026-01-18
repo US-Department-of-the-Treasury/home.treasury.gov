@@ -7,8 +7,6 @@ url: /about/offices/international-affairs
 description: "The Office of International Affairs protects U.S. economic interests globally."
 ---
 
-## Overview
-
 The Office of International Affairs advises and assists the Secretary and other senior officials on international monetary, financial, commercial, energy, and trade policies and programs.
 
 ## Key Responsibilities

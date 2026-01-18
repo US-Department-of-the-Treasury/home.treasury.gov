@@ -6,8 +6,6 @@ url: /about/careers-at-treasury/top-ten-reasons-to-work-for-treasury/
 description: "Discover the top reasons to build a career at the U.S. Department of the Treasury."
 ---
 
-## Top 10 Reasons to Work for Treasury
-
 The U.S. Department of the Treasury offers a unique opportunity to serve your country while building a rewarding career. Here are the top reasons to consider Treasury as your employer.
 
 ### 1. Meaningful Mission

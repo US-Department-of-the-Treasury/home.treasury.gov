@@ -6,8 +6,6 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "Information about the federal debt limit and Treasury's debt management responsibilities."
 ---
 
-## Debt Limit
-
 The debt limit, or debt ceiling, is the maximum amount of money the U.S. government is authorized to borrow to meet its existing legal obligations.
 
 ### What Is the Debt Limit?

@@ -6,8 +6,6 @@ url: /about/careers-at-treasury/workforce/
 description: "Information about the U.S. Department of the Treasury workforce, demographics, and culture."
 ---
 
-## Treasury Workforce
-
 The U.S. Department of the Treasury is home to a diverse, talented, and dedicated workforce committed to serving the American people.
 
 ### Workforce Overview

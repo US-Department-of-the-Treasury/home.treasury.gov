@@ -6,8 +6,6 @@ url: /data/treasury-coupon-issues-and-corporate-bond-yield-curves/
 description: "Data on Treasury coupon issues and corporate bond yield curves used for pension calculations."
 ---
 
-## Treasury Coupon Issues and Corporate Bond Yield Curves
-
 The U.S. Department of the Treasury publishes data on Treasury coupon issues and corporate bond yield curves, which are used for various financial and regulatory purposes.
 
 ### Treasury Coupon Issues

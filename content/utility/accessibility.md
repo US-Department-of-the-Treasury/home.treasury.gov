@@ -6,8 +6,6 @@ url: /utility/accessibility/
 description: "Accessibility information and Section 508 compliance for the Treasury website."
 ---
 
-## Accessibility
-
 The U.S. Department of the Treasury is committed to making our website accessible to all users, including people with disabilities.
 
 ### Section 508 Compliance

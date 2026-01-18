@@ -6,8 +6,6 @@ url: /policy-issues/financing-the-government/quarterly-refunding/most-recent-qua
 description: "The latest quarterly refunding statements and Treasury borrowing estimates."
 ---
 
-## Most Recent Quarterly Refunding Documents
-
 This page provides access to the most recent quarterly refunding announcement and related documents from the U.S. Department of the Treasury.
 
 ### Quarterly Refunding Statement

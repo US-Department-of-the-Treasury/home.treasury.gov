@@ -6,8 +6,6 @@ url: /working-families-tax-cuts/
 description: "Information about tax relief and benefits for working families in America."
 ---
 
-## Tax Relief for Working Families
-
 The U.S. Department of the Treasury is committed to providing tax relief that supports working families across America.
 
 ### Key Tax Benefits for Families

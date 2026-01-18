@@ -7,8 +7,6 @@ url: /about/history/prior-secretaries
 description: "A list of all Secretaries of the Treasury since 1789."
 ---
 
-## Secretaries of the Treasury
-
 Since its establishment in 1789, the Department of the Treasury has been led by distinguished public servants. Below is a chronological list of all Secretaries of the Treasury.
 
 ### Founding Era (1789-1829)

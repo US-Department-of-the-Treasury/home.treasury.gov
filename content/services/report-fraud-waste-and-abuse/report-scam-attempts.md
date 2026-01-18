@@ -6,8 +6,6 @@ url: /services/report-fraud-waste-and-abuse/report-scam-attempts/
 description: "How to report scam attempts, fraud, and phishing related to Treasury programs."
 ---
 
-## Report Scam Attempts
-
 Scammers sometimes impersonate the U.S. Department of the Treasury to defraud the public. Learn how to identify and report these scams.
 
 ### Common Treasury Scams

@@ -6,8 +6,6 @@ url: /policy-issues/coronavirus/assistance-for-American-families-and-workers/
 description: "Treasury programs providing economic relief to American families and workers during the COVID-19 pandemic."
 ---
 
-## Assistance for American Families and Workers
-
 The U.S. Department of the Treasury administered multiple programs to provide economic relief to American families and workers impacted by the COVID-19 pandemic.
 
 ### Economic Impact Payments

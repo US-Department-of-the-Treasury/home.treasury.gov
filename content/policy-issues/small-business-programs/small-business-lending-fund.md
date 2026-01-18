@@ -6,8 +6,6 @@ url: /policy-issues/small-business-programs/small-business-lending-fund/
 description: "The Small Business Lending Fund provided capital to community banks to increase small business lending."
 ---
 
-## Small Business Lending Fund
-
 The Small Business Lending Fund (SBLF) was a dedicated fund that provided capital to community banks to encourage lending to small businesses.
 
 ### Program Overview

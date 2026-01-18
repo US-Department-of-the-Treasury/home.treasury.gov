@@ -6,8 +6,6 @@ url: /about/offices/public-affairs/
 description: "The Office of Public Affairs handles Treasury communications, media relations, and public engagement."
 ---
 
-## Office of Public Affairs
-
 The Office of Public Affairs serves as the communications hub for the U.S. Department of the Treasury, managing media relations, public communications, and outreach activities.
 
 ### Mission

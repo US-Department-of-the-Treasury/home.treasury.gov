@@ -6,8 +6,6 @@ url: /data/troubled-assets-relief-program/housing/
 description: "Data on TARP housing programs including HAMP, Hardest Hit Fund, and other foreclosure prevention initiatives."
 ---
 
-## TARP Housing Programs
-
 The Troubled Assets Relief Program (TARP) included several programs aimed at helping homeowners avoid foreclosure during and after the financial crisis.
 
 ### Making Home Affordable (MHA)

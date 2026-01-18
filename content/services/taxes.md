@@ -7,8 +7,6 @@ url: /services/taxes
 description: "Information about federal taxes and the Internal Revenue Service."
 ---
 
-## Federal Tax Administration
-
 The Internal Revenue Service (IRS), a bureau of the Department of the Treasury, administers and enforces federal tax laws.
 
 ## Individual Taxpayers

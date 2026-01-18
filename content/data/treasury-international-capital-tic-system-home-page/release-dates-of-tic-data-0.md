@@ -6,8 +6,6 @@ url: /data/treasury-international-capital-tic-system-home-page/release-dates-of-
 description: "Schedule of upcoming Treasury International Capital (TIC) data releases."
 ---
 
-## Release Dates of TIC Data
-
 The U.S. Department of the Treasury publishes TIC data according to a regular schedule. This page provides the release calendar for TIC data.
 
 ### Monthly Releases

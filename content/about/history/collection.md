@@ -6,8 +6,6 @@ url: /about/history/collection/
 description: "The U.S. Department of the Treasury's historic collection of artifacts, artwork, and documents."
 ---
 
-## The Treasury Collection
-
 The U.S. Department of the Treasury maintains a significant collection of historic artifacts, artwork, and documents that tell the story of America's financial history.
 
 ### Collection Highlights

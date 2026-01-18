@@ -7,8 +7,6 @@ url: /policy-issues/financing-the-government/debt-management
 description: "Treasury's approach to managing the federal debt."
 ---
 
-## Debt Management Overview
-
 Treasury's Office of Debt Management is responsible for managing the federal government's borrowing needs at the lowest cost over time.
 
 ## Treasury Securities

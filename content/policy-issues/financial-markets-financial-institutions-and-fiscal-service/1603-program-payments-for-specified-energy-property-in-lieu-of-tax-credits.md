@@ -6,8 +6,6 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "The Section 1603 program provided cash grants for renewable energy projects in lieu of tax credits."
 ---
 
-## Section 1603 Program
-
 The Section 1603 program provided direct payments to renewable energy project developers in lieu of investment tax credits during the financial crisis period.
 
 ### Program Overview

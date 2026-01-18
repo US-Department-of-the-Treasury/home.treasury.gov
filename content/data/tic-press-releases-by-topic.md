@@ -6,8 +6,6 @@ url: /data/tic-press-releases-by-topic/
 description: "Treasury International Capital (TIC) press releases organized by topic and data type."
 ---
 
-## TIC Press Releases by Topic
-
 The Treasury International Capital (TIC) system releases data through regular press releases. This page organizes these releases by topic.
 
 ### Major Foreign Holders of Treasury Securities

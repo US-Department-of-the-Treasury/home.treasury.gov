@@ -6,8 +6,6 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "Treasury's cash and debt forecasting supports government cash management operations."
 ---
 
-## Cash and Debt Forecasting
-
 The U.S. Department of the Treasury forecasts the government's cash flows and borrowing needs to support efficient cash management operations.
 
 ### Purpose
