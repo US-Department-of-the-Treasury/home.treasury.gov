@@ -4,6 +4,8 @@ date: 2026-01-16
 draft: false
 layout: section
 description: "Treasury resource center with data tools and program information."
+cascade:
+  layout: content-page
 ---
 
 Access Treasury data tools, charts, and program resources. This resource center provides information, data, and tools for the public, businesses, and government partners.

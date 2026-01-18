@@ -39,8 +39,7 @@
 
 html { 
   font-size: 16px; 
-  -webkit-font-smoothing: antialiased; 
-  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -50,7 +49,7 @@ body {
   line-height: 1.6;
   color: var(--gray-900);
   background: #fff;
-  overflow-x: hidden;
+  overflow-x: clip; /* Prevents horizontal scroll without breaking sticky */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1936,7 +1935,6 @@ button.nav-link {
   
   .content-page-main {
     max-width: 100%;
-    overflow-x: hidden;
   }
   
   .content-page-main h1 {
@@ -3182,7 +3180,6 @@ button.nav-link {
   .container {
     padding: 0 1rem;
     max-width: 100%;
-    overflow-x: hidden;
   }
   
   .search-quick-links {
