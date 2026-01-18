@@ -205,6 +205,28 @@
   }
 
   // ============================================
+  // Mobile Mega Menu Accordion
+  // ============================================
+  const megaMenuHeadings = document.querySelectorAll('.mega-menu-heading');
+  
+  megaMenuHeadings.forEach(function(heading) {
+    heading.addEventListener('click', function(e) {
+      // Only apply accordion behavior on mobile (< 900px)
+      if (window.innerWidth >= 900) return;
+      
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const column = this.closest('.mega-menu-column');
+      if (!column) return;
+      
+      // Toggle this column
+      column.classList.toggle('is-expanded');
+    });
+  });
+
+
+  // ============================================
   // News Filter - Submits to live Treasury site
   // ============================================
   // Form action is set in the HTML template to submit to

@@ -4,7 +4,7 @@
     <div class="header-inner">
       <!-- Logo/Branding -->
       <div class="header-branding">
-        <a href="https://home.treasury.gov/" class="logo">
+        <a href="/" class="logo">
           <img src="{{ "images/treasury-seal.svg" | relURL }}" alt="" class="treasury-logo" role="presentation">
           <span class="logo-text">U.S. DEPARTMENT OF THE TREASURY</span>
         </a>
@@ -22,7 +22,7 @@
     </button>
     
     <!-- Logo appears when scrolled -->
-    <a href="https://home.treasury.gov/" class="nav-logo" aria-label="Home">
+    <a href="/" class="nav-logo" aria-label="Home">
       <img src="{{ "images/treasury-seal.svg" | relURL }}" alt="Treasury Seal">
     </a>
     <ul class="nav-menu" id="nav-menu">
@@ -70,11 +70,20 @@
                   
                   {{/* Always show View All link */}}
                   {{ range .links }}
-                  <li class="view-all"><a href="{{ .url }}">{{ .title }} →</a></li>
+                  {{ $url := .url }}
+                  {{ if and (hasPrefix $url "/") (not (hasSuffix $url "/")) (not (strings.Contains $url ".")) }}
+                    {{ $url = printf "%s/" $url }}
+                  {{ end }}
+                  <li class="view-all"><a href="{{ $url }}">{{ .title }} →</a></li>
                   {{ end }}
                 {{ else }}
                   {{ range .links }}
-                  <li><a href="{{ .url }}">{{ .title }}</a></li>
+                  {{/* Add trailing slash to internal URLs that don't have one */}}
+                  {{ $url := .url }}
+                  {{ if and (hasPrefix $url "/") (not (hasSuffix $url "/")) (not (strings.Contains $url ".")) }}
+                    {{ $url = printf "%s/" $url }}
+                  {{ end }}
+                  <li><a href="{{ $url }}">{{ .title }}</a></li>
                   {{ end }}
                 {{ end }}
               </ul>
@@ -112,7 +121,11 @@
             <h4>{{ .heading }}</h4>
             <ul>
               {{ range .links }}
-              <li><a href="{{ .url }}">{{ .title }}</a></li>
+              {{ $url := .url }}
+              {{ if and (hasPrefix $url "/") (not (hasSuffix $url "/")) (not (strings.Contains $url ".")) }}
+                {{ $url = printf "%s/" $url }}
+              {{ end }}
+              <li><a href="{{ $url }}">{{ .title }}</a></li>
               {{ end }}
             </ul>
           </div>

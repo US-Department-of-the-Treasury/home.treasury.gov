@@ -48,7 +48,7 @@ In addition to expanding sites and staff, the IRS extended its hours of operatio
 
 In approximately 242 TAC locations extended hours were provided during Filing Season 2024, with nearly 13,000 extra service hours provided to taxpayers.
 
-These enhancements together resulted in 784,000 face-to-face contacts with an IRS employee during Filing Season 2024. That’s a year-on-year increase of **37.1%**, and IRS served **22,361** of those taxpayers during extended hours.
+These enhancements together resulted in 784,000 face-to-face contacts with an IRS employee during Filing Season 2024. That’s a year-on-year increase of **37.1%**, and IRS served**22,361** of those taxpayers during extended hours.
 
 ## Volunteer Prepared Returns
 

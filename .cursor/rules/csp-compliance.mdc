@@ -1,0 +1,130 @@
+---
+name: csp-compliance
+description: |
+  ALWAYS follow these rules when writing JavaScript or HTML for this Hugo site. 
+  This site enforces strict Content Security Policy (CSP) with `script-src 'self'`.
+  Violations will cause JavaScript to be blocked in production.
+alwaysApply: true
+---
+
+# CSP Compliance Rules for Treasury Hugo Site
+
+This site enforces a strict Content Security Policy. **All JavaScript must be CSP-compliant.**
+
+## NEVER Do These (CSP Violations)
+
+### ❌ Inline Scripts
+```html
+<!-- NEVER write this - it will be blocked -->
+<script>
+  doSomething();
+</script>
+```
+
+### ❌ Inline Event Handlers
+```html
+<!-- NEVER write these - they will be blocked -->
+<button onclick="handleClick()">Click</button>
+<form onsubmit="return validate()">
+<img onerror="handleError()">
+<body onload="init()">
+```
+
+### ❌ External CDN Scripts
+```html
+<!-- NEVER use external scripts - they will be blocked -->
+<script src="https://cdn.example.com/library.js"></script>
+```
+
+## ALWAYS Do These (CSP Compliant)
+
+### ✅ External Scripts via Hugo Pipes
+```html
+<!-- In Hugo templates, load JS files from assets/js/ -->
+{{ $js := resources.Get "js/my-feature.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+```
+
+### ✅ JavaScript Files in assets/js/
+Create JavaScript files in `themes/treasury/assets/js/`:
+
+```javascript
+// themes/treasury/assets/js/my-feature.js
+document.addEventListener('DOMContentLoaded', function() {
+  // Your code here
+});
+```
+
+### ✅ Data Attributes + addEventListener (Instead of Inline Handlers)
+```html
+<!-- Use data attributes to pass parameters -->
+<form data-base-url="/news/" data-total-pages="50">
+  <button type="submit">Go</button>
+</form>
+```
+
+```javascript
+// In external JS file
+document.querySelectorAll('form[data-base-url]').forEach(function(form) {
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var baseUrl = form.dataset.baseUrl;
+    var totalPages = parseInt(form.dataset.totalPages);
+    // Handle form submission
+  });
+});
+```
+
+### ✅ Event Delegation for Dynamic Content
+```javascript
+// In external JS file - handles elements that may not exist yet
+document.addEventListener('click', function(e) {
+  if (e.target.matches('.my-button')) {
+    handleButtonClick(e.target);
+  }
+});
+```
+
+## CSP Policy Reference
+
+```
+Content-Security-Policy:
+  script-src 'self';              # Only scripts from same origin
+  style-src 'self' 'unsafe-inline';  # Styles can be inline
+  img-src 'self' data: https:;    # Images from self, data URIs, or HTTPS
+  font-src 'self';                # Fonts from self only
+  connect-src 'self';             # XHR/Fetch to self only
+```
+
+## Existing External JS Files
+
+When adding JavaScript functionality, consider if it fits in an existing file:
+
+| File | Purpose |
+|------|---------|
+| `treasury.js` | Site-wide navigation, header, mobile menu |
+| `search.js` | Advanced search page functionality |
+| `news-inline-filters.js` | Quick filters on news list pages |
+| `article-sidebar.js` | Article metadata sidebar |
+| `pagination.js` | Jump-to-page pagination forms |
+| `redirect-404.js` | 404 page redirect logic |
+| `news-redirect.js` | News section redirect logic |
+
+## Pre-Commit Check
+
+Before committing changes, run these checks:
+
+```bash
+# Check for inline scripts (should return nothing)
+grep -r "<script>" themes/ --include="*.html" | grep -v "src=" | grep -v "{{"
+
+# Check for inline event handlers (should return nothing)
+grep -rE "on(click|load|submit|change|error|keydown|keyup|focus|blur)=" themes/ --include="*.html"
+```
+
+## Why This Matters
+
+- CloudFront enforces CSP headers in production
+- Inline scripts are silently blocked (no console error in some browsers)
+- Site appears broken but no obvious error message
+- This is a **security requirement**, not optional

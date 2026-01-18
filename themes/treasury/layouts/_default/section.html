@@ -1,0 +1,109 @@
+{{ define "main" }}
+{{/* Breadcrumbs - Above the two-column layout */}}
+<div class="breadcrumbs">
+  <div class="container">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumbs-list">
+        <li><a href="/">HOME</a></li>
+        {{ $ancestors := .Ancestors.Reverse }}
+        {{ range $ancestors }}
+        {{ if ne .RelPermalink "/" }}
+        <li><a href="{{ .Permalink }}">{{ .Title | upper }}</a></li>
+        {{ end }}
+        {{ end }}
+        <li><span aria-current="page">{{ .Title | upper }}</span></li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="content-page">
+  <div class="container">
+    <div class="content-page-layout">
+      <!-- Sidebar Navigation -->
+      <aside class="section-sidebar" aria-label="Section navigation">
+        <nav class="section-nav">
+          <h2 class="sidebar-heading">In This Section</h2>
+          <ul>
+            {{/* Link to parent if this is a subsection */}}
+            {{ if and .Parent (ne .Parent.RelPermalink "/") }}
+            <li>
+              <a href="{{ .Parent.Permalink }}">
+                ← Back to {{ .Parent.Title }}
+              </a>
+            </li>
+            {{ end }}
+            {{/* Child sections */}}
+            {{ range .Sections }}
+            <li>
+              <a href="{{ .Permalink }}"{{ if eq $.Page.RelPermalink .RelPermalink }} class="active" aria-current="page"{{ end }}>
+                {{ .Title }}
+              </a>
+            </li>
+            {{ end }}
+            {{/* Regular pages in this section */}}
+            {{ range .RegularPages }}
+            <li>
+              <a href="{{ .Permalink }}"{{ if eq $.Page.RelPermalink .RelPermalink }} class="active" aria-current="page"{{ end }}>
+                {{ .Title }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Main Content Area -->
+      <article class="content-page-main">
+        <header class="content-page-header">
+          <h1>{{ .Title }}</h1>
+          <div class="title-underline"></div>
+        </header>
+
+        {{ with .Description }}
+        <p class="section-lead">{{ . }}</p>
+        {{ end }}
+
+        {{ with .Content }}
+        <div class="prose">
+          {{ . }}
+        </div>
+        {{ end }}
+
+        {{/* Content cards for child pages */}}
+        {{ if or .Sections .RegularPages }}
+        <div class="content-cards">
+          {{/* Display subsections first */}}
+          {{ range .Sections }}
+          <a href="{{ .Permalink }}" class="content-card">
+            <h3>{{ .Title }}</h3>
+            {{ with .Description }}
+            <p>{{ . | truncate 150 }}</p>
+            {{ else }}
+            {{ with .Summary }}
+            <p>{{ . | plainify | truncate 150 }}</p>
+            {{ end }}
+            {{ end }}
+          </a>
+          {{ end }}
+
+          {{/* Then display regular pages */}}
+          {{ range .RegularPages }}
+          <a href="{{ .Permalink }}" class="content-card">
+            <h3>{{ .Title }}</h3>
+            {{ with .Description }}
+            <p>{{ . | truncate 150 }}</p>
+            {{ else }}
+            {{ with .Summary }}
+            <p>{{ . | plainify | truncate 150 }}</p>
+            {{ end }}
+            {{ end }}
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

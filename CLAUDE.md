@@ -2,6 +2,17 @@
 
 Hugo-based static site for home.treasury.gov deployed to AWS S3/CloudFront.
 
+## Git Workflow
+
+**Default branch is `master` (not `main`)**
+
+When creating PRs, always use `--base master`:
+```bash
+gh pr create --base master --head your-branch-name
+```
+
+Feature branches should be created from and merged back to `master`.
+
 ## Deployment
 
 ```bash
