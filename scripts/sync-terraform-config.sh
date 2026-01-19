@@ -79,5 +79,21 @@ echo "────────────────────────�
 echo ""
 echo "✓ Terraform config for $ENV synced from SSM"
 echo ""
+
+# Select appropriate terraform workspace
+WORKSPACE="default"
+if [ "$ENV" = "prod" ]; then
+  WORKSPACE="prod"
+fi
+
+cd "$PROJECT_ROOT/terraform"
+if terraform workspace select "$WORKSPACE" 2>/dev/null; then
+  echo "✓ Switched to terraform workspace: $WORKSPACE"
+else
+  echo "Note: Run 'terraform workspace new $WORKSPACE' if workspace doesn't exist"
+fi
+cd - > /dev/null
+
+echo ""
 echo "Next steps:"
 echo "  cd terraform && terraform plan"
