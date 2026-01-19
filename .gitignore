@@ -57,3 +57,4 @@ playwright-report/
 playwright/.cache/
 test-results/
 blob-report/
+.worktrees

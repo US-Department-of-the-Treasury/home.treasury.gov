@@ -11,6 +11,7 @@
 #   --include-assets  - Also sync static assets from static/system/files/
 #   --assets-only     - Only sync static assets, skip Hugo build
 #   --dry-run         - Show what would be deployed without actually deploying
+#   --yes, -y         - Skip confirmation prompt (for CI/CD)
 #
 
 set -e
@@ -34,6 +35,7 @@ ENVIRONMENT="${1:-staging}"
 INCLUDE_ASSETS=false
 ASSETS_ONLY=false
 DRY_RUN=""
+SKIP_CONFIRM=false
 
 shift || true
 while [[ $# -gt 0 ]]; do
@@ -48,6 +50,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     --dry-run)
       DRY_RUN="--dryrun"
+      shift
+      ;;
+    --yes|-y)
+      SKIP_CONFIRM=true
       shift
       ;;
     *)
@@ -85,10 +91,14 @@ case "$ENVIRONMENT" in
 
     if [[ "$ENVIRONMENT" == "prod" ]]; then
       echo "⚠️  You are about to deploy to PRODUCTION ($S3_BUCKET)"
-      read -p "Are you sure? (yes/no): " CONFIRM
-      if [[ "$CONFIRM" != "yes" ]]; then
-        echo "Deployment cancelled."
-        exit 0
+      if [[ "$SKIP_CONFIRM" != "true" ]]; then
+        read -p "Are you sure? (yes/no): " CONFIRM
+        if [[ "$CONFIRM" != "yes" ]]; then
+          echo "Deployment cancelled."
+          exit 0
+        fi
+      else
+        echo "   (confirmation skipped via --yes flag)"
       fi
     else
       echo "🚀 Deploying to STAGING ($S3_BUCKET)"

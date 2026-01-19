@@ -12,5 +12,5 @@
   "healthChecks": {
     "site": "SSM:/treasury-home/staging/SITE_URL"
   },
-  "lastDeployed": null
+  "lastDeployed": "2026-01-19T17:54:58Z"
 }
