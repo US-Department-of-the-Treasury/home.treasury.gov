@@ -1,0 +1,21 @@
+{
+  "name": "Working Families Tax Cuts",
+  "short_name": "WFTC",
+  "description": "Working Families Tax Cuts: Historic tax relief delivering bigger paychecks and bigger tax refunds for American families.",
+  "icons": [
+    {
+      "src": "/wftc/images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/wftc/images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0B122C",
+  "background_color": "#0B122C",
+  "display": "standalone",
+  "start_url": "/wftc/"
+}

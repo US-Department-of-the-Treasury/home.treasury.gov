@@ -468,14 +468,14 @@
     },
     {
       "title": "YEAR IN REVIEW",
-      "url": "/year-in-review/",
-      "active_path": "/year-in-review/",
+      "url": "/2025/",
+      "active_path": "/2025/",
       "columns": []
     },
     {
       "title": "WORKING FAMILIES TAX CUTS",
-      "url": "/working-families-tax-cuts/",
-      "active_path": "/working-families-tax-cuts/",
+      "url": "/wftc/",
+      "active_path": "/wftc/",
       "columns": []
     }
   ],
