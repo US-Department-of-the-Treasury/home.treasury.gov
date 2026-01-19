@@ -91,13 +91,27 @@ hugo server -D --port 1313
 
 ## Submitting Changes
 
+### Branching Strategy
+
+This project uses a **staging → master** workflow:
+
+| Branch | Purpose | Auto-Deploy |
+|--------|---------|-------------|
+| `staging` | Default branch. All PRs target here. | Staging environment |
+| `master` | Production. Merge from staging to deploy. | Production environment |
+
 ### Pull Request Process
 
-1. Create a feature branch: `git checkout -b feature/description`
+1. Create a feature branch from `staging`: `git checkout -b feature/description staging`
 2. Make your changes with clear commit messages
 3. Test locally
-4. Push and create a pull request
+4. Push and create a pull request **targeting `staging`**:
+   ```bash
+   gh pr create --base staging
+   ```
 5. Describe what changed and why
+6. After merge, changes auto-deploy to staging for verification
+7. To promote to production, create a PR from `staging` to `master`
 
 ### Commit Messages
 

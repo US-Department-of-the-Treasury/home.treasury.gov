@@ -61,9 +61,61 @@ Purges Akamai CDN cache after deployment.
 - After CSS/JS changes
 - When cached content needs immediate refresh
 
-## Deployment Workflow
+## Branching and Deployment Workflow
 
-### Standard Deployment
+This project uses a **staging → master** branching strategy with automatic deployments:
+
+| Branch | Purpose | Auto-Deploy Target |
+|--------|---------|-------------------|
+| `staging` | Default branch. All feature branches merge here. | Staging environment |
+| `master` | Production branch. Merge from staging to deploy. | Production environment |
+
+### How It Works
+
+1. **Feature Development**: Create feature branches from `staging`, merge PRs back to `staging`
+2. **Staging Deploy**: Push to `staging` triggers GitHub Actions → deploys to staging
+3. **Production Deploy**: Merge `staging` into `master` → GitHub Actions deploys to production
+
+### Setting Up Default Branch (One-Time Setup)
+
+To set `staging` as the default branch in GitHub:
+
+1. Go to your repository on GitHub
+2. Click **Settings** → **General**
+3. Under "Default branch", click the edit button (pencil icon)
+4. Select `staging` from the dropdown
+5. Click **Update**
+6. Confirm the change
+
+This ensures new PRs target `staging` by default.
+
+### GitHub Secrets (Required for Auto-Deploy)
+
+The GitHub Actions workflow requires these secrets to deploy to AWS:
+
+| Secret Name | Description |
+|-------------|-------------|
+| `AWS_ACCESS_KEY_ID` | AWS IAM access key with S3 and CloudFront permissions |
+| `AWS_SECRET_ACCESS_KEY` | AWS IAM secret key |
+
+**To add secrets in GitHub:**
+
+1. Go to your repository on GitHub
+2. Click **Settings** → **Secrets and variables** → **Actions**
+3. Click **New repository secret**
+4. Enter the secret name (e.g., `AWS_ACCESS_KEY_ID`)
+5. Enter the secret value
+6. Click **Add secret**
+7. Repeat for `AWS_SECRET_ACCESS_KEY`
+
+**IAM Permissions Required:**
+
+The IAM user/role needs these permissions:
+- `s3:PutObject`, `s3:DeleteObject`, `s3:ListBucket` on the S3 bucket
+- `cloudfront:CreateInvalidation` on the CloudFront distribution
+- `ssm:GetParameter` for reading SSM parameters
+
+### Manual Deployment (Local)
 
 ```bash
 # 1. Build and deploy to staging
@@ -71,7 +123,7 @@ Purges Akamai CDN cache after deployment.
 
 # 2. Verify at staging URL
 
-# 3. Deploy to production
+# 3. Deploy to production (requires confirmation)
 ./deploy/s3-sync.sh prod
 
 # 4. Purge Akamai cache
@@ -81,8 +133,8 @@ Purges Akamai CDN cache after deployment.
 ### Emergency Content Update
 
 ```bash
-# Direct to production with cache purge
-./deploy/s3-sync.sh prod && ./deploy/akamai-purge.sh
+# Direct to production with cache purge (skip confirmation with --yes)
+./deploy/s3-sync.sh prod --yes && ./deploy/akamai-purge.sh
 ```
 
 ## S3 Bucket Configuration
