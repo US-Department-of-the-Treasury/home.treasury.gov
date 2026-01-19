@@ -12,3 +12,6 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+# Auto-generated from SSM (see scripts/sync-terraform-config.sh)
+terraform.tfvars
