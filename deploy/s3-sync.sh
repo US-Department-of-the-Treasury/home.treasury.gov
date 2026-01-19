@@ -101,11 +101,23 @@ case "$ENVIRONMENT" in
     ;;
 esac
 
+# Fetch site URL for Hugo baseURL
+SITE_URL=$(fetch_ssm_param "SITE_URL" "")
+if [[ -z "$SITE_URL" ]]; then
+  echo "⚠️  No SITE_URL found in SSM, using default from hugo.toml"
+  echo "   Set SSM parameter: ${SSM_PREFIX}/${ENVIRONMENT}/SITE_URL"
+fi
+
 # Build the site (unless assets-only)
 if [[ "$ASSETS_ONLY" != "true" ]]; then
   echo "📦 Building Hugo site..."
   cd "$PROJECT_ROOT"
-  hugo --minify --gc
+  if [[ -n "$SITE_URL" ]]; then
+    echo "   Using baseURL: $SITE_URL"
+    hugo --minify --gc --baseURL "$SITE_URL"
+  else
+    hugo --minify --gc
+  fi
 
   if [[ ! -d "$BUILD_DIR" ]]; then
     echo "❌ Build failed - no public directory found"
@@ -214,6 +226,9 @@ fi
 echo ""
 echo "✅ Deployment complete!"
 echo "   Bucket: s3://$S3_BUCKET"
+if [[ -n "$SITE_URL" ]]; then
+  echo "   Site: $SITE_URL"
+fi
 if [[ "$ASSETS_ONLY" != "true" ]]; then
   echo "   Hugo files: $FILE_COUNT"
 fi
