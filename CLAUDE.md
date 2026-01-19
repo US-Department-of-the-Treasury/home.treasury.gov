@@ -4,14 +4,29 @@ Hugo-based static site for home.treasury.gov deployed to AWS S3/CloudFront.
 
 ## Git Workflow
 
-**Default branch is `master` (not `main`)**
+**Default branch is `staging`** (not `main` or `master`)
 
-When creating PRs, always use `--base master`:
+This project uses a **staging → master** branching strategy with automatic deployments:
+
+| Branch | Purpose | Auto-Deploy Target |
+|--------|---------|-------------------|
+| `staging` | Default branch. All feature branches merge here. | Staging environment |
+| `master` | Production branch. Merge from staging to deploy. | Production environment |
+
+### Feature Development (feature → staging)
+
+1. Create feature branch from `staging`: `git checkout -b feature/my-feature staging`
+2. Make changes and commit
+3. Create PR targeting `staging`:
 ```bash
-gh pr create --base master --head your-branch-name
+gh pr create --base staging --head feature/my-feature
 ```
 
-Feature branches should be created from and merged back to `master`.
+### Production Deploy (staging → master)
+
+After changes are verified on staging:
+1. Create PR from `staging` to `master`
+2. Merge triggers auto-deploy to production via GitHub Actions
 
 ## Deployment
 
