@@ -58,3 +58,4 @@ playwright/.cache/
 test-results/
 blob-report/
 .dev-ports
+.worktrees

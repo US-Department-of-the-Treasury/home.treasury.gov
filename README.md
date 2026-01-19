@@ -148,21 +148,24 @@ hugo --quiet
 
 ## Deployment
 
+Deployments happen automatically via GitHub Actions when you merge:
+
+| Merge Target | Deploys To |
+|--------------|------------|
+| `staging` | Staging environment |
+| `master` | Production |
+
+**Workflow:** `feature/*` → PR to `staging` → merge → auto-deploys → PR to `master` → merge → production
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full branching strategy and [deploy/README.md](deploy/README.md) for detailed setup.
+
+### Manual Deployment (emergency/local)
+
 ```bash
-# 1. Build
-hugo --minify
-
-# 2. Deploy to staging
-./deploy/s3-sync.sh staging
-
-# 3. Deploy to production
-./deploy/s3-sync.sh prod
-
-# 4. Purge CDN cache
-./deploy/akamai-purge.sh
+./deploy/s3-sync.sh staging   # Deploy to staging
+./deploy/s3-sync.sh prod      # Deploy to production
+./deploy/akamai-purge.sh      # Purge CDN cache
 ```
-
-See [deploy/README.md](deploy/README.md) for detailed instructions.
 
 ---
 
