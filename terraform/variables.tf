@@ -17,19 +17,19 @@ variable "project_name" {
 }
 
 variable "enable_custom_domain" {
-  description = "Enable custom domain with ACM certificate"
+  description = "Enable custom domain with ACM certificate (disabled - Akamai handles domains)"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "domain_name" {
-  description = "Custom domain name for the site"
+  description = "Custom domain name for the site (only used if enable_custom_domain = true)"
   type        = string
-  default     = "home-staging.awsdev.treasury.gov"
+  default     = ""
 }
 
 variable "route53_zone_name" {
-  description = "Name of the Route53 hosted zone (for data source lookup)"
+  description = "Name of the Route53 hosted zone (only used if enable_custom_domain = true)"
   type        = string
-  default     = "awsdev.treasury.gov"
+  default     = ""
 }
