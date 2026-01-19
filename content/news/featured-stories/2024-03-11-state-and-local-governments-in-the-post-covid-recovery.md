@@ -60,7 +60,7 @@ The ARP, and particularly its SLFRF program, provided direct support to nearly a
 
 One demonstration of the geographically widespread recovery is that, at the MSA and state level, the dispersion of unemployment rates is now historically low, well below pre-pandemic levels (see Figure 5).  This is a very different pattern than what we saw in the slow recovery after the GFC when the dispersion of local unemployment rates remained elevated.
 
-**Figure 5: Dispersion of State and MSA Unemployment Rates** In addition, in 387 out of 389 MSAs, the unemployment rate now is lower than the MSA’s median rate over the past 30 years (as of December 2023).  And MSAs with the highest median 30-year unemployment rates have seen the largest reductions in their current unemployment rates (Figure 6).[12]**Figure 6: MSA Unemployment Current vs. Long Run**
+**Figure 5: Dispersion of State and MSA Unemployment Rates** In addition, in 387 out of 389 MSAs, the unemployment rate now is lower than the MSA’s median rate over the past 30 years (as of December 2023).  And MSAs with the highest median 30-year unemployment rates have seen the largest reductions in their current unemployment rates (Figure 6).[12]** Figure 6: MSA Unemployment Current vs. Long Run**
 
 ## Paving the Way for a Stronger Future
 

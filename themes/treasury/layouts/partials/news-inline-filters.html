@@ -50,7 +50,7 @@
 {{/* Results area - replaces the original article list when filtering */}}
 <div id="filtered-results" style="display: none;">
   <div class="results-summary">
-    <span class="results-count-display" id="inline-results-count">Showing 0 results</span>
+    <span class="results-count-display" id="inline-results-count" aria-live="polite" aria-atomic="true">Showing 0 results</span>
     <button type="button" class="reset-btn" id="reset-to-paginated">Reset</button>
   </div>
   <div class="news-article-list" id="inline-results-list"></div>
@@ -123,7 +123,7 @@
 }
 
 .date-separator {
-  color: var(--gray-400);
+  color: #595959; /* WCAG AA compliant - 7:1 contrast */
   font-size: 0.875rem;
 }
 

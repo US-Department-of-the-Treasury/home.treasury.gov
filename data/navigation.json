@@ -86,6 +86,7 @@
     {
       "title": "POLICY ISSUES",
       "url": "/policy-issues/tax-policy",
+      "active_path": "/policy-issues/",
       "columns": [
         {
           "heading": "COVID19 ECONOMIC RELIEF",
@@ -196,7 +197,7 @@
           "links": [
             {"title": "Small and Disadvantaged Business Utilization", "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization"},
             {"title": "Small Business Lending Fund", "url": "/policy-issues/small-business-programs/small-business-lending-fund"},
-            {"title": "State Small Business Credit Initiative", "url": "https://home.treasury.gov/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci"}
+            {"title": "State Small Business Credit Initiative", "url": "/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci"}
           ]
         },
         {
@@ -210,15 +211,16 @@
     {
       "title": "DATA",
       "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curves",
+      "active_path": "/data/",
       "columns": [
         {
           "heading": "INTEREST RATES",
           "links": [
-            {"title": "Daily Treasury Par Yield Curve Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=yield"},
-            {"title": "Daily Treasury Par Real Yield Curve Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=tcmreal"},
-            {"title": "Daily Treasury Bill Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=bill"},
-            {"title": "Daily Treasury Long-Term Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=lt"},
-            {"title": "Daily Treasury Real Long-Term Rates", "url": "/resource-center/data-chart-center/interest-rates/TextView?type=d&fname=reallt"}
+            {"title": "Daily Treasury Par Yield Curve Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"},
+            {"title": "Daily Treasury Par Real Yield Curve Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve"},
+            {"title": "Daily Treasury Bill Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_bill_rates"},
+            {"title": "Daily Treasury Long-Term Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_long_term_rate"},
+            {"title": "Daily Treasury Real Long-Term Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_long_term"}
           ]
         },
         {
@@ -298,7 +300,7 @@
             {"title": "Federal CDO Council", "url": "/about/offices/management/office-of-the-chief-data-officer"},
             {"title": "Data.gov", "url": "https://www.data.gov/"},
             {"title": "Treasury Open Data", "url": "https://fiscaldata.treasury.gov/"},
-            {"title": "Evidence Act H.R.4174", "url": "/about/offices/management/office-of-the-chief-data-officer"},
+            {"title": "Office of the Chief Data Officer", "url": "/about/offices/management/office-of-the-chief-data-officer"},
             {"title": "Datafoundation.org", "url": "https://www.datafoundation.org/"}
           ]
         }
@@ -307,6 +309,7 @@
     {
       "title": "SERVICES",
       "url": "/services/report-fraud-waste-and-abuse",
+      "active_path": "/services/",
       "columns": [
         {
           "heading": "REPORT FRAUD, WASTE & ABUSE",
@@ -329,7 +332,7 @@
         {
           "heading": "GRANT PROGRAMS",
           "links": [
-            {"title": "Pay for Results (SIPPRA)", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service"},
+            {"title": "Pay for Results (SIPPRA)", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra"},
             {"title": "RESTORE Act", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act"},
             {"title": "Community Development Financial Institution (CDFI) Fund", "url": "https://www.cdfifund.gov/"}
           ]
@@ -441,7 +444,7 @@
           "heading": "REMARKS AND STATEMENTS",
           "type": "articles",
           "links": [
-            {"title": "View All", "url": "/news/press-releases/statements-remarks"}
+            {"title": "View All", "url": "/news/statements-remarks/"}
           ]
         },
         {
@@ -465,12 +468,14 @@
     },
     {
       "title": "YEAR IN REVIEW",
-      "url": "/2025/index.html",
+      "url": "/year-in-review/",
+      "active_path": "/year-in-review/",
       "columns": []
     },
     {
       "title": "WORKING FAMILIES TAX CUTS",
-      "url": "/wftc/index.html",
+      "url": "/working-families-tax-cuts/",
+      "active_path": "/working-families-tax-cuts/",
       "columns": []
     }
   ],
@@ -481,7 +486,7 @@
       {
         "heading": "THE PUBLIC",
         "links": [
-          {"title": "Auctions", "url": "https://home.treasury.gov/services/treasury-auctions"},
+          {"title": "Auctions", "url": "/services/treasury-auctions"},
           {"title": "Report Scam Attempts", "url": "/services/report-fraud-waste-and-abuse/report-scam-attempts"},
           {"title": "Savings Bonds", "url": "https://www.treasurydirect.gov/"}
         ]

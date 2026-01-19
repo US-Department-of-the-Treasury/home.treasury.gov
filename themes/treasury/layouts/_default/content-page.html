@@ -1,0 +1,93 @@
+{{ define "main" }}
+{{/* Breadcrumbs - Above the two-column layout */}}
+<div class="breadcrumbs">
+  <div class="container">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumbs-list">
+        <li><a href="/">HOME</a></li>
+        {{ $ancestors := .Ancestors.Reverse }}
+        {{ range $ancestors }}
+        {{ if ne .RelPermalink "/" }}
+        <li><a href="{{ .Permalink }}">{{ .Title | upper }}</a></li>
+        {{ end }}
+        {{ end }}
+        <li><span aria-current="page">{{ .Title | upper }}</span></li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="content-page">
+  <div class="container">
+    <div class="content-page-layout">
+      <!-- Sidebar Navigation -->
+      <aside class="section-sidebar" aria-label="Section navigation">
+        <nav class="section-nav">
+          <h2 class="sidebar-heading">{{ with .Parent }}{{ .Title }}{{ else }}Navigation{{ end }}</h2>
+          <ul>
+            {{ $parent := .Parent }}
+            {{ if $parent }}
+              {{/* Link to parent section */}}
+              <li>
+                <a href="{{ $parent.Permalink }}">
+                  ← Back to {{ $parent.Title }}
+                </a>
+              </li>
+              {{/* Sibling pages */}}
+              {{ range $parent.Pages }}
+              <li>
+                <a href="{{ .Permalink }}"{{ if eq $.Page.RelPermalink .RelPermalink }} class="active" aria-current="page"{{ end }}>
+                  {{ .Title }}
+                </a>
+              </li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <article class="content-page-main">
+        <header class="content-page-header">
+          <h1>{{ .Title }}</h1>
+          <div class="title-underline"></div>
+        </header>
+        
+        {{ with .Params.last_updated }}
+        <p class="content-meta">
+          <time datetime="{{ . }}">Last updated: {{ time.Format "January 2, 2006" . }}</time>
+        </p>
+        {{ end }}
+
+        <div class="prose">
+          {{ .Content }}
+        </div>
+
+        {{/* Related Links */}}
+        {{ with .Params.related_links }}
+        <div class="related-links">
+          <h2 class="related-heading">Related Links</h2>
+          <ul>
+            {{ range . }}
+            <li><a href="{{ .url }}">{{ .title }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{/* Tags */}}
+        {{ with .Params.tags }}
+        <div class="related-links">
+          <h2 class="related-heading">Topics</h2>
+          <ul>
+            {{ range . }}
+            <li><a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

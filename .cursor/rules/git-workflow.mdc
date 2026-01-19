@@ -1,0 +1,33 @@
+# Git Workflow Rules for Treasury Hugo Site
+
+## Default Branch
+
+**The default branch is `master`, NOT `main`.**
+
+When creating pull requests, always target `master`:
+
+```bash
+# Correct
+gh pr create --base master --head your-feature-branch
+
+# WRONG - will fail
+gh pr create --base main --head your-feature-branch
+```
+
+## Branch Naming
+
+Feature branches should follow the pattern:
+- `feature/description` - New features
+- `fix/description` - Bug fixes
+- `content/description` - Content updates
+
+## Creating PRs
+
+Always verify the base branch before creating a PR:
+```bash
+# Check available branches
+gh api repos/{owner}/{repo}/branches --jq '.[].name'
+
+# Create PR against master
+gh pr create --base master --title "Title" --body "Description"
+```
