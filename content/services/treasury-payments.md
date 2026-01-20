@@ -7,8 +7,6 @@ url: /services/treasury-payments
 description: "Information about government payments issued by the Treasury."
 ---
 
-Treasury Payments
-
 GET MY PAYMENT
 
 Find information about the Economic Impact Payments (stimulus checks), which were sent in three batches over 2020 and 2021.

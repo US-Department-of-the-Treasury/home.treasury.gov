@@ -6,8 +6,6 @@ url: /utility/contact/
 description: "Contact information for the U.S. Department of the Treasury."
 ---
 
-Contact
-
 DEPARTMENT OF THE TREASURY
 
 1500 Pennsylvania Avenue, NW
@@ -48,6 +46,8 @@ For individuals: IRS toll-free assistance line at 1-800-829-1040.
 
 For businesses: IRS toll-free assistance line at 1-800-829-4933.
 
+EMPLOYMENT/JOBS
+
 If you have a question regarding a job you are applying to through USAjobs.gov, please contact the person listed on the job announcement.
 
 REPORT PHONE AND EMAIL SCAMS
@@ -71,6 +71,8 @@ DAMAGED CURRENCY
 How to file a claim to replace damaged currency
 
 (866) 575-2361
+
+ARP/CARES
 
 CARESITForms@treasury.gov
 
@@ -123,6 +125,8 @@ MEDIA INQUIRIES
 Public Affairs Office
 
 Visit the Treasury Press Room
+
+TOURS
 
 Treasury Headquarters -To arrange a tour of the historic Treasury headquarters in Washington D.C., contact your Senator or Representative
 

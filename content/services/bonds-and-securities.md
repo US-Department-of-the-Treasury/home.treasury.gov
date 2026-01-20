@@ -7,8 +7,6 @@ url: /services/bonds-and-securities
 description: "Information about Treasury bonds, bills, notes, and savings bonds."
 ---
 
-Bonds and Securities
-
 Information dealing with the purchase, redemption, replacement, forms, and valuation of Treasury savings bonds and securities is located on the TreasuryDirect.gov website which is managed by the Bureau of the Fiscal Service.
 
 TREASURYDIRECT.GOV WEBSITE

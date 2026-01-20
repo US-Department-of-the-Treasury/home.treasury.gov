@@ -6,8 +6,6 @@ url: /about/budget-financial-reporting-planning-and-performance/inspector-genera
 description: "Reports from Treasury's Inspectors General on audits, evaluations, and investigations."
 ---
 
-Inspector General Audits and Investigative Reports
-
 OFFICE OF INSPECTOR GENERAL REPORTS
 
 TREASURY INSPECTOR GENERAL FOR TAX ADMINISTRATION REPORTS

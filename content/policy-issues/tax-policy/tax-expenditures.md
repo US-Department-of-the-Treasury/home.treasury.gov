@@ -6,8 +6,6 @@ url: /policy-issues/tax-policy/tax-expenditures/
 description: "Analysis of tax expenditures - provisions that reduce tax liability through exclusions, deductions, and credits."
 ---
 
-Tax Expenditures
-
 Tax expenditures describe revenue losses attributable to provisions of Federal tax laws which allow a special exclusion, exemption, or deduction from gross income or which provide a special credit, a preferential rate of tax, or a deferral of tax liability. These exceptions are often viewed as alternatives to other policy instruments, such as spending or regulatory programs.
 
 FY2027 (excel)
@@ -69,5 +67,3 @@ An important assumption underlying each tax expenditure estimate reported below 
 How are expiring provisions treated?
 
 The estimates are made relative to current law as of July 1 of the calendar year the latest estimates are released. Estimates are reported for provisions that have expired or are expiring as long as they have revenue effects in the first fiscal year listed in tax expenditure tables and beyond, until these provisions phase out and assuming no extension.
-
-​
