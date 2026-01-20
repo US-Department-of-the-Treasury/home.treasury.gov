@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-20T07:44:07.587482",
+  "timestamp": "2026-01-20T10:10:27.484582",
   "summary": {
     "total": 123,
     "ok": 97,
@@ -57,18 +57,18 @@
   ],
   "content_mismatches": [
     {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/",
+      "similarity": 0.3656387665198238,
+      "local_title": "Financial Markets, Financial Institutions, and Fiscal Service",
+      "live_title": "Financial Markets, Financial Institutions, and Fiscal Service"
+    },
+    {
       "file": "content/about/budget-financial-reporting-planning-and-performance/agency-financial-report.md",
       "url": "/about/budget-financial-reporting-planning-and-performance/agency-financial-report/",
       "similarity": 0.34459459459459457,
       "local_title": "Agency Financial Report",
       "live_title": "Agency Financial Report"
-    },
-    {
-      "file": "content/services/treasury-payments.md",
-      "url": "/services/treasury-payments",
-      "similarity": 0.5211958946898706,
-      "local_title": "Treasury Payments",
-      "live_title": "Treasury Payments"
     },
     {
       "file": "content/services/bonds-and-securities.md",
@@ -78,11 +78,11 @@
       "live_title": "Bonds and Securities"
     },
     {
-      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service.md",
-      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/",
-      "similarity": 0.3656387665198238,
-      "local_title": "Financial Markets, Financial Institutions, and Fiscal Service",
-      "live_title": "Financial Markets, Financial Institutions, and Fiscal Service"
+      "file": "content/services/treasury-payments.md",
+      "url": "/services/treasury-payments",
+      "similarity": 0.5211958946898706,
+      "local_title": "Treasury Payments",
+      "live_title": "Treasury Payments"
     }
   ],
   "not_found_on_live": [
@@ -117,22 +117,16 @@
       "local_title": "Privacy Policy"
     },
     {
-      "file": "content/data/troubled-assets-relief-program/housing.md",
-      "url": "/data/troubled-assets-relief-program/housing/",
-      "is_soft_404": true,
-      "local_title": "TARP Housing Programs"
-    },
-    {
       "file": "content/footer/faqs.md",
       "url": "/footer/faqs/",
       "is_soft_404": false,
       "local_title": "Frequently Asked Questions"
     },
     {
-      "file": "content/footer/google-privacy.md",
-      "url": "/footer/google-privacy/",
-      "is_soft_404": false,
-      "local_title": "Google Privacy"
+      "file": "content/data/troubled-assets-relief-program/housing.md",
+      "url": "/data/troubled-assets-relief-program/housing/",
+      "is_soft_404": true,
+      "local_title": "TARP Housing Programs"
     },
     {
       "file": "content/footer/site-policies.md",
@@ -141,10 +135,10 @@
       "local_title": "Site Policies and Notices"
     },
     {
-      "file": "content/policy-issues/economic-policy/social-security-and-medicare.md",
-      "url": "/policy-issues/economic-policy/social-security-and-medicare/",
+      "file": "content/footer/google-privacy.md",
+      "url": "/footer/google-privacy/",
       "is_soft_404": false,
-      "local_title": "Social Security and Medicare"
+      "local_title": "Google Privacy"
     },
     {
       "file": "content/policy-issues/coronavirus/assistance-for-american-industry.md",
@@ -153,16 +147,28 @@
       "local_title": "Assistance for American Industry"
     },
     {
+      "file": "content/utility/accessibility.md",
+      "url": "/utility/accessibility/",
+      "is_soft_404": true,
+      "local_title": "Accessibility"
+    },
+    {
+      "file": "content/policy-issues/economic-policy/social-security-and-medicare.md",
+      "url": "/policy-issues/economic-policy/social-security-and-medicare/",
+      "is_soft_404": false,
+      "local_title": "Social Security and Medicare"
+    },
+    {
       "file": "content/policy-issues/tax-policy/overview.md",
       "url": "/policy-issues/tax-policy/overview",
       "is_soft_404": false,
       "local_title": "Tax Policy Overview"
     },
     {
-      "file": "content/utility/accessibility.md",
-      "url": "/utility/accessibility/",
+      "file": "content/about/careers-at-treasury/how-to-apply.md",
+      "url": "/about/careers-at-treasury/how-to-apply/",
       "is_soft_404": true,
-      "local_title": "Accessibility"
+      "local_title": "How to Apply"
     },
     {
       "file": "content/policy-issues/tax-policy/tax-policy-overview.md",
@@ -181,12 +187,6 @@
       "url": "/services/report-fraud-waste-and-abuse",
       "is_soft_404": true,
       "local_title": "Report Fraud, Waste, and Abuse"
-    },
-    {
-      "file": "content/about/careers-at-treasury/how-to-apply.md",
-      "url": "/about/careers-at-treasury/how-to-apply/",
-      "is_soft_404": true,
-      "local_title": "How to Apply"
     }
   ]
 }
