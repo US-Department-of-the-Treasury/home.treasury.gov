@@ -1,0 +1,1274 @@
+{
+  "timestamp": "2026-01-20T09:34:30.804671",
+  "summary": {
+    "total": 13158,
+    "ok": 4811,
+    "title_mismatch": 7821,
+    "content_mismatch": 186,
+    "not_found": 0,
+    "errors": 340,
+    "hallucinations": 38
+  },
+  "hallucinations": [
+    {
+      "file": "content/news/press-releases/2025-11-03-sb0300.md",
+      "url": "/news/press-releases/sb0300",
+      "similarity": 0.03751420992800303,
+      "local_title": "Treasury Announces Marketable Borrowing Estimates",
+      "live_title": "Treasury Announces Marketable Borrowing Estimates"
+    },
+    {
+      "file": "content/news/press-releases/2025-07-28-sb0209.md",
+      "url": "/news/press-releases/sb0209",
+      "similarity": 0.02862595419847328,
+      "local_title": "Treasury Announces Marketable Borrowing Estimates",
+      "live_title": "Treasury Announces Marketable Borrowing Estimates"
+    },
+    {
+      "file": "content/news/press-releases/2025-09-02-sb0234.md",
+      "url": "/news/press-releases/sb0234",
+      "similarity": 0.06385591485878019,
+      "local_title": "ICYMI: Bessent Touts \u201cNo Tax on Tips\u201d",
+      "live_title": "ICYMI: Bessent Touts \u201cNo Tax on Tips\u201d"
+    },
+    {
+      "file": "content/news/press-releases/2012-03-19-tg1454.md",
+      "url": "/news/press-releases/tg1454",
+      "similarity": 0.11233333333333333,
+      "local_title": "Remarks by Assistant Secretary for International Markets & Development Marisa Lago at the 53rd Annual Meeting of the Inter-American Development Bank Group",
+      "live_title": "Remarks by Assistant Secretary for International Markets & Development Marisa Lago at the 53rd Annual Meeting of the Inter-American Development Bank Group"
+    },
+    {
+      "file": "content/news/press-releases/2012-02-06-tf1410.md",
+      "url": "/news/press-releases/tf1410",
+      "similarity": 0.15833333333333333,
+      "local_title": "Obama Administration Releases January Housing Scorecard",
+      "live_title": "Obama Administration Releases January Housing Scorecard"
+    },
+    {
+      "file": "content/news/press-releases/2025-01-10-jy2781.md",
+      "url": "/news/press-releases/jy2781",
+      "similarity": 0.16833333333333333,
+      "local_title": "U.S. Department of the Treasury Releases Policy Brief on Small Business Financing",
+      "live_title": "U.S. Department of the Treasury Releases Policy Brief on Small Business Financing"
+    },
+    {
+      "file": "content/news/press-releases/2005-04-26-js2409.md",
+      "url": "/news/press-releases/js2409",
+      "similarity": 0.25911812738160045,
+      "local_title": "MEDIA ADVISORY: A/S Zarate and Rep. Royce Discuss Treasury\u2019s Designation of Viktor Bout\u2019s International Arms Trafficking Network",
+      "live_title": "MEDIA ADVISORY: A/S Zarate and Rep. Royce Discuss Treasury\u2019s Designation of Viktor Bout\u2019s International Arms Trafficking Network"
+    },
+    {
+      "file": "content/news/press-releases/2001-03-18-po107.md",
+      "url": "/news/press-releases/po107",
+      "similarity": 0.17915092242720604,
+      "local_title": "Remarks: William E. Schuerch",
+      "live_title": "Remarks: William E. Schuerch"
+    },
+    {
+      "file": "content/news/press-releases/2011-06-09-tg1205.md",
+      "url": "/news/press-releases/tg1205",
+      "similarity": 0.24933333333333332,
+      "local_title": "Obama Administration Releases May Housing Scorecard Featuring New Making Home Affordable Servicer Assessments, Regional Spotlight on Phoenix Housing Data",
+      "live_title": "Obama Administration Releases May Housing Scorecard Featuring New Making Home Affordable Servicer Assessments, Regional Spotlight on Phoenix Housing Data"
+    },
+    {
+      "file": "content/news/press-releases/2024-07-03-jy2445.md",
+      "url": "/news/press-releases/jy2445",
+      "similarity": 0.292,
+      "local_title": "Under Secretary Nelson to Travel to Brisbane, Australia for the Pacific Banking Forum",
+      "live_title": "Under Secretary Nelson to Travel to Brisbane, Australia for the Pacific Banking Forum"
+    },
+    {
+      "file": "content/news/press-releases/2005-03-15-js2314.md",
+      "url": "/news/press-releases/js2314",
+      "similarity": 0.14066666666666666,
+      "local_title": "Treasury International Capital Data For January",
+      "live_title": "Treasury International Capital Data For January"
+    },
+    {
+      "file": "content/news/press-releases/2024-04-02-jy2218.md",
+      "url": "/news/press-releases/jy2218",
+      "similarity": 0.25333333333333335,
+      "local_title": "Secretary of the Treasury Janet L. Yellen to Travel to the People\u2019s Republic of China",
+      "live_title": "Secretary of the Treasury Janet L. Yellen to Travel to the People\u2019s Republic of China"
+    },
+    {
+      "file": "content/news/press-releases/2005-02-15-js2251.md",
+      "url": "/news/press-releases/js2251",
+      "similarity": 0.222,
+      "local_title": "Treasury International Capital Data for December",
+      "live_title": "Treasury International Capital Data for December"
+    },
+    {
+      "file": "content/news/press-releases/2026-01-12-sb0355.md",
+      "url": "/news/press-releases/sb0355",
+      "similarity": 0.28793189784677015,
+      "local_title": "G7 Cyber Expert Group Releases Roadmap for Coordinating the Transition to Post-Quantum Cryptography in the Financial Sector",
+      "live_title": "G7 Cyber Expert Group Releases Roadmap for Coordinating the Transition to Post-Quantum Cryptography in the Financial Sector"
+    },
+    {
+      "file": "content/news/press-releases/2005-01-18-prsarc.md",
+      "url": "/news/press-releases/pr_s_arc",
+      "similarity": 0.21629213483146068,
+      "local_title": "Archives of Press Releases on Monthly Transactions in Long-term Securities",
+      "live_title": "Archives of Press Releases on Monthly Transactions in Long-term Securities"
+    },
+    {
+      "file": "content/news/press-releases/2023-11-06-jy1882.md",
+      "url": "/news/press-releases/jy1882",
+      "similarity": 0.21540099361249113,
+      "local_title": "Secretary of the Treasury Janet L. Yellen to Host PRC Vice Premier He Lifeng for Bilateral Meetings in San Francisco",
+      "live_title": "Secretary of the Treasury Janet L. Yellen to Host PRC Vice Premier He Lifeng for Bilateral Meetings in San Francisco"
+    },
+    {
+      "file": "content/news/press-releases/2000-06-08-ls689.md",
+      "url": "/news/press-releases/ls689",
+      "similarity": 0.2926666666666667,
+      "local_title": "PREPARING FOR THE FUTURE BY INCREASING NATIONAL SAVINGS\" TREASURY SECRETARY LAWRENCE H. SUMMERS REMARKS TO THE NATIONAL TAX ASSOCIATION WASHINGTON, DC",
+      "live_title": "\"PREPARING FOR THE FUTURE BY INCREASING NATIONAL SAVINGS\" TREASURY SECRETARY LAWRENCE H. SUMMERS REMARKS TO THE NATIONAL TAX ASSOCIATION WASHINGTON, DC"
+    },
+    {
+      "file": "content/news/press-releases/2025-09-22-sb0260.md",
+      "url": "/news/press-releases/sb0260",
+      "similarity": 0.27014492753623187,
+      "local_title": "U.S. Treasury Department Announces Major Progress in IT Modernization Initiatives",
+      "live_title": "U.S. Treasury Department Announces Major Progress in IT Modernization Initiatives"
+    },
+    {
+      "file": "content/news/press-releases/2023-09-21-jy1758.md",
+      "url": "/news/press-releases/jy1758",
+      "similarity": 0.19682886823400766,
+      "local_title": "PHOTOS: Deputy Secretary of the Treasury Wally Adeyemo''s Visit to Nigeria",
+      "live_title": "PHOTOS: Deputy Secretary of the Treasury Wally Adeyemo's Visit to Nigeria"
+    },
+    {
+      "file": "content/news/press-releases/2004-12-15-js2149.md",
+      "url": "/news/press-releases/js2149",
+      "similarity": 0.07833333333333334,
+      "local_title": "Treasury International Capital (TIC) Data For October",
+      "live_title": "Treasury International Capital (TIC) Data For October"
+    },
+    {
+      "file": "content/news/press-releases/2000-05-10-ls617.md",
+      "url": "/news/press-releases/ls617",
+      "similarity": 0.18766666666666668,
+      "local_title": "The New Wealth of Nations\" Remarks by Treasury Secretary Lawrence H. Summers Hambrecht & Quist Technology Conference San Francisco, CA",
+      "live_title": "\"The New Wealth of Nations\" Remarks by Treasury Secretary Lawrence H. Summers Hambrecht & Quist Technology Conference San Francisco, CA"
+    },
+    {
+      "file": "content/news/press-releases/2023-08-10-jy1688.md",
+      "url": "/news/press-releases/jy1688",
+      "similarity": 0.09,
+      "local_title": "U.S. Department of the Treasury, IRS Release Final Rules and Guidance on Investing in America Program to Spur Clean Energy Investments in Underserved Communities",
+      "live_title": "U.S. Department of the Treasury, IRS Release Final Rules and Guidance on Investing in America Program to Spur Clean Energy Investments in Underserved Communities"
+    },
+    {
+      "file": "content/news/press-releases/2004-11-16-js2101.md",
+      "url": "/news/press-releases/js2101",
+      "similarity": 0.19366666666666665,
+      "local_title": "Treasury International Capital (TIC) Data For September",
+      "live_title": "Treasury International Capital (TIC) Data For September"
+    },
+    {
+      "file": "content/news/press-releases/2023-06-27-jy1580.md",
+      "url": "/news/press-releases/jy1580",
+      "similarity": 0.2564962279966471,
+      "local_title": "Treasury Releases Analysis of the Boom in U.S. Construction of Manufacturing Facilities Driven by Invest in America Agenda",
+      "live_title": "Treasury Releases Analysis of the Boom in U.S. Construction of Manufacturing Facilities Driven by Invest in America Agenda"
+    },
+    {
+      "file": "content/news/press-releases/2025-03-05-sb0042.md",
+      "url": "/news/press-releases/sb0042",
+      "similarity": 0.237,
+      "local_title": "Treasury Sanctions China-based Hacker Involved in the Compromise of Sensitive U.S. Victim Networks",
+      "live_title": "Treasury Sanctions China-based Hacker Involved in the Compromise of Sensitive U.S. Victim Networks"
+    },
+    {
+      "file": "content/news/press-releases/2023-05-01-jy1453.md",
+      "url": "/news/press-releases/jy1453",
+      "similarity": 0.02288237655560016,
+      "local_title": "Treasury Announces Marketable Borrowing Estimates",
+      "live_title": "Treasury Announces Marketable Borrowing Estimates"
+    },
+    {
+      "file": "content/news/press-releases/2024-10-28-jy2690.md",
+      "url": "/news/press-releases/jy2690",
+      "similarity": 0.167,
+      "local_title": "Additional Information on Final Regulations Implementing Outbound Investment Executive Order (E.O. 14105)",
+      "live_title": "Additional Information on Final Regulations Implementing Outbound Investment Executive Order (E.O. 14105)"
+    },
+    {
+      "file": "content/news/press-releases/2023-03-31-jy1379.md",
+      "url": "/news/press-releases/jy1379",
+      "similarity": 0.2,
+      "local_title": "Treasury Releases Proposed Guidance on New Clean Vehicle Credit to Lower Costs for Consumers, Build U.S. Industrial Base, Strengthen Supply Chains",
+      "live_title": "Treasury Releases Proposed Guidance on New Clean Vehicle Credit to Lower Costs for Consumers, Build U.S. Industrial Base, Strengthen Supply Chains"
+    },
+    {
+      "file": "content/news/press-releases/2004-10-07-js2001.md",
+      "url": "/news/press-releases/js2001",
+      "similarity": 0.05433333333333333,
+      "local_title": "The International Implications of October 1979: Towards a Long Boom on a Global Scale Remarks Presented at the Reflections on Monetary Policy Conference",
+      "live_title": "The International Implications of October 1979: Towards a Long Boom on a Global Scale Remarks Presented at the Reflections on Monetary Policy Conference"
+    },
+    {
+      "file": "content/news/press-releases/2023-01-30-jy1231.md",
+      "url": "/news/press-releases/jy1231",
+      "similarity": 0.0188124632569077,
+      "local_title": "Treasury Announces Marketable Borrowing Estimates",
+      "live_title": "Treasury Announces Marketable Borrowing Estimates"
+    },
+    {
+      "file": "content/news/press-releases/1999-11-16-ls245.md",
+      "url": "/news/press-releases/ls245",
+      "similarity": 0.2120309708159619,
+      "local_title": "STATEMENT BY TREASURY SECRETARY LAWRENCE H. SUMMERS",
+      "live_title": "STATEMENT BY TREASURY SECRETARY LAWRENCE H. SUMMERS"
+    },
+    {
+      "file": "content/news/press-releases/1999-11-04-ls206.md",
+      "url": "/news/press-releases/ls206",
+      "similarity": 0.2418943533697632,
+      "local_title": "TREASURY RELEASES U.S. FISCAL TRANSPARENCY QUESTIONNAIRE AND SELF-EVALUATION REPORT",
+      "live_title": "TREASURY RELEASES U.S. FISCAL TRANSPARENCY QUESTIONNAIRE AND SELF-EVALUATION REPORT"
+    },
+    {
+      "file": "content/news/press-releases/2022-03-28-jy0683.md",
+      "url": "/news/press-releases/jy0683",
+      "similarity": 0.2753333333333333,
+      "local_title": "U.S. Department of the Treasury Releases Greenbook, Outlining Tax Proposals Will Help Build a Better America",
+      "live_title": "U.S. Department of the Treasury Releases Greenbook, Outlining Tax Proposals Will Help Build a Better America"
+    },
+    {
+      "file": "content/news/press-releases/2009-11-09-200911916491416967.md",
+      "url": "/news/press-releases/200911916491416967",
+      "similarity": 0.031007751937984496,
+      "local_title": "Deputy Secretary Neal Wolin\u2019s trip to Africa, October 28 \u2013 November 5, 2009",
+      "live_title": "Deputy Secretary Neal Wolin\u2019s trip to Africa, October 28 \u2013 November 5, 2009"
+    },
+    {
+      "file": "content/news/press-releases/1999-02-20-rr2964.md",
+      "url": "/news/press-releases/rr2964",
+      "similarity": 0.12233333333333334,
+      "local_title": "Communiqu\u201a of G-7 Finance Ministers and Central Bank Governors February 20, 1999 Petersberg, Bonn",
+      "live_title": "Communiqu\u201a of G-7 Finance Ministers and Central Bank Governors February 20, 1999 Petersberg, Bonn"
+    },
+    {
+      "file": "content/news/press-releases/2021-07-28-jy0294.md",
+      "url": "/news/press-releases/jy0294",
+      "similarity": 0.132,
+      "local_title": "Treasury Joins Administration Call to Action to Alert Americans to Emergency Rental Assistance and Promote CFPB \u201cRental Assistance Finder\u201d",
+      "live_title": "Treasury Joins Administration Call to Action to Alert Americans to Emergency Rental Assistance and Promote CFPB \u201cRental Assistance Finder\u201d"
+    },
+    {
+      "file": "content/news/press-releases/2009-07-28-tg240.md",
+      "url": "/news/press-releases/tg240",
+      "similarity": 0.13866666666666666,
+      "local_title": "The First U.S.-China Strategic and Economic Dialogue Economic Track Joint Fact Sheet",
+      "live_title": "The First U.S.-China Strategic and Economic Dialogue Economic Track Joint Fact Sheet"
+    },
+    {
+      "file": "content/news/press-releases/2004-04-15-js1327.md",
+      "url": "/news/press-releases/js1327",
+      "similarity": 0.10080569608394228,
+      "local_title": "Treasury International Capital (TIC) Data for February",
+      "live_title": "Treasury International Capital (TIC) Data for February"
+    }
+  ],
+  "content_mismatches": [
+    {
+      "file": "content/news/press-releases/2012-06-15-tg1614.md",
+      "url": "/news/press-releases/tg1614",
+      "similarity": 0.592
+    },
+    {
+      "file": "content/news/press-releases/2001-09-15-report3061.md",
+      "url": "/news/press-releases/report3061",
+      "similarity": 0.5910652920962199
+    },
+    {
+      "file": "content/news/press-releases/2001-09-07-po595.md",
+      "url": "/news/press-releases/po595",
+      "similarity": 0.4751108920650567
+    },
+    {
+      "file": "content/news/press-releases/2025-09-18-sb0253.md",
+      "url": "/news/press-releases/sb0253",
+      "similarity": 0.5676666666666667
+    },
+    {
+      "file": "content/news/press-releases/2025-08-15-sb0226.md",
+      "url": "/news/press-releases/sb0226",
+      "similarity": 0.5706666666666667
+    },
+    {
+      "file": "content/news/press-releases/2025-07-17-sb0196.md",
+      "url": "/news/press-releases/sb0196",
+      "similarity": 0.5853333333333334
+    },
+    {
+      "file": "content/news/press-releases/2025-05-08-sb0136.md",
+      "url": "/news/press-releases/sb0136",
+      "similarity": 0.4282560706401766
+    },
+    {
+      "file": "content/news/press-releases/2025-04-16-sb0091.md",
+      "url": "/news/press-releases/sb0091",
+      "similarity": 0.574
+    },
+    {
+      "file": "content/news/press-releases/2001-04-28-po332.md",
+      "url": "/news/press-releases/po332",
+      "similarity": 0.5263333333333333
+    },
+    {
+      "file": "content/news/press-releases/2005-05-09-js2434.md",
+      "url": "/news/press-releases/js2434",
+      "similarity": 0.5423333333333333
+    },
+    {
+      "file": "content/news/press-releases/2025-01-08-jy2775.md",
+      "url": "/news/press-releases/jy2775",
+      "similarity": 0.5716666666666667
+    },
+    {
+      "file": "content/news/press-releases/2024-12-19-jy2760.md",
+      "url": "/news/press-releases/jy2760",
+      "similarity": 0.49460893376690057
+    },
+    {
+      "file": "content/news/press-releases/2024-11-18-jy2717.md",
+      "url": "/news/press-releases/jy2717",
+      "similarity": 0.5956666666666667
+    },
+    {
+      "file": "content/news/press-releases/2024-10-17-jy2655.md",
+      "url": "/news/press-releases/jy2655",
+      "similarity": 0.5973333333333334
+    },
+    {
+      "file": "content/news/press-releases/2005-04-14-js2379.md",
+      "url": "/news/press-releases/js2379",
+      "similarity": 0.5149446928689103
+    },
+    {
+      "file": "content/news/press-releases/2011-07-15-tg1243.md",
+      "url": "/news/press-releases/tg1243",
+      "similarity": 0.49508973924822214
+    },
+    {
+      "file": "content/news/press-releases/2024-09-20-jy2593.md",
+      "url": "/news/press-releases/jy2593",
+      "similarity": 0.4184852374839538
+    },
+    {
+      "file": "content/news/press-releases/2024-09-18-jy2588.md",
+      "url": "/news/press-releases/jy2588",
+      "similarity": 0.5936666666666667
+    },
+    {
+      "file": "content/news/press-releases/2001-01-15-report3067.md",
+      "url": "/news/press-releases/report3067",
+      "similarity": 0.5945945945945946
+    },
+    {
+      "file": "content/news/press-releases/2024-07-18-jy2472.md",
+      "url": "/news/press-releases/jy2472",
+      "similarity": 0.5973333333333334
+    },
+    {
+      "file": "content/news/press-releases/2024-07-15-jy2462.md",
+      "url": "/news/press-releases/jy2462",
+      "similarity": 0.5232180393655647
+    },
+    {
+      "file": "content/news/press-releases/2024-07-09-jy2452.md",
+      "url": "/news/press-releases/jy2452",
+      "similarity": 0.4967462039045553
+    },
+    {
+      "file": "content/news/press-releases/2024-06-18-jy2415.md",
+      "url": "/news/press-releases/jy2415",
+      "similarity": 0.595
+    },
+    {
+      "file": "content/news/press-releases/2000-11-13-ls1023.md",
+      "url": "/news/press-releases/ls1023",
+      "similarity": 0.5483333333333333
+    },
+    {
+      "file": "content/news/press-releases/2000-11-14-ls1015.md",
+      "url": "/news/press-releases/ls1015",
+      "similarity": 0.3459552495697074
+    },
+    {
+      "file": "content/news/press-releases/2000-10-26-ls987.md",
+      "url": "/news/press-releases/ls987",
+      "similarity": 0.4226666666666667
+    },
+    {
+      "file": "content/news/press-releases/2000-10-24-ls973.md",
+      "url": "/news/press-releases/ls973",
+      "similarity": 0.5723333333333334
+    },
+    {
+      "file": "content/news/press-releases/2024-05-15-jy2343.md",
+      "url": "/news/press-releases/jy2343",
+      "similarity": 0.5073333333333333
+    },
+    {
+      "file": "content/news/press-releases/2024-04-17-jy2267.md",
+      "url": "/news/press-releases/jy2267",
+      "similarity": 0.5006666666666667
+    },
+    {
+      "file": "content/news/press-releases/2024-03-27-jy2212.md",
+      "url": "/news/press-releases/jy2212",
+      "similarity": 0.49633333333333335
+    },
+    {
+      "file": "content/news/press-releases/2024-03-04-jy2154.md",
+      "url": "/news/press-releases/jy2154",
+      "similarity": 0.5883333333333334
+    },
+    {
+      "file": "content/news/press-releases/2024-03-05-jy2156.md",
+      "url": "/news/press-releases/jy2156",
+      "similarity": 0.452
+    },
+    {
+      "file": "content/news/press-releases/2000-09-15-ls882.md",
+      "url": "/news/press-releases/ls882",
+      "similarity": 0.3233082706766917
+    },
+    {
+      "file": "content/news/press-releases/2011-01-31-tg1041.md",
+      "url": "/news/press-releases/tg1041",
+      "similarity": 0.4523333333333333
+    },
+    {
+      "file": "content/news/press-releases/2024-01-19-jy2034.md",
+      "url": "/news/press-releases/jy2034",
+      "similarity": 0.5436666666666666
+    },
+    {
+      "file": "content/news/press-releases/2024-01-15-jy2023.md",
+      "url": "/news/press-releases/jy2023",
+      "similarity": 0.4663278271918678
+    },
+    {
+      "file": "content/news/press-releases/2023-12-20-jy2008.md",
+      "url": "/news/press-releases/jy2008",
+      "similarity": 0.308
+    },
+    {
+      "file": "content/news/press-releases/2000-06-26-ls749.md",
+      "url": "/news/press-releases/ls749",
+      "similarity": 0.5923333333333334
+    },
+    {
+      "file": "content/news/press-releases/2023-11-06-jy1883.md",
+      "url": "/news/press-releases/jy1883",
+      "similarity": 0.5212389380530974
+    },
+    {
+      "file": "content/news/press-releases/2000-06-20-ls719.md",
+      "url": "/news/press-releases/ls719",
+      "similarity": 0.403
+    },
+    {
+      "file": "content/news/press-releases/2000-06-21-ls722.md",
+      "url": "/news/press-releases/ls722",
+      "similarity": 0.5443333333333333
+    },
+    {
+      "file": "content/news/press-releases/2000-06-14-ls697.md",
+      "url": "/news/press-releases/ls697",
+      "similarity": 0.49566666666666664
+    },
+    {
+      "file": "content/news/press-releases/2023-10-18-jy1821.md",
+      "url": "/news/press-releases/jy1821",
+      "similarity": 0.5736666666666667
+    },
+    {
+      "file": "content/news/press-releases/2025-08-27-sb0230.md",
+      "url": "/news/press-releases/sb0230",
+      "similarity": 0.33166666666666667
+    },
+    {
+      "file": "content/news/press-releases/2025-07-22-sb0203.md",
+      "url": "/news/press-releases/sb0203",
+      "similarity": 0.5203333333333333
+    },
+    {
+      "file": "content/news/press-releases/2025-07-01-sb0185.md",
+      "url": "/news/press-releases/sb0185",
+      "similarity": 0.4816666666666667
+    },
+    {
+      "file": "content/news/press-releases/2025-06-20-sb0175.md",
+      "url": "/news/press-releases/sb0175",
+      "similarity": 0.31
+    },
+    {
+      "file": "content/news/press-releases/2025-06-20-sb0174.md",
+      "url": "/news/press-releases/sb0174",
+      "similarity": 0.5323333333333333
+    },
+    {
+      "file": "content/news/press-releases/2025-05-29-sb0149.md",
+      "url": "/news/press-releases/sb0149",
+      "similarity": 0.473
+    },
+    {
+      "file": "content/news/press-releases/2023-07-28-jy1655.md",
+      "url": "/news/press-releases/jy1655",
+      "similarity": 0.575
+    },
+    {
+      "file": "content/news/press-releases/2023-07-11-jy1605.md",
+      "url": "/news/press-releases/jy1605",
+      "similarity": 0.5522208883553421
+    },
+    {
+      "file": "content/news/press-releases/2023-07-02-jy1588.md",
+      "url": "/news/press-releases/jy1588",
+      "similarity": 0.446029776674938
+    },
+    {
+      "file": "content/news/press-releases/2000-04-15-ls556.md",
+      "url": "/news/press-releases/ls556",
+      "similarity": 0.347
+    },
+    {
+      "file": "content/news/press-releases/2025-02-18-sb0019.md",
+      "url": "/news/press-releases/sb0019",
+      "similarity": 0.596
+    },
+    {
+      "file": "content/news/press-releases/2025-01-17-jy2795.md",
+      "url": "/news/press-releases/jy2795",
+      "similarity": 0.595
+    },
+    {
+      "file": "content/news/press-releases/2000-03-16-ls456.md",
+      "url": "/news/press-releases/ls456",
+      "similarity": 0.452
+    },
+    {
+      "file": "content/news/press-releases/2025-01-17-jy2792.md",
+      "url": "/news/press-releases/jy2792",
+      "similarity": 0.542
+    },
+    {
+      "file": "content/news/press-releases/2023-05-15-jy1482.md",
+      "url": "/news/press-releases/jy1482",
+      "similarity": 0.5723333333333334
+    },
+    {
+      "file": "content/news/press-releases/2023-04-25-jy1439.md",
+      "url": "/news/press-releases/jy1439",
+      "similarity": 0.455
+    },
+    {
+      "file": "content/news/press-releases/2023-04-17-jy1420.md",
+      "url": "/news/press-releases/jy1420",
+      "similarity": 0.5533333333333333
+    },
+    {
+      "file": "content/news/press-releases/2023-04-21-jy1432.md",
+      "url": "/news/press-releases/jy1432",
+      "similarity": 0.44166666666666665
+    },
+    {
+      "file": "content/news/press-releases/2023-02-15-jy1276.md",
+      "url": "/news/press-releases/jy1276",
+      "similarity": 0.58
+    },
+    {
+      "file": "content/news/press-releases/2024-09-16-jy2581.md",
+      "url": "/news/press-releases/jy2581",
+      "similarity": 0.4686666666666667
+    },
+    {
+      "file": "content/news/press-releases/2024-08-15-jy2539.md",
+      "url": "/news/press-releases/jy2539",
+      "similarity": 0.568
+    },
+    {
+      "file": "content/news/press-releases/2000-01-27-ls350.md",
+      "url": "/news/press-releases/ls350",
+      "similarity": 0.5743333333333334
+    },
+    {
+      "file": "content/news/press-releases/2023-01-18-jy1194.md",
+      "url": "/news/press-releases/jy1194",
+      "similarity": 0.5796666666666667
+    },
+    {
+      "file": "content/news/press-releases/2000-01-16-ls340.md",
+      "url": "/news/press-releases/ls340",
+      "similarity": 0.471
+    },
+    {
+      "file": "content/news/press-releases/2024-07-23-jy2478.md",
+      "url": "/news/press-releases/jy2478",
+      "similarity": 0.518
+    },
+    {
+      "file": "content/news/press-releases/2000-01-12-ls329.md",
+      "url": "/news/press-releases/ls329",
+      "similarity": 0.43266666666666664
+    },
+    {
+      "file": "content/news/press-releases/2022-12-15-jy1165.md",
+      "url": "/news/press-releases/jy1165",
+      "similarity": 0.538
+    },
+    {
+      "file": "content/news/press-releases/1999-12-03-ls272.md",
+      "url": "/news/press-releases/ls272",
+      "similarity": 0.5863333333333334
+    },
+    {
+      "file": "content/news/press-releases/2022-11-16-jy1112.md",
+      "url": "/news/press-releases/jy1112",
+      "similarity": 0.5126666666666667
+    },
+    {
+      "file": "content/news/press-releases/2024-03-13-jy2176.md",
+      "url": "/news/press-releases/jy2176",
+      "similarity": 0.5257021727609963
+    },
+    {
+      "file": "content/news/press-releases/2022-11-10-jy1091.md",
+      "url": "/news/press-releases/jy1091",
+      "similarity": 0.5220883534136547
+    },
+    {
+      "file": "content/news/press-releases/1999-11-05-ls212.md",
+      "url": "/news/press-releases/ls212",
+      "similarity": 0.37033333333333335
+    },
+    {
+      "file": "content/news/press-releases/2022-10-18-jy1032.md",
+      "url": "/news/press-releases/jy1032",
+      "similarity": 0.511
+    },
+    {
+      "file": "content/news/press-releases/2022-09-21-jy0968.md",
+      "url": "/news/press-releases/jy0968",
+      "similarity": 0.3953333333333333
+    },
+    {
+      "file": "content/news/press-releases/2022-09-16-jy0959.md",
+      "url": "/news/press-releases/jy0959",
+      "similarity": 0.506
+    },
+    {
+      "file": "content/news/press-releases/2022-08-15-jy0922.md",
+      "url": "/news/press-releases/jy0922",
+      "similarity": 0.5123333333333333
+    },
+    {
+      "file": "content/news/press-releases/2022-08-03-jy0914.md",
+      "url": "/news/press-releases/jy0914",
+      "similarity": 0.4875882946518668
+    },
+    {
+      "file": "content/news/press-releases/1999-07-02-rr3236.md",
+      "url": "/news/press-releases/rr3236",
+      "similarity": 0.5611460517120894
+    },
+    {
+      "file": "content/news/press-releases/2022-05-16-jy0787.md",
+      "url": "/news/press-releases/jy0787",
+      "similarity": 0.507
+    },
+    {
+      "file": "content/news/press-releases/2022-06-15-jy0818.md",
+      "url": "/news/press-releases/jy0818",
+      "similarity": 0.4086666666666667
+    },
+    {
+      "file": "content/news/press-releases/2022-04-15-jy0716.md",
+      "url": "/news/press-releases/jy0716",
+      "similarity": 0.5133333333333333
+    },
+    {
+      "file": "content/news/press-releases/2023-08-15-jy1694.md",
+      "url": "/news/press-releases/jy1694",
+      "similarity": 0.597
+    },
+    {
+      "file": "content/news/press-releases/2009-12-23-12232009.md",
+      "url": "/news/press-releases/12232009",
+      "similarity": 0.4653333333333333
+    },
+    {
+      "file": "content/news/press-releases/2023-06-05-jy1522.md",
+      "url": "/news/press-releases/jy1522",
+      "similarity": 0.473
+    },
+    {
+      "file": "content/news/press-releases/2009-12-09-tg434.md",
+      "url": "/news/press-releases/tg434",
+      "similarity": 0.5586739498964023
+    },
+    {
+      "file": "content/news/press-releases/2009-11-18-20091118956913421.md",
+      "url": "/news/press-releases/20091118956913421",
+      "similarity": 0.5977121067683508
+    },
+    {
+      "file": "content/news/press-releases/2021-12-15-jy0537.md",
+      "url": "/news/press-releases/jy0537",
+      "similarity": 0.558
+    },
+    {
+      "file": "content/news/press-releases/2021-11-24-jy0505.md",
+      "url": "/news/press-releases/jy0505",
+      "similarity": 0.3883333333333333
+    },
+    {
+      "file": "content/news/press-releases/2021-11-15-jy0483.md",
+      "url": "/news/press-releases/jy0483",
+      "similarity": 0.5476084041126509
+    },
+    {
+      "file": "content/news/press-releases/1999-02-05-rr2937.md",
+      "url": "/news/press-releases/rr2937",
+      "similarity": 0.446
+    },
+    {
+      "file": "content/news/press-releases/2022-03-15-jy0657.md",
+      "url": "/news/press-releases/jy0657",
+      "similarity": 0.5103333333333333
+    },
+    {
+      "file": "content/news/press-releases/2022-02-15-jy0595.md",
+      "url": "/news/press-releases/jy0595",
+      "similarity": 0.576
+    },
+    {
+      "file": "content/news/press-releases/2021-08-16-jy0324.md",
+      "url": "/news/press-releases/jy0324",
+      "similarity": 0.5726666666666667
+    },
+    {
+      "file": "content/news/press-releases/2021-08-04-jy0310.md",
+      "url": "/news/press-releases/jy0310",
+      "similarity": 0.5326666666666666
+    },
+    {
+      "file": "content/news/press-releases/1998-10-15-report3102.md",
+      "url": "/news/press-releases/report3102",
+      "similarity": 0.5992779783393501
+    },
+    {
+      "file": "content/news/press-releases/2022-01-18-jy0559.md",
+      "url": "/news/press-releases/jy0559",
+      "similarity": 0.5756666666666667
+    },
+    {
+      "file": "content/news/press-releases/2021-07-16-jy0278.md",
+      "url": "/news/press-releases/jy0278",
+      "similarity": 0.5550957061562338
+    },
+    {
+      "file": "content/news/press-releases/1998-10-02-report3106.md",
+      "url": "/news/press-releases/report3106",
+      "similarity": 0.3004807692307692
+    },
+    {
+      "file": "content/news/press-releases/2021-11-16-jy0489.md",
+      "url": "/news/press-releases/jy0489",
+      "similarity": 0.578
+    },
+    {
+      "file": "content/news/press-releases/2021-06-23-jy0240.md",
+      "url": "/news/press-releases/jy0240",
+      "similarity": 0.4593333333333333
+    },
+    {
+      "file": "content/news/press-releases/2021-10-18-jy0414.md",
+      "url": "/news/press-releases/jy0414",
+      "similarity": 0.5756666666666667
+    },
+    {
+      "file": "content/news/press-releases/2021-07-16-jy0277.md",
+      "url": "/news/press-releases/jy0277",
+      "similarity": 0.5783333333333334
+    },
+    {
+      "file": "content/news/press-releases/2021-06-15-jy0230.md",
+      "url": "/news/press-releases/jy0230",
+      "similarity": 0.5573333333333333
+    },
+    {
+      "file": "content/news/press-releases/2021-04-15-jy0129.md",
+      "url": "/news/press-releases/jy0129",
+      "similarity": 0.5546666666666666
+    },
+    {
+      "file": "content/news/press-releases/2021-03-15-jy0056.md",
+      "url": "/news/press-releases/jy0056",
+      "similarity": 0.571
+    },
+    {
+      "file": "content/news/press-releases/2021-05-17-jy0181.md",
+      "url": "/news/press-releases/jy0181",
+      "similarity": 0.577
+    },
+    {
+      "file": "content/news/press-releases/2021-05-05-jy0161.md",
+      "url": "/news/press-releases/jy0161",
+      "similarity": 0.5946666666666667
+    },
+    {
+      "file": "content/news/press-releases/2021-04-21-jy0140.md",
+      "url": "/news/press-releases/jy0140",
+      "similarity": 0.5853658536585366
+    },
+    {
+      "file": "content/news/press-releases/2021-01-19-sm1240.md",
+      "url": "/news/press-releases/sm1240",
+      "similarity": 0.5803333333333334
+    },
+    {
+      "file": "content/news/press-releases/2021-02-16-jy0026.md",
+      "url": "/news/press-releases/jy0026",
+      "similarity": 0.573
+    },
+    {
+      "file": "content/news/press-releases/2020-12-15-sm1211.md",
+      "url": "/news/press-releases/sm1211",
+      "similarity": 0.571
+    },
+    {
+      "file": "content/news/press-releases/2020-10-16-sm1154.md",
+      "url": "/news/press-releases/sm1154",
+      "similarity": 0.5706666666666667
+    },
+    {
+      "file": "content/news/press-releases/2009-06-17-tg175.md",
+      "url": "/news/press-releases/tg175",
+      "similarity": 0.4388899099430252
+    },
+    {
+      "file": "content/news/press-releases/2009-06-17-20096171052487309.md",
+      "url": "/news/press-releases/20096171052487309",
+      "similarity": 0.5420178799489145
+    },
+    {
+      "file": "content/news/press-releases/2020-08-17-sm1097.md",
+      "url": "/news/press-releases/sm1097",
+      "similarity": 0.5676666666666667
+    },
+    {
+      "file": "content/news/press-releases/2020-04-15-sm980.md",
+      "url": "/news/press-releases/sm980",
+      "similarity": 0.5746666666666667
+    },
+    {
+      "file": "content/news/press-releases/2020-05-15-sm1009.md",
+      "url": "/news/press-releases/sm1009",
+      "similarity": 0.5636666666666666
+    },
+    {
+      "file": "content/news/press-releases/2021-03-22-jy0072.md",
+      "url": "/news/press-releases/jy0072",
+      "similarity": 0.5240032546786005
+    },
+    {
+      "file": "content/news/press-releases/2019-12-16-sm859.md",
+      "url": "/news/press-releases/sm859",
+      "similarity": 0.5706666666666667
+    },
+    {
+      "file": "content/news/press-releases/2019-08-15-sm754.md",
+      "url": "/news/press-releases/sm754",
+      "similarity": 0.566
+    },
+    {
+      "file": "content/news/press-releases/2019-09-17-sm777.md",
+      "url": "/news/press-releases/sm777",
+      "similarity": 0.5703333333333334
+    },
+    {
+      "file": "content/news/press-releases/2019-07-16-sm732.md",
+      "url": "/news/press-releases/sm732",
+      "similarity": 0.5653333333333334
+    },
+    {
+      "file": "content/news/press-releases/2019-06-17-sm711.md",
+      "url": "/news/press-releases/sm711",
+      "similarity": 0.5693333333333334
+    },
+    {
+      "file": "content/news/press-releases/2019-04-15-sm659.md",
+      "url": "/news/press-releases/sm659",
+      "similarity": 0.5696666666666667
+    },
+    {
+      "file": "content/news/press-releases/2019-01-31-sm600.md",
+      "url": "/news/press-releases/sm600",
+      "similarity": 0.5723333333333334
+    },
+    {
+      "file": "content/news/press-releases/2020-12-03-sm1201.md",
+      "url": "/news/press-releases/sm1201",
+      "similarity": 0.555
+    },
+    {
+      "file": "content/news/press-releases/2020-11-09-sm1179.md",
+      "url": "/news/press-releases/sm1179",
+      "similarity": 0.40378820490744727
+    },
+    {
+      "file": "content/news/press-releases/2020-11-19-sm1183.md",
+      "url": "/news/press-releases/sm1183",
+      "similarity": 0.3596666666666667
+    },
+    {
+      "file": "content/news/press-releases/2018-12-17-sm575.md",
+      "url": "/news/press-releases/sm575",
+      "similarity": 0.5523333333333333
+    },
+    {
+      "file": "content/news/press-releases/2018-10-16-sm523.md",
+      "url": "/news/press-releases/sm523",
+      "similarity": 0.5643333333333334
+    },
+    {
+      "file": "content/news/press-releases/2018-09-18-sm487.md",
+      "url": "/news/press-releases/sm487",
+      "similarity": 0.5673333333333334
+    },
+    {
+      "file": "content/news/press-releases/2020-09-16-sm1124.md",
+      "url": "/news/press-releases/sm1124",
+      "similarity": 0.5633333333333334
+    },
+    {
+      "file": "content/news/press-releases/2018-07-17-sm427.md",
+      "url": "/news/press-releases/sm427",
+      "similarity": 0.564
+    },
+    {
+      "file": "content/news/press-releases/2018-05-15-sm0386.md",
+      "url": "/news/press-releases/sm0386",
+      "similarity": 0.5956666666666667
+    },
+    {
+      "file": "content/news/press-releases/2018-06-15-sm0416.md",
+      "url": "/news/press-releases/sm0416",
+      "similarity": 0.5663333333333334
+    },
+    {
+      "file": "content/news/press-releases/2018-04-16-sm0349.md",
+      "url": "/news/press-releases/sm0349",
+      "similarity": 0.5743333333333334
+    },
+    {
+      "file": "content/news/press-releases/2020-08-21-sm1103.md",
+      "url": "/news/press-releases/sm1103",
+      "similarity": 0.5672645739910314
+    },
+    {
+      "file": "content/news/press-releases/2018-03-15-sm0315.md",
+      "url": "/news/press-releases/sm0315",
+      "similarity": 0.575
+    },
+    {
+      "file": "content/news/press-releases/2018-02-15-sm0293.md",
+      "url": "/news/press-releases/sm0293",
+      "similarity": 0.576
+    },
+    {
+      "file": "content/news/press-releases/2018-01-17-sm0252.md",
+      "url": "/news/press-releases/sm0252",
+      "similarity": 0.5766666666666667
+    },
+    {
+      "file": "content/news/press-releases/2017-09-18-sm0160.md",
+      "url": "/news/press-releases/sm0160",
+      "similarity": 0.5943333333333334
+    },
+    {
+      "file": "content/news/press-releases/2017-10-17-sm0182.md",
+      "url": "/news/press-releases/sm0182",
+      "similarity": 0.576
+    },
+    {
+      "file": "content/news/press-releases/2017-11-15-sm0215.md",
+      "url": "/news/press-releases/sm0215",
+      "similarity": 0.5783333333333334
+    },
+    {
+      "file": "content/news/press-releases/2017-08-15-sm0146.md",
+      "url": "/news/press-release/sm0146",
+      "similarity": 0.5696666666666667
+    },
+    {
+      "file": "content/news/press-releases/2017-07-18-sm0126.md",
+      "url": "/news/press-releases/sm0126",
+      "similarity": 0.5966666666666667
+    }
+  ],
+  "title_mismatches": [
+    {
+      "file": "content/news/press-releases/1998-02-23-cdfi97.md",
+      "local_title": "Department of the Treasury Community Development Financial Institutions Fund Fiscal Year 1997 Annual Report",
+      "live_title": "Department of the Treasury"
+    },
+    {
+      "file": "content/news/press-releases/2001-08-31-po584.md",
+      "local_title": "TREASURY DEPUTY SECRETARY KEN DAM TO INDIA, KOREA AND JAPAN",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-05-04-tg1566.md",
+      "local_title": "Remarks by Secretary Geithner at the Close of the Fourth Strategic and Economic Dialogue (S&ED)",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-07-07-2005771014447.md",
+      "local_title": "Statement of Treasury Secretary John W. Snow on the Bombings in London",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-05-03-tg1565.md",
+      "local_title": "Remarks by Secretary Geithner at the Economic Track Opening Session of the 2012 Strategic and Economic Dialogue (S&ED)",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-05-03-tg1564.md",
+      "local_title": "Remarks by Secretary Geithner at the Opening Ceremony of the 2012 Strategic and Economic Dialogue (S&ED)",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-07-06-2005761039581229.md",
+      "local_title": "U.S. International Reserve Position",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2001-08-24-po575.md",
+      "local_title": "Treasury Under Secretary for Enforcement Jimmy GURUL\u00c9 Addresses the Hispanic American Police Commanders Association",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-05-02-tg1560.md",
+      "local_title": "Report to the Secretary of the Treasury from the Treasury Borrowing Advisory Committee of the Securities Industry and Financial Markets Association",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-30-js2620.md",
+      "local_title": "Procedures Released for Examining OFAC Compliance",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-05-01-tg1558.md",
+      "local_title": "FACT SHEET: New Executive Order Targeting Foreign Sanctions Evaders",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2001-08-19-po562.md",
+      "local_title": "Statement of G-7 Finance Ministers",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-30-tg1556.md",
+      "local_title": "Treasury Announces Marketable Borrowing Estimates",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-30-tg1557.md",
+      "local_title": "Report On Foreign Portfolio Holdings Of U.S. Securities",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-29-20056299565112420.md",
+      "local_title": "Secretary Snow Comments on Debt Relief and Development Assistance for the World\u2019s Poorest People",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-26-tg1554.md",
+      "local_title": "U.S. Treasury Secretary Highlights Modernization of Chinese Financial Sector as a Key Priority, Notes Progress on Exchange Rate Appreciation",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-29-20056291335351040.md",
+      "local_title": "Snow Hails Executive Order to Combat the Financing of WMD Proliferation",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-26-tg1553.md",
+      "local_title": "Remarks by Secretary Geithner at the Commonwealth Club of California",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2001-08-14-po553.md",
+      "local_title": "U.S. International Reserve Position",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-25-tg1551.md",
+      "local_title": "Remarks by Secretary Tim Geithner before the Portland City Club",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-25-tg1552.md",
+      "local_title": "Remarks by Under Secretary Brainard before the Boston Economic Club",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-28-20056281541279129.md",
+      "local_title": "U.S. International Reserve Position",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-28-js2611.md",
+      "local_title": "The Honorable John W. Snow Prepared Remarks to The Council on Foreign Relations New York, NY",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2001-08-10-po548.md",
+      "local_title": "U.S., JAPAN TO NEGOTIATE REVISION TO INCOME TAX TREATY",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-27-js2608.md",
+      "local_title": "The Honorable John W. Snow Prepared Remarks to NASDAQ employees Trumbull, CT",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-23-tg1549.md",
+      "local_title": "Remarks by Under Secretary for Domestic Finance Mary Miller at the National Council of State Housing Agencies",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2001-08-07-po541.md",
+      "local_title": "MICHELE DAVIS SWORN IN AS ASSISTANT SECRETARY FOR PUBLIC AFFAIRS",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-23-js2505.md",
+      "local_title": "Testimony of Treasury Secretary John W. Snow before the Senate Committee on Finance",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-21-tg1546.md",
+      "local_title": "Statement by Treasury Secretary Tim Geithner to the Development Committee",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-23-tg1547.md",
+      "local_title": "Fact Sheet: New Executive Order Targeting Human Rights Abuses Via Information Technology",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2001-08-07-po536.md",
+      "local_title": "U.S. International Reserve Position",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-21-tg1545.md",
+      "local_title": "Statement from Secretary Geithner Endorsing the Financial Action Task Force Mandate",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-20-tg1542.md",
+      "local_title": "Treasury Secretary Geithner and Tunisian Finance Minister Dimassi Sign Declaration to Work Toward U.S. Loan Guarantee for Tunisia",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-19-tg1541.md",
+      "local_title": "Remarks By Treasury Secretary Tim Geithner At The U.S. Capitol On The Annual Day Of Remembrance Ceremony Hosted By The U.S. Holocaust Memorial Museum",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2001-07-31-po523.md",
+      "local_title": "STATEMENT OF CAROLE L. BROOKINS NOMINEE FOR UNITED STATES EXECUTIVE DIRECTOR OF THE INTERNATIONAL BANK FOR RECONSTRUCTION AND DEVELOPMENT BEFORE THE COMMITTEE ON FOREIGN RELATIONS UNITED STATES SENATE",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-20-200562017253925359.md",
+      "local_title": "U.S. International Reserve Position",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-20-20056201255627483.md",
+      "local_title": "Treasury Designates Financial Supporter of Iraqi Insurgency",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-18-tg1539.md",
+      "local_title": "Remarks by Under Secretary for Domestic Finance Mary Miller at the Annual Conference of the National Federation of Municipal Analysts",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2001-07-31-po522.md",
+      "local_title": "Statement of Rosario Marin, Nominee for United States Treasurer, Before the Committee on Finance, United States Senate",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-16-tg1537.md",
+      "local_title": "Statement by Secretary Geithner Welcoming the Selection of Dr. Jim Yong Kim for World Bank Presidency by the World Bank Board of Directors",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2001-07-31-po518.md",
+      "local_title": "Acting Director of the Office of Macroeconomic Analysis Karen Hendershot Remarks to the Treasury Borrowing Advisory Committee of the Bond Market Association",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-17-js2501.md",
+      "local_title": "Remarks of Deputy Assistant Secretary for Critical Infrastructure Protection D. Scott Parsons Beating Identity Crime",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-17-js2500.md",
+      "local_title": "Treasury Designates Financial Supporter of Iraqi Insurgency",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-16-js2499.md",
+      "local_title": "Statement of Janice B. Gardner Nominee to be Assistant Secretary for Intelligence and Analysis U.S. Department of the Treasury Before the Senate Select Committee on Intelligence",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2026-01-12-sb0356.md",
+      "local_title": "Secretary Bessent Convenes Finance Ministerial on Securing Critical Minerals Supply Chains",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-12-tg1532.md",
+      "local_title": "Remarks by Assistant Secretary for Financial Institutions Cyrus Amir-Mokri on \"Restoring and Maintaining Trust: Financial Reform Efforts and Lessons Learned from the Crisis\" at the 21st Annual Hyman P. Minsky Conference",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-16-js2498.md",
+      "local_title": "Snow Concludes Europe Trip",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2026-01-05-sb0350.md",
+      "local_title": "Treasury Secures Agreement to Exempt U.S.-Headquartered Companies from Biden Global Tax Plan",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2012-04-11-tg1530.md",
+      "local_title": "Statement by U.S. Nominee for the World Bank Presidency Dr. Jim Yong Kim to the World Bank Board of Directors",
+      "live_title": "Access Denied"
+    },
+    {
+      "file": "content/news/press-releases/2005-06-16-js2497.md",
+      "local_title": "Treasury Secretary John Snow Remarks at Conclusion of Europe Trip Amerkia Haus, Frankfurt, Germany",
+      "live_title": "Access Denied"
+    }
+  ]
+}
