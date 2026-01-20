@@ -1,0 +1,1077 @@
+{
+  "timestamp": "2026-01-19T18:36:13.739018",
+  "summary": {
+    "total": 124,
+    "ok": 0,
+    "content_mismatch": 106,
+    "not_found_live": 18,
+    "errors": 0,
+    "hallucinations": 105
+  },
+  "hallucinations": [
+    {
+      "file": "content/about/general-information/officials.md",
+      "url": "/about/general-information/officials",
+      "similarity": 0.006970260223048327,
+      "local_title": "Officials",
+      "live_title": "Officials",
+      "local_excerpt": "the secretary of the treasury is the principal economic advisor to the president and plays a critical role in policy-making by bringing an economic and government financial policy perspective to issue",
+      "live_excerpt": "officials office treasury official secretary of the treasury scott bessent deputy secretary of the treasury (pdo) derek theurer deputy chief of staff samantha schwab director of policy planning hunter"
+    },
+    {
+      "file": "content/about/offices/international-affairs.md",
+      "url": "/about/offices/international-affairs",
+      "similarity": 0.032701597918989224,
+      "local_title": "International Affairs",
+      "live_title": "International Affairs",
+      "local_excerpt": "the office of international affairs advises and assists the secretary and other senior officials on international monetary, financial, commercial, energy, and trade policies and programs. ## key respo",
+      "live_excerpt": "international affairs treasury's office of international affairs protects and supports u.s. economic prosperity by strengthening the external environment for u.s. growth, preventing and mitigating glo"
+    },
+    {
+      "file": "content/data/treasury-open-data.md",
+      "url": "/data/treasury-open-data",
+      "similarity": 0.025380710659898477,
+      "local_title": "Treasury Open Data",
+      "live_title": "Treasury Open Data",
+      "local_excerpt": "treasury is committed to making government data accessible to the public in open, machine-readable formats. ## data sources ### fiscal data the bureau of the fiscal service's [fiscal data](https://fis",
+      "live_excerpt": "treasury open data in connection with the enactment of the foundations for evidence-based policymaking act of 2018 and omb memorandum m-19-23, phase 1 implementation of the foundations for evidence-ba"
+    },
+    {
+      "file": "content/about/general-information/orders-and-directives.md",
+      "url": "/about/general-information/orders-and-directives/",
+      "similarity": 0.044296788482835,
+      "local_title": "Orders and Directives",
+      "live_title": "Orders and Directives",
+      "local_excerpt": "treasury orders and directives are official documents that establish the organization, policies, and procedures of the u.s. department of the treasury. ### treasury orders treasury orders are issued b",
+      "live_excerpt": "orders and directives the treasury orders and directives system contains the department's primary management documents. these documents establish policy and assign responsibilities to secretarial offi"
+    },
+    {
+      "file": "content/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization-0.md",
+      "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization-0/",
+      "similarity": 0.057534246575342465,
+      "local_title": "Small and Disadvantaged Business Utilization",
+      "live_title": "Small and Disadvantaged Business Utilization",
+      "local_excerpt": "the office of small and disadvantaged business utilization (osdbu) promotes the use of small, disadvantaged, women-owned, hubzone, veteran-owned, and service-disabled veteran-owned small businesses in",
+      "live_excerpt": "small and disadvantaged business utilization attention the department of the treasury\u2019s office of small and disadvantaged business utilization (osdbu) website is currently under revision to refresh co"
+    },
+    {
+      "file": "content/services/report-fraud-waste-and-abuse/inspectors-general.md",
+      "url": "/services/report-fraud-waste-and-abuse/inspectors-general/",
+      "similarity": 0.02667513496348047,
+      "local_title": "Inspectors General",
+      "live_title": "Inspectors General",
+      "local_excerpt": "the treasury department is overseen by three inspectors general who investigate fraud, waste, abuse, and misconduct. you can report concerns directly to these offices. ### treasury office of inspector",
+      "live_excerpt": "inspectors general office of inspector general (oig) the oig conducts independent audits, investigations and reviews to help the treasury department accomplish its mission; improve its programs and op"
+    },
+    {
+      "file": "content/services/report-fraud-waste-and-abuse/report-scam-attempts.md",
+      "url": "/services/report-fraud-waste-and-abuse/report-scam-attempts/",
+      "similarity": 0.027169392847241475,
+      "local_title": "Report Scam Attempts",
+      "live_title": "Report Scam Attempts",
+      "local_excerpt": "scammers sometimes impersonate the u.s. department of the treasury to defraud the public. learn how to identify and report these scams. ### common treasury scams #### irs impersonation scams callers c",
+      "live_excerpt": "report scam attempts there are numerous telephone and email scams in which individuals claim to be employees of the treasury department. these scammers often state that they are from the \u201cdepartment o"
+    },
+    {
+      "file": "content/about/offices/management/office-of-the-chief-data-officer.md",
+      "url": "/about/offices/management/office-of-the-chief-data-officer/",
+      "similarity": 0.035474334856221444,
+      "local_title": "Office of the Chief Data Officer",
+      "live_title": "Office of the Chief Data Officer",
+      "local_excerpt": "the office of the chief data officer (ocdo) leads the treasury department's efforts to manage, govern, and leverage data as a strategic asset. ### mission to enable data-driven decision making across ",
+      "live_excerpt": "office of the chief data officer champion the appropriate use, sharing, education, and management of treasury data, enabling informed insights that benefit the public good. treasury is the leading dig"
+    },
+    {
+      "file": "content/policy-issues/small-business-programs/small-business-lending-fund.md",
+      "url": "/policy-issues/small-business-programs/small-business-lending-fund/",
+      "similarity": 0.04422054296109712,
+      "local_title": "Small Business Lending Fund",
+      "live_title": "Small Business Lending Fund",
+      "local_excerpt": "the small business lending fund (sblf) was a dedicated fund that provided capital to community banks to encourage lending to small businesses. ### program overview created by the small business jobs a",
+      "live_excerpt": "small business lending fund established by the small business jobs act of 2010 (the act), the small business lending fund (sblf) is a dedicated fund designed to provide capital to qualified community "
+    },
+    {
+      "file": "content/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization.md",
+      "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization/",
+      "similarity": 0.048201705598813496,
+      "local_title": "Small and Disadvantaged Business Utilization",
+      "live_title": "Small and Disadvantaged Business Utilization",
+      "local_excerpt": "the office of small and disadvantaged business utilization (osdbu) helps small businesses access contracting opportunities with the u.s. department of the treasury. ### mission osdbu promotes the use ",
+      "live_excerpt": "small and disadvantaged business utilization attention the department of the treasury\u2019s office of small and disadvantaged business utilization (osdbu) website is currently under revision to refresh co"
+    },
+    {
+      "file": "content/data/troubled-assets-relief-program.md",
+      "url": "/data/troubled-assets-relief-program/",
+      "similarity": 0.02051434517615579,
+      "local_title": "Troubled Assets Relief Program (TARP)",
+      "live_title": "Troubled Asset Relief Program (TARP)",
+      "local_excerpt": "the troubled assets relief program (tarp) was created in 2008 to stabilize the financial system during the financial crisis. this page provides access to tarp data and reports. ### program overview ta",
+      "live_excerpt": "troubled asset relief program (tarp) treasury established several programs under tarp to help stabilize the u.s. financial system, restart economic growth, and prevent avoidable foreclosures. although"
+    },
+    {
+      "file": "content/about/offices/management.md",
+      "url": "/about/offices/management/",
+      "similarity": 0.0174017401740174,
+      "local_title": "Office of Management",
+      "live_title": "Management",
+      "local_excerpt": "the office of management provides administrative leadership and support services for the u.s. department of the treasury, ensuring efficient and effective operations across the department. ### mission",
+      "live_excerpt": "management management is responsible for the internal management and policy of the department in the areas of budget, planning, human resources, information and technology management, financial manage"
+    },
+    {
+      "file": "content/about/offices/domestic-finance.md",
+      "url": "/about/offices/domestic-finance",
+      "similarity": 0.032388663967611336,
+      "local_title": "Domestic Finance",
+      "live_title": "Domestic Finance",
+      "local_excerpt": "the office of domestic finance advises and assists the secretary of the treasury in areas of domestic finance, including: - financial institutions policy - federal debt finance - financial regulation ",
+      "live_excerpt": "domestic finance domestic finance works to unleash the full potential of the u.s. economy to improve the lives of americans on every rung of the economic ladder. it seeks to foster economic growth thr"
+    },
+    {
+      "file": "content/data/investor-class-auction-allotments.md",
+      "url": "/data/investor-class-auction-allotments/",
+      "similarity": 0.015453960077269801,
+      "local_title": "Investor Class Auction Allotments",
+      "live_title": "Investor Class Auction Allotments",
+      "local_excerpt": "the u.s. department of the treasury publishes data on auction allotments by investor class for treasury securities. ### understanding auction data treasury auctions result in purchases by three main i",
+      "live_excerpt": "investor class auction allotments data released at 3:00 pm please see future release dates below each table provides the following data: issue date, coupon or auction high rate, security type, cusip, "
+    },
+    {
+      "file": "content/data/other-programs.md",
+      "url": "/data/other-programs/",
+      "similarity": 0.004356243949661181,
+      "local_title": "Other Programs",
+      "live_title": "Other Programs",
+      "local_excerpt": "this page provides access to data from various treasury programs and initiatives not covered in other data sections. ### available data sets #### financial assistance programs data on treasury-adminis",
+      "live_excerpt": "other programs click links below for program resources. legal advisory contract for the emergency capital investment program and programs to provide support to air carriers and certain other types of "
+    },
+    {
+      "file": "content/policy-issues/terrorism-and-illicit-finance/money-laundering.md",
+      "url": "/policy-issues/terrorism-and-illicit-finance/money-laundering/",
+      "similarity": 0.03388621366149456,
+      "local_title": "Money Laundering",
+      "live_title": "Money Laundering",
+      "local_excerpt": "the u.s. department of the treasury leads federal efforts to combat money laundering through policy development, regulation, and enforcement. ### what is money laundering? money laundering is the proc",
+      "live_excerpt": "money laundering money laundering generally refers to financial transactions in which criminals, including terrorist organizations, attempt to disguise the proceeds, sources or nature of their illicit"
+    },
+    {
+      "file": "content/data/treasury-international-capital-tic-system.md",
+      "url": "/data/treasury-international-capital-tic-system",
+      "similarity": 0.04543946932006634,
+      "local_title": "Treasury International Capital (TIC) System",
+      "live_title": "Treasury International Capital (TIC) System",
+      "local_excerpt": "the treasury international capital (tic) reporting system collects data on cross-border portfolio investment flows and positions between u.s. residents and foreign residents. ## key data series ### mo",
+      "live_excerpt": "treasury international capital (tic) system notice: (1) send questions & feedback to contact tic. (2) tic data will not be updated when federal government offices in washington, d.c. are shut down. st"
+    },
+    {
+      "file": "content/about/offices/public-affairs.md",
+      "url": "/about/offices/public-affairs/",
+      "similarity": 0.01633605600933489,
+      "local_title": "Office of Public Affairs",
+      "live_title": "Public Affairs",
+      "local_excerpt": "the office of public affairs serves as the communications hub for the u.s. department of the treasury, managing media relations, public communications, and outreach activities. ### mission to effectiv",
+      "live_excerpt": "public affairs \u200bpublic affairs develops and implements communications strategy for the department and advises officials within the department and its bureaus how best to communicate issues and priorit"
+    },
+    {
+      "file": "content/policy-issues/terrorism-and-illicit-finance/financial-action-task-force.md",
+      "url": "/policy-issues/terrorism-and-illicit-finance/financial-action-task-force/",
+      "similarity": 0.030126668948990073,
+      "local_title": "Financial Action Task Force (FATF)",
+      "live_title": "Financial Action Task Force",
+      "local_excerpt": "the financial action task force is the global standard-setting body for anti-money laundering (aml) and combating the financing of terrorism (cft). the u.s. department of the treasury represents the u",
+      "live_excerpt": "financial action task force the financial action task force (fatf) is an international policy-making and standard-setting body dedicated to combating money laundering and terrorist financing. created "
+    },
+    {
+      "file": "content/about/offices/terrorism-and-financial-intelligence.md",
+      "url": "/about/offices/terrorism-and-financial-intelligence",
+      "similarity": 0.015930965814802522,
+      "local_title": "Terrorism and Financial Intelligence",
+      "live_title": "Terrorism and Financial Intelligence",
+      "local_excerpt": "the office of terrorism and financial intelligence (tfi) marshals the department's intelligence and enforcement functions with the twin aims of safeguarding the financial system against illicit use an",
+      "live_excerpt": "terrorism and financial intelligence tfi serves as the national security arm of the u.s. department of the treasury with broad responsibilities focused on advancing u.s. national security and foreign "
+    },
+    {
+      "file": "content/policy-issues/terrorism-and-illicit-finance/protecting-charitable-organizations.md",
+      "url": "/policy-issues/terrorism-and-illicit-finance/protecting-charitable-organizations/",
+      "similarity": 0.02175264139216905,
+      "local_title": "Protecting Charitable Organizations",
+      "live_title": "Protecting Charitable Organizations",
+      "local_excerpt": "the u.s. department of the treasury is committed to protecting the integrity of charitable giving while preventing the abuse of charitable organizations for terrorist financing. ### the challenge char",
+      "live_excerpt": "protecting charitable organizations protecting charities from terrorist abuse is a critical component of the global fight against terrorism. charities provide essential services, comfort, and hope to "
+    },
+    {
+      "file": "content/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp.md",
+      "url": "/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp/",
+      "similarity": 0.03931279987618016,
+      "local_title": "Terrorist Finance Tracking Program (TFTP)",
+      "live_title": "Terrorist Finance Tracking Program (TFTP)",
+      "local_excerpt": "the terrorist finance tracking program is a critical counterterrorism tool that uses financial data to identify, track, and pursue terrorists and their networks. ### program overview the tftp: - ident",
+      "live_excerpt": "terrorist finance tracking program (tftp) after the terrorist attacks on september 11, 2001, the united states department of the treasury (treasury) initiated the terrorist finance tracking program (t"
+    },
+    {
+      "file": "content/about/offices/economic-policy.md",
+      "url": "/about/offices/economic-policy",
+      "similarity": 0.043889384478144514,
+      "local_title": "Economic Policy",
+      "live_title": "Economic Policy",
+      "local_excerpt": "the office of economic policy assists policymakers by analyzing and reporting on current and prospective economic developments in the domestic and world economies. ## key responsibilities - **economic",
+      "live_excerpt": "economic policy economic policy reports on current and prospective economic developments and assists in the determination of appropriate economic policies. the office is responsible for the review and"
+    },
+    {
+      "file": "content/about/budget-financial-reporting-planning-and-performance/inspector-general-audits-and-investigative-reports.md",
+      "url": "/about/budget-financial-reporting-planning-and-performance/inspector-general-audits-and-investigative-reports/",
+      "similarity": 0.004011030333416896,
+      "local_title": "Inspector General Audits and Investigative Reports",
+      "live_title": "Inspector General Audits and Investigative Reports",
+      "local_excerpt": "the treasury department is overseen by multiple inspectors general who conduct independent audits, evaluations, and investigations to promote efficiency and prevent fraud, waste, and abuse. ### treasu",
+      "live_excerpt": "here\u2019s how you know u.s. department of the treasury about treasury policy issues data services news year in review working families tax cuts home about budget, financial reporting, planning and perfor"
+    },
+    {
+      "file": "content/data/tic-press-releases-by-topic.md",
+      "url": "/data/tic-press-releases-by-topic/",
+      "similarity": 0.011697706633830999,
+      "local_title": "TIC Press Releases by Topic",
+      "live_title": "TIC Press Releases -- by topic",
+      "local_excerpt": "the treasury international capital (tic) system releases data through regular press releases. this page organizes these releases by topic. ### major foreign holders of treasury securities monthly rele",
+      "live_excerpt": "tic press releases -- by topic monthly releases and archives of tic data on ac\u200bross-u.s. border financial flows (including historical data). annual reports on foreign portfolio holdings of u.s. securi"
+    },
+    {
+      "file": "content/data/us-international-reserve-position.md",
+      "url": "/data/us-international-reserve-position",
+      "similarity": 0.033069238718567,
+      "local_title": "U.S. International Reserve Position",
+      "live_title": "U.S. International Reserve Position",
+      "local_excerpt": "treasury publishes weekly data on the u.s. international reserve position, including reserve assets and other foreign currency assets. ## components ### official reserve assets - gold - special drawin",
+      "live_excerpt": "u.s. international reserve position treasury's weekly release of u.s. foreign exchange reserves shows the levels of various official foreign assets (foreign exchange, sdrs, u.s. reserve position in th"
+    },
+    {
+      "file": "content/policy-issues/terrorism-and-illicit-finance/treasury-executive-office-for-asset-forfeiture-teoaf.md",
+      "url": "/policy-issues/terrorism-and-illicit-finance/treasury-executive-office-for-asset-forfeiture-teoaf/",
+      "similarity": 0.0377431906614786,
+      "local_title": "Treasury Executive Office for Asset Forfeiture (TEOAF)",
+      "live_title": "Treasury Executive Office for Asset Forfeiture (TEOAF)",
+      "local_excerpt": "the treasury executive office for asset forfeiture (teoaf) administers the treasury forfeiture fund and manages the seizure and forfeiture of assets related to financial crimes. ### mission teoaf supp",
+      "live_excerpt": "treasury executive office for asset forfeiture (teoaf) \u200bthe treasury executive office for asset forfeiture (teoaf) administers the treasury forfeiture fund (tff). the tff is the receipt account for de"
+    },
+    {
+      "file": "content/about/offices/general-counsel.md",
+      "url": "/about/offices/general-counsel/",
+      "similarity": 0.03679592414378715,
+      "local_title": "Office of the General Counsel",
+      "live_title": "General Counsel",
+      "local_excerpt": "the office of the general counsel (ogc) serves as the chief legal officer for the department of the treasury, providing legal counsel and support to the secretary and all treasury offices and bureaus.",
+      "live_excerpt": "general counsel general counsel provides legal and policy advice to the secretary and other senior departmental officials. the general counsel also is the head of the treasury legal division, a separa"
+    },
+    {
+      "file": "content/about/offices/tax-policy.md",
+      "url": "/about/offices/tax-policy/",
+      "similarity": 0.00569079987353778,
+      "local_title": "Office of Tax Policy",
+      "live_title": "Tax Policy",
+      "local_excerpt": "the office of tax policy (otp) is responsible for developing and implementing federal tax policies and providing analysis of tax issues for the secretary of the treasury. ### mission to develop and re",
+      "live_excerpt": "tax policy tax policy develops and implements tax policies and programs; reviews regulations and rulings to administer the internal revenue code, negotiates tax treaties, provides economic and legal p"
+    },
+    {
+      "file": "content/policy-issues/terrorism-and-illicit-finance/311-actions.md",
+      "url": "/policy-issues/terrorism-and-illicit-finance/311-actions/",
+      "similarity": 0.025883319638455218,
+      "local_title": "311 Actions",
+      "live_title": "311 Actions",
+      "local_excerpt": "section 311 of the usa patriot act authorizes the secretary of the treasury to require domestic financial institutions to take special measures against foreign jurisdictions, financial institutions, o",
+      "live_excerpt": "311 actions section 311 of the usa patriot act provides the secretary with a range of options that can be adapted to target specific money laundering and terrorist financing risks most effectively. th"
+    },
+    {
+      "file": "content/data/treasury-international-capital-tic-system-home-page/release-dates-of-tic-data-0.md",
+      "url": "/data/treasury-international-capital-tic-system-home-page/release-dates-of-tic-data-0/",
+      "similarity": 0.013784653086230662,
+      "local_title": "Release Dates of TIC Data",
+      "live_title": "Release Dates of TIC Data",
+      "local_excerpt": "the u.s. department of the treasury publishes tic data according to a regular schedule. this page provides the release calendar for tic data. ### monthly releases #### monthly tic data released approx",
+      "live_excerpt": "release dates of tic data notice on dates: when federal government offices in washington d.c. are closed on a release date, that date will be revised after offices reopen. date monthly tic data releas"
+    },
+    {
+      "file": "content/about/history/history-overview.md",
+      "url": "/about/history/history-overview",
+      "similarity": 0.028440832910106652,
+      "local_title": "History Overview",
+      "live_title": "History Overview",
+      "local_excerpt": "the department of the treasury was established by act of congress on september 2, 1789, to manage government revenue. ## early years alexander hamilton, the first secretary of the treasury, establishe",
+      "live_excerpt": "history overview the management of the money resources of the united states has always been the primary function of the department of the treasury. whether it is regulating national banks, determining"
+    },
+    {
+      "file": "content/policy-issues/financing-the-government/treasury-investor-data.md",
+      "url": "/policy-issues/financing-the-government/treasury-investor-data/",
+      "similarity": 0.010623556581986143,
+      "local_title": "Treasury Investor Data",
+      "live_title": "Treasury Investor Data",
+      "local_excerpt": "the u.s. department of the treasury publishes data on ownership of treasury securities, providing insight into who holds u.s. government debt. ### types of investor data #### foreign holdings - major ",
+      "live_excerpt": "treasury investor data investor class allotments treasury provides information on the total amounts of marketable coupon securities and bills allotted investor classed at auction. the data is lagged a"
+    },
+    {
+      "file": "content/data/treasury-international-capital-tic-system-home-page/tic-forms-instructions.md",
+      "url": "/data/treasury-international-capital-tic-system-home-page/tic-forms-instructions/",
+      "similarity": 0.011670313639679067,
+      "local_title": "TIC Forms and Instructions",
+      "live_title": "TIC Forms & Instructions",
+      "local_excerpt": "the treasury international capital (tic) system collects data from u.s. financial institutions and other entities on cross-border portfolio investment and banking activity. ### who must report tic rep",
+      "live_excerpt": "tic forms & instructions subscribe to tic forms & instructions 1. tic monthly and quarterly reports tic b forms, filed by banks & other financial firms. (forms bc, bl-1, bl-2, bq-1, bq-2 and bq-3) tic"
+    },
+    {
+      "file": "content/about/history/collection.md",
+      "url": "/about/history/collection/",
+      "similarity": 0.003424657534246575,
+      "local_title": "Treasury Collection",
+      "live_title": "Collection",
+      "local_excerpt": "the u.s. department of the treasury maintains a significant collection of historic artifacts, artwork, and documents that tell the story of america's financial history. ### collection highlights #### ",
+      "live_excerpt": "collection the treasury collection represents one of the oldest and most intact collections of fine and decorative arts, furniture, and architectural fragments in the executive branch of the united st"
+    },
+    {
+      "file": "content/data/treasury-coupon-issues-and-corporate-bond-yield-curve/corporate-bond-yield-curve.md",
+      "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curve/corporate-bond-yield-curve/",
+      "similarity": 0.01594896331738437,
+      "local_title": "Corporate Bond Yield Curve",
+      "live_title": "Corporate Bond Yield Curve Papers and Data",
+      "local_excerpt": "the u.s. department of the treasury publishes a corporate bond yield curve used for defined benefit pension plan funding calculations required under the employee retirement income security act (erisa)",
+      "live_excerpt": "corporate bond yield curve papers and data learn more about the corporate bond yield curve, and how it relates to the pension protection act, by downloading these papers and historical data. hqm corpo"
+    },
+    {
+      "file": "content/about/history/curator.md",
+      "url": "/about/history/curator/",
+      "similarity": 0.014561339643247179,
+      "local_title": "Treasury Curator",
+      "live_title": "Curator",
+      "local_excerpt": "the office of the curator is responsible for managing the u.s. department of the treasury's historic collections, artifacts, artwork, and the preservation of the treasury building as a national histor",
+      "live_excerpt": "curator the office of the curator at the u.s. department of the treasury guides the preservation of the department's historic buildings, cares for cultural resources, and provides museum-quality colle"
+    },
+    {
+      "file": "content/policy-issues/financing-the-government/interest-rate-statistics.md",
+      "url": "/policy-issues/financing-the-government/interest-rate-statistics/",
+      "similarity": 0.021849963583394028,
+      "local_title": "Interest Rate Statistics",
+      "live_title": "Interest Rate Statistics",
+      "local_excerpt": "this page provides daily treasury yield curve rates, real yield curve rates, and historical interest rate data. for the complete current data, please visit [interest rate statistics on treasury.gov](h",
+      "live_excerpt": "interest rate statistics notice: see developer notice on changes to the xml data feeds. daily treasury par yield curve rates this par yield curve, which relates the par yield on a security to its time"
+    },
+    {
+      "file": "content/about/history/the-treasury-building.md",
+      "url": "/about/history/the-treasury-building/",
+      "similarity": 0.046705202312138726,
+      "local_title": "The Treasury Building",
+      "live_title": "The Treasury Building",
+      "local_excerpt": "the treasury building is one of the oldest federal buildings in washington, d.c., and is a national historic landmark. located at 1500 pennsylvania avenue nw, directly east of the white house, the bui",
+      "live_excerpt": "the treasury building the historic treasury building is located at fifteenth street and pennsylvania avenue, nw, in washington, d.c. tours of the treasury building are available by advanced reservatio"
+    },
+    {
+      "file": "content/policy-issues/financing-the-government/debt-management-research.md",
+      "url": "/policy-issues/financing-the-government/debt-management-research/",
+      "similarity": 0.011435105774728416,
+      "local_title": "Debt Management Research",
+      "live_title": "Debt Management Research",
+      "local_excerpt": "the u.s. department of the treasury supports and publishes research on debt management, auction design, and treasury securities markets. ### research areas #### auction design and performance - optima",
+      "live_excerpt": "debt management research foreign participation in the u.s. treasury securities market a brief overview of key data sources on foreign participation in the u.s. treasury securities market. a financial "
+    },
+    {
+      "file": "content/about/budget-financial-reporting-planning-and-performance/strategic-plan.md",
+      "url": "/about/budget-financial-reporting-planning-and-performance/strategic-plan",
+      "similarity": 0.018975332068311195,
+      "local_title": "Strategic Plan",
+      "live_title": "Strategic Plan",
+      "local_excerpt": "the department of the treasury's strategic plan outlines our mission, goals, and objectives for serving the american people. ### goal 1: promote economic growth maintain a strong economy by promoting ",
+      "live_excerpt": "strategic plan treasury\u2019s mission is to maintain a strong economy by promoting conditions that enable equitable and sustainable economic growth at home and abroad, combating threats to, and protecting"
+    },
+    {
+      "file": "content/about/history/freedmans-bank-building.md",
+      "url": "/about/history/freedmans-bank-building/",
+      "similarity": 0.0649222899862286,
+      "local_title": "Freedman's Bank Building",
+      "live_title": "Freedman's Bank Building",
+      "local_excerpt": "the freedman's savings and trust company, commonly known as the freedman's bank, holds a significant place in american financial history and in the legacy of the u.s. department of the treasury. ### h",
+      "live_excerpt": "freedman's bank building on january 7, 2016, treasury secretary jacob lew renamed the \"treasury annex,\" the freedman's bank building. the treasury annex, was erected on the original site of the freedm"
+    },
+    {
+      "file": "content/policy-issues/financing-the-government/quarterly-refunding.md",
+      "url": "/policy-issues/financing-the-government/quarterly-refunding/",
+      "similarity": 0.014881915237787124,
+      "local_title": "Quarterly Refunding",
+      "live_title": "Treasury Quarterly Refunding",
+      "local_excerpt": "the u.s. department of the treasury conducts quarterly refunding operations to finance the federal government's borrowing needs. this process is a key component of treasury's debt management strategy.",
+      "live_excerpt": "treasury quarterly refunding changes in debt management policy are generally informed by and communicated through the quarterly refunding process near the middle of each calendar quarter. a summary of"
+    },
+    {
+      "file": "content/about/history/treasurers-of-the-united-states.md",
+      "url": "/about/history/treasurers-of-the-united-states/",
+      "similarity": 0.021401449775629963,
+      "local_title": "Treasurers of the United States",
+      "live_title": "Treasurers of the United States",
+      "local_excerpt": "the treasurer of the united states is an official in the u.s. department of the treasury whose signature appears on u.s. currency. the position was established by the first congress in 1789. ### role ",
+      "live_excerpt": "treasurers of the united states treasurer dates served president michael hillegas, pennsylvania jul. 29, 1775 - sept. 11, 1789 ---------- samuel meredith, pennsylvania sept. 11, 1789 - mar. 3, 1797 ma"
+    },
+    {
+      "file": "content/about/history/prior-secretaries.md",
+      "url": "/about/history/prior-secretaries",
+      "similarity": 0.075,
+      "local_title": "Prior Secretaries",
+      "live_title": "Prior Secretaries",
+      "local_excerpt": "since its establishment in 1789, the department of the treasury has been led by distinguished public servants. below is a chronological list of all secretaries of the treasury. ### founding era (1789-",
+      "live_excerpt": "prior secretaries check out the accomplishments and portraits of the people who have led the treasury department through the years. secretary dates served president alexander hamilton, new york sept. "
+    },
+    {
+      "file": "content/policy-issues/financing-the-government/quarterly-refunding/quarterly-refunding-archives.md",
+      "url": "/policy-issues/financing-the-government/quarterly-refunding/quarterly-refunding-archives/",
+      "similarity": 0.05481329222336417,
+      "local_title": "Quarterly Refunding Archives",
+      "live_title": "Quarterly Refunding Archives",
+      "local_excerpt": "this archive contains historical quarterly refunding announcements and related documents from the u.s. department of the treasury. ### available archives historical quarterly refunding materials are o",
+      "live_excerpt": "quarterly refunding archives quarterly financing estimates by calendar year information released as part of past treasury quarterly refunding activities official remarks on quarterly refunding by cale"
+    },
+    {
+      "file": "content/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents.md",
+      "url": "/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents/",
+      "similarity": 0.024756189047261814,
+      "local_title": "Most Recent Quarterly Refunding Documents",
+      "live_title": "Most Recent Quarterly Refunding Documents",
+      "local_excerpt": "this page provides access to the most recent quarterly refunding announcement and related documents from the u.s. department of the treasury. ### quarterly refunding statement the refunding statement ",
+      "live_excerpt": "most recent quarterly refunding documents documents released at 3:00 pm monday, november 3, 2025 financing estimates: 2025 - 4th quarter economic policy statements to tbac: 2025 - 4th quarter\u200b (the ne"
+    },
+    {
+      "file": "content/footer/no-fear-act.md",
+      "url": "/footer/no-fear-act/",
+      "similarity": 0.05042016806722689,
+      "local_title": "No FEAR Act Data",
+      "live_title": "No Fear Act (as amended)",
+      "local_excerpt": "the notification and federal employee antidiscrimination and retaliation act of 2002 (no fear act) requires federal agencies to post certain data related to equal employment opportunity (eeo) complain",
+      "live_excerpt": "no fear act (as amended) equal employment opportunity data posted pursuant to title iii of the notification and federal employee antidiscrimination and retaliation act of 2002 (no fear act), p.l. 107-"
+    },
+    {
+      "file": "content/footer/freedom-of-information-act.md",
+      "url": "/footer/freedom-of-information-act/",
+      "similarity": 0.04804392587508579,
+      "local_title": "Freedom of Information Act (FOIA)",
+      "live_title": "Freedom of Information Act",
+      "local_excerpt": "the freedom of information act (foia) provides the public with the right to request access to records from any federal agency. ### submitting a foia request you may submit a foia request to treasury b",
+      "live_excerpt": "freedom of information act mission: to administer a records disclosure program in the department of the treasury that is in compliance with the freedom of information act (foia) and the privacy act. t"
+    },
+    {
+      "file": "content/about/careers-at-treasury/top-ten-reasons-to-work-for-treasury.md",
+      "url": "/about/careers-at-treasury/top-ten-reasons-to-work-for-treasury/",
+      "similarity": 0.02338269680436477,
+      "local_title": "Top 10 Reasons to Work for Treasury",
+      "live_title": "Top Ten Reasons\u00a0to Work for Treasury",
+      "local_excerpt": "the u.s. department of the treasury offers a unique opportunity to serve your country while building a rewarding career. here are the top reasons to consider treasury as your employer. ### 1. meaningf",
+      "live_excerpt": "top ten reasons to work for treasury treasury has a distinguished history dating back to the founding of our nation. today, as the steward of u.s. economic and financial systems, treasury is a major a"
+    },
+    {
+      "file": "content/policy-issues/coronavirus/assistance-for-American-families-and-workers.md",
+      "url": "/policy-issues/coronavirus/assistance-for-American-families-and-workers/",
+      "similarity": 0.05067985166872682,
+      "local_title": "Assistance for American Families and Workers",
+      "live_title": "Assistance for American Families and Workers",
+      "local_excerpt": "the u.s. department of the treasury administered multiple programs to provide economic relief to american families and workers impacted by the covid-19 pandemic. ### economic impact payments treasury,",
+      "live_excerpt": "assistance for american families and workers the covid-19 public health crisis and resulting economic crisis have created a variety of challenges for families across the country, and changed the way w"
+    },
+    {
+      "file": "content/about/budget-financial-reporting-planning-and-performance/budget-requestannual-performance-plan-and.md",
+      "url": "/about/budget-financial-reporting-planning-and-performance/budget-requestannual-performance-plan-and/",
+      "similarity": 0.015297906602254429,
+      "local_title": "Budget Request/Annual Performance Plan and Reports",
+      "live_title": "Budget Request/Annual Performance Plan and Reports",
+      "local_excerpt": "the u.s. department of the treasury submits annual budget requests to congress and publishes performance plans and reports to demonstrate how resources support the department's mission. ### congressio",
+      "live_excerpt": "budget request/annual performance plan and reports the government performance and results act modernization act (gprama) of 2010 requires treasury and other federal agencies to formally monitor and re"
+    },
+    {
+      "file": "content/about/careers-at-treasury/careers-at-our-bureaus.md",
+      "url": "/about/careers-at-treasury/careers-at-our-bureaus/",
+      "similarity": 0.01326479854087216,
+      "local_title": "Careers at Our Bureaus",
+      "live_title": "Careers at our Bureaus",
+      "local_excerpt": "the u.s. department of the treasury consists of multiple bureaus, each offering unique career opportunities across various fields and locations nationwide. ### internal revenue service (irs) the irs i",
+      "live_excerpt": "careers at our bureaus since its founding by the first session of congress in 1789, the treasury department has managed the u.s. government\u2019s finances, promoted our nation\u2019s economic growth and stabil"
+    },
+    {
+      "file": "content/footer/privacy-act.md",
+      "url": "/footer/privacy-act/",
+      "similarity": 0.029223276083055628,
+      "local_title": "Privacy Act",
+      "live_title": "Privacy Act",
+      "local_excerpt": "the privacy act of 1974 (5 u.s.c. \u00a7 552a) protects personal information that the federal government collects and maintains about individuals. ### your rights under the privacy act the privacy act give",
+      "live_excerpt": "privacy act the privacy act of 1974, as amended, provides safeguards against unwarranted invasions of privacy by establishing a code of \"fair information practices.\" the principles of the privacy act "
+    },
+    {
+      "file": "content/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments.md",
+      "url": "/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/",
+      "similarity": 0.11276391554702495,
+      "local_title": "Assistance for State, Local, and Tribal Governments",
+      "live_title": "Assistance for State, Local, and Tribal Governments",
+      "local_excerpt": "the u.s. department of the treasury administered significant programs to help state, local, and tribal governments respond to the covid-19 pandemic and support economic recovery. ### coronavirus state",
+      "live_excerpt": "assistance for state, local, and tribal governments the covid-19 public health crisis and resulting economic crisis have put state, local, and tribal governments under unprecedented strain. the treasu"
+    },
+    {
+      "file": "content/policy-issues/coronavirus/assistance-for-small-businesses.md",
+      "url": "/policy-issues/coronavirus/assistance-for-small-businesses/",
+      "similarity": 0.022765316370940744,
+      "local_title": "Assistance for Small Businesses",
+      "live_title": "Assistance for Small Businesses",
+      "local_excerpt": "the u.s. department of the treasury administered and supported multiple programs to help small businesses survive and recover from the covid-19 pandemic. ### paycheck protection program (ppp) ppp prov",
+      "live_excerpt": "assistance for small businesses the covid-19 public health crisis and resulting economic crisis have created a variety of challenges for small, micro, and solo businesses in communities across the cou"
+    },
+    {
+      "file": "content/about/careers-at-treasury/veterans-employment.md",
+      "url": "/about/careers-at-treasury/veterans-employment/",
+      "similarity": 0.01720938079973005,
+      "local_title": "Veterans Employment",
+      "live_title": "Veterans Employment",
+      "local_excerpt": "the u.s. department of the treasury values the skills, leadership, and dedication that veterans bring to our workforce. we are committed to recruiting, hiring, and retaining veterans. ### veterans' pr",
+      "live_excerpt": "veterans employment veterans and disabled veterans are entitled to preference over others in hiring for federal government positions. visit the veterans' preference advisor to determine your preferenc"
+    },
+    {
+      "file": "content/about/budget-financial-reporting-planning-and-performance/irs-strategic-operating-plan.md",
+      "url": "/about/budget-financial-reporting-planning-and-performance/irs-strategic-operating-plan/",
+      "similarity": 0.027468933943754086,
+      "local_title": "IRS Strategic Operating Plan",
+      "live_title": "IRS Strategic Operating Plan",
+      "local_excerpt": "the internal revenue service strategic operating plan outlines a multi-year vision for transforming tax administration to better serve taxpayers and the nation. ### vision the strategic operating plan",
+      "live_excerpt": "irs strategic operating plan president biden in august 2022 signed the inflation reduction act, providing critical resources to modernize the irs after decades of underfunding. the strategic operating"
+    },
+    {
+      "file": "content/utility/contact.md",
+      "url": "/utility/contact/",
+      "similarity": 0.04507666728246813,
+      "local_title": "Contact Us",
+      "live_title": "Contact",
+      "local_excerpt": "### general inquiries **mailing address** u.s. department of the treasury 1500 pennsylvania avenue, nw washington, d.c. 20220 **phone** (202) 622-2000 ### press and media for media inquiries, contact ",
+      "live_excerpt": "contact 1500 pennsylvania avenue, nw washington, d.c. 20220 telephone: (202) 622-2000 if you are deaf, hard of hearing, or have a speech disability, please dial 7-1-1 to access telecommunications rela"
+    },
+    {
+      "file": "content/about/careers-at-treasury/workforce.md",
+      "url": "/about/careers-at-treasury/workforce/",
+      "similarity": 0.00880503144654088,
+      "local_title": "Treasury Workforce",
+      "live_title": "Workforce",
+      "local_excerpt": "the u.s. department of the treasury is home to a diverse, talented, and dedicated workforce committed to serving the american people. ### workforce overview the treasury department employs approximate",
+      "live_excerpt": "workforce a workforce with a wide range of experiences and perspectives increases productivity and enhances the department\u2019s ability to maneuver in an increasingly competitive market. to that end, the"
+    },
+    {
+      "file": "content/policy-issues/economic-policy/total-taxable-resources.md",
+      "url": "/policy-issues/economic-policy/total-taxable-resources/",
+      "similarity": 0.02100439182738209,
+      "local_title": "Total Taxable Resources",
+      "live_title": "Total Taxable Resources",
+      "local_excerpt": "the u.s. department of the treasury publishes estimates of total taxable resources (ttr) for each state, which are used in various federal grant allocation formulas. ### what are total taxable resourc",
+      "live_excerpt": "total taxable resources under public law 102-321, the department of treasury is required to produce annual estimates of total taxable resources (ttr), treasury's estimates of the relative fiscal capac"
+    },
+    {
+      "file": "content/about/careers-at-treasury/the-fair-chance-to-compete-act.md",
+      "url": "/about/careers-at-treasury/the-fair-chance-to-compete-act/",
+      "similarity": 0.026661197703035273,
+      "local_title": "The Fair Chance to Compete Act",
+      "live_title": "The Fair Chance to Compete Act",
+      "local_excerpt": "the fair chance to compete for jobs act (fair chance act) provides individuals with arrest or conviction records a fair chance to compete for federal employment. ### what is the fair chance act? enact",
+      "live_excerpt": "the fair chance to compete act on december 20, 2019, the president signed into law the national defense authorization act, which includes the fair chance to compete for jobs act of 2019 (\u201cfair chance "
+    },
+    {
+      "file": "content/about/careers-at-treasury/careers-at-headquarters.md",
+      "url": "/about/careers-at-treasury/careers-at-headquarters",
+      "similarity": 0.08930766079475624,
+      "local_title": "Careers at Headquarters",
+      "live_title": "Careers at Headquarters",
+      "local_excerpt": "treasury headquarters is located in the historic treasury building adjacent to the white house in washington, d.c. ## career areas ### policy positions - economic policy analysts - international affai",
+      "live_excerpt": "careers at headquarters treasury's headquarters is located in the historic treasury building just steps from the white house\u2014a site that reflects the department\u2019s position at the foundation of our gov"
+    },
+    {
+      "file": "content/about/careers-at-treasury/benefits-and-growth.md",
+      "url": "/about/careers-at-treasury/benefits-and-growth/",
+      "similarity": 0.024724744060266562,
+      "local_title": "Benefits and Growth",
+      "live_title": "Benefits and Growth",
+      "local_excerpt": "the u.s. department of the treasury offers a comprehensive benefits package and numerous opportunities for professional development and career advancement. ### federal employee benefits #### health in",
+      "live_excerpt": "benefits and growth we offer a workplace that is respectful and fair, and values our employees. our comprehensive benefits are very generous - helping you to reach your personal goals by supporting yo"
+    },
+    {
+      "file": "content/policy-issues/economic-policy/economic-policy-reports.md",
+      "url": "/policy-issues/economic-policy/economic-policy-reports/",
+      "similarity": 0.008960150907804764,
+      "local_title": "Economic Policy Reports",
+      "live_title": "Economic Policy Reports",
+      "local_excerpt": "the u.s. department of the treasury's office of economic policy produces research and analysis on a wide range of economic issues affecting the american economy. ### types of reports #### economic ana",
+      "live_excerpt": "economic policy reports equitable recovery report (press release) (oct 2023) labor unions and the middle class (press release) (aug 2023) the state of labor market competition (press release) (mar 202"
+    },
+    {
+      "file": "content/about/budget-financial-reporting-planning-and-performance/agency-financial-report.md",
+      "url": "/about/budget-financial-reporting-planning-and-performance/agency-financial-report/",
+      "similarity": 0.00916857678683059,
+      "local_title": "Agency Financial Report",
+      "live_title": "Agency Financial Report",
+      "local_excerpt": "the u.s. department of the treasury publishes an annual agency financial report (afr) that provides a comprehensive overview of the department's financial performance and condition. ### purpose of the",
+      "live_excerpt": "agency financial report the department of treasury\u2019s annual agency financial report provides financial and performance results that enable the president, congress, and the american people to assess ou"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/tax-regulatory-process.md",
+      "url": "/policy-issues/tax-policy/tax-regulatory-process/",
+      "similarity": 0.013137316233969347,
+      "local_title": "Tax Regulatory Process",
+      "live_title": "Tax Regulatory Process",
+      "local_excerpt": "the u.s. department of the treasury and the internal revenue service develop regulations and guidance to implement the tax laws enacted by congress. ### types of guidance #### treasury regulations - h",
+      "live_excerpt": "tax regulatory process this page catalogues the historical and current memorandums of agreement (moas) between the department of the treasury (treasury) and the office of management and budget (omb) r"
+    },
+    {
+      "file": "content/about/careers-at-treasury/studentinternship-programs/pathways-programs.md",
+      "url": "/about/careers-at-treasury/studentinternship-programs/pathways-programs/",
+      "similarity": 0.007123287671232876,
+      "local_title": "Pathways Programs",
+      "live_title": "Pathways Programs",
+      "local_excerpt": "the pathways programs offer federal internship and employment opportunities for students and recent graduates to begin their careers in federal service. ### three pathways to federal careers #### 1. i",
+      "live_excerpt": "pathways programs treasury actively participates in the pathways programs, which allows those with limited professional experience find developmental opportunities in the government. internships recen"
+    },
+    {
+      "file": "content/policy-issues/tribal-affairs.md",
+      "url": "/policy-issues/tribal-affairs",
+      "similarity": 0.04948075748320098,
+      "local_title": "Tribal Affairs",
+      "live_title": "Tribal Affairs",
+      "local_excerpt": "the office of tribal and native affairs coordinates treasury's engagement with tribal governments and native communities. ## mission enhance treasury's government-to-government relationships with fede",
+      "live_excerpt": "tribal affairs the office of tribal and native affairs is committed to working with tribal governments and indigenous communities to promote economic prosperity. the office is overseen by the treasure"
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/",
+      "similarity": 0.01245436976594374,
+      "local_title": "Financial Markets, Financial Institutions, and Fiscal Service",
+      "live_title": "Financial Markets, Financial Institutions, and Fiscal Service",
+      "local_excerpt": "the u.s. department of the treasury develops policy on financial markets, financial institutions, and fiscal service to promote a strong, stable, and efficient financial system. ### financial markets ",
+      "live_excerpt": "financial markets, financial institutions, and fiscal service the treasury department is responsible for a wide range of activities such as advising the president on economic and financial issues, enc"
+    },
+    {
+      "file": "content/policy-issues/climate-change.md",
+      "url": "/policy-issues/climate-change",
+      "similarity": 0.013279748383714835,
+      "local_title": "Climate Change",
+      "live_title": "Climate Change",
+      "local_excerpt": "treasury addresses the intersection of climate change and financial policy, working to understand and mitigate climate-related financial risks. ## key areas ### climate-related financial risk - assess",
+      "live_excerpt": "climate change climate change is an existential threat to the planet and an emerging and increasing threat to the global financial system and economy, including our own. at the same time, the transiti"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/tax-expenditures.md",
+      "url": "/policy-issues/tax-policy/tax-expenditures/",
+      "similarity": 0.029584949016228636,
+      "local_title": "Tax Expenditures",
+      "live_title": "Tax Expenditures",
+      "local_excerpt": "tax expenditures are provisions in the tax code that reduce tax liability through exclusions, exemptions, deductions, credits, deferrals, and preferential tax rates. ### what are tax expenditures? tax",
+      "live_excerpt": "tax expenditures tax expenditures describe revenue losses attributable to provisions of federal tax laws which allow a special exclusion, exemption, or deduction from gross income or which provide a s"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/revenue-proposals.md",
+      "url": "/policy-issues/tax-policy/revenue-proposals/",
+      "similarity": 0.09211087420042643,
+      "local_title": "Revenue Proposals",
+      "live_title": "Revenue Proposals",
+      "local_excerpt": "the u.s. department of the treasury develops revenue proposals as part of the administration's budget process, providing detailed explanations of proposed changes to the tax code. ### the green book t",
+      "live_excerpt": "revenue proposals to accompany the administration's budget, treasury releases the \"general explanations of the administration\u2019s revenue proposals\" which provides an explanation of the administration's"
+    },
+    {
+      "file": "content/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci.md",
+      "url": "/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci/",
+      "similarity": 0.07973001476481754,
+      "local_title": "State Small Business Credit Initiative (SSBCI)",
+      "live_title": "State Small Business Credit Initiative (SSBCI)",
+      "local_excerpt": "the state small business credit initiative (ssbci) is a program administered by the u.s. department of the treasury that provides funding to states, the district of columbia, territories, and tribal g",
+      "live_excerpt": "state small business credit initiative (ssbci) the state small business credit initiative (ssbci) is a nearly $10 billion program to support small businesses and entrepreneurship in communities across"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/international-tax.md",
+      "url": "/policy-issues/tax-policy/international-tax/",
+      "similarity": 0.01239829523440527,
+      "local_title": "International Tax",
+      "live_title": "International Tax",
+      "local_excerpt": "the u.s. department of the treasury plays a leading role in developing international tax policy, negotiating tax treaties, and coordinating with other countries on global tax issues. ### key areas ###",
+      "live_excerpt": "international tax treaties and related documents this page posts the texts of recently signed u.s. income tax treaties, notes, and accompanying technical explanations as they become publically availab"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/foreign-account-tax-compliance-act.md",
+      "url": "/policy-issues/tax-policy/foreign-account-tax-compliance-act/",
+      "similarity": 0.027213062269889548,
+      "local_title": "Foreign Account Tax Compliance Act (FATCA)",
+      "live_title": "Foreign Account Tax Compliance Act",
+      "local_excerpt": "the foreign account tax compliance act (fatca) requires foreign financial institutions to report information about financial accounts held by u.s. taxpayers to the irs. ### purpose fatca was enacted t",
+      "live_excerpt": "foreign account tax compliance act fatca was enacted in 2010 by congress to target non-compliance by u.s. taxpayers using foreign accounts. fatca requires foreign financial institutions (ffis) to repo"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/treaties.md",
+      "url": "/policy-issues/tax-policy/treaties/",
+      "similarity": 0.006791171477079796,
+      "local_title": "Tax Treaties and Related Documents",
+      "live_title": "Treaties",
+      "local_excerpt": "the united states has income tax treaties with numerous countries to prevent double taxation and facilitate cross-border economic activity. ### purpose of tax treaties tax treaties serve to: - **preve",
+      "live_excerpt": "treaties in the table below you can access the text of many us income tax treaties, protocols, notes and the accompanying treasury department tax treaty technical explanations as they become publicly "
+    },
+    {
+      "file": "content/policy-issues/consumer-policy/innovations-in-financial-services.md",
+      "url": "/policy-issues/consumer-policy/innovations-in-financial-services/",
+      "similarity": 0.017469791818314165,
+      "local_title": "Innovations in Financial Services",
+      "live_title": "Innovations in Financial Services",
+      "local_excerpt": "the u.s. department of the treasury monitors and shapes policy related to innovations in financial services, including fintech, digital assets, and emerging payment technologies. ### areas of focus ##",
+      "live_excerpt": "innovations in financial services the treasury financial empowerment innovation fund (innovation fund) was a special one-time initiative that supported public and private entities in developing and te"
+    },
+    {
+      "file": "content/policy-issues/consumer-policy/financial-literacy-and-education-commission.md",
+      "url": "/policy-issues/consumer-policy/financial-literacy-and-education-commission/",
+      "similarity": 0.028768530750036693,
+      "local_title": "Financial Literacy and Education Commission",
+      "live_title": "Financial Literacy and Education Commission",
+      "local_excerpt": "the financial literacy and education commission (flec) coordinates the federal government's efforts to promote financial literacy and education across america. ### about flec established by the fair a",
+      "live_excerpt": "financial literacy and education commission the financial literacy and education commission was established under the fair and accurate credit transactions act of 2003. the commission was tasked to de"
+    },
+    {
+      "file": "content/policy-issues/consumer-policy/featured-research.md",
+      "url": "/policy-issues/consumer-policy/featured-research/",
+      "similarity": 0.007633587786259542,
+      "local_title": "Featured Research",
+      "live_title": "Featured Research",
+      "local_excerpt": "the u.s. department of the treasury conducts and supports research on consumer financial issues to inform policy development and improve consumer outcomes. ### research areas #### financial inclusion ",
+      "live_excerpt": "featured research presidential commission on financial capability president's advisory council on financial capability for young americans 2015 final report president's advisory council on financial c"
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc/",
+      "similarity": 0.025902452466244143,
+      "local_title": "Financial Stability Oversight Council (FSOC)",
+      "live_title": "Financial Stability Oversight Council",
+      "local_excerpt": "the financial stability oversight council is responsible for identifying risks to the financial stability of the united states and coordinating regulatory responses. ### about fsoc created by the dodd",
+      "live_excerpt": "financial stability oversight council established in 2010 by the dodd-frank wall street reform and consumer protection act, the financial stability oversight council provides comprehensive monitoring "
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit/",
+      "similarity": 0.007681365576102418,
+      "local_title": "Debt Limit",
+      "live_title": "Debt Limit",
+      "local_excerpt": "the debt limit, or debt ceiling, is the maximum amount of money the u.s. government is authorized to borrow to meet its existing legal obligations. ### what is the debt limit? the debt limit is: - a s",
+      "live_excerpt": "debt limit the debt limit is the total amount of money that the united states government is authorized to borrow to meet its existing legal obligations, including social security and medicare benefits"
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/federal-insurance-office.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/federal-insurance-office/",
+      "similarity": 0.06327160493827161,
+      "local_title": "Federal Insurance Office",
+      "live_title": "Federal Insurance Office",
+      "local_excerpt": "the federal insurance office (fio), established by the dodd-frank act, monitors the insurance industry and represents the united states on prudential aspects of international insurance matters. ### mi",
+      "live_excerpt": "federal insurance office the federal insurance office (fio) was established under title v of the dodd-frank wall street reform and consumer protection act. fio has the authority to monitor all aspects"
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act/",
+      "similarity": 0.06363989134652696,
+      "local_title": "RESTORE Act",
+      "live_title": "RESTORE Act",
+      "local_excerpt": "the resources and ecosystems sustainability, tourist opportunities, and revived economies of the gulf coast states act (restore act) directs clean water act penalties from the deepwater horizon oil sp",
+      "live_excerpt": "restore act on april 20, 2010, an explosion on the deepwater horizon oil rig drilling in the gulf caused the largest offshore oil spill in the united states, exacerbating the effects of previous natur"
+    },
+    {
+      "file": "content/policy-issues/international/multilateral-development-banks.md",
+      "url": "/policy-issues/international/multilateral-development-banks/",
+      "similarity": 0.03704594659610296,
+      "local_title": "Multilateral Development Banks",
+      "live_title": "Multilateral Development Banks",
+      "local_excerpt": "the u.s. department of the treasury oversees u.s. participation in the multilateral development banks (mdbs), which provide financing for development in countries around the world. ### key institution",
+      "live_excerpt": "multilateral development banks the department of treasury leads the administration's engagement in the multilateral development banks (mdbs), which include the world bank, inter-american development b"
+    },
+    {
+      "file": "content/policy-issues/international/exchange-rate-analysis.md",
+      "url": "/policy-issues/international/exchange-rate-analysis/",
+      "similarity": 0.018381414347715088,
+      "local_title": "Exchange Rate Analysis",
+      "live_title": "Exchange Rate Analysis",
+      "local_excerpt": "the u.s. department of the treasury monitors and analyzes foreign exchange rates and the currency practices of america's major trading partners. ### congressional reports treasury submits semiannual r",
+      "live_excerpt": "exchange rate analysis treasury uses its global exchange rate assessment framework (geraf) to assist in its work on exchange rates. global exchange rate assessment framework methodology geraf is a fle"
+    },
+    {
+      "file": "content/policy-issues/international/outbound-investment-program.md",
+      "url": "/policy-issues/international/outbound-investment-program/",
+      "similarity": 0.026875,
+      "local_title": "Outbound Investment Security Program",
+      "live_title": "Outbound Investment Security Program",
+      "local_excerpt": "the u.s. department of the treasury administers the outbound investment security program, which addresses national security concerns arising from certain u.s. investments in countries of concern. ### ",
+      "live_excerpt": "outbound investment security program on december 23, 2025, the treasury department published additional faqs on the outbound investment security program. visit frequently asked questions for details. "
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/cash-and-debt-forecasting.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/cash-and-debt-forecasting/",
+      "similarity": 0.029250457038391225,
+      "local_title": "Cash and Debt Forecasting",
+      "live_title": "Cash and Debt Forecasting",
+      "local_excerpt": "the u.s. department of the treasury forecasts the government's cash flows and borrowing needs to support efficient cash management operations. ### purpose cash and debt forecasting enables treasury to",
+      "live_excerpt": "cash and debt forecasting daily treasury statement (dts) this statement summarizes the united states treasury's cash and debt operations for the federal government. treasury's operating cash is mainta"
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/1603-program-payments-for-specified-energy-property-in-lieu-of-tax-credits.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/1603-program-payments-for-specified-energy-property-in-lieu-of-tax-credits/",
+      "similarity": 0.042826552462526764,
+      "local_title": "1603 Program - Payments for Specified Energy Property in Lieu of Tax Credits",
+      "live_title": "1603 Program: Payments for Specified Energy Property in Lieu of Tax Credits",
+      "local_excerpt": "the section 1603 program provided direct payments to renewable energy project developers in lieu of investment tax credits during the financial crisis period. ### program overview section 1603 of the ",
+      "live_excerpt": "1603 program: payments for specified energy property in lieu of tax credits the department of the treasury has responsibilities pursuant to the american recovery and reinvestment act of 2009 (recovery"
+    },
+    {
+      "file": "content/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius.md",
+      "url": "/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius/",
+      "similarity": 0.02626005929690809,
+      "local_title": "The Committee on Foreign Investment in the United States (CFIUS)",
+      "live_title": "The Committee on Foreign Investment in the United States (CFIUS)",
+      "local_excerpt": "cfius is an interagency committee that reviews certain transactions involving foreign investment in the united states to determine their effect on national security. ### about cfius cfius is authorize",
+      "live_excerpt": "the committee on foreign investment in the united states (cfius) cfius is an interagency committee authorized to review certain transactions involving foreign investment in the united states and certa"
+    },
+    {
+      "file": "content/policy-issues/international/exchange-stabilization-fund.md",
+      "url": "/policy-issues/international/exchange-stabilization-fund/",
+      "similarity": 0.07472384665367121,
+      "local_title": "Exchange Stabilization Fund",
+      "live_title": "Exchange Stabilization Fund",
+      "local_excerpt": "the exchange stabilization fund (esf) is a treasury-controlled fund used to promote exchange rate stability and counter disorderly conditions in foreign exchange markets. ### legal authority the esf w",
+      "live_excerpt": "exchange stabilization fund the exchange stabilization fund (esf) consists of three types of assets: u.s. dollars, foreign currencies, and special drawing rights (sdrs), which is an international rese"
+    },
+    {
+      "file": "content/services/tours-and-library.md",
+      "url": "/services/tours-and-library",
+      "similarity": 0.011307420494699646,
+      "local_title": "Tours and Library",
+      "live_title": "Tours and Library",
+      "local_excerpt": "the treasury building, a national historic landmark, offers public tours showcasing its rich history and architecture. ### tour information - tours are available saturday mornings - advance reservatio",
+      "live_excerpt": "tours and library the office of the treasury curator hosts guided tours of the historic treasury building in washington. tours of the treasury building require advance reservations made through your c"
+    },
+    {
+      "file": "content/policy-issues/international/international-monetary-fund.md",
+      "url": "/policy-issues/international/international-monetary-fund/",
+      "similarity": 0.01396266504780695,
+      "local_title": "International Monetary Fund",
+      "live_title": "International Monetary Fund",
+      "local_excerpt": "the u.s. department of the treasury leads u.s. engagement with the international monetary fund (imf), the international organization responsible for promoting global monetary cooperation and financial",
+      "live_excerpt": "international monetary fund the treasury department leads the u.s. government's engagement in the international monetary fund (imf). the imf is an organization of 189 member countries that works to fo"
+    },
+    {
+      "file": "content/policy-issues/international/macroeconomic-and-foreign-exchange-policies-of-major-trading-partners.md",
+      "url": "/policy-issues/international/macroeconomic-and-foreign-exchange-policies-of-major-trading-partners/",
+      "similarity": 0.02636916835699797,
+      "local_title": "Macroeconomic and Foreign Exchange Policies of Major Trading Partners",
+      "live_title": "Macroeconomic and Foreign Exchange Policies of Major Trading Partners of the United States",
+      "local_excerpt": "the u.s. department of the treasury submits semiannual reports to congress examining the macroeconomic and foreign exchange policies of america's major trading partners. ### legal requirement the omni",
+      "live_excerpt": "macroeconomic and foreign exchange policies of major trading partners of the united states the treasury department\u2019s semiannual report to congress reviews developments in international economic and ex"
+    },
+    {
+      "file": "content/policy-issues/international/g-7-and-g-20.md",
+      "url": "/policy-issues/international/g-7-and-g-20/",
+      "similarity": 0.04953338119167265,
+      "local_title": "G-7 and G-20",
+      "live_title": "G-7 and G-20",
+      "local_excerpt": "the u.s. department of the treasury represents the united states in the g-7 and g-20 forums on international economic and financial issues. ### the g-7 the group of seven includes: - united states - c",
+      "live_excerpt": "g-7 and g-20 the u.s. department of the treasury engages with the group of 7 (g7) and group of 20 (g20) on a variety of international economic development and security issues. the g-7, which includes "
+    },
+    {
+      "file": "content/services/forms.md",
+      "url": "/services/forms",
+      "similarity": 0.018230155715913406,
+      "local_title": "Forms",
+      "live_title": "Forms",
+      "local_excerpt": "find forms and publications from treasury and its bureaus. ## by bureau ### internal revenue service (irs) tax forms and instructions: - [irs forms & publications](https://www.irs.gov/forms-instructio",
+      "live_excerpt": "here\u2019s how you know u.s. department of the treasury about treasury policy issues data services news year in review working families tax cuts report fraud waste and abuse bonds and securities treasury "
+    },
+    {
+      "file": "content/services/taxes.md",
+      "url": "/services/taxes",
+      "similarity": 0.049789029535864976,
+      "local_title": "Taxes",
+      "live_title": "Taxes",
+      "local_excerpt": "the internal revenue service (irs), a bureau of the department of the treasury, administers and enforces federal tax laws. ## individual taxpayers ### filing requirements most u.s. citizens and reside",
+      "live_excerpt": "here\u2019s how you know u.s. department of the treasury about treasury policy issues data services news year in review working families tax cuts report fraud waste and abuse bonds and securities treasury "
+    },
+    {
+      "file": "content/services/currency-and-coins.md",
+      "url": "/services/currency-and-coins",
+      "similarity": 0.06819763395963814,
+      "local_title": "Currency and Coins",
+      "live_title": "Currency and Coins",
+      "local_excerpt": "the bureau of engraving and printing (bep) designs, engraves, and prints all u.s. paper currency. ### current denominations - $1, $2, $5, $10, $20, $50, and $100 bills ### security features modern u.s",
+      "live_excerpt": "currency and coins u.s currency is produced by the bureau of engraving and printing and u.s. coins are produced by the u.s. mint. both organizations are bureaus of the u.s. department of the treasury."
+    },
+    {
+      "file": "content/about/general-information/organizational-chart.md",
+      "url": "/about/general-information/organizational-chart",
+      "similarity": 0.013198416190057193,
+      "local_title": "Organizational Chart",
+      "live_title": "Organizational Chart",
+      "local_excerpt": "the u.s. department of the treasury is organized into departmental offices and operating bureaus. ### departmental offices the departmental offices are primarily responsible for the formulation of pol",
+      "live_excerpt": "here\u2019s how you know u.s. department of the treasury about treasury policy issues data services news year in review working families tax cuts home about general information organizational chart general"
+    },
+    {
+      "file": "content/services/government-shared-services.md",
+      "url": "/services/government-shared-services",
+      "similarity": 0.011247443762781187,
+      "local_title": "Government Shared Services",
+      "live_title": "Government Shared Services",
+      "local_excerpt": "treasury provides shared services to federal agencies, helping to improve efficiency and reduce costs across government. ## administrative resource center (arc) the bureau of the fiscal service's admi",
+      "live_excerpt": "government shared services the treasury franchise fund (tff) provides treasury bureaus and outside agencies support services on a competitive and fully cost-reimbursable basis. the shared services pro"
+    },
+    {
+      "file": "content/services/bonds-and-securities.md",
+      "url": "/services/bonds-and-securities",
+      "similarity": 0.017462165308498253,
+      "local_title": "Bonds and Securities",
+      "live_title": "Bonds and Securities",
+      "local_excerpt": "the u.s. treasury issues several types of securities to finance government operations: ### treasury bills (t-bills) - short-term securities maturing in 4, 8, 13, 17, 26, or 52 weeks - sold at a discou",
+      "live_excerpt": "bonds and securities information dealing with the purchase, redemption, replacement, forms, and valuation of treasury savings bonds and securities is located on the treasurydirect.gov website which is"
+    },
+    {
+      "file": "content/services/treasury-payments.md",
+      "url": "/services/treasury-payments",
+      "similarity": 0.026624068157614485,
+      "local_title": "Treasury Payments",
+      "live_title": "Treasury Payments",
+      "local_excerpt": "the bureau of the fiscal service disburses most federal payments on behalf of agencies. ## types of payments ### social security and ssi - monthly benefit payments - direct deposit or direct express c",
+      "live_excerpt": "treasury payments find information about the economic impact payments (stimulus checks), which were sent in three batches over 2020 and 2021. assistance for american families and workers find informat"
+    },
+    {
+      "file": "content/services/the-multiemployer-pension-reform-act-of-2014/applications-for-benefit-suspension.md",
+      "url": "/services/the-multiemployer-pension-reform-act-of-2014/applications-for-benefit-suspension/",
+      "similarity": 0.007453994875378523,
+      "local_title": "Applications for Benefit Suspension",
+      "live_title": "Applications for Benefit Suspension",
+      "local_excerpt": "the multiemployer pension reform act of 2014 (mpra) allows certain financially troubled multiemployer pension plans to apply to treasury for approval to suspend benefits. ### background mpra permits t",
+      "live_excerpt": "applications for benefit suspension within 30 days of receiving an application for benefit suspension, the treasury department will post the application on this page. fields in the table below will be"
+    },
+    {
+      "file": "content/services/the-multiemployer-pension-reform-act-of-2014/frequently-asked-questions-about-the-kline-miller-multiemployer-pension-reform-act.md",
+      "url": "/services/the-multiemployer-pension-reform-act-of-2014/frequently-asked-questions-about-the-kline-miller-multiemployer-pension-reform-act/",
+      "similarity": 0.03072321914083741,
+      "local_title": "Frequently Asked Questions About the Kline-Miller Multiemployer Pension Reform Act",
+      "live_title": "Frequently Asked Questions about the Kline-Miller Multiemployer Pension Reform Act",
+      "local_excerpt": "the multiemployer pension reform act of 2014 (mpra), also known as the kline-miller act, made significant changes to the rules governing multiemployer pension plans. ### general questions #### what is",
+      "live_excerpt": "frequently asked questions about the kline-miller multiemployer pension reform act \u200b1. what is the kline-miller multiemployer pension reform act of 2014? the kline-miller multiemployer pension reform "
+    },
+    {
+      "file": "content/services/treasury-auctions.md",
+      "url": "/services/treasury-auctions/",
+      "similarity": 0.03692093347265761,
+      "local_title": "Treasury Auctions",
+      "live_title": "Treasury Auctions",
+      "local_excerpt": "the u.s. department of the treasury and its bureaus conduct various auctions of property and assets. ### internal revenue service (irs) auctions the irs auctions property that has been seized to satis",
+      "live_excerpt": "treasury auctions each year approximately 300 public auctions are conducted throughout the u.s. and puerto rico to sell property forfeited as a result of violations of federal law enforced by the depa"
+    }
+  ],
+  "content_mismatches": [
+    {
+      "file": "content/about/general-information/role-of-the-treasury.md",
+      "url": "/about/general-information/role-of-the-treasury",
+      "similarity": 0.5866953559261252,
+      "local_title": "Role of the Treasury",
+      "live_title": "Role of the Treasury"
+    }
+  ],
+  "not_found_on_live": [
+    {
+      "file": "content/policy-issues/small-business-programs/cdfi-fund.md",
+      "url": "/policy-issues/small-business-programs/cdfi-fund",
+      "is_soft_404": false,
+      "local_title": "CDFI Fund"
+    },
+    {
+      "file": "content/policy-issues/terrorism-and-illicit-finance/sanctions.md",
+      "url": "/policy-issues/terrorism-and-illicit-finance/sanctions",
+      "is_soft_404": false,
+      "local_title": "Sanctions Programs"
+    },
+    {
+      "file": "content/data/treasury-coupon-issues-and-corporate-bond-yield-curves.md",
+      "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curves/",
+      "is_soft_404": true,
+      "local_title": "Treasury Coupon Issues and Corporate Bond Yield Curves"
+    },
+    {
+      "file": "content/policy-issues/financing-the-government/debt-management.md",
+      "url": "/policy-issues/financing-the-government/debt-management",
+      "is_soft_404": false,
+      "local_title": "Debt Management"
+    },
+    {
+      "file": "content/footer/privacy-policy.md",
+      "url": "/footer/privacy-policy/",
+      "is_soft_404": false,
+      "local_title": "Privacy Policy"
+    },
+    {
+      "file": "content/data/troubled-assets-relief-program/housing.md",
+      "url": "/data/troubled-assets-relief-program/housing/",
+      "is_soft_404": true,
+      "local_title": "TARP Housing Programs"
+    },
+    {
+      "file": "content/footer/faqs.md",
+      "url": "/footer/faqs/",
+      "is_soft_404": false,
+      "local_title": "Frequently Asked Questions"
+    },
+    {
+      "file": "content/footer/site-policies.md",
+      "url": "/footer/site-policies/",
+      "is_soft_404": false,
+      "local_title": "Site Policies and Notices"
+    },
+    {
+      "file": "content/footer/google-privacy.md",
+      "url": "/footer/google-privacy/",
+      "is_soft_404": false,
+      "local_title": "Google Privacy"
+    },
+    {
+      "file": "content/policy-issues/coronavirus/assistance-for-american-industry.md",
+      "url": "/policy-issues/coronavirus/assistance-for-american-industry/",
+      "is_soft_404": true,
+      "local_title": "Assistance for American Industry"
+    },
+    {
+      "file": "content/resource-center/data-chart-center.md",
+      "url": "/resource-center/data-chart-center",
+      "is_soft_404": false,
+      "local_title": "Data Chart Center"
+    },
+    {
+      "file": "content/policy-issues/economic-policy/social-security-and-medicare.md",
+      "url": "/policy-issues/economic-policy/social-security-and-medicare/",
+      "is_soft_404": false,
+      "local_title": "Social Security and Medicare"
+    },
+    {
+      "file": "content/utility/accessibility.md",
+      "url": "/utility/accessibility/",
+      "is_soft_404": true,
+      "local_title": "Accessibility"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/overview.md",
+      "url": "/policy-issues/tax-policy/overview",
+      "is_soft_404": false,
+      "local_title": "Tax Policy Overview"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/tax-policy-overview.md",
+      "url": "/policy-issues/tax-policy/tax-policy-overview/",
+      "is_soft_404": false,
+      "local_title": "Tax Policy Overview"
+    },
+    {
+      "file": "content/about/careers-at-treasury/how-to-apply.md",
+      "url": "/about/careers-at-treasury/how-to-apply/",
+      "is_soft_404": true,
+      "local_title": "How to Apply"
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra/",
+      "is_soft_404": false,
+      "local_title": "Pay for Results (SIPPRA)"
+    },
+    {
+      "file": "content/services/report-fraud-waste-and-abuse.md",
+      "url": "/services/report-fraud-waste-and-abuse",
+      "is_soft_404": true,
+      "local_title": "Report Fraud, Waste, and Abuse"
+    }
+  ]
+}
