@@ -6,67 +6,50 @@ url: /policy-issues/terrorism-and-illicit-finance/treasury-executive-office-for-
 description: "TEOAF administers the Treasury Forfeiture Fund and manages seized and forfeited assets."
 ---
 
-The Treasury Executive Office for Asset Forfeiture (TEOAF) administers the Treasury Forfeiture Fund and manages the seizure and forfeiture of assets related to financial crimes.
+Treasury Executive Office for Asset Forfeiture (TEOAF)
 
-### Mission
+​The Treasury Executive Office for Asset Forfeiture (TEOAF) administers the Treasury Forfeiture Fund (TFF). The TFF is the receipt account for deposit of non-tax forfeitures made pursuant to laws enforced or administered by Treasury and Department of Homeland Security agencies.
 
-TEOAF supports law enforcement efforts by:
-- Administering the Treasury Forfeiture Fund
-- Managing seized and forfeited property
-- Providing equitable sharing with state and local partners
-- Supporting victims of crime through restitution
+Established in 1992, the Treasury Executive Office for Asset Forfeiture (TEOAF) was established to affirmatively influence the consistent and strategic use of asset forfeiture to disrupt and dismantle criminal enterprises.  Asset forfeiture is a vital legal tool that serves a number of compelling law enforcement purposes and is designed to deprive criminals of the proceeds of their crimes, to break the financial backbone of organized criminal syndicates and drug cartels, and to recover property that may be used to compensate victims and deter crime.
 
-### The Treasury Forfeiture Fund
+TEOAF administers the Treasury Forfeiture Fund (TFF), which is the receipt account for the deposit of non-tax forfeitures made pursuant to laws enforced or administered by Treasury and Department of Homeland Security (DHS) law enforcement agencies:
 
-The Treasury Forfeiture Fund receives:
-- Proceeds from forfeitures by Treasury bureaus
-- Forfeitures by Department of Homeland Security components
-- Related agencies' forfeiture proceeds
+Internal Revenue Service Criminal Investigations Division (IRS-CI), U.S. Department of the Treasury;
 
-Fund uses include:
-- Law enforcement operations
-- Equipment and training
-- Victim restitution
-- State and local equitable sharing
+U.S. Customs and Border Protection (CBP), Department of Homeland Security;
 
-### Member Agencies
+U.S. Homeland Security Investigations (HSI), Department of Homeland Security;
 
-TEOAF coordinates forfeitures from:
-- Internal Revenue Service (IRS-CI)
-- U.S. Secret Service
-- U.S. Customs and Border Protection
-- U.S. Immigration and Customs Enforcement
-- U.S. Coast Guard
+U.S. Secret Service (USSS), Department of Homeland Security;
 
-### Auctions
+U.S. Coast Guard, Department of Homeland Security.
 
-TEOAF auctions seized and forfeited property including:
-- Real estate
-- Vehicles
-- Vessels and aircraft
-- General merchandise
+Other statutory member agencies include the Federal Law Enforcement Training Center (FLETC), Financial Crimes Enforcement Network (FinCEN), and the Tax and Trade Bureau (TTB).
 
-[View Treasury Auctions](/services/treasury-auctions/)
+The TFF is a special fund, i.e. a federal fund collection earmarked by law for a specific purpose. The enabling legislation for TFF (Title 31 U.S.C. § 9705) defines those purposes for which Treasury forfeiture revenue may be used.  The funds can be allocated and used without the enactment of an annual appropriation by the Congress.
 
-### Equitable Sharing
+TEOAF’s priorities in administering the Treasury forfeiture program are to:
 
-TEOAF administers the equitable sharing program that:
-- Shares forfeiture proceeds with state and local agencies
-- Supports joint law enforcement efforts
-- Encourages cooperation on financial crime cases
+Administer and manage the Treasury Forfeiture Fund (TFF) program in a fiscally responsible manner that seeks to minimize administrative costs and maximize the benefits for law enforcement and the compensation of eligible victims.
 
-### Victim Restitution
+Ensure program policies protect due process rights of individuals.
 
-When appropriate, forfeiture proceeds are used to:
-- Compensate victims of fraud
-- Return property to rightful owners
-- Support restitution in criminal cases
+Focus resources on strategic cases and investigations that result in actions against high profile criminals and criminal enterprises to affect the greatest financial damage to criminal organizations.
 
-### Contact
+Foster a strong working relationship between federal and state or local law enforcement agencies.
 
-**Phone**: 202-622-9600
-**Location**: Washington, DC
+Additional information about the TFF is included in the following Treasury orders and Directives:
 
----
+Treasury Directive 15-04
 
-*Learn more about [Terrorism and Illicit Finance](/policy-issues/terrorism-and-illicit-finance/) or view [Treasury Auctions](/services/treasury-auctions/).*
+Treasury Order 102-14
+
+OFFICE OF CIVIL RIGHTS AND EQUAL EMPLOYMENT OPPORTUNITY
+
+To file a program discrimination complaint, send it to: Director, Office of Civil Rights and Equal Employment Opportunity, 1500 Pennsylvania Ave., N.W., Washington, DC 20220.
+
+Requests for reasonable accommodations under Section 504 of the Rehabilitation Act should be directed to our online feedback form.
+
+CONTACT INFORMATION
+
+​To contact TEOAF in Washington, DC or for general inquiries about TEOAF use our Online General Feedback form or call 202-622-9600.

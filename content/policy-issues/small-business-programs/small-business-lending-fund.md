@@ -6,59 +6,16 @@ url: /policy-issues/small-business-programs/small-business-lending-fund/
 description: "The Small Business Lending Fund provided capital to community banks to increase small business lending."
 ---
 
-The Small Business Lending Fund (SBLF) was a dedicated fund that provided capital to community banks to encourage lending to small businesses.
+Small Business Lending Fund
 
-### Program Overview
+Established by the Small Business Jobs Act of 2010 (the Act), the Small Business Lending Fund (SBLF) is a dedicated fund designed to provide capital to qualified community banks and community development loan funds (CDLFs) in order to encourage small business lending.  The purpose of the SBLF is to encourage Main Street banks and small businesses to work together, help create jobs, and promote economic growth in communities across the nation.
 
-Created by the Small Business Jobs Act of 2010, SBLF:
-- Provided Treasury capital to qualified community banks and CDFIs
-- Encouraged increased small business lending
-- Offered incentive-based pricing tied to lending growth
-- Focused on banks under $10 billion in assets
+Treasury invested over $4.0 billion in 332 institutions through the SBLF program.  These amounts include investments of $3.9 billion in 281 community banks and $104 million in 51 CDLFs.  Collectively, these institutions operate in over 3,000 locations across 47 states and the District of Columbia.
 
-### How It Worked
+Benefits to the Nation's Economy
 
-#### Capital Investment
-Treasury invested capital in eligible institutions:
-- Non-voting preferred stock or equivalent
-- Capital for lending, not operations
-- Subject to lending growth requirements
+As of Sep 30, 2024, institutions participating in SBLF have made important progress in increasing their small business lending, helping to support small businesses and local economies across the nation.
 
-#### Incentive Pricing
-Dividend rates decreased as small business lending increased:
-- Base rate with reductions for lending growth
-- Encouragement to lend more to small businesses
-- Alignment of bank and public interest
+As of Q3 2025, the total cumulative net impact on qualified small business lending (or QSBL) over the baseline reported by current and former SBLF participants is $19.1 billion.  As established in the Small Business Jobs Act of 2010, the baseline is the average of the amounts reported for the four calendar quarters ended June 30, 2010.
 
-### Eligible Institutions
-
-The program was open to:
-- Community banks with less than $10 billion in assets
-- Community Development Financial Institutions (CDFIs)
-- Institutions not recipients of TARP capital
-
-### Program Results
-
-SBLF:
-- Deployed billions in capital
-- Supported hundreds of financial institutions
-- Increased small business lending
-- Reached underserved communities
-
-### Program Status
-
-The SBLF program has wound down:
-- Investment period closed
-- Funds have been repaid or are being monitored
-- Legacy reporting continues
-
-### Related Programs
-
-Current small business initiatives include:
-- [State Small Business Credit Initiative (SSBCI)](/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci/)
-- [CDFI Fund Programs](https://www.cdfifund.gov/)
-- [SBA Lending Programs](https://www.sba.gov/)
-
----
-
-*Explore [Small and Disadvantaged Business Utilization](/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization/) or more [Small Business Programs](/policy-issues/small-business-programs/).*
+As of December 1, 2025, 327 institutions with aggregate investments of $3.95 billion have fully redeemed their SBLF Treasury investment and exited the program, and 1 institution has partially redeemed $3.5 million (or 70 percent of its SBLF securities) while continuing to participate in the program.

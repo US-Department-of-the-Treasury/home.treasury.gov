@@ -6,75 +6,42 @@ url: /about/careers-at-treasury/studentinternship-programs/pathways-programs/
 description: "Federal internship and employment programs for students and recent graduates at Treasury."
 ---
 
-The Pathways Programs offer federal internship and employment opportunities for students and recent graduates to begin their careers in federal service.
+Pathways Programs
 
-### Three Pathways to Federal Careers
+Treasury actively participates in the Pathways Programs, which allows those with limited professional experience find developmental opportunities in the government.
 
-#### 1. Internship Program
+Internships
 
-For current students in high school through graduate school:
+Recent Graduates
 
-**Eligibility**
-- Currently enrolled in an accredited educational institution
-- Seeking a diploma, certificate, or degree
-- Enrolled at least half-time
+Presidential Management Fellows
 
-**Benefits**
-- Paid work experience
-- Mentoring and career development
-- Potential for conversion to permanent position
-- Flexible schedules that accommodate school
+BASIC QUALIFICATIONS
 
-#### 2. Recent Graduates Program
+Pathways, short for the Pathways Program, are designed for those who are  students seeking a degree or those who have recently graduated. Although Pathways allows for some temporary hiring, in most circumstances Pathways is used for developmental, permanent work.
 
-For those who recently completed a qualifying degree:
+Pathways may be a good fit for you if:
 
-**Eligibility**
-- Completed an associate's, bachelor's, master's, professional, doctorate, or vocational/technical degree
-- Applied within two years of graduation (up to six years for veterans)
+You are a current student or recent graduate from a qualifying program/institution
 
-**Benefits**
-- Full-time positions with career-conditional appointment
-- One-year developmental program
-- Mentoring and training
-- Conversion to permanent position upon successful completion
+Are a U.S. Citizen (or working toward citizenship)
 
-#### 3. Presidential Management Fellows (PMF) Program
+If male, over 18 years of age, and born after December 31, 1959, you have registered with the Selective Service System
 
-A prestigious two-year program for advanced degree holders:
+You are interested in developing your career through public service
 
-**Eligibility**
-- Obtained an advanced degree within the past two years
-- Completed a rigorous assessment process
-- Demonstrated leadership potential
+APPLICATION REQUIREMENTS
 
-**Benefits**
-- Leadership development opportunities
-- Mentoring from senior executives
-- Rotational assignments
-- Network of fellow PMFs across government
-- Conversion to permanent position
+Please refer to a USAJOB job posting for exact details on requirements. You may be disqualified if you do not follow the directions listed in the job announcement. Possible required documents may include:
 
-### How to Apply
+Resume
 
-All Pathways positions are posted on [USAJOBS](https://www.usajobs.gov/):
+School transcripts
 
-1. Search for "Pathways" or specific program names
-2. Review announcement requirements
-3. Submit application before closing date
-4. Complete any required assessments
+Veteran Status forms (DD-214)
 
-### Tips for Students
+Past Government experience (SF-50s)
 
-- **Start Early** - Look for internship opportunities early in your academic career
-- **Build Your Resume** - Highlight academic achievements and relevant experience
-- **Network** - Attend career fairs and Treasury recruitment events
-- **Research** - Learn about Treasury's mission and how you can contribute
+CONTACT INFORMATION
 
-### Contact
-
-For questions about Pathways Programs at Treasury, contact the Human Resources office for the specific bureau or office you're interested in.
-
----
-
-*Learn more about [How to Apply](/about/careers-at-treasury/how-to-apply/) or explore [Careers at Our Bureaus](/about/careers-at-treasury/careers-at-our-bureaus/).*
+Email Pathways@treasury.gov for additional information

@@ -6,61 +6,118 @@ url: /policy-issues/economic-policy/total-taxable-resources/
 description: "Treasury estimates of total taxable resources by state for federal grant allocation purposes."
 ---
 
-The U.S. Department of the Treasury publishes estimates of Total Taxable Resources (TTR) for each state, which are used in various federal grant allocation formulas.
+Total Taxable Resources
 
-### What Are Total Taxable Resources?
+Under Public Law 102-321, the Department of Treasury is required to produce annual estimates of Total Taxable Resources (TTR), Treasury's estimates of the relative fiscal capacity of the states.
 
-Total Taxable Resources is a comprehensive measure of a state's ability to raise revenue. It includes:
-- Personal income
-- Corporate income generated in the state
-- Property values
-- Resource extraction (minerals, oil, gas)
-- Other revenue sources
+TTR was developed as an outgrowth of a Congressionally mandated study on Federal, State, and local government fiscal relations entitled "Federal-State-Local Fiscal Relations: Technical Papers, Vol. 2, Office of State and Local Finance, Department of Treasury, September 1986".
 
-### Purpose
+The estimates for TTR are used in formulas that allocate Federal funds for the Community Mental Health Service and Substance Abuse Prevention and Treatment block grant programs among the states. The block grant programs are administered by the Substance Abuse and Mental Health Services Administration.
 
-TTR estimates are used to:
-- Allocate certain federal grants among states
-- Assess state fiscal capacity
-- Compare state revenue-raising ability
-- Inform policy analysis
+Summary of Current Methodology for Estimating TTR
 
-### Methodology
+Working Paper Review of Methodology for Estimating TTR
 
-Treasury calculates TTR using:
-- Bureau of Economic Analysis state personal income data
-- Adjustments for income not subject to state taxation
-- Estimates of resources not captured in personal income
-- State-specific economic factors
+2024 Total Taxable Resources Estimates - 09/30/2024
 
-### Uses in Federal Programs
+2024 Total Taxable Resources Estimates - 09/30/2024
 
-Programs that use TTR for grant allocation include:
-- Vocational rehabilitation state grants
-- Social services block grants
-- Certain education programs
-- Other formula-based grants
+2023 Total Taxable Resources Estimates - 09/30/2023
 
-### Data Availability
+2023 Total Taxable Resources Estimates - 09/30/2023
 
-TTR estimates are:
-- Published annually
-- Available for all 50 states and D.C.
-- Presented in both nominal and per capita terms
-- Released in the Federal Register
+2022 Total Taxable Resources Estimates - 09/30/2022
 
-### Historical Data
+2022 Total Taxable Resources Estimates - 09/30/2022
 
-Historical TTR data enables:
-- Trend analysis of state fiscal capacity
-- Comparison of state economic development
-- Assessment of regional economic changes
+2021 Total Taxable Resources Estimates - 09/30/2021
 
-### Resources
+2021 Total Taxable Resources Estimates - 09/30/2021
 
-- [Bureau of Economic Analysis](https://www.bea.gov/)
-- [State Personal Income Data](https://www.bea.gov/data/income-saving/personal-income-by-state)
+2020 Total Taxable Resources Estimates - 09/30/2020
 
----
+2020 Total Taxable Resources Estimates - 09/30/2020
 
-*Explore more [Economic Policy](/policy-issues/economic-policy/) issues.*
+2019 Total Taxable Resources Estimates
+
+2019 Total Taxable Resources Estimates
+
+2018 Total Taxable Resources Estimates-09/28/2018
+
+2018 Total Taxable Resources Estimates-09/28/2018
+
+2017 Total Taxable Resources Estimates-09/29/2017
+
+2017 Total Taxable Resources Estimates-09/29/2017
+
+2016 Total Taxable Resources Estimates-09/30/2016
+
+2016 Total Taxable Resources Estimates-09/30/2016
+
+2015 Total Taxable Resources Estimates-09/30/2015
+
+2015 Total Taxable Resources Estimates-09/30/2015
+
+2014 Total Taxable Resources Estimates-09/18/2014
+
+2014 Total Taxable Resources Estimates-09/18/2014
+
+2013 Total Taxable Resources Estimates-09/27/2013
+
+2013 Total Taxable Resources Estimates-09/27/2013
+
+2012 Total Taxable Resources Estimates-09/28/2012
+
+2012 Total Taxable Resources Estimates-09/28/2012
+
+2011 Total Taxable Resources Estimates-09/30/2011
+
+2011 Total Taxable Resources Estimates-09/30/2011
+
+2010 Total Taxable Resources Estimates -- research series-12/13/2010
+
+2010 Total Taxable Resources Estimates -- research series-12/13/2010
+
+2010 Total Taxable Resources Estimates-09/30/2010
+
+2010 Total Taxable Resources Estimates-09/30/2010
+
+2009 Total Taxable Resources Estimates-09/21/2009
+
+2009 Total Taxable Resources Estimates-09/21/2009
+
+2008 Total Taxable Resources Estimates-09/25/2008
+
+2008 Total Taxable Resources Estimates-09/25/2008
+
+2007 Total Taxable Resources Estimates-09/28/2007
+
+2007 Total Taxable Resources Estimates-09/28/2007
+
+2006 Total Taxable Resources Estimates-09/26/2006
+
+2006 Total Taxable Resources Estimates-09/26/2006
+
+2005 Total Taxable Resources Estimates-09/30/2005
+
+2005 Total Taxable Resources Estimates-09/29/2005
+
+2003 Total Taxable Resources Estimates-09/30/2003
+
+2003 Total Taxable Resources Estimates-09/30/2003
+
+2002 Total Taxable Resources Estimates-09/30/2002
+
+2002 Total Taxable Resources Estimates-09/30/2002
+
+2001 Total Taxable Resources Estimates -09/30/2001
+
+2001 Total Taxable Resources Estimates-09/30/2001
+
+2000 Total Taxable Resources Estimates-09/30/2000
+
+2000 Total Taxable Resources Estimates-09/30/2000
+
+1999 Total Taxable Resources Estimates-09/30/1999
+
+1999 Total Taxable Resources Estimates-09/30/1999

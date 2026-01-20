@@ -1,60 +1,65 @@
 ---
-title: "Office of Public Affairs"
+title: "Public Affairs"
 date: 2026-01-17
 draft: false
 url: /about/offices/public-affairs/
 description: "The Office of Public Affairs handles Treasury communications, media relations, and public engagement."
 ---
 
-The Office of Public Affairs serves as the communications hub for the U.S. Department of the Treasury, managing media relations, public communications, and outreach activities.
+Public Affairs
 
-### Mission
+​Public Affairs develops and implements communications strategy for the Department and advises officials within the Department and its bureaus how best to communicate issues and priorities of public interest. For more information, please visit the Press Center.
 
-To effectively communicate Treasury's policies, programs, and priorities to the American public, media, and stakeholders.
+TREASURY BUREAUS' PUBLIC AFFAIRS SITES
 
-### Key Functions
+The Alcohol and Tobacco Tax and Trade Bureau (TTB)
 
-#### Media Relations
-- Press releases and announcements
-- Media inquiries and briefings
-- Interview coordination
-- News conferences
+Bureau of Engraving and Printing (BEP)
 
-#### Digital Communications
-- Website management
-- Social media presence
-- Email communications
-- Multimedia content
+Bureau of the Fiscal Service
 
-#### Speechwriting
-- Preparing remarks for Treasury officials
-- Congressional testimony
-- Public statements
-- Policy announcements
+Community Development Financial Institution (CDFI) Fund
 
-#### Public Engagement
-- Stakeholder outreach
-- Public events
-- Community relations
-- Educational initiatives
+Financial Crimes Enforcement Network (FinCEN)
 
-### News and Press Resources
+Internal Revenue Service (IRS)
 
-#### For Media
-- [Press Releases](/news/press-releases/)
-- [Statements and Remarks](/news/statements-remarks/)
-- [Media Advisories](/news/media-advisories/)
-- [Webcasts](/news/webcasts/)
+Office of the Comptroller of the Currency (OCC)
 
-#### Press Contacts
-For media inquiries, contact the Treasury Press Office at [press contacts](/news/contacts-for-members-of-the-media/).
+Office of Thrift Supervision (OTS)
 
-### Connect With Us
+U.S. Mint
 
-Follow Treasury on social media:
-- [@USTreasury on X (Twitter)](https://twitter.com/USTreasury)
-- [Subscribe to Press Releases](https://public.govdelivery.com/accounts/USTREAS/subscriber/new)
+FEDERAL PUBLIC AFFAIRS SITES
 
----
+The White House
 
-*Visit our [News](/news/) section for the latest Treasury announcements or explore other [Treasury Offices](/about/offices/).*
+Department of Agriculture
+
+Department of Commerce
+
+Department of Defense
+
+Department of Education
+
+Department of Energy
+
+Department of Health and Human Services
+
+Department of Homeland Security
+
+Department of Housing and Urban Development
+
+Department of Interior
+
+Department of Justice
+
+Department of Labor
+
+Department of State
+
+Department of Transportation
+
+Department of Veterans' Affairs
+
+​

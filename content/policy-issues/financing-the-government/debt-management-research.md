@@ -6,64 +6,72 @@ url: /policy-issues/financing-the-government/debt-management-research/
 description: "Research on Treasury debt management practices, auction design, and securities markets."
 ---
 
-The U.S. Department of the Treasury supports and publishes research on debt management, auction design, and Treasury securities markets.
+Debt Management Research
 
-### Research Areas
+FOREIGN PARTICIPATION IN THE U.S. TREASURY SECURITIES MARKET
 
-#### Auction Design and Performance
-- Optimal auction mechanisms
-- Bidding behavior analysis
-- Price discovery in Treasury auctions
-- Primary dealer performance
+A brief overview of key data sources on foreign participation in the U.S. Treasury securities market.
 
-#### Debt Portfolio Management
-- Optimal debt maturity structure
-- Cost-risk tradeoffs
-- Interest rate exposure management
-- Scenario analysis and stress testing
+A FINANCIAL SYSTEM THAT CREATES ECONOMIC OPPORTUNITIES - CAPITAL MARKETS
 
-#### Market Microstructure
-- Treasury market liquidity
-- Trading patterns and volumes
-- Market making and intermediation
-- Electronic trading evolution
+The U.S. Department of the Treasury report to President Donald J. Trump in response to Executive Order 13772 on core principles for regulating the United States financial system. Discussion of the treasury market begins in page 69 of the report.
 
-#### Investor Behavior
-- Demand for Treasury securities
-- Foreign investor participation
-- Flight to quality during stress
-- Portfolio allocation decisions
+TREASURY MARKET CONFERENCES
 
-### Key Research Questions
+Treasury Market Structure Conferences Archive
 
-Treasury debt management research addresses:
-- How can Treasury minimize borrowing costs while managing risk?
-- What is the optimal maturity structure of government debt?
-- How do market conditions affect auction outcomes?
-- What factors drive demand for Treasury securities?
+Annual conference conducted by the Joint Staff Agencies (the U.S. Department of the Treasury, the Board of Governors of the Federal Reserve System, the Federal Reserve Bank of New York, the U.S. Securities and Exchange Commission, and the U.S. Commodity Futures Trading Commission) to discuss topical issues in Treasury market structure.
 
-### Treasury Borrowing Advisory Committee (TBAC)
+2019 Annual Conference
 
-TBAC presentations often include market research on:
-- Current market conditions
-- Investor demand trends
-- Issuance strategy recommendations
-- Market structure developments
+2018 Annual Conference
 
-### Academic Partnerships
+2017 Annual Conference
 
-Treasury collaborates with academic researchers on topics including:
-- Auction theory applications
-- Fiscal policy implications
-- Financial market analysis
-- Economic modeling
+2016 Annual Conference
 
-### Resources
+2015 Annual Conference
 
-- [Quarterly Refunding](/policy-issues/financing-the-government/quarterly-refunding/)
-- [Treasury Investor Data](/policy-issues/financing-the-government/treasury-investor-data/)
-- [NBER Treasury Research](https://www.nber.org/)
+Archive of Roundtables on Treasury Markets and Debt Management
 
----
+Treasury hosted a series of roundtables discussing current issues in debt management.
 
-*Learn more about [Financing the Government](/policy-issues/financing-the-government/).*
+2011 Roundtable Archive
+
+2012 Roundtable Archive
+
+2013 Roundtable Archive
+
+2014 Roundtable Archive
+
+2015 Roundtable Archive
+
+JOINT STAFF REPORT: THE U.S. TREASURY MARKET ON OCTOBER 15, 2014
+
+A report by staff from the U.S. Department of the Treasury, the Board of Governors of the Federal Reserve System, the Federal Reserve Bank of New York, the U.S. Securities and Exchange Commission, and the U.S. Commodity Futures Trading Commission on the unusually high level of volatility and very rapid round-trip in prices on October 15, 2014 in the market for U.S. Treasury securities, futures, and other closely related financial markets.
+
+Comment Letters Received in Response to the Request for Information (RFI) on the Evolution of the U.S. Treasury Market Structure - Treasury received comment letters in response to an RFI requesting public comments on the evolution of the U.S. Treasury market structure. The RFI followed the next steps identified in the Joint Staff Report.
+
+BUYBACKS IN TREASURY CASH AND DEBT MANAGEMENT
+
+SECURITIES LENDING FACILITY: WHITE PAPER & COMMENTS
+
+Treasury’s 2006 paper, “Consideration of a Proposed Treasury Securities Lending Facility,” and comments received in response.
+
+Securities Lending Facility White Paper
+
+Comments received on Securities Lending Facility White Paper
+
+TREASURY UNIFORM-PRICE AUCTION STUDY
+
+Uniform Price Auctions Evaluation October 1995
+
+Update of the Treasury Experience October 1998
+
+JOINT STUDY OF THE REGULATORY SYSTEM FOR GOVERNMENT SECURITIES
+
+The March 1998 Joint Study of the Department of the Treasury, The Securities and Exchange Commission and the Board of Governors of the Federal Reserve System pursuant to directives of the Government Securities Act Amendments of 1993. The study evaluates certain rules for government securities  and their effectiveness and impact on the government securities market. It also evaluates the effectiveness of surveillance and enforcement.
+
+JOINT REPORT ON THE GOVERNMENT SECURITIES MARKET
+
+The January 1992 Joint Report of the Department of the Treasury, The Securities and Exchange Commission and the Board of Governors of the Federal Reserve System following the revelations of events following Salomon Brothers and alleged government securities market abuses.

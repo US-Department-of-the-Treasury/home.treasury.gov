@@ -1,77 +1,57 @@
 ---
-title: "TIC Forms and Instructions"
+title: "TIC Forms & Instructions"
 date: 2026-01-17
 draft: false
 url: /data/treasury-international-capital-tic-system-home-page/tic-forms-instructions/
 description: "Forms and instructions for reporting to the Treasury International Capital (TIC) system."
 ---
 
-The Treasury International Capital (TIC) system collects data from U.S. financial institutions and other entities on cross-border portfolio investment and banking activity.
+TIC Forms & Instructions
 
-### Who Must Report
+SUBSCRIBE TO TIC FORMS & INSTRUCTIONS
 
-TIC reporting is mandatory for:
-- Banks and other depository institutions
-- Securities brokers and dealers
-- Custodians
-- Investment managers
-- Other entities meeting reporting thresholds
+1. TIC MONTHLY AND QUARTERLY REPORTS
 
-### Major TIC Forms
+TIC B Forms, filed by Banks & Other Financial Firms. (Forms BC, BL-1, BL-2, BQ-1, BQ-2 and BQ-3)
 
-#### Banking Forms (B Forms)
-- **BC** - Claims on Foreigners
-- **BL** - Liabilities to Foreigners
-- **BQ** - Financial Liabilities/Claims (Quarterly)
+TIC C Forms, filed by Nonfinancial Firms. (Forms CQ-1 and CQ-2)
 
-#### Securities Forms (S Forms)
-- **SLT** - Aggregate Holdings of Securities
-- **SHCA** - Annual Survey of U.S. Holdings of Foreign Securities
-- **SHC** - Survey of Foreign Holdings of U.S. Securities
+TIC Form D, filed by those in Derivatives markets.
 
-### Form Instructions
+TIC Form S , (Discontinued 02-21-2023; record keeping continued as needed) filed by those selling and purchasing long-term Securities.
 
-Each TIC form includes:
-- Who must file
-- What to report
-- When to file
-- How to file
-- Definitions and examples
+TIC Form SLT, filed by those engaged in cross-border holding of long-term Securities.
 
-### Filing Deadlines
+2. TIC ANNUAL AND BENCHMARK REPORTS
 
-TIC forms have specific deadlines:
-- Monthly forms due within specified business days
-- Quarterly forms due after quarter end
-- Annual surveys with extended deadlines
+Forms SHC and SHCA : U.S. Ownership of Foreign Securities.
 
-### Electronic Filing
+Forms SHL and SHLA : Foreign-Residents' Holdings of U.S. Securities.
 
-TIC data is filed electronically through:
-- TIC Filing System
-- Secure internet transmission
-- Standardized data formats
+3. WHAT'S NEW: changes in reports.
 
-### Exemption Thresholds
+(NEW 2024-09-11) The Federal Register Notice of September 9, 2024 invites comments by November 8, 2024 regarding renewal of Form D, "Holdings of, and Transactions in, Financial Derivatives". No changes in the form or the instructions are being proposed at this time.
 
-Small institutions may be exempt if below:
-- Specified dollar thresholds
-- Activity levels
-- Check with form instructions for current thresholds
+(NEW 06-05-2024) The Federal Register Notice of mandatory reporting requirements for the SHL(2024) benchmark survey was published on June 5, 2024. Entities required to report are all United States persons who either: (a) are contacted individually by the Federal Reserve Bank of New York; or (b) who meet the reporting requirements set forth in the Federal Register Notice of June 5, 2024. The Notice, Forms and Instructions are all available above in part A at: Foreign Portfolio Holdings of U.S. Securities, including Selected Money Market Instruments, as of June 28, 2024.
 
-### Contact
+(11-20-2023) The Federal Register Notice of mandatory reporting requirements for the SHCA(2023) annual survey was published on November 17, 2022. Entities required to report will be contacted individually by the Federal Reserve Bank of New York. Entities not contacted by the Federal Reserve Bank of New York have no reporting responsibilities. Forms and Instructions are also available: U.S. Ownership of Foreign Securities, including Selected Money Market Instruments, as of December 31, 2023.
 
-For questions about TIC reporting:
-- Contact information in form instructions
-- Federal Reserve Bank of New York
-- Treasury TIC program office
+(02-21-2023) The monthly TIC S form has been discontinued, with as-of date 01/31/2023 being the last reporting month. Institutions that previously filed the TIC S form are required to keep records for 3 years to respond to any potential inquiries regarding historical submissions.
 
-### Resources
+The Department of Treasury and the Federal Reserve Bank of New York thank filers of the TIC S form for their many years of reporting. See the webpage for TIC S-Form.
 
-- [TIC System Overview](/data/treasury-international-capital-tic-system/)
-- [Release Dates](/data/treasury-international-capital-tic-system-home-page/release-dates-of-tic-data-0/)
-- [Federal Reserve Bank of New York TIC Page](https://www.newyorkfed.org/)
+(12-20-2022, ONE Country Name CHANGE IN ALL B-forms, ALL C-forms, Form D, Form S, and Form SLT). Only one change is made in each Form: the name “Swaziland” is changed to “Eswatini”. The TIC country code is not changed because this is just a name change. This revision applies to all TIC reporting forms. This revision is effective for monthly and quarterly reports beginning with reports as-of November 2022, OR as-of December 2022 if your report for November is already prepared. This revision is effective for quarterly reports as-of December 2022 and afterwards. [FYI: Previously, “Swaziland” was before Tanzania in the country list for Africa; now “Eswatini” is before Ethiopia in the county list for Africa.]
 
----
+(REVISED 05-19-2021). The revised Form and Instructions, which are effective for reports as-of November 2022 and afterwards, are available for Form SLT: Aggregate Holdings, Purchases and Sales, and Fair Value Changes of Long-Term Securities by U.S. and Foreign Residents. The form and instructions of May 2021 are revised to include clarifications requested by the public in their comments to the Federal Register Notice of January 28, 2021.
 
-*Explore more [Treasury Data](/data/).*
+(03-12-2021). The TIC Web site has been redesigned slightly and activated this past week. We invite users to inform us of any missing or broken links.
+
+-- Update your Bookmarks. If you use a bookmark in your browser to go to a certain webpage, you will open a redirect-page that says something like "this page has been moved". Clicking on the word "moved" will take you to the new webpage. Then you can change your bookmark to go to the new url location.
+
+-- The new webpages are exactly like the previous ones, except: (a) the text is larger so more scrolling will be required; (b) the grey help-bar across the top of each previous-page has been renamed "Contact TIC & Help for Data Filers", and moved into the left-hand column, under the section name "TIC Forms and Instructions". IF YOU CANNOT SEE THE LEFT-HAND COLUMN, try widening the window on your browser screen until you see the column.
+
+The list of selected Foreign Official Institutions (FOI list) for use on all TIC reports was changed, effective August 2014. The Only change is the removal of Banco do Brasil, under Brazil. The list is on column B1 on the foihome webpage. (Posted 08-06-2014)
+
+IMPORTANT FOR ALL: The Reporting Central application is used for all electronic submissions of the TIC monthly and quarterly reports (all B-forms, C-forms, Form D, Form S, and Form SLT).
+
+** SIGN UP for Reporting Central at the Reporting Central Resource Center. (Posted in 2012)

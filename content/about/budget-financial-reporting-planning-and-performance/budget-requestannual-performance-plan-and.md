@@ -6,61 +6,58 @@ url: /about/budget-financial-reporting-planning-and-performance/budget-requestan
 description: "Treasury's annual budget requests, performance plans, and annual performance reports."
 ---
 
-The U.S. Department of the Treasury submits annual budget requests to Congress and publishes performance plans and reports to demonstrate how resources support the Department's mission.
+Budget Request/Annual Performance Plan and Reports
 
-### Congressional Budget Justification
+The Government Performance and Results Act Modernization Act (GPRAMA) of 2010 requires Treasury and other federal agencies to formally monitor and review organizational performance through strategic reviews, the annual performance plan, and the annual performance report.
 
-Each fiscal year, Treasury submits a Congressional Budget Justification that includes:
-- Requested appropriations for Treasury operations
-- Justifications for resource requirements
-- Program descriptions and activities
-- Performance metrics and targets
+ABOUT KEY BUDGET AND PERFORMANCE DOCUMENTS
 
-### Annual Performance Plan
+Treasury publishes its annual performance plan and report as a part of its congressional budget justification, which includes the high-level results from its internal strategic reviews.  Treasury’s key budget and performance reports provide Congress, the President, and the American people detailed information about Treasury's stewardship over its financial resources and progress in reaching its goals.
 
-The Annual Performance Plan outlines:
-- Strategic goals and objectives
-- Performance measures and targets
-- Strategies for achieving goals
-- Resource requirements
+Key budget and performance documents are:
 
-### Annual Performance Report
+The Congressional Justification of Appropriations (CJ) reflects the President’s Budget request for the Department of the Treasury and is prepared in accordance with OMB Circular A-11.  The CJ includes agency priorities, requested budget levels, and performance plans and reports (in accordance with GPRAMA).
 
-The Annual Performance Report evaluates:
-- Achievement of performance goals
-- Progress toward strategic objectives
-- Challenges and corrective actions
-- Future performance strategies
+The Budget-in-Brief (BIB) summarizes the CJ.
 
-### Treasury's Budget Structure
+The Treasury Performance Validation and Verification Appendix provides a detailed listing of all performance measures and indicators included in Treasury’s Annual Performance Report (APR) with their respective definitions, data sources, data collection methodologies, assessments of reliability, and reporting frequency.
 
-Treasury's budget supports:
+The Federal Program Inventory describes each of Treasury’s 94 programs in all of the bureaus and how the program supports the Department’s broader Strategic Goals.
 
-#### Departmental Offices
-- Policy offices and executive leadership
-- Management and administrative functions
+The Summary of Capital Investments provides detailed information on Treasury’s IT and non-IT capital investments.
 
-#### Bureaus
-- Internal Revenue Service
-- Bureau of the Fiscal Service
-- U.S. Mint
-- Bureau of Engraving and Printing
-- Financial Crimes Enforcement Network
-- Office of the Comptroller of the Currency
-- Alcohol and Tobacco Tax and Trade Bureau
+The Treasury International Programs provide leadership in international development, advance national security, and expand export markets for American businesses by promoting international financial stability and supporting key global initiatives.
 
-#### Other Components
-- Office of Inspector General
-- Treasury Inspector General for Tax Administration
-- Special Inspector General for Pandemic Recovery
+The FY2022-2026 Learning Agenda is is Treasury’s multi-year strategic evidence-building plan and focuses the Department’s attention on the evidence needed to implement the FY 2022–2026 Strategic Plan.
 
-### Accessing Budget Documents
+The FY2022-2026 Capacity Assessment is an assessment of Treasury's capacity to build and use evidence generated through research, analysis, evaluation, and statistical activities.
 
-Budget documents are available on:
-- Treasury's website
-- [OMB Max Portal](https://www.whitehouse.gov/omb/budget/)
-- [USASpending.gov](https://www.usaspending.gov/)
+The Annual Evaluation Plan outlines the significant evaluation activities that Treasury plans to conduct in the following Fiscal Year.
 
----
+KEY BUDGET AND PERFORMANCE DOCUMENTS
 
-*Learn more about [Treasury's Budget and Performance](/about/budget-financial-reporting-planning-and-performance/).*
+Congressional Justification
+
+Budget-in-Brief
+
+Machine Readable Executive Summary Tables
+
+FY2023 Treasury Performance Validation and Verification Appendix
+
+2013 Federal Program Inventory
+
+Summary of Capital Investments
+
+Treasury International Programs Justification of Appropriations
+
+Good Accounting Obligation in Government Act: Report(s) under development
+
+Treasury FY 2022 – 2026 Learning Agenda
+
+Treasury FY 2022 – 2026 Evidence-building Capacity Assessment
+
+Treasury FY 2025 Annual Evaluation Plan
+
+Treasury FY 2024 Annual Evaluation Plan
+
+For information about the President's Budget, please visit the Office of Management and Budget's webpage.

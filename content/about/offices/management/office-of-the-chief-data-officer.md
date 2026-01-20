@@ -6,63 +6,48 @@ url: /about/offices/management/office-of-the-chief-data-officer/
 description: "The Office of the Chief Data Officer manages Treasury's data governance, analytics, and open data initiatives."
 ---
 
-The Office of the Chief Data Officer (OCDO) leads the Treasury Department's efforts to manage, govern, and leverage data as a strategic asset.
+Office of the Chief Data Officer
 
-### Mission
+Champion the appropriate use, sharing, education, and management of Treasury data, enabling informed insights that benefit the public good.
 
-To enable data-driven decision making across Treasury by establishing robust data governance, advancing analytics capabilities, and promoting open data initiatives.
+Treasury is the leading digital agency, leveraging trusted data with speed and at scale to grow and protect the American economy.
 
-### Key Responsibilities
+STRATEGIC OBJECTIVES
 
-#### Data Governance
-- Establishing data standards and policies
-- Ensuring data quality and integrity
-- Managing data architecture
-- Coordinating data stewardship
+Improve data sharing and analysis across Treasury and other Federal agencies through planning for a Treasury data catalog, identification, discovery, and publishing Treasury data assets;
 
-#### Analytics and Insights
-- Advanced analytics and data science
-- Business intelligence
-- Performance measurement
-- Predictive modeling
+Improve access and use of high-quality data and metadata to inform decision-making through implementation of a Treasury-wide metadata management tool, and increase the capacity to conduct and deliver data analytics;
 
-#### Open Data
-- Publishing Treasury data on data.gov
-- Ensuring transparency and accessibility
-- Supporting public access to government data
-- Compliance with open data mandates
+Build and improve data governance, data management, data maturity mapping, and metadata management best practices through implementation of the Evidence Act and a corporate data infrastructure program;
 
-#### Evidence-Based Policy
-- Supporting the Foundations for Evidence-Based Policymaking Act (Evidence Act)
-- Statistical programs and surveys
-- Program evaluation
-- Research partnerships
+Enhance data literacy and foster a data culture through the establishment of a data literacy program, training, and identification of data centric career opportunities;
 
-### Key Initiatives
+Support the Treasury organizational health assessment and business intelligence tool development;
 
-#### Data Strategy
-Treasury's data strategy focuses on:
-- Making data accessible and usable
-- Improving data quality
-- Enabling advanced analytics
-- Protecting sensitive information
+Support Treasury Department, administration, and Congressional data calls and analytic work product requests in support of the Treasury Department mission.
 
-#### Fiscal Data
-The Chief Data Officer works closely with the Bureau of the Fiscal Service on:
-- [FiscalData.Treasury.gov](https://fiscaldata.treasury.gov/) - America's fiscal data
-- Federal spending transparency
-- Debt and revenue reporting
+OCDO Leadership
 
-### Related Resources
+David Ashley
 
-- [Data.gov](https://www.data.gov/) - Open government data
-- [FiscalData Treasury](https://fiscaldata.treasury.gov/) - Federal fiscal data
-- [Evidence Act H.R.4174](https://www.congress.gov/bill/115th-congress/house-bill/4174) - Foundation for evidence-based policymaking
+Acting Chief Data Officer
 
-### Federal CDO Council
+david.ashley@treasury.gov
 
-The Treasury Chief Data Officer participates in the Federal CDO Council, collaborating with data leaders across the federal government to advance data management practices.
+Resources
 
----
+Federal CDO Council
 
-*Learn more about the [Office of Management](/about/offices/management/) or explore [Treasury Data](/data/).*
+Data.Gov
+
+Treasury Open Data
+
+Evidence Act
+
+H.R.4174 - 115th Congress (2017-2018): Foundations for Evidence-Based Policymaking Act of 2018 Library of Congress
+
+Evidence Act
+
+https://datafoundation.org
+
+Treasury OCDO Overview

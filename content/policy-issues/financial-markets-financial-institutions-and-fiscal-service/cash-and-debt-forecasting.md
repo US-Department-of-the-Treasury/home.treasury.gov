@@ -6,67 +6,16 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "Treasury's cash and debt forecasting supports government cash management operations."
 ---
 
-The U.S. Department of the Treasury forecasts the government's cash flows and borrowing needs to support efficient cash management operations.
+Cash and Debt Forecasting
 
-### Purpose
+DAILY TREASURY STATEMENT (DTS)
 
-Cash and debt forecasting enables Treasury to:
-- Manage the government's operating cash balance
-- Plan borrowing through Treasury securities
-- Minimize borrowing costs
-- Ensure the government meets all obligations
+This statement summarizes the United States Treasury's cash and debt operations for the Federal Government. Treasury's operating cash is maintained in an account at the Federal Reserve Bank of New York and in Tax and Loan accounts at commercial banks. The Daily Treasury Statement (DTS) is available by 4:00 p.m. the following business day.
 
-### Cash Forecasting
+MONTHLY TREASURY STATEMENT OF RECEIPTS AND OUTLAYS OF THE UNITED STATES GOVERNMENT (MTS)
 
-Treasury forecasts:
-- Daily cash inflows and outflows
-- Major payment dates (Social Security, tax refunds, interest)
-- Revenue collections (estimated taxes, withholding)
-- Operating cash balance targets
+The Monthly Treasury Statement of Receipts and Outlays of the United States Government (MTS) is normally released on the 8th workday of the month following the reporting month. The MTS is published to meet the needs of: those responsible for or interested in the cash position of the Treasury; those who are responsible or interested in the Government's budget results; and individuals and businesses whose operations depend upon or are related to the Government's financial operations.
 
-### Debt Forecasting
+MONTHLY STATEMENT OF THE PUBLIC DEBT (MSPD)
 
-Treasury projects:
-- Net borrowing needs
-- Gross issuance requirements
-- Maturity profile of outstanding debt
-- Interest expense projections
-
-### Data Sources
-
-Forecasts incorporate:
-- Historical payment and collection patterns
-- Budget projections
-- Tax receipt estimates
-- Economic forecasts
-
-### Reporting
-
-#### Daily Treasury Statement
-Daily report of government cash position:
-- Deposits and withdrawals
-- Public debt transactions
-- Operating cash balance
-
-#### Monthly Treasury Statement
-Monthly summary of:
-- Budget receipts and outlays
-- Deficit or surplus
-- Public debt changes
-
-### Market Guidance
-
-Forecasts support:
-- Quarterly refunding announcements
-- Treasury auction calendar
-- Investor expectations
-
-### Resources
-
-- [Daily Treasury Statement](https://fiscal.treasury.gov/reports-statements/dts/)
-- [Monthly Treasury Statement](https://fiscal.treasury.gov/reports-statements/mts/)
-- [Fiscal Data](https://fiscaldata.treasury.gov/)
-
----
-
-*Learn about the [Debt Limit](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit/) or explore [Financial Markets Policy](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/).*
+The Monthly Statement of the Public Debt (MSPD) provides data designed to advise the public on the status of government borrowing. The MSPD is comprised of five tables reflecting various forms of financial information vital to government borrowing and the financial market, including summary and detail information regarding outstanding Treasury securities, and information regarding the statutory debt limit. The MSPD is published on the fourth business day of each month.

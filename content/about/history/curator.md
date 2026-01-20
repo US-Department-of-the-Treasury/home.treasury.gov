@@ -1,68 +1,43 @@
 ---
-title: "Treasury Curator"
+title: "Curator"
 date: 2026-01-17
 draft: false
 url: /about/history/curator/
 description: "The Office of the Curator manages the Treasury Department's historic collections, artifacts, and the preservation of the Treasury Building."
 ---
 
-The Office of the Curator is responsible for managing the U.S. Department of the Treasury's historic collections, artifacts, artwork, and the preservation of the Treasury Building as a National Historic Landmark.
+Curator
 
-### Responsibilities
+The Office of the Curator at the U.S. Department of the Treasury guides the preservation of the department's historic buildings, cares for cultural resources, and provides museum-quality collection management of the fine and decorative arts collections and antique furniture of the Treasury Building.
 
-The Curator's Office oversees:
+FEATURED EXHIBITIONS
 
-#### Collections Management
-- Historic artifacts and documents
-- Fine art collection
-- Furniture and decorative arts
-- Numismatic collection
-- Photographs and archives
+Offices of the Secretary of the Treasury
 
-#### Building Preservation
-- Historic preservation of the Treasury Building
-- Restoration of historic spaces
-- Maintenance of architectural integrity
-- Documentation of building history
+Treasury: An Office Building’s Evolution
 
-#### Public Programs
-- Building tours and educational programs
-- Exhibitions and displays
-- Research assistance
-- Loan programs for other institutions
+Furniture
 
-### The Treasury Collection
+The History of the Locations of the Offices of the Secretary
 
-The Treasury Department's collection includes:
+Treasury and the Civil War: 150th Anniversary
 
-**Historic Artifacts**
-- Currency printing plates and equipment
-- Historic safes and security devices
-- Period furniture and fixtures
-- Official documents and records
+The Design and Construction of the West Stairs
 
-**Artwork**
-- Portraits of Treasury Secretaries
-- Historic paintings and prints
-- Sculptures and decorative objects
+40th Anniversary of the Treasury Historical Association
 
-**Numismatic Items**
-- Historic currency and coins
-- Medals and commemorative pieces
-- Printing and minting artifacts
+U.S. Mint Buildings Across the Nation
 
-### Research Services
+American Artifacts: Treasury Building Restoration - West Dome - Curator Richard Cote
 
-The Curator's Office provides research assistance for:
-- Scholars and historians
-- Government agencies
-- Media and publications
-- Educational institutions
+American Artifacts: History of Treasury Sec. Tim Geithner's Office - Curator Richard Cote
 
-### Contact
+American Artifacts: Treasury Building Restoration - Curator Richard Cote
 
-For inquiries about the Treasury collection or to schedule a research visit, please contact the Office of the Curator through the Treasury Department.
+PRESERVATION OF THE TREASURY BUILDING & COLLECTION IN MORE DETAIL
 
----
+Federal Collections
 
-*Learn more about [The Treasury Building](/about/history/the-treasury-building/) or explore our [History](/about/history/) section.*
+Restoration Projects
+
+Treasury's North Lawn

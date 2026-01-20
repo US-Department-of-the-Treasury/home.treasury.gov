@@ -6,54 +6,46 @@ url: /policy-issues/financing-the-government/quarterly-refunding/most-recent-qua
 description: "The latest quarterly refunding statements and Treasury borrowing estimates."
 ---
 
-This page provides access to the most recent quarterly refunding announcement and related documents from the U.S. Department of the Treasury.
+Most Recent Quarterly Refunding Documents
 
-### Quarterly Refunding Statement
+DOCUMENTS RELEASED AT 3:00 PM MONDAY, NOVEMBER 3, 2025
 
-The refunding statement provides:
-- Overview of financing needs for the quarter
-- Auction sizes for notes and bonds
-- Commentary on debt management strategy
-- Economic and fiscal outlook
+Financing Estimates: 2025 - 4th Quarter
 
-### Financing Estimates
+Economic Policy Statements to TBAC: 2025 - 4th Quarter​
 
-Treasury publishes quarterly estimates of:
-- Net borrowing needs
-- Net cash borrowing
-- End-of-quarter cash balance targets
+(The next release is scheduled for February 2, 2026)
 
-### Treasury Borrowing Advisory Committee (TBAC) Materials
+DOCUMENTS RELEASED AT 8:30 AM WEDNESDAY, NOVEMBER 5, 2025
 
-TBAC meeting materials include:
-- Minutes from the quarterly meeting
-- Presentations on market conditions
-- Reports on financing recommendations
-- Charge questions and responses
+Policy Statement: 2025 - 4th Quarter
 
-### Refunding Schedule
+TBAC Report to Secretary: 2025 - 4th Quarter
 
-The typical quarterly refunding schedule includes:
+TBAC Minutes: 2025 - 4th Quarter
 
-| Month | Action |
-|-------|--------|
-| January/April/July/October | TBAC meeting and refunding announcement |
-| Following weeks | Settlement of quarterly note and bond auctions |
+TBAC Recommended Financing Table by Refunding Quarter
 
-### Press Conference
+TBAC Discussion Charts:
 
-A webcast of the press conference following the refunding announcement is available on the [Webcasts](/news/webcasts/) page.
+Treasury Presentation to TBAC (Final): 2025 - 4th Quarter
 
-### Historical Documents
+TBAC Presentation to Treasury: (Charge 1, Archives)
 
-For past refunding announcements, see the [Quarterly Refunding Archives](/policy-issues/financing-the-government/quarterly-refunding/quarterly-refunding-archives/).
+Auction Schedule: XML Format
 
-### Related Resources
+Auction Schedule: PDF Format
 
-- [Quarterly Refunding Overview](/policy-issues/financing-the-government/quarterly-refunding/)
-- [Treasury Investor Data](/policy-issues/financing-the-government/treasury-investor-data/)
-- [TreasuryDirect](https://www.treasurydirect.gov/)
+Buyback Schedule: XML Format
 
----
+Buyback Schedule: PDF Format
 
-*Learn more about [Financing the Government](/policy-issues/financing-the-government/).*
+(The next release is scheduled for February 4, 2026)
+
+DOCUMENTS RELEASED AT 12:00 PM FRIDAY, JANUARY 16, 2026
+
+Primary Dealer Meeting Agenda: 2026 - 1st Quarter
+
+Quarterly Release Data: 2026 - 1st Quarter
+
+(The next release is scheduled for April 17, 2026)

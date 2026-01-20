@@ -6,60 +6,64 @@ url: /about/careers-at-treasury/veterans-employment/
 description: "Information for veterans seeking employment at the U.S. Department of the Treasury."
 ---
 
-The U.S. Department of the Treasury values the skills, leadership, and dedication that veterans bring to our workforce. We are committed to recruiting, hiring, and retaining veterans.
+Veterans Employment
 
-### Veterans' Preference
+Veterans and disabled veterans are entitled to preference over others in hiring for federal government positions. Visit the Veterans' Preference Advisor to determine your preference eligibility and the Feds Hire Vets website to identify your eligibility for appointment using special hiring authorities for veterans.
 
-Veterans who meet eligibility criteria receive preference in federal hiring:
+CAREER OPPORTUNITIES
 
-#### Types of Preference
-- **5-Point Preference** - Honorably separated veterans with qualifying service
-- **10-Point Preference** - Disabled veterans and certain family members
-- **Compensable Disability Preference** - Veterans with service-connected disability ratings
+To see all vacancies, visit the USAJOBS.gov website.
 
-#### How Preference Works
-- Points are added to passing examination scores
-- Veterans are placed ahead of non-veterans with equal scores
-- Preference applies to competitive service positions
+Narrow search by job category, location, and Treasury bureau 
 
-### Special Hiring Authorities for Veterans
+Attach required documentation
 
-#### Veterans Recruitment Appointment (VRA)
-- Non-competitive appointment authority
-- Available for GS-11 and below
-- Eligible veterans may be appointed without competition
+Based on job vacancy and veteran status, include:
 
-#### 30% or More Disabled Veteran
-- Non-competitive appointment for veterans with 30%+ disability rating
-- Can be appointed directly to any position
+DD-214: Certificate of Release or Discharge from Active Duty
 
-#### Veterans Employment Opportunities Act (VEOA)
-- Allows veterans to apply to positions open only to federal employees
-- Expands opportunities for competitive service positions
+SF-15: Application for 10 Point Veteran’s Preference
 
-### Transitioning Service Members
+Civil Service Preference Letter (known as VA Letter)
 
-Treasury supports service members transitioning to civilian careers:
-- **SkillBridge Program** - Training opportunities during transition
-- **Resume Translation** - Help translating military experience
-- **Interview Preparation** - Guidance on federal interviews
+CONTACT INFORMATION
 
-### Veterans Support Programs
+Treasury Veteran Employment Hotline (VEPO): (202) 927-VETS (8387)
 
-- **Veterans Employee Resource Group** - Networking and support
-- **Mentoring Programs** - Guidance from veteran employees
-- **Career Development** - Training and advancement opportunities
+IRS Veteran Employment Hotline: (202) 317-3505
 
-### Resources
+Treasury VEPO E-mail: vets@treasury.gov
 
-- [USAJOBS Veterans Resources](https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/veterans/)
-- [FedsHireVets](https://www.fedshirevets.gov/)
-- [Veteran Readiness and Employment (VR&E)](https://www.va.gov/careers-employment/vocational-rehabilitation/)
+IRS VEPO E-mail: vets@irs.gov
 
-### Contact
+NON-PAID INTERNSHIP OPPORTUNITIES
 
-For questions about veterans employment at Treasury, contact your local Human Resources office or Veterans Employment Program Manager.
+The Department of the Treasury has non-paid internship opportunities to wounded warriors and veterans through the Operation Warfighter (OWF) and Non-Paid Work Experience (NPWE) programs.
 
----
+Operation Warfighter Information
 
-*Learn [How to Apply](/about/careers-at-treasury/how-to-apply/) or explore the [Pathways Program](/about/careers-at-treasury/studentinternship-programs/pathways-programs/).*
+Department of Veterans Affairs, Vocational Rehabilitation & Employment Service
+
+Leadership Education and Development (LEAD) Program
+
+Eligible veterans can pursue the U.S. Office of Personnel Management’s (OPM) LEAD Certificate using their Department of Veterans Affairs (VA) educational benefits. The LEAD curriculum can help develop and enhance the critical leadership skills needed for current federal employees to contribute to the accomplishment of their organization’s mission and transition veterans from a military career to the civilian workplace. For more information, view the short YouTube video LEAD GI Bill  or OPM’s LEAD Certificate Program – News for Veterans webinar.
+
+Reduced Fare Program for People with Disabilities
+
+Veterans who have been granted a 60% or greater disability rating by the VA qualify for the Reduced Fare Program for People with Disabilities (Metro Disability ID/SmarTrip® card). For more information, application details, and discounted rates, visit the Washington Metropolitan Area Transit Authority. Veterans outside the Washington Metropolitan Area, visit your local transit authority websites for veteran benefits.
+
+OPM & University of Maryland University College (UMUC) Alliance
+
+On April 17, 2014, OPM announced an alliance with the UMUC to increase federal employees’ access to high quality, affordable education resources, to close skills gaps, and to make federal employment attractive to our nation’s top talent. UMUC offers a 25 percent discount on out-of-state tuition rates on courses, certificates, and degree programs, to all current federal employees, their spouses, and legal dependents.
+
+Veterans Employee Resource Group
+
+Treasury has a Veterans Employee Resources Group.
+
+Veterans Preference
+
+By law (Title 5 USC, Section 2108), many veterans with and without disabilities are entitled to preference over others in hiring from competitive lists of eligible applicants, and may be considered for special noncompetitive appointments for which they are eligible. If you are not sure of your preference eligibility, visit the Department of Labor's Veterans' Preference Advisor.
+
+Americans with Disabilities Act (ADA) - Know your Rights Returning Service Members with Disabilities
+
+Like all Treasury employees, Treasury veterans with a disability, as defined by the Americans with Disabilities Act (ADA), can request an accommodation.

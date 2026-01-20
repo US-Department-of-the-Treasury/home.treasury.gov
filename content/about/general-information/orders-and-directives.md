@@ -7,46 +7,38 @@ url: /about/general-information/orders-and-directives/
 description: "Treasury Orders and Directives that govern the organization and operations of the U.S. Department of the Treasury."
 ---
 
-Treasury Orders and Directives are official documents that establish the organization, policies, and procedures of the U.S. Department of the Treasury.
+Orders and Directives
 
-### Treasury Orders
+The Treasury Orders and Directives System contains the Department's primary management documents. These documents establish policy and assign responsibilities to Secretarial Officers.
 
-Treasury Orders are issued by the Secretary of the Treasury and establish:
-- Organizational structure and responsibilities
-- Delegations of authority
-- Policies affecting the entire Department
+The Treasury Orders and Directives contained on this website do not show the signatures of the Secretarial Officers.
 
-### Treasury Directives
+The Treasury Orders and Directives contained on this website show Administrative Edits, to reflect (misspelled words, reorganizing or technical changes, (updates of legal citations, new editions of forms, links to selected web sites, etc.).
 
-Treasury Directives provide detailed guidance on implementing Treasury Orders and cover topics including:
-- Administrative procedures
-- Personnel policies
-- Financial management
-- Information technology
-- Security policies
+SEARCH ORDERS & DIRECTIVES
 
-### Key Documents
+Enter Search Term(s):
 
-#### Organizational Structure
-- **TO 101-01**: Organization and Functions of the Department of the Treasury
-- **TO 102-01**: Delegations of Authority
-- **TO 140-01**: Treasury Bureaus and Offices
+TREASURY ORDERS
 
-#### Administrative Policies
-- Personnel management and ethics
-- Acquisition and procurement
-- Records management
-- Security and information protection
+Treasury Orders are documents signed by the Secretary or Deputy Secretary that:
 
-### Accessing Orders and Directives
+delegate authority residing in the Secretary or Deputy Secretary to senior Treasury officials;
 
-Treasury Orders and Directives are available through:
-- The Treasury Library
-- The Office of the General Counsel
-- Internal Treasury document management systems
+define the organization of the Department and the reporting relationships among the most senior officials; and
 
-For specific inquiries about Treasury Orders and Directives, please contact the Office of the General Counsel.
+establish Treasury policy
 
----
+NUMERICAL LISTING SUBJECT LISTING
 
-*For more information about Treasury's organization, see our [About Treasury](/about/) section.*
+TREASURY DIRECTIVES
+
+Treasury Directives are documents signed by the appropriate senior Treasury officials that:
+
+may further delegate authority from the most senior officials to other Treasury officials; and
+
+provide processes for implementing legal obligations and Departmental policy objectives
+
+NUMERICAL LISTING SUBJECT LISTING
+
+​For more information, please contact TreasuryOrdersandDirectives@treasury.gov. ​​

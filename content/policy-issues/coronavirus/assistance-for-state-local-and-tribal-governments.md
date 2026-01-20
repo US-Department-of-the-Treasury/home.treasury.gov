@@ -6,61 +6,34 @@ url: /policy-issues/coronavirus/assistance-for-state-local-and-tribal-government
 description: "Treasury programs providing COVID-19 relief to state, local, and tribal governments."
 ---
 
-The U.S. Department of the Treasury administered significant programs to help state, local, and tribal governments respond to the COVID-19 pandemic and support economic recovery.
+Assistance for State, Local, and Tribal Governments
 
-### Coronavirus State and Local Fiscal Recovery Funds
+The COVID-19 public health crisis and resulting economic crisis have put state, local, and Tribal governments under unprecedented strain. The Treasury Department is providing needed relief to state, local, and Tribal governments to enable them to continue to support the public health response and lay the foundation for a strong and equitable economic recovery.
 
-The American Rescue Plan provided $350 billion in flexible funding:
+CORONAVIRUS STATE AND LOCAL FISCAL RECOVERY FUNDS
 
-#### Recipients
-- States and District of Columbia
-- Counties
-- Cities and metropolitan areas
-- Tribal governments
-- U.S. territories
+The American Rescue Plan provides $350 billion in emergency funding for eligible state, local, territorial, and Tribal governments to respond to the COVID-19 emergency and bring back jobs.
 
-#### Eligible Uses
-- Respond to the public health emergency
-- Address negative economic impacts
-- Replace lost public sector revenue
-- Provide premium pay for essential workers
-- Invest in water, sewer, and broadband infrastructure
+CAPITAL PROJECTS FUND
 
-### Coronavirus Relief Fund
+The Coronavirus Capital Projects Fund (CCPF) takes critical steps to addressing many challenges laid bare by the pandemic, especially in rural America and low- and moderate-income communities, helping to ensure that all communities have access to the high-quality, modern infrastructure needed to thrive, including internet access.
 
-The CARES Act provided $150 billion for state, local, and tribal governments:
-- Expenses necessary due to COVID-19
-- Incurred between March 2020 and December 2021
-- Not previously budgeted
+HOMEOWNER ASSISTANCE FUND
 
-### Emergency Rental Assistance Program
+The American Rescue Plan provides nearly $10 billion for states, territories, and Tribes to provide relief for our country’s most vulnerable homeowners.
 
-Treasury administered $46.5 billion in rental assistance:
-- ERA1 ($25 billion) - Consolidated Appropriations Act
-- ERA2 ($21.5 billion) - American Rescue Plan
-- Distributed through state, local, and tribal administrators
+EMERGENCY RENTAL ASSISTANCE PROGRAM
 
-### Homeowner Assistance Fund
+The American Rescue Plan provides $21.6 billion for states, territories, and local governments to assist households that are unable to pay rent and utilities due to the COVID-19 crisis.
 
-$9.96 billion to states for homeowner assistance:
-- Mortgage payment assistance
-- Property tax relief
-- Utility and insurance payments
-- Foreclosure prevention
+STATE SMALL BUSINESS CREDIT INITIATIVE
 
-### Capital Projects Fund
+The American Rescue Plan provides $10 billion to state and Tribal governments to fund small business credit expansion initiatives.
 
-$10 billion for critical connectivity and digital infrastructure:
-- Broadband deployment
-- Digital connectivity technology
-- Multi-purpose community facilities
+CORONAVIRUS RELIEF FUND
 
-### Resources
+Through the Coronavirus Relief Fund, the CARES Act provides for payments to State, Local, and Tribal governments navigating the impact of the COVID-19 outbreak.
 
-- [State and Local Fiscal Recovery Funds](https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/state-and-local-fiscal-recovery-funds)
-- [Emergency Rental Assistance](https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/emergency-rental-assistance-program)
-- [Homeowner Assistance Fund](https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund)
+THE LOCAL ASSISTANCE AND TRIBAL CONSISTENCY FUND
 
----
-
-*Learn about [Assistance for American Families](/policy-issues/coronavirus/assistance-for-American-families-and-workers/) or explore [COVID-19 Relief](/policy-issues/coronavirus/).*
+The Local Assistance and Tribal Consistency Fund is a general revenue enhancement program that provides additional assistance to eligible revenue sharing counties and eligible Tribal governments.

@@ -7,24 +7,14 @@ url: /about/budget-financial-reporting-planning-and-performance/strategic-plan
 description: "Treasury's strategic plan outlining goals and objectives."
 ---
 
-The Department of the Treasury's strategic plan outlines our mission, goals, and objectives for serving the American people.
+Strategic Plan
 
-### Goal 1: Promote Economic Growth
+Treasury’s mission is to maintain a strong economy by promoting conditions that enable equitable and sustainable economic growth at home and abroad, combating threats to, and protecting the integrity of the financial system, and managing the U.S. government's finances and resources effectively.
 
-Maintain a strong economy by promoting conditions that enable economic growth at home and abroad.
+The nearly 100,000 dedicated Treasury employees strive to maintain integrity and uphold the public trust in all that we do, explore better ways of conducting business through innovation, seek diversity of thought and expertise to inform our decisions, embrace and adapt to change, and hold ourselves accountable for accomplishing meaningful results for the American public.
 
-### Goal 2: Enhance National Security
+Message from the Secretary following the release of the Strategic Plan.
 
-Strengthen national security by combating threats and protecting the integrity of the financial system.
+Previous Strategic Plans
 
-### Goal 3: Manage Government Finances
-
-Manage the U.S. Government's finances and resources effectively.
-
-### Goal 4: Transform Treasury Operations
-
-Modernize Treasury operations through innovation and efficiency improvements.
-
-## Performance Measurement
-
-Treasury measures progress against strategic goals through annual performance reports and metrics.
+Contact us to ask a question or provide feedback.

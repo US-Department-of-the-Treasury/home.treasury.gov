@@ -1,58 +1,77 @@
 ---
-title: "Tax Treaties and Related Documents"
+title: "Treaties"
 date: 2026-01-17
 draft: false
 url: /policy-issues/tax-policy/treaties/
 description: "Information about U.S. tax treaties, protocols, and treaty-related documents."
 ---
 
-The United States has income tax treaties with numerous countries to prevent double taxation and facilitate cross-border economic activity.
+Treaties
 
-### Purpose of Tax Treaties
+In the table below you can access the text of many US income tax treaties, protocols, notes and the accompanying Treasury Department tax treaty technical explanations as they become publicly available. Please note that treaty documents are posted on this site upon signature and prior to ratification and entry into force.
 
-Tax treaties serve to:
-- **Prevent Double Taxation** - Ensure income isn't taxed twice
-- **Allocate Taxing Rights** - Determine which country may tax specific income
-- **Reduce Withholding Taxes** - Lower rates on cross-border payments
-- **Prevent Tax Evasion** - Enable information exchange
-- **Provide Certainty** - Create stable rules for taxpayers
+The texts of most US income tax treaties in force are available here on the IRS website.  Tax Information Exchange Agreements are here.
 
-### Treaty Network
+The text of the current US Model Income Tax Convention and accompanying preamble are available here.
 
-The United States has tax treaties with over 65 countries. These treaties cover:
-- Business profits
-- Dividends, interest, and royalties
-- Capital gains
-- Employment income
-- Pensions and social security
+Preamble to US Model Income Tax Convention (February 17, 2016)
 
-### Model Treaty
+US Model Income Tax Convention (February 17, 2016)
 
-The U.S. Model Income Tax Convention provides the basis for treaty negotiations. Key features include:
-- Zero withholding rates on most dividends, interest, and royalties
-- Limitation on benefits provisions
-- Information exchange articles
-- Competent authority procedures
+View the table of treaties and related documents to find the text of former model agreements.
 
-### Treaty Process
+TREATIES AND RELATED DOCUMENTS (INCLUDING TECHNICAL EXPLANATIONS AND NOTES) BY JURISDICTION
 
-1. **Negotiation** - Treasury negotiates with foreign governments
-2. **Signing** - Treaties are signed by authorized officials
-3. **Senate Advice and Consent** - Senate Foreign Relations Committee review
-4. **Ratification** - Exchange of instruments of ratification
-5. **Entry into Force** - Treaty becomes effective
+10
 
-### Technical Explanations
+20
 
-Treasury publishes technical explanations for each treaty that:
-- Explain treaty provisions in detail
-- Clarify intended interpretation
-- Guide tax administrators and taxpayers
+50
 
-### Current Treaties
+All
 
-For a complete list of U.S. tax treaties, see the [IRS Tax Treaties page](https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z).
+entries per page
 
----
+Search:
 
-*Learn about [International Tax](/policy-issues/tax-policy/international-tax/) or explore [Tax Policy](/policy-issues/tax-policy/).*
+Jurisdiction
+
+Date
+
+Document
+
+Description/Title
+
+Australia	5-Mar-03	TE	Technical Explanation of Protocol Amending Convention… US and Australia… Taxes on Income, signed Sept 27 2001
+
+Australia	27-Sep-01	Protocol	Protocol Amending Convention… US and Australia… Taxes on Income, signed Sept 27 2001
+
+Bangladesh	21-Jan-06	TE	Technical Explanation of Convention… US and Bangladesh… Taxes on Income,  Jan 21, 2006
+
+Bangladesh	27-Jan-04	Convention	Convention… US and Bangladesh… Taxes on Income,  Jan 27, 2004
+
+Bangladesh	26-Sep-04	Note	Note on Convention… US and Bangladesh… Taxes on Income,  Sept 26, 2004
+
+Barbados	21-Sep-04	TE 	Technical Explanation of the 2nd Protocol Amending the Convention… US and Barbados… Taxes on Income, Sept 21 2004
+
+Barbados	26-Jul-04	Protocol	 2nd Protocol Amending the Convention… US and Barbados… Taxes on Income, July 26, 2004
+
+Barbados	26-Jul-04	Note	Notes on 2nd Protocol Amending the Convention… US and Barbados… Taxes on Income, July 26, 2004
+
+Belgium	11-Jul-07	Convention	Convention… US and Belgium… Taxes on Income July 11, 2007
+
+Belgium	11-Jul-07	Protocol	Protocol to Convention… US and Belgium… Taxes on Income July 11, 2007
+
+Showing 1 to 10 of 107 entries
+
+«‹1›»
+
+FORMER MODEL AGREEMENTS
+
+Model Agreement, 2006
+
+Technical Explanation of 2006 Model Agreement
+
+Model Agreement, 1996
+
+Technical Explanation of 1996 Model Agreement

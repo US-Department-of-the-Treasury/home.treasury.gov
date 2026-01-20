@@ -7,37 +7,10 @@ url: /services/tours-and-library
 description: "Treasury Building tours and library resources."
 ---
 
-The Treasury Building, a National Historic Landmark, offers public tours showcasing its rich history and architecture.
+Tours and Library
 
-### Tour Information
-- Tours are available Saturday mornings
-- Advance reservations required
-- Free of charge
+HISTORIC TREASURY BUILDING
 
-### What You'll See
-- The Cash Room
-- Historic offices
-- Architectural features
-- Historical exhibits
+The Office of the Treasury Curator hosts guided tours of the historic Treasury Building in Washington. Tours of the Treasury Building require advance reservations made through your Congressional offices. Space is limited.
 
-### How to Reserve
-Contact your Member of Congress to request a tour reservation.
-
-## Treasury Library
-
-The Treasury Library supports the research and information needs of Treasury employees.
-
-### Collections
-- Economics and finance
-- Tax policy
-- Banking and financial regulation
-- Treasury history
-
-### Access
-The library primarily serves Treasury employees but some resources may be available to researchers by appointment.
-
-## Historical Resources
-
-- Treasury Building history
-- Secretaries of the Treasury
-- Currency and coinage history
+Members of the public are welcome to make an appointment to research using Treasury Library holdings in the Treasury Library.  All visitors to the Treasury Library must be cleared by the Secret Service.  This process requires that requests for appointments must be made at least one business day before a visit.

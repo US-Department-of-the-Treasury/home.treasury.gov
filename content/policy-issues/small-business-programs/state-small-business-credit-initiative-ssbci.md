@@ -6,45 +6,74 @@ url: /policy-issues/small-business-programs/state-small-business-credit-initiati
 description: "The State Small Business Credit Initiative supports small businesses by providing funding to states, territories, and Tribal governments."
 ---
 
-The State Small Business Credit Initiative (SSBCI) is a program administered by the U.S. Department of the Treasury that provides funding to states, the District of Columbia, territories, and Tribal governments to support small business lending and investment programs.
+State Small Business Credit Initiative (SSBCI)
 
-### Program Overview
+The State Small Business Credit Initiative (SSBCI) is a nearly $10 billion program to support small businesses and entrepreneurship in communities across the United States by providing capital and technical assistance to promote small business stability, growth, and success.
 
-SSBCI provides funds to states and other eligible jurisdictions to support programs that increase access to capital for small businesses. These programs include:
+SSBCI represents a transformational investment in American small businesses and is expected to catalyze up to $10 of private investment for every $1 of SSBCI Capital Program funding to increase access to capital to small businesses and entrepreneurs, including those in underserved communities.
 
-- **Capital Access Programs (CAPs)**: Portfolio insurance programs that encourage lending to small businesses
-- **Loan Participation Programs**: Programs where states share in the risk of loans to small businesses
-- **Loan Guarantee Programs**: Programs that provide guarantees to reduce lender risk
-- **Collateral Support Programs**: Programs that pledge cash collateral to lenders
-- **Venture Capital Programs**: Equity and near-equity investments in small businesses
+Reauthorized and expanded by the American Rescue Plan Act (ARPA), the SSBCI Capital Program provides funds to states, the District of Columbia, territories, and Tribal governments for those jurisdictions to create tailored programs that offer funding to small businesses and entrepreneurs through equity/venture capital, loan participation, loan guarantee, collateral support, and capital access programs.
 
-### American Rescue Plan Act Reauthorization
+Resources
 
-The American Rescue Plan Act of 2021 reauthorized and expanded SSBCI, providing $10 billion in new funding to support small business recovery from the COVID-19 pandemic. Key features include:
+Treasury Department Releases 2022-2023 Annual Report on Deployment of SSBCI Capital to Small Businesses (11/13/2024)
 
-- $10 billion in capital for state, territory, and Tribal programs
-- Focus on very small businesses and underserved communities
-- Technical assistance funding
-- Incentives for programs supporting businesses owned by socially and economically disadvantaged individuals (SEDI-owned businesses)
+Summary of Participating Jurisdictions 2022 and 2023 Annual Reports (July 2024)
 
-### Eligible Uses of Funds
+SSBCI Program Fact Sheet (June 2023)
 
-SSBCI funds may be used to:
-- Support lending and investment programs for small businesses
-- Provide technical assistance to small business owners
-- Increase access to capital in underserved communities
-- Support businesses with fewer than 500 employees
+List of SSBCI Capital Programs and Contacts
 
-### Resources
+State/Territory Capital Program Summaries
 
-- [SSBCI Program Guidelines](https://www.treasury.gov/)
-- [State Participation Information](https://www.treasury.gov/)
-- [Technical Assistance Resources](https://www.treasury.gov/)
+State/Territory Technical Assistance Program Summaries
 
-### Contact Information
+Tribal Government Program Summaries
 
-For more information about SSBCI, contact the Treasury Department's Office of Recovery Programs.
+Small Business Opportunity Program (SBOP) Awardee Fact Sheet
 
----
+SSBCI Program Information by Entity
 
-*For more information about small business programs, visit our [Small Business Programs](/policy-issues/small-business-programs/) section.*
+Content within the SSBCI website has been organized and pre-filtered for use for the following types of website visitors. Select the type of visitor profile that best matches your SSBCI program support function, goal, or expected experience.
+
+Treasury invites you to explore SSBCI information organized by visitor type. I am / represent a:
+
+Financial Institution, Venture Capital Investor, and Technical Assistance Provider
+
+Small Business Visitor
+
+Participating Jurisdiction
+
+Tribal Government Participating Jurisdiction
+
+View all program information
+
+Contact Us
+
+Any questions regarding the SSBCI program should be submitted to ssbci_information@treasury.gov.
+
+Self-Service Resources
+
+Program recipients with questions about reporting, technical issues, eligible uses of funds, or other items click here for self-service resources.
+
+SSBCI, ECIP, and CDFI Fund
+
+U.S. Treasury Capital Provider Map
+
+VIEW THE DATA
+
+SSBCI 2.0
+
+Program Reports
+
+SSBCI 2.0
+
+Program Rules & Resources
+
+SSBCI News & Announcements
+
+SSBCI 2.0
+
+Success Spotlights
+
+Frequently Asked Questions (FAQs)

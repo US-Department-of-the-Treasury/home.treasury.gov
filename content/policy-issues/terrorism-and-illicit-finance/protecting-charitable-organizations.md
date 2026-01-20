@@ -6,64 +6,12 @@ url: /policy-issues/terrorism-and-illicit-finance/protecting-charitable-organiza
 description: "Treasury guidance to help charitable organizations protect against terrorist financing abuse."
 ---
 
-The U.S. Department of the Treasury is committed to protecting the integrity of charitable giving while preventing the abuse of charitable organizations for terrorist financing.
+Protecting Charitable Organizations
 
-### The Challenge
+Protecting charities from terrorist abuse is a critical component of the global fight against terrorism. Charities provide essential services, comfort, and hope to those in need around the world. Unfortunately, terrorists have exploited the charitable sector to raise and move funds, provide logistical support, encourage terrorist recruitment, or otherwise support terrorist organizations and operations. This abuse threatens to undermine donor confidence and jeopardizes the integrity of the charitable sector, whose services are indispensable to the world community.
 
-Charitable organizations can be vulnerable to abuse by terrorists who may:
-- Create front organizations
-- Divert funds from legitimate charities
-- Exploit charitable channels for transfers
-- Use charities for cover
+Treasury’s Office of Terrorist Financing and Financial Crime has developed this Web site to provide information and resources for all stakeholders in four strategic areas:  i) private sector outreach; ii) coordinated oversight; iii) targeted investigations; and iv) international engagement.  Treasury hopes this information will be useful for federal, state, local, and private actors in combating terrorist abuse of the charitable sector.
 
-### Treasury's Approach
+PRIVATE SECTOR OUTREACH
 
-Treasury seeks to:
-- Protect legitimate charitable activity
-- Provide guidance to the charitable sector
-- Take action against bad actors
-- Balance security with charitable freedom
-
-### Anti-Terrorist Financing Guidelines
-
-Treasury published voluntary best practices to help charities:
-
-#### Governance
-- Establish effective oversight
-- Implement internal controls
-- Ensure transparency
-
-#### Vetting
-- Screen employees and partners
-- Know your grantees
-- Monitor fund use
-
-#### Financial Practices
-- Maintain detailed records
-- Use recognized banking channels
-- Document overseas expenditures
-
-#### International Operations
-- Understand local context
-- Partner with vetted organizations
-- Report suspicious activity
-
-### OFAC Compliance
-
-Charities should understand:
-- Sanctions programs that may apply
-- Prohibited transactions
-- License requirements for certain activities
-- Due diligence expectations
-
-[Learn more about OFAC](https://ofac.treasury.gov/)
-
-### Resources
-
-- [FinCEN Guidance](https://www.fincen.gov/)
-- [IRS Exempt Organizations](https://www.irs.gov/charities-non-profits)
-- [OFAC Guidance](https://ofac.treasury.gov/)
-
----
-
-*Learn more about [Terrorism and Illicit Finance](/policy-issues/terrorism-and-illicit-finance/).*
+Direct private sector outreach is a particularly important element of the U.S. approach to safeguarding charities from terrorist abuse. The government and the charitable sector share fundamental interests in promoting and protecting charitable giving. Through active engagement, the government and private sector can identify terrorist financing risks, clarify obligations and best practices, facilitate compliance with U.S. law, and help promote charitable giving while reducing the threats of terrorist abuse.

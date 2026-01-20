@@ -6,66 +6,12 @@ url: /policy-issues/international/exchange-stabilization-fund/
 description: "The Exchange Stabilization Fund is used to promote exchange rate stability and counter disorderly currency markets."
 ---
 
-The Exchange Stabilization Fund (ESF) is a Treasury-controlled fund used to promote exchange rate stability and counter disorderly conditions in foreign exchange markets.
+Exchange Stabilization Fund
 
-### Legal Authority
+The Exchange Stabilization Fund (ESF) consists of three types of assets:  U.S. dollars, foreign currencies, and Special Drawing Rights (SDRs), which is an international reserve asset created by the International Monetary Fund.
 
-The ESF was established by the Gold Reserve Act of 1934. The Secretary of the Treasury has:
-- Sole authority over ESF operations
-- Discretion in using ESF resources
-- Responsibility for reporting to Congress
+The ESF can be used to purchase or sell foreign currencies, to hold U.S. foreign exchange and Special Drawing Rights (SDR) assets, and to provide financing to foreign governments. All operations of the ESF require the explicit authorization of the Secretary of the Treasury ("the Secretary").
 
-### Purpose
+The Secretary is responsible for the formulation and implementation of U.S. international monetary and financial policy, including exchange market intervention policy. The ESF helps the Secretary to carry out these responsibilities. By law, the Secretary has considerable discretion in the use of ESF resources.
 
-The ESF may be used to:
-- Intervene in foreign exchange markets
-- Provide short-term credit to foreign governments
-- Support international monetary stability
-- Address emergency liquidity needs
-
-### Operations
-
-#### Foreign Exchange Intervention
-ESF can be used to buy or sell foreign currencies to:
-- Counter disorderly market conditions
-- Support the dollar's value
-- Coordinate with other central banks
-
-#### International Credit
-ESF provides credit assistance to:
-- Foreign governments facing crises
-- Support international monetary stability
-- Complement IMF programs
-
-### Coordination
-
-ESF operations are coordinated with:
-- Federal Reserve foreign exchange operations
-- International monetary authorities
-- G7 finance ministries and central banks
-
-### Transparency
-
-Treasury provides:
-- Quarterly reports to Congress
-- Public disclosure of ESF holdings
-- Notification of significant operations
-
-### ESF Holdings
-
-The ESF holds:
-- U.S. dollar assets
-- Foreign currency assets
-- Special Drawing Rights (SDRs)
-- Gold
-
-### Historical Use
-
-Notable ESF uses include:
-- Mexico stabilization (1994-1995)
-- Asian financial crisis support (1997-1998)
-- COVID-19 emergency programs
-
----
-
-*Learn about [Exchange Rate Analysis](/policy-issues/international/exchange-rate-analysis/) or explore [International](/policy-issues/international/) policy.*
+The legal basis of the ESF is the Gold Reserve Act of 1934. As amended in the late 1970s, the Act provides in part that "the Department of the Treasury has a stabilization fund …Consistent with the obligations of the Government in the International Monetary Fund (IMF) on orderly exchange arrangements and an orderly system of exchange rates, the Secretary …, with the approval of the President, may deal in gold, foreign exchange, and other instruments of credit and securities.

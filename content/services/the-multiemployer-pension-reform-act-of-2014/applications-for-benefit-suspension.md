@@ -6,54 +6,156 @@ url: /services/the-multiemployer-pension-reform-act-of-2014/applications-for-ben
 description: "Information about multiemployer pension plan applications for benefit suspension under MPRA."
 ---
 
-The Multiemployer Pension Reform Act of 2014 (MPRA) allows certain financially troubled multiemployer pension plans to apply to Treasury for approval to suspend benefits.
+Applications for Benefit Suspension
 
-### Background
+Within 30 days of receiving an application for benefit suspension, the Treasury Department will post the application on this page.  Fields in the table below will be filled in as they become available. Please call the MPRA case team at 202-622-1534 if you require assistance to access an application.
 
-MPRA permits trustees of multiemployer pension plans that are projected to become insolvent to apply to reduce or suspend benefits if:
-- The plan is in critical and declining status
-- All reasonable measures have been taken
-- Suspension is necessary to avoid insolvency
+10
 
-### Application Process
+20
 
-1. **Plan Determination** - Trustees determine plan is in critical and declining status
-2. **Proposal Development** - Develop proposed benefit suspensions
-3. **Participant Notice** - Notify participants and beneficiaries
-4. **Application Submission** - Submit application to Treasury
-5. **Treasury Review** - Treasury reviews for compliance with MPRA
-6. **Participant Vote** - If approved, participants vote on suspension
-7. **Final Determination** - Treasury makes final decision
+50
 
-### Treasury Review Criteria
+All
 
-Treasury reviews applications to ensure:
-- Plan is in critical and declining status
-- All reasonable measures have been taken
-- Suspension is reasonably estimated to avoid insolvency
-- Suspension is equitably distributed
-- Required notices were provided
+entries per page
 
-### Protected Benefits
+Search:
 
-MPRA protects certain benefits from suspension:
-- Benefits for participants age 80 and older (full protection)
-- Benefits for participants ages 75-80 (partial protection)
-- Disability benefits
+Plan
 
-### American Rescue Plan
+Application Documents
 
-The American Rescue Plan Act of 2021 created the Special Financial Assistance program:
-- Provides assistance to financially troubled plans
-- May reduce need for benefit suspensions
-- Administered by PBGC
+Submit Date
 
-### Resources
+Link to Comments
 
-- [PBGC Multiemployer Plans](https://www.pbgc.gov/)
-- [Department of Labor EBSA](https://www.dol.gov/agencies/ebsa)
-- [MPRA FAQs](/services/the-multiemployer-pension-reform-act-of-2014/frequently-asked-questions-about-the-kline-miller-multiemployer-pension-reform-act/)
+Date Comments Due By
 
----
+Treasury Response Documents
 
-*Learn more about [MPRA FAQs](/services/the-multiemployer-pension-reform-act-of-2014/frequently-asked-questions-about-the-kline-miller-multiemployer-pension-reform-act/).*
+Status
+
+Alaska Ironworkers Pension Plan
+
+Click here for Application
+
+03/30/2017
+
+See Comments on Application
+
+06/12/2017
+
+Alaska_Withdrawal_Letter.pdf
+
+Withdrawn
+
+Alaska Ironworkers Pension Plan, Second Application
+
+Click here for Application
+
+12/19/2017
+
+See Comments on Application
+
+03/05/2018
+
+MPRA Alaska final authorization 6-8-2018.pdf
+
+,
+
+Alaska_approval_letter.pdf
+
+Approved
+
+American Federation Of Musicians And Employers Pension Fund
+
+Click here for Application
+
+12/30/2019
+
+See Comments on Application
+
+03/02/2020
+
+AFM-Notification-Letter
+
+Denied
+
+American Federation Of Musicians And Employers Pension Fund Second Application
+
+Click here for Application
+
+12/30/2020
+
+See Comments on Application
+
+3/8/2021
+
+afm-withdrawal-letter
+
+Withdrawn
+
+Arizona Bricklayers’ Pension Fund
+
+Click here for Application
+
+09/30/2020
+
+See Comments on Application
+
+12/11/2020
+
+AZ Bricklayers' Withdrawal Letter
+
+Withdrawn
+
+Automotive Industries Pension Fund
+
+Click here for the Application
+
+Automotive Industries Notification Letter.pdf
+
+Denied
+
+Bricklayers & Allied Craftsmen Local 7 Pension Fund (2nd Application)
+
+Click here for Application
+
+12/13/2019
+
+See Comments on Application
+
+Bricklayers_7_Pension_Withdrawal_Letter_05-22-20.pdf
+
+Withdrawn
+
+Bricklayers & Allied Craftsmen Local 7 Pension Fund (3rd Application)
+
+Click here for Application
+
+05/29/2020
+
+See Comments on Application
+
+07/23/2020
+
+Final Authorization Letter
+
+Approved
+
+Bricklayers & Allied Craftsmen Local No 7 Pension Plan
+
+Click here for the Application
+
+06/28/2016	N/A	09/15/2016	N/A	Withdrawn
+
+Bricklayers And Allied Craftworkers Local 5 Pension Plan
+
+Click Here for Application
+
+08/04/2016	N/A	10/14/2016	N/A	Withdrawn
+
+Showing 1 to 10 of 48 entries
+
+«‹12345›»

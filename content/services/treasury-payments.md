@@ -7,36 +7,32 @@ url: /services/treasury-payments
 description: "Information about government payments issued by the Treasury."
 ---
 
-The Bureau of the Fiscal Service disburses most federal payments on behalf of agencies.
+Treasury Payments
 
-## Types of Payments
+GET MY PAYMENT
 
-### Social Security and SSI
-- Monthly benefit payments
-- Direct deposit or Direct Express card
+Find information about the Economic Impact Payments (stimulus checks), which were sent in three batches over 2020 and 2021.
 
-### Tax Refunds
-- Processed by IRS
-- Direct deposit or paper check
+ASSISTANCE FOR AMERICAN FAMILIES AND WORKERS
 
-### Veterans Benefits
-- Compensation and pension payments
-- Education benefits
+Find information about Economic Impact Payments, Unemployment Compensation payments, Child Tax Credit payments, and Emergency Rental Assistance payments.
 
-### Federal Salaries
-- Payments to federal employees and retirees
+WHERE IS MY REFUND?
 
-## Direct Deposit
+Check the status of your Internal Revenue Service (IRS) refund payment.
 
-Sign up for direct deposit for faster, more secure payment delivery:
-- [Go Direct](https://godirect.gov) - For federal benefit recipients
+LOST OR EXPIRED CHECK
 
-## Lost or Stolen Checks
+How to get a Treasury check re-issued.  Includes checks paid from Internal Revenue Service, Social Security Administration, Veterans Affairs, Defense Finance and Accounting Service for DOD,  and Office of Personnel Management
 
-Report lost, stolen, or destroyed checks:
-- Contact the agency that issued the payment
-- Or call 1-800-304-3107
+ELECTRONIC FEDERAL BENEFIT PAYMENTS - GO DIRECT
 
-## Payment Inquiries
+Sign up for direct deposit of social security and other federal benefits.
 
-Contact the Treasury Bureau of the Fiscal Service for payment status inquiries.
+DIRECT EXPRESS CARD
+
+Another option for federal beneficiaries who do not have a bank account, but who are looking for a no-cost or low-cost alternative to using check cashing facilities and carrying large amounts of cash.
+
+WHAT IS THIS PAYMENT FOR?
+
+What to do if you received a payment from the U.S. Department of the Treasury and do not know what it is for.

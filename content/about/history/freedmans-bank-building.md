@@ -6,52 +6,32 @@ url: /about/history/freedmans-bank-building/
 description: "History of the Freedman's Savings and Trust Company building and its connection to the Treasury Department."
 ---
 
-The Freedman's Savings and Trust Company, commonly known as the Freedman's Bank, holds a significant place in American financial history and in the legacy of the U.S. Department of the Treasury.
+Freedman's Bank Building
 
-### History of the Freedman's Bank
+On January 7, 2016, Treasury Secretary Jacob Lew renamed the "Treasury Annex," the Freedman's Bank Building.  The Treasury Annex, was erected on the original site of the Freedman's Bank Building in Washington, DC.  As such, Secretary Lew thought it fitting to rename the Treasury Building after the sesquicentennial of the founding of the Bank.
 
-#### Establishment
-The Freedman's Savings and Trust Company was established by an Act of Congress on March 3, 1865, to provide banking services to formerly enslaved African Americans following the Civil War.
+The Freedman's Savings and Trust Company was a private corporation chartered by an act of the U.S. Government signed in 1865 by President Abraham Lincoln.  It was created to help develop the newly freed African Americans as they endeavored to become financially stable.  Originally, the bank was headquartered in New York, but later moved to Washington, DC.  Eventually, there were 37 locations across 17 states.
 
-#### Mission
-The bank was created to:
-- Encourage savings among freed people
-- Provide secure banking services
-- Promote financial independence
-- Support economic empowerment
+After a year of research commencing in 2015, the Cleveland Federal Reserve Bank created and launched a series of panels, regarding the Freedman's Bank in 2016.  This was done largely to celebrate the sesquicentennial of the bank's charter year of 1865.  In the 1860s, there was little opportunity for African Americans to amass enough wealth to bank.  There is a connection today in that there is still a large population of people of color that are the unbanked for various reasons.  It was important for the Cleveland Federal Reserve Bank to showcase the success (albeit temporary) of the Freedman's bank and the amount of wealth freed slaves contributed to the economy.
 
-#### Growth
-At its peak, the Freedman's Bank had:
-- 37 branches across the United States
-- Over 70,000 depositors
-- Deposits exceeding $3 million
+Treasury acknowledges the generosity of the CFRB in sharing the online exhibit regarding the Freedman's Bank Building. In addition, the Department acknowledges John Hope Bryant, a visionary who advocated to rename the building.
 
-### The Building
+THE END OF SLAVERY AND THE BIRTH OF THE FREEDMAN’S BANK
 
-The Freedman's Bank headquarters was located in Washington, D.C. The building served as the central office for the bank's operations and became a symbol of African American economic progress during Reconstruction.
+With the passage of the 13th Amendment and the end of the Civil War in 1865, slavery was finally abolished in the United States. The practice had existed on the American continent for more than 200 years.
 
-### Legacy
+Almost overnight, nearly 4 million African American men, women, and children were free. With the South in ruins, they faced disorder and danger. Most had no home, no money, and no work. Their relatives were scattered all over the country and nearly impossible to find.
 
-#### Collapse
-Unfortunately, due to mismanagement and the Panic of 1873, the bank failed in 1874, causing significant losses for its depositors.
+To address the needs of the newly freed slaves, the U.S. government created the Bureau of Refugees, Freedmen, and Abandoned Lands. Commonly known as “the Freedmen’s Bureau,” it provided food, housing, and medical aid to tens of thousands of freed slaves. It located relatives and reunited families, and it helped to establish schools all across the South for African Americans.
 
-#### Treasury Connection
-Following the bank's failure, Congress established a commission to handle the bank's affairs. The records of the Freedman's Bank were eventually transferred to the National Archives and are now an invaluable resource for genealogical research.
+Meanwhile, a group of missionaries, abolitionists, and businessmen saw that African Americans would need support and education to become financially secure. The group worked to create a savings bank for former slaves, African American veterans, and their families. In 1865, they succeeded. The Freedman’s Savings and Trust Company, often called “the Freedman’s Bank,” opened for business.
 
-#### Modern Recognition
-The Freedman's Bank records contain information on:
-- Account holders' names and family histories
-- Birth places and former enslavers
-- Military service records
-- Valuable genealogical data for African American families
+The Life of Freedman's Bank
 
-### Research Resources
+The Demise of Freedman's Bank
 
-The Freedman's Bank records are available through:
-- [National Archives and Records Administration](https://www.archives.gov/)
-- [FamilySearch](https://www.familysearch.org/)
-- Various genealogical databases
+The Lasting Impact of Freedman's Bank
 
----
+The Financial Panic of 1873
 
-*Learn more about [Treasury's History](/about/history/).*
+Freedman's Bank and Family Histories

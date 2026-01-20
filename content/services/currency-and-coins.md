@@ -7,34 +7,32 @@ url: /services/currency-and-coins
 description: "Information about U.S. currency and coin production."
 ---
 
-The Bureau of Engraving and Printing (BEP) designs, engraves, and prints all U.S. paper currency.
+Currency and Coins
 
-### Current Denominations
-- $1, $2, $5, $10, $20, $50, and $100 bills
+U.S currency is produced by the Bureau of Engraving and Printing and U.S. coins are produced by the U.S. Mint.  Both organizations are bureaus of the U.S. Department of the Treasury.
 
-### Security Features
-Modern U.S. currency includes advanced security features:
-- Color-shifting ink
-- Watermarks
-- Security threads
-- Microprinting
+BUREAU OF ENGRAVING AND PRINTING
 
-## U.S. Coins
+U.S. Currency
 
-The U.S. Mint produces all circulating coins, collector coins, and bullion.
+Laws and regulations
 
-### Circulating Coins
-- Penny (1¢)
-- Nickel (5¢)
-- Dime (10¢)
-- Quarter (25¢)
-- Half Dollar (50¢)
-- Dollar ($1)
+Tours
 
-### Collector Coins
-The Mint produces commemorative coins, proof sets, and uncirculated coin sets.
+Redeem damaged currency
 
-## Related Bureaus
+Shop
 
-- [Bureau of Engraving and Printing](https://www.bep.gov)
-- [U.S. Mint](https://www.usmint.gov)
+REPORT COUNTERFEIT CURRENCY
+
+Report suspected counterfeit notes to your local police department or the local U.S. Secret Service office.
+
+UScurrency.gov is managed by the U.S. Currency Education Program (CEP), of the Federal Reserve Board. CEP works closely with the Bureau of Engraving and Printing and the U.S. Secret Service to raise awareness about how to use the design and security features of U.S. currency.
+
+U.S MINT
+
+Coins
+
+Tours
+
+Shop

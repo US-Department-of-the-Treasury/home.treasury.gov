@@ -6,58 +6,28 @@ url: /policy-issues/tax-policy/revenue-proposals/
 description: "Treasury's revenue proposals and analysis of tax policy changes."
 ---
 
-The U.S. Department of the Treasury develops revenue proposals as part of the Administration's budget process, providing detailed explanations of proposed changes to the tax code.
+Revenue Proposals
 
-### The Green Book
+To accompany the Administration's Budget, Treasury releases the "General Explanations of the Administration’s Revenue Proposals" which provides an explanation of the Administration's revenue proposals for that fiscal year.
 
-Treasury publishes the "General Explanations of the Administration's Revenue Proposals," commonly known as the Green Book. This document provides:
+FY2025 (Released March 2024)
 
-- Detailed descriptions of proposed tax law changes
-- Revenue estimates for each proposal
-- Effective dates for proposed changes
-- Rationale for policy recommendations
+FY2025 Revenue Table Only  [Excel Tables]
 
-### Types of Revenue Proposals
+FY2025 Advancing Equity through the Tax Code (Released March 2024)
 
-#### Individual Tax Provisions
-- Income tax rate structures
-- Credits and deductions
-- Capital gains taxation
-- Estate and gift taxes
+PRIOR YEARS
 
-#### Business Tax Provisions
-- Corporate tax rates
-- Business deductions
-- International tax rules
-- Industry-specific provisions
+FY2024  [Excel Tables] | FY2023  [Excel Tables] |
 
-#### Tax Administration
-- Compliance and enforcement
-- Information reporting
-- Procedural improvements
-- Penalty provisions
+FY2022 | FY2017 | FY2016 | FY2015 | FY2014 |
 
-### Revenue Estimation
+FY2013 | FY2012 | FY2011 | FY2010 | FY2009 |
 
-Treasury's Office of Tax Analysis (OTA) produces revenue estimates that:
-- Project the fiscal impact of proposals
-- Account for behavioral responses
-- Consider economic effects
-- Inform policy decisions
+FY2008 | FY2007 | FY2006 | FY2005 | FY2004 |
 
-### Process
+FY2003 | FY2002 | FY2001 | FY2000 | FY1999 |
 
-1. **Development** - Policy proposals are developed through interagency process
-2. **Analysis** - OTA estimates revenue effects
-3. **Publication** - Green Book released with President's Budget
-4. **Congressional Action** - Congress considers proposals in tax legislation
+FY1998 | FY1997 | FY1996 | FY1994 | FY1993 |
 
-### Related Resources
-
-- [Tax Expenditures](/policy-issues/tax-policy/tax-expenditures/)
-- [Tax Policy](/policy-issues/tax-policy/)
-- [OMB Budget](https://www.whitehouse.gov/omb/budget/)
-
----
-
-*Explore more [Tax Policy](/policy-issues/tax-policy/) issues.*
+FY1992 | FY1991 | FY1990 ​

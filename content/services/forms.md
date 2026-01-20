@@ -7,31 +7,18 @@ url: /services/forms
 description: "Treasury forms and publications."
 ---
 
-Find forms and publications from Treasury and its bureaus.
+Forms
 
-## By Bureau
+IRS Forms and Instructions
 
-### Internal Revenue Service (IRS)
-Tax forms and instructions:
-- [IRS Forms & Publications](https://www.irs.gov/forms-instructions)
+Savings Bonds and Treasury Securities Forms
 
-### Bureau of the Fiscal Service
-- Payment and financial management forms
-- [Fiscal Service Forms](https://fiscal.treasury.gov/forms-publications/)
+Bank Secrecy Act Forms
 
-### Financial Crimes Enforcement Network (FinCEN)
-- Bank Secrecy Act forms
-- Suspicious Activity Reports
-- [FinCEN Forms](https://www.fincen.gov/resources/forms)
+Treasury International Capital (TIC) Forms and Instructions
 
-### Office of Foreign Assets Control (OFAC)
-- License applications
-- [OFAC Forms](https://home.treasury.gov/policy-issues/financial-sanctions/ofac-license-application-page)
+Alcohol and Tobacco Tax and Trade Bureau (TTB) Forms
 
-## General Treasury Forms
+Office of the Comptroller of the Currency Forms
 
-Department-wide forms for various purposes are available through the relevant program offices.
-
-## Accessibility
-
-All Treasury forms are designed to be accessible. If you need assistance, contact the issuing bureau.
+usa.gov/forms

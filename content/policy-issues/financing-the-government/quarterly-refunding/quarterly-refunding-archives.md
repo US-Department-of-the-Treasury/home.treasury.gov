@@ -6,50 +6,44 @@ url: /policy-issues/financing-the-government/quarterly-refunding/quarterly-refun
 description: "Archive of past quarterly refunding statements and Treasury borrowing documents."
 ---
 
-This archive contains historical quarterly refunding announcements and related documents from the U.S. Department of the Treasury.
+Quarterly Refunding Archives
 
-### Available Archives
+QUARTERLY FINANCING ESTIMATES BY CALENDAR YEAR
 
-Historical quarterly refunding materials are organized by year and include:
-- Refunding statements
-- Financing estimates
-- TBAC meeting materials
-- Press conference transcripts
+Information released as part of past Treasury Quarterly Refunding activities
 
-### Recent Years
+OFFICIAL REMARKS ON QUARTERLY REFUNDING BY CALENDAR YEAR
 
-Documents are available for quarterly refunding announcements dating back several years. Each quarterly package typically includes:
+Historical quarterly refunding policy statements
 
-1. **Quarterly Refunding Statement** - Summary of borrowing strategy
-2. **Financing Estimate Tables** - Detailed borrowing projections
-3. **TBAC Minutes** - Meeting notes and recommendations
-4. **TBAC Presentations** - Market analysis and research
+OFFICE OF ECONOMIC POLICY STATEMENTS TO TBAC BY CALENDAR YEAR
 
-### Research Value
+Historical statements by the Office of Economic Policy to TBAC
 
-These archives are valuable for:
-- Understanding Treasury debt management evolution
-- Analyzing responses to changing fiscal conditions
-- Researching market reactions to announcements
-- Academic and policy research
+TREASURY BORROWING ADVISORY COMMITTEE DISCUSSION CHARTS BY CALENDAR YEAR
 
-### Accessing Archives
+Historical TBAC quarterly refunding discussion charts
 
-Historical documents can be found in:
-- Treasury press release archives
-- Federal Register notices
-- Government document repositories
+TREASURY BORROWING ADVISORY COMMITTEE REPORT TO THE SECRETARY BY CALENDAR YEAR
 
-### Current Documents
+Historical TBAC Reports to the Secretary
 
-For the latest quarterly refunding announcement, see [Most Recent Quarterly Refunding Documents](/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents/).
+TREASURY BORROWING ADVISORY COMMITTEE RECOMMENDED FINANCING TABLES BY CALENDAR YEAR
 
-### Related Resources
+Historical TBAC Recommended Financing Tables
 
-- [Quarterly Refunding Overview](/policy-issues/financing-the-government/quarterly-refunding/)
-- [Debt Management Research](/policy-issues/financing-the-government/debt-management-research/)
-- [Treasury Investor Data](/policy-issues/financing-the-government/treasury-investor-data/)
+TREASURY BORROWING ADVISORY COMMITTEE MEETING MINUTES BY CALENDAR YEAR
 
----
+Historical TBAC meeting minutes
 
-*Learn more about [Financing the Government](/policy-issues/financing-the-government/).*
+PRIMARY DEALER MEETING AGENDAS BY CALENDAR YEAR
+
+Historical quarterly primary dealer meeting agendas
+
+PRIMARY DEALER AUCTION SIZE SURVEY
+
+Historical quarterly primary dealer auction size surveys
+
+HISTORICAL QUARTERLY REFUNDING CHARTS & DATA 1976--2010
+
+Charts and data released as part of quarterly refundings 1976 - 2010
