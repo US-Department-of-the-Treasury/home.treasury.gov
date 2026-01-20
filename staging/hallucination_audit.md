@@ -1,15 +1,15 @@
 # Hallucination Audit Report
 
-**Generated:** 2026-01-20T07:18:57.872804
+**Generated:** 2026-01-20T07:44:07.588696
 
 ## Executive Summary
 
 | Metric | Count |
 |--------|-------|
-| Total Files Audited | 124 |
+| Total Files Audited | 123 |
 | OK (content matches) | 97 |
 | Content Mismatch | 9 |
-| Not Found on Live Site | 18 |
+| Not Found on Live Site | 17 |
 | Errors | 0 |
 | **HALLUCINATIONS** | **5** |
 
@@ -118,10 +118,10 @@ These files have some content differences but may not be hallucinations:
 
 | File | Similarity | Local Title | Live Title |
 |------|------------|-------------|------------|
-| `content/policy-issues/financial-markets-financial-institutions-and-fiscal-service.md` | 36.6% | Financial Markets, Financial I... | Financial Markets, Financial I... |
 | `content/about/budget-financial-reporting-planning-and-performance/agency-financial-report.md` | 34.5% | Agency Financial Report | Agency Financial Report |
 | `content/services/treasury-payments.md` | 52.1% | Treasury Payments | Treasury Payments |
 | `content/services/bonds-and-securities.md` | 37.1% | Bonds and Securities | Bonds and Securities |
+| `content/policy-issues/financial-markets-financial-institutions-and-fiscal-service.md` | 36.6% | Financial Markets, Financial I... | Financial Markets, Financial I... |
 
 ## Pages Not Found on Live Site
 
@@ -134,17 +134,16 @@ These local files have no corresponding page on the live site (may be new or gen
 - `content/footer/privacy-policy.md` → /footer/privacy-policy/
 - `content/data/troubled-assets-relief-program/housing.md` → /data/troubled-assets-relief-program/housing/ (soft 404)
 - `content/footer/faqs.md` → /footer/faqs/
-- `content/footer/site-policies.md` → /footer/site-policies/
 - `content/footer/google-privacy.md` → /footer/google-privacy/
-- `content/policy-issues/coronavirus/assistance-for-american-industry.md` → /policy-issues/coronavirus/assistance-for-american-industry/ (soft 404)
-- `content/resource-center/data-chart-center.md` → /resource-center/data-chart-center
+- `content/footer/site-policies.md` → /footer/site-policies/
 - `content/policy-issues/economic-policy/social-security-and-medicare.md` → /policy-issues/economic-policy/social-security-and-medicare/
-- `content/utility/accessibility.md` → /utility/accessibility/ (soft 404)
+- `content/policy-issues/coronavirus/assistance-for-american-industry.md` → /policy-issues/coronavirus/assistance-for-american-industry/ (soft 404)
 - `content/policy-issues/tax-policy/overview.md` → /policy-issues/tax-policy/overview
-- `content/about/careers-at-treasury/how-to-apply.md` → /about/careers-at-treasury/how-to-apply/ (soft 404)
+- `content/utility/accessibility.md` → /utility/accessibility/ (soft 404)
 - `content/policy-issues/tax-policy/tax-policy-overview.md` → /policy-issues/tax-policy/tax-policy-overview/
 - `content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra.md` → /policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra/
 - `content/services/report-fraud-waste-and-abuse.md` → /services/report-fraud-waste-and-abuse (soft 404)
+- `content/about/careers-at-treasury/how-to-apply.md` → /about/careers-at-treasury/how-to-apply/ (soft 404)
 
 ## Recommendations
 

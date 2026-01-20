@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-01-20T07:18:57.871812",
+  "timestamp": "2026-01-20T07:44:07.587482",
   "summary": {
-    "total": 124,
+    "total": 123,
     "ok": 97,
     "content_mismatch": 9,
-    "not_found_live": 18,
+    "not_found_live": 17,
     "errors": 0,
     "hallucinations": 5
   },
@@ -57,13 +57,6 @@
   ],
   "content_mismatches": [
     {
-      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service.md",
-      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/",
-      "similarity": 0.3656387665198238,
-      "local_title": "Financial Markets, Financial Institutions, and Fiscal Service",
-      "live_title": "Financial Markets, Financial Institutions, and Fiscal Service"
-    },
-    {
       "file": "content/about/budget-financial-reporting-planning-and-performance/agency-financial-report.md",
       "url": "/about/budget-financial-reporting-planning-and-performance/agency-financial-report/",
       "similarity": 0.34459459459459457,
@@ -83,6 +76,13 @@
       "similarity": 0.3711475409836066,
       "local_title": "Bonds and Securities",
       "live_title": "Bonds and Securities"
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/",
+      "similarity": 0.3656387665198238,
+      "local_title": "Financial Markets, Financial Institutions, and Fiscal Service",
+      "live_title": "Financial Markets, Financial Institutions, and Fiscal Service"
     }
   ],
   "not_found_on_live": [
@@ -129,28 +129,16 @@
       "local_title": "Frequently Asked Questions"
     },
     {
-      "file": "content/footer/site-policies.md",
-      "url": "/footer/site-policies/",
-      "is_soft_404": false,
-      "local_title": "Site Policies and Notices"
-    },
-    {
       "file": "content/footer/google-privacy.md",
       "url": "/footer/google-privacy/",
       "is_soft_404": false,
       "local_title": "Google Privacy"
     },
     {
-      "file": "content/policy-issues/coronavirus/assistance-for-american-industry.md",
-      "url": "/policy-issues/coronavirus/assistance-for-american-industry/",
-      "is_soft_404": true,
-      "local_title": "Assistance for American Industry"
-    },
-    {
-      "file": "content/resource-center/data-chart-center.md",
-      "url": "/resource-center/data-chart-center",
+      "file": "content/footer/site-policies.md",
+      "url": "/footer/site-policies/",
       "is_soft_404": false,
-      "local_title": "Data Chart Center"
+      "local_title": "Site Policies and Notices"
     },
     {
       "file": "content/policy-issues/economic-policy/social-security-and-medicare.md",
@@ -159,10 +147,10 @@
       "local_title": "Social Security and Medicare"
     },
     {
-      "file": "content/utility/accessibility.md",
-      "url": "/utility/accessibility/",
+      "file": "content/policy-issues/coronavirus/assistance-for-american-industry.md",
+      "url": "/policy-issues/coronavirus/assistance-for-american-industry/",
       "is_soft_404": true,
-      "local_title": "Accessibility"
+      "local_title": "Assistance for American Industry"
     },
     {
       "file": "content/policy-issues/tax-policy/overview.md",
@@ -171,10 +159,10 @@
       "local_title": "Tax Policy Overview"
     },
     {
-      "file": "content/about/careers-at-treasury/how-to-apply.md",
-      "url": "/about/careers-at-treasury/how-to-apply/",
+      "file": "content/utility/accessibility.md",
+      "url": "/utility/accessibility/",
       "is_soft_404": true,
-      "local_title": "How to Apply"
+      "local_title": "Accessibility"
     },
     {
       "file": "content/policy-issues/tax-policy/tax-policy-overview.md",
@@ -193,6 +181,12 @@
       "url": "/services/report-fraud-waste-and-abuse",
       "is_soft_404": true,
       "local_title": "Report Fraud, Waste, and Abuse"
+    },
+    {
+      "file": "content/about/careers-at-treasury/how-to-apply.md",
+      "url": "/about/careers-at-treasury/how-to-apply/",
+      "is_soft_404": true,
+      "local_title": "How to Apply"
     }
   ]
 }
