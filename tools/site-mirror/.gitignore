@@ -8,6 +8,7 @@ visual_report/
 
 # Crawl state and data
 crawl_state.json
+crawl_errors.json
 visual_state.json
 *.html
 !README.md
@@ -44,3 +45,4 @@ Thumbs.db
 
 # Temp files
 diff.md
+missing_urls.txt

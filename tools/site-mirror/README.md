@@ -149,6 +149,7 @@ Options:
 ```
 crawl_output/
 ├── crawl_state.json    # Crawl state (for resume)
+├── crawl_errors.json   # Detailed error log (for IT troubleshooting)
 ├── pages/              # HTML pages
 │   ├── index.html
 │   ├── about/
@@ -160,6 +161,30 @@ crawl_output/
     ├── document.pdf
     └── image.png
 ```
+
+**Error Log (`crawl_errors.json`):**
+
+Contains detailed error information for IT troubleshooting:
+```json
+{
+  "total_errors": 5,
+  "generated_at": "2024-01-21T10:30:00",
+  "base_url": "https://home.treasury.gov",
+  "errors": [
+    {
+      "url": "https://home.treasury.gov/news/...",
+      "status_code": 403,
+      "error_type": "cdn_block",
+      "error_message": "Blocked by CDN (Access Denied)",
+      "response_headers": { "server": "AkamaiGHost", ... },
+      "response_body_preview": "<html>Access Denied...",
+      "timestamp": "2024-01-21T10:30:00"
+    }
+  ]
+}
+```
+
+Error types: `cdn_block`, `http_error`, `timeout`, `connection_error`, `unknown`
 
 ---
 
@@ -296,6 +321,40 @@ python mirror.py https://home.treasury.gov \
     --workers 16 \
     --output ./report
 ```
+
+---
+
+### `check_missing.py` - Extract Missing URLs
+
+Extracts missing URLs from comparison reports for further analysis or IT troubleshooting.
+
+**Usage:**
+```bash
+python check_missing.py <report_path> [options]
+
+Options:
+  --missing-type    Type of missing URLs: target or source (default: target)
+  --focus, -f       Filter to specific path prefix
+  --output, -o      Output file (default: missing_urls.txt)
+```
+
+**Examples:**
+```bash
+# Extract URLs missing in target (pages that need to be migrated)
+python check_missing.py report/text_comparison/text_comparison.json
+
+# Extract URLs missing in source (new pages only on target)
+python check_missing.py report/text_comparison/text_comparison.json --missing-type source
+
+# Filter to specific section
+python check_missing.py report/text_comparison/text_comparison.json --focus /news/press-releases
+
+# Custom output file
+python check_missing.py report/text_comparison/text_comparison.json -o pages_to_migrate.txt
+```
+
+**Output:**
+- `missing_urls.txt` - One URL path per line, sorted alphabetically
 
 ---
 
@@ -450,6 +509,7 @@ tools/site-mirror/
 ├── crawler.py             # Sitemap + recursive crawler
 ├── text_comparator.py     # Text content comparison
 ├── visual_comparator.py   # Screenshot comparison
+├── check_missing.py       # Extract missing URLs from reports
 ├── requirements.txt       # Python dependencies
 ├── .gitignore             # Ignore output files
 └── README.md              # This file

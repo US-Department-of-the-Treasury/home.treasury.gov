@@ -67,6 +67,18 @@ class CrawlResult:
 
 
 @dataclass
+class ErrorDetail:
+    """Detailed error information for IT troubleshooting."""
+    url: str
+    status_code: int
+    error_type: str  # e.g., "cdn_block", "http_error", "timeout", "connection_error"
+    error_message: str
+    response_headers: dict = field(default_factory=dict)
+    response_body_preview: str = ""  # First 500 chars of response body
+    timestamp: str = field(default_factory=lambda: datetime.now().isoformat())
+
+
+@dataclass
 class CrawlState:
     """Persistent crawl state for resume support."""
     base_url: str
@@ -172,10 +184,29 @@ class Crawler:
         self.state = CrawlState(base_url=base_url)
         self.semaphore = asyncio.Semaphore(rate_limit)
         self.state_file = output_dir / "crawl_state.json"
+        self.error_log_file = output_dir / "crawl_errors.json"
+
+        # Detailed error log for IT troubleshooting
+        self.errors: list[ErrorDetail] = []
 
         # Create output directories
         (output_dir / "pages").mkdir(parents=True, exist_ok=True)
         (output_dir / "assets").mkdir(parents=True, exist_ok=True)
+
+    def _log_error(self, error: ErrorDetail):
+        """Log an error and save to file."""
+        self.errors.append(error)
+        self._save_errors()
+
+    def _save_errors(self):
+        """Save error log to JSON file."""
+        error_data = {
+            "total_errors": len(self.errors),
+            "generated_at": datetime.now().isoformat(),
+            "base_url": self.base_url,
+            "errors": [asdict(e) for e in self.errors]
+        }
+        self.error_log_file.write_text(json.dumps(error_data, indent=2))
 
     async def crawl(self, start_urls: Optional[set[str]] = None, use_sitemap_from: Optional[str] = None) -> CrawlState:
         """Main crawl entry point."""
@@ -331,8 +362,47 @@ class Crawler:
                 else:
                     return await self._crawl_page(url)
 
+            except httpx.TimeoutException as e:
+                self.state.crawled_urls.add(url)
+                error_detail = ErrorDetail(
+                    url=url,
+                    status_code=0,
+                    error_type="timeout",
+                    error_message=f"Request timed out: {str(e)}"
+                )
+                self._log_error(error_detail)
+                return CrawlResult(
+                    url=url,
+                    status_code=0,
+                    content_type="",
+                    content_hash="",
+                    error=f"Timeout: {str(e)}"
+                )
+            except httpx.ConnectError as e:
+                self.state.crawled_urls.add(url)
+                error_detail = ErrorDetail(
+                    url=url,
+                    status_code=0,
+                    error_type="connection_error",
+                    error_message=f"Connection failed: {str(e)}"
+                )
+                self._log_error(error_detail)
+                return CrawlResult(
+                    url=url,
+                    status_code=0,
+                    content_type="",
+                    content_hash="",
+                    error=f"Connection error: {str(e)}"
+                )
             except Exception as e:
                 self.state.crawled_urls.add(url)
+                error_detail = ErrorDetail(
+                    url=url,
+                    status_code=0,
+                    error_type="unknown",
+                    error_message=str(e)
+                )
+                self._log_error(error_detail)
                 return CrawlResult(
                     url=url,
                     status_code=0,
@@ -349,10 +419,32 @@ class Crawler:
         content_type = response.headers.get("content-type", "")
         content = response.content
         content_hash = hashlib.sha256(content).hexdigest()
+        response_headers = dict(response.headers)
+
+        # Log HTTP errors (4xx, 5xx)
+        if response.status_code >= 400:
+            error_detail = ErrorDetail(
+                url=url,
+                status_code=response.status_code,
+                error_type="http_error",
+                error_message=f"HTTP {response.status_code}",
+                response_headers=response_headers,
+                response_body_preview=content[:500].decode('utf-8', errors='replace')
+            )
+            self._log_error(error_detail)
 
         # Detect CDN blocks (Akamai, CloudFront, etc.)
         content_lower = content[:1000].lower()
         if b'access denied' in content_lower or b'errors.edgesuite.net' in content_lower:
+            error_detail = ErrorDetail(
+                url=url,
+                status_code=response.status_code,
+                error_type="cdn_block",
+                error_message="Blocked by CDN (Access Denied)",
+                response_headers=response_headers,
+                response_body_preview=content[:500].decode('utf-8', errors='replace')
+            )
+            self._log_error(error_detail)
             return CrawlResult(
                 url=url,
                 status_code=403,
@@ -578,6 +670,17 @@ async def main():
     print(f"URLs crawled: {len(state.crawled_urls)}")
     print(f"URLs failed: {len(state.failed_urls)}")
     print(f"Results saved to: {args.output}")
+
+    # Show error log info
+    error_log = args.output / "crawl_errors.json"
+    if error_log.exists():
+        import json as json_module
+        error_data = json_module.loads(error_log.read_text())
+        error_count = error_data.get("total_errors", 0)
+        if error_count > 0:
+            print(f"\nErrors logged: {error_count}")
+            print(f"Error details: {error_log}")
+            print("  (Share this file with IT for CDN/firewall troubleshooting)")
 
 
 if __name__ == "__main__":
