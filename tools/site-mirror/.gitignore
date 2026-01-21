@@ -1,0 +1,46 @@
+# Output directories
+report/
+output/
+mirror_output/
+crawl_output/
+comparison_report/
+visual_report/
+
+# Crawl state and data
+crawl_state.json
+visual_state.json
+*.html
+!README.md
+
+# Screenshots and diffs
+screenshots/
+diffs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env/
+
+# Logs
+*.log
+error.log
+out.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+diff.md
