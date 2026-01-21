@@ -6,8 +6,6 @@ url: /policy-issues/international/exchange-stabilization-fund/
 description: "The Exchange Stabilization Fund is used to promote exchange rate stability and counter disorderly currency markets."
 ---
 
-The Exchange Stabilization Fund (ESF) consists of three types of assets: U.S. dollars, foreign currencies, and Special Drawing Rights (SDRs), which is an international reserve asset created by the International Monetary Fund.
-
 The ESF can be used to purchase or sell foreign currencies, to hold U.S. foreign exchange and Special Drawing Rights (SDR) assets, and to provide financing to foreign governments. All operations of the ESF require the explicit authorization of the Secretary of the Treasury ("the Secretary").
 
 The Secretary is responsible for the formulation and implementation of U.S. international monetary and financial policy, including exchange market intervention policy. The ESF helps the Secretary to carry out these responsibilities. By law, the Secretary has considerable discretion in the use of ESF resources.

@@ -7,8 +7,6 @@ url: /about/general-information/orders-and-directives/
 description: "Treasury Orders and Directives that govern the organization and operations of the U.S. Department of the Treasury."
 ---
 
-The Treasury Orders and Directives System contains the Department's primary management documents. These documents establish policy and assign responsibilities to Secretarial Officers.
-
 .button-link, #views-exposed-form-media-items-page-1 .form-submit, #views-exposed-form-custom-taxonomy-term-daily-guidance .form-submit, #block-exposedformcustom-taxonomy-termpress-releases .form-submit, #block-exposedformcustom-taxonomy-termfeatured .form-submit, #block-exposedformcustom-taxonomy-termsecretary-statements-remarks .form-submit, #block-exposedformofac-recent-actionspage-1 .form-submit, #block-exposedformofac-recent-actionspage-2 .form-submit, .button-link--rounded, .node--type-data_set nav.block-system-menublock ul li.menu-item a, .button-link--royal-blue, .button-link--white, .node--type-data_set .block-entity-fieldnodefield-data-set-raw-files .field--name-field-data-set-raw-files a, .button-link:link, .button-link:visited {
 background: #0053a2 !important;
 }

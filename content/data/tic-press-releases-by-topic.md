@@ -6,264 +6,145 @@ url: /data/tic-press-releases-by-topic/
 description: "Treasury International Capital (TIC) press releases organized by topic and data type."
 ---
 
-TIC Press Releases -- by topic
+- [Monthly releases and archives](/tic-press-releases-by-topic) of TIC data on ac​ross-U.S. border financial flows (including historical data).
+- **Annual** reports on [Foreign Portfolio Holdings of U.S. Securities](#section2) at end-June (released end-February and end-April).
+- **Annual** reports on [U.S. Portfolio Holdings of Foreign Securities](#section3) at end-year (released end-August and end-October).
 
-Monthly releases and archives of TIC data on ac​ross-U.S. border financial flows (including historical data).
+#### 1. Monthly Releases and Archives of Treasury International Capital (TIC) Data {financial flows across-U.S. border}
 
-Annual reports on Foreign Portfolio Holdings of U.S. Securities at end-June (released end-February and end-April).
-
-Annual reports on U.S. Portfolio Holdings of Foreign Securities at end-year (released end-August and end-October).
-
-1. Monthly Releases and Archives of Treasury International Capital (TIC) Data {financial flows across-U.S. border}
-
-Next release: 12/18/2025 at 4:00 p.m. in Washington D.C. (Press releases are available first on the "Press Center" webpage.)
-
+- Next release: **12/18/2025** at **4:00 p.m.** in Washington D.C. (Press releases are available first on the ["Press Center"](/news/press-releases/) webpage.)
 NOTICE on DATES: When Federal Government offices in Washington D.C. are closed on a release date, that release will be rescheduled after the offices reopen.
-
-ARCHIVES of TIC Data files released on previous dates.
-
-Previous releases:
-
------ historical data (most recent) (HTML); (Note: the CSV version ended after the Oct 18, 2023 release); there is a column of historical data for each row in the data table in the press release.
-
------ FAQs on press release, including lines 20 (updated 2023-11-14), 26, 29 in the data table.
-
-01/15/2026 TIC Data for November 2025
-
-12/18/2025 TIC Data for October 2025
-
-11/18/2025 TIC Data for August and September 2025
-
-09/18/2025 TIC Data for July 2025
-
-08/15/2025 TIC Data for June 2025
-
-07/17/2025 TIC Data for May 2025
-
-06/18/2025 TIC Data for April 2025
-
-05/16/2025 TIC Data for March 2025
-
-04/16/2025 TIC Data for February 2025
-
-03/19/2025 TIC Data for January 2025
-
-02/18/2025 TIC Data for December 2024
-
-01/17/2025 TIC Data for November 2024
-
-12/19/2024 TIC Data for October 2024
-
-11/18/2024 TIC Data for September 2024
-
-10/17/2024 TIC Data for August 2024
-
-09/18/2024 TIC Data for July 2024
-
-08/15/2024 TIC Data for June 2024
-
-07/18/2024 TIC Data for May 2024
-
-06/18/2024 TIC Data for April 2024
-
-05/15/2024 TIC Data for March 2024
-
-04/17/2024 TIC Data for February 2024
-
-03/19/2024 TIC Data for January 2024
-
-02/15/2024 TIC Data for December 2023
-
-01/19/2023 TIC Data for November 2023
-
-12/19/2023 TIC Data for October 2023
-
-11/16/2023 TIC Data for September 2023
-
-10/18/2023 TIC Data for August 2023
-
-09/18/2023 TIC Data for July 2023
-
-08/15/2023 TIC Data for June 2023
-
-07/18/2023 TIC Data for May 2023
-
-06/15/2023 TIC Data for April 2023
-
-05/15/2023 TIC Data for March 2023
-
-04/17/2023 TIC Data for February 2023
-
-03/15/2023 TIC Data for January 2023
-
-2022, release date: 02/15  01/18/2023  12/15    11/16    10/18    09/16    08/15    07/18    06/15   05/16   04/15   03/15/2022
-
-2021, release date: 02/15  01/18/2022  12/15    11/16    10/18    09/16    08/16    07/16    06/15   05/17   04/15   03/15/2021
-
-2020, release date: 02/16  01/19/2021  12/15    11/17    10/16    09/16    08/17    07/16    06/15   05/15   04/15   03/16/2020
-
-Data for month of:   Dec           Nov            Oct         Sep        Aug      July       June       May       Apr       Mar      Feb          Jan
-
-2019, release date: 02/18  01/16/2020  12/16    11/18    10/16    09/17    08/15    07/16    06/17   05/15   04/15   03/15/2019
-
-2018, release date: 02/15  01/31/2019  12/17    11/16    10/16    09/18    08/15    07/17    06/15   05/15   04/16   03/15/2018
-
-2017, release date: 02/15  01/17/2018  12/15    11/15    10/17    09/18    08/15    07/18    06/15   05/15   04/17   03/15/2017
-
-2016, release date: 02/15  01/18/2017  12/15    11/16    10/18    09/16    08/15    07/18    06/15   05/16   04/15   03/15/2016
-
-2015, release date: 02/16  01/19/2016  12/15    11/17    10/16    09/16    08/17    07/16    06/15   05/15   04/15   03/16/2015
-
-Data for month of:   Dec           Nov            Oct         Sep        Aug      July       June       May       Apr       Mar      Feb          Jan
-
-2014, release date: 02/18  01/16/2015  12/15    11/18    10/16    09/16    08/15    07/16    06/16   05/15   04/15   03/18/2014
-
-2013, release date: 02/18  01/16/2014  12/16    11/18    10/22    09/17    08/15    07/16    06/14   05/15   04/15   03/15/2013
-
-2012, release date: 02/15  01/16/2013  12/17    11/16    10/16     09/18    08/15    07/17    06/15   05/15   04/16   03/15/2012
-
-2011, release date: 02/15  01/18/2012  12/15    11/16     10/18    09/16    08/15    07/18    06/15   05/16   04/15   03/15/2011
-
-2010, release date: 02/15  01/18/2011  12/15    11/16    10/18     09/16    08/16    07/16    06/15   05/17   04/15   03/15/2010
-
--- New data covering all financial companies as a group began with release of  09/16/2009
-
-Data for month of:   Dec           Nov            Oct         Sep        Aug      July       June       May       Apr       Mar      Feb          Jan
-
-2009, release date: 02/16  01/19/2010  12/15    11/17    10/16    09/16    08/17    07/16    06/15   05/15   04/15   03/16/2009
-
-2008, release date: 02/17  01/16/2009  12/15    11/18    10/16    09/16    08/15    07/16    06/16   05/15   04/15   03/17/2008
-
-2007, release date: 02/15  01/16/2008  12/17    11/16    10/16    09/18    08/15    07/17    06/15   05/15   04/16   03/15/2007
-
--- New SUMMARY DATA TABLE for Press Releases began with TIC data for August 2006, announced on 10/20/2006.
-
-Data for month of:   Dec           Nov            Oct         Sep        Aug      July       June       May       Apr       Mar      Feb          Jan
-
-2006, release date: 02/15  01/17/2007  12/15    11/16    10/17    09/18    08/15    07/18    06/15   05/15   04/17   03/15/2006
-
-2005, release date: 02/15  01/18/2006  12/15    11/16    10/18    09/16    08/15    07/18    06/15   05/16   04/15   03/15/2005
-
-2004, release date: 02/15   01/18/2005  12/15    11/16    10/18    09/16    08/16    07/16    06/15   05/17   04/15   03/15/2004
-
-2003, release date: 02/17  01/16/2004  12/15/2003
-
-^ TOP
-
-2. Annual Surveys of Foreign Portfolio Holdings of U.S. Securities at end-June
-
-Next Release is expected on 02/27/2026 at 4 p.m. in Washington D.C.:
-
+- [ARCHIVES](/treasury-international-capital-system-archives-of-tic-monthly-data-releases) of TIC Data files released on previous dates.
+
+**Previous releases:**
+----- [historical data (most recent) (HTML)](https://treasury.gov/resource-center/data-chart-center/tic/Documents/npr_history.html); (Note: the CSV version ended after the Oct 18, 2023 release); there is a column of historical data for each row in the data table in the press release.
+----- [FAQs](/data/treasury-international-capital-tic-system-home-page/help-files/frequently-asked-questions-about-the-new-press-release-of-nov-16-2006) on press release, including lines 20 (updated 2023-11-14), 26, 29 in the data table.
+[01/15/2026](/news/press-releases/sb0365) TIC Data for November 2025
+[12/18/2025](/news/press-releases/sb0342) TIC Data for October 2025
+[11/18/2025](/news/press-releases/sb0317) TIC Data for August and September 2025
+[09/18/2025](/news/press-releases/sb0253) TIC Data for July 2025
+[08/15/2025](/news/press-releases/sb0226) TIC Data for June 2025
+[07/17/2025](/news/press-releases/sb0196) TIC Data for May 2025
+[06/18/2025](/news/press-releases/sb0171) TIC Data for April 2025
+[05/16/2025](/news/press-releases/sb0144) TIC Data for March 2025
+[04/16/2025](/news/press-releases/sb0091) TIC Data for February 2025
+[03/19/2025](/news/press-releases/sb0055) TIC Data for January 2025
+[02/18/2025](/news/press-releases/sb0019) TIC Data for December 2024
+[01/17/2025](/news/press-releases/jy2795) TIC Data for November 2024
+[12/19/2024](/news/press-releases/jy2761) TIC Data for October 2024
+[11/18/2024](/news/press-releases/jy2717) TIC Data for September 2024
+[10/17/2024](/news/press-releases/jy2655) TIC Data for August 2024
+[09/18/2024](/news/press-releases/jy2588) TIC Data for July 2024
+[08/15/2024](/news/press-releases/jy2539) TIC Data for June 2024
+[07/18/2024](/news/press-releases/jy2472) TIC Data for May 2024
+[06/18/2024](/news/press-releases/jy2415) TIC Data for April 2024
+[05/15/2024](/news/press-releases/jy2343) TIC Data for March 2024
+[04/17/2024](/news/press-releases/jy2267) TIC Data for February 2024
+[03/19/2024](/news/press-releases/jy2189) TIC Data for January 2024
+[02/15/2024](/news/press-releases/jy2101) TIC Data for December 2023
+[01/19/2023](/news/press-releases/jy2034) TIC Data for November 2023
+[12/19/2023](/news/press-releases/jy2006) TIC Data for October 2023
+[11/16/2023](/news/press-releases/jy1918) TIC Data for September 2023
+[10/18/2023](/news/press-releases/jy1821) TIC Data for August 2023
+[09/18/2023](/news/press-releases/jy1741) TIC Data for July 2023
+[08/15/2023](/news/press-releases/jy1694) TIC Data for June 2023
+[07/18/2023](/news/press-releases/jy1626) TIC Data for May 2023
+[06/15/2023](/news/press-releases/jy1542) TIC Data for April 2023
+[05/15/2023](/news/press-releases/jy1482) TIC Data for March 2023
+[04/17/2023](/news/press-releases/jy1420) TIC Data for February 2023
+[03/15/2023](/news/press-releases/jy1346) TIC Data for January 2023
+2022, release date: [02/15](/news/press-releases/jy1276) [01/18/2023](/news/press-releases/jy1194) [12/15](/news/press-releases/jy1165) [11/16](/news/press-releases/jy1112) [10/18](/news/press-releases/jy1032) [09/16](/news/press-releases/jy0959) [08/15](/news/press-releases/jy0922) [07/18](/news/press-releases/jy0874) [06/15](/news/press-releases/jy0818) [05/16](/news/press-releases/jy0787) [04/15](/news/press-releases/jy0716) [03/15/2022](/news/press-releases/jy0657)
+2021, release date: [02/15](/news/press-releases/jy0595) [01/18/2022](/news/press-releases/jy0559) [12/15](/news/press-releases/jy0537) [11/16](/news/press-releases/jy0489) [10/18](/news/press-releases/jy0414) [09/16](/news/press-releases/jy0360) [08/16](/news/press-releases/jy0324) [07/16](/news/press-releases/jy0277) [06/15](/news/press-releases/jy0230) [05/17](/news/press-releases/jy0181) [04/15](/news/press-releases/jy0129) [03/15/2021](/news/press-releases/jy0056)
+2020, release date: [02/16](/news/press-releases/jy0026) [01/19/2021](/news/press-releases/sm1240) [12/15](/news/press-releases/sm1211) [11/17](/news/press-releases/sm1184) [10/16](/news/press-releases/sm1154) [09/16](/news/press-releases/sm1124) [08/17](/news/press-releases/sm1097) [07/16](/news/press-releases/sm1061) [06/15](/news/press-releases/sm1031) [05/15](/news/press-releases/sm1009) [04/15](/news/press-releases/sm980) [03/16/2020](/news/press-releases/sm943)
+Data for month of: Dec Nov Oct Sep Aug July June May Apr Mar Feb Jan
+2019, release date: [02/18](/news/press-releases/sm910) [01/16/2020](/news/press-releases/sm877) [12/16](/news/press-releases/sm859) [11/18](/news/press-releases/sm832) [10/16](/news/press-releases/sm794) [09/17](/news/press-releases/sm777) [08/15](/news/press-releases/sm754) [07/16](/news/press-releases/sm732) [06/17](/news/press-releases/sm711) [05/15](/news/press-releases/sm690) [04/15](/news/press-releases/sm659) [03/15/2019](/news/press-releases/sm630)
+2018, release date: [02/15](/news/press-releases/sm613) [01/31/2019](/news/press-releases/sm600) [12/17](/news/press-releases/sm575) [11/16](/news/press-releases/sm548) [10/16](/news/press-releases/sm523) [09/18](/news/press-releases/sm487) [08/15](/news/press-releases/sm459) [07/17](/news/press-releases/sm427) [06/15](/news/press-releases/sm0416) [05/15](/news/press-releases/sm0386) [04/16](/news/press-releases/sm0349) [03/15/2018](/news/press-releases/sm0315)
+2017, release date: [02/15](/news/press-releases/sm0293) [01/17/2018](/news/press-releases/sm0252) [12/15](/news/press-releases/sm0238) [11/15](/news/press-releases/sm0215) [10/17](/news/press-releases/sm0182) [09/18](/news/press-releases/sm0160) [08/15](/news/press-release/sm0146) [07/18](/news/press-releases/sm0126) [06/15](/news/press-releases/sm0110) [05/15](/news/press-releases/sm0086) [04/17](/news/press-releases/sm0045) [03/15/2017](/news/press-releases/sm0029)
+2016, release date: [02/15](/news/press-releases/sm0005) [01/18/2017](/news/press-releases/jl0711) [12/15](/news/press-releases/jl0686) [11/16](/news/press-releases/jl0611) [10/18](/news/press-releases/jl0585) [09/16](/news/press-releases/jl5052) [08/15](/news/press-releases/jl0536) [07/18](/news/press-releases/jl0518) [06/15](/news/press-releases/jl0487) [05/16](/news/press-releases/jl0455) [04/15](/news/press-releases/jl0426) [03/15/2016](/news/press-releases/jl0383)
+2015, release date: [02/16](/news/press-releases/jl0353) [01/19/2016](/news/press-releases/jl0324) [12/15](/news/press-releases/jl0301) [11/17](/news/press-releases/jl0277) [10/16](/news/press-releases/jl0215) [09/16](/news/press-releases/jl0164) [08/17](/news/press-releases/jl0147) [07/16](/news/press-releases/jl0117) [06/15](/news/press-releases/jl0075) [05/15](/news/press-releases/jl10050) [04/15](/news/press-releases/jl10023) [03/16/2015](/news/press-releases/jl9997)
+Data for month of: Dec Nov Oct Sep Aug July June May Apr Mar Feb Jan
+2014, release date: [02/18](/news/press-releases/jl9978) [01/16/2015](/news/press-releases/jl9743) [12/15](/news/press-releases/jl9717) [11/18](/news/press-releases/jl9704) [10/16](/news/press-releases/jl2667) [09/16](/news/press-releases/jl2636) [08/15](/news/press-releases/jl2609) [07/16](/news/press-releases/jl2568) [06/16](/news/press-releases/jl2428) [05/15](/news/press-releases/jl2400) [04/15](/news/press-releases/jl2361) [03/18/2014](/news/press-releases/jl2325)
+2013, release date: [02/18](/news/press-releases/jl2294) [01/16/2014](/news/press-releases/jl2257) [12/16](/news/press-releases/jl2246) [11/18](/news/press-releases/jl2220) [10/22](/news/press-releases/jl2190) [09/17](/news/press-releases/jl2164) [08/15](/news/press-releases/jl2143) [07/16](/news/press-releases/jl2014) [06/14](/news/press-releases/jl1985) [05/15](/news/press-releases/jl1940) [04/15](/news/press-releases/jl1897) [03/15/2013](/news/press-releases/jl1881)
+2012, release date: [02/15](/news/press-releases/tg1856) [01/16/2013](/news/press-releases/tg1822) [12/17](/news/press-releases/tg1806) [11/16](/news/press-releases/tg1769) [10/16](/news/press-releases/tg1736) [09/18](/news/press-releases/tg1713) [08/15](/news/press-releases/tg1678) [07/17](/news/press-releases/tg1639) [06/15](/news/press-releases/tg1614) [05/15](/news/press-releases/tg1578) [04/16](/news/press-releases/tg1536) [03/15/2012](/news/press-releases/tg1450)
+2011, release date: [02/15](/news/press-releases/tg1420) [01/18/2012](/news/press-releases/tg1394) [12/15](/news/press-releases/tg1384) [11/16](/news/press-releases/tg1362) [10/18](/news/press-releases/tg1332) [09/16](/news/press-releases/tg1299) [08/15](/news/press-releases/tg1277) [07/18](/news/press-releases/tg1244) [06/15](/news/press-releases/tg1209) [05/16](/news/press-releases/tg1177) [04/15](/news/press-releases/tg1140) [03/15/2011](/news/press-releases/tg1101)
+2010, release date: [02/15](/news/press-releases/tg1063) [01/18/2011](/news/press-releases/tg1026) [12/15](/news/press-releases/tg1004) [11/16](/news/press-releases/tg952) [10/18](/news/press-releases/tg912) [09/16](/news/press-releases/tg857) [08/16](/news/press-releases/tg827) [07/16](/news/press-releases/tg778) [06/15](/news/press-releases/tg744) [05/17](/news/press-releases/tg697) [04/15](/news/press-releases/tg642) [03/15/2010](/news/press-releases/tg587)
+-- New data covering all financial companies as a group began with release of [09/16/2009](/news/press-releases/tg288)
+Data for month of: Dec Nov Oct Sep Aug July June May Apr Mar Feb Jan
+2009, release date: [02/16](/news/press-releases/tg548) [01/19/2010](/news/press-releases/tg510) [12/15](/news/press-releases/tg443) [11/17](/news/press-releases/tg407) [10/16](/news/press-releases/tg321) [09/16](/news/press-releases/tg288) [08/17](/news/press-releases/tg263) [07/16](/news/press-releases/tg216) [06/15](/news/press-releases/tg172) [05/15](/news/press-releases/tg133) [04/15](/news/press-releases/tg89) [03/16/2009](/news/press-releases/tg57)
+2008, release date: [02/17](/news/press-releases/tg29) [01/16/2009](/news/press-releases/hp1357) [12/15](/news/press-releases/hp1326) [11/18](/news/press-releases/hp1278) [10/16](/news/press-releases/hp1215) [09/16](/news/press-releases/hp1138) [08/15](/news/press-releases/hp1115) [07/16](/news-releases/hp1082) [06/16](/news/press-releases/hp1024) [05/15](/news/press-releases/hp977) [04/15](/news/press-releases/hp924) [03/17/2008](/news/press-releases/hp875)
+2007, release date: [02/15](/news/press-releases/hp831) [01/16/2008](/news/press-releases/hp763) [12/17](/news/press-releases/hp738) [11/16](/news/press-releases/hp685) [10/16](/news/press-releases/hp611) [09/18](/news/press-releases/hp560) [08/15](/news/press-releases/hp534) [07/17](/news/press-releases/hp491) [06/15](/news/press-releases/hp460) [05/15](/news/press-releases/hp403) [04/16](/news/press-releases/hp353) [03/15/2007](/news/press-releases/hp317)
+-- New SUMMARY DATA TABLE for Press Releases began with TIC data for August 2006, announced on [10/20/2006](/news/press-releases/hp144).
+Data for month of: Dec Nov Oct Sep Aug July June May Apr Mar Feb Jan
+2006, release date: [02/15](/news/press-releases/hp263) [01/17/2007](/news/press-releases/hp225) [12/15](/news/press-releases/hp199) [11/16](/news/press-releases/hp167) [10/17](/news/press-releases/hp138) [09/18](/news/press-releases/hp58) [08/15](/news/press-releases/hp58) [07/18](/news/press-releases/hp16) [06/15](/news/press-releases/js4321) [05/15](/news/press-releases/js4259) [04/17](/news/press-releases/js4183) [03/15/2006](/news/press-releases/js4117)
+2005, release date: [02/15](/news/press-releases/js4049) [01/18/2006](/news/press-releases/js3079) [12/15](/news/press-releases/js3050) [11/16](/news/press-releases/js3019) [10/18](/news/press-releases/js2976) [09/16](/news/press-releases/js2724) [08/15](/news/press-releases/js2884) [07/18](/news/press-releases/js2637) [06/15](/news/press-releases/js2495) [05/16](/ews/press-releases/js2380) [04/15](/news/press-releases/js2380) [03/15/2005](/news/press-releases/js2314)
+2004, release date: [02/15](/news/press-releases/js2251) [01/18/2005](/news/press-releases/js2198) [12/15](/news/press-releases/js2149) [11/16](/news/press-releases/js2101) [10/18](/news/press-releases/js2037) [09/16](news/press-releases/js1858) [08/16](/news/press-releases/js1858) [07/16](/news/press-releases/js1792) [06/15](/news/press-releases/js1723) [05/17](/news/press-releases/js1558) [04/15](/news/press-releases/js1327) [03/15/2004](/news/press-releases/js1236)
+2003, release date: [02/17](/news/press-releases/js1174) [01/16/2004](/news/press-releases/js1098) [12/15/2003](/news/press-releases/js1055)
+
+[^ TOP](/tic-press-releases-by-topic#top)
+
+#### 2. Annual Surveys of Foreign Portfolio Holdings of U.S. Securities at end-June
+
+- Next Release is expected on **02/27/2026** at 4 p.m. in Washington D.C.:
 Preliminary Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2025.
 
-Previous releases:
+**Previous releases:**
+[04/30/2025](/news/press-releases/sb0124): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2024.
+[02/28/2025](/news/press-releases/sb0037): Preliminary Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2024.
+[04/30/2024](/news/press-releases/jy2308): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2023.
+[02/29/2024](/news/press-releases/jy2140): Preliminary Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2023.
+[04/28/2023](/news/press-releases/jy1451): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2022.
+[02/28/2023](/news/press-releases/jy1311): Preliminary data from survey of Foreign Portfolio Holdings of U.S. Securities at End-June 2022.
+[04/29/2022](/news/press-releases/jy0753): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2021. [02/28/2022](/news/press-releases/jy0613): Preliminary data.
+[04/30/2021](/news/press-releases/jy0157): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2020. [02/26/2021](/news/press-releases/jy0039): Preliminary data.
+[04/30/2020](/news/press-releases/sm994): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2019. [02/28/2020](/news/press-releases/sm923): Preliminary data.
+[04/30/2019](/news/press-releases/sm676): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2018. [02/28/2019](/news/press-releases/sm618): Preliminary data.
+[04/30/2018](/news/press-releases/sm0374): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2017. [02/28/2018](/news/press-releases/sm0301): Preliminary data.
+[04/28/2017](/news/press-releases/sm0066): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2016. [02/28/2017](/news/press-releases/sm0018): Preliminary data.
+[05/31/2016](/news/press-releases/jl0469): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2015. [02/29/2016](/news/press-releases/jl0370): Preliminary data.
+[04/30/2015](/news/press-releases/jl0042): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2014. [02/27/2015](/news/press-releases/jl9983): Preliminary data.
+[04/30/2014](/news/press-releases/jl2379): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2013. [02/28/2014](/news/press-releases/jl2300): Preliminary data.
+[04/30/2013](/news/press-releases/jl1924): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2012. [02/28/2013](/news/press-releases/tg1865): Preliminary data.
+[04/30/2012](/news/press-releases/tg1557): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2011. [02/29/2012](/news/press-releases/tg1437): Preliminary data.
+[04/29/2011](/news/press-releases/tg1153): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2010. [02/28/2011](/news/press-releases/tg1079): Preliminary data.
+[04/30/2010](/news/press-releases/tg677): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2009. [02/26/2010](/news/press-releases/tg568): Preliminary data.
+[04/30/2009](/news/press-releases/tg116): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2008. [02/27/2009](/news/press-releases/tg42): Preliminary data.
+[04/30/2008](/news/press-releases/hp947): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2007. [02/29/2008](/news/press-releases/hp853): Preliminary data.
+[05/31/2007](/news/press-releases/hp437): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2006. [03/30/2007](/news/press-releases/hp337): Preliminary data.
+[06/30/2006](/news/press-releases/js4347): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2005. [04/28/2006](/news/press-releases/js4219): Preliminary data.
+[06/30/2005](/news/press-releases/js2622): Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2004. [04/29/2005](/news/press-releases/js2412): Preliminary data.
 
-04/30/2025: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2024.
+[^ TOP](/tic-press-releases-by-topic#top)
 
-02/28/2025: Preliminary Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2024.
+#### 3. Annual Surveys of U.S. Portfolio Holdings of Foreign Securities at year-end
 
-04/30/2024: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2023.
-
-02/29/2024: Preliminary Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2023.
-
-04/28/2023: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2022.
-
-02/28/2023: Preliminary data from survey of Foreign Portfolio Holdings of U.S. Securities at End-June 2022.
-
-04/29/2022: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2021. 02/28/2022: Preliminary data.
-
-04/30/2021: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2020. 02/26/2021: Preliminary data.
-
-04/30/2020: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2019. 02/28/2020: Preliminary data.
-
-04/30/2019: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2018. 02/28/2019: Preliminary data.
-
-04/30/2018: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2017. 02/28/2018: Preliminary data.
-
-04/28/2017: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2016. 02/28/2017: Preliminary data.
-
-05/31/2016: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2015. 02/29/2016: Preliminary data.
-
-04/30/2015: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2014. 02/27/2015: Preliminary data.
-
-04/30/2014: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2013. 02/28/2014: Preliminary data.
-
-04/30/2013: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2012. 02/28/2013: Preliminary data.
-
-04/30/2012: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2011. 02/29/2012: Preliminary data.
-
-04/29/2011: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2010. 02/28/2011: Preliminary data.
-
-04/30/2010: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2009. 02/26/2010: Preliminary data.
-
-04/30/2009: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2008. 02/27/2009: Preliminary data.
-
-04/30/2008: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2007. 02/29/2008: Preliminary data.
-
-05/31/2007: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2006. 03/30/2007: Preliminary data.
-
-06/30/2006: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2005. 04/28/2006: Preliminary data.
-
-06/30/2005: Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2004. 04/29/2005: Preliminary data.
-
-^ TOP
-
-3. Annual Surveys of U.S. Portfolio Holdings of Foreign Securities at year-end
-
-Next Release is expected on 08/31/2026 at 4 p.m. in Washington D.C.:
-
+- Next Release is expected on **08/31/2026** at 4 p.m. in Washington D.C.:
 Preliminary data from survey of U.S. Portfolio Holdings of Foreign Securities at End-Year 2025.
 
-Previous releases:
+**Previous releases:**
+[11/26/2025](/news/press-releases/sb0325): Report on U.S. Portfolio Holdings of Foreign Securities at Year-End 2024.
+[08/29/2025](/news/press-releases/sb0232): Preliminary data from survey of U.S. Portfolio Holdings of Foreign Securities at End-Year 2024.
+[10/31/2024](/news/press-releases/jy2706): Report on U.S. Portfolio Holdings of Foreign Securities at Year-End 2023.
+[08/30/2024](/news/press-releases/jy2554): Preliminary data from survey of U.S. Portfolio Holdings of Foreign Securities at End-Year 2023.
+[10/31/2023](/news/press-releases/jy1857): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2022.
+[08/31/2023](/news/press-releases/jy1709): Preliminary data from survey of U.S. Portfolio Holdings of Foreign Securities at End-Year 2022.
+[10/31/2022](/news/press-releases/jy1064): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2021. [08/31/2022](/news/press-releases/jy0933): Preliminary data.
+[10/29/2021](/news/press-releases/jy0445): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2020. [08/31/2021](/news/press-releases/jy0339): Preliminary data.
+[10/30/2020](/news/press-releases/sm1170): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2019. [08/31/2020](/news/press-releases/sm1111): Preliminary data.
+[10/31/2019](/news/press-releases/sm817): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2018. [08/30/2019](/news/press-releases/sm764): Preliminary data.
+[10/31/2018](/news/press-releases/sm540): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2017. [08/31/2018](/news/press-releases/sm471): Preliminary data.
+[10/31/2017](/news/press-releases/sm0199): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2016. [08/31/2017](/news/press-release/sm0151): Preliminary data.
+[10/31/2016](/news/press-releases/jl0598): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2015. [08/31/2016](/news/press-releases/jl5046): Preliminary data.
+[01/29/2016](/news/press-releases/jl0333): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2014. [10/30/2015](/news/press-releases/jl0240): Preliminary data.
+[10/31/2014](/news/press-releases/jl2681): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2013. [08/29/2014](/news/press-releases/jl2619): Preliminary data.
+[10/31/2013](/news/press-releases/jl2203): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2012. [08/30/2013](/news/press-releases/jl2155): Preliminary data.
+[10/31/2012](/news/press-releases/tg1757): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2011. [08/31/2012](/news/press-releases/tg1696): Preliminary data.
+[10/31/2011](/news/press-releases/tg1344): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2010. [08/31/2011](/news/press-releases/tg1285): Preliminary data.
+[10/29/2010](/news/press-releases/tg933): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2009. [08/31/2010](/news/press-releases/tg842): Preliminary data.
+[10/30/2009](/news/press-releases/tg340): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2008. [08/31/2009](/news/press-releases/tg270): Preliminary data.
+[10/31/2008](/news/press-releases/hp1246): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2007. [08/29/2008](/news/press-releases/hp1125): Preliminary data.
+[11/30/2007](/news/press-releases/hp705): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2006. [09/28/2007](/news/press-releases/hp582): Preliminary data.
+[12/29/2006](/news/press-releases/hp212): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2005. [09/29/2006](/news/press-releases/hp124): Preliminary data.
+[12/30/2005](/news/press-releases/js3067): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2004. [09/30/2005](/news/press-releases/js2957): Preliminary data.
+[03/31/2005](/news/press-releases/js2350): Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2003. [12/17/2004](/news/press-releases/js2159): Preliminary data.
 
-11/26/2025: Report on U.S. Portfolio Holdings of Foreign Securities at Year-End 2024.
-
-08/29/2025: Preliminary data from survey of U.S. Portfolio Holdings of Foreign Securities at End-Year 2024.
-
-10/31/2024: Report on U.S. Portfolio Holdings of Foreign Securities at Year-End 2023.
-
-08/30/2024: Preliminary data from survey of U.S. Portfolio Holdings of Foreign Securities at End-Year 2023.
-
-10/31/2023: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2022.
-
-08/31/2023: Preliminary data from survey of U.S. Portfolio Holdings of Foreign Securities at End-Year 2022.
-
-10/31/2022: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2021. 08/31/2022: Preliminary data.
-
-10/29/2021: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2020. 08/31/2021: Preliminary data.
-
-10/30/2020: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2019. 08/31/2020: Preliminary data.
-
-10/31/2019: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2018. 08/30/2019: Preliminary data.
-
-10/31/2018: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2017.  08/31/2018: Preliminary data.
-
-10/31/2017: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2016. 08/31/2017: Preliminary data.
-
-10/31/2016: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2015. 08/31/2016: Preliminary data.
-
-01/29/2016: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2014. 10/30/2015: Preliminary data.
-
-10/31/2014: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2013. 08/29/2014: Preliminary data.
-
-10/31/2013: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2012. 08/30/2013: Preliminary data.
-
-10/31/2012: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2011. 08/31/2012: Preliminary data.
-
-10/31/2011: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2010. 08/31/2011: Preliminary data.
-
-10/29/2010: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2009. 08/31/2010: Preliminary data.
-
-10/30/2009: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2008. 08/31/2009: Preliminary data.
-
-10/31/2008: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2007. 08/29/2008: Preliminary data.
-
-11/30/2007: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2006. 09/28/2007: Preliminary data.
-
-12/29/2006: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2005. 09/29/2006: Preliminary data.
-
-12/30/2005: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2004. 09/30/2005: Preliminary data.
-
-03/31/2005: Report on U.S. Portfolio Holdings of Foreign Securities at End-Year 2003. 12/17/2004: Preliminary data.
-
-^ TOP​
+[^ TOP](/tic-press-releases-by-topic#top)​

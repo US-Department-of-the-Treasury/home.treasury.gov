@@ -7,8 +7,6 @@ url: /about/offices/economic-policy
 description: "The Office of Economic Policy analyzes economic conditions and develops policy recommendations."
 ---
 
-Economic Policy reports on current and prospective economic developments and assists in the determination of appropriate economic policies. The office is responsible for the review and analysis of both domestic and international economic issues and developments in the financial markets.​​​​​​
-
 ### Mission
 
 The Office of Economic Policy is responsible for analyzing and reporting on current and prospective economic developments in the U.S. and world economies and assisting in the determination of appropriate economic policies. The Assistant Secretary for Economic Policy reports directly to the Secretary of the Treasury and is responsible to them for the review and analysis of both domestic and international economic issues and developments in the financial markets.
