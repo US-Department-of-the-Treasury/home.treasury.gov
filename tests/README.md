@@ -40,7 +40,7 @@ npm run test:local
 
 ## Test Pages
 
-Tests run against these pages on staging (`https://home-staging.awsdev.treasury.gov`):
+Tests run against these pages on staging (`https://d216skv4tzbpyp.cloudfront.net`):
 
 1. **Homepage**: `/`
 2. **Press Releases**: `/news/press-releases/`
@@ -94,7 +94,7 @@ Reports include:
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `BASE_URL` | Target site URL | `https://home-staging.awsdev.treasury.gov` |
+| `BASE_URL` | Target site URL | `https://d216skv4tzbpyp.cloudfront.net` |
 
 ## Continuous Integration
 
