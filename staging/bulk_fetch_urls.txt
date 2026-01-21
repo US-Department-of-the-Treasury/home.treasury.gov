@@ -1,0 +1,31 @@
+# Bulk API URLs for fetching missing content
+# Generated: 2026-01-21T14:21:54.163541
+# Total URLs: 8
+#
+# Format: PAGE_URL | API_URL
+#
+
+/news/press-releases/po3578
+  API: https://home.treasury.gov/jsonapi/node/news?filter[path.alias]=/news/press-releases/po3578
+
+/news/press-releases/report3074
+  API: https://home.treasury.gov/jsonapi/node/news?filter[path.alias]=/news/press-releases/report3074
+
+/news/press-releases/200311617465917428
+  API: https://home.treasury.gov/jsonapi/node/news?filter[path.alias]=/news/press-releases/200311617465917428
+
+/news/press-releases/20073158262510903
+  API: https://home.treasury.gov/jsonapi/node/news?filter[path.alias]=/news/press-releases/20073158262510903
+
+/news/press-releases/hp768
+  API: https://home.treasury.gov/jsonapi/node/news?filter[path.alias]=/news/press-releases/hp768
+
+/news/press-releases/po107
+  API: https://home.treasury.gov/jsonapi/node/news?filter[path.alias]=/news/press-releases/po107
+
+/news/press-releases/js948
+  API: https://home.treasury.gov/jsonapi/node/news?filter[path.alias]=/news/press-releases/js948
+
+/news/press-releases/po3637
+  API: https://home.treasury.gov/jsonapi/node/news?filter[path.alias]=/news/press-releases/po3637
+
