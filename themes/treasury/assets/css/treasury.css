@@ -463,10 +463,81 @@ textarea:focus-visible,
 
 .nav-item.active .nav-link {
   color: #fff;
+}
+
+button.nav-link {
+  cursor: pointer;
+}
+
+/* Navigation Item with Dropdown - Clickable Title + Toggle */
+.nav-link-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.nav-link-title {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem 1rem 1.25rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: background 0.2s;
+}
+
+.nav-link-title:hover {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link-title:focus {
+  outline: 3px solid var(--treasury-gold);
+  outline-offset: -3px;
+}
+
+.nav-link-toggle {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 1rem 0.5rem;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.nav-link-toggle:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.nav-link-toggle:focus {
+  outline: 3px solid var(--treasury-gold);
+  outline-offset: -3px;
+}
+
+.nav-link-toggle svg {
+  transition: transform 0.2s;
+}
+
+.nav-link-toggle[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+.nav-item.has-dropdown:hover .nav-link-wrapper,
+.nav-link-toggle[aria-expanded="true"] {
+  background: rgba(255,255,255,0.15);
+}
+
+/* Active nav item indicator - only show on the active section */
+.nav-item.active .nav-link-wrapper {
   position: relative;
 }
 
-.nav-item.active .nav-link::after {
+.nav-item.active > .nav-link-wrapper::after,
+.nav-item.active > a.nav-link::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -474,10 +545,6 @@ textarea:focus-visible,
   right: 0;
   height: 4px;
   background: var(--treasury-gold);
-}
-
-button.nav-link {
-  cursor: pointer;
 }
 
 /* Navigation Item with Dropdown */
@@ -518,7 +585,9 @@ button.nav-link {
   position: static !important;
 }
 
-/* Show mega menu when button has aria-expanded="true" */
+/* Show mega menu when toggle button has aria-expanded="true" */
+.nav-item.has-dropdown .nav-link-wrapper:has(.nav-link-toggle[aria-expanded="true"]) + .mega-menu,
+.nav-item.has-dropdown .nav-link-wrapper.is-expanded + .mega-menu,
 .nav-item.has-dropdown .nav-link[aria-expanded="true"] + .mega-menu {
   display: block;
   visibility: visible;
@@ -547,6 +616,17 @@ button.nav-link {
   margin: 0 0 0.75rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.mega-menu-heading a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.mega-menu-heading a:hover {
+  color: var(--treasury-gold);
+  text-decoration: underline;
 }
 
 .mega-menu-links {

@@ -4,15 +4,25 @@ date: 2026-01-16
 draft: false
 layout: content-page
 url: /services/taxes
-description: "Information about federal taxes and the Internal Revenue Service."
+description: "Tax information and resources from the Internal Revenue Service."
 ---
 
-INTERNAL REVENUE SERVICE (IRS) WEBSITE
+### [Internal Revenue Service (IRS) Website](https://www.irs.gov/)
 
-IRS FORMS AND PUBLICATIONS
+The IRS is the nation's tax collection agency and administers the Internal Revenue Code enacted by Congress.
 
-REFUND STATUS
+### [IRS Forms and Publications](https://www.irs.gov/forms-instructions)
 
-IRS WITHHOLDING CALCULATOR
+Download tax forms, instructions, and publications from the IRS.
 
-FOREIGN ACCOUNT TAX COMPLIANCE ACT
+### [Refund Status](https://www.irs.gov/refunds)
+
+Check the status of your federal tax refund.
+
+### [IRS Withholding Calculator](https://www.irs.gov/individuals/irs-withholding-calculator)
+
+Use the IRS Withholding Calculator to make sure you have the right amount of tax withheld from your paycheck.
+
+### [Foreign Account Tax Compliance Act](https://www.irs.gov/businesses/corporations/foreign-account-tax-compliance-act-fatca)
+
+Information about FATCA requirements for U.S. taxpayers with foreign financial accounts.

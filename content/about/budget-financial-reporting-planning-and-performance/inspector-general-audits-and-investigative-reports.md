@@ -6,8 +6,8 @@ url: /about/budget-financial-reporting-planning-and-performance/inspector-genera
 description: "Reports from Treasury's Inspectors General on audits, evaluations, and investigations."
 ---
 
-OFFICE OF INSPECTOR GENERAL REPORTS
+### [Office of Inspector General Reports](https://www.treasury.gov/about/organizational-structure/ig/Pages/other-reports-testimonies.aspx)
 
-TREASURY INSPECTOR GENERAL FOR TAX ADMINISTRATION REPORTS
+[Treasury Inspector General for Tax Administration Reports](https://www.treasury.gov/tigta/oa_auditreports.shtml)
 
-SPECIAL INSPECTOR GENERAL FOR TROUBLED ASSETS RELIEF PROGRAM REPORTS
+[Special Inspector General for Troubled Assets Relief Program reports](https://www.sigtarp.gov/Pages/Home.aspx)

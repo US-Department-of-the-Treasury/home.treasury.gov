@@ -43,23 +43,26 @@
   // ============================================
   // Mega Menu Navigation (Click to Open)
   // ============================================
-  const megaMenuButtons = document.querySelectorAll('.nav-item.has-dropdown > button.nav-link');
+  const megaMenuToggleButtons = document.querySelectorAll('.nav-link-toggle');
   let activeMegaMenu = null;
   
   function closeAllMegaMenus() {
-    megaMenuButtons.forEach(btn => {
+    megaMenuToggleButtons.forEach(btn => {
       btn.setAttribute('aria-expanded', 'false');
+      const wrapper = btn.closest('.nav-link-wrapper');
+      if (wrapper) wrapper.classList.remove('is-expanded');
     });
     activeMegaMenu = null;
   }
   
-  megaMenuButtons.forEach(btn => {
+  megaMenuToggleButtons.forEach(btn => {
     btn.addEventListener('click', function(e) {
       e.preventDefault();
       e.stopPropagation();
       
       const isExpanded = this.getAttribute('aria-expanded') === 'true';
       const parentItem = this.closest('.nav-item');
+      const wrapper = this.closest('.nav-link-wrapper');
       
       // Close all menus first
       closeAllMegaMenus();
@@ -68,6 +71,7 @@
       // Toggle this menu (open if was closed)
       if (!isExpanded) {
         this.setAttribute('aria-expanded', 'true');
+        if (wrapper) wrapper.classList.add('is-expanded');
         activeMegaMenu = parentItem;
       }
     });
@@ -140,7 +144,7 @@
     if (e.key === 'Escape') {
       // Return focus to active mega menu button if one was open
       if (activeMegaMenu) {
-        const triggerBtn = activeMegaMenu.querySelector('button.nav-link');
+        const triggerBtn = activeMegaMenu.querySelector('.nav-link-toggle');
         closeAllMegaMenus();
         if (triggerBtn) triggerBtn.focus();
       }

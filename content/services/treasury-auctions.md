@@ -1,29 +1,26 @@
 ---
 title: "Treasury Auctions"
-date: 2026-01-17
+date: 2026-01-16
 draft: false
-url: /services/treasury-auctions/
-description: "Information about property auctions conducted by the U.S. Department of the Treasury and its bureaus."
+layout: content-page
+url: /services/treasury-auctions
+description: "Government property auctions from IRS and Treasury."
 ---
 
-Treasury Auctions
+### Property auctioned by the Internal Revenue Service (IRS)
 
-Each year approximately 300 public auctions are conducted throughout the U.S. and Puerto Rico to sell property forfeited as a result of violations of federal law enforced by the Department of the Treasury or nonpayment of Internal Revenue Service taxes.
+- [Real Estate, Vehicles, and other merchandise](https://www.irsauctions.gov/)
 
-PROPERTY AUCTIONED BY THE INTERNAL REVENUE SERVICE (IRS)
-
-Real Estate, Vehicles, and other merchandise
-
-TREASURY EXECUTIVE OFFICE FOR ASSET FORFEITURE (TEOAF)
+### Treasury Executive Office for Asset Forfeiture (TEOAF)
 
 Property seized/forfeited due to violations of federal laws enforced by the U.S. Department of the Treasury and the U.S. Department of Homeland Security, auctioned by the Treasury Executive Office for Asset Forfeiture (TEOAF).
 
-Real Estate
+- [Real Estate](https://www.treasury.gov/auctions/treasury/rp/)
+- [General Property, Vehicles, Vessels & Aircraft](https://www.treasury.gov/auctions/treasury/gp/)
+- [Additional Cars](http://www.appleauctioneeringco.com/uscbp) (in cooperation with the U.S. Department of Homeland Security)
 
-General Property, Vehicles, Vessels & Aircraft
+Sales proceeds from TEOAF auctions are deposited in the Treasury Forfeiture Fund. Revenues from the Treasury Forfeiture Fund are used for law enforcement activities and for restitution to victims of fraud.
 
-Additional Cars (in cooperation with the U.S. Department of Homeland Security)
+To contact the TEOAF in Washington, DC or for general inquiries about TEOAF, use the [Online General Feedback](https://www.treasury.gov/about/organizational-structure/offices/Terrorism-Fin-Intel/Pages/TeoafGeneralQuestionsFeedbackForm.aspx) form or call 202-622-9600.
 
-Sales proceeds from TEOAF auctions are deposited in the Treasury Forfeiture Fund. Revenues from the Treasury Forfeiture Fund are used for law enforcement activities and for restitution to victims of fraud. ​To contact the TEOAF in Washington, DC or for general inquiries about TEOAF use our Online General Feedback form or call 202-622-9600.
-
-Other Federal and State Government Auctions and Sales
+[Other Federal and State Government Auctions and Sales](http://www.usa.gov/shopping/shopping.shtml)
