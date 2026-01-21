@@ -6,55 +6,36 @@ url: /policy-issues/financial-markets-financial-institutions-and-fiscal-service/
 description: "Treasury policy on financial markets, financial institutions, and fiscal operations."
 ---
 
-The U.S. Department of the Treasury develops policy on financial markets, financial institutions, and fiscal service to promote a strong, stable, and efficient financial system.
+The Treasury Department is responsible for a wide range of activities such as advising the President on economic and financial issues, encouraging sustainable economic growth, and fostering improved governance in financial institutions.
 
-### Financial Markets
+The Department of the Treasury operates and maintains systems that are critical to the nation's financial infrastructure, such as the production of coin and currency, the disbursement of payments to the American public, revenue collection, and the borrowing of funds necessary to run the federal government.
 
-Treasury works to ensure:
-- Efficient and stable financial markets
-- Appropriate regulation of market participants
-- Market integrity and transparency
-- Resilient market infrastructure
+The Office of Domestic Finance, headed by the Under Secretary, advises and assists the Secretary and Deputy Secretary on the domestic financial system, fiscal policy and operations, governmental assets and liabilities, and related economic and financial matters.
 
-### Key Policy Areas
+DEBT MANAGEMENT
 
-#### Financial Stability Oversight Council (FSOC)
-[FSOC](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc/) identifies and responds to systemic risks to financial stability.
+Changes in debt management policy are generally developed through the quarterly refunding process near the middle of each calendar quarter.
 
-#### Federal Insurance Office
-The [Federal Insurance Office](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/federal-insurance-office/) monitors the insurance industry and advises on insurance policy.
+CASH AND DEBT FORECASTING
 
-#### Debt Limit
-Treasury manages [debt limit](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit/) issues and extraordinary measures when necessary.
+These reports include the Daily Treasury Statement, the Monthly Treasury Statement of Receipts and Outlays of the United States Government, and the Monthly Statement of the Public Debt.
 
-#### Cash and Debt Forecasting
-[Cash and debt forecasting](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/cash-and-debt-forecasting/) supports Treasury's cash management operations.
+FINANCIAL REPORT OF THE U.S. GOVERNMENT
 
-### Financial Institutions Policy
+The Financial Report of the United States Government provides the President, Congress, and the American people with a comprehensive view of the federal government's finances.
 
-Treasury develops policy on:
-- Banking regulation
-- Insurance regulation
-- Financial technology
-- Consumer financial protection
-- Community development finance
+DEBT LIMIT
 
-### Fiscal Service
+The debt limit is the total amount of money that the United States government is authorized to borrow to meet its existing legal obligations.
 
-The Bureau of the Fiscal Service provides:
-- Federal payment systems
-- Government accounting
-- Debt collection
-- Shared financial services
+FINANCIAL STABILITY OVERSIGHT COUNCIL
 
-[Visit Fiscal Service](https://www.fiscal.treasury.gov/)
+The Council is charged with identifying risks to the financial stability of the United States; promoting market discipline; and responding to emerging risks to the stability of the United States' financial system.
 
-### Related Programs
+FEDERAL INSURANCE OFFICE
 
-- [RESTORE Act](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act/)
-- [1603 Program](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/1603-program-payments-for-specified-energy-property-in-lieu-of-tax-credits/)
-- [CDFI Fund](https://www.cdfifund.gov/)
+The Federal Insurance Offices has the authority to monitor all aspects of the insurance sector, monitor the extent to which traditionally underserved communities and consumers have access to affordable non-health insurance products, and to represent the United States on prudential aspects of international insurance matters, including at the International Association of Insurance Supervisors.
 
----
+RESTORE ACT
 
-*Explore specific areas like [FSOC](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc/) or [Debt Limit](/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit/).*
+The Restore Act established the Gulf Coast Restoration Trust Fund in the U.S. Treasury Department. Treasury is responsible for issuing compliance and auditing procedures for the entire Act and procedures for two grant programs administered by Treasury.

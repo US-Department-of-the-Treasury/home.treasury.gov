@@ -1,90 +1,51 @@
 ---
-title: "Careers at Our Bureaus"
+title: "Careers at our Bureaus"
 date: 2026-01-17
 draft: false
 url: /about/careers-at-treasury/careers-at-our-bureaus/
 description: "Career opportunities at Treasury Department bureaus including the IRS, U.S. Mint, and Bureau of Engraving and Printing."
 ---
 
-The U.S. Department of the Treasury consists of multiple bureaus, each offering unique career opportunities across various fields and locations nationwide.
+Since its founding by the first session of Congress in 1789, the Treasury Department has managed the U.S. Government’s finances, promoted our nation’s economic growth and stability, and ensured the safety and soundness of U.S. and international financial systems.
 
-### Internal Revenue Service (IRS)
+Each day more than 100,000 Treasury employees around the world carry out Treasury's historic mission in hundreds of different roles. Throughout the Treasury Department, our employees work in more than 250 types of jobs. Of course Treasury employees include accountants, economists, and financial analysts, but countless other professionals find exciting job opportunities at Treasury as well.
 
-The IRS is the largest Treasury bureau, with opportunities in:
-- Tax examination and collection
-- Criminal investigation
-- Information technology
-- Customer service
-- Legal and counsel
+Chemists modify the Bureau of Engraving and Printing’s currency and document production processes. Information technology specialists develop electronic solutions for data processed by the Bureau of the Fiscal Service. Criminal investigators at the Office of Inspector General prevent and detect fraud and abuse. And marketing specialists promote commemorative coins for the United States Mint.
 
-**[Explore IRS Careers](https://www.irs.gov/about-irs/careers)**
+Explore our Treasury bureaus to learn more about these kinds of opportunities and how you can apply.
 
-### U.S. Mint
+### [The Alcohol and Tobacco Tax and Trade Bureau (TTB)](http://www.ttb.gov/careers/index.shtml)
 
-The U.S. Mint produces circulating coins and collectibles:
-- Manufacturing and production
-- Engineering
-- Sales and marketing
-- Police and security
-- Administrative support
+The Alcohol and Tobacco Tax and Trade Bureau (TTB) is responsible for enforcing and administering laws covering the production, use, and distribution of alcohol and tobacco products. TTB also collects excise taxes for firearms and ammunition.
 
-**[Explore U.S. Mint Careers](https://www.usmint.gov/about/careers)**
+### [The Bureau of Engraving & Printing (BEP)](https://www.bep.gov/about-bep/careers)
 
-### Bureau of Engraving and Printing (BEP)
+The Bureau of Engraving & Printing (BEP) designs and manufactures U.S. currency, securities, and other official certificates and awards.
 
-The BEP produces U.S. currency:
-- Printing and engraving
-- Quality assurance
-- Information technology
-- Security and police
-- Administrative roles
+### [The Financial Crimes Enforcement Network (FinCEN)](https://www.fincen.gov/cutting-edge-opportunities)
 
-**[Explore BEP Careers](https://www.bep.gov/careers)**
+The Financial Crimes Enforcement Network (FinCEN) supports law enforcement investigative efforts and fosters interagency and global cooperation against domestic and international financial crimes. It also provides U.S. policy makers with strategic analyses of domestic and worldwide trends and patterns.
 
-### Bureau of the Fiscal Service
+### [The Bureau of the Fiscal Service (FS)](http://www.fiscal.treasury.gov/)
 
-The Fiscal Service manages federal finances:
-- Accounting and finance
-- Debt management
-- Payment services
-- Information technology
-- Data analytics
+The Bureau of the Fiscal Service (FS) was formed from the consolidation of the Financial Management Service and the Bureau of the Public Debt. Its mission is to promote the financial integrity and operational efficiency of the U.S. government through exceptional accounting, financing, collections, payments, and shared services.
 
-**[Explore Fiscal Service Careers](https://www.fiscal.treasury.gov/careers.html)**
+### [The Inspector General](https://oig.treasury.gov/vacancies)
 
-### Financial Crimes Enforcement Network (FinCEN)
+The Inspector General conducts independent audits, investigations and reviews to help the Treasury Department accomplish its mission; improve its programs and operations; promote economy, efficiency and effectiveness; and prevent and detect fraud and abuse.
 
-FinCEN combats financial crimes:
-- Financial analysis
-- Intelligence and investigations
-- Policy development
-- Information technology
-- Legal and compliance
+### [The Treasury Inspector General for Tax Administration (TIGTA)](http://jobsearch.usajobs.gov/Search.aspx?q=&jbf574=TRTG&jbf522=&salmin=&salmax=&paygrademin=&paygrademax=&FedEmp=Y&sort=rv&vw=d&ss=0&brd=3876&FedPub=Y&caller=/agency_search.asp&submit1.x=67&submit1.y=23)
 
-**[Explore FinCEN Careers](https://www.fincen.gov/careers)**
+The Treasury Inspector General for Tax Administration (TIGTA) provides leadership and coordination and recommends policy for activities designed to promote economy, efficiency, and effectiveness in the administration of the internal revenue laws. TIGTA also recommends policies to prevent and detect fraud and abuse in the programs and operations of the IRS and related entities.
 
-### Office of the Comptroller of the Currency (OCC)
+### [The Internal Revenue Service (IRS)](http://jobs.irs.gov/home.html)
 
-The OCC regulates national banks:
-- Bank examination
-- Economic analysis
-- Legal services
-- Information technology
-- Policy development
+The Internal Revenue Service (IRS) is the largest of Treasury's bureaus. It is responsible for determining, assessing, and collecting internal revenue in the United States.
 
-**[Explore OCC Careers](https://www.occ.gov/about/who-we-are/careers/index-careers.html)**
+### [The Office of the Comptroller of the Currency (OCC)](https://careers.occ.gov/index.html)
 
-### Alcohol and Tobacco Tax and Trade Bureau (TTB)
+The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises national banks to ensure a safe, sound, and competitive banking system that supports the citizens, communities, and economy of the United States.
 
-TTB regulates alcohol and tobacco:
-- Industry regulation
-- Tax collection
-- Laboratory analysis
-- Criminal investigation
-- Administrative support
+### [The U.S. Mint](http://www.usmint.gov/about_the_mint/careers/)
 
-**[Explore TTB Careers](https://www.ttb.gov/about-ttb/careers)**
-
----
-
-*Learn about [Careers at Headquarters](/about/careers-at-treasury/careers-at-headquarters/) or [How to Apply](/about/careers-at-treasury/how-to-apply/).*
+The U.S. Mint designs and manufactures domestic, bullion and foreign coins as well as commemorative medals and other numismatic items. The Mint also distributes U.S. coins to the Federal Reserve banks as well as maintains physical custody and protection of our nation's silver and gold assets.

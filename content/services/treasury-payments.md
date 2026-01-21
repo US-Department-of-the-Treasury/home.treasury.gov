@@ -4,39 +4,33 @@ date: 2026-01-16
 draft: false
 layout: content-page
 url: /services/treasury-payments
-description: "Information about government payments issued by the Treasury."
+description: "Information about federal payments, refunds, and direct deposit."
 ---
 
-The Bureau of the Fiscal Service disburses most federal payments on behalf of agencies.
+### [Get My Payment](https://www.irs.gov/coronavirus/get-my-payment)
 
-## Types of Payments
+Find information about the Economic Impact Payments (stimulus checks), which were sent in three batches over 2020 and 2021.
 
-### Social Security and SSI
-- Monthly benefit payments
-- Direct deposit or Direct Express card
+### [Assistance for American Families and Workers](/policy-issues/coronavirus/assistance-for-American-families-and-workers/)
 
-### Tax Refunds
-- Processed by IRS
-- Direct deposit or paper check
+Find information about Economic Impact Payments, Unemployment Compensation payments, Child Tax Credit payments, and Emergency Rental Assistance payments.
 
-### Veterans Benefits
-- Compensation and pension payments
-- Education benefits
+### [Where is My Refund?](https://www.irs.gov/refunds)
 
-### Federal Salaries
-- Payments to federal employees and retirees
+Check the status of your Internal Revenue Service (IRS) refund payment.
 
-## Direct Deposit
+### [Lost or Expired Check](https://fiscal.treasury.gov/pirs/i-want-to.html)
 
-Sign up for direct deposit for faster, more secure payment delivery:
-- [Go Direct](https://godirect.gov) - For federal benefit recipients
+How to get a Treasury check re-issued. Includes checks paid from Internal Revenue Service, Social Security Administration, Veterans Affairs, Defense Finance and Accounting Service for DOD, and Office of Personnel Management.
 
-## Lost or Stolen Checks
+### [Electronic Federal Benefit Payments - Go Direct](https://fiscal.treasury.gov/GoDirect/)
 
-Report lost, stolen, or destroyed checks:
-- Contact the agency that issued the payment
-- Or call 1-800-304-3107
+Sign up for direct deposit of social security and other federal benefits.
 
-## Payment Inquiries
+### [Direct Express Card](https://www.fiscal.treasury.gov/fsservices/indiv/pmt/dirExpss/dirExpss_home.htm)
 
-Contact the Treasury Bureau of the Fiscal Service for payment status inquiries.
+Another option for federal beneficiaries who do not have a bank account, but who are looking for a no-cost or low-cost alternative to using check cashing facilities and carrying large amounts of cash.
+
+### [What is this Payment for?](https://www.fiscal.treasury.gov/fsservices/gov/pmt/chkClaims/payments_why.htm)
+
+What to do if you received a payment from the U.S. Department of the Treasury and do not know what it is for.

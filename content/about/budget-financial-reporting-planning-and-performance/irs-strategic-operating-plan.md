@@ -6,62 +6,12 @@ url: /about/budget-financial-reporting-planning-and-performance/irs-strategic-op
 description: "Information about the IRS Strategic Operating Plan for transforming tax administration."
 ---
 
-The Internal Revenue Service Strategic Operating Plan outlines a multi-year vision for transforming tax administration to better serve taxpayers and the nation.
+IRS Strategic Operating Plan
 
-### Vision
+President Biden in August 2022 signed the Inflation Reduction Act, providing critical resources to modernize the IRS after decades of underfunding. The Strategic Operating Plan shows how the IRS will use Inflation Reduction Act resources to provide taxpayers with world class customer service and reduce our deficits by hundreds of billions by pursuing high dollar noncompliance.
 
-The Strategic Operating Plan aims to build a modern IRS that:
-- Provides world-class taxpayer service
-- Uses technology to improve efficiency
-- Ensures fair and consistent enforcement
-- Protects taxpayer data and privacy
+Thanks to Inflation Reduction Act resources, the IRS will transform the taxpayer experience. The IRS will help taxpayers get it right, and taxpayers will be able to seamlessly interact with the agency in the ways that work best for them. For the first time, the IRS will help taxpayers claim the credits and deductions for which they are eligible. These improvements will enable the IRS to serve all taxpayers fairly and in the way they want to be served.
 
-### Strategic Objectives
+Along with IRS’ annual discretionary budget, the Inflation Reduction Act investment over 10 years will transform the IRS so that it provides world class service to taxpayers, helps taxpayers get it right the first time, ensures high earners and corporations pay the taxes they owe, and supports the Inflation Reduction Act’s clean energy investments.
 
-#### 1. Dramatically Improve Services
-- Expand digital services and online tools
-- Reduce wait times for phone assistance
-- Provide in-person service where needed
-- Simplify the tax filing process
-
-#### 2. Quickly Resolve Issues
-- Streamline correspondence
-- Improve case processing times
-- Enhance transparency in case status
-- Reduce taxpayer burden
-
-#### 3. Focus Enforcement on Complex Issues
-- Target large corporations and wealthy individuals
-- Address sophisticated tax evasion
-- Ensure fair treatment for all taxpayers
-- Protect compliant taxpayers
-
-#### 4. Deliver Cutting-Edge Technology
-- Modernize legacy IT systems
-- Implement data analytics
-- Enhance cybersecurity
-- Enable digital taxpayer interactions
-
-#### 5. Attract, Retain, and Empower Workforce
-- Hire skilled professionals
-- Provide training and development
-- Create positive work environment
-- Support employee engagement
-
-### Implementation
-
-The plan is implemented through:
-- Phased investments in people, technology, and processes
-- Regular progress reporting
-- Stakeholder engagement
-- Continuous improvement
-
-### Resources
-
-- [IRS Official Website](https://www.irs.gov/)
-- [IRS Data Book](https://www.irs.gov/statistics/soi-tax-stats-irs-data-book)
-- [IRS Taxpayer Experience Office](https://www.irs.gov/)
-
----
-
-*Learn more about [Treasury's Budget and Performance](/about/budget-financial-reporting-planning-and-performance/).*
+IRS Strategic Operating Plan

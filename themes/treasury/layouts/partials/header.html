@@ -38,14 +38,23 @@
       <li class="nav-item {{ if .columns }}has-dropdown{{ end }}{{ if $isActive }} active{{ end }}">
         {{ if .columns }}
         {{ $menuId := .title | urlize | printf "menu-%s" }}
-        <button class="nav-link" aria-expanded="false" aria-haspopup="true" aria-controls="{{ $menuId }}">
-          {{ .title }}
-        </button>
+        <div class="nav-link-wrapper">
+          <a href="{{ .url }}" class="nav-link-title">{{ .title }}</a>
+          <button class="nav-link-toggle" aria-expanded="false" aria-haspopup="true" aria-controls="{{ $menuId }}" aria-label="Open {{ .title }} menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+        </div>
         <div class="mega-menu" id="{{ $menuId }}" role="region" aria-label="{{ .title }} submenu">
           <div class="mega-menu-inner">
             {{ range .columns }}
             <div class="mega-menu-column">
-              <h3 class="mega-menu-heading">{{ .heading }}</h3>
+              <h3 class="mega-menu-heading">
+                {{- if .url -}}
+                  <a href="{{ .url }}">{{ .heading }}</a>
+                {{- else -}}
+                  {{ .heading }}
+                {{- end -}}
+              </h3>
               <ul class="mega-menu-links">
                 {{/* Check if this column should show recent articles */}}
                 {{ if eq .type "articles" }}

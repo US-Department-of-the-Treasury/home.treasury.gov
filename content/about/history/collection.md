@@ -1,59 +1,25 @@
 ---
-title: "Treasury Collection"
+title: "Collection"
 date: 2026-01-17
 draft: false
 url: /about/history/collection/
 description: "The U.S. Department of the Treasury's historic collection of artifacts, artwork, and documents."
 ---
 
-The U.S. Department of the Treasury maintains a significant collection of historic artifacts, artwork, and documents that tell the story of America's financial history.
+The Treasury Collection represents one of the oldest and most intact collections of fine and decorative arts, furniture, and architectural fragments in the Executive branch of the United States government.
 
-### Collection Highlights
+Like its immediate neighbor, the White House, the Treasury Department has remained on the original Pennsylvania Avenue site since 1800. The Treasury Collection encompasses items from the main Treasury Building and the Department bureaus.
 
-#### Portraits of Treasury Secretaries
-The Treasury holds portraits of all Secretaries of the Treasury from Alexander Hamilton to the present. These paintings hang throughout the Treasury Building and represent some of America's most influential financial leaders.
+[Secretary of the Treasury Portraits](/about/history/collection/secretary-of-the-treasury-portraits)
 
-#### Currency and Coins
-- Historic paper currency from the earliest Treasury notes
-- Rare and significant coins
-- Printing plates and dies
-- Commemorative medals
+[Paintings](/about/history/collection/paintings-in-the-treasury-collection)
 
-#### Historic Documents
-- Early Treasury correspondence
-- Historical financial records
-- Important policy documents
-- Photographs documenting Treasury history
+[Sculpture](/about/history/collection/sculpture-in-the-treasury-collection)
 
-#### Decorative Arts
-- Period furniture from the 19th century
-- Antique clocks and timepieces
-- Chandeliers and lighting fixtures
-- Ornamental objects
+[Furniture](/about/history/collection/furniture-in-the-treasury-collection)
 
-### Featured Items
+[Prints and Drawings](/about/history/collection/prints-and-drawings-in-the-treasury-collection)
 
-**Alexander Hamilton's Desk**
-The original desk used by the first Secretary of the Treasury is one of the collection's most treasured items.
+[Photographs](/about/history/collection/photography-in-the-treasury-collection)
 
-**The Cash Room Marble**
-Seven varieties of rare marble adorn the historic Cash Room, including:
-- Italian Siena marble
-- Belgian black marble
-- Vermont white marble
-
-**Historic Safes**
-The collection includes safes and vaults that once protected the nation's currency and bonds.
-
-### Accessing the Collection
-
-The Treasury collection can be viewed:
-- On public tours of the Treasury Building
-- Through special exhibitions
-- By appointment for research purposes
-
-For research inquiries, contact the [Office of the Curator](/about/history/curator/).
-
----
-
-*Explore more about [Treasury's History](/about/history/) or tour [The Treasury Building](/about/history/the-treasury-building/).*
+[Architecture](/about/history/collection/architectural-fragments-in-the-treasury-collection)

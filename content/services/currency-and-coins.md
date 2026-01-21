@@ -7,34 +7,26 @@ url: /services/currency-and-coins
 description: "Information about U.S. currency and coin production."
 ---
 
-The Bureau of Engraving and Printing (BEP) designs, engraves, and prints all U.S. paper currency.
+U.S currency is produced by the [Bureau of Engraving and Printing](https://www.bep.gov/) and U.S. coins are produced by the [U.S. Mint](https://www.usmint.gov/). Both organizations are bureaus of the U.S. Department of the Treasury.
 
-### Current Denominations
-- $1, $2, $5, $10, $20, $50, and $100 bills
+### [Bureau of Engraving and Printing](https://www.bep.gov/)
 
-### Security Features
-Modern U.S. currency includes advanced security features:
-- Color-shifting ink
-- Watermarks
-- Security threads
-- Microprinting
+- [U.S. Currency](https://www.bep.gov/currency)
+- [Laws and regulations](https://www.bep.gov/currency/currency-image-use)
+- [Tours](https://www.bep.gov/visitor-centers)
+- [Redeem damaged currency](https://www.bep.gov/services/mutilated-currency-redemption)
+- [Shop](https://catalog.usmint.gov/shop/paper-currency/)
 
-## U.S. Coins
+### [Report Counterfeit Currency](https://www.secretservice.gov/contact/field-offices/)
 
-The U.S. Mint produces all circulating coins, collector coins, and bullion.
+Report suspected counterfeit notes to your local police department or the local [U.S. Secret Service office](https://www.secretservice.gov/contact/field-offices/).
 
-### Circulating Coins
-- Penny (1¢)
-- Nickel (5¢)
-- Dime (10¢)
-- Quarter (25¢)
-- Half Dollar (50¢)
-- Dollar ($1)
+### [UScurrency.gov](https://www.uscurrency.gov/)
 
-### Collector Coins
-The Mint produces commemorative coins, proof sets, and uncirculated coin sets.
+UScurrency.gov is managed by the U.S. Currency Education Program (CEP), of the Federal Reserve Board. CEP works closely with the Bureau of Engraving and Printing and the U.S. Secret Service to raise awareness about how to use the design and security features of U.S. currency.
 
-## Related Bureaus
+### [U.S. Mint](https://www.usmint.gov/)
 
-- [Bureau of Engraving and Printing](https://www.bep.gov)
-- [U.S. Mint](https://www.usmint.gov)
+- [Coins](https://www.usmint.gov/learn)
+- [Tours](https://www.usmint.gov/about/mint-tours-facilities)
+- [Shop](https://catalog.usmint.gov/)

@@ -7,30 +7,44 @@ url: /about/careers-at-treasury/careers-at-headquarters
 description: "Career opportunities at Treasury headquarters in Washington, D.C."
 ---
 
-Treasury headquarters is located in the historic Treasury Building adjacent to the White House in Washington, D.C.
+Treasury's Headquarters is located in the historic Treasury Building just steps from the White House—a site that reflects the Department’s position at the foundation of our government.
 
-## Career Areas
+The offices within Headquarters are responsible for policy formulation and the overall management of the Treasury Department and are headed by the Assistant Secretaries and Under Secretaries for Domestic Finance, Economic Policy, General Counsel, International Affairs, Public Affairs, Tax Policy, Terrorism and Financial Intelligence, and Management.
 
-### Policy Positions
-- Economic policy analysts
-- International affairs specialists
-- Tax policy experts
-- Financial regulation specialists
+The Headquarters team works with the nation’s top policymakers, witnessing—and often making—history at the cutting edge of critical global issues. They learn fast and take advantage of many opportunities for advancement.
 
-### Support Functions
-- Legal counsel
-- Information technology
-- Human resources
-- Communications
+Are You Right for Our Team?
 
-## How to Apply
+Treasury Headquarters is looking for outstanding candidates who want to shape and drive national and global policy in one of a wide variety of careers. We have particular demand for:
 
-Visit [USAJOBS](https://www.usajobs.gov/) to search and apply for current openings at Treasury.
+- Accountants
 
-## Benefits
+- Attorneys
 
-Federal employees enjoy competitive benefits including:
-- Health insurance
-- Retirement plans
-- Paid leave
-- Professional development
+- Budget Analysts
+
+- Contract Specialists
+
+- Economists/International Economists
+
+- Financial Analysts
+
+- Human Resources/EEO Specialists
+
+- Information Technology Specialists
+
+- Intelligence Specialists
+
+FELLOWSHIPS & Internships at Treasury Headquarters
+
+Treasury's Fellowships and Student Employment programs provide an avenue for highly-qualified candidates to enjoy the benefits of [challenging developmental opportunities](/about/careers-at-treasury/careers-at-headquarters/summer-intern-program) within the Department of the Treasury.
+
+Employment Opportunities at Treasury
+
+- All jobs open to the public are announced on [USAJOBS](http://treasury.usajobs.gov/)
+
+- See our [Applying On-line page](/about/careers-at-treasury/how-to-apply) for how to apply
+
+- Also visit Information for [Persons with Disabilities](/about/careers-at-treasury/how-to-apply/employment-disabilities)for more information
+
+- For general information on the Career Transition Assistance Program (CTAP) or the Interagency Career Transition Program (ICTAP) please review[CTAP/ICTAP General Information](/about/careers-at-treasury/how-to-apply/career-transition-assistance-plan-ctap-and-interagency).

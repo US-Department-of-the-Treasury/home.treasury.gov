@@ -7,46 +7,15 @@ url: /about/general-information/orders-and-directives/
 description: "Treasury Orders and Directives that govern the organization and operations of the U.S. Department of the Treasury."
 ---
 
-Treasury Orders and Directives are official documents that establish the organization, policies, and procedures of the U.S. Department of the Treasury.
+.button-link, #views-exposed-form-media-items-page-1 .form-submit, #views-exposed-form-custom-taxonomy-term-daily-guidance .form-submit, #block-exposedformcustom-taxonomy-termpress-releases .form-submit, #block-exposedformcustom-taxonomy-termfeatured .form-submit, #block-exposedformcustom-taxonomy-termsecretary-statements-remarks .form-submit, #block-exposedformofac-recent-actionspage-1 .form-submit, #block-exposedformofac-recent-actionspage-2 .form-submit, .button-link--rounded, .node--type-data_set nav.block-system-menublock ul li.menu-item a, .button-link--royal-blue, .button-link--white, .node--type-data_set .block-entity-fieldnodefield-data-set-raw-files .field--name-field-data-set-raw-files a, .button-link:link, .button-link:visited {
+background: #0053a2 !important;
+}
+.button-link--rounded.is-active, .node--type-data_set nav.block-system-menublock ul li.menu-item a.is-active {
+background: #0053a2 !important;
+}
 
-### Treasury Orders
+The Treasury Orders and Directives contained on this website do not show the signatures of the Secretarial Officers.
 
-Treasury Orders are issued by the Secretary of the Treasury and establish:
-- Organizational structure and responsibilities
-- Delegations of authority
-- Policies affecting the entire Department
+The Treasury Orders and Directives contained on this website show Administrative Edits, to reflect (misspelled words, reorganizing or technical changes, (updates of legal citations, new editions of forms, links to selected web sites, etc.).
 
-### Treasury Directives
-
-Treasury Directives provide detailed guidance on implementing Treasury Orders and cover topics including:
-- Administrative procedures
-- Personnel policies
-- Financial management
-- Information technology
-- Security policies
-
-### Key Documents
-
-#### Organizational Structure
-- **TO 101-01**: Organization and Functions of the Department of the Treasury
-- **TO 102-01**: Delegations of Authority
-- **TO 140-01**: Treasury Bureaus and Offices
-
-#### Administrative Policies
-- Personnel management and ethics
-- Acquisition and procurement
-- Records management
-- Security and information protection
-
-### Accessing Orders and Directives
-
-Treasury Orders and Directives are available through:
-- The Treasury Library
-- The Office of the General Counsel
-- Internal Treasury document management systems
-
-For specific inquiries about Treasury Orders and Directives, please contact the Office of the General Counsel.
-
----
-
-*For more information about Treasury's organization, see our [About Treasury](/about/) section.*
+### Search Orders & Directives

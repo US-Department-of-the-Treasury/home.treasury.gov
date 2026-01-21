@@ -6,63 +6,27 @@ url: /services/report-fraud-waste-and-abuse/report-scam-attempts/
 description: "How to report scam attempts, fraud, and phishing related to Treasury programs."
 ---
 
-Scammers sometimes impersonate the U.S. Department of the Treasury to defraud the public. Learn how to identify and report these scams.
+There are numerous telephone and email scams in which individuals claim to be employees of the Treasury Department. These scammers often state that they are from the "Department of Legal Affairs," offer grant money in exchange for you wiring a small payment, or threaten to arrest you within a short period of time unless payment is made. Do not provide personal information or payment to these individuals. Their actions are crimes under Titles 18 and 31 of the United States Code.
 
-### Common Treasury Scams
+### [COVID-19 Scams](/services/report-fraud-waste-and-abuse/covid-19-scams)
 
-#### IRS Impersonation Scams
-Callers claim to be from the IRS and demand immediate payment:
-- Threaten arrest or deportation
-- Demand payment via gift cards or wire transfer
-- Use spoofed phone numbers
+[Information on how to report COVID-19 scam attempts.](/services/report-fraud-waste-and-abuse/covid-19-scams)
 
-**Remember**: The IRS will never call demanding immediate payment or threaten arrest.
+### Phone and Email Scams
 
-#### Economic Payment Scams
-Scammers contact victims about government payments:
-- Promise to expedite stimulus payments
-- Request personal information or fees
-- Send fake checks or payment notices
+If they claim to be from the Treasury (non-IRS), report it by visiting [Report Fraud, Waste, and Abuse](https://oig.treasury.gov/report-fraud-waste-and-abuse). For any report of a fraudulent call, include:
 
-**Remember**: Treasury never requires fees to receive payments.
+- The exact date and time that you received the call(s)
+- The phone number of the caller
+- The geographic location and time zone where you received the call
+- A description of the communication
 
-#### Phishing Emails
-Emails appearing to be from Treasury:
-- Request personal or financial information
-- Contain suspicious links or attachments
-- Use official-looking logos and formatting
+If they claim to be from the Internal Revenue Service, report it to [phishing@irs.gov](mailto:phishing@irs.gov), subject line: "IRS phone scam." You may also report these calls to the [Treasury Inspector General for Tax Administration](https://www.treasury.gov/tigta/contact_report_scam.shtml), which has jurisdiction over IRS-related matters.
 
-**Remember**: Don't click links in unexpected emails.
+### Mail Scams
 
-### How to Protect Yourself
+If you receive something suspicious in the mail claiming to be from the US Department of the Treasury, report it to the Treasury Inspector General:
 
-1. **Be Skeptical** - Question unexpected contacts about money
-2. **Verify Independently** - Look up official contact information
-3. **Never Pay in Unusual Ways** - Gift cards, wire transfers, cryptocurrency
-4. **Protect Personal Information** - Don't share Social Security numbers
-5. **Report Suspicious Activity** - Help protect others
+- [Report Fraud, Waste, and Abuse](https://oig.treasury.gov/report-fraud-waste-and-abuse)
 
-### Where to Report Scams
-
-#### IRS-Related Scams
-- Report to [TIGTA](https://www.treasury.gov/tigta)
-- Forward phishing emails to phishing@irs.gov
-
-#### Other Treasury Scams
-- Report to [Treasury OIG](https://oig.treasury.gov/)
-- File reports with the FTC
-
-#### General Fraud Reports
-- [FTC Report Fraud](https://reportfraud.ftc.gov/)
-- [IC3 (FBI)](https://www.ic3.gov/)
-- Local law enforcement
-
-### Resources
-
-- [IRS Tax Scam Alerts](https://www.irs.gov/newsroom/tax-scams-consumer-alerts)
-- [FTC Consumer Information](https://consumer.ftc.gov/)
-- [USA.gov Scam Reporting](https://www.usa.gov/stop-scams-frauds)
-
----
-
-*Learn more about [Reporting Fraud, Waste, and Abuse](/services/report-fraud-waste-and-abuse/) or [Inspectors General](/services/report-fraud-waste-and-abuse/inspectors-general/).*
+If you receive something suspicious in the mail claiming to be from the Internal Revenue Service, report it to the [Treasury Inspector General for Tax Administration](https://www.treasury.gov/tigta/contact_report_scam.shtml).

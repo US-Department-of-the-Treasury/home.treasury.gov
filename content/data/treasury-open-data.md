@@ -7,42 +7,23 @@ url: /data/treasury-open-data
 description: "Access Treasury's open data resources."
 ---
 
-Treasury is committed to making government data accessible to the public in open, machine-readable formats.
+### Updates on the Evidence Act
 
-## Data Sources
+In connection with the enactment of the Foundations for Evidence-Based Policymaking Act of 2018 and OMB Memorandum M-19-23, Phase 1 Implementation of the Foundations for Evidence-Based Policymaking Act of 2018, the Assistant Secretary for Management (ASM) established a new Office of the Chief Data Officer (OCDO), and has appointed Roger Mishoe as its new CDO.
 
-### Fiscal Data
-The Bureau of the Fiscal Service's [Fiscal Data](https://fiscaldata.treasury.gov) portal provides:
-- Debt to the Penny
-- Monthly Treasury Statement
-- Daily Treasury Statement
-- Treasury Reporting Rates of Exchange
+Treasury has also designated Anne Chiang as the Evaluation Officer and Barry Johnson as the Statistical Official.
 
-### Treasury International Capital (TIC)
-International portfolio investment data:
-- Foreign holdings of U.S. securities
-- U.S. holdings of foreign securities
-- Cross-border transactions
+Treasury also established a Data Governance Board that meets monthly.
 
-### Interest Rates
-- Treasury yield curve rates
-- Real yield curve rates
-- Treasury bill rates
+[Data Governance Board Charter (updated as of February 4, 2021)](/system/files/286/Treasury-Data-Governance-Body-CharterJanuary-2021.pdf)
 
-## API Access
+### INTERIM EVALUATION POLICY
 
-Many Treasury datasets are available via API for programmatic access.
+The Foundations for Evidence-Based Policymaking Act of 2018 (Public Law 115-435, “Evidence Act”) requires that agencies publish an evaluation policy. This policy will apply to all evaluation activities within Treasury, including those led by bureaus and Departmental Offices. [Treasury’s Interim Evaluation Policy](/system/files/266/Interim-Evaluation-Policy.pdf) includes the guiding principles and quality standards that should be followed when conducting evaluation activities within the Department.
 
-## Data Standards
+### Treasury Department Open Data Contact Information
 
-Treasury follows federal open data standards:
-- Machine-readable formats (JSON, CSV, XML)
-- Comprehensive metadata
-- Regular updates
-- Public documentation
-
-## Resources
-
-- [Fiscal Data Portal](https://fiscaldata.treasury.gov)
-- [Data.gov Treasury Datasets](https://catalog.data.gov/organization/treasury-gov)
-- [Treasury Developer Resources](https://home.treasury.gov/data/developer-notice-xml-changes)
+David Ashley
+Acting Chief Data Officer
+U.S. Department of the Treasury
+[david.ashley@treasury.gov](mailto:david.ashley@treasury.gov)

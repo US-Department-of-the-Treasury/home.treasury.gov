@@ -7,34 +7,19 @@ url: /services/bonds-and-securities
 description: "Information about Treasury bonds, bills, notes, and savings bonds."
 ---
 
-The U.S. Treasury issues several types of securities to finance government operations:
+Information dealing with the purchase, redemption, replacement, forms, and valuation of Treasury savings bonds and securities is located on the [TreasuryDirect.gov](https://www.treasurydirect.gov/) website which is managed by the Bureau of the Fiscal Service.
 
-### Treasury Bills (T-Bills)
-- Short-term securities maturing in 4, 8, 13, 17, 26, or 52 weeks
-- Sold at a discount from face value
+### [TreasuryDirect.gov Website](https://www.treasurydirect.gov/)
 
-### Treasury Notes
-- Medium-term securities maturing in 2, 3, 5, 7, or 10 years
-- Pay interest every six months
+These are just a few of the popular topics found at the TreasuryDirect.gov website:
 
-### Treasury Bonds
-- Long-term securities maturing in 20 or 30 years
-- Pay interest every six months
+- [Log on to your TreasuryDirect account](https://www.treasurydirect.gov/go_to_login.htm)
+- [Create a new account in TreasuryDirect](https://www.treasurydirect.gov/RS/UN-AccountCreate.do) so you can buy and manage Treasury savings bonds and securities
+- [TreasuryDirect Forms](https://www.treasurydirect.gov/forms.htm)
+- [Savings bonds as gifts](https://treasurydirect.gov/indiv/planning/plan_gifts.htm)
+- [Death of a savings bond owner](https://www.treasurydirect.gov/indiv/research/indepth/ebonds/res_e_bonds_eedeath.htm)
+- [Frequently asked questions](https://treasurydirect.gov/faq.htm)
 
-### Treasury Inflation-Protected Securities (TIPS)
-- Principal adjusts based on Consumer Price Index
-- Available in 5, 10, and 30 year terms
+### [The Bureau of the Fiscal Service](http://www.publicdebt.treas.gov/)
 
-## Savings Bonds
-
-### Series I Bonds
-- Earn interest based on fixed rate plus inflation rate
-- Purchase limit of $10,000 per year per Social Security number
-
-### Series EE Bonds
-- Earn a fixed rate of interest
-- Guaranteed to double in value in 20 years
-
-## How to Purchase
-
-Visit [TreasuryDirect.gov](https://www.treasurydirect.gov) to purchase Treasury securities directly from the U.S. government.
+The Bureau of the Fiscal Service administers the public debt by issuing and servicing U.S. Treasury marketable, savings and special securities.

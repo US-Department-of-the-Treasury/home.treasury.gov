@@ -7,20 +7,39 @@ url: /about/offices/international-affairs
 description: "The Office of International Affairs protects U.S. economic interests globally."
 ---
 
-The Office of International Affairs advises and assists the Secretary and other senior officials on international monetary, financial, commercial, energy, and trade policies and programs.
+### International Trade and Development Policy
 
-## Key Responsibilities
+The Assistant Secretary for International Trade and Development supports Treasury's portfolio on international financial services issues, trade and investment policy, and U.S. relations with multilateral development banks. Alexia Latortue was confirmed as Assistant Secretary in December 2021. Offices include:
 
-- **International Financial Policy** - Developing policy on international financial institutions
-- **Trade Policy** - Supporting trade policy development and enforcement
-- **Technical Assistance** - Providing financial sector technical assistance to developing nations
-- **Sanctions Policy** - Coordinating international sanctions implementation
+- Trade and Investment Policy
+- Climate, Environment, and Infrastructure
+- International Development Finance and Policy
+- Technical Assistance
 
-## International Engagement
+###
 
-The Office represents Treasury at international forums including:
+### Investment Security
 
-- G-7 and G-20
-- International Monetary Fund (IMF)
-- World Bank
-- Financial Stability Board
+The Assistant Secretary for Investment Security leads Treasury's role on the Committee on Foreign Investment in the United States (CFIUS). CFIUS is an interagency committee authorized to review certain transactions involving foreign investment in the United States, in order to determine the effect of such transactions on the national security of the United States. Paul Rosen was confirmed as Assistant Secretary in May 2022.
+
+### International Finance
+
+The Assistant Secretary for International Finance supports Treasury's work on international monetary policy, coordination with the G-7 and G-20, technical assistance, and regional and bilateral economic issues. Brent Neiman was confirmed as Assistant Secretary in March 2023. Offices include:
+
+- Western Hemisphere
+- Asia
+- Middle East & North Africa
+- Europe & Eurasia
+- International Monetary Policy
+- International Financial Markets
+
+### Contact Information
+
+All press inquiries should be directed to the Office of Public Affairs at (202) 622-2960.
+All inquiries from congressional staff should be directed to the Office of Legislative Affairs at (202) 622-1900.
+
+**Correspondence can be mailed to:**
+Office of International Affairs
+U.S. Department of Treasury
+1500 Pennsylvania Avenue NW
+Washington, DC 20220

@@ -6,61 +6,11 @@ url: /about/budget-financial-reporting-planning-and-performance/budget-requestan
 description: "Treasury's annual budget requests, performance plans, and annual performance reports."
 ---
 
-The U.S. Department of the Treasury submits annual budget requests to Congress and publishes performance plans and reports to demonstrate how resources support the Department's mission.
+### About Key Budget and Performance Documents
 
-### Congressional Budget Justification
+Treasury publishes its annual performance plan and report as a part of its congressional budget justification, which includes the high-level results from its internal strategic reviews. Treasury’s key budget and performance reports provide Congress, the President, and the American people detailed information about Treasury's stewardship over its financial resources and progress in reaching its goals.
 
-Each fiscal year, Treasury submits a Congressional Budget Justification that includes:
-- Requested appropriations for Treasury operations
-- Justifications for resource requirements
-- Program descriptions and activities
-- Performance metrics and targets
+Key budget and performance documents are:
 
-### Annual Performance Plan
-
-The Annual Performance Plan outlines:
-- Strategic goals and objectives
-- Performance measures and targets
-- Strategies for achieving goals
-- Resource requirements
-
-### Annual Performance Report
-
-The Annual Performance Report evaluates:
-- Achievement of performance goals
-- Progress toward strategic objectives
-- Challenges and corrective actions
-- Future performance strategies
-
-### Treasury's Budget Structure
-
-Treasury's budget supports:
-
-#### Departmental Offices
-- Policy offices and executive leadership
-- Management and administrative functions
-
-#### Bureaus
-- Internal Revenue Service
-- Bureau of the Fiscal Service
-- U.S. Mint
-- Bureau of Engraving and Printing
-- Financial Crimes Enforcement Network
-- Office of the Comptroller of the Currency
-- Alcohol and Tobacco Tax and Trade Bureau
-
-#### Other Components
-- Office of Inspector General
-- Treasury Inspector General for Tax Administration
-- Special Inspector General for Pandemic Recovery
-
-### Accessing Budget Documents
-
-Budget documents are available on:
-- Treasury's website
-- [OMB Max Portal](https://www.whitehouse.gov/omb/budget/)
-- [USASpending.gov](https://www.usaspending.gov/)
-
----
-
-*Learn more about [Treasury's Budget and Performance](/about/budget-financial-reporting-planning-and-performance/).*
+- The Congressional Justification of Appropriations (CJ) reflects the President’s Budget request for the Department of the Treasury and is prepared in accordance with OMB Circular A-11. The CJ includes agency priorities, requested budget levels, and performance plans and reports (in accordance with GPRAMA).
+The Budget-in-Brief (BIB) summarizes the CJ.

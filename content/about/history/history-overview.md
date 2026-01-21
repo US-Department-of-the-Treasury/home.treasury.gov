@@ -7,32 +7,22 @@ url: /about/history/history-overview
 description: "An overview of Treasury's 235+ year history."
 ---
 
-The Department of the Treasury was established by Act of Congress on September 2, 1789, to manage government revenue.
+The management of the money resources of the United States has always been the primary function of the Department of the Treasury.
 
-## Early Years
+Whether it is regulating national banks, determining international economic policy, collecting income and excise taxes, issuing securities, reporting the government's daily financial transactions, or manufacturing coins or bills for circulation, the one concern that still ties together the activities of the Department of the Treasury is money.
 
-Alexander Hamilton, the first Secretary of the Treasury, established:
+Though formally established as an executive department by the First Session of Congress in 1789, many functions of the Department of the Treasury were being carried out even before the signing of the Declaration of Independence thirteen years earlier. Over the decades, the functions of the Department have expanded and grown more sophisticated to meet the needs of a developing nation.
 
-- The nation's first central bank
-- A system for managing the national debt
-- Customs duties as a primary revenue source
-- The U.S. Mint
+Today, the Department of the Treasury remains the premier financial institution of the United States with a full-time agenda of accounting, revenue collection, money production, and economic policy formulation.
 
-## Civil War Era
+[History of the Treasury](/about/history/history-overview/history-of-the-treasury)
 
-During the Civil War, Treasury:
+[Organization and Functions](/about/history/history-overview/organization-and-functions)
 
-- Introduced the first income tax
-- Issued paper currency ("greenbacks")
-- Established the national banking system
-- Created the Bureau of Internal Revenue (now IRS)
+[Departmental Offices](/about/history/history-overview/departmental-offices)
 
-## Modern Era
+[Bureaus](/about/history/history-overview/bureaus)
 
-Today, Treasury:
+[Secretaries of the Treasury](/about/history/prior-secretaries)
 
-- Manages the nation's finances
-- Administers economic sanctions
-- Produces currency and coins
-- Collects federal taxes
-- Enforces financial crimes laws
+[Treasurers of the United States](/about/history/treasurers-of-the-united-states)

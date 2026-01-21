@@ -1,68 +1,29 @@
 ---
-title: "Treasury Curator"
+title: "Curator"
 date: 2026-01-17
 draft: false
 url: /about/history/curator/
 description: "The Office of the Curator manages the Treasury Department's historic collections, artifacts, and the preservation of the Treasury Building."
 ---
 
-The Office of the Curator is responsible for managing the U.S. Department of the Treasury's historic collections, artifacts, artwork, and the preservation of the Treasury Building as a National Historic Landmark.
+The Office of the Curator at the U.S. Department of the Treasury guides the preservation of the department's historic buildings, cares for cultural resources, and provides museum-quality collection management of the fine and decorative arts collections and antique furniture of the Treasury Building.
 
-### Responsibilities
+### Featured Exhibitions
 
-The Curator's Office oversees:
+[Offices of the Secretary of the Treasury](/about/history/curator/offices-of-the-secretary-of-the-treasury)
 
-#### Collections Management
-- Historic artifacts and documents
-- Fine art collection
-- Furniture and decorative arts
-- Numismatic collection
-- Photographs and archives
+[Treasury: An Office Building’s Evolution](/about/history/curator/treasury-an-office-buildings-evolution)
 
-#### Building Preservation
-- Historic preservation of the Treasury Building
-- Restoration of historic spaces
-- Maintenance of architectural integrity
-- Documentation of building history
+[Furniture](/about/history/curator/furniture)
 
-#### Public Programs
-- Building tours and educational programs
-- Exhibitions and displays
-- Research assistance
-- Loan programs for other institutions
+[The History of the Locations of the Offices of the Secretary](/about/history/curator/the-history-of-the-locations-of-the-offices-of-the-secretary)
 
-### The Treasury Collection
+[Treasury and the Civil War: 150th Anniversary](/about/history/curator/treasury-and-the-civil-war-150th-anniversary)
 
-The Treasury Department's collection includes:
+[The Design and Construction of the West Stairs](/about/history/curator/the-design-and-construction-of-the-west-stairs)
 
-**Historic Artifacts**
-- Currency printing plates and equipment
-- Historic safes and security devices
-- Period furniture and fixtures
-- Official documents and records
+[40th Anniversary of the Treasury Historical Association](/about/history/curator/treasury-historical-association)
 
-**Artwork**
-- Portraits of Treasury Secretaries
-- Historic paintings and prints
-- Sculptures and decorative objects
+[U.S. Mint Buildings Across the Nation](/about/history/curator/us-mint-buildings)
 
-**Numismatic Items**
-- Historic currency and coins
-- Medals and commemorative pieces
-- Printing and minting artifacts
-
-### Research Services
-
-The Curator's Office provides research assistance for:
-- Scholars and historians
-- Government agencies
-- Media and publications
-- Educational institutions
-
-### Contact
-
-For inquiries about the Treasury collection or to schedule a research visit, please contact the Office of the Curator through the Treasury Department.
-
----
-
-*Learn more about [The Treasury Building](/about/history/the-treasury-building/) or explore our [History](/about/history/) section.*
+### Video

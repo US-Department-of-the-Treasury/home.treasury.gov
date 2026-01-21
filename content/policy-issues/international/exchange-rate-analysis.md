@@ -6,61 +6,26 @@ url: /policy-issues/international/exchange-rate-analysis/
 description: "Treasury's analysis of foreign exchange rates and currency practices of major trading partners."
 ---
 
-The U.S. Department of the Treasury monitors and analyzes foreign exchange rates and the currency practices of America's major trading partners.
+Exchange Rate Analysis
 
-### Congressional Reports
+Treasury uses its Global Exchange Rate Assessment Framework (GERAF) to assist in its work on exchange rates.
 
-Treasury submits semiannual reports to Congress on:
-- International economic and exchange rate policies
-- Currency practices of major trading partners
-- Countries that may be manipulating exchange rates
-- Economic developments affecting the dollar
+GLOBAL EXCHANGE RATE ASSESSMENT FRAMEWORK METHODOLOGY
 
-### Analysis Framework
+GERAF is a flexible tool created to assess currency valuations.   This model-based framework provides a multilaterally consistent method for assessing external imbalances, exchange rate misalignments, and the role of policy in contributing to both.  Further detail on GERAF is provided in the methodology paper.
 
-Treasury considers:
-- Bilateral trade balance with the United States
-- Current account balance
-- Foreign exchange intervention
-- Currency valuation
+Global Exchange Rate Assessment Framework Methodology
 
-### Key Indicators
+TREASURY ASSESSMENTS OF CURRENCY VALUATION IN COUNTERVAILING DUTY PROCEEDINGS
 
-#### Trade Balance
-- Goods trade surplus with the United States
-- Threshold: $15 billion annual surplus
+One of Treasury’s applied uses of GERAF is to assess currency valuations in the context of countervailing duty proceedings when requested by the Department of Commerce.  As described in the final modification of 19 CFR 351.528, published in the Federal Register in February 2020, Commerce will request that Treasury provide its evaluation and conclusion as to the extent of any undervaluation in the context of a countervailing duty proceeding in which Commerce is investigating whether there is a potential subsidy resulting from currency undervaluation.  Treasury will provide its assessment of whether and to what extent a currency is undervalued against the U.S. dollar as a result of government action on the exchange rate.  Commerce intends to defer to Treasury’s expertise with respect to currency undervaluation.
 
-#### Current Account
-- Overall current account balance
-- Threshold: 3% of GDP surplus
+Treasury Framework for Assessing Currency Undervaluation in CVD Investigations: Summary
 
-#### Intervention
-- Net foreign exchange purchases
-- Threshold: 2% of GDP over 12 months
+Modification of Regulations Regarding Benefit and Specificity in Countervailing Duty Proceedings (19 CFR Part 351, published in the Federal Register on February 4, 2020)
 
-### Outcomes
+The legal framework governing countervailing duty proceedings and the statutes under which Treasury provides periodic reports to Congress reviewing the macroeconomic and foreign exchange policies of major U.S. trading partners are distinct, involving different legal criteria.  Further information about Treasury’s periodic reports to Congress, including the authorizing statutes for these reports, can be found here.
 
-Based on analysis, countries may be placed on:
-- **Monitoring List** - Countries meeting criteria that warrant attention
-- **Enhanced Engagement** - Countries requiring intensive bilateral discussions
-- **Currency Manipulation** - Determination that a country is manipulating
+RELATED PRESS RELEASES
 
-### Policy Responses
-
-Treasury may:
-- Engage in bilateral discussions
-- Seek IMF consultation
-- Recommend trade actions
-- Oppose IMF financing
-
-### Exchange Rate Policy
-
-The United States supports:
-- Market-determined exchange rates
-- Transparency in currency practices
-- Reduction of global imbalances
-- Avoidance of competitive devaluations
-
----
-
-*Learn about the [Exchange Stabilization Fund](/policy-issues/international/exchange-stabilization-fund/) or [G-7 and G-20](/policy-issues/international/g-7-and-g-20/).*
+U.S. Treasury Department Provides Currency Valuation Assessment in Countervailing Duty Proceeding (8/24/20)

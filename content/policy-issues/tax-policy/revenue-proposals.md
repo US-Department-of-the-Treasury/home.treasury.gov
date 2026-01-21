@@ -6,58 +6,17 @@ url: /policy-issues/tax-policy/revenue-proposals/
 description: "Treasury's revenue proposals and analysis of tax policy changes."
 ---
 
-The U.S. Department of the Treasury develops revenue proposals as part of the Administration's budget process, providing detailed explanations of proposed changes to the tax code.
+To accompany the Administration's Budget, Treasury releases the "General Explanations of the Administration’s Revenue Proposals" which provides an explanation of the Administration's revenue proposals for that fiscal year.
+[FY2025](/system/files/131/General-Explanations-FY2025.pdf) (Released March 2024)
+[FY2025 Revenue Table Only](/system/files/131/General-Explanations-FY2025-Table.pdf) [[Excel Tables]](/system/files/131/General-Explanations-FY2025-Table.xlsx)
+[FY2025 Advancing Equity through the Tax Code](/system/files/131/Advancing-Equity-through-Tax-Reform-FY2025.pdf) (Released March 2024)
 
-### The Green Book
+### Prior Years
 
-Treasury publishes the "General Explanations of the Administration's Revenue Proposals," commonly known as the Green Book. This document provides:
-
-- Detailed descriptions of proposed tax law changes
-- Revenue estimates for each proposal
-- Effective dates for proposed changes
-- Rationale for policy recommendations
-
-### Types of Revenue Proposals
-
-#### Individual Tax Provisions
-- Income tax rate structures
-- Credits and deductions
-- Capital gains taxation
-- Estate and gift taxes
-
-#### Business Tax Provisions
-- Corporate tax rates
-- Business deductions
-- International tax rules
-- Industry-specific provisions
-
-#### Tax Administration
-- Compliance and enforcement
-- Information reporting
-- Procedural improvements
-- Penalty provisions
-
-### Revenue Estimation
-
-Treasury's Office of Tax Analysis (OTA) produces revenue estimates that:
-- Project the fiscal impact of proposals
-- Account for behavioral responses
-- Consider economic effects
-- Inform policy decisions
-
-### Process
-
-1. **Development** - Policy proposals are developed through interagency process
-2. **Analysis** - OTA estimates revenue effects
-3. **Publication** - Green Book released with President's Budget
-4. **Congressional Action** - Congress considers proposals in tax legislation
-
-### Related Resources
-
-- [Tax Expenditures](/policy-issues/tax-policy/tax-expenditures/)
-- [Tax Policy](/policy-issues/tax-policy/)
-- [OMB Budget](https://www.whitehouse.gov/omb/budget/)
-
----
-
-*Explore more [Tax Policy](/policy-issues/tax-policy/) issues.*
+[FY2024](/system/files/131/General-Explanations-FY2024.pdf) [[Excel Tables]](/system/files/131/General-Explanations-FY2024-Table.xlsx) | [FY2023](/system/files/131/General-Explanations-FY2023.pdf) [[Excel Tables]](/system/files/131/General-Explanations-FY2023-Table.xlsx) |
+[FY2022](/system/files/131/General-Explanations-FY2022.pdf) | [FY2017](/system/files/131/General-Explanations-FY2017.pdf) | [FY2016](/system/files/131/General-Explanations-FY2016.pdf) | [FY2015](/system/files/131/General-Explanations-FY2015.pdf) | [FY2014](/system/files/131/General-Explanations-FY2014.pdf) |
+[FY2013](/system/files/131/General-Explanations-FY2013.pdf) | [FY2012](/system/files/131/General-Explanations-FY2012.pdf) | [FY2011](/system/files/131/General-Explanations-FY2011.pdf) | [FY2010](/system/files/131/General-Explanations-FY2010.pdf) | [FY2009](/system/files/131/General-Explanations-FY2009.pdf) |
+[FY2008](/system/files/131/General-Explanations-FY2008.pdf) | [FY2007](/system/files/131/General-Explanations-FY2007.pdf) | [FY2006](/system/files/131/General-Explanations-FY2006.pdf) | [FY2005](/system/files/131/General-Explanations-FY2005.pdf) | [FY2004](/system/files/131/General-Explanations-FY2004.pdf) |
+[FY2003](/system/files/131/General-Explanations-FY2003.pdf) | [FY2002](/system/files/131/General-Explanations-FY2002.pdf) | [FY2001](/system/files/131/General-Explanations-FY2001.pdf) | [FY2000](/system/files/131/General-Explanations-FY2000.pdf) | [FY1999](/system/files/131/General-Explanations-FY1999.pdf) |
+[FY1998](/system/files/131/General-Explanations-FY1998.pdf) | [FY1997](/system/files/131/General-Explanations-FY1997.pdf) | [FY1996](/system/files/131/General-Explanations-FY1996.pdf) | [FY1994](/system/files/131/General-Explanations-FY1994.pdf) |[FY1993](/system/files/131/General-Explanations-FY1993.pdf) |
+[FY1992](/system/files/131/General-Explanations-FY1992.pdf) | [FY1991](/system/files/131/General-Explanations-FY1991.pdf) | [FY1990](/system/files/131/General-Explanations-FY1990.pdf) ​

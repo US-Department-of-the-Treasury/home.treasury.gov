@@ -6,64 +6,11 @@ url: /policy-issues/tax-policy/tax-regulatory-process/
 description: "How Treasury and the IRS develop tax regulations and guidance."
 ---
 
-The U.S. Department of the Treasury and the Internal Revenue Service develop regulations and guidance to implement the tax laws enacted by Congress.
+This page catalogues the historical and current Memorandums of Agreement (MOAs) between the Department of the Treasury (Treasury) and the Office of Management and Budget (OMB) regarding Treasury regulations and the application of Executive Orders 12291 and 12866, as amended. These MOAs address the terms by which the Office of Information and Regulatory Affairs (OIRA) will review tax regulatory actions and certain non-tax regulatory actions. In addition, this page contains a policy statement on the tax regulatory process regarding notice-and-comment rulemaking, temporary regulations, and subregulatory guidance.
 
-### Types of Guidance
-
-#### Treasury Regulations
-- Have the force of law when properly issued
-- Provide binding interpretation of tax statutes
-- Published in the Federal Register and Code of Federal Regulations
-
-#### Revenue Rulings
-- Official IRS interpretation of tax law
-- Applied to specific factual situations
-- Published in the Internal Revenue Bulletin
-
-#### Revenue Procedures
-- Official IRS procedures for tax administration
-- Published in the Internal Revenue Bulletin
-
-#### Private Letter Rulings
-- Guidance to individual taxpayers on specific transactions
-- Not precedent for other taxpayers
-
-#### Notices
-- Public guidance on significant issues
-- Often announce upcoming regulations
-
-### Regulatory Process
-
-1. **Identification of Need** - Issues arise from new legislation, court decisions, or taxpayer questions
-
-2. **Drafting** - Treasury and IRS attorneys draft proposed regulations
-
-3. **Internal Review** - Review by IRS Chief Counsel, Treasury Tax Policy, and OMB
-
-4. **Publication** - Proposed regulations published in Federal Register
-
-5. **Public Comment** - Public has opportunity to submit written comments
-
-6. **Hearing** - Public hearing may be held if requested
-
-7. **Final Regulations** - After considering comments, final regulations are published
-
-### Priority Guidance Plan
-
-Treasury and IRS publish an annual Priority Guidance Plan that:
-- Identifies projects to be completed during the year
-- Reflects administration priorities
-- Responds to emerging issues
-- Allocates guidance resources
-
-### Public Participation
-
-The public can participate by:
-- Submitting comments on proposed regulations
-- Requesting hearings
-- Suggesting guidance projects
-- Providing input on the Priority Guidance Plan
-
----
-
-*Explore more [Tax Policy](/policy-issues/tax-policy/) issues.*
+- [2025 MOA, Department of the Treasury and the Office of Management and Budget, Review of Tax Regulations Under Executive Order 12866](/system/files/131/2025-MOA-EO12866.pdf)
+- [2023 MOA, Department of the Treasury and the Office of Management and Budget, Review of Treasury Regulations Under Executive Order 12866](/system/files/131/2023-MOA-EO12866.pdf)
+- [2019 Policy Statement on the Tax Regulatory Process](/system/files/131/2019-Policy-Statement-on-the-Tax-Regulatory-Process.pdf)
+- [2018 MOA, Department of the Treasury and the Office of Management and Budget, Review of Tax Regulations Under Executive Order 12866](/system/files/131/2018-MOA-EO12866.pdf)
+- [1993 Letter Exchange between the OIRA Administrator and the Treasury General Counsel Reaffirming the 1983 MOA](/system/files/131/1993-Letters-Affirming-1983-MOA-EO12291.pdf)
+- [1983 MOA, Treasury and OMB Implementation of Executive Order 12291](/system/files/131/1983-MOA-EO12291.pdf)

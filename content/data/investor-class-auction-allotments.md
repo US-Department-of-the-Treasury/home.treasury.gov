@@ -6,57 +6,35 @@ url: /data/investor-class-auction-allotments/
 description: "Data on Treasury auction results by investor class, including primary dealers, direct bidders, and indirect bidders."
 ---
 
-The U.S. Department of the Treasury publishes data on auction allotments by investor class for Treasury securities.
+***Data released at 3:00 PM***
+***Please see future release dates below***
 
-### Understanding Auction Data
+Each table provides the following data: issue date, coupon or auction high rate, security type, cusip, maturity date, total issue amount and various designated investor class categories.
 
-Treasury auctions result in purchases by three main investor classes:
+### Recent Data
 
-#### Primary Dealers
-- Financial institutions with direct trading relationships with the Federal Reserve Bank of New York
-- Required to participate in Treasury auctions
-- Act as market makers for Treasury securities
+**[Coupon Auctions – Data from October 2009-present](/system/files/276/January-8-2026-IC-Coupons.xls)**
 
-#### Direct Bidders
-- Investors who bid directly in auctions (not through a dealer)
-- Include investment funds, insurance companies, and other institutions
-- Bid for their own accounts
+This table provides investor class allotments for marketable Treasury coupon auctions. Data are ordered by issue date. This table was previously published as the PDO-4 table in the quarterly Treasury Bulletin.
 
-#### Indirect Bidders
-- Investors who bid through primary dealers
-- Include foreign central banks and other international investors
-- Often used as a proxy for foreign demand
+**Release Dates**: January 23, February 9, February 24, March 9, March 23
 
-### Auction Results
+**[Bill Auctions – Data from October 2009-present](/system/files/276/January-8-2026-IC-Bills.xls)**
 
-For each auction, Treasury reports:
-- Total amount offered and accepted
-- High, low, and median accepted yields
-- Bid-to-cover ratio
-- Allocation percentages by investor class
+This table provides investor class allotments for marketable Treasury bill auctions. Data are ordered by issue date.
 
-### Data Availability
+**Release Dates:** February 9, March 9
 
-Auction results are published:
-- Immediately after each auction
-- Through TreasuryDirect announcements
-- In historical auction databases
+### Historical Data
 
-### Securities Auctioned
+**[Coupon Auctions – Data from January 2000-September 2009](/system/files/276/Website-PDO-4-A-Coupons-Jan-2000-Sep%202009.xls)**
 
-Treasury auctions various securities:
-- Treasury Bills (4, 8, 13, 17, 26, 52 weeks)
-- Treasury Notes (2, 3, 5, 7, 10 years)
-- Treasury Bonds (20, 30 years)
-- Treasury Inflation-Protected Securities (TIPS)
-- Floating Rate Notes (FRNs)
+This table provides investor class allotments for marketable Treasury coupon auctions. Data are ordered by issue date. This table was previously published as the PDO-4 table in the quarterly Treasury Bulletin.
 
-### Resources
+**[Bill Auctions – Data from August 2001-September 2009](/system/files/276/Website-IC-allotments-Bills-Aug-2001-Sep-2009.xls)**
 
-- [TreasuryDirect Auction Results](https://www.treasurydirect.gov/auctions/auction-results/)
-- [Treasury Investor Data](/policy-issues/financing-the-government/treasury-investor-data/)
-- [Quarterly Refunding](/policy-issues/financing-the-government/quarterly-refunding/)
+This table provides investor class allotments for marketable Treasury bill auctions. Data are ordered by issue date.
 
----
+[Investor Class Category Descriptions](/system/files/276/investor-class-descriptions.pdf)
 
-*Explore more [Treasury Data](/data/).*
+If you have questions or comments please contact us at: [Debt.Management@treasury.gov](mailto:Debt.Management@treasury.gov).

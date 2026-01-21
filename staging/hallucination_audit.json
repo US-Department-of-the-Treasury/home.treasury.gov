@@ -1,0 +1,192 @@
+{
+  "timestamp": "2026-01-20T10:10:27.484582",
+  "summary": {
+    "total": 123,
+    "ok": 97,
+    "content_mismatch": 9,
+    "not_found_live": 17,
+    "errors": 0,
+    "hallucinations": 5
+  },
+  "hallucinations": [
+    {
+      "file": "content/policy-issues/financing-the-government/quarterly-refunding.md",
+      "url": "/policy-issues/financing-the-government/quarterly-refunding/",
+      "similarity": 0.2727272727272727,
+      "local_title": "Treasury Quarterly Refunding",
+      "live_title": "Treasury Quarterly Refunding",
+      "local_excerpt": "treasury quarterly refunding changes in debt management policy are generally informed by and communicated through the quarterly refunding process near the middle of each calendar quarter. quarterly re",
+      "live_excerpt": "treasury quarterly refunding changes in debt management policy are generally informed by and communicated through the quarterly refunding process near the middle of each calendar quarter. a summary of"
+    },
+    {
+      "file": "content/about/budget-financial-reporting-planning-and-performance/inspector-general-audits-and-investigative-reports.md",
+      "url": "/about/budget-financial-reporting-planning-and-performance/inspector-general-audits-and-investigative-reports/",
+      "similarity": 0.004750593824228029,
+      "local_title": "Inspector General Audits and Investigative Reports",
+      "live_title": "Inspector General Audits and Investigative Reports",
+      "local_excerpt": "inspector general audits and investigative reports office of inspector general reports treasury inspector general for tax administration reports special inspector general for troubled assets relief pr",
+      "live_excerpt": "here\u2019s how you know u.s. department of the treasury about treasury policy issues data services news year in review working families tax cuts home about budget, financial reporting, planning and perfor"
+    },
+    {
+      "file": "content/services/taxes.md",
+      "url": "/services/taxes",
+      "similarity": 0.0650994575045208,
+      "local_title": "Taxes",
+      "live_title": "Taxes",
+      "local_excerpt": "taxes internal revenue service (irs) website irs forms and publications refund status irs withholding calculator foreign account tax compliance act",
+      "live_excerpt": "here\u2019s how you know u.s. department of the treasury about treasury policy issues data services news year in review working families tax cuts report fraud waste and abuse bonds and securities treasury "
+    },
+    {
+      "file": "content/services/forms.md",
+      "url": "/services/forms",
+      "similarity": 0.19586067642604746,
+      "local_title": "Forms",
+      "live_title": "Forms",
+      "local_excerpt": "forms irs forms and instructions savings bonds and treasury securities forms bank secrecy act forms treasury international capital (tic) forms and instructions alcohol and tobacco tax and trade bureau",
+      "live_excerpt": "here\u2019s how you know u.s. department of the treasury about treasury policy issues data services news year in review working families tax cuts report fraud waste and abuse bonds and securities treasury "
+    },
+    {
+      "file": "content/about/general-information/organizational-chart.md",
+      "url": "/about/general-information/organizational-chart",
+      "similarity": 0.027210884353741496,
+      "local_title": "Organizational Chart",
+      "live_title": "Organizational Chart",
+      "local_excerpt": "organizational chart",
+      "live_excerpt": "here\u2019s how you know u.s. department of the treasury about treasury policy issues data services news year in review working families tax cuts home about general information organizational chart general"
+    }
+  ],
+  "content_mismatches": [
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/",
+      "similarity": 0.3656387665198238,
+      "local_title": "Financial Markets, Financial Institutions, and Fiscal Service",
+      "live_title": "Financial Markets, Financial Institutions, and Fiscal Service"
+    },
+    {
+      "file": "content/about/budget-financial-reporting-planning-and-performance/agency-financial-report.md",
+      "url": "/about/budget-financial-reporting-planning-and-performance/agency-financial-report/",
+      "similarity": 0.34459459459459457,
+      "local_title": "Agency Financial Report",
+      "live_title": "Agency Financial Report"
+    },
+    {
+      "file": "content/services/bonds-and-securities.md",
+      "url": "/services/bonds-and-securities",
+      "similarity": 0.3711475409836066,
+      "local_title": "Bonds and Securities",
+      "live_title": "Bonds and Securities"
+    },
+    {
+      "file": "content/services/treasury-payments.md",
+      "url": "/services/treasury-payments",
+      "similarity": 0.5211958946898706,
+      "local_title": "Treasury Payments",
+      "live_title": "Treasury Payments"
+    }
+  ],
+  "not_found_on_live": [
+    {
+      "file": "content/policy-issues/small-business-programs/cdfi-fund.md",
+      "url": "/policy-issues/small-business-programs/cdfi-fund",
+      "is_soft_404": false,
+      "local_title": "CDFI Fund"
+    },
+    {
+      "file": "content/policy-issues/terrorism-and-illicit-finance/sanctions.md",
+      "url": "/policy-issues/terrorism-and-illicit-finance/sanctions",
+      "is_soft_404": false,
+      "local_title": "Sanctions Programs"
+    },
+    {
+      "file": "content/data/treasury-coupon-issues-and-corporate-bond-yield-curves.md",
+      "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curves/",
+      "is_soft_404": true,
+      "local_title": "Treasury Coupon Issues and Corporate Bond Yield Curves"
+    },
+    {
+      "file": "content/policy-issues/financing-the-government/debt-management.md",
+      "url": "/policy-issues/financing-the-government/debt-management",
+      "is_soft_404": false,
+      "local_title": "Debt Management"
+    },
+    {
+      "file": "content/footer/privacy-policy.md",
+      "url": "/footer/privacy-policy/",
+      "is_soft_404": false,
+      "local_title": "Privacy Policy"
+    },
+    {
+      "file": "content/footer/faqs.md",
+      "url": "/footer/faqs/",
+      "is_soft_404": false,
+      "local_title": "Frequently Asked Questions"
+    },
+    {
+      "file": "content/data/troubled-assets-relief-program/housing.md",
+      "url": "/data/troubled-assets-relief-program/housing/",
+      "is_soft_404": true,
+      "local_title": "TARP Housing Programs"
+    },
+    {
+      "file": "content/footer/site-policies.md",
+      "url": "/footer/site-policies/",
+      "is_soft_404": false,
+      "local_title": "Site Policies and Notices"
+    },
+    {
+      "file": "content/footer/google-privacy.md",
+      "url": "/footer/google-privacy/",
+      "is_soft_404": false,
+      "local_title": "Google Privacy"
+    },
+    {
+      "file": "content/policy-issues/coronavirus/assistance-for-american-industry.md",
+      "url": "/policy-issues/coronavirus/assistance-for-american-industry/",
+      "is_soft_404": true,
+      "local_title": "Assistance for American Industry"
+    },
+    {
+      "file": "content/utility/accessibility.md",
+      "url": "/utility/accessibility/",
+      "is_soft_404": true,
+      "local_title": "Accessibility"
+    },
+    {
+      "file": "content/policy-issues/economic-policy/social-security-and-medicare.md",
+      "url": "/policy-issues/economic-policy/social-security-and-medicare/",
+      "is_soft_404": false,
+      "local_title": "Social Security and Medicare"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/overview.md",
+      "url": "/policy-issues/tax-policy/overview",
+      "is_soft_404": false,
+      "local_title": "Tax Policy Overview"
+    },
+    {
+      "file": "content/about/careers-at-treasury/how-to-apply.md",
+      "url": "/about/careers-at-treasury/how-to-apply/",
+      "is_soft_404": true,
+      "local_title": "How to Apply"
+    },
+    {
+      "file": "content/policy-issues/tax-policy/tax-policy-overview.md",
+      "url": "/policy-issues/tax-policy/tax-policy-overview/",
+      "is_soft_404": false,
+      "local_title": "Tax Policy Overview"
+    },
+    {
+      "file": "content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra.md",
+      "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra/",
+      "is_soft_404": false,
+      "local_title": "Pay for Results (SIPPRA)"
+    },
+    {
+      "file": "content/services/report-fraud-waste-and-abuse.md",
+      "url": "/services/report-fraud-waste-and-abuse",
+      "is_soft_404": true,
+      "local_title": "Report Fraud, Waste, and Abuse"
+    }
+  ]
+}

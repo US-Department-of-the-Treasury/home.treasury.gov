@@ -6,39 +6,76 @@ url: /footer/privacy-act/
 description: "Information about the Privacy Act and how Treasury protects your personal information."
 ---
 
-The Privacy Act of 1974 (5 U.S.C. § 552a) protects personal information that the federal government collects and maintains about individuals.
+Privacy Act
 
-### Your Rights Under the Privacy Act
+The Privacy Act of 1974, as amended, provides safeguards against unwarranted invasions of privacy by establishing a code of "fair information practices."
 
-The Privacy Act gives you the right to:
-- **Access** - Request copies of records the government maintains about you
-- **Amendment** - Request correction of inaccurate or incomplete records
-- **Disclosure Accounting** - Request an accounting of disclosures of your records
-- **Civil Remedies** - Seek judicial review if your rights are violated
+The principles of the Privacy Act of 1974, commonly referenced as the fair information practice principles (FIPPs), require agencies to comply with statutory norms for collection, maintenance, access, use and dissemination of records.
 
-### How to Make a Request
+To increase transparency and assure notice to individuals, the Privacy Act requires agencies to publish in the Federal Register notice of modifications to or the creation of systems of records. The term "system of records" means a group of any records under the control of any agency from which information is retrieved by the name of the individual or by some identifying number, symbol, or other identifying particular assigned to the individual.
 
-To request access to your records under the Privacy Act:
+A current listing of the Treasury's System of Records, along with updated routine uses and claimed exemptions, can be found the on the Department's System of Records Notices page.
 
-1. Submit a written request to the appropriate Treasury component
-2. Describe the records you are seeking
-3. Provide proof of identity
-4. Pay any applicable fees
+To further protect the individual, the Privacy Act requires all records which are used by the agency in making any determination about any individual to be maintained with such accuracy, relevance, timeliness, and completeness as is reasonably necessary to assure fairness to the individual in the determination.
 
-### Privacy Act System of Records
+The Privacy Act grants individuals increased rights of access to records maintained about them as well as the right to seek amendment of records maintained about them.  The Treasury processes requests for records under both the Privacy Act and the Freedom of Information Act (FOIA). For additional information about how to submit a Privacy Act Request, visit: How to Write a Privacy Act Request.
 
-Treasury maintains several systems of records containing personal information. System of Records Notices (SORNs) describe:
-- Categories of individuals covered
-- Types of information collected
-- Purposes for which information is used
-- Routine uses and disclosures
-- Records retention policies
+Privacy and civil liberties questions, concerns or complaints may be submitted to:
 
-### Contact
+SENIOR AGENCY OFFICIAL FOR PRIVACY
 
-For Privacy Act requests, contact the Treasury component that maintains the records you are seeking.
+John W. York
 
-### Related Resources
+Assistant Secretary for Management
 
-- [FOIA](/footer/freedom-of-information-act/)
-- [Privacy Policy](/footer/privacy-policy/)
+Department of the Treasury
+
+Privacy@treasury.gov
+
+TREASURY BUREAU AND PROGRAM PRIVACY PAGES
+
+Alcohol and Tobacco Tax and Trade Bureau
+
+Office of the Comptroller of the Currency
+
+Help With My Bank
+
+Departmental Offices
+
+Making Home Affordable
+
+MyMoney
+
+Office of Financial Research
+
+Bureau of Engraving and Printing
+
+BEP Store
+
+Bureau of the Fiscal Service
+
+Administrative Resource Center
+
+Do Not Pay
+
+Electronic Federal Tax Payment System
+
+Invoice Processing Platform
+
+Pay.gov
+
+USAspending.gov
+
+Treasury Direct
+
+Financial Crimes Enforcement Network
+
+Internal Revenue Service
+
+Office of Inspector General
+
+Treasury Inspector General for Tax Administration
+
+U.S. Mint
+
+Citizens Coinage Advisory Committee

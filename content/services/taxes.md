@@ -4,34 +4,25 @@ date: 2026-01-16
 draft: false
 layout: content-page
 url: /services/taxes
-description: "Information about federal taxes and the Internal Revenue Service."
+description: "Tax information and resources from the Internal Revenue Service."
 ---
 
-The Internal Revenue Service (IRS), a bureau of the Department of the Treasury, administers and enforces federal tax laws.
+### [Internal Revenue Service (IRS) Website](https://www.irs.gov/)
 
-## Individual Taxpayers
+The IRS is the nation's tax collection agency and administers the Internal Revenue Code enacted by Congress.
 
-### Filing Requirements
-Most U.S. citizens and residents must file an annual tax return if their income exceeds certain thresholds.
+### [IRS Forms and Publications](https://www.irs.gov/forms-instructions)
 
-### Key Deadlines
-- **April 15** - Tax Day (individual returns)
-- **October 15** - Extended filing deadline
+Download tax forms, instructions, and publications from the IRS.
 
-### Free Filing Options
-- IRS Free File for eligible taxpayers
-- Volunteer Income Tax Assistance (VITA)
-- Tax Counseling for the Elderly (TCE)
+### [Refund Status](https://www.irs.gov/refunds)
 
-## Businesses
+Check the status of your federal tax refund.
 
-Businesses have various tax obligations including:
-- Income tax
-- Employment taxes
-- Excise taxes
+### [IRS Withholding Calculator](https://www.irs.gov/individuals/irs-withholding-calculator)
 
-## Resources
+Use the IRS Withholding Calculator to make sure you have the right amount of tax withheld from your paycheck.
 
-- [IRS.gov](https://www.irs.gov) - Official IRS website
-- [Where's My Refund](https://www.irs.gov/refunds) - Check refund status
-- [Tax Forms](https://www.irs.gov/forms-instructions) - Download tax forms
+### [Foreign Account Tax Compliance Act](https://www.irs.gov/businesses/corporations/foreign-account-tax-compliance-act-fatca)
+
+Information about FATCA requirements for U.S. taxpayers with foreign financial accounts.

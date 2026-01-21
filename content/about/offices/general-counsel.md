@@ -1,53 +1,21 @@
 ---
-title: "Office of the General Counsel"
+title: "General Counsel"
 date: 2026-01-17
 draft: false
 url: /about/offices/general-counsel/
 description: "The Office of the General Counsel provides legal advice and counsel to the Secretary of the Treasury and Treasury components."
 ---
 
-The Office of the General Counsel (OGC) serves as the chief legal officer for the Department of the Treasury, providing legal counsel and support to the Secretary and all Treasury offices and bureaus.
+The Treasury Department General Counsel is a statutory officer appointed by the President with the advice and consent of the U.S. Senate. The General Counsel serves as senior legal and policy adviser to the Secretary, the Deputy Secretary and other senior Departmental officials. As head of the Treasury Legal Division, the General Counsel has responsibility for all legal work in the Department. , with the exception of the legal work in the Office of the Comptroller of the Currency and the Offices of the Inspectors General. A Principal Deputy General Counsel and a Deputy General Counsel report to the General Counsel. The Counselor to the General Counsel assists the General Counsel and the Deputy General Counsel by coordinating issues of general interest within the Legal Division and undertakes special assignments as requested by the General Counsel or the Deputy General Counsel. The General Counsel also is assisted by one or more Senior Advisors.
 
-### Mission
+In [Treasury Departmental Offices](/about/offices), senior officials reporting to the General Counsel through the Principal Deputy General Counsel and the Deputy General Counsel include:
 
-The Office of the General Counsel provides high-quality legal advice and representation to enable the Treasury Department to accomplish its mission effectively and lawfully.
+- the Assistant General Counsel for Banking and Finance;
+- the Assistant General Counsel for Enforcement and Intelligence;
+- the Assistant General Counsel for General Law, Ethics and Regulation;
+- the Assistant General Counsel for International Affairs;
+- the Tax Legislative Counsel;
+- the International Tax Counsel; and
+- the Benefits Tax Counsel.
 
-### Responsibilities
-
-#### Legal Counsel
-- Advising the Secretary of the Treasury on legal matters
-- Providing legal guidance to Treasury offices and bureaus
-- Reviewing regulations and policy documents
-- Ensuring compliance with applicable laws
-
-#### Litigation Support
-- Representing Treasury in administrative proceedings
-- Coordinating with the Department of Justice on litigation
-- Managing appeals and enforcement actions
-
-#### Regulatory Work
-- Drafting and reviewing regulations
-- Providing legal analysis for rulemaking
-- Ensuring regulatory compliance
-
-#### Ethics and Standards
-- Administering the Treasury ethics program
-- Providing ethics guidance to employees
-- Managing financial disclosure requirements
-
-### Organizational Structure
-
-The Office of the General Counsel includes several divisions:
-
-- **Banking and Finance** - Financial institutions and markets
-- **International Affairs** - International legal matters
-- **General Law and Ethics** - Administrative law and ethics
-- **Litigation** - Legal proceedings and enforcement
-
-### Contact
-
-For general inquiries, contact the Office of the General Counsel through the Treasury Department's main switchboard.
-
----
-
-*Learn more about [Treasury Offices](/about/offices/).*
+[Download Organizational Structure](/system/files/2011/OGCORGCHARTFINAL.pdf)

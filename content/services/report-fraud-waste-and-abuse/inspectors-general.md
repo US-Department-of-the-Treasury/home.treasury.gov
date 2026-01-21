@@ -6,65 +6,29 @@ url: /services/report-fraud-waste-and-abuse/inspectors-general/
 description: "Contact information for Treasury's Inspectors General to report fraud, waste, and abuse."
 ---
 
-The Treasury Department is overseen by three Inspectors General who investigate fraud, waste, abuse, and misconduct. You can report concerns directly to these offices.
+## [Office of Inspector General (OIG)](https://oig.treasury.gov/)
 
-### Treasury Office of Inspector General (OIG)
+The OIG conducts independent audits, investigations and reviews to help the Treasury Department accomplish its mission; improve its programs and operations; promote economy, efficiency and effectiveness; and prevent and detect fraud and abuse.
 
-The Treasury OIG provides oversight of Treasury operations (except IRS):
+- [Report Fraud, Waste, and Abuse](https://oig.treasury.gov/report-fraud-waste-and-abuse)
+- [OIG Reports and Publications](https://oig.treasury.gov/reports)
 
-**What to Report**
-- Fraud involving Treasury programs
-- Waste in Treasury operations
-- Abuse by Treasury employees
-- Misconduct or ethical violations
+## [Treasury Inspector General for Tax Administration (TIGTA)](https://www.tigta.gov/)
 
-**How to Report**
-- **Hotline**: 1-800-359-3898
-- **Online**: [OIG Hotline](https://oig.treasury.gov/report-fraud-waste-and-abuse)
-- **Mail**: Office of Inspector General, Department of the Treasury
+TIGTA provides leadership and coordination and recommends policy for activities designed to promote economy, efficiency, and effectiveness in the administration of the internal revenue laws. TIGTA also recommends policies to prevent and detect fraud and abuse in the programs and operations of the IRS and related entities.
 
-[Visit Treasury OIG](https://oig.treasury.gov/)
+- [Report IRS-Related Fraud](https://www.treasury.gov/tigta/contact_report_scam.shtml)
+- [TIGTA Reports](https://www.tigta.gov/reports/)
 
-### Treasury Inspector General for Tax Administration (TIGTA)
+## [Special Inspector General for Pandemic Recovery (SIGPR)](https://www.sigpr.gov/)
 
-TIGTA provides oversight of IRS operations:
+The Special Inspector General for Pandemic Recovery (SIGPR) was established by Section 4018 of the Coronavirus Aid, Relief, and Economic Security (CARES) Act.
 
-**What to Report**
-- IRS employee misconduct
-- IRS scams and impersonation
-- Tax fraud schemes
-- Threats against IRS employees
+- [SIGPR Reports](https://www.sigpr.gov/reports)
+- [Report Pandemic Relief Fraud](https://www.sigpr.gov/hotline)
 
-**How to Report**
-- **Hotline**: 1-800-366-4484
-- **Online**: [TIGTA Complaint Form](https://www.treasury.gov/tigta)
-- **Email**: complaints@tigta.treas.gov
+## Special Inspector General for the Troubled Asset Relief Program (SIGTARP)
 
-[Visit TIGTA](https://www.tigta.gov/)
+The Office of the Special Inspector General for the Troubled Asset Relief Program has the responsibility, among other things, to conduct, supervise and coordinate audits and investigations of the purchase, management and sale of assets under the Troubled Asset Relief Program ("TARP").
 
-### Special Inspector General for Pandemic Recovery (SIGPR)
-
-SIGPR provides oversight of pandemic economic stabilization programs:
-
-**What to Report**
-- Fraud in CARES Act programs
-- Misuse of pandemic relief funds
-- False claims for relief programs
-
-**How to Report**
-- **Hotline**: 1-877-557-2575
-- **Online**: [SIGPR Hotline](https://www.sigpr.gov/hotline)
-- **Email**: hotline@sigpr.gov
-
-[Visit SIGPR](https://www.sigpr.gov/)
-
-### Whistleblower Protections
-
-Employees and contractors who report wrongdoing are protected:
-- Protection from retaliation
-- Confidentiality where appropriate
-- Statutory whistleblower rights
-
----
-
-*Learn about [Reporting Scam Attempts](/services/report-fraud-waste-and-abuse/report-scam-attempts/) or [Fraud Prevention](/services/report-fraud-waste-and-abuse/).*
+*Note: SIGTARP's mission was completed as TARP programs wound down.*

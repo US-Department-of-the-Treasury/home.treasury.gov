@@ -7,32 +7,21 @@ url: /services/report-fraud-waste-and-abuse
 description: "How to report fraud, waste, and abuse related to Treasury programs."
 ---
 
-The Department of the Treasury is committed to preventing and detecting fraud, waste, and abuse.
+### Reporting Options
 
-## How to Report
+- [Report Scam Attempts](/services/report-fraud-waste-and-abuse/report-scam-attempts/)
+- [Report Fraud or Misconduct Related to Government Contracting or Grants](/services/report-fraud-waste-and-abuse/report-fraud-or-misconduct-related-to-government-contracts-or/)
+- [Report Counterfeits to the U.S. Secret Service](https://www.secretservice.gov/contact/field-offices/) (not a Treasury Bureau)
+- [Report Fraud, Waste, and Abuse](https://oig.treasury.gov/report-fraud-waste-and-abuse)
 
-### Treasury Inspector General
-Report concerns about Treasury programs (except IRS):
-- **Online**: [OIG Hotline](https://oig.treasury.gov)
-- **Phone**: 1-800-359-3898
+### Alerts
 
-### IRS Related Issues
-Report tax fraud or concerns about IRS employees:
-- **Online**: [TIGTA Complaint Form](https://www.tigta.gov)
-- **Phone**: 1-800-366-4484
+- [Inspector General's Fraud Alerts](https://www.treasury.gov/about/organizational-structure/ig/Pages/fraud-alerts_index2.aspx)
+- [Tax Scams and Consumer Alerts](http://www.irs.gov/uac/Tax-Scams-Consumer-Alerts)
+- [Beware of Foreclosure Rescue Scams](https://www.makinghomeaffordable.gov/get-answers/pages/get-answers-how-avoid-scams.aspx)
+- [Consumer Alerts Related to U.S. Mint Coin Programs](http://www.usmint.gov/consumer/)
 
-### Financial Crimes
-Report suspicious financial activity:
-- **FinCEN**: File a Suspicious Activity Report (SAR)
+### Inspector General Hotlines
 
-## Whistleblower Protections
-
-Federal employees and contractors are protected from retaliation for reporting waste, fraud, and abuse.
-
-## What to Report
-
-- Misuse of government funds
-- Fraud in Treasury programs
-- Employee misconduct
-- Contract fraud
-- Threats to Treasury operations
+- [Treasury Inspector General Hotline](https://www.treasury.gov/about/organizational-structure/ig/Pages/default.aspx)
+- [Treasury Inspector General for Tax Administration Hotline](https://www.treasury.gov/tigta/contact_report.shtml)
