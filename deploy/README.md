@@ -61,6 +61,47 @@ Purges Akamai CDN cache after deployment.
 - After CSS/JS changes
 - When cached content needs immediate refresh
 
+### `pre-migration-checklist.sh`
+
+Validates environment readiness before Akamai migration.
+
+```bash
+./deploy/pre-migration-checklist.sh
+```
+
+**Checks performed:**
+- Hugo, AWS CLI, Akamai CLI installed
+- AWS credentials and S3 access
+- Akamai authentication
+- Hugo build success
+- CSP compliance (no inline scripts)
+- DNS TTL configuration
+
+### `validate-akamai.sh`
+
+Validates Hugo site is correctly served through Akamai.
+
+```bash
+# Validate production
+./deploy/validate-akamai.sh
+
+# Validate staging network
+./deploy/validate-akamai.sh staging
+
+# Quick smoke test
+./deploy/validate-akamai.sh --quick
+```
+
+**Validates:**
+- DNS and connectivity
+- Akamai edge headers
+- Security headers (CSP, HSTS, X-Frame-Options)
+- Critical pages (200 OK)
+- Static assets and caching
+- Compression
+- 404 handling
+- Response times
+
 ## Branching and Deployment Workflow
 
 This project uses a **staging → master** branching strategy with automatic deployments:
@@ -162,7 +203,52 @@ Example bucket policy:
 }
 ```
 
-## Akamai Integration
+## Akamai Migration
+
+### Pre-Migration Checklist
+
+Before migrating to Akamai, run the pre-flight checklist:
+
+```bash
+./deploy/pre-migration-checklist.sh
+```
+
+This validates:
+- Local environment (Hugo, AWS CLI, Akamai CLI)
+- AWS access and S3 bucket configuration
+- Akamai CLI authentication
+- Hugo build success
+- Current site status
+- Security configuration (CSP compliance)
+- DNS TTL settings
+
+### Validate Akamai Configuration
+
+After configuring Akamai, validate the setup:
+
+```bash
+# Validate staging network
+./deploy/validate-akamai.sh staging
+
+# Validate production (after cutover)
+./deploy/validate-akamai.sh
+
+# Quick smoke test only
+./deploy/validate-akamai.sh --quick
+```
+
+### Full Migration Playbook
+
+See [docs/AKAMAI_MIGRATION_PLAYBOOK.md](../docs/AKAMAI_MIGRATION_PLAYBOOK.md) for the complete migration guide including:
+
+- Architecture overview
+- Phase-by-phase migration steps
+- Path-based routing configuration
+- Rollback procedures
+- Monitoring and alerting
+- Runbooks for common operations
+
+### Akamai Configuration Reference
 
 See [docs/AKAMAI_INTEGRATION.md](../docs/AKAMAI_INTEGRATION.md) for detailed Akamai configuration including:
 
