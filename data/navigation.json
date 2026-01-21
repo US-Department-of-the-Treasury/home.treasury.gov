@@ -7,6 +7,7 @@
       "columns": [
         {
           "heading": "GENERAL INFORMATION",
+          "url": "/about/general-information/",
           "links": [
             {"title": "Role of the Treasury", "url": "/about/general-information/role-of-the-treasury"},
             {"title": "Officials", "url": "/about/general-information/officials"},
@@ -16,6 +17,7 @@
         },
         {
           "heading": "OFFICES",
+          "url": "/about/offices/",
           "links": [
             {"title": "Domestic Finance", "url": "/about/offices/domestic-finance"},
             {"title": "Economic Policy", "url": "/about/offices/economic-policy"},
@@ -31,6 +33,7 @@
         },
         {
           "heading": "BUREAUS",
+          "url": "/about/bureaus/",
           "links": [
             {"title": "Alcohol and Tobacco Tax and Trade Bureau (TTB)", "url": "https://www.ttb.gov/"},
             {"title": "Bureau of Engraving & Printing (BEP)", "url": "https://www.bep.gov/"},
@@ -46,6 +49,7 @@
         },
         {
           "heading": "BUDGET, FINANCIAL REPORTING, PLANNING AND PERFORMANCE",
+          "url": "/about/budget-financial-reporting-planning-and-performance/",
           "links": [
             {"title": "Strategic Plan", "url": "/about/budget-financial-reporting-planning-and-performance/strategic-plan"},
             {"title": "Budget Request/Annual Performance Plan and Reports", "url": "/about/budget-financial-reporting-planning-and-performance/budget-requestannual-performance-plan-and"},
@@ -56,6 +60,7 @@
         },
         {
           "heading": "HISTORY",
+          "url": "/about/history/",
           "links": [
             {"title": "Curator", "url": "/about/history/curator"},
             {"title": "History Overview", "url": "/about/history/history-overview"},
@@ -68,6 +73,7 @@
         },
         {
           "heading": "CAREERS",
+          "url": "/about/careers-at-treasury/",
           "links": [
             {"title": "At Headquarters", "url": "/about/careers-at-treasury/careers-at-headquarters"},
             {"title": "At Our Bureaus", "url": "/about/careers-at-treasury/careers-at-our-bureaus"},
@@ -90,6 +96,7 @@
       "columns": [
         {
           "heading": "COVID19 ECONOMIC RELIEF",
+          "url": "/policy-issues/coronavirus/",
           "links": [
             {"title": "American Families and Workers", "url": "/policy-issues/coronavirus/assistance-for-American-families-and-workers"},
             {"title": "Small Businesses", "url": "/policy-issues/coronavirus/assistance-for-small-businesses"},
@@ -99,6 +106,7 @@
         },
         {
           "heading": "TAX POLICY",
+          "url": "/policy-issues/tax-policy/",
           "links": [
             {"title": "Revenue Proposals", "url": "/policy-issues/tax-policy/revenue-proposals"},
             {"title": "Tax Expenditures", "url": "/policy-issues/tax-policy/tax-expenditures"},
@@ -112,6 +120,7 @@
         },
         {
           "heading": "ECONOMIC POLICY",
+          "url": "/policy-issues/economic-policy/",
           "links": [
             {"title": "Treasury Coupon Issues", "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curves"},
             {"title": "Corporate Bond Yield Curve", "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curve/corporate-bond-yield-curve"},
@@ -122,6 +131,7 @@
         },
         {
           "heading": "TERRORISM AND ILLICIT FINANCE",
+          "url": "/policy-issues/terrorism-and-illicit-finance/",
           "links": [
             {"title": "Sanctions", "url": "https://ofac.treasury.gov/"},
             {"title": "Asset Forfeiture", "url": "/policy-issues/terrorism-and-illicit-finance/treasury-executive-office-for-asset-forfeiture-teoaf"},
@@ -134,6 +144,7 @@
         },
         {
           "heading": "FINANCING THE GOVERNMENT",
+          "url": "/policy-issues/financing-the-government/",
           "links": [
             {"title": "Treasury Quarterly Refunding", "url": "/policy-issues/financing-the-government/quarterly-refunding"},
             {"title": "Interest Rate Statistics", "url": "/policy-issues/financing-the-government/interest-rate-statistics"},
@@ -144,6 +155,7 @@
         },
         {
           "heading": "FINANCIAL MARKETS, FINANCIAL INSTITUTIONS, AND FISCAL SERVICE",
+          "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/",
           "links": [
             {"title": "Cash and Debt Forecasting", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/cash-and-debt-forecasting"},
             {"title": "Debt Limit", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit"},
@@ -157,6 +169,7 @@
         },
         {
           "heading": "FINANCIAL SANCTIONS",
+          "url": "https://ofac.treasury.gov/",
           "links": [
             {"title": "Specially Designated Nationals List (SDN List)", "url": "https://ofac.treasury.gov/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists"},
             {"title": "Consolidated Sanctions List", "url": "https://ofac.treasury.gov/consolidated-sanctions-list-non-sdn-lists"},
@@ -171,6 +184,7 @@
         },
         {
           "heading": "CONSUMER POLICY",
+          "url": "/policy-issues/consumer-policy/",
           "links": [
             {"title": "Financial Literacy and Education Commission", "url": "/policy-issues/consumer-policy/financial-literacy-and-education-commission"},
             {"title": "Mymoney.gov", "url": "https://www.mymoney.gov/"},
@@ -180,6 +194,7 @@
         },
         {
           "heading": "INTERNATIONAL",
+          "url": "/policy-issues/international/",
           "links": [
             {"title": "The Committee on Foreign Investment in the United States (CFIUS)", "url": "/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius"},
             {"title": "Outbound Investment Security Program", "url": "/policy-issues/international/outbound-investment-program"},
@@ -194,6 +209,7 @@
         },
         {
           "heading": "SMALL BUSINESS PROGRAMS",
+          "url": "/policy-issues/small-business-programs/",
           "links": [
             {"title": "Small and Disadvantaged Business Utilization", "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization"},
             {"title": "Small Business Lending Fund", "url": "/policy-issues/small-business-programs/small-business-lending-fund"},
@@ -202,6 +218,7 @@
         },
         {
           "heading": "TRIBAL AFFAIRS",
+          "url": "/policy-issues/tribal-affairs/",
           "links": [
             {"title": "Tribal Affairs", "url": "/policy-issues/tribal-affairs"}
           ]
@@ -215,6 +232,7 @@
       "columns": [
         {
           "heading": "INTEREST RATES",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/",
           "links": [
             {"title": "Daily Treasury Par Yield Curve Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"},
             {"title": "Daily Treasury Par Real Yield Curve Rates", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve"},
@@ -225,6 +243,7 @@
         },
         {
           "heading": "TREASURY COUPON-ISSUE AND CORPORATE BOND YIELD CURVE",
+          "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curves/",
           "links": [
             {"title": "Treasury Coupon Issues", "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curves"},
             {"title": "Corporate Bond Yield Curve", "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curve/corporate-bond-yield-curve"}
@@ -232,6 +251,7 @@
         },
         {
           "heading": "FEDERAL FINANCIAL DATA",
+          "url": "https://fiscaldata.treasury.gov/",
           "links": [
             {"title": "Your Guide to America's Finances", "url": "https://www.usaspending.gov/"},
             {"title": "Monthly Treasury Statement", "url": "https://fiscal.treasury.gov/reports-statements/mts/"},
@@ -240,12 +260,14 @@
         },
         {
           "heading": "HOW YOUR MONEY IS SPENT",
+          "url": "https://www.usaspending.gov/",
           "links": [
             {"title": "USAspending.gov", "url": "https://www.usaspending.gov/"}
           ]
         },
         {
           "heading": "NATIONAL DEBT",
+          "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
           "links": [
             {"title": "National Debt to the Penny", "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/"},
             {"title": "Historical Debt Outstanding", "url": "https://fiscaldata.treasury.gov/datasets/historical-debt-outstanding/"},
@@ -254,6 +276,7 @@
         },
         {
           "heading": "QUARTERLY REFUNDING",
+          "url": "/policy-issues/financing-the-government/quarterly-refunding/",
           "links": [
             {"title": "Debt Management Overview and Quarterly Refunding Process", "url": "/policy-issues/financing-the-government/quarterly-refunding"},
             {"title": "Most Recent Documents", "url": "/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents"},
@@ -263,18 +286,21 @@
         },
         {
           "heading": "INVESTOR CLASS AUCTION ALLOTMENTS",
+          "url": "/data/investor-class-auction-allotments/",
           "links": [
             {"title": "Investor Class Auction Allotments", "url": "/data/investor-class-auction-allotments"}
           ]
         },
         {
           "heading": "OTHER PROGRAMS",
+          "url": "/data/other-programs/",
           "links": [
             {"title": "Other Programs", "url": "/data/other-programs"}
           ]
         },
         {
           "heading": "TREASURY INTERNATIONAL CAPITAL (TIC) SYSTEM",
+          "url": "/data/treasury-international-capital-tic-system/",
           "links": [
             {"title": "U.S International Portfolio Investment Statistics", "url": "/data/treasury-international-capital-tic-system"},
             {"title": "Release Dates", "url": "/data/treasury-international-capital-tic-system-home-page/release-dates-of-tic-data-0"},
@@ -284,18 +310,21 @@
         },
         {
           "heading": "U.S. INTERNATIONAL RESERVE POSITION",
+          "url": "/data/us-international-reserve-position/",
           "links": [
             {"title": "U.S. International Reserve Position", "url": "/data/us-international-reserve-position"}
           ]
         },
         {
           "heading": "TROUBLED ASSETS RELIEF PROGRAM",
+          "url": "/data/troubled-assets-relief-program/",
           "links": [
             {"title": "Reports", "url": "/data/troubled-assets-relief-program"}
           ]
         },
         {
           "heading": "OFFICE OF THE CHIEF DATA OFFICER",
+          "url": "/about/offices/management/office-of-the-chief-data-officer/",
           "links": [
             {"title": "Federal CDO Council", "url": "/about/offices/management/office-of-the-chief-data-officer"},
             {"title": "Data.gov", "url": "https://www.data.gov/"},
@@ -333,6 +362,7 @@
         },
         {
           "heading": "GRANT PROGRAMS",
+          "url": "https://www.cdfifund.gov/",
           "links": [
             {"title": "Pay for Results (SIPPRA)", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra"},
             {"title": "RESTORE Act", "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act"},
@@ -372,6 +402,7 @@
         },
         {
           "heading": "KLINE-MILLER MULTIEMPLOYER PENSION REFORM ACT OF 2014",
+          "url": "/services/the-multiemployer-pension-reform-act-of-2014/",
           "links": [
             {"title": "Applications", "url": "/services/the-multiemployer-pension-reform-act-of-2014/applications-for-benefit-suspension"},
             {"title": "Frequently Asked Questions", "url": "/services/the-multiemployer-pension-reform-act-of-2014/frequently-asked-questions-about-the-kline-miller-multiemployer-pension-reform-act"}
@@ -379,6 +410,7 @@
         },
         {
           "heading": "EDUCATION",
+          "url": "/policy-issues/consumer-policy/financial-literacy-and-education-commission/",
           "links": [
             {"title": "Financial Literacy and Education Commission", "url": "/policy-issues/consumer-policy/financial-literacy-and-education-commission"}
           ]
@@ -407,6 +439,7 @@
         },
         {
           "heading": "GOVERNMENT SHARED SERVICES",
+          "url": "/services/government-shared-services/",
           "links": [
             {"title": "Treasury Franchise Fund (TFF)", "url": "https://www.fiscal.treasury.gov/"},
             {"title": "Administrative Resource Center (ARC)", "url": "https://arc.fiscal.treasury.gov/"},
@@ -418,6 +451,7 @@
         },
         {
           "heading": "TOURS AND LIBRARY",
+          "url": "/services/tours-and-library/",
           "links": [
             {"title": "Historic Treasury Building", "url": "/about/history/the-treasury-building"},
             {"title": "Library", "url": "/about/history"},
@@ -435,6 +469,7 @@
       "columns": [
         {
           "heading": "FEATURED STORIES",
+          "url": "/news/featured-stories/",
           "type": "articles",
           "links": [
             {"title": "View all", "url": "/news/featured-stories"}
@@ -442,6 +477,7 @@
         },
         {
           "heading": "PRESS RELEASES",
+          "url": "/news/press-releases/",
           "type": "articles",
           "links": [
             {"title": "View All", "url": "/news/press-releases"}
@@ -449,6 +485,7 @@
         },
         {
           "heading": "REMARKS AND STATEMENTS",
+          "url": "/news/statements-remarks/",
           "type": "articles",
           "links": [
             {"title": "View All", "url": "/news/statements-remarks/"}
@@ -456,6 +493,7 @@
         },
         {
           "heading": "PRESS INFORMATION",
+          "url": "/news/contacts-for-members-of-the-media/",
           "links": [
             {"title": "Press Contacts", "url": "/news/contacts-for-members-of-the-media"},
             {"title": "Weekly Public Schedule Archive", "url": "https://search.usa.gov/search/docs?utf8=%E2%9C%93&affiliate=treas&sort_by=&dc=9123&query=weekly-schedule-updates"},
@@ -466,6 +504,7 @@
         },
         {
           "heading": "CONNECT",
+          "url": "https://twitter.com/USTreasury",
           "links": [
             {"title": "@USTreasury on X", "url": "https://twitter.com/USTreasury"},
             {"title": "Subscribe to Updates", "url": "https://public.govdelivery.com/accounts/USTREAS/subscriber/new"}
@@ -492,6 +531,7 @@
     "categories": [
       {
         "heading": "THE PUBLIC",
+        "url": "/services/",
         "links": [
           {"title": "Auctions", "url": "/services/treasury-auctions"},
           {"title": "Report Scam Attempts", "url": "/services/report-fraud-waste-and-abuse/report-scam-attempts"},
@@ -500,6 +540,7 @@
       },
       {
         "heading": "BUSINESSES",
+        "url": "/policy-issues/small-business-programs/",
         "links": [
           {"title": "Government Contracting Small Business Contacts", "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization-0"},
           {"title": "Form 941, employer's quarterly federal tax return", "url": "https://www.irs.gov/forms-pubs/about-form-941"},
@@ -508,6 +549,7 @@
       },
       {
         "heading": "FINANCIAL INSTITUTIONS",
+        "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/",
         "links": [
           {"title": "Specially Designated Nationals list", "url": "https://ofac.treasury.gov/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists"},
           {"title": "Interest rate statistics", "url": "/policy-issues/financing-the-government/interest-rate-statistics"},
@@ -516,6 +558,7 @@
       },
       {
         "heading": "GOVERNMENT",
+        "url": "/services/government-shared-services/",
         "links": [
           {"title": "Budget, Financial Reporting, Planning and Performance", "url": "/about/budget-financial-reporting-planning-and-performance"},
           {"title": "Shared Services", "url": "https://www.fiscal.treasury.gov/"},

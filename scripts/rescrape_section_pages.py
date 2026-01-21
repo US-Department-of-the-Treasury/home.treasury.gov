@@ -10,6 +10,18 @@ from pathlib import Path
 
 # Pages to rescrape - mapping local path to live URL
 PAGES_TO_RESCRAPE = [
+    # === MEGA MENU SECTION INDEX PAGES (no links currently) ===
+    ("content/about/budget-financial-reporting-planning-and-performance/_index.md", "/about/budget-financial-reporting-planning-and-performance"),
+    ("content/about/careers-at-treasury/_index.md", "/about/careers-at-treasury"),
+    ("content/about/general-information/_index.md", "/about/general-information"),
+    ("content/about/history/_index.md", "/about/history"),
+    ("content/about/offices/management/office-of-the-chief-data-officer.md", "/about/offices/management/office-of-the-chief-data-officer"),
+    ("content/data/investor-class-auction-allotments.md", "/data/investor-class-auction-allotments"),
+    ("content/data/other-programs.md", "/data/other-programs"),
+    ("content/data/troubled-assets-relief-program.md", "/data/troubled-assets-relief-program"),
+    ("content/policy-issues/financial-markets-financial-institutions-and-fiscal-service/_index.md", "/policy-issues/financial-markets-financial-institutions-and-fiscal-service"),
+    ("content/policy-issues/tribal-affairs.md", "/policy-issues/tribal-affairs"),
+    
     # Re-run first batch with fixed formatting
     ("content/about/general-information/role-of-the-treasury.md", "/about/general-information/role-of-the-treasury"),
     ("content/about/general-information/officials.md", "/about/general-information/officials"),
