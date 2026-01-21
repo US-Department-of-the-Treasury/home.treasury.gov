@@ -22,7 +22,7 @@ export default defineConfig({
   ],
   
   use: {
-    baseURL: process.env.BASE_URL || 'https://home-staging.awsdev.treasury.gov',
+    baseURL: process.env.BASE_URL || 'https://d216skv4tzbpyp.cloudfront.net',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'on-first-retry',

@@ -27,6 +27,137 @@ def log(msg: str = "", end: str = "\n"):
     print(msg, end=end, flush=True)
 
 
+def element_to_markdown(element) -> str:
+    """Recursively convert an HTML element to Markdown, preserving inline formatting."""
+    from bs4 import NavigableString, Tag
+    
+    if isinstance(element, NavigableString):
+        text = str(element)
+        # Normalize whitespace but preserve single spaces
+        text = re.sub(r'\s+', ' ', text)
+        return text
+    
+    if not isinstance(element, Tag):
+        return ""
+    
+    tag_name = element.name.lower() if element.name else ""
+    
+    # Skip certain elements entirely
+    if tag_name in ["script", "style", "head", "meta", "link"]:
+        return ""
+    
+    # Recursively process children first
+    children_text = ""
+    for child in element.children:
+        children_text += element_to_markdown(child)
+    
+    # Handle specific tags
+    if tag_name in ["strong", "b"]:
+        inner = children_text.strip()
+        if inner:
+            return f"**{inner}**"
+        return ""
+    
+    if tag_name in ["em", "i"]:
+        inner = children_text.strip()
+        # Skip "Archived Content" notices
+        if inner and "Archived Content" not in inner:
+            return f"*{inner}*"
+        return ""
+    
+    if tag_name == "a":
+        href = element.get("href", "")
+        inner = children_text.strip()
+        if href and inner:
+            # Make relative URLs absolute
+            if href.startswith("/"):
+                href = f"https://home.treasury.gov{href}"
+            return f"[{inner}]({href})"
+        return inner
+    
+    if tag_name in ["h1", "h2", "h3", "h4", "h5", "h6"]:
+        level = int(tag_name[1])
+        # Content headings should be H2+ (H1 is page title)
+        target_level = max(2, level)
+        inner = children_text.strip()
+        if inner:
+            return f"\n\n{'#' * target_level} {inner}\n\n"
+        return ""
+    
+    if tag_name == "p":
+        inner = children_text.strip()
+        if inner:
+            return f"\n\n{inner}\n\n"
+        return ""
+    
+    if tag_name == "br":
+        return " "  # Convert <br> to space within paragraphs
+    
+    if tag_name == "li":
+        inner = children_text.strip()
+        return inner
+    
+    if tag_name == "ul":
+        items = []
+        for li in element.find_all("li", recursive=False):
+            li_text = element_to_markdown(li).strip()
+            if li_text:
+                items.append(f"- {li_text}")
+        if items:
+            return "\n\n" + "\n".join(items) + "\n\n"
+        return ""
+    
+    if tag_name == "ol":
+        items = []
+        start = 1
+        try:
+            start_attr = element.get("start", 1)
+            if start_attr:
+                start = int(start_attr)
+        except:
+            start = 1
+        for idx, li in enumerate(element.find_all("li", recursive=False), start):
+            li_text = element_to_markdown(li).strip()
+            if li_text:
+                items.append(f"{idx}. {li_text}")
+        if items:
+            return "\n\n" + "\n".join(items) + "\n\n"
+        return ""
+    
+    if tag_name == "table":
+        # Keep tables as HTML for now (they're complex)
+        return f"\n\n{str(element)}\n\n"
+    
+    if tag_name == "img":
+        src = element.get("src", "")
+        alt = element.get("alt", "")
+        if src and "spacer" not in src.lower():
+            if src.startswith("/"):
+                src = f"https://home.treasury.gov{src}"
+            return f"\n\n![{alt}]({src})\n\n"
+        return ""
+    
+    if tag_name == "blockquote":
+        inner = children_text.strip()
+        if inner:
+            # Prefix each line with >
+            lines = inner.split("\n")
+            quoted = "\n".join(f"> {line}" for line in lines if line.strip())
+            return f"\n\n{quoted}\n\n"
+        return ""
+    
+    if tag_name == "div":
+        # Check for specific wrapper divs
+        classes = element.get("class", [])
+        if "field--name-field-news-body" in classes:
+            return children_text
+        # Otherwise just return children
+        return children_text
+    
+    # Default: just return children's text
+    return children_text
+
+
 def html_to_markdown(html_content: str) -> str:
     """Convert HTML content to clean Markdown.
     
@@ -38,140 +169,34 @@ def html_to_markdown(html_content: str) -> str:
     
     soup = BeautifulSoup(html_content, "html.parser")
     
-    # Remove the wrapper div if present
-    wrapper = soup.find("div", class_="field--name-field-news-body")
-    if wrapper:
-        soup = wrapper
+    # Remove unwanted elements
+    for tag in soup.find_all(["script", "style", "head", "meta", "link", "nav", "header", "footer"]):
+        tag.decompose()
     
-    # Process headers
-    for tag_name in ["h1", "h2", "h3", "h4", "h5", "h6"]:
-        level = int(tag_name[1])
-        # Content headings should be H2+ (H1 is page title)
-        target_level = max(2, level)
-        for h in soup.find_all(tag_name):
-            text = h.get_text(strip=True)
-            if text:
-                h.replace_with(f"\n\n{'#' * target_level} {text}\n\n")
+    # Remove "(Archived Content)" notices - Hugo adds these
+    for em in soup.find_all(["em", "i"]):
+        if em.get_text(strip=True) == "(Archived Content)":
+            # Also remove parent <p> if it only contains this
+            parent = em.parent
+            em.decompose()
+            if parent and parent.name == "p" and not parent.get_text(strip=True):
+                parent.decompose()
     
-    # Bold/Strong
-    for tag in soup.find_all(["strong", "b"]):
-        text = tag.get_text()
-        if text.strip():
-            tag.replace_with(f"**{text}**")
-    
-    # Italic/Em (but not archived content notice)
-    for tag in soup.find_all(["em", "i"]):
-        text = tag.get_text()
-        if text.strip() and "Archived Content" not in text:
-            tag.replace_with(f"*{text}*")
-        elif "Archived Content" in text:
-            tag.replace_with("")  # Remove archived notice, Hugo adds it
-    
-    # Links
-    for a in soup.find_all("a"):
-        href = a.get("href", "")
-        text = a.get_text(strip=True)
-        if href and text:
-            # Make relative URLs absolute if needed
-            if href.startswith("/"):
-                href = f"https://home.treasury.gov{href}"
-            a.replace_with(f"[{text}]({href})")
-        elif text:
-            a.replace_with(text)
-    
-    # Handle tables - convert to markdown tables or preserve as HTML
-    for table in soup.find_all("table"):
-        # For complex tables, keep as raw HTML
-        # Just clean up the table a bit
-        table_html = str(table)
-        # Add newlines around table
-        table.replace_with(f"\n\n{table_html}\n\n")
-    
-    # Unordered lists
-    for ul in list(soup.find_all("ul")):
-        if ul is None:
-            continue
-        items = []
-        for li in ul.find_all("li", recursive=False):
-            li_text = li.get_text(strip=True)
-            if li_text:
-                items.append(f"- {li_text}")
-        if items:
-            ul.replace_with("\n" + "\n".join(items) + "\n")
-        else:
-            try:
-                ul.decompose()
-            except:
-                pass
-    
-    # Ordered lists
-    for ol in list(soup.find_all("ol")):
-        if ol is None:
-            continue
-        items = []
-        start = 1
-        try:
-            start_attr = ol.get("start", 1)
-            if start_attr:
-                start = int(start_attr)
-        except:
-            start = 1
-        for idx, li in enumerate(ol.find_all("li", recursive=False), start):
-            li_text = li.get_text(strip=True)
-            if li_text:
-                items.append(f"{idx}. {li_text}")
-        if items:
-            ol.replace_with("\n" + "\n".join(items) + "\n")
-        else:
-            try:
-                ol.decompose()
-            except:
-                pass
-    
-    # Paragraphs
-    for p in soup.find_all("p"):
-        text = p.get_text(strip=True)
-        if text:
-            p.replace_with(f"\n\n{text}\n\n")
-        else:
-            p.decompose()
-    
-    # Line breaks
-    for br in soup.find_all("br"):
-        br.replace_with("\n")
-    
-    # Images - convert to markdown
-    for img in soup.find_all("img"):
-        src = img.get("src", "")
-        alt = img.get("alt", "")
-        if src and "spacer" not in src:
-            if src.startswith("/"):
-                src = f"https://home.treasury.gov{src}"
-            img.replace_with(f"\n\n![{alt}]({src})\n\n")
-        else:
-            img.decompose()
-    
-    # Remove empty tags
-    for tag in soup.find_all(["dir", "span", "td", "tr", "tbody", "center"]):
-        text = tag.get_text(strip=True)
-        if text:
-            tag.replace_with(f" {text} ")
-        else:
-            tag.decompose()
-    
-    # Get text and clean up
-    text = soup.get_text()
+    # Convert to markdown using recursive function
+    markdown = element_to_markdown(soup)
     
     # Decode HTML entities
-    text = html.unescape(text)
+    markdown = html.unescape(markdown)
     
     # Clean up whitespace
-    text = re.sub(r"\n{3,}", "\n\n", text)  # Multiple newlines -> double
-    text = re.sub(r" +", " ", text)  # Multiple spaces -> single
-    text = re.sub(r"\n +", "\n", text)  # Leading spaces on lines
-    text = re.sub(r" +\n", "\n", text)  # Trailing spaces on lines
+    markdown = re.sub(r"\n{3,}", "\n\n", markdown)  # Multiple newlines -> double
+    markdown = re.sub(r" +", " ", markdown)  # Multiple spaces -> single
+    markdown = re.sub(r"\n +", "\n", markdown)  # Leading spaces on lines
+    markdown = re.sub(r" +\n", "\n", markdown)  # Trailing spaces on lines
+    markdown = re.sub(r"^\s+", "", markdown)  # Leading whitespace
+    markdown = re.sub(r"\s+$", "", markdown)  # Trailing whitespace
     
-    return text.strip()
+    return markdown.strip()
 
 
 def find_markdown_file(slug: str, content_dir: Path) -> Path:

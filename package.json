@@ -8,7 +8,7 @@
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "test:report": "playwright show-report",
-    "test:staging": "BASE_URL=https://home-staging.awsdev.treasury.gov playwright test",
+    "test:staging": "BASE_URL=https://d216skv4tzbpyp.cloudfront.net playwright test",
     "test:local": "BASE_URL=http://localhost:1313 playwright test"
   },
   "devDependencies": {
