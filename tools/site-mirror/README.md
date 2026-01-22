@@ -125,7 +125,7 @@ Downloads all pages and assets from a website.
 - Alternate sitemap support (use target's sitemap for source crawl)
 - Recursive link following
 - Binary asset downloading (PDF, images, etc.)
-- Rate limiting with random jitter
+- **Strict rate limiting** - enforces aggregate limit across all concurrent requests
 - Resume support (saves state to continue interrupted crawls)
 - CDN block detection (Akamai, CloudFront)
 - Browser-like headers to avoid blocks
@@ -136,7 +136,8 @@ python crawler.py <url> [options]
 
 Options:
   --output, -o         Output directory (default: ./crawl_output)
-  --rate-limit, -r     Requests per second (default: 2)
+  --rate-limit, -r     Max requests per second, aggregate (default: 2)
+  --max-concurrent, -c Max concurrent HTTP connections (default: 10)
   --max-depth, -d      Maximum crawl depth (default: 10)
   --no-verify-ssl      Disable SSL verification
   --no-assets          Skip downloading assets
@@ -144,6 +145,17 @@ Options:
   --focus, -f          Focus on specific path prefix (e.g., /news/press-releases)
   --use-sitemap-from   Use sitemap from alternate URL to discover URLs
 ```
+
+**Rate Limiting:**
+
+The `--rate-limit` flag enforces a **global aggregate limit** across all concurrent requests:
+
+```bash
+--rate-limit 5           # Max 5 requests/second total (not per connection)
+--max-concurrent 10      # Up to 10 HTTP connections at once
+```
+
+This is enforced strictly - if you set `--rate-limit 2`, the crawler will never exceed 2 requests per second regardless of concurrency.
 
 **Output Structure:**
 ```
@@ -282,18 +294,36 @@ Required (one of):
 Options:
   --output, -o          Output directory (default: ./mirror_output)
   --depth, -d           Maximum crawl depth (default: 10)
-  --rate-limit, -r      Requests per second (default: 2)
+  --rate-limit, -r      Max requests per second, aggregate (default: 5)
+  --max-concurrent, -c  Max concurrent HTTP connections (default: 10)
   --no-verify-ssl       Disable SSL verification
   --no-assets           Skip downloading assets
   --text-threshold      Text similarity threshold (default: 0.9)
   --visual-threshold    Visual difference threshold (default: 0.01)
   --viewports           Viewport sizes: desktop tablet mobile
-  --workers, -w         Number of parallel workers (default: 8)
+  --workers, -w         Parallel workers for text comparison (default: 8)
   --focus, -f           Focus on specific path prefix (e.g., /news/press-releases)
   --use-target-sitemap  Use target's sitemap for source URL discovery
   --skip-crawl          Skip crawling (use existing data)
   --skip-text           Skip text comparison
   --skip-visual         Skip visual comparison
+```
+
+**Concurrency Options Explained:**
+
+| Flag | Controls | Used By |
+|------|----------|---------|
+| `--rate-limit` | Max HTTP requests/second (aggregate) | Crawler |
+| `--max-concurrent` | Max simultaneous HTTP connections | Crawler |
+| `--workers` | CPU threads for text diffing | Text Comparator |
+
+```bash
+# Example: gentle crawl, fast comparison
+python mirror.py https://example.com \
+    --target-url http://localhost:1313 \
+    --rate-limit 2 \        # 2 req/s to avoid CDN blocks
+    --max-concurrent 5 \    # 5 connections max
+    --workers 16            # 16 threads for text comparison (CPU-bound)
 ```
 
 **Example - Compare Against Local Hugo Server:**
@@ -458,8 +488,8 @@ rm -rf report/crawl_target
 If crawling gets blocked with "Access Denied":
 
 ```bash
-# 1. Use very low rate limit
-python crawler.py https://example.com --rate-limit 0.5
+# 1. Use very low rate limit and concurrency
+python crawler.py https://example.com --rate-limit 0.5 --max-concurrent 2
 
 # 2. Use target's sitemap for URL discovery
 python mirror.py https://example.com \
@@ -469,7 +499,7 @@ python mirror.py https://example.com \
 # 3. Whitelist your IP in Akamai console (if you have access)
 ```
 
-The crawler uses browser-like headers and random delays to minimize blocks.
+The crawler uses browser-like headers to minimize blocks. Rate limiting is strictly enforced - `--rate-limit 2` guarantees no more than 2 requests/second regardless of concurrency.
 
 ### SSL Certificate Errors
 

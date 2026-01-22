@@ -27,11 +27,59 @@ import mimetypes
 
 import httpx
 from bs4 import BeautifulSoup
+import time
 
 # Default configuration
 DEFAULT_RATE_LIMIT = 2  # requests per second (lowered to avoid blocks)
 DEFAULT_TIMEOUT = 30
 DEFAULT_MAX_DEPTH = 10
+DEFAULT_MAX_CONCURRENT = 10  # max concurrent requests
+
+
+class AsyncRateLimiter:
+    """
+    Rate limiter that enforces a global rate limit across all workers.
+
+    Ensures the aggregate request rate never exceeds the specified limit,
+    regardless of concurrency.
+    """
+
+    def __init__(self, rate_limit: float, max_concurrent: int = 10):
+        """
+        Args:
+            rate_limit: Maximum requests per second (aggregate across all workers)
+            max_concurrent: Maximum concurrent requests (separate from rate)
+        """
+        self.rate_limit = rate_limit
+        self.min_interval = 1.0 / rate_limit  # Minimum time between requests
+        self.lock = asyncio.Lock()
+        self.last_request_time = 0.0
+        self.semaphore = asyncio.Semaphore(max_concurrent)  # Concurrency limit
+
+    async def acquire(self):
+        """
+        Wait until we can make a request without exceeding rate limit.
+        Returns a context manager that must be held during the request.
+        """
+        # First, wait for a concurrency slot
+        await self.semaphore.acquire()
+
+        # Then, wait for rate limit
+        async with self.lock:
+            now = time.monotonic()
+            time_since_last = now - self.last_request_time
+
+            if time_since_last < self.min_interval:
+                wait_time = self.min_interval - time_since_last
+                await asyncio.sleep(wait_time)
+
+            self.last_request_time = time.monotonic()
+
+        # Semaphore stays held - caller must call release()
+
+    def release(self):
+        """Release the concurrency slot after request completes."""
+        self.semaphore.release()
 
 # Use a real browser User-Agent to avoid CDN blocks
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -166,6 +214,7 @@ class Crawler:
         output_dir: Path,
         rate_limit: float = DEFAULT_RATE_LIMIT,
         max_depth: int = DEFAULT_MAX_DEPTH,
+        max_concurrent: int = DEFAULT_MAX_CONCURRENT,
         verify_ssl: bool = True,
         include_assets: bool = True,
         focus_path: Optional[str] = None
@@ -175,6 +224,7 @@ class Crawler:
         self.output_dir = output_dir
         self.rate_limit = rate_limit
         self.max_depth = max_depth
+        self.max_concurrent = max_concurrent
         self.verify_ssl = verify_ssl
         self.include_assets = include_assets
 
@@ -182,7 +232,9 @@ class Crawler:
         self.focus_path = focus_path.rstrip('/') if focus_path else None
 
         self.state = CrawlState(base_url=base_url)
-        self.semaphore = asyncio.Semaphore(rate_limit)
+        # Use proper rate limiter instead of semaphore
+        # This enforces aggregate rate limit across ALL concurrent workers
+        self.rate_limiter = AsyncRateLimiter(rate_limit, max_concurrent)
         self.state_file = output_dir / "crawl_state.json"
         self.error_log_file = output_dir / "crawl_errors.json"
 
@@ -345,71 +397,72 @@ class Crawler:
 
     async def _crawl_url(self, url: str) -> Optional[CrawlResult]:
         """Crawl a single URL."""
-        async with self.semaphore:
-            # Rate limiting with random jitter to appear more human-like
-            base_delay = 1.0 / self.rate_limit
-            jitter = random.uniform(0.5, 1.5)  # 50-150% of base delay
-            await asyncio.sleep(base_delay * jitter)
+        # Rate limiter enforces global rate limit across all workers
+        # e.g., rate_limit=5 means max 5 requests/second total, not per worker
+        await self.rate_limiter.acquire()
 
-            try:
-                # Determine if this is a binary file
-                parsed = urlparse(url)
-                ext = Path(parsed.path).suffix.lower()
-                is_binary = ext in self.BINARY_EXTENSIONS
+        try:
+            # Determine if this is a binary file
+            parsed = urlparse(url)
+            ext = Path(parsed.path).suffix.lower()
+            is_binary = ext in self.BINARY_EXTENSIONS
 
-                if is_binary:
-                    return await self._download_asset(url)
-                else:
-                    return await self._crawl_page(url)
+            if is_binary:
+                return await self._download_asset(url)
+            else:
+                return await self._crawl_page(url)
 
-            except httpx.TimeoutException as e:
-                self.state.crawled_urls.add(url)
-                error_detail = ErrorDetail(
-                    url=url,
-                    status_code=0,
-                    error_type="timeout",
-                    error_message=f"Request timed out: {str(e)}"
-                )
-                self._log_error(error_detail)
-                return CrawlResult(
-                    url=url,
-                    status_code=0,
-                    content_type="",
-                    content_hash="",
-                    error=f"Timeout: {str(e)}"
-                )
-            except httpx.ConnectError as e:
-                self.state.crawled_urls.add(url)
-                error_detail = ErrorDetail(
-                    url=url,
-                    status_code=0,
-                    error_type="connection_error",
-                    error_message=f"Connection failed: {str(e)}"
-                )
-                self._log_error(error_detail)
-                return CrawlResult(
-                    url=url,
-                    status_code=0,
-                    content_type="",
-                    content_hash="",
-                    error=f"Connection error: {str(e)}"
-                )
-            except Exception as e:
-                self.state.crawled_urls.add(url)
-                error_detail = ErrorDetail(
-                    url=url,
-                    status_code=0,
-                    error_type="unknown",
-                    error_message=str(e)
-                )
-                self._log_error(error_detail)
-                return CrawlResult(
-                    url=url,
-                    status_code=0,
-                    content_type="",
-                    content_hash="",
-                    error=str(e)
-                )
+        except httpx.TimeoutException as e:
+            self.state.crawled_urls.add(url)
+            error_detail = ErrorDetail(
+                url=url,
+                status_code=0,
+                error_type="timeout",
+                error_message=f"Request timed out: {str(e)}"
+            )
+            self._log_error(error_detail)
+            return CrawlResult(
+                url=url,
+                status_code=0,
+                content_type="",
+                content_hash="",
+                error=f"Timeout: {str(e)}"
+            )
+        except httpx.ConnectError as e:
+            self.state.crawled_urls.add(url)
+            error_detail = ErrorDetail(
+                url=url,
+                status_code=0,
+                error_type="connection_error",
+                error_message=f"Connection failed: {str(e)}"
+            )
+            self._log_error(error_detail)
+            return CrawlResult(
+                url=url,
+                status_code=0,
+                content_type="",
+                content_hash="",
+                error=f"Connection error: {str(e)}"
+            )
+        except Exception as e:
+            self.state.crawled_urls.add(url)
+            error_detail = ErrorDetail(
+                url=url,
+                status_code=0,
+                error_type="unknown",
+                error_message=str(e)
+            )
+            self._log_error(error_detail)
+            return CrawlResult(
+                url=url,
+                status_code=0,
+                content_type="",
+                content_hash="",
+                error=str(e)
+            )
+        finally:
+            # Always release the concurrency slot
+            self.rate_limiter.release()
 
     async def _crawl_page(self, url: str) -> CrawlResult:
         """Crawl an HTML page."""
@@ -604,7 +657,13 @@ async def main():
         "--rate-limit", "-r",
         type=float,
         default=DEFAULT_RATE_LIMIT,
-        help=f"Requests per second (default: {DEFAULT_RATE_LIMIT})"
+        help=f"Max requests per second, aggregate across all workers (default: {DEFAULT_RATE_LIMIT})"
+    )
+    parser.add_argument(
+        "--max-concurrent", "-c",
+        type=int,
+        default=DEFAULT_MAX_CONCURRENT,
+        help=f"Max concurrent requests (default: {DEFAULT_MAX_CONCURRENT})"
     )
     parser.add_argument(
         "--max-depth", "-d",
@@ -643,6 +702,7 @@ async def main():
         output_dir=args.output,
         rate_limit=args.rate_limit,
         max_depth=args.max_depth,
+        max_concurrent=args.max_concurrent,
         verify_ssl=not args.no_verify_ssl,
         include_assets=not args.no_assets,
         focus_path=args.focus
@@ -652,7 +712,8 @@ async def main():
 
     print(f"Starting crawl of {args.url}")
     print(f"Output directory: {args.output}")
-    print(f"Rate limit: {args.rate_limit} req/s")
+    print(f"Rate limit: {args.rate_limit} req/s (aggregate)")
+    print(f"Max concurrent: {args.max_concurrent}")
     print(f"Max depth: {args.max_depth}")
     if args.focus:
         print(f"Focus path: {args.focus}")
