@@ -35,6 +35,7 @@ class MirrorConfig:
     output_dir: Path = Path("./mirror_output")
     crawl_depth: int = 10
     rate_limit: float = 5.0
+    max_concurrent: int = 10
     verify_ssl: bool = True
     include_assets: bool = True
     text_threshold: float = 0.9
@@ -165,6 +166,7 @@ class SiteMirror:
             output_dir=self.source_crawl_dir,
             rate_limit=self.config.rate_limit,
             max_depth=self.config.crawl_depth,
+            max_concurrent=self.config.max_concurrent,
             verify_ssl=self.config.verify_ssl,
             include_assets=self.config.include_assets,
             focus_path=self.config.focus_path
@@ -183,6 +185,7 @@ class SiteMirror:
             output_dir=self.target_crawl_dir,
             rate_limit=self.config.rate_limit,
             max_depth=self.config.crawl_depth,
+            max_concurrent=self.config.max_concurrent,
             verify_ssl=self.config.verify_ssl,
             include_assets=self.config.include_assets,
             focus_path=self.config.focus_path
@@ -474,7 +477,13 @@ async def main():
         "--rate-limit", "-r",
         type=float,
         default=5.0,
-        help="Requests per second"
+        help="Max requests per second, aggregate across all workers (default: 5)"
+    )
+    parser.add_argument(
+        "--max-concurrent", "-c",
+        type=int,
+        default=10,
+        help="Max concurrent requests (default: 10)"
     )
     parser.add_argument(
         "--no-verify-ssl",
@@ -548,6 +557,7 @@ async def main():
         output_dir=args.output,
         crawl_depth=args.depth,
         rate_limit=args.rate_limit,
+        max_concurrent=args.max_concurrent,
         verify_ssl=not args.no_verify_ssl,
         include_assets=not args.no_assets,
         text_threshold=args.text_threshold,
