@@ -1,0 +1,32 @@
+---
+date: 2023-05-11
+title: Federal Interagency Task Force on Long-Term Care Insurance
+url: /policy-issues/economic-policy/economic-policy-reports-and-notices/federal-interagency-task-force-on-long-term-care-insurance-public-meeting
+draft: false
+---
+
+### BACKGROUND
+
+The Department of the Treasury (Treasury) convened the Federal Interagency Task Force on Long-Term Care Insurance (Task Force) in response to recommendations in Treasury’s October 2017*Report on Asset Management and Insurance*(the Report).  The Report is linked[here](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.treasury.gov%2Fpress-center%2Fpress-releases%2FDocuments%2FA-Financial-System-That-Creates-Economic-Opportunities-Asset_Management-Insurance.pdf&data=02%7C01%7Cjealtman%40pa.gov%7C2c78e5ef694946dabf5d08d6e9fa523c%7C418e284101284dd59b6c47fc5a9a1bde%7C0%7C1%7C636953658675066683&sdata=ZBCB3kH8HO%2FrwFCD%2FsW%2FzhSvrlYVsxeBBADKwzTR3NM%3D&reserved=0)(see pp. 143-144).  The Report identified the challenges of financing long-term care as a matter of national interest requiring a coordinated response from the federal government, and directed the Task Force to develop policies at the federal level to complement reforms at the state level relating to the regulation of long-term care insurance (LTCI).  The Report further directed the Task Force to coordinate with state insurance regulators and the National Association of Insurance Commissioners (NAIC).  The Task Force is chaired by Treasury’s Assistant Secretary for Economic Policy Michael Faulkender, and its members include representatives from the Department of Health and Human Services, the Centers for Medicare & Medicaid Services, the Internal Revenue Service, the Office of Management and Budget, the Department of Labor, and the Office of Tax Policy and the Federal Insurance Office within Treasury.
+
+### WORK OF THE TASK FORCE
+
+The Task Force has been reviewing various proposals to reform federal laws and regulations relating to regulation of LTCI, including the federal policy options presented to Congress for its consideration by the NAIC in April 2017 (available[here](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.naic.org%2Fdocuments%2Fcmte_b_senior_issues_related_ltc_federal_policy_issues.pdf&data=02%7C01%7Cjealtman%40pa.gov%7C2c78e5ef694946dabf5d08d6e9fa523c%7C418e284101284dd59b6c47fc5a9a1bde%7C0%7C1%7C636953658675076668&sdata=MlduydjA5aLTtbWOoYQuUhRduCwMAxDBS%2F%2F8H%2Fo7Wrs%3D&reserved=0)).  The Task Force has consulted with a range of stakeholders, including trade groups, insurance companies and insurance product distributors, consumer and other advocacy groups, actuaries, academics, legal experts, state insurance regulators and the NAIC, and others with relevant knowledge.  The Task Force has also reviewed data, research, and published materials from private and public sources.
+
+On July 25, 2019, following a notice posted to this website on July 18, 2019, the Task Force held a public meeting with selected stakeholders at the Department of the Treasury, 1500 Pennsylvania Avenue, Washington, D.C.  Topics discussed at the meeting included the social need for long-term supports and services, the individual private LTCI market, employer, group, and worksite products, state regulation of LTCI, the federal government and LTCI, and federal-state partnerships and other financing approaches.
+
+On August 11, 2020, the U.S. Department of the Treasury released the report of the Task Force.  The report,*Long-Term Care Insurance: Recommendations for Improvement of Regulation*, describes the work conducted by the Task Force and presents recommendations to reform the regulation of LTCI in the United States.
+
+The Task Force organized its analysis and recommendations into four subject areas: product development and other innovation in the private LTCI market; improved regulatory efficiency and alignment; the federal role in financial literacy and education relating to long-term care (LTC) needs and LTCI; and additional tax incentives for the purchase and use of LTCI.  The report notes that implementation of the recommendations will remove barriers to innovation and increase regulatory efficiency and alignment, potentially making LTCI more affordable and accessible while allowing the market to continue shaping the evolution of this product line.  The report also identifies policymakers and other stakeholders it considers well positioned to implement each recommendation.  Treasury will coordinate and monitor implementation of the recommendations.
+
+The Task Force substantially completed its analysis and recommendations prior to the onset of the COVID-19 pandemic.  In addition, the full effects of the pandemic on LTC and LTCI will continue to emerge over time.  For these reasons, the report does not seek to assess the potential impacts of COVID-19 on LTC or LTCI.
+
+[View the Task Force report on long-term care insurance](https://home.treasury.gov/system/files/136/Report-Federal-Interagency-Task-Force-Long-Term-Care-Insurance.pdf).
+
+### INVITATION FOR PUBLIC COMMENT
+
+In August 2019, members of the public were invited to comment on the business of the Task Force by submitting written statements.  In particular, the Task Force welcomed comments on potential reforms to federal laws, regulations, and policies to complement reforms at the state level relating to the regulation of long-term care insurance.  The Task Force received 16 electronic statements from members of the public, which are included below.
+
+- [Public Comments Received by the Task Force](https://home.treasury.gov/system/files/226/Public-Comments-Received-by-the-Task-Force.pdf)
+
+The Department of the Treasury has made all statements available in their original format, including any business or personal information provided such as names, addresses, e-mail addresses, or telephone numbers, for public inspection and copying in the Department of the Treasury’s Library, 720 Madison Place NW, Room 1020, Washington, DC  20220, on official business days between the hours of 10:00 a.m. and 5:00 p.m. Eastern Time.  When the Department of the Treasury has determined it is safe for the public to visit its Library following the COVID-19 pandemic, you can make an appointment to inspect statements by calling (202) 622-0990.  All statements received, including attachments and other supporting materials, are part of the public record and subject to public disclosure.
