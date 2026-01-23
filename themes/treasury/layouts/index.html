@@ -1,33 +1,43 @@
 {{ define "main" }}
-{{/* Treasury Homepage - Matching live home.treasury.gov design */}}
+{{/* Treasury Homepage - Golden Age Redesign */}}
 
-<h1 class="visually-hidden">U.S. Department of the Treasury - Official Website</h1>
+<h1 class="visually-hidden">U.S. Department of the Treasury - Building America's New Golden Age</h1>
 
-{{/* Hero Slider Section - Full width image with headline overlay */}}
-<section class="hero-slider" aria-label="Featured content">
-  <div class="slick-slider" role="region" aria-roledescription="carousel">
-    {{/* Slide 1 - Secretary Bessent */}}
-    <div class="hero-slide active" style="background-image: url('/images/secretary-bessent-hero.jpg');">
-      <div class="slide-overlay"></div>
-      <div class="slide-content">
-        <a href="/news/featured-stories/scott-bessent-sworn-in-as-79th-secretary-of-the-department-of-treasury/" class="slide-headline">
-          Scott Bessent sworn in as 79th Secretary of the Department of Treasury
-        </a>
-      </div>
-    </div>
-    {{/* Slide 2 - Treasury Building */}}
-    <div class="hero-slide" style="background-image: url('/images/treasury-building.webp');">
-      <div class="slide-overlay"></div>
-      <div class="slide-content">
-        <a href="/about/history/the-treasury-building/" class="slide-headline">
-          About the U.S. Department of the Treasury
-        </a>
-      </div>
-    </div>
+{{/* Golden Age Hero Section */}}
+<section class="golden-hero" aria-label="Treasury leadership and vision">
+  <div class="golden-hero__background">
+    <div class="golden-hero__gradient"></div>
+    <div class="golden-hero__seal" aria-hidden="true"></div>
   </div>
-  <div class="slider-dots" role="tablist" aria-label="Slide controls">
-    <button class="slider-dot active" role="tab" aria-selected="true" aria-label="Slide 1" data-slide="0"></button>
-    <button class="slider-dot" role="tab" aria-selected="false" aria-label="Slide 2" data-slide="1"></button>
+
+  <div class="golden-hero__content">
+    <div class="golden-hero__text">
+      <p class="golden-hero__tagline">United States Department of the Treasury</p>
+      <h2 class="golden-hero__headline">Building America's New Golden Age</h2>
+      <p class="golden-hero__vision">
+        "We are committed to maintaining a strong economy, protecting America's financial security,
+        and delivering results for working families across the nation."
+      </p>
+      <p class="golden-hero__attribution">— Secretary Scott Bessent</p>
+      <div class="golden-hero__cta">
+        <a href="/about/general-information/officials/scott-bessent" class="golden-hero__btn golden-hero__btn--primary">
+          Meet the Secretary
+        </a>
+        <a href="/news/featured-stories/" class="golden-hero__btn golden-hero__btn--secondary">
+          View Recent Actions
+        </a>
+      </div>
+    </div>
+
+    <div class="golden-hero__portrait">
+      <img src="/images/secretary-bessent-hero.jpg"
+           alt="Secretary Scott Bessent, 79th Secretary of the Treasury"
+           class="golden-hero__image"
+           width="500"
+           height="600"
+           loading="eager">
+      <div class="golden-hero__portrait-frame"></div>
+    </div>
   </div>
 </section>
 

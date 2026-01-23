@@ -1150,6 +1150,260 @@ button.nav-link {
 }
 
 /* ============================================
+   Golden Age Hero Section
+   ============================================ */
+.golden-hero {
+  position: relative;
+  min-height: 600px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.golden-hero__background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.golden-hero__gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    var(--treasury-navy-dark) 0%,
+    var(--treasury-navy) 40%,
+    #003d7a 70%,
+    #004d94 100%
+  );
+}
+
+/* Animated gold accent shimmer - CSS only, no JS */
+.golden-hero__gradient::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    ellipse at 30% 70%,
+    rgba(255, 190, 46, 0.15) 0%,
+    transparent 50%
+  );
+  animation: goldenShimmer 8s ease-in-out infinite;
+}
+
+@keyframes goldenShimmer {
+  0%, 100% { transform: translate(0, 0); opacity: 0.5; }
+  50% { transform: translate(5%, -5%); opacity: 0.8; }
+}
+
+/* Treasury seal watermark */
+.golden-hero__seal {
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 700px;
+  height: 700px;
+  background-image: url('/images/treasury-seal-green.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.08;
+  filter: brightness(0) invert(1);
+}
+
+.golden-hero__content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.golden-hero__text {
+  color: #fff;
+}
+
+.golden-hero__tagline {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--treasury-gold);
+  margin: 0 0 1rem;
+}
+
+.golden-hero__headline {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+  margin: 0 0 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.golden-hero__vision {
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0 0 0.75rem;
+  max-width: 540px;
+}
+
+.golden-hero__attribution {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--treasury-gold);
+  margin: 0 0 2rem;
+}
+
+.golden-hero__cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.golden-hero__btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.875rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.golden-hero__btn--primary {
+  background: var(--treasury-gold);
+  color: var(--treasury-navy-dark);
+  border: 2px solid var(--treasury-gold);
+}
+
+.golden-hero__btn--primary:hover {
+  background: var(--treasury-gold-dark);
+  border-color: var(--treasury-gold-dark);
+  color: var(--treasury-navy-dark);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 190, 46, 0.4);
+}
+
+.golden-hero__btn--secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.golden-hero__btn--secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Secretary Portrait */
+.golden-hero__portrait {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.golden-hero__image {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.3),
+    0 0 0 4px rgba(255, 190, 46, 0.3);
+}
+
+.golden-hero__portrait-frame {
+  position: absolute;
+  inset: -8px;
+  border: 2px solid var(--treasury-gold);
+  border-radius: 12px;
+  opacity: 0.5;
+}
+
+/* Golden Hero Responsive */
+@media (max-width: 1024px) {
+  .golden-hero__content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .golden-hero__text {
+    order: 1;
+  }
+
+  .golden-hero__portrait {
+    order: 0;
+  }
+
+  .golden-hero__vision {
+    max-width: 100%;
+  }
+
+  .golden-hero__cta {
+    justify-content: center;
+  }
+
+  .golden-hero__seal {
+    right: -200px;
+    opacity: 0.05;
+  }
+}
+
+@media (max-width: 640px) {
+  .golden-hero {
+    min-height: 500px;
+  }
+
+  .golden-hero__content {
+    padding: 2rem 1rem;
+  }
+
+  .golden-hero__headline {
+    font-size: 2rem;
+  }
+
+  .golden-hero__vision {
+    font-size: 1rem;
+  }
+
+  .golden-hero__image {
+    max-height: 350px;
+  }
+
+  .golden-hero__cta {
+    flex-direction: column;
+  }
+
+  .golden-hero__btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ============================================
    Homepage Three-Column Content Section
    ============================================ */
 .home-content-section {
