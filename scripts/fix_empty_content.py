@@ -27,6 +27,8 @@ import os
 import re
 import sys
 import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, Tuple
@@ -181,13 +183,14 @@ def html_to_markdown(html_content: str) -> str:
     return text.strip()
 
 
-def fetch_page_content(url_path: str) -> Tuple[Optional[str], Optional[str], Optional[str]]:
-    """Fetch a page from home.treasury.gov and extract date and body content.
+def fetch_page_content(url_path: str) -> Tuple[Optional[str], Optional[str], Optional[str], Optional[str]]:
+    """Fetch a page from home.treasury.gov and extract date, title, and body content.
 
     Returns:
-        Tuple of (date_str, body_html, error_message)
+        Tuple of (date_str, body_html, title, error_message)
         date_str: YYYY-MM-DD format
         body_html: Raw HTML of the body field
+        title: Page title extracted from meta or h1
         error_message: None on success, error description on failure
     """
     full_url = f"{SITE_URL}{url_path}"
@@ -195,9 +198,19 @@ def fetch_page_content(url_path: str) -> Tuple[Optional[str], Optional[str], Opt
     try:
         resp = requests.get(full_url, headers=HEADERS, timeout=TIMEOUT)
         if resp.status_code != 200:
-            return None, None, f"HTTP {resp.status_code}"
+            return None, None, None, f"HTTP {resp.status_code}"
 
         soup = BeautifulSoup(resp.text, "html.parser")
+
+        # Extract title from og:title meta or page heading
+        title = None
+        meta_title = soup.find("meta", property="og:title")
+        if meta_title:
+            title = meta_title.get("content", "").strip()
+        if not title:
+            h1 = soup.find("h1")
+            if h1:
+                title = h1.get_text(strip=True)
 
         # Extract date from og:updated_time meta tag
         date_str = None
@@ -231,16 +244,16 @@ def fetch_page_content(url_path: str) -> Tuple[Optional[str], Optional[str], Opt
         else:
             # Last resort: look for the main content area
             # Skip if we can't find a specific body field
-            return date_str, None, "No body field found in HTML"
+            return date_str, None, title, "No body field found in HTML"
 
-        return date_str, body_html, None
+        return date_str, body_html, title, None
 
     except requests.exceptions.Timeout:
-        return None, None, "Request timed out"
+        return None, None, None, "Request timed out"
     except requests.exceptions.RequestException as e:
-        return None, None, f"Request error: {e}"
+        return None, None, None, f"Request error: {e}"
     except Exception as e:
-        return None, None, f"Parse error: {e}"
+        return None, None, None, f"Parse error: {e}"
 
 
 def find_hugo_file(url_path: str) -> Optional[Path]:
@@ -334,25 +347,36 @@ def build_front_matter(fm: dict) -> str:
     return "\n".join(lines)
 
 
-def fix_page(url_path: str, dry_run: bool = False) -> Tuple[bool, str]:
+def fix_page(url_path: str, dry_run: bool = False, overwrite: bool = False) -> Tuple[bool, str]:
     """Fix a single page by fetching content and updating the Hugo file.
+
+    Args:
+        url_path: The URL path to fix
+        dry_run: If True, don't write changes
+        overwrite: If True, overwrite pages that already have body content
 
     Returns:
         Tuple of (success, message)
     """
     # Find existing Hugo file
     hugo_file = find_hugo_file(url_path)
-    if not hugo_file:
-        return False, "Hugo file not found"
 
-    # Read current content
-    with open(hugo_file, "r", encoding="utf-8") as f:
-        current_content = f.read()
+    if hugo_file:
+        # Read current content
+        with open(hugo_file, "r", encoding="utf-8") as f:
+            current_content = f.read()
+        fm, existing_body = parse_front_matter(current_content)
 
-    fm, existing_body = parse_front_matter(current_content)
+        # Skip if file already has substantial body content (unless overwrite)
+        if existing_body.strip() and len(existing_body.strip()) > 50 and not overwrite:
+            return False, f"Already has content ({len(existing_body.strip())} chars), use --overwrite"
+    else:
+        # No existing file — will create new one
+        fm = {}
+        existing_body = ""
 
     # Fetch live page content
-    date_str, body_html, error = fetch_page_content(url_path)
+    date_str, body_html, fetched_title, error = fetch_page_content(url_path)
     if error and not body_html:
         return False, f"Fetch failed: {error}"
 
@@ -365,8 +389,14 @@ def fix_page(url_path: str, dry_run: bool = False) -> Tuple[bool, str]:
     if date_str:
         fm["date"] = date_str
 
-    # Ensure URL is set
+    # Set title if not already present
+    if not fm.get("title") and fetched_title:
+        fm["title"] = fetched_title
+
+    # Ensure URL and draft status are set
     fm["url"] = url_path
+    if "draft" not in fm:
+        fm["draft"] = False
 
     # Determine correct folder
     correct_folder = url_to_folder(url_path)
@@ -380,21 +410,29 @@ def fix_page(url_path: str, dry_run: bool = False) -> Tuple[bool, str]:
     new_content = build_front_matter(fm) + "\n\n" + body_md + "\n"
 
     if dry_run:
-        moved = ""
-        if new_path != hugo_file:
-            moved = f" (MOVE: {hugo_file.relative_to(CONTENT_DIR)} -> {new_path.relative_to(CONTENT_DIR)})"
-        return True, f"Would update: date={date_str}, body={len(body_md)} chars{moved}"
+        if hugo_file is None:
+            return True, f"Would create: {new_path.relative_to(CONTENT_DIR)}, date={date_str}, body={len(body_md)} chars"
+        elif new_path != hugo_file:
+            return True, f"Would update: date={date_str}, body={len(body_md)} chars (MOVE: {hugo_file.relative_to(CONTENT_DIR)} -> {new_path.relative_to(CONTENT_DIR)})"
+        else:
+            return True, f"Would update: date={date_str}, body={len(body_md)} chars"
 
     # Write updated file
     correct_dir.mkdir(parents=True, exist_ok=True)
 
-    # If file needs to move to a different location
-    if new_path != hugo_file:
-        # Write to new location
+    if hugo_file is None:
+        # Create new file
         with open(new_path, "w", encoding="utf-8") as f:
             f.write(new_content)
-        # Remove old file
-        hugo_file.unlink()
+        return True, f"Created: {new_path.relative_to(CONTENT_DIR)}"
+    elif new_path != hugo_file:
+        # Write to new location and remove old
+        with open(new_path, "w", encoding="utf-8") as f:
+            f.write(new_content)
+        try:
+            hugo_file.unlink()
+        except FileNotFoundError:
+            pass  # Already moved/deleted by another thread
         return True, f"Fixed and moved: {hugo_file.name} -> {new_path.relative_to(CONTENT_DIR)}"
     else:
         with open(hugo_file, "w", encoding="utf-8") as f:
@@ -402,13 +440,19 @@ def fix_page(url_path: str, dry_run: bool = False) -> Tuple[bool, str]:
         return True, f"Fixed in place: {hugo_file.name}"
 
 
-def load_empty_content_urls(input_file: Path, limit: int = 0, offset: int = 0) -> list:
-    """Load URLs of pages with empty content from comparison JSON.
+def load_urls_from_comparison(input_file: Path, limit: int = 0, offset: int = 0,
+                              status_filter: str = "different") -> list:
+    """Load URLs from comparison JSON (supports multiple formats).
+
+    Supports two JSON formats:
+    - Format A (older): has "comparisons" array with "url", "target_word_count", "status"
+    - Format B (newer): has "details" array with "path", "similarity", "status"
 
     Args:
         input_file: Path to the text_comparison JSON file
         limit: Max number of URLs to return (0 = all)
         offset: Number of entries to skip from the start
+        status_filter: Only include entries with this status (default: "different")
 
     Returns:
         List of URL path strings
@@ -416,21 +460,32 @@ def load_empty_content_urls(input_file: Path, limit: int = 0, offset: int = 0) -
     with open(input_file, "r") as f:
         data = json.load(f)
 
-    # Filter to entries with status=different and target_word_count=0
-    empty_entries = [
-        c for c in data["comparisons"]
-        if c["status"] == "different" and c["target_word_count"] == 0
-    ]
+    # Detect format
+    if "comparisons" in data:
+        # Format A: filter to empty-content entries
+        entries = [
+            c["url"] for c in data["comparisons"]
+            if c["status"] == status_filter and c.get("target_word_count", -1) == 0
+        ]
+    elif "details" in data:
+        # Format B: all "different" entries need fixing
+        entries = [
+            d["path"] for d in data["details"]
+            if d["status"] == status_filter
+        ]
+    else:
+        print(f"Error: Unrecognized JSON format. Expected 'comparisons' or 'details' key.")
+        sys.exit(1)
 
     # Apply offset
     if offset > 0:
-        empty_entries = empty_entries[offset:]
+        entries = entries[offset:]
 
     # Apply limit
     if limit > 0:
-        empty_entries = empty_entries[:limit]
+        entries = entries[:limit]
 
-    return [e["url"] for e in empty_entries]
+    return entries
 
 
 def main():
@@ -478,6 +533,17 @@ Examples:
         help="Show what would be done without making changes",
     )
     parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Overwrite pages that already have body content",
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Number of parallel workers (default: 1, recommended: 5-10)",
+    )
+    parser.add_argument(
         "--delay",
         type=float,
         default=REQUEST_DELAY,
@@ -504,40 +570,53 @@ Examples:
         print(f"  Limit: {args.limit}")
     if args.offset:
         print(f"  Offset: {args.offset}")
+    print(f"  Workers: {args.workers}")
     print(f"  Delay: {args.delay}s between requests")
     print()
 
     # Load URLs to fix
-    urls = load_empty_content_urls(input_file, limit=args.limit, offset=args.offset)
+    urls = load_urls_from_comparison(input_file, limit=args.limit, offset=args.offset)
     print(f"Found {len(urls)} pages to process")
     print()
 
-    # Process each URL
+    # Process URLs
     success_count = 0
     fail_count = 0
     results = []
+    print_lock = threading.Lock()
+    counter = {"done": 0}
 
-    for i, url_path in enumerate(urls, 1):
-        print(f"[{i}/{len(urls)}] {url_path}", end=" ... ", flush=True)
+    def process_url(url_path):
+        """Process a single URL (thread-safe)."""
+        time.sleep(args.delay)  # Rate limiting per thread
+        success, message = fix_page(url_path, dry_run=args.dry_run, overwrite=args.overwrite)
+        with print_lock:
+            counter["done"] += 1
+            n = counter["done"]
+            status = "OK" if success else "FAIL"
+            print(f"[{n}/{len(urls)}] {url_path} ... {status} - {message}", flush=True)
+        return {"url": url_path, "success": success, "message": message}
 
-        success, message = fix_page(url_path, dry_run=args.dry_run)
-
-        if success:
-            success_count += 1
-            print(f"OK - {message}")
-        else:
-            fail_count += 1
-            print(f"FAIL - {message}")
-
-        results.append({
-            "url": url_path,
-            "success": success,
-            "message": message,
-        })
-
-        # Rate limiting (skip on dry run if no actual fetch)
-        if not args.dry_run and i < len(urls):
-            time.sleep(args.delay)
+    if args.workers > 1:
+        # Parallel execution
+        with ThreadPoolExecutor(max_workers=args.workers) as executor:
+            futures = {executor.submit(process_url, url): url for url in urls}
+            for future in as_completed(futures):
+                result = future.result()
+                results.append(result)
+                if result["success"]:
+                    success_count += 1
+                else:
+                    fail_count += 1
+    else:
+        # Sequential execution
+        for url_path in urls:
+            result = process_url(url_path)
+            results.append(result)
+            if result["success"]:
+                success_count += 1
+            else:
+                fail_count += 1
 
     # Summary
     print()
@@ -550,9 +629,11 @@ Examples:
     # Show failures
     failures = [r for r in results if not r["success"]]
     if failures:
-        print("Failed pages:")
-        for r in failures:
+        print(f"Failed pages ({len(failures)}):")
+        for r in failures[:50]:  # Show first 50
             print(f"  {r['url']}: {r['message']}")
+        if len(failures) > 50:
+            print(f"  ... and {len(failures) - 50} more")
 
     # Write results log
     log_file = Path(__file__).parent.parent / "fix_empty_content_log.json"
@@ -560,6 +641,7 @@ Examples:
         json.dump({
             "timestamp": datetime.now().isoformat(),
             "dry_run": args.dry_run,
+            "workers": args.workers,
             "total": len(urls),
             "success": success_count,
             "failed": fail_count,
