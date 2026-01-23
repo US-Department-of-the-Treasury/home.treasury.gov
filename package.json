@@ -13,8 +13,14 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.8.2",
-    "@playwright/test": "^1.40.1"
+    "@playwright/test": "^1.40.1",
+    "playwright": "^1.57.0"
   },
-  "keywords": ["playwright", "testing", "accessibility", "treasury"],
+  "keywords": [
+    "playwright",
+    "testing",
+    "accessibility",
+    "treasury"
+  ],
   "license": "MIT"
 }

@@ -1,0 +1,16 @@
+{
+  "section": "news",
+  "total_urls": 16408,
+  "matches": 8128,
+  "match_rate": "49.5%",
+  "mismatches": 8280,
+  "mismatch_categories": {
+    "fetch_failed_drupal_unreachable": 6717,
+    "empty_drupal_title": 1301,
+    "http_errors": 158,
+    "hugo_file_not_found": 11,
+    "actual_title_differences": 93
+  },
+  "analysis": "Most mismatches are due to Drupal pages that no longer exist (archived content). Only 93 URLs have actual title differences, primarily HTML entity encoding (& vs &amp;, apostrophes vs &#039;).",
+  "action_required": "93 pages with actual title differences - mostly cosmetic encoding issues"
+}

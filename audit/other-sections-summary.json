@@ -1,0 +1,19 @@
+{
+  "section": "non-news",
+  "total_urls": 126,
+  "matches": 86,
+  "match_rate": "68.3%",
+  "mismatches": 40,
+  "mismatch_breakdown": {
+    "http_404_not_found": 14,
+    "actual_title_differences": 26
+  },
+  "title_difference_types": [
+    "Hugo adds abbreviations like (FOIA), (FATF), (FSOC), (TARP)",
+    "Hugo uses 'Office of X' vs Drupal just 'X'",
+    "Hugo uses 'Treasury X' vs Drupal just 'X'",
+    "Minor formatting: 'Top 10' vs 'Top Ten', '&' vs 'and', commas",
+    "Capitalization: 'About' vs 'about'"
+  ],
+  "analysis": "14 pages exist in Hugo but return 404 on Drupal. 26 pages have intentional title improvements in Hugo (adding abbreviations, clarifying office names). These may be intentional changes during migration."
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "url": "/footer/privacy-policy/",
+    "hugo_title": "Privacy Policy | U.S. Department of the Treasury",
+    "drupal_title": null,
+    "title_match": false,
+    "diff_snippet": "Page returns 404 on live Drupal site - page does not exist"
+  },
+  {
+    "url": "/footer/faqs/",
+    "hugo_title": "Frequently Asked Questions | U.S. Department of the Treasury",
+    "drupal_title": null,
+    "title_match": false,
+    "diff_snippet": "Page returns 404 on live Drupal site - page does not exist"
+  },
+  {
+    "url": "/footer/freedom-of-information-act/",
+    "hugo_title": "Freedom of Information Act (FOIA) | U.S. Department of the Treasury",
+    "drupal_title": "Freedom of Information Act | U.S. Department of the Treasury",
+    "title_match": false,
+    "diff_snippet": "Hugo includes '(FOIA)' in title, Drupal does not"
+  },
+  {
+    "url": "/footer/no-fear-act/",
+    "hugo_title": "No FEAR Act Data | U.S. Department of the Treasury",
+    "drupal_title": "No Fear Act (as amended) | U.S. Department of the Treasury",
+    "title_match": false,
+    "diff_snippet": "Hugo: 'No FEAR Act Data' vs Drupal: 'No Fear Act (as amended)' - different wording and capitalization"
+  },
+  {
+    "url": "/footer/privacy-act/",
+    "hugo_title": "Privacy Act | U.S. Department of the Treasury",
+    "drupal_title": "Privacy Act | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null
+  }
+]

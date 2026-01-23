@@ -1,0 +1,502 @@
+[
+  {
+    "url": "/news/press-releases/hp842",
+    "source_file": "content/news/press-releases/2008-02-27-hp842.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js2114",
+    "source_file": "content/news/press-releases/2004-11-23-js2114.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/hp189",
+    "source_file": "content/news/press-releases/2006-12-05-hp189.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/po66",
+    "source_file": "content/news/press-releases/2001-03-01-po66.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js2338",
+    "source_file": "content/news/press-releases/2005-03-28-js2338.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/hp589",
+    "source_file": "content/news/press-releases/2007-10-03-hp589.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js538",
+    "source_file": "content/news/press-releases/2003-07-08-js538.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/ls915",
+    "source_file": "content/news/press-releases/2000-09-26-ls915.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js1884",
+    "source_file": "content/news/press-releases/2004-09-03-js1884.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl2283",
+    "source_file": "content/news/press-releases/2014-02-05-jl2283.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/200513114517941",
+    "source_file": "content/news/press-releases/2005-01-03-200513114517941.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/2005531313822947",
+    "source_file": "content/news/press-releases/2005-05-03-2005531313822947.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js4022",
+    "source_file": "content/news/press-releases/2006-02-10-js4022.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js1942",
+    "source_file": "content/news/press-releases/2004-09-22-js1942.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/rr2709",
+    "source_file": "content/news/press-releases/1998-09-25-rr2709.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl5048",
+    "source_file": "content/news/press-releases/2016-09-01-jl5048.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/2005771013341129",
+    "source_file": "content/news/press-releases/2005-07-07-2005771013341129.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1915",
+    "source_file": "content/news/press-releases/2023-11-16-jy1915.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/tg1707",
+    "source_file": "content/news/press-releases/2012-09-13-tg1707.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1947",
+    "source_file": "content/news/press-releases/2023-12-04-jy1947.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/po3392",
+    "source_file": "content/news/press-releases/2002-09-05-po3392.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl0088",
+    "source_file": "content/news/press-releases/2015-06-24-jl0088.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm930",
+    "source_file": "content/news/press-releases/2020-03-05-sm930.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0052",
+    "source_file": "content/news/press-releases/2017-04-21-sm0052.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl10014",
+    "source_file": "content/news/press-releases/2015-03-31-jl10014.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/po3173",
+    "source_file": "content/news/press-releases/2002-06-13-po3173.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/steven-t-mnuchin-sworn-in-as-secretary-of-the-treasury",
+    "source_file": "content/news/press-releases/2017-06-23-steven-t-mnuchin-sworn-in-as-secretary-of-the-treasury.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl0287",
+    "source_file": "content/news/press-releases/2015-11-25-jl0287.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/2004799511829877",
+    "source_file": "content/news/press-releases/2004-07-09-2004799511829877.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js83",
+    "source_file": "content/news/press-releases/2003-03-04-js83.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/2006541150296836",
+    "source_file": "content/news/press-releases/2006-05-04-2006541150296836.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/kd3739",
+    "source_file": "content/news/press-releases/2003-01-07-kd3739.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/20053171556423383",
+    "source_file": "content/news/press-releases/2005-03-17-20053171556423383.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0551",
+    "source_file": "content/news/press-releases/2022-01-07-jy0551.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/ls609",
+    "source_file": "content/news/press-releases/2000-05-08-ls609.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl9741",
+    "source_file": "content/news/press-releases/2015-01-15-jl9741.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2478",
+    "source_file": "content/news/press-releases/2024-07-23-jy2478.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl0250",
+    "source_file": "content/news/press-releases/2015-11-04-jl0250.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/rr1693",
+    "source_file": "content/news/press-releases/1997-05-19-rr1693.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/tg782",
+    "source_file": "content/news/press-releases/2010-07-22-tg782.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/ls875",
+    "source_file": "content/news/press-releases/2000-09-12-ls875.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/ls366",
+    "source_file": "content/news/press-releases/2000-01-30-ls366.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/200891615585025337",
+    "source_file": "content/news/press-releases/2008-09-16-200891615585025337.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/2006581518617438",
+    "source_file": "content/news/press-releases/2006-05-08-2006581518617438.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl0162",
+    "source_file": "content/news/press-releases/2015-09-11-jl0162.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/200559124142832",
+    "source_file": "content/news/press-releases/2005-05-09-200559124142832.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2720",
+    "source_file": "content/news/press-releases/2024-11-19-jy2720.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/tg404",
+    "source_file": "content/news/press-releases/2009-11-13-tg404.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/rr1806",
+    "source_file": "content/news/press-releases/1997-07-03-rr1806.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0600",
+    "source_file": "content/news/press-releases/2022-02-18-jy0600.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1094",
+    "source_file": "content/news/press-releases/2022-11-10-jy1094.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/ls784",
+    "source_file": "content/news/press-releases/2000-07-17-ls784.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js3068",
+    "source_file": "content/news/press-releases/2005-12-30-js3068.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js1216",
+    "source_file": "content/news/press-releases/2004-03-05-js1216.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1132",
+    "source_file": "content/news/press-releases/2022-12-01-jy1132.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/hp1327",
+    "source_file": "content/news/press-releases/2008-12-15-hp1327.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/hp750",
+    "source_file": "content/news/press-releases/2007-12-19-hp750.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/tg1604",
+    "source_file": "content/news/press-releases/2012-06-06-tg1604.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js2167",
+    "source_file": "content/news/press-releases/2004-12-23-js2167.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js4336",
+    "source_file": "content/news/press-releases/2006-06-23-js4336.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1678",
+    "source_file": "content/news/press-releases/2023-08-04-jy1678.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js4003",
+    "source_file": "content/news/press-releases/2006-02-02-js4003.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/hp333",
+    "source_file": "content/news/press-releases/2007-03-29-hp333.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/ls113",
+    "source_file": "content/news/press-releases/1999-09-23-ls113.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/ls637",
+    "source_file": "content/news/press-releases/2000-05-18-ls637.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/po1075",
+    "source_file": "content/news/press-releases/2002-03-07-po1075.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/rr2568",
+    "source_file": "content/news/press-releases/1998-06-30-rr2568.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2073",
+    "source_file": "content/news/press-releases/2024-02-02-jy2073.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm834",
+    "source_file": "content/news/press-releases/2019-11-20-sm834.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/hp1310",
+    "source_file": "content/news/press-releases/2008-12-04-hp1310.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/ls921",
+    "source_file": "content/news/press-releases/2000-09-27-ls921.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/2007416831813996",
+    "source_file": "content/news/press-releases/2007-04-16-2007416831813996.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl9760",
+    "source_file": "content/news/press-releases/2015-02-04-jl9760.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl0497",
+    "source_file": "content/news/press-releases/2016-06-09-jl0497.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/tg1112",
+    "source_file": "content/news/press-releases/2011-03-22-tg1112.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/po1099",
+    "source_file": "content/news/press-releases/2002-03-14-po1099.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/tg1808",
+    "source_file": "content/news/press-releases/2012-12-18-tg1808.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/ls125",
+    "source_file": "content/news/press-releases/1999-09-27-ls125.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/rr1086",
+    "source_file": "content/news/press-releases/1996-05-21-rr1086.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js2361",
+    "source_file": "content/news/press-releases/2005-04-06-js2361.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js1843",
+    "source_file": "content/news/press-releases/2004-08-05-js1843.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0207",
+    "source_file": "content/news/press-releases/2025-07-25-sb0207.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/js1558",
+    "source_file": "content/news/press-releases/2004-05-17-js1558.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl2667",
+    "source_file": "content/news/press-releases/2014-10-16-jl2667.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/tg829",
+    "source_file": "content/news/press-releases/2010-08-16-tg829.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0595",
+    "source_file": "content/news/press-releases/2022-02-15-jy0595.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/po418",
+    "source_file": "content/news/press-releases/2001-06-01-po418.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1001",
+    "source_file": "content/news/press-releases/2022-10-07-jy1001.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/tg1528",
+    "source_file": "content/news/press-releases/2012-04-10-tg1528.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl2613",
+    "source_file": "content/news/press-releases/2014-08-22-jl2613.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/po690",
+    "source_file": "content/news/press-releases/2001-10-12-po690.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1989",
+    "source_file": "content/news/press-releases/2023-12-14-jy1989.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/tg1169",
+    "source_file": "content/news/press-releases/2011-05-09-tg1169.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/20056281541279129",
+    "source_file": "content/news/press-releases/2005-06-28-20056281541279129.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/po553",
+    "source_file": "content/news/press-releases/2001-08-14-po553.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jl2185",
+    "source_file": "content/news/press-releases/2013-10-11-jl2185.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/hp580",
+    "source_file": "content/news/press-releases/2007-09-28-hp580.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/hp630",
+    "source_file": "content/news/press-releases/2007-10-22-hp630.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/200551617434120781",
+    "source_file": "content/news/press-releases/2005-05-16-200551617434120781.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/rr3093",
+    "source_file": "content/news/press-releases/1999-04-21-rr3093.md",
+    "section": "news"
+  }
+]

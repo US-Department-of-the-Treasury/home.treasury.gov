@@ -1,0 +1,82 @@
+[
+  {
+    "url": "/news/featured-stories/treasury-irs-disburse-25-million-more-economic-impact-payments-under-the-american-rescue-plan",
+    "hugo_title": "Treasury, IRS disburse 25 million more Economic Impact Payments under the American Rescue Plan | U.S. Department of the Treasury",
+    "drupal_title": "Treasury, IRS disburse 25 million more Economic Impact Payments under the American Rescue Plan | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-1.png"
+  },
+  {
+    "url": "/news/featured-stories/the-inflation-reduction-act-pro-growth-climate-policy",
+    "hugo_title": "The Inflation Reduction Act: Pro-Growth Climate Policy | U.S. Department of the Treasury",
+    "drupal_title": "The Inflation Reduction Act: Pro-Growth Climate Policy | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-2.png"
+  },
+  {
+    "url": "/news/featured-stories/irs-withholding-calculator",
+    "hugo_title": "Treasury, IRS Launch New Withholding Calculator | U.S. Department of the Treasury",
+    "drupal_title": "Treasury, IRS Launch New Withholding Calculator | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-3.png"
+  },
+  {
+    "url": "/news/featured-stories/exploring-title-insurance-consumer-protection-and-opportunities-for-potential-reforms",
+    "hugo_title": "Exploring Title Insurance, Consumer Protection, and Opportunities for Potential Reforms | U.S. Department of the Treasury",
+    "drupal_title": "Exploring Title Insurance, Consumer Protection, and Opportunities for Potential Reforms | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-4.png"
+  },
+  {
+    "url": "/news/featured-stories/penny-production-cessation-faqs",
+    "hugo_title": "Penny Production Cessation FAQs | U.S. Department of the Treasury",
+    "drupal_title": "Penny Production Cessation FAQs | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-5.png"
+  },
+  {
+    "url": "/news/featured-stories/treasury-announces-irs-integrated-modernization-business-plan-promoting-cost-efficiency-improved-taxpayer-service-and-protection",
+    "hugo_title": "Treasury Announces IRS Integrated Modernization Business Plan Promoting Cost Efficiency, Improved Taxpayer Service and Protection | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Announces IRS Integrated Modernization Business Plan Promoting Cost Efficiency, Improved Taxpayer Service and Protection | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-6.png"
+  },
+  {
+    "url": "/news/featured-stories/the-us-economy-in-global-context",
+    "hugo_title": "The U.S. Economy in Global Context | U.S. Department of the Treasury",
+    "drupal_title": "The U.S. Economy in Global Context | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-7.png"
+  },
+  {
+    "url": "/news/featured-stories/the-low-income-communities-bonus-credit-program-our-approach-to-an-inclusive-clean-energy-economy",
+    "hugo_title": "The Low-Income Communities Bonus Credit Program: Our Approach to an Inclusive Clean Energy Economy | U.S. Department of the Treasury",
+    "drupal_title": "The Low-Income Communities Bonus Credit Program: Our Approach to an Inclusive Clean Energy Economy | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-8.png"
+  },
+  {
+    "url": "/news/featured-stories/icymi-in-2022-american-rescue-plan-funding-helped-states-communities-recover",
+    "hugo_title": "ICYMI: In 2022, American Rescue Plan Funding Helped States & Communities Recover | U.S. Department of the Treasury",
+    "drupal_title": "ICYMI: In 2022, American Rescue Plan Funding Helped States & Communities Recover | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-9.png"
+  },
+  {
+    "url": "/news/featured-stories/treasury-announces-largest-north-korean-sanctions-package-targeting-56",
+    "hugo_title": "Treasury Announces Largest North Korean Sanctions Package Targeting 56 Shipping and Trading Companies and Vessels to Further Isolate Rogue Regime | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Announces Largest North Korean Sanctions Package Targeting 56 Shipping and Trading Companies and Vessels to Further Isolate Rogue Regime | U.S. Department of the Treasury",
+    "title_match": true,
+    "diff_snippet": null,
+    "screenshot": "audit/screenshots/sample/news-3-10.png"
+  }
+]

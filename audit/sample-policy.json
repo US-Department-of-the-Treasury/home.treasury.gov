@@ -1,0 +1,61 @@
+{
+  "audit_date": "2026-01-19",
+  "total_pages": 5,
+  "matches": 3,
+  "mismatches": 1,
+  "redirects": 1,
+  "results": [
+    {
+      "url": "/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci",
+      "hugo_title": "State Small Business Credit Initiative (SSBCI) | U.S. Department of the Treasury",
+      "drupal_title": "State Small Business Credit Initiative (SSBCI) | U.S. Department of the Treasury",
+      "title_match": true,
+      "screenshot": "audit/screenshots/sample/policy-1.png"
+    },
+    {
+      "url": "/policy-issues/small-business-programs/cdfi-fund",
+      "hugo_title": "CDFI Fund | U.S. Department of the Treasury",
+      "drupal_title": "Page Not Found | U.S. Department of the Treasury",
+      "title_match": false,
+      "diff_snippet": "Hugo has 'CDFI Fund' but Drupal returns 404 'Page Not Found'",
+      "error": "404_NOT_FOUND",
+      "screenshot": "audit/screenshots/sample/policy-2.png"
+    },
+    {
+      "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization-0",
+      "hugo_title": "Small and Disadvantaged Business Utilization | U.S. Department of the Treasury",
+      "drupal_title": "Small and Disadvantaged Business Utilization | U.S. Department of the Treasury",
+      "title_match": true,
+      "redirect": true,
+      "redirect_target": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization",
+      "note": "URL with -0 suffix redirects to URL without suffix on live Drupal",
+      "screenshot": "audit/screenshots/sample/policy-3.png"
+    },
+    {
+      "url": "/policy-issues/small-business-programs/small-business-lending-fund",
+      "hugo_title": "Small Business Lending Fund | U.S. Department of the Treasury",
+      "drupal_title": "Small Business Lending Fund | U.S. Department of the Treasury",
+      "title_match": true,
+      "screenshot": "audit/screenshots/sample/policy-4.png"
+    },
+    {
+      "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization",
+      "hugo_title": "Small and Disadvantaged Business Utilization | U.S. Department of the Treasury",
+      "drupal_title": "Small and Disadvantaged Business Utilization | U.S. Department of the Treasury",
+      "title_match": true,
+      "screenshot": "audit/screenshots/sample/policy-5.png"
+    }
+  ],
+  "summary": {
+    "title_matches": 4,
+    "title_mismatches": 1,
+    "errors": {
+      "404_not_found": 1
+    },
+    "redirects": 1,
+    "findings": [
+      "CDFI Fund page exists in Hugo but returns 404 on live Drupal - may be missing from Drupal or different URL path",
+      "URL with -0 suffix (small-and-disadvantaged-business-utilization-0) redirects to base URL on Drupal - Hugo has both as separate pages"
+    ]
+  }
+}

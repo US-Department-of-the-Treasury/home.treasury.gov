@@ -1,0 +1,44 @@
+{
+  "audit_date": "2026-01-19",
+  "section": "about",
+  "total_pages": 5,
+  "pages_matched": 5,
+  "pages_mismatched": 0,
+  "results": [
+    {
+      "url": "/about/budget-financial-reporting-planning-and-performance/budget-requestannual-performance-plan-and/",
+      "hugo_title": "Budget Request/Annual Performance Plan and Reports | U.S. Department of the Treasury",
+      "drupal_title": "Budget Request/Annual Performance Plan and Reports | U.S. Department of the Treasury",
+      "title_match": true,
+      "screenshot": "audit/screenshots/sample/about-1.png"
+    },
+    {
+      "url": "/about/budget-financial-reporting-planning-and-performance/strategic-plan",
+      "hugo_title": "Strategic Plan | U.S. Department of the Treasury",
+      "drupal_title": "Strategic Plan | U.S. Department of the Treasury",
+      "title_match": true,
+      "screenshot": "audit/screenshots/sample/about-2.png"
+    },
+    {
+      "url": "/about/budget-financial-reporting-planning-and-performance/inspector-general-audits-and-investigative-reports/",
+      "hugo_title": "Inspector General Audits and Investigative Reports | U.S. Department of the Treasury",
+      "drupal_title": "Inspector General Audits and Investigative Reports | U.S. Department of the Treasury",
+      "title_match": true,
+      "screenshot": "audit/screenshots/sample/about-3.png"
+    },
+    {
+      "url": "/about/budget-financial-reporting-planning-and-performance/irs-strategic-operating-plan/",
+      "hugo_title": "IRS Strategic Operating Plan | U.S. Department of the Treasury",
+      "drupal_title": "IRS Strategic Operating Plan | U.S. Department of the Treasury",
+      "title_match": true,
+      "screenshot": "audit/screenshots/sample/about-4.png"
+    },
+    {
+      "url": "/about/budget-financial-reporting-planning-and-performance/agency-financial-report/",
+      "hugo_title": "Agency Financial Report | U.S. Department of the Treasury",
+      "drupal_title": "Agency Financial Report | U.S. Department of the Treasury",
+      "title_match": true,
+      "screenshot": "audit/screenshots/sample/about-5.png"
+    }
+  ]
+}

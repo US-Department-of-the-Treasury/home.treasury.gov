@@ -1,0 +1,502 @@
+[
+  {
+    "url": "/news/press-releases/sm1096",
+    "source_file": "content/news/readouts/2020-08-17-sm1096.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0041",
+    "source_file": "content/news/readouts/2021-03-01-jy0041.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/readout-from-a-treasury-spokesperson-of-secretary-mnuchins-call-with-japanese",
+    "source_file": "content/news/readouts/2017-02-16-readout-from-a-treasury-spokesperson-of-secretary-mnuchins-call-with-japanese.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0249",
+    "source_file": "content/news/readouts/2021-06-29-jy0249.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0120",
+    "source_file": "content/news/readouts/2021-04-13-jy0120.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2597",
+    "source_file": "content/news/readouts/2024-09-20-jy2597.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1634",
+    "source_file": "content/news/readouts/2023-07-20-jy1634.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2222",
+    "source_file": "content/news/readouts/2024-04-04-jy2222.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2089",
+    "source_file": "content/news/readouts/2024-01-12-jy2089.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0789",
+    "source_file": "content/news/readouts/2022-05-17-jy0789.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1727",
+    "source_file": "content/news/readouts/2023-09-12-jy1727.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0863",
+    "source_file": "content/news/readouts/2022-07-13-jy0863.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0096",
+    "source_file": "content/news/readouts/2021-04-01-jy0096.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1124",
+    "source_file": "content/news/readouts/2022-11-23-jy1124.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0674",
+    "source_file": "content/news/readouts/2022-03-23-jy0674.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2075",
+    "source_file": "content/news/readouts/2024-02-02-jy2075.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1849",
+    "source_file": "content/news/readouts/2023-10-30-jy1849.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0110",
+    "source_file": "content/news/readouts/2025-04-25-sb0110.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0360",
+    "source_file": "content/news/readouts/2026-01-14-sb0360.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-release/sm0073",
+    "source_file": "content/news/readouts/2017-05-03-sm0073.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0402",
+    "source_file": "content/news/readouts/2021-10-12-jy0402.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0604",
+    "source_file": "content/news/readouts/2022-02-23-jy0604.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2289",
+    "source_file": "content/news/readouts/2024-04-21-jy2289.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-release/sm0083",
+    "source_file": "content/news/readouts/2017-05-12-sm0083.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0256",
+    "source_file": "content/news/readouts/2018-01-24-sm0256.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0878",
+    "source_file": "content/news/readouts/2022-07-19-jy0878.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm440",
+    "source_file": "content/news/readouts/2018-07-23-sm440.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1249",
+    "source_file": "content/news/readouts/2023-02-04-jy1249.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2379",
+    "source_file": "content/news/readouts/2024-05-29-jy2379.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0328",
+    "source_file": "content/news/readouts/2018-03-20-sm0328.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm823",
+    "source_file": "content/news/readouts/2019-11-03-sm823.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0287",
+    "source_file": "content/news/readouts/2025-10-20-sb0287.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2615",
+    "source_file": "content/news/readouts/2024-09-25-jy2615.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0133",
+    "source_file": "content/news/readouts/2021-04-16-jy0133.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0804",
+    "source_file": "content/news/readouts/2022-06-02-jy0804.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2103",
+    "source_file": "content/news/readouts/2024-02-15-jy2103.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2369",
+    "source_file": "content/news/readouts/2024-05-24-jy2369.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0522",
+    "source_file": "content/news/readouts/2021-12-08-jy0522.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0682",
+    "source_file": "content/news/readouts/2022-03-28-jy0682.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-release/sm0081",
+    "source_file": "content/news/readouts/2017-05-11-sm0081.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1285",
+    "source_file": "content/news/readouts/2023-02-17-jy1285.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0359",
+    "source_file": "content/news/readouts/2018-04-20-sm0359.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1114",
+    "source_file": "content/news/readouts/2022-11-16-jy1114.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0096",
+    "source_file": "content/news/readouts/2025-04-23-sb0096.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1879",
+    "source_file": "content/news/readouts/2023-11-03-jy1879.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy07340",
+    "source_file": "content/news/readouts/2022-04-22-jy07340.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0401",
+    "source_file": "content/news/readouts/2018-05-31-sm0401.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm886",
+    "source_file": "content/news/readouts/2020-01-27-sm886.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1729",
+    "source_file": "content/news/readouts/2023-09-13-jy1729.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0053",
+    "source_file": "content/news/readouts/2025-03-18-sb0053.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1704",
+    "source_file": "content/news/readouts/2023-08-24-jy1704.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2268",
+    "source_file": "content/news/readouts/2024-04-17-jy2268.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1058",
+    "source_file": "content/news/readouts/2022-10-27-jy1058.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1761",
+    "source_file": "content/news/readouts/2023-09-22-jy1761.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0104",
+    "source_file": "content/news/readouts/2025-04-25-sb0104.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm993",
+    "source_file": "content/news/readouts/2020-04-30-sm993.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1052",
+    "source_file": "content/news/readouts/2022-10-26-jy1052.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0314",
+    "source_file": "content/news/readouts/2021-08-05-jy0314.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1493",
+    "source_file": "content/news/readouts/2023-05-18-jy1493.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0846",
+    "source_file": "content/news/readouts/2022-07-01-jy0846.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0398",
+    "source_file": "content/news/readouts/2018-05-31-sm0398.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2749",
+    "source_file": "content/news/readouts/2024-12-16-jy2749.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1411",
+    "source_file": "content/news/readouts/2023-04-13-jy1411.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm1203",
+    "source_file": "content/news/readouts/2020-12-07-sm1203.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0282",
+    "source_file": "content/news/readouts/2021-07-20-jy0282.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2043",
+    "source_file": "content/news/readouts/2024-01-23-jy2043.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0036",
+    "source_file": "content/news/readouts/2021-02-25-jy0036.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1589",
+    "source_file": "content/news/readouts/2023-07-03-jy1589.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1367",
+    "source_file": "content/news/readouts/2023-03-24-jy1367.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm815",
+    "source_file": "content/news/readouts/2019-10-31-sm815.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0820",
+    "source_file": "content/news/readouts/2022-06-16-jy0820.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0399",
+    "source_file": "content/news/readouts/2021-10-11-jy0399.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0296",
+    "source_file": "content/news/readouts/2018-02-22-sm0296.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1505",
+    "source_file": "content/news/readouts/2023-05-26-jy1505.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1747",
+    "source_file": "content/news/readouts/2023-09-19-jy1747.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0283",
+    "source_file": "content/news/readouts/2025-10-20-sb0283.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2309",
+    "source_file": "content/news/readouts/2024-04-30-jy2309.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1899",
+    "source_file": "content/news/readouts/2023-11-12-jy1899.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2081",
+    "source_file": "content/news/readouts/2024-02-07-jy2081.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2078",
+    "source_file": "content/news/readouts/2024-02-06-jy2078.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0896",
+    "source_file": "content/news/readouts/2022-07-28-jy0896.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0418",
+    "source_file": "content/news/readouts/2018-06-22-sm0418.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0872",
+    "source_file": "content/news/readouts/2022-07-15-jy0872.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0680",
+    "source_file": "content/news/readouts/2022-03-26-jy0680.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0033",
+    "source_file": "content/news/readouts/2017-03-17-sm0033.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0876",
+    "source_file": "content/news/readouts/2022-07-18-jy0876.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm839",
+    "source_file": "content/news/readouts/2019-11-27-sm839.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1813",
+    "source_file": "content/news/readouts/2023-10-16-jy1813.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2348",
+    "source_file": "content/news/readouts/2024-05-17-jy2348.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1721",
+    "source_file": "content/news/readouts/2023-09-08-jy1721.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1516",
+    "source_file": "content/news/readouts/2023-06-01-jy1516.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2128",
+    "source_file": "content/news/readouts/2024-02-27-jy2128.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0083",
+    "source_file": "content/news/readouts/2025-04-10-sb0083.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0375",
+    "source_file": "content/news/readouts/2021-09-24-jy0375.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2102",
+    "source_file": "content/news/readouts/2024-02-15-jy2102.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0079",
+    "source_file": "content/news/readouts/2017-05-10-sm0079.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0032",
+    "source_file": "content/news/readouts/2021-02-23-jy0032.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2658",
+    "source_file": "content/news/readouts/2024-10-18-jy2658.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/readouts/readout-from-a-treasury-spokesperson-on-secretary-mnuchins-meeting-with-chancellor-of-the-exchequer-sajid-javid-of-the-united-kingdom",
+    "source_file": "content/news/readouts/2020-01-25-readout-from-a-treasury-spokesperson-on-secretary-mnuchins-meeting-with-chancellor-of-the-exchequer-sajid-javid-of-the-united-kingdom.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0382",
+    "source_file": "content/news/readouts/2021-09-29-jy0382.md",
+    "section": "news"
+  }
+]

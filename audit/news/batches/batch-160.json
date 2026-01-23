@@ -1,0 +1,502 @@
+[
+  {
+    "url": "/news/press-releases/jy0050",
+    "source_file": "content/news/readouts/2021-03-10-jy0050.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2602",
+    "source_file": "content/news/readouts/2024-09-23-jy2602.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0250",
+    "source_file": "content/news/readouts/2025-09-17-sb0250.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0615",
+    "source_file": "content/news/readouts/2022-03-01-jy0615.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0811",
+    "source_file": "content/news/readouts/2022-06-07-jy0811.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1827",
+    "source_file": "content/news/readouts/2023-10-20-jy1827.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2680",
+    "source_file": "content/news/readouts/2024-10-22-jy2680.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1426",
+    "source_file": "content/news/readouts/2023-04-20-jy1426.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0230",
+    "source_file": "content/news/readouts/2017-12-05-sm0230.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0112",
+    "source_file": "content/news/readouts/2025-04-25-sb0112.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0362",
+    "source_file": "content/news/readouts/2026-01-14-sb0362.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1336",
+    "source_file": "content/news/readouts/2023-03-12-jy1336.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm717",
+    "source_file": "content/news/readouts/2019-06-25-sm717.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm720",
+    "source_file": "content/news/readouts/2019-07-01-sm720.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1841",
+    "source_file": "content/news/readouts/2023-10-25-jy1841.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0260",
+    "source_file": "content/news/readouts/2018-01-24-sm0260.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0035",
+    "source_file": "content/news/readouts/2017-03-17-sm0035.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0348",
+    "source_file": "content/news/readouts/2021-09-09-jy0348.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1471",
+    "source_file": "content/news/readouts/2023-05-10-jy1471.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0285",
+    "source_file": "content/news/readouts/2025-10-20-sb0285.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2136",
+    "source_file": "content/news/readouts/2024-02-28-jy2136.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1113",
+    "source_file": "content/news/readouts/2022-11-16-jy1113.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm947",
+    "source_file": "content/news/readouts/2020-03-17-sm947.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0655",
+    "source_file": "content/news/readouts/2022-03-15-jy0655.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0057",
+    "source_file": "content/news/readouts/2017-07-17-sm0057.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm436",
+    "source_file": "content/news/readouts/2018-07-23-sm436.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm695",
+    "source_file": "content/news/readouts/2019-05-23-sm695.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0263",
+    "source_file": "content/news/readouts/2021-07-07-jy0263.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm518",
+    "source_file": "content/news/readouts/2018-10-15-sm518.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1081",
+    "source_file": "content/news/readouts/2022-11-04-jy1081.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0060",
+    "source_file": "content/news/readouts/2021-03-16-jy0060.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1807",
+    "source_file": "content/news/readouts/2023-10-13-jy1807.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0103",
+    "source_file": "content/news/readouts/2025-04-25-sb0103.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0185",
+    "source_file": "content/news/readouts/2021-05-18-jy0185.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0017",
+    "source_file": "content/news/readouts/2025-02-10-sb0017.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0366",
+    "source_file": "content/news/readouts/2021-09-22-jy0366.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0127",
+    "source_file": "content/news/readouts/2025-05-02-sb0127.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0293",
+    "source_file": "content/news/readouts/2025-10-28-sb0293.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0988",
+    "source_file": "content/news/readouts/2022-10-03-jy0988.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1029",
+    "source_file": "content/news/readouts/2022-10-17-jy1029.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0289",
+    "source_file": "content/news/readouts/2021-07-22-jy0289.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1504",
+    "source_file": "content/news/readouts/2023-05-25-jy1504.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1031",
+    "source_file": "content/news/readouts/2022-10-18-jy1031.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2187",
+    "source_file": "content/news/readouts/2024-03-15-jy2187.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2007",
+    "source_file": "content/news/readouts/2023-12-20-jy2007.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2594",
+    "source_file": "content/news/readouts/2024-09-20-jy2594.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm656",
+    "source_file": "content/news/readouts/2019-04-14-sm656.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0007",
+    "source_file": "content/news/readouts/2021-01-28-jy0007.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1970",
+    "source_file": "content/news/readouts/2023-12-07-jy1970.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0983",
+    "source_file": "content/news/readouts/2022-09-30-jy0983.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0145",
+    "source_file": "content/news/readouts/2021-04-23-jy0145.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm1151",
+    "source_file": "content/news/readouts/2020-10-13-sm1151.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2044",
+    "source_file": "content/news/readouts/2024-01-23-jy2044.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2603",
+    "source_file": "content/news/readouts/2024-09-23-jy2603.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1528",
+    "source_file": "content/news/readouts/2023-06-08-jy1528.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2681",
+    "source_file": "content/news/readouts/2024-10-22-jy2681.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm1093",
+    "source_file": "content/news/readouts/2020-08-14-sm1093.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0136",
+    "source_file": "content/news/readouts/2021-04-20-jy0136.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0363",
+    "source_file": "content/news/readouts/2026-01-14-sb0363.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2446",
+    "source_file": "content/news/readouts/2024-07-05-jy2446.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1166",
+    "source_file": "content/news/readouts/2022-12-15-jy1166.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0255",
+    "source_file": "content/news/readouts/2018-01-24-sm0255.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1814",
+    "source_file": "content/news/readouts/2023-10-16-jy1814.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0134",
+    "source_file": "content/news/readouts/2025-05-07-sb0134.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2150",
+    "source_file": "content/news/readouts/2024-03-01-jy2150.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0401",
+    "source_file": "content/news/readouts/2021-10-12-jy0401.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2656",
+    "source_file": "content/news/readouts/2024-10-17-jy2656.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm721",
+    "source_file": "content/news/readouts/2019-07-01-sm721.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0039",
+    "source_file": "content/news/readouts/2025-03-03-sb0039.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1147",
+    "source_file": "content/news/readouts/2022-12-07-jy1147.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0388",
+    "source_file": "content/news/readouts/2021-10-06-jy0388.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm0034",
+    "source_file": "content/news/readouts/2017-03-17-sm0034.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0284",
+    "source_file": "content/news/readouts/2025-10-20-sb0284.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2137",
+    "source_file": "content/news/readouts/2024-02-28-jy2137.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2679",
+    "source_file": "content/news/readouts/2024-10-25-jy2679.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2745",
+    "source_file": "content/news/readouts/2024-12-11-jy2745.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0521",
+    "source_file": "content/news/readouts/2021-12-08-jy0521.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1896",
+    "source_file": "content/news/readouts/2023-11-10-jy1896.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1449",
+    "source_file": "content/news/readouts/2023-04-27-jy1449.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1558",
+    "source_file": "content/news/readouts/2023-06-22-jy1558.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0014",
+    "source_file": "content/news/readouts/2021-02-02-jy0014.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1627",
+    "source_file": "content/news/readouts/2023-07-18-jy1627.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm432",
+    "source_file": "content/news/readouts/2018-07-23-sm432.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-release/sm0046",
+    "source_file": "content/news/readouts/2017-07-05-sm0046.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1593",
+    "source_file": "content/news/readouts/2023-07-07-jy1593.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0971",
+    "source_file": "content/news/readouts/2022-09-22-jy0971.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0696",
+    "source_file": "content/news/readouts/2022-04-01-jy0696.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0967",
+    "source_file": "content/news/readouts/2022-09-21-jy0967.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1051",
+    "source_file": "content/news/readouts/2022-10-26-jy1051.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0279",
+    "source_file": "content/news/readouts/2025-10-14-sb0279.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0446",
+    "source_file": "content/news/readouts/2021-10-29-jy0446.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2071",
+    "source_file": "content/news/readouts/2024-01-31-jy2071.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1803",
+    "source_file": "content/news/readouts/2023-10-13-jy1803.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sb0107",
+    "source_file": "content/news/readouts/2025-04-25-sb0107.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy0735",
+    "source_file": "content/news/readouts/2022-04-20-jy0735.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1912",
+    "source_file": "content/news/readouts/2023-11-15-jy1912.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1429",
+    "source_file": "content/news/readouts/2023-04-21-jy1429.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/sm430",
+    "source_file": "content/news/readouts/2018-07-19-sm430.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy1412",
+    "source_file": "content/news/readouts/2023-04-13-jy1412.md",
+    "section": "news"
+  },
+  {
+    "url": "/news/press-releases/jy2122",
+    "source_file": "content/news/readouts/2024-02-23-jy2122.md",
+    "section": "news"
+  }
+]

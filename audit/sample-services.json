@@ -1,0 +1,38 @@
+[
+  {
+    "url": "/services/tours-and-library",
+    "hugo_title": "Tours and Library | U.S. Department of the Treasury",
+    "drupal_title": "Tours and Library | U.S. Department of the Treasury",
+    "title_match": true,
+    "screenshot": "audit/screenshots/sample/services-1.png"
+  },
+  {
+    "url": "/services/taxes",
+    "hugo_title": "Taxes | U.S. Department of the Treasury",
+    "drupal_title": "Taxes | U.S. Department of the Treasury",
+    "title_match": true,
+    "screenshot": "audit/screenshots/sample/services-2.png"
+  },
+  {
+    "url": "/services/forms",
+    "hugo_title": "Forms | U.S. Department of the Treasury",
+    "drupal_title": "Forms | U.S. Department of the Treasury",
+    "title_match": true,
+    "screenshot": "audit/screenshots/sample/services-3.png"
+  },
+  {
+    "url": "/services/report-fraud-waste-and-abuse",
+    "hugo_title": "Report Fraud, Waste, and Abuse | U.S. Department of the Treasury",
+    "drupal_title": "Report Fraud Waste and Abuse | U.S. Department of the Treasury",
+    "title_match": false,
+    "diff_snippet": "Hugo has commas: 'Fraud, Waste, and Abuse' vs Drupal: 'Fraud Waste and Abuse'",
+    "screenshot": "audit/screenshots/sample/services-4.png"
+  },
+  {
+    "url": "/services/the-multiemployer-pension-reform-act-of-2014/applications-for-benefit-suspension",
+    "hugo_title": "Applications for Benefit Suspension | U.S. Department of the Treasury",
+    "drupal_title": "Applications for Benefit Suspension | U.S. Department of the Treasury",
+    "title_match": true,
+    "screenshot": "audit/screenshots/sample/services-5.png"
+  }
+]

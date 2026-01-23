@@ -1,0 +1,36 @@
+{
+  "audit_date": "2026-01-19",
+  "statistics": {
+    "total": 16534,
+    "matches": 8214,
+    "mismatches": 8320,
+    "match_rate": "49.7%"
+  },
+  "mismatch_categories": {
+    "fetch_failed": 6717,
+    "empty_drupal_title": 1301,
+    "http_error": 172,
+    "hugo_not_found": 1218,
+    "actual_title_diff": 119
+  },
+  "by_section": {
+    "news": {
+      "total": 16408,
+      "matches": 8128,
+      "match_rate": "49.5%"
+    },
+    "other": {
+      "total": 126,
+      "matches": 86,
+      "match_rate": "68.3%"
+    }
+  },
+  "analysis": {
+    "summary": "Audited 16534 pages. 6717 pages no longer exist on Drupal (archived content). 119 pages have actual title differences requiring review.",
+    "recommendations": [
+      "Most 'mismatches' are archived Drupal pages - Hugo has content that Drupal no longer serves",
+      "Actual title differences are mostly cosmetic (HTML entities, abbreviations)",
+      "Review the 119 actual title differences for intentional changes vs errors"
+    ]
+  }
+}

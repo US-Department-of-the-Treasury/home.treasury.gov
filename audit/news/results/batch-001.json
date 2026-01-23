@@ -1,0 +1,602 @@
+[
+  {
+    "url": "/news/webcasts/2021",
+    "hugo_title": "2021 Webcasts | U.S. Department of the Treasury",
+    "drupal_title": "2021 Webcasts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/webcasts/2020",
+    "hugo_title": "2020 Webcasts | U.S. Department of the Treasury",
+    "drupal_title": "2020 Webcasts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/webcasts/2024",
+    "hugo_title": "2024 Webcasts | U.S. Department of the Treasury",
+    "drupal_title": "2024 Webcasts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/webcasts/2023",
+    "hugo_title": "2023 Webcasts | U.S. Department of the Treasury",
+    "drupal_title": "2023 Webcasts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/webcasts/2017",
+    "hugo_title": "2017 Webcasts | U.S. Department of the Treasury",
+    "drupal_title": "2017 Webcasts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/webcasts/2022",
+    "hugo_title": "2022 Webcasts | U.S. Department of the Treasury",
+    "drupal_title": "2022 Webcasts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/webcasts/2016",
+    "hugo_title": "2016 Webcasts | U.S. Department of the Treasury",
+    "drupal_title": "2016 Webcasts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/webcasts/2019",
+    "hugo_title": "2019 Webcasts | U.S. Department of the Treasury",
+    "drupal_title": "2019 Webcasts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/webcasts/2018",
+    "hugo_title": "2018 Webcasts | U.S. Department of the Treasury",
+    "drupal_title": "2018 Webcasts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/the-us-economic-recovery-in-international-context",
+    "hugo_title": "The U.S. Economic Recovery in International Context | U.S. Department of the Treasury",
+    "drupal_title": "The U.S. Economic Recovery in International Context | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/new%20withholding%20guidelines%20under%20the%20tax%20cuts%20and%20jobs%20act%20will%20increase%20take%20home%20pay",
+    "hugo_title": "New Withholding Guidelines Under The Tax Cuts and Jobs Act Will Increase Take Home Pay | U.S. Department of the Treasury",
+    "drupal_title": "New Withholding Guidelines Under The Tax Cuts and Jobs Act Will Increase Take Home Pay | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/statement-by-secretary-of-the-treasury-janet-l-yellen-on-the-announcement-of-the-price-cap",
+    "hugo_title": "Statement by Secretary of the Treasury Janet L. Yellen on the Announcement of the Price Cap | U.S. Department of the Treasury",
+    "drupal_title": "Statement by Secretary of the Treasury Janet L. Yellen on the Announcement of the Price Cap | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/from-car-dealers-to-union-workers-engaging-stakeholders-on-historic-biden-harris-climate-law",
+    "hugo_title": "From Car Dealers to Union Workers: Engaging Stakeholders on Historic Biden-Harris Climate Law | U.S. Department of the Treasury",
+    "drupal_title": "From Car Dealers to Union Workers: Engaging Stakeholders on Historic Biden-Harris Climate Law | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/taxpayers-will-see-improved-service-this-filing-season-thanks-to-inflation-reduction-act",
+    "hugo_title": "Taxpayers Will See Improved Service This Filing Season Thanks to Inflation Reduction Act | U.S. Department of the Treasury",
+    "drupal_title": "Taxpayers Will See Improved Service This Filing Season Thanks to Inflation Reduction Act | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/over-one-million-american-workers-receiving-bonuses-in-response-to-tax-reform",
+    "hugo_title": "Over One Million American Workers Receiving Bonuses in Response to Tax Reform | U.S. Department of the Treasury",
+    "drupal_title": "Over One Million American Workers Receiving Bonuses in Response to Tax Reform | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/coordinating-doe-home-energy-rebates-with-energy-efficient-home-improvement-tax-credits-an-explainer",
+    "hugo_title": "Coordinating DOE Home Energy Rebates with Energy-Efficient Home Improvement Tax Credits: An Explainer | U.S. Department of the Treasury",
+    "drupal_title": "Coordinating DOE Home Energy Rebates with Energy-Efficient Home Improvement Tax Credits: An Explainer | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/spotlighting-womens-retirement-security",
+    "hugo_title": "Spotlighting Women’s Retirement Security | U.S. Department of the Treasury",
+    "drupal_title": "Spotlighting Women’s Retirement Security | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/a-coordinated-strategy-to-advance-racial-equity-at-treasury",
+    "hugo_title": "A Coordinated Strategy to Advance Racial Equity at Treasury | U.S. Department of the Treasury",
+    "drupal_title": "A Coordinated Strategy to Advance Racial Equity at Treasury | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/racial-equity-benefits-all-americans",
+    "hugo_title": "Racial Equity Benefits All Americans | U.S. Department of the Treasury",
+    "drupal_title": "Racial Equity Benefits All Americans | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/secretary-mnuchin-travels-to-california-to-discuss-tax-reform-with-business",
+    "hugo_title": "Secretary Mnuchin Travels to California to Discuss Tax Reform with Business Leaders, Hardworking Americans | U.S. Department of the Treasury",
+    "drupal_title": "Secretary Mnuchin Travels to California to Discuss Tax Reform with Business Leaders, Hardworking Americans | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-irs-disburse-25-million-more-economic-impact-payments-under-the-american-rescue-plan",
+    "hugo_title": "Treasury, IRS disburse 25 million more Economic Impact Payments under the American Rescue Plan | U.S. Department of the Treasury",
+    "drupal_title": "Treasury, IRS disburse 25 million more Economic Impact Payments under the American Rescue Plan | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/the-inflation-reduction-act-pro-growth-climate-policy",
+    "hugo_title": "The Inflation Reduction Act: Pro-Growth Climate Policy | U.S. Department of the Treasury",
+    "drupal_title": "The Inflation Reduction Act: Pro-Growth Climate Policy | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/irs-withholding-calculator",
+    "hugo_title": "Treasury, IRS Launch New Withholding Calculator | U.S. Department of the Treasury",
+    "drupal_title": "Treasury, IRS Launch New Withholding Calculator | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/exploring-title-insurance-consumer-protection-and-opportunities-for-potential-reforms",
+    "hugo_title": "Exploring Title Insurance, Consumer Protection, and Opportunities for Potential Reforms | U.S. Department of the Treasury",
+    "drupal_title": "Exploring Title Insurance, Consumer Protection, and Opportunities for Potential Reforms | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/penny-production-cessation-faqs",
+    "hugo_title": "Penny Production Cessation FAQs | U.S. Department of the Treasury",
+    "drupal_title": "Penny Production Cessation FAQs | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-announces-irs-integrated-modernization-business-plan-promoting-cost-efficiency-improved-taxpayer-service-and-protection",
+    "hugo_title": "Treasury Announces IRS Integrated Modernization Business Plan Promoting Cost Efficiency, Improved Taxpayer Service and Protection | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Announces IRS Integrated Modernization Business Plan Promoting Cost Efficiency, Improved Taxpayer Service and Protection | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/the-us-economy-in-global-context",
+    "hugo_title": "The U.S. Economy in Global Context | U.S. Department of the Treasury",
+    "drupal_title": "The U.S. Economy in Global Context | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/the-low-income-communities-bonus-credit-program-our-approach-to-an-inclusive-clean-energy-economy",
+    "hugo_title": "The Low-Income Communities Bonus Credit Program: Our Approach to an Inclusive Clean Energy Economy | U.S. Department of the Treasury",
+    "drupal_title": "The Low-Income Communities Bonus Credit Program: Our Approach to an Inclusive Clean Energy Economy | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/icymi-in-2022-american-rescue-plan-funding-helped-states-communities-recover",
+    "hugo_title": "ICYMI: In 2022, American Rescue Plan Funding Helped States & Communities Recover | U.S. Department of the Treasury",
+    "drupal_title": "ICYMI: In 2022, American Rescue Plan Funding Helped States &amp; Communities Recover | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/news/featured-stories/treasury-announces-largest-north-korean-sanctions-package-targeting-56",
+    "hugo_title": "Treasury Announces Largest North Korean Sanctions Package Targeting 56 Shipping and Trading Companies and Vessels to Further Isolate Rogue Regime | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Announces Largest North Korean Sanctions Package Targeting 56 Shipping and Trading Companies and Vessels to Further Isolate Rogue Regime | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-takes-steps-to-harmonize-international-sanctions-efforts-against-venezuelan-officials",
+    "hugo_title": "Treasury Takes Steps to Harmonize International Sanctions Efforts Against Venezuelan Officials | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Takes Steps to Harmonize International Sanctions Efforts Against Venezuelan Officials | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/using-research-to-ensure-equitable-receipt-of-tax-credits",
+    "hugo_title": "Using Research to Ensure Equitable Receipt of Tax Credits | U.S. Department of the Treasury",
+    "drupal_title": "Using Research to Ensure Equitable Receipt of Tax Credits | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/new-treasury-report-finds-corporate-concentration-anti-competitive-practices-have-stifled-wages-for-workers-and-reduced-their-power-in-the-marketplace",
+    "hugo_title": "New Treasury Report Finds Corporate Concentration, Anti-competitive Practices Have Stifled Wages for Workers and Reduced their Power in the Marketplace | U.S. Department of the Treasury",
+    "drupal_title": "New Treasury Report Finds Corporate Concentration, Anti-competitive Practices Have Stifled Wages for Workers and Reduced their Power in the Marketplace | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-targets-oil-network-generating-hundreds-of-millions-of-dollars-for-irans-military",
+    "hugo_title": "Treasury Targets Oil Network Generating Hundreds of Millions of Dollars for Iran’s Military | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Targets Oil Network Generating Hundreds of Millions of Dollars for Iran’s Military | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/strengthening-global-sanctions-two-years-of-enhanced-partnership",
+    "hugo_title": "Strengthening Global Sanctions: Two Years of Enhanced Partnership | U.S. Department of the Treasury",
+    "drupal_title": "Strengthening Global Sanctions: Two Years of Enhanced Partnership | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-targets-wide-range-of-terrorists-and-their-supporters-using-enhanced-counterterrorism-sanctions-authorities-0",
+    "hugo_title": "Treasury Targets Wide Range of Terrorists and Their Supporters Using Enhanced Counterterrorism Sanctions Authorities | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Targets Wide Range of Terrorists and Their Supporters Using Enhanced Counterterrorism Sanctions Authorities | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-to-host-virtual-roundtable-on-state-and-local-efforts-to-address-climate-change",
+    "hugo_title": "Treasury to Host Virtual Roundtable on State and Local Efforts to Address Climate Change | U.S. Department of the Treasury",
+    "drupal_title": "Treasury to Host Virtual Roundtable on State and Local Efforts to Address Climate Change | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/heat-pumps-deliver-major-savings-for-american-families",
+    "hugo_title": "Heat Pumps Deliver Major Savings for American Families | U.S. Department of the Treasury",
+    "drupal_title": "Heat Pumps Deliver Major Savings for American Families | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/more-than-420000-households-received-emergency-rental-assistance-in-august-totaling-over-2.3-billion-in-payments",
+    "hugo_title": "FILE_NOT_FOUND",
+    "drupal_title": "More than 420,000 Households Received Emergency Rental Assistance in August, Totaling Over $2.3 Billion in Payments | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/news/featured-stories/white-house-press-briefing-by-treasury-secretary-steven-mnuchin-on-regulatory-issues-associated-with-cryptocurrency",
+    "hugo_title": "White House Press Briefing by Treasury Secretary Steven Mnuchin on Regulatory Issues Associated with Cryptocurrency | U.S. Department of the Treasury",
+    "drupal_title": "White House Press Briefing by Treasury Secretary Steven Mnuchin on Regulatory Issues Associated with Cryptocurrency | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/remarks-by-secretary-janet-l-yellen-on-anti-corruption-as-a-cornerstone-of-a-fair-accountable-and-democratic-economy-at-the-summit-for-democracy",
+    "hugo_title": "Remarks by Secretary Janet L. Yellen on Anti-Corruption as a Cornerstone of a Fair, Accountable, and Democratic Economy at the Summit for Democracy | U.S. Department of the Treasury",
+    "drupal_title": "Remarks by Secretary Janet L. Yellen on Anti-Corruption as a Cornerstone of a Fair, Accountable, and Democratic Economy at the Summit for Democracy | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/press-releases/jy2299",
+    "hugo_title": "Ten Ways Treasury’s Focus on Equity Helps All Americans | U.S. Department of the Treasury",
+    "drupal_title": "Ten Ways Treasury’s Focus on Equity Helps All Americans | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/combating-human-trafficking",
+    "hugo_title": "Combating Human Trafficking | U.S. Department of the Treasury",
+    "drupal_title": "Combating Human Trafficking | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-report-highlights-impact-of-american-rescue-plan-funding-on-tribal-governments",
+    "hugo_title": "Treasury Report Highlights Impact of American Rescue Plan Funding on Tribal Governments | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Report Highlights Impact of American Rescue Plan Funding on Tribal Governments | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-department-submits-housing-reform-plan-to-president",
+    "hugo_title": "Treasury Department Submits Housing Reform Plan to President | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Department Submits Housing Reform Plan to President | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-targets-iranian-backed-hizballah-officials-for-exploiting-lebanons-political-and-financial-system",
+    "hugo_title": "Treasury Targets Iranian-Backed Hizballah Officials for Exploiting Lebanon’s Political and Financial System | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Targets Iranian-Backed Hizballah Officials for Exploiting Lebanon’s Political and Financial System | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/us-department-of-the-treasury-irs-announce-direct-file-as-permanent-free-tax-filing-option-all-50-states-and-dc-invited-to-join-in-filing-season-2025",
+    "hugo_title": "U.S. Department of the Treasury, IRS Announce Direct File as Permanent Free Tax Filing Option, All 50 States and D.C. Invited to Join in Filing Season 2025 | U.S. Department of the Treasury",
+    "drupal_title": "U.S. Department of the Treasury, IRS Announce Direct File as Permanent Free Tax Filing Option, All 50 States and D.C. Invited to Join in Filing Season 2025 | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/swearing-in-of-deputy-secretary-wally-adeyemo",
+    "hugo_title": "Swearing In of Deputy Secretary Wally Adeyemo | U.S. Department of the Treasury",
+    "drupal_title": "Swearing In of Deputy Secretary Wally Adeyemo | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/American-rescue-plan-treasurys-progress-and-impact-after-six-months",
+    "hugo_title": "American Rescue Plan: Treasury’s Progress and Impact After Six Months | U.S. Department of the Treasury",
+    "drupal_title": "American Rescue Plan: Treasury’s Progress and Impact After Six Months | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/media-advisory-sanctions-related-travel-by-senior-treasury-department-officials",
+    "hugo_title": "Media Advisory: Sanctions-Related Travel by Senior Treasury Department Officials | U.S. Department of the Treasury",
+    "drupal_title": "Media Advisory: Sanctions-Related Travel by Senior Treasury Department Officials | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/statement-of-secretary-steven-t-mnuchin-department-of-the-treasury-before-the-committee-on-financial-services-united-states-house-of-representatives-october-22-2019",
+    "hugo_title": "Statement of Secretary Steven T. Mnuchin Department of the Treasury Before the Committee on Financial Services United States House of Representatives October 22, 2019 | U.S. Department of the Treasury",
+    "drupal_title": "Statement of Secretary Steven T. Mnuchin Department of the Treasury Before the Committee on Financial Services United States House of Representatives October 22, 2019 | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/press-releases/jy2544",
+    "hugo_title": "Modernizing Treasury’s Office of Foreign Assets Control | U.S. Department of the Treasury",
+    "drupal_title": "Modernizing Treasury’s Office of Foreign Assets Control | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/statement-by-secretary-of-the-treasury-janet-l-yellen-on-the-g7-price-cap-announcement",
+    "hugo_title": "Statement by Secretary of the Treasury Janet L. Yellen on the G7 Price Cap Announcement | U.S. Department of the Treasury",
+    "drupal_title": "Statement by Secretary of the Treasury Janet L. Yellen on the G7 Price Cap Announcement | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/tax-filing-season-begins-february-12-learn-more-tax-tips-and-ways-to-speed-your-refund",
+    "hugo_title": "Tax Filing Season Begins February 12; Learn More Tax Tips and Ways to Speed Your Refund | U.S. Department of the Treasury",
+    "drupal_title": "Tax Filing Season Begins February 12; Learn More Tax Tips and Ways to Speed Your Refund | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/the-inflation-reduction-acts-benefits-and-costs",
+    "hugo_title": "The Inflation Reduction Act’s Benefits and Costs | U.S. Department of the Treasury",
+    "drupal_title": "The Inflation Reduction Act’s Benefits and Costs | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-department-begins-sending-economic-impact-payments-from-the-american-rescue-plan-to-americans",
+    "hugo_title": "Treasury Department Begins Sending Economic Impact Payments from the American Rescue Plan to Americans | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Department Begins Sending Economic Impact Payments from the American Rescue Plan to Americans | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/ira-and-150-comeback-communities",
+    "hugo_title": "IRA and 150 Comeback Communities | U.S. Department of the Treasury",
+    "drupal_title": "IRA and 150 Comeback Communities | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-employees-receive-service-to-america-medal",
+    "hugo_title": "Treasury Employees Receive Service to America Medal | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Employees Receive Service to America Medal | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/under-secretary-mandelker-remarks-at-the-19th-annual-international-conference-on-counterterrorism-0",
+    "hugo_title": "Under Secretary Mandelker Remarks at the 19th Annual International Conference on Counterterrorism | U.S. Department of the Treasury",
+    "drupal_title": "Under Secretary Mandelker Remarks at the 19th Annual International Conference on Counterterrorism | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/save-the-date-us-eu-trade-and-technology-council-2022-outreach-to-stakeholders-on-investment-screening",
+    "hugo_title": "SAVE THE DATE: U.S.-EU Trade and Technology Council – 2022 Outreach to Stakeholders on Investment Screening | U.S. Department of the Treasury",
+    "drupal_title": "SAVE THE DATE: U.S.-EU Trade and Technology Council – 2022 Outreach to Stakeholders on Investment Screening | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/the-irs-doesnt-have-what-they-need-to-serve-americans-well-congress-can-help",
+    "hugo_title": "The IRS doesn’t have what they need to serve Americans well—Congress can help | U.S. Department of the Treasury",
+    "drupal_title": "The IRS doesn’t have what they need to serve Americans well—Congress can help | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-joins-administration-call-to-action-to-alert-americans-to-emergency-rental-assistance-and-promote-cfpb-rental-assistance-finder",
+    "hugo_title": "Treasury Joins Administration Call to Action to Alert Americans to Emergency Rental Assistance and Promote CFPB “Rental Assistance Finder” | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Joins Administration Call to Action to Alert Americans to Emergency Rental Assistance and Promote CFPB “Rental Assistance Finder” | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/on-anti-corruption-day-a-look-at-treasury-efforts-to-counter-corruption",
+    "hugo_title": "On Anti-Corruption Day, A Look at Treasury Efforts to Counter Corruption | U.S. Department of the Treasury",
+    "drupal_title": "On Anti-Corruption Day, A Look at Treasury Efforts to Counter Corruption | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/secretary-steven-t-mnuchins-first-1000-days-in-office",
+    "hugo_title": "Secretary Steven T. Mnuchin’s First 1,000 Days in Office | U.S. Department of the Treasury",
+    "drupal_title": "Secretary Steven T. Mnuchin’s First 1,000 Days in Office | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/remarks-by-secretary-of-the-treasury-janet-l-yellen-at-the-national-association-for-business-economics-39th-annual-economic-policy-conference",
+    "hugo_title": "Remarks by Secretary of the Treasury Janet L. Yellen at the National Association for Business Economics 39th Annual Economic Policy Conference | U.S. Department of the Treasury",
+    "drupal_title": "Remarks by Secretary of the Treasury Janet L. Yellen at the National Association for Business Economics 39th Annual Economic Policy Conference | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/racial-differences-in-economic-security-housing",
+    "hugo_title": "Racial Differences in Economic Security: Housing | U.S. Department of the Treasury",
+    "drupal_title": "Racial Differences in Economic Security: Housing | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/american-rescue-plan-centering-equity-in-policymaking",
+    "hugo_title": "American Rescue Plan: Centering Equity in Policymaking | U.S. Department of the Treasury",
+    "drupal_title": "American Rescue Plan: Centering Equity in Policymaking | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-commemorates-6-month-anniversary-of-historic-tax-cuts-passage",
+    "hugo_title": "Treasury Commemorates 6 Month Anniversary of Historic Tax Cuts Passage | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Commemorates 6 Month Anniversary of Historic Tax Cuts Passage | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/New Withholding Guidelines Under The Tax Cuts and Jobs Act Will Increase Take Home Pay",
+    "hugo_title": "New Withholding Guidelines Under The Tax Cuts and Jobs Act Will Increase Take Home Pay | U.S. Department of the Treasury",
+    "drupal_title": "FETCH_ERROR",
+    "title_match": false
+  },
+  {
+    "url": "/news/featured-stories/treasury-designates-russian-oligarchs-officials-and-entities-in-response-to-worldwide-malign-activity",
+    "hugo_title": "Treasury Designates Russian Oligarchs, Officials, and Entities in Response to Worldwide Malign Activity | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Designates Russian Oligarchs, Officials, and Entities in Response to Worldwide Malign Activity | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-designates-supreme-leader-of-irans-inner-circle-responsible-for-advancing-regimes-domestic-and-foreign-oppression",
+    "hugo_title": "Treasury Designates Supreme Leader of Iran’s Inner Circle Responsible for Advancing Regime’s Domestic and Foreign Oppression | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Designates Supreme Leader of Iran’s Inner Circle Responsible for Advancing Regime’s Domestic and Foreign Oppression | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/at-low-income-housing-forum-deputy-secretary-adeyemo-announces-nearly-108-million-emergency-rental-assistance-program-payments-to-families-at-risk-of-eviction",
+    "hugo_title": "At Low Income Housing Forum, Deputy Secretary Adeyemo Announces Nearly 10.8 Million Emergency Rental Assistance Program Payments to Families at Risk of Eviction | U.S. Department of the Treasury",
+    "drupal_title": "At Low Income Housing Forum, Deputy Secretary Adeyemo Announces Nearly 10.8 Million Emergency Rental Assistance Program Payments to Families at Risk of Eviction | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-proposes-repeal-of-nearly-300-outdated-tax-regulations",
+    "hugo_title": "Treasury Proposes Repeal of Nearly 300 Outdated Tax Regulations | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Proposes Repeal of Nearly 300 Outdated Tax Regulations | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/the-tax-cuts-and-jobs-act-is-delivering-results-for-the-american-people",
+    "hugo_title": "The Tax Cuts and Jobs Act Is Delivering Results for the American People | U.S. Department of the Treasury",
+    "drupal_title": "The Tax Cuts and Jobs Act Is Delivering Results for the American People | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/labor-unions-and-the-us-economy",
+    "hugo_title": "Labor Unions and the U.S. Economy | U.S. Department of the Treasury",
+    "drupal_title": "Labor Unions and the U.S. Economy | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/scott-bessent-sworn-in-as-79th-secretary-of-the-department-of-treasury",
+    "hugo_title": "Scott Bessent sworn in as 79th Secretary of the Department of Treasury | U.S. Department of the Treasury",
+    "drupal_title": "Scott Bessent sworn in as 79th Secretary of the Department of Treasury | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/explore-the-history-of-the-us-department-of-the-treasury",
+    "hugo_title": "Explore the History of the U.S Department of the Treasury | U.S. Department of the Treasury",
+    "drupal_title": "Explore the History of the U.S Department of the Treasury | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/understanding-the-child-tax-credit",
+    "hugo_title": "Understanding the Child Tax Credit | U.S. Department of the Treasury",
+    "drupal_title": null,
+    "title_match": false
+  },
+  {
+    "url": "/news/featured-stories/ofacs-introduction-to-ofac-web-series",
+    "hugo_title": "OFAC’s “Introduction to OFAC” Web Series | U.S. Department of the Treasury",
+    "drupal_title": "OFAC’s “Introduction to OFAC” Web Series | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/racial-inequality-in-the-united-states",
+    "hugo_title": "Racial Inequality in the United States | U.S. Department of the Treasury",
+    "drupal_title": "Racial Inequality in the United States | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/remarks-by-treasury-secretary-steven-t-mnuchin-at-the-ronald-reagan",
+    "hugo_title": "Remarks by Treasury Secretary Steven T. Mnuchin at the Ronald Reagan Presidential Library | U.S. Department of the Treasury",
+    "drupal_title": "Remarks by Treasury Secretary Steven T. Mnuchin at the Ronald Reagan Presidential Library | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/an-update-to-the-purchasing-power-of-american-households",
+    "hugo_title": "An Update to “The Purchasing Power of American Households” | U.S. Department of the Treasury",
+    "drupal_title": "An Update to “The Purchasing Power of American Households” | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/progress-towards-an-evaluation-of-economic-impact-payment-receipt-by-race-and-ethnicity",
+    "hugo_title": "Progress Towards an Evaluation of Economic Impact Payment Receipt by Race and Ethnicity | U.S. Department of the Treasury",
+    "drupal_title": "Progress Towards an Evaluation of Economic Impact Payment Receipt by Race and Ethnicity | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/irs-simple-notices-are-saving-americans-time-and-improving-accessibility",
+    "hugo_title": "IRS Simple Notices are saving Americans time and improving accessibility | U.S. Department of the Treasury",
+    "drupal_title": "IRS Simple Notices are saving Americans time and improving accessibility | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/your-money-and-coronavirus-resources-for-financial-relief",
+    "hugo_title": "Your Money and Coronavirus: Resources for Financial Relief | U.S. Department of the Treasury",
+    "drupal_title": "Your Money and Coronavirus: Resources for Financial Relief | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/preliminary-estimates-show-build-back-better-legislation-will-reduce-deficits",
+    "hugo_title": "Preliminary Estimates Show Build Back Better Legislation Will Reduce Deficits | U.S. Department of the Treasury",
+    "drupal_title": "Preliminary Estimates Show Build Back Better Legislation Will Reduce Deficits | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/remarks-by-secretary-of-the-treasury-janet-l-yellen-on-the-biden-harris-administrations-economic-agenda-in-ohio",
+    "hugo_title": "Remarks by Secretary of the Treasury Janet L. Yellen on the Biden-Harris Administration’s Economic Agenda in Ohio | U.S. Department of the Treasury",
+    "drupal_title": "Remarks by Secretary of the Treasury Janet L. Yellen on the Biden-Harris Administration’s Economic Agenda in Ohio | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/phase-two-of-the-price-cap-on-russian-oil-two-years-after-putins-invasion",
+    "hugo_title": "Phase Two of the Price Cap on Russian Oil: Two Years After Putin’s Invasion | U.S. Department of the Treasury",
+    "drupal_title": "Phase Two of the Price Cap on Russian Oil: Two Years After Putin’s Invasion | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-designates-key-nodes-of-isiss-financial-network-stretching-across-the-middle-east-europe-and-east-africa",
+    "hugo_title": "Treasury Designates Key Nodes of ISIS’s Financial Network Stretching Across the Middle East, Europe, and East Africa | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Designates Key Nodes of ISIS’s Financial Network Stretching Across the Middle East, Europe, and East Africa | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasurys-housing-agenda",
+    "hugo_title": "Treasury’s Housing Agenda | U.S. Department of the Treasury",
+    "drupal_title": "Treasury’s Housing Agenda | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/sanctions-and-russias-war-limiting-putins-capabilities",
+    "hugo_title": "Sanctions and Russia’s War: Limiting Putin’s Capabilities | U.S. Department of the Treasury",
+    "drupal_title": "Sanctions and Russia’s War: Limiting Putin’s Capabilities | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/press-releases/Treasury-and-IRS-Announce-Families-of-Nearly-60-Million-Children-Receive-$15-Billion-Dollars-in-First-Payments-of-Expanded-and-Newly-Advanceable-Child-Tax-Credit",
+    "hugo_title": "Treasury and IRS Announce Families of Nearly 60 Million Children Receive $15 Billion in First Payments of Expanded and Newly Advanceable Child Tax Credit | U.S. Department of the Treasury",
+    "drupal_title": "Page Not Found | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/news/featured-stories/project-labor-agreements-a-best-practice-for-clean-energy-projects-seeking-to-meet-ira-wage-and-apprenticeship-standards",
+    "hugo_title": "Project Labor Agreements: A Best Practice for Clean Energy Projects Seeking to Meet IRA Wage and Apprenticeship Standards | U.S. Department of the Treasury",
+    "drupal_title": "Project Labor Agreements: A Best Practice for Clean Energy Projects Seeking to Meet IRA Wage and Apprenticeship Standards | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-and-the-terrorist-financing-targeting-center-partners-sanction",
+    "hugo_title": "Treasury and the Terrorist Financing Targeting Center Partners Sanction Taliban Facilitators and their Iranian Supporters | U.S. Department of the Treasury",
+    "drupal_title": "Treasury and the Terrorist Financing Targeting Center Partners Sanction Taliban Facilitators and their Iranian Supporters | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/us-business-investment-in-the-post-covid-expansion",
+    "hugo_title": "U.S. Business Investment in the Post-COVID Expansion | U.S. Department of the Treasury",
+    "drupal_title": "U.S. Business Investment in the Post-COVID Expansion | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/update-on-treasurys-approach-to-equitable-community-finance",
+    "hugo_title": "Update on Treasury’s Approach to Equitable Community Finance | U.S. Department of the Treasury",
+    "drupal_title": "Update on Treasury’s Approach to Equitable Community Finance | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-irs-release-plan-to-deliver-improved-service-for-americans-reduce-deficit-by-hundreds-of-billions",
+    "hugo_title": "Treasury, IRS Release Plan to Deliver Improved Service for Americans, Reduce Deficit by Hundreds of Billions | U.S. Department of the Treasury",
+    "drupal_title": "Treasury, IRS Release Plan to Deliver Improved Service for Americans, Reduce Deficit by Hundreds of Billions | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/the-price-impact-of-the-strategic-petroleum-reserve-release",
+    "hugo_title": "The Price Impact of the Strategic Petroleum Reserve Release | U.S. Department of the Treasury",
+    "drupal_title": "The Price Impact of the Strategic Petroleum Reserve Release | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/treasury-announces-five-additional-capital-projects-fund-awards-to-increase-access-to-affordable-high-speed-internet",
+    "hugo_title": "Treasury Announces Five Additional Capital Projects Fund Awards to Increase Access to Affordable, High-Speed Internet | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Announces Five Additional Capital Projects Fund Awards to Increase Access to Affordable, High-Speed Internet | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/news/featured-stories/anchoring-clean-energy-manufacturing-investments-in-coal-country-and-beyond",
+    "hugo_title": "Anchoring Clean Energy Manufacturing Investments in Coal Country and Beyond | U.S. Department of the Treasury",
+    "drupal_title": "Anchoring Clean Energy Manufacturing Investments in Coal Country and Beyond | U.S. Department of the Treasury",
+    "title_match": true
+  }
+]

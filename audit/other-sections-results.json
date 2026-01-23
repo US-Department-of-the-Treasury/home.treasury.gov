@@ -1,0 +1,758 @@
+[
+  {
+    "url": "/footer/privacy-policy/",
+    "hugo_title": "Privacy Policy | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/footer/faqs/",
+    "hugo_title": "Frequently Asked Questions | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/footer/freedom-of-information-act/",
+    "hugo_title": "Freedom of Information Act (FOIA) | U.S. Department of the Treasury",
+    "drupal_title": "Freedom of Information Act | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/footer/no-fear-act/",
+    "hugo_title": "No FEAR Act Data | U.S. Department of the Treasury",
+    "drupal_title": "No Fear Act (as amended) | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/footer/privacy-act/",
+    "hugo_title": "Privacy Act | U.S. Department of the Treasury",
+    "drupal_title": "Privacy Act | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/footer/site-policies/",
+    "hugo_title": "Site Policies and Notices | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/footer/google-privacy/",
+    "hugo_title": "Google Privacy | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci/",
+    "hugo_title": "State Small Business Credit Initiative (SSBCI) | U.S. Department of the Treasury",
+    "drupal_title": "State Small Business Credit Initiative (SSBCI) | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/small-business-programs/cdfi-fund",
+    "hugo_title": "CDFI Fund | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization-0/",
+    "hugo_title": "Small and Disadvantaged Business Utilization | U.S. Department of the Treasury",
+    "drupal_title": "Small and Disadvantaged Business Utilization | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/small-business-programs/small-business-lending-fund/",
+    "hugo_title": "Small Business Lending Fund | U.S. Department of the Treasury",
+    "drupal_title": "Small Business Lending Fund | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization/",
+    "hugo_title": "Small and Disadvantaged Business Utilization | U.S. Department of the Treasury",
+    "drupal_title": "Small and Disadvantaged Business Utilization | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/terrorism-and-illicit-finance/sanctions",
+    "hugo_title": "Sanctions Programs | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/terrorism-and-illicit-finance/financial-action-task-force/",
+    "hugo_title": "Financial Action Task Force (FATF) | U.S. Department of the Treasury",
+    "drupal_title": "Financial Action Task Force | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/terrorism-and-illicit-finance/money-laundering/",
+    "hugo_title": "Money Laundering | U.S. Department of the Treasury",
+    "drupal_title": "Money Laundering | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/terrorism-and-illicit-finance/protecting-charitable-organizations/",
+    "hugo_title": "Protecting Charitable Organizations | U.S. Department of the Treasury",
+    "drupal_title": "Protecting Charitable Organizations | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp/",
+    "hugo_title": "Terrorist Finance Tracking Program (TFTP) | U.S. Department of the Treasury",
+    "drupal_title": "Terrorist Finance Tracking Program (TFTP) | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/terrorism-and-illicit-finance/treasury-executive-office-for-asset-forfeiture-teoaf/",
+    "hugo_title": "Treasury Executive Office for Asset Forfeiture (TEOAF) | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Executive Office for Asset Forfeiture (TEOAF) | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/terrorism-and-illicit-finance/311-actions/",
+    "hugo_title": "311 Actions | U.S. Department of the Treasury",
+    "drupal_title": "311 Actions | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financing-the-government/quarterly-refunding/quarterly-refunding-archives/",
+    "hugo_title": "Quarterly Refunding Archives | U.S. Department of the Treasury",
+    "drupal_title": "Quarterly Refunding Archives | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents/",
+    "hugo_title": "Most Recent Quarterly Refunding Documents | U.S. Department of the Treasury",
+    "drupal_title": "Most Recent Quarterly Refunding Documents | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financing-the-government/treasury-investor-data/",
+    "hugo_title": "Treasury Investor Data | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Investor Data | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financing-the-government/debt-management",
+    "hugo_title": "Debt Management | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/financing-the-government/interest-rate-statistics/",
+    "hugo_title": "Interest Rate Statistics | U.S. Department of the Treasury",
+    "drupal_title": "Interest Rate Statistics | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financing-the-government/debt-management-research/",
+    "hugo_title": "Debt Management Research | U.S. Department of the Treasury",
+    "drupal_title": "Debt Management Research | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financing-the-government/quarterly-refunding/",
+    "hugo_title": "Quarterly Refunding | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Quarterly Refunding | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/tribal-affairs",
+    "hugo_title": "Tribal Affairs | U.S. Department of the Treasury",
+    "drupal_title": "Tribal Affairs | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/climate-change",
+    "hugo_title": "Climate Change | U.S. Department of the Treasury",
+    "drupal_title": "Climate Change | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/coronavirus/assistance-for-American-families-and-workers/",
+    "hugo_title": "Assistance for American Families and Workers | U.S. Department of the Treasury",
+    "drupal_title": "Assistance for American Families and Workers | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/",
+    "hugo_title": "Assistance for State, Local, and Tribal Governments | U.S. Department of the Treasury",
+    "drupal_title": "Assistance for State, Local, and Tribal Governments | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/coronavirus/assistance-for-small-businesses/",
+    "hugo_title": "Assistance for Small Businesses | U.S. Department of the Treasury",
+    "drupal_title": "Assistance for Small Businesses | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/coronavirus/assistance-for-american-industry/",
+    "hugo_title": "Assistance for American Industry | U.S. Department of the Treasury",
+    "drupal_title": "Assistance for American Industry | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/economic-policy/total-taxable-resources/",
+    "hugo_title": "Total Taxable Resources | U.S. Department of the Treasury",
+    "drupal_title": "Total Taxable Resources | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/economic-policy/economic-policy-reports/",
+    "hugo_title": "Economic Policy Reports | U.S. Department of the Treasury",
+    "drupal_title": "Economic Policy Reports | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/economic-policy/social-security-and-medicare/",
+    "hugo_title": "Social Security and Medicare | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/tax-policy/overview",
+    "hugo_title": "Tax Policy Overview | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/tax-policy/tax-regulatory-process/",
+    "hugo_title": "Tax Regulatory Process | U.S. Department of the Treasury",
+    "drupal_title": "Tax Regulatory Process | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/tax-policy/tax-expenditures/",
+    "hugo_title": "Tax Expenditures | U.S. Department of the Treasury",
+    "drupal_title": "Tax Expenditures | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/tax-policy/tax-policy-overview/",
+    "hugo_title": "Tax Policy Overview | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/tax-policy/revenue-proposals/",
+    "hugo_title": "Revenue Proposals | U.S. Department of the Treasury",
+    "drupal_title": "Revenue Proposals | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/tax-policy/foreign-account-tax-compliance-act/",
+    "hugo_title": "Foreign Account Tax Compliance Act (FATCA) | U.S. Department of the Treasury",
+    "drupal_title": "Foreign Account Tax Compliance Act | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/tax-policy/international-tax/",
+    "hugo_title": "International Tax | U.S. Department of the Treasury",
+    "drupal_title": "International Tax | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/tax-policy/treaties/",
+    "hugo_title": "Tax Treaties and Related Documents | U.S. Department of the Treasury",
+    "drupal_title": "Treaties | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/consumer-policy/innovations-in-financial-services/",
+    "hugo_title": "Innovations in Financial Services | U.S. Department of the Treasury",
+    "drupal_title": "Innovations in Financial Services | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/consumer-policy/financial-literacy-and-education-commission/",
+    "hugo_title": "Financial Literacy and Education Commission | U.S. Department of the Treasury",
+    "drupal_title": "Financial Literacy and Education Commission | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/consumer-policy/featured-research/",
+    "hugo_title": "Featured Research | U.S. Department of the Treasury",
+    "drupal_title": "Featured Research | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc/",
+    "hugo_title": "Financial Stability Oversight Council (FSOC) | U.S. Department of the Treasury",
+    "drupal_title": "Financial Stability Oversight Council | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/pay-for-results-sippra/",
+    "hugo_title": "Pay for Results (SIPPRA) | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/federal-insurance-office/",
+    "hugo_title": "Federal Insurance Office | U.S. Department of the Treasury",
+    "drupal_title": "Federal Insurance Office | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit/",
+    "hugo_title": "Debt Limit | U.S. Department of the Treasury",
+    "drupal_title": "Debt Limit | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act/",
+    "hugo_title": "RESTORE Act | U.S. Department of the Treasury",
+    "drupal_title": "RESTORE Act | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/cash-and-debt-forecasting/",
+    "hugo_title": "Cash and Debt Forecasting | U.S. Department of the Treasury",
+    "drupal_title": "Cash and Debt Forecasting | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/1603-program-payments-for-specified-energy-property-in-lieu-of-tax-credits/",
+    "hugo_title": "1603 Program - Payments for Specified Energy Property in Lieu of Tax Credits | U.S. Department of the Treasury",
+    "drupal_title": "1603 Program: Payments for Specified Energy Property in Lieu of Tax Credits | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/policy-issues/financial-markets-financial-institutions-and-fiscal-service/",
+    "hugo_title": "Financial Markets, Financial Institutions, and Fiscal Service | U.S. Department of the Treasury",
+    "drupal_title": "Financial Markets, Financial Institutions, and Fiscal Service | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/international/exchange-rate-analysis/",
+    "hugo_title": "Exchange Rate Analysis | U.S. Department of the Treasury",
+    "drupal_title": "Exchange Rate Analysis | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/international/multilateral-development-banks/",
+    "hugo_title": "Multilateral Development Banks | U.S. Department of the Treasury",
+    "drupal_title": "Multilateral Development Banks | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/international/outbound-investment-program/",
+    "hugo_title": "Outbound Investment Security Program | U.S. Department of the Treasury",
+    "drupal_title": "Outbound Investment Security Program | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/international/exchange-stabilization-fund/",
+    "hugo_title": "Exchange Stabilization Fund | U.S. Department of the Treasury",
+    "drupal_title": "Exchange Stabilization Fund | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius/",
+    "hugo_title": "The Committee on Foreign Investment in the United States (CFIUS) | U.S. Department of the Treasury",
+    "drupal_title": "The Committee on Foreign Investment in the United States (CFIUS) | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/international/g-7-and-g-20/",
+    "hugo_title": "G-7 and G-20 | U.S. Department of the Treasury",
+    "drupal_title": "G-7 and G-20 | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/international/international-monetary-fund/",
+    "hugo_title": "International Monetary Fund | U.S. Department of the Treasury",
+    "drupal_title": "International Monetary Fund | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/policy-issues/international/macroeconomic-and-foreign-exchange-policies-of-major-trading-partners/",
+    "hugo_title": "Macroeconomic and Foreign Exchange Policies of Major Trading Partners | U.S. Department of the Treasury",
+    "drupal_title": "Macroeconomic and Foreign Exchange Policies of Major Trading Partners of the United States | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/budget-financial-reporting-planning-and-performance/budget-requestannual-performance-plan-and/",
+    "hugo_title": "Budget Request/Annual Performance Plan and Reports | U.S. Department of the Treasury",
+    "drupal_title": "Budget Request/Annual Performance Plan and Reports | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/budget-financial-reporting-planning-and-performance/strategic-plan",
+    "hugo_title": "Strategic Plan | U.S. Department of the Treasury",
+    "drupal_title": "Strategic Plan | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/budget-financial-reporting-planning-and-performance/inspector-general-audits-and-investigative-reports/",
+    "hugo_title": "Inspector General Audits and Investigative Reports | U.S. Department of the Treasury",
+    "drupal_title": "Inspector General Audits and Investigative Reports | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/budget-financial-reporting-planning-and-performance/irs-strategic-operating-plan/",
+    "hugo_title": "IRS Strategic Operating Plan | U.S. Department of the Treasury",
+    "drupal_title": "IRS Strategic Operating Plan | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/budget-financial-reporting-planning-and-performance/agency-financial-report/",
+    "hugo_title": "Agency Financial Report | U.S. Department of the Treasury",
+    "drupal_title": "Agency Financial Report | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/general-information/organizational-chart",
+    "hugo_title": "Organizational Chart | U.S. Department of the Treasury",
+    "drupal_title": "Organizational Chart | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/general-information/role-of-the-treasury",
+    "hugo_title": "Role of the Treasury | U.S. Department of the Treasury",
+    "drupal_title": "Role of the Treasury | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/general-information/orders-and-directives/",
+    "hugo_title": "Orders and Directives | U.S. Department of the Treasury",
+    "drupal_title": "Orders and Directives | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/general-information/officials",
+    "hugo_title": "Officials | U.S. Department of the Treasury",
+    "drupal_title": "Officials | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/offices/international-affairs",
+    "hugo_title": "International Affairs | U.S. Department of the Treasury",
+    "drupal_title": "International Affairs | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/offices/management/",
+    "hugo_title": "Office of Management | U.S. Department of the Treasury",
+    "drupal_title": "Management | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/offices/public-affairs/",
+    "hugo_title": "Office of Public Affairs | U.S. Department of the Treasury",
+    "drupal_title": "Public Affairs | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/offices/domestic-finance",
+    "hugo_title": "Domestic Finance | U.S. Department of the Treasury",
+    "drupal_title": "Domestic Finance | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/offices/management/office-of-the-chief-data-officer/",
+    "hugo_title": "Office of the Chief Data Officer | U.S. Department of the Treasury",
+    "drupal_title": "Office of the Chief Data Officer | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/offices/terrorism-and-financial-intelligence",
+    "hugo_title": "Terrorism and Financial Intelligence | U.S. Department of the Treasury",
+    "drupal_title": "Terrorism and Financial Intelligence | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/offices/economic-policy",
+    "hugo_title": "Economic Policy | U.S. Department of the Treasury",
+    "drupal_title": "Economic Policy | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/offices/general-counsel/",
+    "hugo_title": "Office of the General Counsel | U.S. Department of the Treasury",
+    "drupal_title": "General Counsel | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/offices/tax-policy/",
+    "hugo_title": "Office of Tax Policy | U.S. Department of the Treasury",
+    "drupal_title": "Tax Policy | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/history/history-overview",
+    "hugo_title": "History Overview | U.S. Department of the Treasury",
+    "drupal_title": "History Overview | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/history/collection/",
+    "hugo_title": "Treasury Collection | U.S. Department of the Treasury",
+    "drupal_title": "Collection | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/history/curator/",
+    "hugo_title": "Treasury Curator | U.S. Department of the Treasury",
+    "drupal_title": "Curator | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/history/the-treasury-building/",
+    "hugo_title": "The Treasury Building | U.S. Department of the Treasury",
+    "drupal_title": "The Treasury Building | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/history/freedmans-bank-building/",
+    "hugo_title": "Freedman's Bank Building | U.S. Department of the Treasury",
+    "drupal_title": "Freedman&#039;s Bank Building | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/history/treasurers-of-the-united-states/",
+    "hugo_title": "Treasurers of the United States | U.S. Department of the Treasury",
+    "drupal_title": "Treasurers of the United States | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/history/prior-secretaries",
+    "hugo_title": "Prior Secretaries | U.S. Department of the Treasury",
+    "drupal_title": "Prior Secretaries | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/careers-at-treasury/top-ten-reasons-to-work-for-treasury/",
+    "hugo_title": "Top 10 Reasons to Work for Treasury | U.S. Department of the Treasury",
+    "drupal_title": "Top Ten Reasons to Work for Treasury | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/careers-at-treasury/careers-at-our-bureaus/",
+    "hugo_title": "Careers at Our Bureaus | U.S. Department of the Treasury",
+    "drupal_title": "Careers at our Bureaus | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/careers-at-treasury/studentinternship-programs/pathways-programs/",
+    "hugo_title": "Pathways Programs | U.S. Department of the Treasury",
+    "drupal_title": "Pathways Programs | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/careers-at-treasury/veterans-employment/",
+    "hugo_title": "Veterans Employment | U.S. Department of the Treasury",
+    "drupal_title": "Veterans Employment | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/careers-at-treasury/workforce/",
+    "hugo_title": "Treasury Workforce | U.S. Department of the Treasury",
+    "drupal_title": "Workforce | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/about/careers-at-treasury/the-fair-chance-to-compete-act/",
+    "hugo_title": "The Fair Chance to Compete Act | U.S. Department of the Treasury",
+    "drupal_title": "The Fair Chance to Compete Act | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/careers-at-treasury/careers-at-headquarters",
+    "hugo_title": "Careers at Headquarters | U.S. Department of the Treasury",
+    "drupal_title": "Careers at Headquarters | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/careers-at-treasury/benefits-and-growth/",
+    "hugo_title": "Benefits and Growth | U.S. Department of the Treasury",
+    "drupal_title": "Benefits and Growth | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/about/careers-at-treasury/how-to-apply/",
+    "hugo_title": "How to Apply | U.S. Department of the Treasury",
+    "drupal_title": "How to Apply | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/year-in-review/",
+    "hugo_title": "Year in Review | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/resource-center/data-chart-center",
+    "hugo_title": "Data Chart Center | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/working-families-tax-cuts/",
+    "hugo_title": "Working Families Tax Cuts | U.S. Department of the Treasury",
+    "drupal_title": "HTTP_404",
+    "title_match": false
+  },
+  {
+    "url": "/data/treasury-open-data",
+    "hugo_title": "Treasury Open Data | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Open Data | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/data/troubled-assets-relief-program/",
+    "hugo_title": "Troubled Assets Relief Program (TARP) | U.S. Department of the Treasury",
+    "drupal_title": "Troubled Asset Relief Program (TARP) | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/data/investor-class-auction-allotments/",
+    "hugo_title": "Investor Class Auction Allotments | U.S. Department of the Treasury",
+    "drupal_title": "Investor Class Auction Allotments | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/data/treasury-international-capital-tic-system-home-page/release-dates-of-tic-data-0/",
+    "hugo_title": "Release Dates of TIC Data | U.S. Department of the Treasury",
+    "drupal_title": "Release Dates of TIC Data | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/data/treasury-international-capital-tic-system-home-page/tic-forms-instructions/",
+    "hugo_title": "TIC Forms and Instructions | U.S. Department of the Treasury",
+    "drupal_title": "TIC Forms &amp; Instructions | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/data/other-programs/",
+    "hugo_title": "Other Programs | U.S. Department of the Treasury",
+    "drupal_title": "Other Programs | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/data/treasury-international-capital-tic-system",
+    "hugo_title": "Treasury International Capital (TIC) System | U.S. Department of the Treasury",
+    "drupal_title": "Treasury International Capital (TIC) System | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curves/",
+    "hugo_title": "Treasury Coupon Issues and Corporate Bond Yield Curves | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Coupon Issues and Corporate Bond Yield Curves | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/data/treasury-coupon-issues-and-corporate-bond-yield-curve/corporate-bond-yield-curve/",
+    "hugo_title": "Corporate Bond Yield Curve | U.S. Department of the Treasury",
+    "drupal_title": "Corporate Bond Yield Curve Papers and Data | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/data/troubled-assets-relief-program/housing/",
+    "hugo_title": "TARP Housing Programs | U.S. Department of the Treasury",
+    "drupal_title": "Housing | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/data/tic-press-releases-by-topic/",
+    "hugo_title": "TIC Press Releases by Topic | U.S. Department of the Treasury",
+    "drupal_title": "TIC Press Releases -- by topic | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/data/us-international-reserve-position",
+    "hugo_title": "U.S. International Reserve Position | U.S. Department of the Treasury",
+    "drupal_title": "U.S. International Reserve Position | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/tours-and-library",
+    "hugo_title": "Tours and Library | U.S. Department of the Treasury",
+    "drupal_title": "Tours and Library | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/taxes",
+    "hugo_title": "Taxes | U.S. Department of the Treasury",
+    "drupal_title": "Taxes | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/forms",
+    "hugo_title": "Forms | U.S. Department of the Treasury",
+    "drupal_title": "Forms | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/report-fraud-waste-and-abuse",
+    "hugo_title": "Report Fraud, Waste, and Abuse | U.S. Department of the Treasury",
+    "drupal_title": "Report Fraud Waste and Abuse | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/services/the-multiemployer-pension-reform-act-of-2014/applications-for-benefit-suspension/",
+    "hugo_title": "Applications for Benefit Suspension | U.S. Department of the Treasury",
+    "drupal_title": "Applications for Benefit Suspension | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/the-multiemployer-pension-reform-act-of-2014/frequently-asked-questions-about-the-kline-miller-multiemployer-pension-reform-act/",
+    "hugo_title": "Frequently Asked Questions About the Kline-Miller Multiemployer Pension Reform Act | U.S. Department of the Treasury",
+    "drupal_title": "Frequently Asked Questions about the Kline-Miller Multiemployer Pension Reform Act | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/services/currency-and-coins",
+    "hugo_title": "Currency and Coins | U.S. Department of the Treasury",
+    "drupal_title": "Currency and Coins | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/government-shared-services",
+    "hugo_title": "Government Shared Services | U.S. Department of the Treasury",
+    "drupal_title": "Government Shared Services | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/treasury-payments",
+    "hugo_title": "Treasury Payments | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Payments | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/report-fraud-waste-and-abuse/report-scam-attempts/",
+    "hugo_title": "Report Scam Attempts | U.S. Department of the Treasury",
+    "drupal_title": "Report Scam Attempts | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/report-fraud-waste-and-abuse/inspectors-general/",
+    "hugo_title": "Inspectors General | U.S. Department of the Treasury",
+    "drupal_title": "Inspectors General | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/treasury-auctions/",
+    "hugo_title": "Treasury Auctions | U.S. Department of the Treasury",
+    "drupal_title": "Treasury Auctions | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/services/bonds-and-securities",
+    "hugo_title": "Bonds and Securities | U.S. Department of the Treasury",
+    "drupal_title": "Bonds and Securities | U.S. Department of the Treasury",
+    "title_match": true
+  },
+  {
+    "url": "/utility/contact/",
+    "hugo_title": "Contact Us | U.S. Department of the Treasury",
+    "drupal_title": "Contact | U.S. Department of the Treasury",
+    "title_match": false
+  },
+  {
+    "url": "/utility/accessibility/",
+    "hugo_title": "Accessibility | U.S. Department of the Treasury",
+    "drupal_title": "Accessibility | U.S. Department of the Treasury",
+    "title_match": true
+  }
+]
