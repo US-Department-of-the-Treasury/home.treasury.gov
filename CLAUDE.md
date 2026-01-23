@@ -4,6 +4,8 @@ Hugo-based static site for home.treasury.gov deployed to AWS S3/CloudFront.
 
 ## Git Workflow
 
+**NEVER force push to git.** Always create new commits to fix issues.
+
 **Default branch is `staging`** (not `main` or `master`)
 
 This project uses a **staging → master** branching strategy with automatic deployments:
