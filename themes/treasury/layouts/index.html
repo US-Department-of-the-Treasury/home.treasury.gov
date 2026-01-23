@@ -96,76 +96,100 @@
   </div>
 </section>
 
-{{/* Three Column News/Content Section */}}
-<section class="home-content-section">
+{{/* Recent Actions Section - Card-based unified news feed */}}
+<section class="recent-actions" aria-label="Recent Treasury actions">
   <div class="container">
-    <div class="home-three-col">
-      
-      {{/* Column 1: Featured Stories */}}
-      <div class="home-column">
-        <h2 class="column-heading">Featured Stories</h2>
-        <ul class="home-news-list">
-          {{ $featuredStories := (site.GetPage "news/featured-stories").Pages }}
-          {{ range first 5 $featuredStories.ByDate.Reverse }}
-          <li>
-            <a href="{{ .Permalink }}">{{ .Title | truncate 80 }}</a>
-          </li>
+    <h2 class="recent-actions__title">Recent Actions</h2>
+    <div class="recent-actions__grid">
+      {{/* Combine press releases and featured stories, sorted by date */}}
+      {{ $releases := (site.GetPage "news/press-releases").Pages }}
+      {{ $statements := (site.GetPage "news/statements-remarks").Pages }}
+      {{ $allNews := $releases | append $statements }}
+      {{ range first 8 $allNews.ByDate.Reverse }}
+      <article class="action-card">
+        <a href="{{ .Permalink }}" class="action-card__link">
+          {{/* Determine badge type based on content path or title */}}
+          {{ $badgeType := "policy" }}
+          {{ $badgeText := "POLICY" }}
+          {{ if in .File.Path "press-releases" }}
+            {{ if or (in (lower .Title) "sanction") (in (lower .Title) "ofac") (in (lower .Title) "designat") }}
+              {{ $badgeType = "sanction" }}
+              {{ $badgeText = "SANCTION" }}
+            {{ else if or (in (lower .Title) "remark") (in (lower .Title) "testimony") (in (lower .Title) "statement") }}
+              {{ $badgeType = "statement" }}
+              {{ $badgeText = "STATEMENT" }}
+            {{ end }}
+          {{ else if in .File.Path "statements-remarks" }}
+            {{ $badgeType = "statement" }}
+            {{ $badgeText = "STATEMENT" }}
           {{ end }}
-        </ul>
-        <a href="/news/featured-stories/" class="column-more">More Featured Stories →</a>
-      </div>
-
-      {{/* Column 2: Press Releases */}}
-      <div class="home-column">
-        <h2 class="column-heading">Press Releases</h2>
-        <ul class="home-news-list">
-          {{ $releases := (site.GetPage "news/press-releases").Pages }}
-          {{ range first 5 $releases.ByDate.Reverse }}
-          <li>
-            <a href="{{ .Permalink }}">{{ .Title | truncate 80 }}</a>
-          </li>
-          {{ end }}
-        </ul>
-        <a href="/news/press-releases/" class="column-more">More Press Releases →</a>
-      </div>
-
-      {{/* Column 3: Remarks & Statements */}}
-      <div class="home-column">
-        <h2 class="column-heading">Remarks & Statements</h2>
-        <ul class="home-news-list">
-          {{ $remarks := (site.GetPage "news/statements-remarks").Pages }}
-          {{ range first 5 $remarks.ByDate.Reverse }}
-          <li>
-            <a href="{{ .Permalink }}">{{ .Title | truncate 80 }}</a>
-          </li>
-          {{ end }}
-        </ul>
-        <a href="/news/statements-remarks/" class="column-more">More Remarks & Statements →</a>
-      </div>
-
+          <span class="action-card__badge action-card__badge--{{ $badgeType }}">{{ $badgeText }}</span>
+          <time class="action-card__date" datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+          <h3 class="action-card__title">{{ .Title | truncate 100 }}</h3>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+    <div class="recent-actions__footer">
+      <a href="/news/press-releases/" class="recent-actions__more">View All Actions →</a>
     </div>
   </div>
 </section>
 
-{{/* Quick Links / Data Section */}}
-<section class="home-quicklinks-section">
+{{/* Citizen Services Section - Quick access tools with icons */}}
+<section class="citizen-services" aria-label="Citizen services and tools">
   <div class="container">
-    <div class="quicklinks-grid">
-      <a href="https://ofac.treasury.gov/" class="quicklink-card" target="_blank" rel="noopener">
-        <span class="quicklink-title">OFAC Sanctions Search</span>
-        <span class="quicklink-desc">Search sanctions lists and compliance guidance</span>
+    <h2 class="citizen-services__title">Services & Tools</h2>
+    <div class="citizen-services__grid">
+      <a href="https://ofac.treasury.gov/" class="service-card" target="_blank" rel="noopener">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <span class="service-card__title">OFAC Sanctions Search</span>
+        <span class="service-card__desc">Search sanctions lists and compliance guidance</span>
       </a>
-      <a href="/policy-issues/financing-the-government/interest-rate-statistics/" class="quicklink-card">
-        <span class="quicklink-title">Interest Rate Statistics</span>
-        <span class="quicklink-desc">Current and historical interest rate data</span>
+      <a href="/policy-issues/financing-the-government/interest-rate-statistics/" class="service-card">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+          </svg>
+        </div>
+        <span class="service-card__title">Interest Rate Statistics</span>
+        <span class="service-card__desc">Current and historical interest rate data</span>
       </a>
-      <a href="https://www.treasurydirect.gov/" class="quicklink-card" target="_blank" rel="noopener">
-        <span class="quicklink-title">TreasuryDirect</span>
-        <span class="quicklink-desc">Buy Treasury securities directly</span>
+      <a href="https://www.treasurydirect.gov/" class="service-card" target="_blank" rel="noopener">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+          </svg>
+        </div>
+        <span class="service-card__title">TreasuryDirect</span>
+        <span class="service-card__desc">Buy Treasury securities directly</span>
       </a>
-      <a href="https://fiscaldata.treasury.gov/" class="quicklink-card" target="_blank" rel="noopener">
-        <span class="quicklink-title">Fiscal Data</span>
-        <span class="quicklink-desc">Federal financial data and reports</span>
+      <a href="https://fiscaldata.treasury.gov/" class="service-card" target="_blank" rel="noopener">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <path d="M3 9h18M9 21V9"/>
+          </svg>
+        </div>
+        <span class="service-card__title">Fiscal Data</span>
+        <span class="service-card__desc">Federal financial data and reports</span>
+      </a>
+      <a href="/services/report-fraud-waste-and-abuse/" class="service-card">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+            <line x1="12" y1="9" x2="12" y2="13"/>
+            <line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+        </div>
+        <span class="service-card__title">Report Fraud</span>
+        <span class="service-card__desc">Report scams, fraud, waste and abuse</span>
       </a>
     </div>
   </div>
