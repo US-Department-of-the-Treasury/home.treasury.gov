@@ -57,5 +57,6 @@ playwright-report/
 playwright/.cache/
 test-results/
 blob-report/
+.playwright-mcp/
 .dev-ports
 .worktrees

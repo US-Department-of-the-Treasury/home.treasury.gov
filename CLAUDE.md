@@ -101,6 +101,22 @@ Configuration is stored in AWS SSM Parameter Store:
 | `/treasury-home/staging/CLOUDFRONT_DOMAIN` | CloudFront domain |
 | `/treasury-home/staging/SITE_URL` | Public site URL |
 
+## Lenis Smooth Scrolling (Variant Pages)
+
+The variant pages in `static/variants/` use Lenis for smooth scrolling. **Critical constraints:**
+
+1. **Never use CSS `scroll-behavior: smooth` with Lenis** - they conflict and cause scroll jank
+2. **Avoid SVG `feTurbulence` filters** - extremely expensive, kills scroll performance
+3. **GPU-accelerate fixed overlays** - add `will-change: transform; transform: translateZ(0);`
+
+Required Lenis CSS (always include):
+```css
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+```
+
+See `docs/solutions/performance-issues/lenis-smooth-scroll-performance.md` for full details.
+
 ## Infrastructure
 
 Terraform configuration in `terraform/` manages:

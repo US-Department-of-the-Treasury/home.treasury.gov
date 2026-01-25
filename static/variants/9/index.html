@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>U.S. Department of the Treasury - America's Treasury. Stronger Than Ever.</title>
+  <meta name="description" content="The United States Department of the Treasury - 235 years of protecting America's financial security and prosperity.">
+
+  <!-- Fonts: Classical Playfair Display + Crimson Pro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+
+  <!-- Lenis Smooth Scroll -->
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+  <style>
+    /* ═══════════════════════════════════════════════════════════════════════════
+       TREASURY STRENGTH - VARIANT 9
+       Maximum institutional gravitas. 235-year heritage meets modern achievement.
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    :root {
+      /* Core Palette - Deep Navy & Classical Gold */
+      --treasury-navy-900: #0a1628;
+      --treasury-navy-800: #0f1f35;
+      --treasury-navy-700: #162942;
+      --treasury-navy-600: #1e3a5f;
+      --treasury-navy-500: #2a4d7a;
+
+      --treasury-gold-500: #d4a84b;
+      --treasury-gold-400: #e0be6a;
+      --treasury-gold-300: #ecce8a;
+      --treasury-gold-200: #f5e0b0;
+
+      --ivory-100: #fdfcfa;
+      --ivory-200: #f8f6f1;
+      --ivory-300: #f0ede5;
+
+      --slate-600: #475569;
+      --slate-500: #64748b;
+      --slate-400: #94a3b8;
+
+      /* Typography Scale - Classical Proportions */
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Crimson Pro', Georgia, serif;
+
+      --text-xs: 0.75rem;
+      --text-sm: 0.875rem;
+      --text-base: 1.0625rem;
+      --text-lg: 1.125rem;
+      --text-xl: 1.25rem;
+      --text-2xl: 1.5rem;
+      --text-3xl: 1.875rem;
+      --text-4xl: 2.25rem;
+      --text-5xl: 3rem;
+      --text-6xl: 3.75rem;
+      --text-7xl: 4.5rem;
+
+      /* Formal Spacing */
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.25rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+      --space-20: 5rem;
+      --space-24: 6rem;
+      --space-32: 8rem;
+
+      /* Transitions - Dignified, not flashy */
+      --transition-subtle: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-smooth: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+      --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* Reset & Base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Lenis smooth scroll - disable native smooth scroll */
+    html.lenis, html.lenis body {
+      height: auto;
+    }
+    .lenis.lenis-smooth {
+      scroll-behavior: auto !important;
+    }
+    .lenis.lenis-smooth [data-lenis-prevent] {
+      overscroll-behavior: contain;
+    }
+    .lenis.lenis-stopped {
+      overflow: hidden;
+    }
+
+    body {
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      line-height: 1.7;
+      color: var(--treasury-navy-900);
+      background: var(--ivory-100);
+      overflow-x: hidden;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════════════
+       USA GOVERNMENT BANNER
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    .usa-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: var(--treasury-navy-900);
+      border-bottom: 1px solid rgba(212, 168, 75, 0.15);
+    }
+
+    .usa-banner__content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-3);
+      padding: var(--space-2) var(--space-4);
+    }
+
+    .usa-banner__flag {
+      font-family: var(--font-display);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      color: var(--treasury-gold-400);
+      background: rgba(212, 168, 75, 0.1);
+      padding: 2px 6px;
+      border-radius: 2px;
+    }
+
+    .usa-banner__text {
+      font-family: var(--font-body);
+      font-size: var(--text-xs);
+      color: var(--slate-400);
+      letter-spacing: 0.02em;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════════════
+       HERO SECTION - Institutional Authority
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      padding-top: 40px; /* Account for fixed banner */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(30, 58, 95, 0.4) 0%, transparent 50%),
+        radial-gradient(ellipse 60% 40% at 80% 100%, rgba(22, 41, 66, 0.3) 0%, transparent 50%),
+        linear-gradient(135deg, var(--treasury-navy-900) 0%, var(--treasury-navy-800) 50%, var(--treasury-navy-700) 100%);
+      overflow: hidden;
+    }
+
+    .hero__seal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 1000px;
+      height: 1000px;
+      opacity: 0.045;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='none' stroke='%23c5a962' stroke-width='0.5'/%3E%3Ccircle cx='50' cy='50' r='42' fill='none' stroke='%23c5a962' stroke-width='0.3'/%3E%3Ccircle cx='50' cy='50' r='36' fill='none' stroke='%23c5a962' stroke-width='0.5'/%3E%3Cpath d='M50 14 L52 22 H58 L53 27 L55 35 L50 31 L45 35 L47 27 L42 22 H48 Z' fill='%23c5a962'/%3E%3Cpath d='M50 86 L52 78 H58 L53 73 L55 65 L50 69 L45 65 L47 73 L42 78 H48 Z' fill='%23c5a962' transform='rotate(180 50 50)'/%3E%3Ctext x='50' y='54' text-anchor='middle' font-family='serif' font-size='6' fill='%23c5a962'%3E1789%3C/text%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
+      pointer-events: none;
+      animation: sealPulse 8s ease-in-out infinite;
+    }
+
+    @keyframes sealPulse {
+      0%, 100% { opacity: 0.03; transform: translate(-50%, -50%) scale(1); }
+      50% { opacity: 0.05; transform: translate(-50%, -50%) scale(1.02); }
+    }
+
+    .hero__pattern {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(90deg, rgba(197, 169, 98, 0.02) 1px, transparent 1px),
+        linear-gradient(rgba(197, 169, 98, 0.02) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      max-width: 900px;
+      padding: var(--space-8);
+    }
+
+    .hero__establishment {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-5);
+      margin-bottom: var(--space-10);
+      padding: var(--space-4) var(--space-8);
+      border: 1px solid rgba(212, 168, 75, 0.35);
+      background: rgba(212, 168, 75, 0.06);
+      opacity: 0;
+      animation: fadeInUp 0.8s var(--ease-smooth) 0.2s forwards;
+    }
+
+    .hero__establishment-line {
+      width: 50px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--treasury-gold-400), transparent);
+    }
+
+    .hero__establishment-text {
+      font-family: var(--font-display);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--treasury-gold-400);
+    }
+
+    .hero__title {
+      font-family: var(--font-display);
+      font-size: clamp(var(--text-4xl), 8vw, var(--text-7xl));
+      font-weight: 400;
+      line-height: 1.15;
+      color: var(--ivory-100);
+      margin-bottom: var(--space-8);
+      letter-spacing: -0.005em;
+      text-shadow: 0 2px 40px rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      animation: fadeInUp 0.8s var(--ease-smooth) 0.4s forwards;
+    }
+
+    .hero__title em {
+      font-style: italic;
+      color: var(--treasury-gold-400);
+      text-shadow:
+        0 0 40px rgba(212, 168, 75, 0.3),
+        0 0 80px rgba(212, 168, 75, 0.15);
+    }
+
+    .hero__subtitle {
+      font-family: var(--font-body);
+      font-size: var(--text-xl);
+      font-weight: 300;
+      line-height: 1.85;
+      color: rgba(248, 246, 241, 0.85);
+      max-width: 680px;
+      margin: 0 auto var(--space-12);
+      opacity: 0;
+      animation: fadeInUp 0.8s var(--ease-smooth) 0.6s forwards;
+    }
+
+    .hero__cta {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-4);
+      opacity: 0;
+      animation: fadeInUp 0.8s var(--ease-smooth) 0.8s forwards;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      padding: var(--space-4) var(--space-8);
+      font-family: var(--font-display);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: all var(--transition-subtle);
+    }
+
+    .btn--primary {
+      background: linear-gradient(135deg, var(--treasury-gold-500) 0%, var(--treasury-gold-400) 100%);
+      color: var(--treasury-navy-900);
+      box-shadow: 0 2px 8px rgba(212, 168, 75, 0.2);
+    }
+
+    .btn--primary:hover {
+      background: linear-gradient(135deg, var(--treasury-gold-400) 0%, var(--treasury-gold-300) 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(212, 168, 75, 0.35);
+    }
+
+    .btn--secondary {
+      background: transparent;
+      color: var(--ivory-100);
+      border: 1px solid rgba(248, 246, 241, 0.25);
+    }
+
+    .btn--secondary:hover {
+      background: rgba(248, 246, 241, 0.08);
+      border-color: var(--treasury-gold-400);
+      color: var(--treasury-gold-300);
+      transform: translateY(-2px);
+    }
+
+    .hero__scroll {
+      position: absolute;
+      bottom: var(--space-10);
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-3);
+      color: var(--treasury-gold-400);
+      font-family: var(--font-display);
+      font-size: var(--text-xs);
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      opacity: 0;
+      animation: fadeIn 0.8s var(--ease-smooth) 1.2s forwards;
+    }
+
+    .hero__scroll-line {
+      width: 1px;
+      height: 50px;
+      background: linear-gradient(180deg, var(--treasury-gold-400), transparent);
+      animation: scrollPulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes scrollPulse {
+      0%, 100% { opacity: 1; height: 40px; }
+      50% { opacity: 0.5; height: 30px; }
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════════════
+       HERITAGE SECTION - 235 Years of Excellence
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    .heritage {
+      position: relative;
+      padding: var(--space-32) var(--space-8);
+      background: var(--ivory-100);
+      overflow: hidden;
+    }
+
+    .heritage__watermark {
+      position: absolute;
+      top: 50%;
+      right: -150px;
+      transform: translateY(-50%);
+      font-family: var(--font-display);
+      font-size: 450px;
+      font-weight: 700;
+      color: var(--treasury-gold-500);
+      opacity: 0.045;
+      line-height: 1;
+      pointer-events: none;
+      letter-spacing: -0.05em;
+    }
+
+    .heritage__content {
+      position: relative;
+      z-index: 10;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: var(--space-16);
+      align-items: center;
+    }
+
+    .heritage__text {
+      padding-right: var(--space-8);
+    }
+
+    .heritage__label {
+      display: inline-block;
+      font-family: var(--font-display);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--treasury-gold-500);
+      margin-bottom: var(--space-4);
+      padding-bottom: var(--space-2);
+      border-bottom: 2px solid var(--treasury-gold-500);
+    }
+
+    .heritage__title {
+      font-family: var(--font-display);
+      font-size: var(--text-5xl);
+      font-weight: 400;
+      line-height: 1.15;
+      color: var(--treasury-navy-900);
+      margin-bottom: var(--space-6);
+    }
+
+    .heritage__title em {
+      font-style: italic;
+      color: var(--treasury-gold-500);
+    }
+
+    .heritage__description {
+      font-size: var(--text-lg);
+      line-height: 1.9;
+      color: var(--slate-600);
+      margin-bottom: var(--space-8);
+    }
+
+    .heritage__quote {
+      position: relative;
+      padding-left: var(--space-6);
+      border-left: 3px solid var(--treasury-gold-500);
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-style: italic;
+      line-height: 1.7;
+      color: var(--treasury-navy-800);
+    }
+
+    .heritage__quote-author {
+      display: block;
+      margin-top: var(--space-3);
+      font-family: var(--font-body);
+      font-size: var(--text-sm);
+      font-style: normal;
+      font-weight: 500;
+      color: var(--slate-500);
+      letter-spacing: 0.05em;
+    }
+
+    .heritage__timeline {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-1);
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: var(--space-6);
+      padding: var(--space-6);
+      background: white;
+      border: 1px solid var(--ivory-300);
+      border-left: 3px solid transparent;
+      transition: all var(--transition-subtle);
+    }
+
+    .timeline-item:hover {
+      border-color: var(--ivory-300);
+      border-left-color: var(--treasury-gold-500);
+      box-shadow: 0 4px 20px rgba(10, 22, 40, 0.08);
+      transform: translateX(4px);
+    }
+
+    .timeline-item__year {
+      font-family: var(--font-display);
+      font-size: var(--text-3xl);
+      font-weight: 500;
+      color: var(--treasury-gold-500);
+      line-height: 1;
+    }
+
+    .timeline-item__content h4 {
+      font-family: var(--font-display);
+      font-size: var(--text-lg);
+      font-weight: 600;
+      color: var(--treasury-navy-900);
+      margin-bottom: var(--space-2);
+    }
+
+    .timeline-item__content p {
+      font-size: var(--text-sm);
+      color: var(--slate-500);
+      line-height: 1.6;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════════════
+       ACHIEVEMENTS SECTION - Modern Metrics
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    .achievements {
+      position: relative;
+      padding: var(--space-32) var(--space-8);
+      background: linear-gradient(180deg, var(--treasury-navy-900) 0%, var(--treasury-navy-800) 100%);
+    }
+
+    .achievements__header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto var(--space-16);
+    }
+
+    .achievements__label {
+      display: inline-block;
+      font-family: var(--font-display);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--treasury-gold-400);
+      margin-bottom: var(--space-4);
+    }
+
+    .achievements__title {
+      font-family: var(--font-display);
+      font-size: var(--text-5xl);
+      font-weight: 400;
+      color: var(--ivory-100);
+      margin-bottom: var(--space-4);
+    }
+
+    .achievements__subtitle {
+      font-size: var(--text-lg);
+      color: var(--slate-400);
+      line-height: 1.7;
+    }
+
+    .achievements__grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-6);
+    }
+
+    .metric-card {
+      position: relative;
+      padding: var(--space-8) var(--space-6);
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(197, 169, 98, 0.15);
+      text-align: center;
+      transition: all var(--transition-subtle);
+    }
+
+    .metric-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--treasury-gold-500), transparent);
+      transition: width var(--transition-subtle);
+    }
+
+    .metric-card:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(212, 168, 75, 0.35);
+      transform: translateY(-4px);
+    }
+
+    .metric-card:hover::before {
+      width: 70px;
+    }
+
+    .metric-card__value {
+      font-family: var(--font-display);
+      font-size: var(--text-5xl);
+      font-weight: 400;
+      color: var(--treasury-gold-400);
+      line-height: 1;
+      margin-bottom: var(--space-3);
+      text-shadow: 0 0 30px rgba(212, 168, 75, 0.2);
+    }
+
+    .metric-card__label {
+      font-family: var(--font-display);
+      font-size: var(--text-sm);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ivory-100);
+      margin-bottom: var(--space-2);
+    }
+
+    .metric-card__context {
+      font-size: var(--text-sm);
+      color: var(--slate-400);
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════════════
+       MISSION SECTION - Enduring Purpose
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    .mission {
+      position: relative;
+      padding: var(--space-32) var(--space-8);
+      background: var(--ivory-200);
+      overflow: hidden;
+    }
+
+    .mission__pattern {
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(circle at 20% 50%, rgba(197, 169, 98, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 50%, rgba(10, 22, 40, 0.03) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    .mission__content {
+      position: relative;
+      z-index: 10;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .mission__seal {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto var(--space-8);
+      opacity: 0.7;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='none' stroke='%23c5a962' stroke-width='1.5'/%3E%3Ccircle cx='50' cy='50' r='42' fill='none' stroke='%23c5a962' stroke-width='0.75'/%3E%3Ccircle cx='50' cy='50' r='36' fill='none' stroke='%23c5a962' stroke-width='1'/%3E%3Cpath d='M50 20 L52 28 H58 L53 33 L55 41 L50 37 L45 41 L47 33 L42 28 H48 Z' fill='%23c5a962'/%3E%3Ctext x='50' y='58' text-anchor='middle' font-family='serif' font-size='8' fill='%23c5a962'%3E1789%3C/text%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .mission__label {
+      display: inline-block;
+      font-family: var(--font-display);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--treasury-gold-500);
+      margin-bottom: var(--space-6);
+    }
+
+    .mission__title {
+      font-family: var(--font-display);
+      font-size: var(--text-5xl);
+      font-weight: 400;
+      line-height: 1.3;
+      color: var(--treasury-navy-900);
+      margin-bottom: var(--space-8);
+    }
+
+    .mission__statement {
+      font-family: var(--font-body);
+      font-size: var(--text-xl);
+      line-height: 2;
+      color: var(--slate-600);
+      margin-bottom: var(--space-12);
+    }
+
+    .mission__pillars {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-8);
+      padding-top: var(--space-8);
+      border-top: 1px solid var(--ivory-300);
+    }
+
+    .pillar {
+      text-align: center;
+    }
+
+    .pillar__icon {
+      width: 52px;
+      height: 52px;
+      margin: 0 auto var(--space-4);
+      color: var(--treasury-gold-500);
+      filter: drop-shadow(0 2px 8px rgba(212, 168, 75, 0.15));
+    }
+
+    .pillar__title {
+      font-family: var(--font-display);
+      font-size: var(--text-lg);
+      font-weight: 600;
+      color: var(--treasury-navy-900);
+      margin-bottom: var(--space-2);
+    }
+
+    .pillar__desc {
+      font-size: var(--text-sm);
+      color: var(--slate-500);
+      line-height: 1.7;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    .footer {
+      padding: var(--space-20) var(--space-8);
+      background: linear-gradient(180deg, var(--treasury-navy-800) 0%, var(--treasury-navy-900) 100%);
+      text-align: center;
+      border-top: 1px solid rgba(212, 168, 75, 0.1);
+    }
+
+    .footer__brand {
+      margin-bottom: var(--space-6);
+    }
+
+    .footer__name {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-weight: 500;
+      color: var(--ivory-100);
+      letter-spacing: 0.05em;
+    }
+
+    .footer__tagline {
+      font-size: var(--text-sm);
+      color: var(--slate-400);
+      margin-top: var(--space-2);
+    }
+
+    .footer__divider {
+      width: 60px;
+      height: 1px;
+      background: var(--treasury-gold-500);
+      margin: var(--space-6) auto;
+      opacity: 0.5;
+    }
+
+    .footer__legal {
+      font-size: var(--text-xs);
+      color: var(--slate-500);
+      letter-spacing: 0.05em;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════════════
+       ANIMATIONS
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s var(--ease-smooth), transform 0.6s var(--ease-smooth);
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════════════
+       RESPONSIVE
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    @media (max-width: 1024px) {
+      .heritage__content {
+        grid-template-columns: 1fr;
+        gap: var(--space-12);
+      }
+
+      .heritage__text {
+        padding-right: 0;
+        text-align: center;
+      }
+
+      .heritage__quote {
+        text-align: left;
+      }
+
+      .achievements__grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero__cta {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .heritage__title,
+      .achievements__title,
+      .mission__title {
+        font-size: var(--text-3xl);
+      }
+
+      .achievements__grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+      }
+
+      .mission__pillars {
+        grid-template-columns: 1fr;
+        gap: var(--space-6);
+      }
+
+      .timeline-item {
+        grid-template-columns: 1fr;
+        gap: var(--space-3);
+      }
+
+      .timeline-item__year {
+        font-size: var(--text-2xl);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- USA Government Banner -->
+  <div class="usa-banner">
+    <div class="usa-banner__content">
+      <span class="usa-banner__flag">US</span>
+      <span class="usa-banner__text">An official website of the United States government</span>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero__seal" aria-hidden="true"></div>
+    <div class="hero__pattern" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <div class="hero__establishment">
+        <span class="hero__establishment-line"></span>
+        <span class="hero__establishment-text">Established 1789</span>
+        <span class="hero__establishment-line"></span>
+      </div>
+
+      <h1 class="hero__title">
+        America's Treasury.<br>
+        <em>Stronger Than Ever.</em>
+      </h1>
+
+      <p class="hero__subtitle">
+        For 235 years, the United States Department of the Treasury has safeguarded
+        America's economic security and prosperity. Today, we continue that legacy
+        with unwavering resolve.
+      </p>
+
+      <div class="hero__cta">
+        <a href="#achievements" class="btn btn--primary">Our Impact</a>
+        <a href="#heritage" class="btn btn--secondary">Our Heritage</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <span>Discover</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Heritage Section -->
+  <section id="heritage" class="heritage">
+    <div class="heritage__watermark" aria-hidden="true">235</div>
+
+    <div class="heritage__content">
+      <div class="heritage__text fade-in">
+        <span class="heritage__label">Our Legacy</span>
+        <h2 class="heritage__title">
+          235 Years of <em>Excellence</em>
+        </h2>
+        <p class="heritage__description">
+          From Alexander Hamilton's founding vision to today's global financial leadership,
+          the Treasury Department has been the cornerstone of American economic strength.
+          Our mission endures: to maintain a strong economy, foster economic growth, and
+          protect the integrity of the financial system.
+        </p>
+        <blockquote class="heritage__quote">
+          "The prosperity of America is intimately connected with the prosperity
+          of commerce."
+          <cite class="heritage__quote-author">Alexander Hamilton, First Secretary of the Treasury</cite>
+        </blockquote>
+      </div>
+
+      <div class="heritage__timeline fade-in">
+        <div class="timeline-item">
+          <span class="timeline-item__year">1789</span>
+          <div class="timeline-item__content">
+            <h4>Treasury Founded</h4>
+            <p>Established by Act of Congress as one of the original executive departments</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-item__year">1862</span>
+          <div class="timeline-item__content">
+            <h4>Bureau of Internal Revenue</h4>
+            <p>Created to fund the Civil War, becoming the foundation of the IRS</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-item__year">1913</span>
+          <div class="timeline-item__content">
+            <h4>Federal Reserve Act</h4>
+            <p>Treasury helped establish the modern central banking system</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-item__year">2001</span>
+          <div class="timeline-item__content">
+            <h4>OFAC Expansion</h4>
+            <p>Enhanced sanctions authority to combat terrorism financing</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-item__year">2025</span>
+          <div class="timeline-item__content">
+            <h4>A New Golden Age</h4>
+            <p>Strengthening America's economic security for the next generation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements">
+    <div class="achievements__header fade-in">
+      <span class="achievements__label">Today's Impact</span>
+      <h2 class="achievements__title">Treasury in Action</h2>
+      <p class="achievements__subtitle">
+        Protecting America's financial security through decisive action and principled leadership.
+      </p>
+    </div>
+
+    <div class="achievements__grid">
+      <div class="metric-card fade-in">
+        <div class="metric-card__value">47</div>
+        <div class="metric-card__label">Sanctions Actions</div>
+        <div class="metric-card__context">This Month</div>
+      </div>
+
+      <div class="metric-card fade-in">
+        <div class="metric-card__value">3</div>
+        <div class="metric-card__label">Terror Networks</div>
+        <div class="metric-card__context">Disrupted</div>
+      </div>
+
+      <div class="metric-card fade-in">
+        <div class="metric-card__value">$5.2T</div>
+        <div class="metric-card__label">Revenue</div>
+        <div class="metric-card__context">FY 2025</div>
+      </div>
+
+      <div class="metric-card fade-in">
+        <div class="metric-card__value">4.26%</div>
+        <div class="metric-card__label">10-Year Yield</div>
+        <div class="metric-card__context">Current Rate</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="mission">
+    <div class="mission__pattern" aria-hidden="true"></div>
+
+    <div class="mission__content">
+      <div class="mission__seal" aria-hidden="true"></div>
+
+      <span class="mission__label fade-in">Our Enduring Mission</span>
+
+      <h2 class="mission__title fade-in">
+        Maintain a Strong Economy,<br>
+        Foster Economic Growth,<br>
+        Create Job Opportunities
+      </h2>
+
+      <p class="mission__statement fade-in">
+        The Department of the Treasury's mission is to maintain a strong economy and create
+        economic and job opportunities by promoting the conditions that enable economic growth
+        and stability at home and abroad, strengthen national security by combating threats and
+        protecting the integrity of the financial system, and manage the U.S. Government's
+        finances and resources effectively.
+      </p>
+
+      <div class="mission__pillars fade-in">
+        <div class="pillar">
+          <svg class="pillar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          <h3 class="pillar__title">Economic Security</h3>
+          <p class="pillar__desc">Protecting America's financial system from threats foreign and domestic</p>
+        </div>
+
+        <div class="pillar">
+          <svg class="pillar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+          </svg>
+          <h3 class="pillar__title">Fiscal Responsibility</h3>
+          <p class="pillar__desc">Managing the nation's finances with prudence and accountability</p>
+        </div>
+
+        <div class="pillar">
+          <svg class="pillar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          <h3 class="pillar__title">Global Leadership</h3>
+          <p class="pillar__desc">Promoting stability and prosperity in the international financial system</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__brand">
+      <div class="footer__name">United States Department of the Treasury</div>
+      <div class="footer__tagline">Serving America Since 1789</div>
+    </div>
+    <div class="footer__divider"></div>
+    <div class="footer__legal">
+      An official website of the United States Government
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lenis Smooth Scroll
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      orientation: 'vertical',
+      smoothWheel: true,
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          // Stagger the animation slightly
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, index * 100);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
