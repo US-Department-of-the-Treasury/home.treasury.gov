@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>U.S. Department of the Treasury - Results That Matter</title>
+  <meta name="description" content="Under Secretary Scott Bessent's leadership, the Treasury Department delivers measurable results for American families and national security.">
+
+  <!-- Fonts: Playfair Display + Inter (Brand Guidelines) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       VARIANT 12: ACHIEVEMENTS FOCUS
+       Prioritizes metrics, results, and measurable impact with gold accents.
+       ========================================================================== */
+
+    :root {
+      /* Brand Colors - EXACT from Brand Guidelines */
+      --navy-900: #0B122C;
+      --navy-800: #0f1735;
+      --navy-700: #141F4D;
+
+      --gold: #FFBD00;
+      --gold-muted: #FFD666;
+      --gold-dark: #B8952B;
+
+      --stone: #E8E6E0;
+      --charcoal: #293340;
+
+      --white: #FFFFFF;
+      --white-95: rgba(255, 255, 255, 0.95);
+      --white-85: rgba(255, 255, 255, 0.85);
+      --white-70: rgba(255, 255, 255, 0.70);
+      --white-50: rgba(255, 255, 255, 0.50);
+
+      /* Typography */
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+      /* Transitions */
+      --transition-fast: 200ms ease;
+      --transition-smooth: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* Reset & Base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Lenis smooth scroll - REQUIRED: disable native smooth scroll */
+    html.lenis, html.lenis body {
+      height: auto;
+    }
+    .lenis.lenis-smooth {
+      scroll-behavior: auto !important;
+    }
+    .lenis.lenis-smooth [data-lenis-prevent] {
+      overscroll-behavior: contain;
+    }
+    .lenis.lenis-stopped {
+      overflow: hidden;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--charcoal);
+      background: var(--white);
+      overflow-x: hidden;
+    }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* ==========================================================================
+       USA GOVERNMENT BANNER
+       ========================================================================== */
+
+    .usa-banner {
+      background: var(--navy-900);
+      padding: 0.5rem 2rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 189, 0, 0.15);
+    }
+
+    .usa-banner__content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+
+    .usa-banner__flag {
+      font-family: var(--font-sans);
+      font-size: 0.6875rem;
+      font-weight: 700;
+      color: var(--gold);
+      background: rgba(255, 189, 0, 0.12);
+      padding: 2px 8px;
+      border-radius: 2px;
+      letter-spacing: 0.05em;
+    }
+
+    .usa-banner__text {
+      font-size: 0.75rem;
+      color: var(--white-70);
+      letter-spacing: 0.02em;
+    }
+
+    /* ==========================================================================
+       HERO SECTION - Golden Age
+       ========================================================================== */
+
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 6rem 2rem;
+      background: linear-gradient(145deg, var(--navy-900) 0%, var(--navy-800) 60%, var(--navy-700) 100%);
+      overflow: hidden;
+    }
+
+    .hero__background {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .hero__gradient {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 50% at 20% 50%, rgba(255, 189, 0, 0.06) 0%, transparent 50%),
+        radial-gradient(ellipse 50% 60% at 80% 30%, rgba(255, 189, 0, 0.04) 0%, transparent 50%);
+    }
+
+    .hero__seal {
+      position: absolute;
+      right: -10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 65vw;
+      height: 65vw;
+      max-width: 850px;
+      max-height: 850px;
+      opacity: 0.025;
+      background: url('/images/treasury-seal.svg') center/contain no-repeat;
+    }
+
+    .hero__pattern {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(90deg, rgba(255, 189, 0, 0.02) 1px, transparent 1px),
+        linear-gradient(rgba(255, 189, 0, 0.02) 1px, transparent 1px);
+      background-size: 50px 50px;
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      max-width: 1300px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .hero__text {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeInUp 0.8s ease-out 0.2s forwards;
+    }
+
+    .hero__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: rgba(255, 189, 0, 0.08);
+      border: 1px solid rgba(255, 189, 0, 0.25);
+      margin-bottom: 2rem;
+    }
+
+    .hero__badge-line {
+      width: 40px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+
+    .hero__badge-text {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .hero__headline {
+      font-family: var(--font-serif);
+      font-size: clamp(2.75rem, 5.5vw, 4.5rem);
+      font-weight: 500;
+      line-height: 1.1;
+      color: var(--white-95);
+      margin-bottom: 1.75rem;
+      letter-spacing: -0.01em;
+    }
+
+    .hero__headline em {
+      font-style: italic;
+      display: block;
+      color: var(--gold);
+      text-shadow: 0 0 50px rgba(255, 189, 0, 0.25);
+    }
+
+    .hero__description {
+      font-family: var(--font-sans);
+      font-size: 1.125rem;
+      line-height: 1.75;
+      color: var(--white-70);
+      margin-bottom: 2.5rem;
+      max-width: 520px;
+    }
+
+    .hero__cta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 1rem 2rem;
+      font-family: var(--font-sans);
+      font-size: 0.9375rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: all var(--transition-smooth);
+      letter-spacing: 0.01em;
+    }
+
+    .btn--primary {
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+      color: var(--navy-900);
+      box-shadow: 0 4px 20px rgba(255, 189, 0, 0.25);
+    }
+
+    .btn--primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(255, 189, 0, 0.4);
+    }
+
+    .btn--secondary {
+      background: transparent;
+      color: var(--white-95);
+      border: 1px solid var(--white-50);
+    }
+
+    .btn--secondary:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+      background: rgba(255, 189, 0, 0.05);
+    }
+
+    /* Hero Portrait */
+    .hero__portrait {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      opacity: 0;
+      transform: translateX(30px);
+      animation: fadeInRight 0.8s ease-out 0.4s forwards;
+    }
+
+    .hero__portrait-container {
+      position: relative;
+      width: 100%;
+      max-width: 480px;
+    }
+
+    .hero__image {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      position: relative;
+      z-index: 2;
+      filter: contrast(1.05) brightness(0.98);
+    }
+
+    .hero__portrait-frame {
+      position: absolute;
+      inset: -8px;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-dark), var(--gold)) border-box;
+      -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+      mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      z-index: 1;
+      opacity: 0.7;
+    }
+
+    .hero__portrait-glow {
+      position: absolute;
+      inset: -20%;
+      background: radial-gradient(ellipse at center, rgba(255, 189, 0, 0.15) 0%, transparent 65%);
+      z-index: 0;
+      filter: blur(40px);
+    }
+
+    /* ==========================================================================
+       ACHIEVEMENTS METRICS SECTION
+       ========================================================================== */
+
+    .achievements {
+      position: relative;
+      padding: 6rem 2rem;
+      background: var(--stone);
+    }
+
+    .achievements__header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .achievements__label {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      margin-bottom: 1rem;
+    }
+
+    .achievements__title {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 500;
+      color: var(--navy-900);
+      margin-bottom: 1rem;
+    }
+
+    .achievements__subtitle {
+      font-size: 1.125rem;
+      color: var(--charcoal);
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    .achievements__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .metric-card {
+      position: relative;
+      padding: 2.5rem 1.5rem;
+      background: var(--white);
+      border: 1px solid rgba(11, 18, 44, 0.08);
+      text-align: center;
+      transition: all var(--transition-smooth);
+      overflow: hidden;
+    }
+
+    .metric-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold-dark), var(--gold), var(--gold-dark));
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform var(--transition-smooth);
+    }
+
+    .metric-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(11, 18, 44, 0.12);
+      border-color: var(--gold);
+    }
+
+    .metric-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .metric-card__value {
+      font-family: var(--font-serif);
+      font-size: 3.5rem;
+      font-weight: 500;
+      color: var(--gold-dark);
+      line-height: 1;
+      margin-bottom: 0.75rem;
+      text-shadow: 0 2px 4px rgba(184, 149, 43, 0.1);
+    }
+
+    .metric-card__label {
+      font-family: var(--font-sans);
+      font-size: 0.8125rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--navy-900);
+      margin-bottom: 0.5rem;
+    }
+
+    .metric-card__context {
+      font-size: 0.875rem;
+      color: var(--charcoal);
+      opacity: 0.7;
+    }
+
+    /* ==========================================================================
+       DARK QUOTE SECTION
+       ========================================================================== */
+
+    .quote-section {
+      position: relative;
+      padding: 7rem 2rem;
+      background: linear-gradient(180deg, var(--navy-900) 0%, var(--navy-800) 100%);
+      overflow: hidden;
+    }
+
+    .quote-section__bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 50%, rgba(255, 189, 0, 0.04) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .quote-section__content {
+      position: relative;
+      z-index: 10;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .quote-section__mark {
+      font-family: var(--font-serif);
+      font-size: 10rem;
+      line-height: 0.5;
+      color: var(--gold);
+      opacity: 0.2;
+      margin-bottom: 0;
+      filter: drop-shadow(0 0 40px rgba(255, 189, 0, 0.2));
+    }
+
+    .quote-section__text {
+      font-family: var(--font-serif);
+      font-size: clamp(1.375rem, 3vw, 2.25rem);
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--white-95);
+      margin-bottom: 2.5rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .quote-section__attribution {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.25rem;
+    }
+
+    .quote-section__line {
+      width: 3rem;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.5;
+    }
+
+    .quote-section__author {
+      font-family: var(--font-sans);
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    /* ==========================================================================
+       RESULTS SECTION - Alternating Panes
+       ========================================================================== */
+
+    .results {
+      position: relative;
+    }
+
+    .results-pane {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 500px;
+    }
+
+    .results-pane--reverse {
+      direction: rtl;
+    }
+
+    .results-pane--reverse > * {
+      direction: ltr;
+    }
+
+    .results-pane__visual {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem;
+      background: var(--navy-900);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .results-pane--alt .results-pane__visual {
+      background: var(--navy-800);
+    }
+
+    .results-pane__icon-bg {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.03;
+    }
+
+    .results-pane__icon-bg svg {
+      width: 400px;
+      height: 400px;
+      color: var(--gold);
+    }
+
+    .results-pane__metric {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+    }
+
+    .results-pane__number {
+      font-family: var(--font-serif);
+      font-size: clamp(4rem, 8vw, 6rem);
+      font-weight: 500;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 0.75rem;
+      text-shadow: 0 0 60px rgba(255, 189, 0, 0.3);
+    }
+
+    .results-pane__metric-label {
+      font-family: var(--font-sans);
+      font-size: 0.9375rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--white-70);
+    }
+
+    .results-pane__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem;
+      background: var(--stone);
+    }
+
+    .results-pane--alt .results-pane__content {
+      background: var(--white);
+    }
+
+    .results-pane__label {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      margin-bottom: 1rem;
+    }
+
+    .results-pane__title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      font-weight: 500;
+      color: var(--navy-900);
+      margin-bottom: 1.25rem;
+      line-height: 1.2;
+    }
+
+    .results-pane__title em {
+      font-style: italic;
+      color: var(--gold-dark);
+    }
+
+    .results-pane__description {
+      font-size: 1.0625rem;
+      line-height: 1.8;
+      color: var(--charcoal);
+      margin-bottom: 1.5rem;
+    }
+
+    .results-pane__link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-sans);
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: var(--gold-dark);
+      text-decoration: none;
+      transition: all var(--transition-fast);
+    }
+
+    .results-pane__link:hover {
+      color: var(--navy-900);
+      gap: 0.75rem;
+    }
+
+    .results-pane__link svg {
+      width: 18px;
+      height: 18px;
+      transition: transform var(--transition-fast);
+    }
+
+    .results-pane__link:hover svg {
+      transform: translateX(4px);
+    }
+
+    /* ==========================================================================
+       PRIORITIES SECTION
+       ========================================================================== */
+
+    .priorities {
+      padding: 6rem 2rem;
+      background: var(--navy-900);
+      position: relative;
+    }
+
+    .priorities::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      opacity: 0.3;
+    }
+
+    .priorities__header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .priorities__label {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .priorities__title {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 500;
+      color: var(--white-95);
+    }
+
+    .priorities__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .priority-card {
+      position: relative;
+      padding: 2.5rem;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      transition: all var(--transition-smooth);
+      overflow: hidden;
+    }
+
+    .priority-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-muted), var(--gold));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--transition-smooth);
+    }
+
+    .priority-card:hover {
+      background: rgba(255, 255, 255, 0.04);
+      border-color: rgba(255, 189, 0, 0.2);
+      transform: translateY(-4px);
+    }
+
+    .priority-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .priority-card__number {
+      font-family: var(--font-serif);
+      font-size: 3rem;
+      font-weight: 500;
+      color: var(--gold);
+      opacity: 0.4;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    .priority-card__title {
+      font-family: var(--font-serif);
+      font-size: 1.375rem;
+      font-weight: 500;
+      color: var(--white-95);
+      margin-bottom: 0.75rem;
+    }
+
+    .priority-card__description {
+      font-size: 0.9375rem;
+      line-height: 1.7;
+      color: var(--white-70);
+    }
+
+    /* ==========================================================================
+       FOOTER
+       ========================================================================== */
+
+    .footer {
+      padding: 4rem 2rem;
+      background: linear-gradient(180deg, var(--navy-800) 0%, var(--navy-900) 100%);
+      border-top: 1px solid rgba(255, 189, 0, 0.1);
+    }
+
+    .footer__content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .footer__brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .footer__seal {
+      width: 48px;
+      height: 48px;
+      opacity: 0.7;
+    }
+
+    .footer__text {
+      font-size: 0.9rem;
+      color: var(--white-70);
+    }
+
+    .footer__text strong {
+      display: block;
+      color: var(--white-95);
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    .footer__links {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .footer__link {
+      font-size: 0.875rem;
+      color: var(--white-70);
+      text-decoration: none;
+      transition: color var(--transition-fast);
+    }
+
+    .footer__link:hover {
+      color: var(--gold);
+    }
+
+    .footer__divider {
+      width: 100%;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.08);
+      margin: 2rem 0 1.5rem;
+    }
+
+    .footer__bottom {
+      width: 100%;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--white-50);
+    }
+
+    /* ==========================================================================
+       ANIMATIONS
+       ========================================================================== */
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ==========================================================================
+       RESPONSIVE
+       ========================================================================== */
+
+    @media (max-width: 1024px) {
+      .hero__content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 3rem;
+      }
+
+      .hero__description {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero__cta {
+        justify-content: center;
+      }
+
+      .hero__portrait {
+        order: -1;
+      }
+
+      .hero__portrait-container {
+        max-width: 380px;
+      }
+
+      .achievements__grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .results-pane,
+      .results-pane--reverse {
+        grid-template-columns: 1fr;
+        direction: ltr;
+      }
+
+      .results-pane__visual {
+        min-height: 300px;
+      }
+
+      .priorities__grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .usa-banner__content {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .achievements__grid {
+        grid-template-columns: 1fr;
+        max-width: 320px;
+      }
+
+      .metric-card__value {
+        font-size: 2.75rem;
+      }
+
+      .results-pane__visual,
+      .results-pane__content {
+        padding: 3rem 2rem;
+      }
+
+      .footer__content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .footer__links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="visually-hidden">U.S. Department of the Treasury - Results That Matter</h1>
+
+  <!-- USA Government Banner -->
+  <div class="usa-banner">
+    <div class="usa-banner__content">
+      <span class="usa-banner__flag">US</span>
+      <span class="usa-banner__text">An official website of the United States government</span>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" aria-label="Treasury leadership and vision">
+    <div class="hero__background">
+      <div class="hero__gradient"></div>
+      <div class="hero__pattern" aria-hidden="true"></div>
+      <div class="hero__seal" aria-hidden="true"></div>
+    </div>
+
+    <div class="hero__content">
+      <div class="hero__text">
+        <div class="hero__badge">
+          <span class="hero__badge-line"></span>
+          <span class="hero__badge-text">United States Department of the Treasury</span>
+          <span class="hero__badge-line"></span>
+        </div>
+        <h2 class="hero__headline">
+          Building America's
+          <em>New Golden Age</em>
+        </h2>
+        <p class="hero__description">
+          Under Secretary Scott Bessent's leadership, the Treasury Department delivers
+          measurable results: protecting working families, securing our financial system,
+          and creating economic opportunity for all Americans.
+        </p>
+        <div class="hero__cta">
+          <a href="/about/general-information/officials/scott-bessent" class="btn btn--primary">
+            Meet the Secretary
+          </a>
+          <a href="/news/featured-stories/" class="btn btn--secondary">
+            View Our Results
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__portrait">
+        <div class="hero__portrait-glow" aria-hidden="true"></div>
+        <div class="hero__portrait-container">
+          <img src="/images/secretary-bessent-hero.jpg"
+               alt="Secretary Scott Bessent, 79th Secretary of the Treasury"
+               class="hero__image"
+               width="500"
+               height="600"
+               loading="eager">
+          <div class="hero__portrait-frame" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Metrics Section -->
+  <section class="achievements" aria-label="Key achievements and metrics">
+    <div class="container">
+      <header class="achievements__header fade-in">
+        <p class="achievements__label">Delivering Results</p>
+        <h2 class="achievements__title">Treasury by the Numbers</h2>
+        <p class="achievements__subtitle">
+          Measurable progress protecting America's financial security and
+          fostering economic growth for working families.
+        </p>
+      </header>
+
+      <div class="achievements__grid">
+        <article class="metric-card fade-in">
+          <div class="metric-card__value">47</div>
+          <div class="metric-card__label">Sanctions Actions</div>
+          <div class="metric-card__context">This Month</div>
+        </article>
+
+        <article class="metric-card fade-in">
+          <div class="metric-card__value">3</div>
+          <div class="metric-card__label">Terror Networks</div>
+          <div class="metric-card__context">Disrupted</div>
+        </article>
+
+        <article class="metric-card fade-in">
+          <div class="metric-card__value">5.5M</div>
+          <div class="metric-card__label">Business Apps</div>
+          <div class="metric-card__context">Record High</div>
+        </article>
+
+        <article class="metric-card fade-in">
+          <div class="metric-card__value">$46.9M</div>
+          <div class="metric-card__label">SIPPRA Awards</div>
+          <div class="metric-card__context">Community Impact</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Quote Section -->
+  <section class="quote-section" aria-label="Secretary's vision">
+    <div class="quote-section__bg" aria-hidden="true"></div>
+    <div class="quote-section__content">
+      <div class="quote-section__mark" aria-hidden="true">"</div>
+      <blockquote class="quote-section__text">
+        The Treasury Department has an extraordinary opportunity to help build a stronger,
+        more prosperous America. We will be relentless in pursuing policies that benefit
+        working families and secure our nation's financial future.
+      </blockquote>
+      <div class="quote-section__attribution">
+        <span class="quote-section__line"></span>
+        <cite class="quote-section__author">Secretary Scott Bessent</cite>
+        <span class="quote-section__line"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Alternating Panes -->
+  <section class="results" aria-label="Treasury results in action">
+    <!-- Pane 1: Economic Security -->
+    <div class="results-pane">
+      <div class="results-pane__visual">
+        <div class="results-pane__icon-bg" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <div class="results-pane__metric">
+          <div class="results-pane__number">47+</div>
+          <div class="results-pane__metric-label">Monthly OFAC Actions</div>
+        </div>
+      </div>
+      <div class="results-pane__content">
+        <p class="results-pane__label">Economic Security</p>
+        <h3 class="results-pane__title">Protecting America from <em>Financial Threats</em></h3>
+        <p class="results-pane__description">
+          Treasury stands as the first line of defense against those who threaten American security.
+          Through robust sanctions enforcement, we're cutting off funding to terrorist networks,
+          drug cartels, and hostile state actors who seek to harm our nation.
+        </p>
+        <a href="/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information" class="results-pane__link">
+          Learn about OFAC
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Pane 2: Economic Growth -->
+    <div class="results-pane results-pane--reverse results-pane--alt">
+      <div class="results-pane__visual">
+        <div class="results-pane__icon-bg" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+            <polyline points="17 6 23 6 23 12"/>
+          </svg>
+        </div>
+        <div class="results-pane__metric">
+          <div class="results-pane__number">5.5M</div>
+          <div class="results-pane__metric-label">Business Applications</div>
+        </div>
+      </div>
+      <div class="results-pane__content">
+        <p class="results-pane__label">Economic Growth</p>
+        <h3 class="results-pane__title">Unleashing American <em>Entrepreneurship</em></h3>
+        <p class="results-pane__description">
+          Record-breaking business applications signal renewed confidence in America's economic future.
+          Working families are betting on themselves again, creating jobs and building prosperity
+          in communities across the nation.
+        </p>
+        <a href="/news/featured-stories/" class="results-pane__link">
+          See the latest news
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Pane 3: Community Investment -->
+    <div class="results-pane">
+      <div class="results-pane__visual">
+        <div class="results-pane__icon-bg" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3"/>
+          </svg>
+        </div>
+        <div class="results-pane__metric">
+          <div class="results-pane__number">$46.9M</div>
+          <div class="results-pane__metric-label">SIPPRA Awards</div>
+        </div>
+      </div>
+      <div class="results-pane__content">
+        <p class="results-pane__label">Community Investment</p>
+        <h3 class="results-pane__title">Building Prosperity <em>From the Ground Up</em></h3>
+        <p class="results-pane__description">
+          Through CDFI investments and Social Impact Partnerships, Treasury directs billions
+          to underserved communities. Every American deserves access to capital and economic
+          opportunity, regardless of their zip code.
+        </p>
+        <a href="/about/offices/community-development-financial-institutions-fund" class="results-pane__link">
+          Explore CDFI programs
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strategic Priorities Section -->
+  <section class="priorities" aria-label="Strategic priorities">
+    <div class="container">
+      <header class="priorities__header fade-in">
+        <p class="priorities__label">Strategic Priorities</p>
+        <h2 class="priorities__title">Three Pillars of Progress</h2>
+      </header>
+
+      <div class="priorities__grid">
+        <article class="priority-card fade-in">
+          <div class="priority-card__number">01</div>
+          <h3 class="priority-card__title">Fiscal Responsibility</h3>
+          <p class="priority-card__description">
+            Sustainable debt management and disciplined spending to secure prosperity
+            for future generations of Americans.
+          </p>
+        </article>
+
+        <article class="priority-card fade-in">
+          <div class="priority-card__number">02</div>
+          <h3 class="priority-card__title">National Security</h3>
+          <p class="priority-card__description">
+            Protecting America's financial system from adversaries through decisive
+            sanctions enforcement and threat disruption.
+          </p>
+        </article>
+
+        <article class="priority-card fade-in">
+          <div class="priority-card__number">03</div>
+          <h3 class="priority-card__title">Broad Prosperity</h3>
+          <p class="priority-card__description">
+            Ensuring economic growth reaches every American community, from urban
+            centers to rural towns across the nation.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer__brand">
+        <img src="/images/treasury-seal.svg" alt="" class="footer__seal" aria-hidden="true">
+        <p class="footer__text">
+          <strong>U.S. Department of the Treasury</strong>
+          1500 Pennsylvania Avenue, NW, Washington, D.C. 20220
+        </p>
+      </div>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="/accessibility/" class="footer__link">Accessibility</a>
+        <a href="/privacy/" class="footer__link">Privacy Policy</a>
+        <a href="/site-policies/" class="footer__link">Site Policies</a>
+        <a href="/foia/" class="footer__link">FOIA</a>
+      </nav>
+      <div class="footer__divider"></div>
+      <div class="footer__bottom">
+        An official website of the United States Government
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lenis Smooth Scroll -->
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script>
+    // Initialize Lenis Smooth Scroll
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: function(t) { return Math.min(1, 1.001 - Math.pow(2, -10 * t)); },
+      orientation: 'vertical',
+      smoothWheel: true,
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+
+    // Intersection Observer for fade-in animations
+    var observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry, index) {
+        if (entry.isIntersecting) {
+          setTimeout(function() {
+            entry.target.classList.add('visible');
+          }, index * 100);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-in').forEach(function(el) {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>

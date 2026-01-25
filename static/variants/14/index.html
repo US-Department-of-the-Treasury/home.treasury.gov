@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. Department of the Treasury - A Golden Age for American Prosperity</title>
+    <meta name="description" content="Under Secretary Scott Bessent's leadership, the Treasury Department is building a new golden age for American prosperity.">
+
+    <!-- Fonts: Playfair Display + Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* =======================================================================
+           VARIANT 14: REFINED MINIMAL
+           Fewer sections, more whitespace. Quality over quantity.
+           ======================================================================= */
+
+        :root {
+            /* Brand Colors - From Treasury Brand Guidelines */
+            --navy-900: #0B122C;
+            --navy-800: #0f1735;
+            --navy-700: #141F4D;
+
+            --gold: #FFBD00;
+            --gold-muted: #FFD666;
+            --gold-dark: #B8952B;
+
+            --stone: #E8E6E0;
+            --charcoal: #293340;
+
+            --white-95: rgba(255, 255, 255, 0.95);
+            --white-85: rgba(255, 255, 255, 0.85);
+            --white-70: rgba(255, 255, 255, 0.70);
+            --white-50: rgba(255, 255, 255, 0.50);
+
+            /* Typography */
+            --font-serif: 'Playfair Display', Georgia, serif;
+            --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+            /* Transitions */
+            --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Reset */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Lenis smooth scroll - REQUIRED */
+        html.lenis, html.lenis body {
+            height: auto;
+        }
+        .lenis.lenis-smooth {
+            scroll-behavior: auto !important;
+        }
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain;
+        }
+        .lenis.lenis-stopped {
+            overflow: hidden;
+        }
+
+        html {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--charcoal);
+            background: var(--navy-900);
+            overflow-x: hidden;
+        }
+
+        /* =======================================================================
+           SECTION 1: GOLDEN AGE HERO - Refined & Elegant
+           ======================================================================= */
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 6rem 2rem;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(180deg, var(--navy-900) 0%, var(--navy-800) 100%);
+        }
+
+        /* Subtle radial glow */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(ellipse 70% 40% at 50% 20%, rgba(255, 189, 0, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse 50% 30% at 30% 70%, rgba(20, 31, 77, 0.4) 0%, transparent 50%),
+                radial-gradient(ellipse 40% 25% at 70% 80%, rgba(20, 31, 77, 0.3) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        /* Treasury seal watermark */
+        .hero__seal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 600px;
+            opacity: 0.025;
+            pointer-events: none;
+        }
+
+        .hero__seal svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero__content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+        }
+
+        /* Establishment badge */
+        .hero__badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.625rem 1.75rem;
+            background: rgba(255, 189, 0, 0.08);
+            border: 1px solid rgba(255, 189, 0, 0.25);
+            border-radius: 100px;
+            margin-bottom: 2.5rem;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeUp 0.8s var(--ease-smooth) 0.2s forwards;
+        }
+
+        .hero__badge-line {
+            width: 32px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        }
+
+        .hero__badge-text {
+            font-family: var(--font-serif);
+            font-size: 0.875rem;
+            font-style: italic;
+            color: var(--gold);
+            letter-spacing: 0.05em;
+        }
+
+        /* Main headline */
+        .hero__title {
+            font-family: var(--font-serif);
+            font-size: clamp(2.75rem, 7vw, 4.5rem);
+            font-weight: 400;
+            line-height: 1.1;
+            color: var(--white-95);
+            margin-bottom: 2rem;
+            letter-spacing: -0.01em;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeUp 0.8s var(--ease-smooth) 0.35s forwards;
+        }
+
+        .hero__title .highlight {
+            background: linear-gradient(
+                135deg,
+                var(--gold-muted),
+                var(--gold),
+                var(--gold-dark),
+                var(--gold),
+                var(--gold-muted)
+            );
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-style: italic;
+            animation: shimmer 5s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { background-position: 0% center; }
+            50% { background-position: 100% center; }
+        }
+
+        /* Subtitle */
+        .hero__subtitle {
+            font-family: var(--font-sans);
+            font-size: 1.125rem;
+            font-weight: 400;
+            line-height: 1.8;
+            color: var(--white-70);
+            max-width: 580px;
+            margin: 0 auto 3rem;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeUp 0.8s var(--ease-smooth) 0.5s forwards;
+        }
+
+        /* CTA Button */
+        .hero__cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2.25rem;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            color: var(--navy-900);
+            text-decoration: none;
+            font-family: var(--font-sans);
+            font-size: 0.9375rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            border-radius: 100px;
+            transition: all 0.3s var(--ease-smooth);
+            box-shadow: 0 4px 24px rgba(255, 189, 0, 0.25);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeUp 0.8s var(--ease-smooth) 0.65s forwards;
+        }
+
+        .hero__cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(255, 189, 0, 0.4);
+        }
+
+        .hero__cta svg {
+            width: 18px;
+            height: 18px;
+            transition: transform 0.3s var(--ease-smooth);
+        }
+
+        .hero__cta:hover svg {
+            transform: translateX(4px);
+        }
+
+        /* Scroll indicator */
+        .hero__scroll {
+            position: absolute;
+            bottom: 3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+            opacity: 0;
+            animation: fadeIn 1s var(--ease-smooth) 1.2s forwards;
+        }
+
+        .hero__scroll-text {
+            font-family: var(--font-sans);
+            font-size: 0.6875rem;
+            font-weight: 500;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--white-50);
+        }
+
+        .hero__scroll-line {
+            width: 1px;
+            height: 48px;
+            background: linear-gradient(180deg, var(--gold), transparent);
+            animation: scrollPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes scrollPulse {
+            0%, 100% { opacity: 1; height: 48px; }
+            50% { opacity: 0.5; height: 32px; }
+        }
+
+        /* =======================================================================
+           SECTION 2: ACHIEVEMENTS - Clean Metrics
+           ======================================================================= */
+
+        .achievements {
+            padding: 8rem 2rem;
+            background: var(--stone);
+            position: relative;
+        }
+
+        /* Elegant transition line */
+        .achievements::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1px;
+            height: 80px;
+            background: linear-gradient(180deg, var(--navy-800), var(--gold), transparent);
+        }
+
+        .achievements__container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .achievements__header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .achievements__label {
+            font-family: var(--font-sans);
+            font-size: 0.6875rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold-dark);
+            margin-bottom: 1rem;
+        }
+
+        .achievements__title {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            font-weight: 400;
+            color: var(--charcoal);
+            line-height: 1.2;
+        }
+
+        /* Metric cards grid */
+        .achievements__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .metric {
+            text-align: center;
+            padding: 2.5rem 1.5rem;
+            background: white;
+            border: 1px solid rgba(41, 51, 64, 0.08);
+            border-radius: 4px;
+            transition: all 0.4s var(--ease-smooth);
+        }
+
+        .metric:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(11, 18, 44, 0.08);
+            border-color: var(--gold);
+        }
+
+        .metric__value {
+            font-family: var(--font-serif);
+            font-size: 3rem;
+            font-weight: 500;
+            color: var(--navy-900);
+            line-height: 1;
+            margin-bottom: 0.75rem;
+        }
+
+        .metric__label {
+            font-family: var(--font-sans);
+            font-size: 0.8125rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--charcoal);
+            margin-bottom: 0.5rem;
+        }
+
+        .metric__context {
+            font-family: var(--font-sans);
+            font-size: 0.8125rem;
+            color: rgba(41, 51, 64, 0.6);
+        }
+
+        /* =======================================================================
+           SECTION 3: QUOTE - Elegant & Minimal
+           ======================================================================= */
+
+        .quote-section {
+            padding: 8rem 2rem;
+            background: linear-gradient(180deg, var(--navy-800) 0%, var(--navy-900) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Subtle glow */
+        .quote-section::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 400px;
+            background: radial-gradient(ellipse, rgba(255, 189, 0, 0.04) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .quote__container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .quote__mark {
+            font-family: var(--font-serif);
+            font-size: 10rem;
+            line-height: 0.5;
+            background: linear-gradient(135deg, var(--gold-muted), var(--gold), var(--gold-dark));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            opacity: 0.3;
+            margin-bottom: -1.5rem;
+        }
+
+        .quote__text {
+            font-family: var(--font-serif);
+            font-size: clamp(1.375rem, 3vw, 2rem);
+            font-style: italic;
+            font-weight: 400;
+            line-height: 1.6;
+            color: var(--white-95);
+            margin-bottom: 2.5rem;
+        }
+
+        .quote__attribution {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.25rem;
+        }
+
+        .quote__attribution-line {
+            width: 3rem;
+            height: 1px;
+            background: var(--gold);
+            opacity: 0.5;
+        }
+
+        .quote__author {
+            font-family: var(--font-sans);
+            font-size: 0.8125rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        /* =======================================================================
+           SECTION 4: FOOTER - Simple & Elegant
+           ======================================================================= */
+
+        .footer {
+            padding: 4rem 2rem;
+            background: var(--navy-900);
+            border-top: 1px solid rgba(255, 189, 0, 0.1);
+            text-align: center;
+        }
+
+        .footer__seal {
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(255, 189, 0, 0.2);
+        }
+
+        .footer__seal-letter {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--navy-900);
+        }
+
+        .footer__name {
+            font-family: var(--font-serif);
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--white-95);
+            margin-bottom: 0.5rem;
+        }
+
+        .footer__tagline {
+            font-family: var(--font-sans);
+            font-size: 0.8125rem;
+            color: var(--white-50);
+            margin-bottom: 2rem;
+        }
+
+        .footer__divider {
+            width: 48px;
+            height: 1px;
+            background: var(--gold);
+            margin: 0 auto 2rem;
+            opacity: 0.4;
+        }
+
+        .footer__links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer__link {
+            font-family: var(--font-sans);
+            font-size: 0.8125rem;
+            color: var(--white-70);
+            text-decoration: none;
+            transition: color 0.2s var(--ease-smooth);
+        }
+
+        .footer__link:hover {
+            color: var(--gold);
+        }
+
+        .footer__legal {
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            color: var(--white-50);
+        }
+
+        /* =======================================================================
+           ANIMATIONS
+           ======================================================================= */
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Scroll-triggered animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.7s var(--ease-smooth), transform 0.7s var(--ease-smooth);
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* =======================================================================
+           RESPONSIVE
+           ======================================================================= */
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 4rem 1.5rem;
+            }
+
+            .hero__badge {
+                padding: 0.5rem 1.25rem;
+                gap: 0.75rem;
+            }
+
+            .hero__badge-line {
+                width: 20px;
+            }
+
+            .hero__badge-text {
+                font-size: 0.8125rem;
+            }
+
+            .hero__subtitle {
+                font-size: 1rem;
+            }
+
+            .achievements {
+                padding: 5rem 1.5rem;
+            }
+
+            .achievements__grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                max-width: 360px;
+                margin: 0 auto;
+            }
+
+            .metric {
+                padding: 2rem 1.25rem;
+            }
+
+            .metric__value {
+                font-size: 2.5rem;
+            }
+
+            .quote-section {
+                padding: 5rem 1.5rem;
+            }
+
+            .quote__mark {
+                font-size: 6rem;
+            }
+
+            .footer__links {
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- SECTION 1: GOLDEN AGE HERO -->
+    <section class="hero">
+        <!-- Treasury seal watermark -->
+        <div class="hero__seal" aria-hidden="true">
+            <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="95" stroke="#FFBD00" stroke-width="0.5"/>
+                <circle cx="100" cy="100" r="80" stroke="#FFBD00" stroke-width="0.4"/>
+                <circle cx="100" cy="100" r="65" stroke="#FFBD00" stroke-width="0.3"/>
+                <polygon points="100,30 106,50 127,50 110,62 116,82 100,70 84,82 90,62 73,50 94,50" fill="#FFBD00" opacity="0.5"/>
+                <text x="100" y="120" text-anchor="middle" font-family="Playfair Display, serif" font-size="18" fill="#FFBD00" opacity="0.5">1789</text>
+            </svg>
+        </div>
+
+        <div class="hero__content">
+            <div class="hero__badge">
+                <span class="hero__badge-line"></span>
+                <span class="hero__badge-text">A New Chapter Begins</span>
+                <span class="hero__badge-line"></span>
+            </div>
+
+            <h1 class="hero__title">
+                A <span class="highlight">Golden Age</span><br>
+                for American Prosperity
+            </h1>
+
+            <p class="hero__subtitle">
+                The Treasury Department is committed to maintaining a strong economy,
+                protecting America's financial security, and delivering results
+                for working families.
+            </p>
+
+            <a href="/about/general-information/officials/scott-bessent" class="hero__cta">
+                <span>Meet the Secretary</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="hero__scroll">
+            <span class="hero__scroll-text">Scroll</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: ACHIEVEMENTS -->
+    <section class="achievements">
+        <div class="achievements__container">
+            <header class="achievements__header fade-in">
+                <p class="achievements__label">Treasury in Action</p>
+                <h2 class="achievements__title">Protecting America's Financial Security</h2>
+            </header>
+
+            <div class="achievements__grid">
+                <article class="metric fade-in">
+                    <div class="metric__value">47</div>
+                    <div class="metric__label">Sanctions Actions</div>
+                    <p class="metric__context">This month</p>
+                </article>
+
+                <article class="metric fade-in">
+                    <div class="metric__value">5.5M</div>
+                    <div class="metric__label">Business Applications</div>
+                    <p class="metric__context">Record high</p>
+                </article>
+
+                <article class="metric fade-in">
+                    <div class="metric__value">$46.9M</div>
+                    <div class="metric__label">Community Investment</div>
+                    <p class="metric__context">SIPPRA awards</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: QUOTE -->
+    <section class="quote-section">
+        <div class="quote__container fade-in">
+            <div class="quote__mark" aria-hidden="true">"</div>
+            <blockquote class="quote__text">
+                The Treasury Department has an extraordinary opportunity to help build
+                a stronger, more prosperous America. We will be relentless in pursuing
+                policies that benefit working families and secure our nation's
+                financial future.
+            </blockquote>
+            <div class="quote__attribution">
+                <span class="quote__attribution-line"></span>
+                <cite class="quote__author">Secretary Scott Bessent</cite>
+                <span class="quote__attribution-line"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: FOOTER -->
+    <footer class="footer">
+        <div class="footer__seal">
+            <span class="footer__seal-letter">T</span>
+        </div>
+        <h3 class="footer__name">United States Department of the Treasury</h3>
+        <p class="footer__tagline">Serving America since 1789</p>
+        <div class="footer__divider"></div>
+        <nav class="footer__links" aria-label="Footer navigation">
+            <a href="/about/" class="footer__link">About</a>
+            <a href="/news/" class="footer__link">News</a>
+            <a href="/policy-issues/" class="footer__link">Policy</a>
+            <a href="/careers/" class="footer__link">Careers</a>
+            <a href="/contact/" class="footer__link">Contact</a>
+        </nav>
+        <p class="footer__legal">An official website of the United States Government</p>
+    </footer>
+
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script>
+        // Initialize Lenis smooth scroll
+        const lenis = new Lenis({
+            duration: 1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            orientation: 'vertical',
+            smoothWheel: true
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+
+        // Intersection Observer for scroll-triggered animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -40px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    // Stagger animations slightly
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, index * 80);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
