@@ -305,8 +305,11 @@ Options:
   --focus, -f           Focus on specific path prefix (e.g., /news/press-releases)
   --use-target-sitemap  Use target's sitemap for source URL discovery
   --skip-crawl          Skip crawling (use existing data)
+  --skip-source-crawl   Skip crawling source (only crawl target)
+  --skip-target-crawl   Skip crawling target (only crawl source)
   --skip-text           Skip text comparison
   --skip-visual         Skip visual comparison
+  --pages-only           Fast comparison using local crawl data (URL + text comparison, excludes assets)
 ```
 
 **Concurrency Options Explained:**
@@ -349,6 +352,57 @@ python mirror.py https://home.treasury.gov \
     --focus /news/press-releases \
     --skip-crawl \
     --workers 16 \
+    --output ./report
+```
+
+**Example - Pages-Only Comparison (URL + Text):**
+
+The `--pages-only` flag provides a lightweight comparison mode that:
+- Compares webpage URLs only (excludes PDFs, images, JS, CSS, etc.)
+- Uses local crawl data if available (very fast), otherwise fetches from sitemaps
+- Generates both URL comparison and text comparison reports
+- Uses `--workers` for parallel text comparison
+
+```bash
+# Compare pages using existing crawl data
+python mirror.py https://home.treasury.gov \
+    --target-url http://localhost:1313 \
+    --focus /news/press-releases \
+    --pages-only \
+    --workers 16 \
+    --output ./report
+```
+
+If no local crawl data exists, it fetches sitemaps. Use `--use-target-sitemap` to avoid CDN blocks:
+
+```bash
+# Fetch from sitemaps (use target sitemap to avoid source CDN block)
+python mirror.py https://home.treasury.gov \
+    --target-url http://localhost:1313 \
+    --pages-only \
+    --use-target-sitemap \
+    --focus /news/press-releases \
+    --output ./report
+```
+
+**Output structure:**
+```
+report/
+├── url_comparison.json          # URL set comparison data
+├── url_comparison.html          # URL comparison report
+├── missing_in_target.txt        # URLs to migrate
+├── missing_in_source.txt        # New URLs only on target
+└── text_comparison/
+    ├── text_comparison.json     # Text similarity data
+    └── text_comparison.html     # Text comparison report
+```
+
+**URL-only mode (skip text comparison):**
+```bash
+python mirror.py https://home.treasury.gov \
+    --target-url http://localhost:1313 \
+    --pages-only \
+    --skip-text \
     --output ./report
 ```
 
@@ -434,7 +488,25 @@ python mirror.py https://home.treasury.gov \
     --output ./report
 ```
 
-### 3. Crawl with Alternate Sitemap
+### 3. Pages-Only Comparison (Fast)
+
+Use `--pages-only` after crawling to quickly re-compare using local data:
+
+```bash
+# Uses local crawl data - very fast, parallel processing
+python mirror.py https://home.treasury.gov \
+    --target-url http://localhost:1313 \
+    --focus /news/press-releases \
+    --pages-only \
+    --workers 16 \
+    --output ./report
+```
+
+This generates both `url_comparison.*` and `text_comparison/` reports. Uses local crawl files if available, otherwise fetches from sitemaps.
+
+Add `--skip-text` to skip text comparison and only compare URL sets.
+
+### 4. Crawl with Alternate Sitemap
 
 When source site blocks sitemap access:
 
@@ -447,7 +519,7 @@ python crawler.py https://home.treasury.gov \
     --output ./crawl_source
 ```
 
-### 4. Visual Comparison Only
+### 5. Visual Comparison Only
 
 ```bash
 python visual_comparator.py \
@@ -458,7 +530,7 @@ python visual_comparator.py \
     --output ./visual_report
 ```
 
-### 5. Check Crawl State
+### 6. Check Crawl State
 
 ```bash
 # View crawl progress
@@ -471,7 +543,7 @@ print(f'Failed: {len(d[\"failed_urls\"])}')
 "
 ```
 
-### 6. Reset and Start Fresh
+### 7. Reset and Start Fresh
 
 ```bash
 # Delete crawl state to start over
