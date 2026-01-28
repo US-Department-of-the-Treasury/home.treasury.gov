@@ -1368,6 +1368,56 @@
                 <a href="#" class="btn-outline">Outline Button</a>
             </div>
 
+            <h4>Button States</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>State</th>
+                        <th>Primary</th>
+                        <th>Outline</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Default</strong></td>
+                        <td>Background: #FFBD00, Text: #0B122C</td>
+                        <td>Border: #FFBD00, Text: #FFBD00</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hover</strong></td>
+                        <td>Background: #FFD666</td>
+                        <td>Background: rgba(255,189,0,0.1)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Focus</strong></td>
+                        <td>Outline: 3px solid #0B122C, offset: 2px</td>
+                        <td>Outline: 3px solid #FFBD00, offset: 2px</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Active</strong></td>
+                        <td>Background: #B8952B</td>
+                        <td>Background: rgba(255,189,0,0.2)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Disabled</strong></td>
+                        <td>Opacity: 0.5, cursor: not-allowed</td>
+                        <td>Opacity: 0.5, cursor: not-allowed</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Button Code</h4>
+            <pre style="background: #1a1a2e; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.875rem;"><code>.btn-primary {
+  background: var(--treasury-gold);
+  color: var(--treasury-navy);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn-primary:hover { background: var(--treasury-gold-light); }
+.btn-primary:focus { outline: 3px solid var(--treasury-navy); }</code></pre>
+
             <h3>Cards</h3>
             <div class="card-example">
                 <p class="eyebrow">Press Release</p>
@@ -1375,8 +1425,77 @@
                 <p>Brief description of the card content goes here with supporting details.</p>
             </div>
 
+            <h4>Card States</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>State</th>
+                        <th>Style</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Default</strong></td>
+                        <td>Background: white, Border: 1px solid #e8e8e8, Shadow: 0 2px 8px rgba(0,0,0,0.06)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hover</strong></td>
+                        <td>Transform: translateY(-4px), Border: #FFBD00, Shadow: 0 8px 24px rgba(0,0,0,0.12)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Focus</strong></td>
+                        <td>Outline: 3px solid #0B122C, offset: 2px</td>
+                    </tr>
+                </tbody>
+            </table>
+
             <h3>Section Headers</h3>
             <p>All major sections use the eyebrow + heading + gold underline pattern for visual consistency.</p>
+
+            <h3>Breakpoints</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Breakpoint</th>
+                        <th>Width</th>
+                        <th>Typical Devices</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Mobile</strong></td>
+                        <td>0 - 599px</td>
+                        <td>Phones</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tablet</strong></td>
+                        <td>600px - 1023px</td>
+                        <td>Tablets, small laptops</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Desktop</strong></td>
+                        <td>1024px+</td>
+                        <td>Laptops, monitors</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wide</strong></td>
+                        <td>1400px+</td>
+                        <td>Large monitors</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Responsive Code</h4>
+            <pre style="background: #1a1a2e; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.875rem;"><code>/* Mobile first approach */
+.container { padding: 0 1rem; }
+
+@media (min-width: 600px) {
+  .container { padding: 0 1.5rem; }
+}
+
+@media (min-width: 1024px) {
+  .container { max-width: 1200px; margin: 0 auto; }
+}</code></pre>
 
             <h3>Spacing System</h3>
             <p>Treasury.gov uses an 8px grid system for consistent spacing:</p>
@@ -1389,14 +1508,28 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>xs</td><td>4px</td><td>Tight spacing</td></tr>
-                    <tr><td>sm</td><td>8px</td><td>Small gaps</td></tr>
-                    <tr><td>md</td><td>16px</td><td>Default spacing</td></tr>
-                    <tr><td>lg</td><td>24px</td><td>Section spacing</td></tr>
-                    <tr><td>xl</td><td>32px</td><td>Large gaps</td></tr>
-                    <tr><td>2xl</td><td>48px</td><td>Section padding</td></tr>
+                    <tr><td>xs</td><td>4px</td><td>Tight spacing, icon gaps</td></tr>
+                    <tr><td>sm</td><td>8px</td><td>Small gaps, inline elements</td></tr>
+                    <tr><td>md</td><td>16px</td><td>Default spacing, list items</td></tr>
+                    <tr><td>lg</td><td>24px</td><td>Section spacing, card padding</td></tr>
+                    <tr><td>xl</td><td>32px</td><td>Large gaps, section margins</td></tr>
+                    <tr><td>2xl</td><td>48px</td><td>Major section padding</td></tr>
+                    <tr><td>3xl</td><td>64px</td><td>Hero spacing</td></tr>
+                    <tr><td>4xl</td><td>96px</td><td>Section separators</td></tr>
                 </tbody>
             </table>
+
+            <h4>Spacing Code</h4>
+            <pre style="background: #1a1a2e; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.875rem;"><code>:root {
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+}</code></pre>
         </div>
     </section>
 
