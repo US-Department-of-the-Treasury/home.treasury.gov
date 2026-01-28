@@ -7,15 +7,26 @@
    CSS Variables
    ============================================ */
 :root {
-  /* Treasury official colors - matched to live site */
-  --treasury-navy: #0050b4;        /* Main header background */
-  --treasury-navy-dark: #002d72;   /* Nav bar background (darker) */
-  --treasury-navy-light: #1a4480;  /* Links and accents */
-  --treasury-gold: #ffbe2e;
-  --treasury-gold-dark: #e5a000;
+  /* Treasury Brand Colors - Navy + Gold unified system */
+  --treasury-navy: #0B122C;        /* Primary navy (NDS-aligned) */
+  --treasury-navy-dark: #0f1735;   /* Nav bar background */
+  --treasury-navy-light: #141F4D;  /* Links and accents */
+  --treasury-navy-900: #0B122C;
+  --treasury-navy-800: #0f1735;
+  --treasury-navy-700: #141F4D;
+
+  /* Gold spectrum */
+  --treasury-gold: #FFBD00;        /* Primary gold */
+  --treasury-gold-light: #FFD666;  /* Muted gold */
+  --treasury-gold-dark: #B8952B;   /* Dark gold */
+  --treasury-gold-accessible: #806000; /* Accessible on light backgrounds (4.5:1) */
+
   --treasury-green: #2e8540;
-  --treasury-alert-blue: #0071bc;  /* Alert banner blue */
-  
+  --treasury-alert-blue: #0071bc;
+
+  /* Neutrals */
+  --stone: #E8E6E0;
+  --charcoal: #293340;
   --gray-100: #f5f5f5;
   --gray-200: #e8e8e8;
   --gray-300: #d0d0d0;
@@ -25,10 +36,12 @@
   --gray-700: #454545;
   --gray-800: #2e2e2e;
   --gray-900: #1b1b1b;
-  
-  --font-heading: 'Merriweather', Georgia, serif;
-  --font-body: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  
+
+  /* Typography - Playfair Display + Inter */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+
   --container-max: 1400px;
 }
 
@@ -370,10 +383,10 @@ textarea:focus-visible,
 }
 
 .logo-text {
-  font-family: 'Cormorant Garamond', 'Georgia', serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.625rem;
   font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
 }
 
 /* Main Nav - Full Width, Sticky */

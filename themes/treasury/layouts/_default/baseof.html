@@ -20,14 +20,10 @@
   {{- end }}
   <meta property="og:site_name" content="{{ site.Title }}">
   
-  <!-- Fonts - self-hosted (no external CDN dependency) -->
-  {{- $fonts := resources.Get "css/fonts.css" }}
-  {{- $fonts = $fonts | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $fonts.RelPermalink }}">
-  
-  <!-- Preload critical fonts -->
-  <link rel="preload" href="/fonts/source-sans-pro-400.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/merriweather-700.woff2" as="font" type="font/woff2" crossorigin>
+  <!-- Treasury Brand Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
   
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
