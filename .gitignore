@@ -60,3 +60,6 @@ blob-report/
 .playwright-mcp/
 .dev-ports
 .worktrees
+
+# Evidence/screenshots from testing
+evidence/
