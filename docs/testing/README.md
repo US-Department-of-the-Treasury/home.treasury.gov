@@ -55,7 +55,7 @@ Tests run against these URLs:
 ```bash
 npm run test:staging
 # Or explicitly:
-BASE_URL=https://d216skv4tzbpyp.cloudfront.net npx playwright test
+BASE_URL=https://stg2.treasury.gov npx playwright test
 ```
 
 ### Against Local Hugo Server
