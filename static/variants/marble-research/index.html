@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marble Texture Research: CSS vs SVG vs Real Marble</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        h1 { margin-bottom: 1rem; color: #D4AF37; }
+        h2 { margin: 2rem 0 1rem; color: #ccc; font-size: 1.25rem; }
+        h3 { margin: 1rem 0 0.5rem; color: #888; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.1em; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .sample {
+            background: #222;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .sample__preview {
+            height: 200px;
+            position: relative;
+        }
+
+        .sample__info {
+            padding: 1rem;
+        }
+
+        .sample__title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .sample__desc {
+            font-size: 0.875rem;
+            color: #888;
+        }
+
+        .verdict {
+            padding: 1rem;
+            background: rgba(212, 175, 55, 0.1);
+            border-left: 3px solid #D4AF37;
+            margin: 1rem 0;
+        }
+
+        .verdict--bad {
+            background: rgba(255, 100, 100, 0.1);
+            border-color: #f66;
+        }
+
+        .verdict--good {
+            background: rgba(100, 255, 100, 0.1);
+            border-color: #6f6;
+        }
+
+        pre {
+            background: #111;
+            padding: 1rem;
+            overflow-x: auto;
+            font-size: 0.75rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+
+        /* =================================================================
+           TECHNIQUE 1: CSS Gradients (Current Approach) - GEOMETRIC
+           ================================================================= */
+        .marble-css-gradients {
+            background:
+                /* This creates GEOMETRIC lines, not organic veins */
+                linear-gradient(135deg,
+                    transparent 0%,
+                    rgba(180, 160, 140, 0.03) 25%,
+                    transparent 50%,
+                    rgba(180, 160, 140, 0.05) 75%,
+                    transparent 100%),
+                linear-gradient(45deg,
+                    transparent 0%,
+                    rgba(160, 140, 120, 0.02) 35%,
+                    transparent 65%),
+                linear-gradient(225deg,
+                    transparent 10%,
+                    rgba(170, 150, 130, 0.03) 45%,
+                    transparent 80%),
+                #F5F3EE;
+            background-size: 100% 100%;
+        }
+
+        /* =================================================================
+           TECHNIQUE 2: SVG feTurbulence - ORGANIC (Best Approach)
+           ================================================================= */
+        .marble-svg-turbulence {
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cdefs%3E%3Cfilter id='marble' x='0' y='0' width='100%25' height='100%25'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.02 0.08' numOctaves='4' seed='5' result='noise'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.96 0 0 0 0 0.94 0 0 0 0 0.90 0 0 0 1 0' result='cream'/%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.008 0.04' numOctaves='3' seed='15' result='veins'/%3E%3CfeColorMatrix in='veins' type='matrix' values='0 0 0 0 0.65 0 0 0 0 0.55 0 0 0 0 0.50 0 0 0 0.15 0' result='veinColor'/%3E%3CfeMerge%3E%3CfeMergeNode in='cream'/%3E%3CfeMergeNode in='veinColor'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Crect width='100%25' height='100%25' filter='url(%23marble)'/%3E%3C/svg%3E");
+            background-size: cover;
+        }
+
+        /* =================================================================
+           TECHNIQUE 3: Advanced SVG with Displacement Map - MOST REALISTIC
+           ================================================================= */
+        .marble-svg-advanced {
+            /* This is rendered via inline SVG below */
+        }
+
+        /* =================================================================
+           TECHNIQUE 4: Layered Noise with Color Mapping
+           ================================================================= */
+        .marble-svg-layered {
+            /* Rendered via inline SVG */
+        }
+
+        /* Performance test container */
+        .perf-test {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 4px;
+            padding: 1rem;
+            background: #111;
+            border-radius: 8px;
+        }
+
+        .perf-test__cell {
+            aspect-ratio: 1;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS/SVG Marble Texture Research</h1>
+
+    <div class="verdict">
+        <strong>TLDR:</strong> Yes, SVG feTurbulence CAN create realistic marble.
+        CSS gradients cannot. For static backgrounds, SVG filters work well.
+        For scrolling/animated contexts, pre-render to a static image.
+    </div>
+
+    <h2>Side-by-Side Comparison</h2>
+
+    <div class="grid">
+        <!-- Technique 1: CSS Gradients -->
+        <div class="sample">
+            <div class="sample__preview marble-css-gradients"></div>
+            <div class="sample__info">
+                <div class="sample__title">CSS Linear Gradients (Current)</div>
+                <div class="sample__desc">Creates geometric, predictable lines. NOT marble-like. Just parallel stripes.</div>
+                <div class="verdict verdict--bad">VERDICT: Cannot create realistic marble</div>
+            </div>
+        </div>
+
+        <!-- Technique 2: Basic SVG feTurbulence -->
+        <div class="sample">
+            <div class="sample__preview marble-svg-turbulence"></div>
+            <div class="sample__info">
+                <div class="sample__title">SVG feTurbulence (Basic)</div>
+                <div class="sample__desc">Uses Perlin noise with different X/Y frequencies to create organic vein patterns.</div>
+                <div class="verdict verdict--good">VERDICT: Organic, marble-like patterns</div>
+            </div>
+        </div>
+
+        <!-- Technique 3: Advanced with displacement -->
+        <div class="sample">
+            <div class="sample__preview" style="background: #F5F3EE;">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="marble-advanced" x="0" y="0" width="100%" height="100%">
+                            <!-- Base cream texture -->
+                            <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" seed="1" result="baseNoise"/>
+                            <feColorMatrix type="matrix"
+                                values="0 0 0 0 0.96
+                                        0 0 0 0 0.94
+                                        0 0 0 0 0.91
+                                        0 0 0 1 0"
+                                result="cream"/>
+
+                            <!-- Vein structure - low X freq, high Y freq for horizontal flow -->
+                            <feTurbulence type="fractalNoise" baseFrequency="0.003 0.02" numOctaves="3" seed="42" result="veinNoise"/>
+
+                            <!-- Displacement for organic flow -->
+                            <feDisplacementMap in="veinNoise" in2="baseNoise" scale="30" xChannelSelector="R" yChannelSelector="G" result="displaced"/>
+
+                            <!-- Color the veins gray-brown -->
+                            <feColorMatrix in="displaced" type="matrix"
+                                values="0.3 0 0 0 0.4
+                                        0.3 0 0 0 0.35
+                                        0.3 0 0 0 0.32
+                                        0 0 0 0.12 0"
+                                result="veinColor"/>
+
+                            <!-- Composite veins over cream base -->
+                            <feMerge>
+                                <feMergeNode in="cream"/>
+                                <feMergeNode in="veinColor"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <rect width="100%" height="100%" filter="url(#marble-advanced)"/>
+                </svg>
+            </div>
+            <div class="sample__info">
+                <div class="sample__title">SVG + feDisplacementMap (Advanced)</div>
+                <div class="sample__desc">Uses displacement mapping to create flowing, organic vein patterns that branch naturally.</div>
+                <div class="verdict verdict--good">VERDICT: Most realistic marble effect</div>
+            </div>
+        </div>
+
+        <!-- Technique 4: High contrast veins -->
+        <div class="sample">
+            <div class="sample__preview" style="background: #F5F3EE;">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="marble-veiny" x="0" y="0" width="100%" height="100%">
+                            <!-- Cream base with subtle variation -->
+                            <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="5" seed="123" result="baseNoise"/>
+                            <feColorMatrix type="matrix"
+                                values="0.02 0 0 0 0.95
+                                        0.02 0 0 0 0.93
+                                        0.02 0 0 0 0.89
+                                        0 0 0 1 0"
+                                result="cream"/>
+
+                            <!-- Primary veins - stretched horizontally -->
+                            <feTurbulence type="turbulence" baseFrequency="0.004 0.025" numOctaves="2" seed="7" result="vein1"/>
+
+                            <!-- Secondary smaller veins -->
+                            <feTurbulence type="fractalNoise" baseFrequency="0.015 0.08" numOctaves="3" seed="99" result="vein2"/>
+
+                            <!-- Combine veins -->
+                            <feBlend in="vein1" in2="vein2" mode="multiply" result="combinedVeins"/>
+
+                            <!-- Map to gray-brown color with sharp threshold -->
+                            <feColorMatrix in="combinedVeins" type="matrix"
+                                values="0.15 0.15 0.15 0 0.35
+                                        0.12 0.12 0.12 0 0.30
+                                        0.10 0.10 0.10 0 0.28
+                                        0.5 0 0 0 -0.15"
+                                result="veinColor"/>
+
+                            <feMerge>
+                                <feMergeNode in="cream"/>
+                                <feMergeNode in="veinColor"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <rect width="100%" height="100%" filter="url(#marble-veiny)"/>
+                </svg>
+            </div>
+            <div class="sample__info">
+                <div class="sample__title">Multi-layer Veins (Carrara Style)</div>
+                <div class="sample__desc">Combines multiple turbulence layers with blending for complex vein networks.</div>
+                <div class="verdict verdict--good">VERDICT: Good for dramatic marble</div>
+            </div>
+        </div>
+    </div>
+
+    <h2>The Key Insight: Asymmetric baseFrequency</h2>
+
+    <p style="margin: 1rem 0; color: #aaa;">
+        Real marble veins flow in one direction with variation. The secret is using
+        <strong>different X and Y frequencies</strong>: <code>baseFrequency="0.003 0.02"</code>
+        creates horizontal flow with vertical variation.
+    </p>
+
+    <div class="grid">
+        <div class="sample">
+            <div class="sample__preview" style="background: #F5F3EE;">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="symmetric">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3"/>
+                            <feColorMatrix type="matrix" values="0.2 0 0 0 0.7  0.2 0 0 0 0.65  0.2 0 0 0 0.6  0 0 0 0.3 0"/>
+                        </filter>
+                    </defs>
+                    <rect width="100%" height="100%" fill="#F5F3EE"/>
+                    <rect width="100%" height="100%" filter="url(#symmetric)"/>
+                </svg>
+            </div>
+            <div class="sample__info">
+                <div class="sample__title">Symmetric: baseFrequency="0.02"</div>
+                <div class="sample__desc">Looks like clouds or mottled stone, not marble veins.</div>
+            </div>
+        </div>
+
+        <div class="sample">
+            <div class="sample__preview" style="background: #F5F3EE;">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="asymmetric">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.005 0.03" numOctaves="3"/>
+                            <feColorMatrix type="matrix" values="0.2 0 0 0 0.7  0.2 0 0 0 0.65  0.2 0 0 0 0.6  0 0 0 0.3 0"/>
+                        </filter>
+                    </defs>
+                    <rect width="100%" height="100%" fill="#F5F3EE"/>
+                    <rect width="100%" height="100%" filter="url(#asymmetric)"/>
+                </svg>
+            </div>
+            <div class="sample__info">
+                <div class="sample__title">Asymmetric: baseFrequency="0.005 0.03"</div>
+                <div class="sample__desc">Creates directional veins that look like marble!</div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Performance Considerations</h2>
+
+    <div class="verdict">
+        <strong>Performance Reality:</strong>
+        <ul style="margin: 0.5rem 0 0 1.5rem; color: #aaa;">
+            <li><strong>Static backgrounds:</strong> SVG filters compute ONCE, then cached. Minimal impact.</li>
+            <li><strong>Scrolling contexts:</strong> If the element moves/transforms during scroll, browser may re-render. AVOID.</li>
+            <li><strong>Animation:</strong> Never animate feTurbulence. Pre-render instead.</li>
+            <li><strong>numOctaves:</strong> Keep at 3-5. Higher values = exponentially slower.</li>
+        </ul>
+    </div>
+
+    <h3>Performance Test: 100 Cells with SVG Filter</h3>
+    <div class="perf-test" id="perfTest">
+        <!-- JS will populate -->
+    </div>
+    <p id="perfResult" style="margin-top: 0.5rem; color: #888; font-size: 0.875rem;"></p>
+
+    <h2>Best Practice: Pre-rendered Data URI</h2>
+
+    <p style="margin: 1rem 0; color: #aaa;">
+        For production, embed the SVG as a data URI. This way it's computed once
+        and cached as a background image:
+    </p>
+
+    <pre><code>.marble-background {
+    /* Inline SVG as data URI - computed once, cached */
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600'%3E%3Cdefs%3E%3Cfilter id='m'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.004 0.02' numOctaves='4' seed='42'/%3E%3CfeColorMatrix type='matrix' values='0.15 0 0 0 0.82  0.12 0 0 0 0.78  0.10 0 0 0 0.74  0 0 0 0.2 0'/%3E%3C/filter%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='%23F5F3EE'/%3E%3Crect width='100%25' height='100%25' filter='url(%23m)'/%3E%3C/svg%3E");
+    background-size: cover;
+}</code></pre>
+
+    <h2>CSS Houdini Paint API (Alternative)</h2>
+
+    <div class="verdict verdict--bad">
+        <strong>NOT RECOMMENDED:</strong> CSS Paint API has only ~70% browser support
+        (missing Safari and Firefox). Use SVG filters instead for universal support.
+    </div>
+
+    <h2>Recommended Implementation for Treasury Site</h2>
+
+    <pre><code>/* 1. Define SVG filter inline in HTML (in &lt;defs&gt;) */
+&lt;svg width="0" height="0" style="position: absolute;"&gt;
+    &lt;defs&gt;
+        &lt;filter id="marble-texture" x="0" y="0" width="100%" height="100%"&gt;
+            &lt;!-- Cream base --&gt;
+            &lt;feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" seed="1" result="base"/&gt;
+            &lt;feColorMatrix type="matrix"
+                values="0.02 0 0 0 0.95
+                        0.02 0 0 0 0.93
+                        0.02 0 0 0 0.89
+                        0 0 0 1 0" result="cream"/&gt;
+
+            &lt;!-- Veins - asymmetric frequency for directional flow --&gt;
+            &lt;feTurbulence type="fractalNoise" baseFrequency="0.004 0.025" numOctaves="3" seed="42" result="veins"/&gt;
+            &lt;feColorMatrix in="veins" type="matrix"
+                values="0.15 0 0 0 0.45
+                        0.12 0 0 0 0.40
+                        0.10 0 0 0 0.38
+                        0.4 0 0 0 -0.1" result="veinColor"/&gt;
+
+            &lt;feMerge&gt;
+                &lt;feMergeNode in="cream"/&gt;
+                &lt;feMergeNode in="veinColor"/&gt;
+            &lt;/feMerge&gt;
+        &lt;/filter&gt;
+    &lt;/defs&gt;
+&lt;/svg&gt;
+
+/* 2. Apply to static sections (NOT scrolling elements) */
+.achievements {
+    position: relative;
+}
+
+.achievements::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    filter: url(#marble-texture);
+    /* OR use pre-rendered image for scroll performance */
+    pointer-events: none;
+}</code></pre>
+
+    <h2>Final Verdict</h2>
+
+    <div class="verdict verdict--good">
+        <strong>CSS can create realistic marble using SVG feTurbulence filters.</strong><br><br>
+
+        <strong>The technique:</strong>
+        <ol style="margin: 0.5rem 0 0 1.5rem; color: #aaa;">
+            <li>Use <code>type="fractalNoise"</code> for smooth organic patterns</li>
+            <li>Use asymmetric <code>baseFrequency="X Y"</code> where X &lt; Y for flowing veins</li>
+            <li>Layer multiple turbulence passes for complex vein networks</li>
+            <li>Use <code>feColorMatrix</code> to map noise to marble colors</li>
+            <li>For scroll performance: pre-render to static image or use only on non-animated elements</li>
+        </ol>
+    </div>
+
+    <script>
+        // Performance test: render 100 SVG filter cells
+        const perfTest = document.getElementById('perfTest');
+        const perfResult = document.getElementById('perfResult');
+
+        const start = performance.now();
+
+        const svgDataUri = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cdefs%3E%3Cfilter id='m'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.005 0.03' numOctaves='3'/%3E%3CfeColorMatrix type='matrix' values='0.15 0 0 0 0.82 0.12 0 0 0 0.78 0.10 0 0 0 0.74 0 0 0 0.2 0'/%3E%3C/filter%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='%23F5F3EE'/%3E%3Crect width='100%25' height='100%25' filter='url(%23m)'/%3E%3C/svg%3E";
+
+        for (let i = 0; i < 100; i++) {
+            const cell = document.createElement('div');
+            cell.className = 'perf-test__cell';
+            cell.style.backgroundImage = `url("${svgDataUri}")`;
+            perfTest.appendChild(cell);
+        }
+
+        // Measure after paint
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                const end = performance.now();
+                perfResult.textContent = `100 SVG filter cells rendered in ${(end - start).toFixed(1)}ms. Each cell is cached after first render.`;
+            });
+        });
+    </script>
+</body>
+</html>
