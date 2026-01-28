@@ -596,6 +596,45 @@
             h1 { font-size: 2.5rem; }
             .cover h1 { font-size: 2.5rem; }
         }
+
+        /* Marble Textures */
+        .marble-carrara {
+            background-color: #faf8f5;
+            background-image:
+                linear-gradient(125deg, transparent 20%, rgba(180,175,165,0.12) 20.5%, rgba(180,175,165,0.12) 21%, transparent 21.5%, transparent 50%, rgba(160,155,145,0.1) 50.5%, rgba(160,155,145,0.1) 51%, transparent 51.5%, transparent 80%, rgba(170,165,155,0.08) 80.5%, rgba(170,165,155,0.08) 81%, transparent 81.5%),
+                linear-gradient(45deg, transparent 35%, rgba(190,185,175,0.06) 35.5%, rgba(190,185,175,0.06) 36%, transparent 36.5%, transparent 70%, rgba(175,170,160,0.08) 70.5%, rgba(175,170,160,0.08) 71%, transparent 71.5%),
+                radial-gradient(ellipse at 30% 40%, rgba(245,242,235,0.5) 0%, transparent 50%),
+                radial-gradient(ellipse at 70% 60%, rgba(240,238,232,0.4) 0%, transparent 45%);
+            background-size: 800px 600px, 600px 800px, 100% 100%, 100% 100%;
+        }
+
+        .marble-treasury {
+            background-color: #faf8f4;
+            background-image:
+                repeating-linear-gradient(115deg, transparent, transparent 80px, rgba(200,190,170,0.05) 80px, rgba(200,190,170,0.05) 81px, transparent 81px, transparent 160px),
+                linear-gradient(135deg, transparent 25%, rgba(185,175,155,0.1) 25.3%, rgba(185,175,155,0.1) 25.6%, transparent 25.9%, transparent 55%, rgba(175,168,150,0.08) 55.3%, rgba(175,168,150,0.08) 55.6%, transparent 55.9%, transparent 85%, rgba(190,180,160,0.06) 85.3%, rgba(190,180,160,0.06) 85.6%, transparent 85.9%),
+                radial-gradient(ellipse 120% 80% at 20% 30%, rgba(248,243,230,0.6) 0%, transparent 40%),
+                radial-gradient(ellipse 100% 120% at 80% 70%, rgba(245,240,228,0.5) 0%, transparent 35%);
+            background-size: 400px 400px, 1000px 800px, 100% 100%, 100% 100%;
+        }
+
+        .marble-gold {
+            background-color: #faf8f5;
+            background-image:
+                linear-gradient(130deg, transparent 35%, rgba(212,175,55,0.06) 35.5%, rgba(212,175,55,0.08) 36%, rgba(212,175,55,0.06) 36.5%, transparent 37%, transparent 70%, rgba(212,175,55,0.05) 70.5%, rgba(212,175,55,0.07) 71%, rgba(212,175,55,0.05) 71.5%, transparent 72%),
+                linear-gradient(150deg, transparent 55%, rgba(185,175,160,0.12) 55.3%, rgba(185,175,160,0.12) 55.6%, transparent 55.9%),
+                radial-gradient(ellipse at 25% 35%, rgba(248,245,238,0.6) 0%, transparent 45%);
+            background-size: 1000px 800px, 800px 600px, 100% 100%;
+        }
+
+        .marble-gray {
+            background-color: #f5f5f3;
+            background-image:
+                linear-gradient(140deg, transparent 22%, rgba(165,165,170,0.1) 22.3%, rgba(160,160,165,0.12) 22.6%, rgba(165,165,170,0.1) 22.9%, transparent 23.2%, transparent 58%, rgba(155,155,160,0.08) 58.3%, rgba(150,150,155,0.1) 58.6%, rgba(155,155,160,0.08) 58.9%, transparent 59.2%),
+                repeating-linear-gradient(165deg, transparent, transparent 120px, rgba(175,175,180,0.03) 120px, rgba(175,175,180,0.03) 121px),
+                radial-gradient(ellipse at 60% 40%, rgba(250,250,248,0.5) 0%, transparent 45%);
+            background-size: 900px 700px, 500px 500px, 100% 100%;
+        }
     </style>
 </head>
 <body>
@@ -867,6 +906,83 @@
                 <li><strong>No infinite animations:</strong> Avoid perpetual motion that can cause discomfort</li>
                 <li><strong>Lenis smooth scroll:</strong> Disabled when reduced motion preferred</li>
             </ul>
+
+            <h3>Marble Textures</h3>
+            <p>CSS-only marble patterns for the Treasury Building aesthetic. Use instead of plain white/cream backgrounds to add depth and sophistication.</p>
+
+            <h4>Available Textures</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>Character</th>
+                        <th>Best For</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>.marble-treasury</code></td>
+                        <td>Warm cream with brown veins (Recommended)</td>
+                        <td>Primary light sections - most authentic "government building" feel</td>
+                    </tr>
+                    <tr>
+                        <td><code>.marble-carrara</code></td>
+                        <td>Subtle cream with gray veins</td>
+                        <td>Content-heavy sections where readability is paramount</td>
+                    </tr>
+                    <tr>
+                        <td><code>.marble-gold</code></td>
+                        <td>Cream with gold veining</td>
+                        <td>Hero sections, premium/featured content</td>
+                    </tr>
+                    <tr>
+                        <td><code>.marble-gray</code></td>
+                        <td>Cooler gray tones</td>
+                        <td>Data sections, technical content, variety</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Marble Texture Samples</h4>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin: 1.5rem 0;">
+                <div class="marble-treasury" style="padding: 2rem; border-radius: 8px; color: var(--charcoal);">
+                    <p style="font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: var(--gold); margin-bottom: 0.5rem;">Treasury Building</p>
+                    <p style="font-family: var(--font-serif); font-size: 1.25rem;">Recommended for light sections</p>
+                </div>
+                <div class="marble-carrara" style="padding: 2rem; border-radius: 8px; color: var(--charcoal);">
+                    <p style="font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: var(--gold); margin-bottom: 0.5rem;">Carrara</p>
+                    <p style="font-family: var(--font-serif); font-size: 1.25rem;">Subtle and versatile</p>
+                </div>
+                <div class="marble-gold" style="padding: 2rem; border-radius: 8px; color: var(--charcoal);">
+                    <p style="font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: var(--gold); margin-bottom: 0.5rem;">Gold Veined</p>
+                    <p style="font-family: var(--font-serif); font-size: 1.25rem;">Premium sections</p>
+                </div>
+                <div class="marble-gray" style="padding: 2rem; border-radius: 8px; color: var(--charcoal);">
+                    <p style="font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: #666; margin-bottom: 0.5rem;">Gray</p>
+                    <p style="font-family: var(--font-serif); font-size: 1.25rem;">Cooler alternative</p>
+                </div>
+            </div>
+
+            <h4>Usage Guidelines</h4>
+            <ul>
+                <li><strong>Alternate with navy:</strong> Marble sections work best when alternated with navy sections for visual rhythm</li>
+                <li><strong>Performance:</strong> All patterns use CSS gradients only (no images, no SVG filters) - safe for smooth scrolling</li>
+                <li><strong>Text contrast:</strong> Use Charcoal (#293340) text on marble backgrounds for accessibility</li>
+                <li><strong>Cards on marble:</strong> White cards with subtle shadows provide good contrast</li>
+            </ul>
+
+            <h4>CSS Implementation</h4>
+            <pre style="background: var(--navy-900); color: #f2f2f0; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.8125rem;"><code>.marble-treasury {
+  background-color: #faf8f4;
+  background-image:
+    repeating-linear-gradient(115deg, transparent, transparent 80px,
+      rgba(200,190,170,0.05) 80px, rgba(200,190,170,0.05) 81px),
+    linear-gradient(135deg, transparent 25%,
+      rgba(185,175,155,0.1) 25.3%, transparent 25.9%,
+      transparent 55%, rgba(175,168,150,0.08) 55.3%, transparent 55.9%),
+    radial-gradient(ellipse at 20% 30%, rgba(248,243,230,0.6) 0%, transparent 40%);
+  background-size: 400px 400px, 1000px 800px, 100% 100%;
+}</code></pre>
         </div>
     </section>
 
