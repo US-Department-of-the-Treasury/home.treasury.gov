@@ -15,12 +15,12 @@
   --treasury-navy-800: #0f1735;
   --treasury-navy-700: #141F4D;
 
-  /* Gold spectrum */
-  --treasury-gold: #FFBD00;        /* Primary gold */
-  --treasury-gold-light: #FFD666;  /* Muted gold */
-  --treasury-gold-dark: #B8952B;   /* Dark gold */
-  --treasury-gold-accessible: #806000; /* Accessible on white (4.5:1) */
-  --treasury-gold-accessible-on-stone: #705500; /* Accessible on stone #E8E6E0 (4.5:1) */
+  /* Gold spectrum - Metallic gold (warm, luxurious) */
+  --treasury-gold: #D4AF37;        /* Primary metallic gold */
+  --treasury-gold-light: #E5C972;  /* Light gold tint */
+  --treasury-gold-dark: #A38728;   /* Dark gold for hover */
+  --treasury-gold-accessible: #8B6914; /* Accessible on white (4.5:1) */
+  --treasury-gold-accessible-on-stone: #7A5C12; /* Accessible on stone #E8E6E0 (4.5:1) */
 
   --treasury-green: #2e8540;
   --treasury-alert-blue: #0071bc;
@@ -29,6 +29,13 @@
   --stone: #E8E6E0;
   --charcoal: #293340;
   --gray-100: #f5f5f5;
+
+  /* Marble texture colors */
+  --marble-base: #faf8f5;
+  --marble-warm: #f5f2eb;
+  --marble-vein-light: rgba(185, 175, 160, 0.12);
+  --marble-vein-medium: rgba(170, 160, 145, 0.18);
+  --marble-vein-gold: rgba(212, 175, 55, 0.08);
   --gray-200: #e8e8e8;
   --gray-300: #d0d0d0;
   --gray-400: #a0a0a0;
@@ -44,6 +51,158 @@
   --font-display: 'Playfair Display', Georgia, serif;
 
   --container-max: 1400px;
+}
+
+/* ============================================
+   Marble Textures - Treasury Building Aesthetic
+   ============================================ */
+
+/* Classic Carrara - Subtle cream with gray veins */
+.marble-carrara {
+  background-color: var(--marble-base);
+  background-image:
+    linear-gradient(
+      125deg,
+      transparent 20%,
+      rgba(180, 175, 165, 0.12) 20.5%,
+      rgba(180, 175, 165, 0.12) 21%,
+      transparent 21.5%,
+      transparent 50%,
+      rgba(160, 155, 145, 0.1) 50.5%,
+      rgba(160, 155, 145, 0.1) 51%,
+      transparent 51.5%,
+      transparent 80%,
+      rgba(170, 165, 155, 0.08) 80.5%,
+      rgba(170, 165, 155, 0.08) 81%,
+      transparent 81.5%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 35%,
+      rgba(190, 185, 175, 0.06) 35.5%,
+      rgba(190, 185, 175, 0.06) 36%,
+      transparent 36.5%,
+      transparent 70%,
+      rgba(175, 170, 160, 0.08) 70.5%,
+      rgba(175, 170, 160, 0.08) 71%,
+      transparent 71.5%
+    ),
+    radial-gradient(
+      ellipse at 30% 40%,
+      rgba(245, 242, 235, 0.5) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 70% 60%,
+      rgba(240, 238, 232, 0.4) 0%,
+      transparent 45%
+    );
+  background-size: 800px 600px, 600px 800px, 100% 100%, 100% 100%;
+}
+
+/* Treasury Building Floor - Warm cream with subtle brown veins */
+.marble-treasury {
+  background-color: #faf8f4;
+  background-image:
+    repeating-linear-gradient(
+      115deg,
+      transparent,
+      transparent 80px,
+      rgba(200, 190, 170, 0.05) 80px,
+      rgba(200, 190, 170, 0.05) 81px,
+      transparent 81px,
+      transparent 160px
+    ),
+    linear-gradient(
+      135deg,
+      transparent 25%,
+      rgba(185, 175, 155, 0.1) 25.3%,
+      rgba(185, 175, 155, 0.1) 25.6%,
+      transparent 25.9%,
+      transparent 55%,
+      rgba(175, 168, 150, 0.08) 55.3%,
+      rgba(175, 168, 150, 0.08) 55.6%,
+      transparent 55.9%,
+      transparent 85%,
+      rgba(190, 180, 160, 0.06) 85.3%,
+      rgba(190, 180, 160, 0.06) 85.6%,
+      transparent 85.9%
+    ),
+    radial-gradient(
+      ellipse 120% 80% at 20% 30%,
+      rgba(248, 243, 230, 0.6) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse 100% 120% at 80% 70%,
+      rgba(245, 240, 228, 0.5) 0%,
+      transparent 35%
+    );
+  background-size: 400px 400px, 1000px 800px, 100% 100%, 100% 100%;
+}
+
+/* Gold-veined marble - Premium accent for hero sections */
+.marble-gold {
+  background-color: var(--marble-base);
+  background-image:
+    linear-gradient(
+      130deg,
+      transparent 35%,
+      rgba(212, 175, 55, 0.06) 35.5%,
+      rgba(212, 175, 55, 0.08) 36%,
+      rgba(212, 175, 55, 0.06) 36.5%,
+      transparent 37%,
+      transparent 70%,
+      rgba(212, 175, 55, 0.05) 70.5%,
+      rgba(212, 175, 55, 0.07) 71%,
+      rgba(212, 175, 55, 0.05) 71.5%,
+      transparent 72%
+    ),
+    linear-gradient(
+      150deg,
+      transparent 55%,
+      var(--marble-vein-light) 55.3%,
+      var(--marble-vein-light) 55.6%,
+      transparent 55.9%
+    ),
+    radial-gradient(
+      ellipse at 25% 35%,
+      rgba(248, 245, 238, 0.6) 0%,
+      transparent 45%
+    );
+  background-size: 1000px 800px, 800px 600px, 100% 100%;
+}
+
+/* Soft gray marble - Cooler tones for variety */
+.marble-gray {
+  background-color: #f5f5f3;
+  background-image:
+    linear-gradient(
+      140deg,
+      transparent 22%,
+      rgba(165, 165, 170, 0.1) 22.3%,
+      rgba(160, 160, 165, 0.12) 22.6%,
+      rgba(165, 165, 170, 0.1) 22.9%,
+      transparent 23.2%,
+      transparent 58%,
+      rgba(155, 155, 160, 0.08) 58.3%,
+      rgba(150, 150, 155, 0.1) 58.6%,
+      rgba(155, 155, 160, 0.08) 58.9%,
+      transparent 59.2%
+    ),
+    repeating-linear-gradient(
+      165deg,
+      transparent,
+      transparent 120px,
+      rgba(175, 175, 180, 0.03) 120px,
+      rgba(175, 175, 180, 0.03) 121px
+    ),
+    radial-gradient(
+      ellipse at 60% 40%,
+      rgba(250, 250, 248, 0.5) 0%,
+      transparent 45%
+    );
+  background-size: 900px 700px, 500px 500px, 100% 100%;
 }
 
 /* ============================================
@@ -183,7 +342,7 @@ textarea:focus-visible,
 }
 
 /* Focus styles for LIGHT backgrounds - use navy for visibility */
-/* Gold (#FFBD00) on white has only 1.68:1 contrast - use navy instead */
+/* Gold (#D4AF37) on white has only 1.68:1 contrast - use navy instead */
 .light-bg a:focus-visible,
 .light-bg button:focus-visible,
 .stone-bg a:focus-visible,

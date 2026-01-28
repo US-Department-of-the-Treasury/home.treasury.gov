@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marble Textures - Treasury Brand</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy-900: #0B122C;
+      --navy-800: #0f1735;
+      --gold: #D4AF37;
+      --gold-light: #E5C972;
+      --charcoal: #293340;
+      --marble-base: #faf8f5;
+      --marble-vein-light: rgba(185, 175, 160, 0.12);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--navy-900);
+      color: #f2f2f0;
+    }
+
+    .header {
+      text-align: center;
+      padding: 80px 40px;
+      background: linear-gradient(180deg, #050810 0%, var(--navy-900) 100%);
+    }
+
+    .header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .header p {
+      color: #8a8a8a;
+    }
+
+    /* Marble Textures */
+    .marble-carrara {
+      background-color: var(--marble-base);
+      background-image:
+        linear-gradient(125deg, transparent 20%, rgba(180,175,165,0.12) 20.5%, rgba(180,175,165,0.12) 21%, transparent 21.5%, transparent 50%, rgba(160,155,145,0.1) 50.5%, rgba(160,155,145,0.1) 51%, transparent 51.5%, transparent 80%, rgba(170,165,155,0.08) 80.5%, rgba(170,165,155,0.08) 81%, transparent 81.5%),
+        linear-gradient(45deg, transparent 35%, rgba(190,185,175,0.06) 35.5%, rgba(190,185,175,0.06) 36%, transparent 36.5%, transparent 70%, rgba(175,170,160,0.08) 70.5%, rgba(175,170,160,0.08) 71%, transparent 71.5%),
+        radial-gradient(ellipse at 30% 40%, rgba(245,242,235,0.5) 0%, transparent 50%),
+        radial-gradient(ellipse at 70% 60%, rgba(240,238,232,0.4) 0%, transparent 45%);
+      background-size: 800px 600px, 600px 800px, 100% 100%, 100% 100%;
+    }
+
+    .marble-treasury {
+      background-color: #faf8f4;
+      background-image:
+        repeating-linear-gradient(115deg, transparent, transparent 80px, rgba(200,190,170,0.05) 80px, rgba(200,190,170,0.05) 81px, transparent 81px, transparent 160px),
+        linear-gradient(135deg, transparent 25%, rgba(185,175,155,0.1) 25.3%, rgba(185,175,155,0.1) 25.6%, transparent 25.9%, transparent 55%, rgba(175,168,150,0.08) 55.3%, rgba(175,168,150,0.08) 55.6%, transparent 55.9%, transparent 85%, rgba(190,180,160,0.06) 85.3%, rgba(190,180,160,0.06) 85.6%, transparent 85.9%),
+        radial-gradient(ellipse 120% 80% at 20% 30%, rgba(248,243,230,0.6) 0%, transparent 40%),
+        radial-gradient(ellipse 100% 120% at 80% 70%, rgba(245,240,228,0.5) 0%, transparent 35%);
+      background-size: 400px 400px, 1000px 800px, 100% 100%, 100% 100%;
+    }
+
+    .marble-gold {
+      background-color: var(--marble-base);
+      background-image:
+        linear-gradient(130deg, transparent 35%, rgba(212,175,55,0.06) 35.5%, rgba(212,175,55,0.08) 36%, rgba(212,175,55,0.06) 36.5%, transparent 37%, transparent 70%, rgba(212,175,55,0.05) 70.5%, rgba(212,175,55,0.07) 71%, rgba(212,175,55,0.05) 71.5%, transparent 72%),
+        linear-gradient(150deg, transparent 55%, var(--marble-vein-light) 55.3%, var(--marble-vein-light) 55.6%, transparent 55.9%),
+        radial-gradient(ellipse at 25% 35%, rgba(248,245,238,0.6) 0%, transparent 45%);
+      background-size: 1000px 800px, 800px 600px, 100% 100%;
+    }
+
+    .marble-gray {
+      background-color: #f5f5f3;
+      background-image:
+        linear-gradient(140deg, transparent 22%, rgba(165,165,170,0.1) 22.3%, rgba(160,160,165,0.12) 22.6%, rgba(165,165,170,0.1) 22.9%, transparent 23.2%, transparent 58%, rgba(155,155,160,0.08) 58.3%, rgba(150,150,155,0.1) 58.6%, rgba(155,155,160,0.08) 58.9%, transparent 59.2%),
+        repeating-linear-gradient(165deg, transparent, transparent 120px, rgba(175,175,180,0.03) 120px, rgba(175,175,180,0.03) 121px),
+        radial-gradient(ellipse at 60% 40%, rgba(250,250,248,0.5) 0%, transparent 45%);
+      background-size: 900px 700px, 500px 500px, 100% 100%;
+    }
+
+    /* Demo sections */
+    .demo-section {
+      padding: 80px 40px;
+      color: var(--charcoal);
+    }
+
+    .demo-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--navy-900);
+    }
+
+    .demo-section .eyebrow {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .demo-section p {
+      max-width: 600px;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+
+    .demo-section .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: var(--gold);
+      color: var(--navy-900);
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 4px;
+    }
+
+    .demo-section .card {
+      background: white;
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 8px;
+      padding: 24px;
+      max-width: 300px;
+      margin-top: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .demo-section .card h4 {
+      font-family: 'Playfair Display', serif;
+      color: var(--navy-900);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Navy section for contrast */
+    .navy-section {
+      background: var(--navy-900);
+      padding: 80px 40px;
+      color: #f2f2f0;
+    }
+
+    .navy-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #f2f2f0;
+    }
+
+    .navy-section .eyebrow {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .navy-section p {
+      max-width: 600px;
+      color: rgba(255,255,255,0.8);
+      line-height: 1.7;
+    }
+
+    /* Label badge */
+    .texture-label {
+      display: inline-block;
+      padding: 6px 16px;
+      background: var(--navy-900);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+    }
+
+    .texture-label.recommended {
+      background: var(--gold);
+      color: var(--navy-900);
+    }
+
+    footer {
+      text-align: center;
+      padding: 60px 40px;
+      background: var(--navy-900);
+      color: #666;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Marble Textures</h1>
+    <p>CSS-only marble patterns for Treasury's neoclassical aesthetic</p>
+  </header>
+
+  <!-- Carrara -->
+  <section class="demo-section marble-carrara">
+    <span class="texture-label">Carrara</span>
+    <p class="eyebrow">Section Example</p>
+    <h2>Classic Carrara Marble</h2>
+    <p>Subtle cream background with soft gray veining. The most versatile option - elegant without being distracting. Perfect for content-heavy sections where readability is paramount.</p>
+    <a href="#" class="btn">Learn More</a>
+    <div class="card">
+      <p class="eyebrow" style="margin-bottom: 0.5rem;">Press Release</p>
+      <h4>Treasury Announces Initiative</h4>
+      <p style="color: #666; font-size: 0.875rem;">Supporting economic growth through targeted investment.</p>
+    </div>
+  </section>
+
+  <!-- Navy contrast -->
+  <section class="navy-section">
+    <p class="eyebrow">Alternating Sections</p>
+    <h2>Navy Sections for Contrast</h2>
+    <p>The marble textures work best when alternated with navy sections. This creates visual rhythm and prevents the marble from becoming monotonous.</p>
+  </section>
+
+  <!-- Treasury Building -->
+  <section class="demo-section marble-treasury">
+    <span class="texture-label recommended">Recommended</span>
+    <p class="eyebrow">Section Example</p>
+    <h2>Treasury Building Floor</h2>
+    <p>Warm cream with subtle brown veining - inspired by the actual Treasury Building interior. Has the most "authentic government building" feel. Slightly warmer than Carrara.</p>
+    <a href="#" class="btn">Learn More</a>
+    <div class="card">
+      <p class="eyebrow" style="margin-bottom: 0.5rem;">Policy Update</p>
+      <h4>Economic Stability Measures</h4>
+      <p style="color: #666; font-size: 0.875rem;">New regulations to strengthen financial security.</p>
+    </div>
+  </section>
+
+  <!-- Navy contrast -->
+  <section class="navy-section">
+    <p class="eyebrow">Key Statistics</p>
+    <h2>$6.5 Trillion</h2>
+    <p>Annual federal payments processed by Treasury - demonstrating the scale and importance of our financial infrastructure.</p>
+  </section>
+
+  <!-- Gold veined -->
+  <section class="demo-section marble-gold">
+    <span class="texture-label">Gold Veined</span>
+    <p class="eyebrow">Premium Section</p>
+    <h2>Gold-Veined Calacatta</h2>
+    <p>Subtle gold veining that ties into the brand accent color. More luxurious feel - best used sparingly for hero sections or featured content. The gold veins catch the eye without overwhelming.</p>
+    <a href="#" class="btn">Learn More</a>
+    <div class="card">
+      <p class="eyebrow" style="margin-bottom: 0.5rem;">Featured</p>
+      <h4>Golden Age Initiative</h4>
+      <p style="color: #666; font-size: 0.875rem;">Building prosperity for all Americans.</p>
+    </div>
+  </section>
+
+  <!-- Navy contrast -->
+  <section class="navy-section">
+    <p class="eyebrow">Our Mission</p>
+    <h2>Serving the American People</h2>
+    <p>Treasury maintains a strong economy, manages government finances, and protects the integrity of the financial system.</p>
+  </section>
+
+  <!-- Gray -->
+  <section class="demo-section marble-gray">
+    <span class="texture-label">Gray</span>
+    <p class="eyebrow">Alternate Option</p>
+    <h2>Soft Gray Marble</h2>
+    <p>Cooler tones for variety. Works well for sections that need to feel slightly different - perhaps data or technical content. Less warm than the other options.</p>
+    <a href="#" class="btn">Learn More</a>
+    <div class="card">
+      <p class="eyebrow" style="margin-bottom: 0.5rem;">Data Report</p>
+      <h4>Quarterly Economic Review</h4>
+      <p style="color: #666; font-size: 0.875rem;">Analysis of current market conditions.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Treasury Marble Textures | CSS-only, No Images</p>
+    <p style="margin-top: 8px; color: var(--gold);">Navy + Gold + Marble</p>
+  </footer>
+</body>
+</html>

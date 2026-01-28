@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gold Color Comparison - Treasury Brand</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0B122C;
+      color: #f2f2f0;
+      padding: 60px 40px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #8a8a8a;
+      margin-bottom: 60px;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .option {
+      background: rgba(255,255,255,0.03);
+      border-radius: 16px;
+      padding: 32px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .option.recommended {
+      border-color: #D4AF37;
+      box-shadow: 0 0 40px rgba(212, 175, 55, 0.15);
+    }
+
+    .option-header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .option-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+
+    .option-hex {
+      font-family: monospace;
+      font-size: 1rem;
+      padding: 4px 12px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 12px;
+    }
+
+    .badge.current { background: #333; color: #999; }
+    .badge.recommended { background: #D4AF37; color: #0B122C; }
+
+    /* Color-specific styles */
+    .option-1 .gold { color: #FFBD00; }
+    .option-1 .gold-bg { background: #FFBD00; }
+    .option-1 .option-hex { background: #FFBD00; color: #0B122C; }
+
+    .option-2 .gold { color: #D4AF37; }
+    .option-2 .gold-bg { background: #D4AF37; }
+    .option-2 .option-hex { background: #D4AF37; color: #0B122C; }
+
+    .option-3 .gold { color: #C9A227; }
+    .option-3 .gold-bg { background: #C9A227; }
+    .option-3 .option-hex { background: #C9A227; color: #0B122C; }
+
+    /* Sample elements */
+    .sample-section {
+      margin-bottom: 24px;
+    }
+
+    .sample-label {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      margin-bottom: 12px;
+    }
+
+    /* Headline sample */
+    .headline-sample {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+    }
+
+    /* Button sample */
+    .btn-sample {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: #0B122C;
+      text-decoration: none;
+    }
+
+    /* Eyebrow sample */
+    .eyebrow-sample {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+    }
+
+    /* Gold bar */
+    .gold-bar {
+      width: 48px;
+      height: 4px;
+      margin-top: 8px;
+    }
+
+    /* Card sample */
+    .card-sample {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    .card-sample .eyebrow {
+      font-size: 0.625rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+    }
+
+    .card-sample h4 {
+      font-size: 1rem;
+      margin-bottom: 4px;
+    }
+
+    .card-sample p {
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.7);
+    }
+
+    /* Swatch */
+    .swatch-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .swatch {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+    }
+
+    .swatch.navy { background: #0B122C; border: 1px solid rgba(255,255,255,0.2); }
+
+    /* Color feel */
+    .color-feel {
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.6;
+    }
+
+    .color-feel strong {
+      color: #fff;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 80px;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      color: #666;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gold Color Comparison</h1>
+  <p class="subtitle">Finding the right gold for Treasury's Presidential presentation</p>
+
+  <div class="comparison-grid">
+    <!-- Option 1: Current Mustard -->
+    <div class="option option-1">
+      <div class="option-header">
+        <h2 class="option-name">Current</h2>
+        <span class="option-hex">#FFBD00</span>
+        <div><span class="badge current">Mustard Yellow</span></div>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label gold">Section Label</p>
+        <h3 class="headline-sample">A New Golden Age</h3>
+        <div class="gold-bar gold-bg"></div>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label" style="color: #666;">Button</p>
+        <a class="btn-sample gold-bg">Learn More</a>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label" style="color: #666;">Card</p>
+        <div class="card-sample">
+          <p class="eyebrow gold">Press Release</p>
+          <h4>Treasury Announces Initiative</h4>
+          <p>Supporting economic growth...</p>
+        </div>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label" style="color: #666;">Palette</p>
+        <div class="swatch-row">
+          <div class="swatch navy"></div>
+          <div class="swatch gold-bg"></div>
+        </div>
+      </div>
+
+      <div class="color-feel">
+        <strong>Feel:</strong> Bright, attention-grabbing, but reads as caution/warning. Lacks warmth and sophistication. More "school bus" than "precious metal."
+      </div>
+    </div>
+
+    <!-- Option 2: Metallic Gold (Recommended) -->
+    <div class="option option-2 recommended">
+      <div class="option-header">
+        <h2 class="option-name">Metallic Gold</h2>
+        <span class="option-hex">#D4AF37</span>
+        <div><span class="badge recommended">Recommended</span></div>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label gold">Section Label</p>
+        <h3 class="headline-sample">A New Golden Age</h3>
+        <div class="gold-bar gold-bg"></div>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label" style="color: #666;">Button</p>
+        <a class="btn-sample gold-bg">Learn More</a>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label" style="color: #666;">Card</p>
+        <div class="card-sample">
+          <p class="eyebrow gold">Press Release</p>
+          <h4>Treasury Announces Initiative</h4>
+          <p>Supporting economic growth...</p>
+        </div>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label" style="color: #666;">Palette</p>
+        <div class="swatch-row">
+          <div class="swatch navy"></div>
+          <div class="swatch gold-bg"></div>
+        </div>
+      </div>
+
+      <div class="color-feel">
+        <strong>Feel:</strong> Warm, luxurious, sophisticated. Classic "gold" that evokes wealth, prestige, and timeless authority. Presidential quality.
+      </div>
+    </div>
+
+    <!-- Option 3: Rich Gold -->
+    <div class="option option-3">
+      <div class="option-header">
+        <h2 class="option-name">Rich Gold</h2>
+        <span class="option-hex">#C9A227</span>
+        <div><span class="badge current">Alternative</span></div>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label gold">Section Label</p>
+        <h3 class="headline-sample">A New Golden Age</h3>
+        <div class="gold-bar gold-bg"></div>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label" style="color: #666;">Button</p>
+        <a class="btn-sample gold-bg">Learn More</a>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label" style="color: #666;">Card</p>
+        <div class="card-sample">
+          <p class="eyebrow gold">Press Release</p>
+          <h4>Treasury Announces Initiative</h4>
+          <p>Supporting economic growth...</p>
+        </div>
+      </div>
+
+      <div class="sample-section">
+        <p class="sample-label" style="color: #666;">Palette</p>
+        <div class="swatch-row">
+          <div class="swatch navy"></div>
+          <div class="swatch gold-bg"></div>
+        </div>
+      </div>
+
+      <div class="color-feel">
+        <strong>Feel:</strong> Deeper, more antique gold. Very sophisticated but slightly less vibrant. Good for formal/heritage applications.
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Treasury Brand Color Comparison | January 2026</p>
+  </footer>
+</body>
+</html>
