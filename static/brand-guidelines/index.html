@@ -84,17 +84,35 @@
             }
         }
 
-        /* Typography */
+        /* NDS Typography Scale - Presidential Grade */
         h1, h2, h3 {
             font-family: var(--font-serif);
             font-weight: 500;
-            line-height: 1.2;
+            line-height: 1.18;
+            letter-spacing: 0.02em;
         }
 
-        h1 { font-size: 3rem; }
-        h2 { font-size: 2.25rem; margin-bottom: 1.5rem; }
-        h3 { font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 1rem; font-family: var(--font-sans); font-weight: 600; }
+        /* Display - Hero headlines (120px+ on desktop) */
+        .display {
+            font-size: clamp(3rem, 10vw, 7.5rem); /* 48px to 120px */
+            font-weight: 400;
+            line-height: 1.1;
+        }
+
+        h1 { font-size: clamp(2.5rem, 6vw, 4rem); } /* 40px to 64px */
+        h2 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1.5rem; } /* 32px to 48px */
+        h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); margin-top: 2.5rem; margin-bottom: 1rem; font-family: var(--font-sans); font-weight: 600; }
         h4 { font-size: 1.125rem; margin-bottom: 0.75rem; font-weight: 600; }
+
+        /* H6/Label - Eyebrow treatment */
+        h6, .eyebrow, .label {
+            font-family: var(--font-sans);
+            font-size: 0.6875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--gold);
+        }
 
         p { margin-bottom: 1rem; }
 
@@ -134,7 +152,9 @@
 
         .cover h1 {
             color: var(--white-95);
-            font-size: 4rem;
+            font-size: clamp(3rem, 10vw, 7.5rem); /* NDS Display scale: 120px on desktop */
+            line-height: 1.1;
+            letter-spacing: 0.02em;
             margin-bottom: 1rem;
         }
 
@@ -818,11 +838,60 @@
                 </tbody>
             </table>
 
-            <h3>Type Scale</h3>
-            <div class="type-sample">
-                <h1>Heading 1 - 48px Playfair</h1>
-                <h2>Heading 2 - 36px Playfair</h2>
-                <h3>Heading 3 - 24px Inter Semibold</h3>
+            <h3>Type Scale - NDS Aligned</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Size</th>
+                        <th>Weight</th>
+                        <th>Line Height</th>
+                        <th>Letter Spacing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Display</strong></td>
+                        <td>clamp(48px, 10vw, 120px)</td>
+                        <td>400</td>
+                        <td>1.1</td>
+                        <td>+0.02em</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1</strong></td>
+                        <td>clamp(40px, 6vw, 64px)</td>
+                        <td>500</td>
+                        <td>1.18</td>
+                        <td>+0.02em</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2</strong></td>
+                        <td>clamp(32px, 4vw, 48px)</td>
+                        <td>500</td>
+                        <td>1.18</td>
+                        <td>+0.02em</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H3</strong></td>
+                        <td>clamp(24px, 3vw, 32px)</td>
+                        <td>600</td>
+                        <td>1.3</td>
+                        <td>+0.01em</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Body</strong></td>
+                        <td>16px (1rem)</td>
+                        <td>400</td>
+                        <td>1.6</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="type-sample" style="margin-top: 2rem;">
+                <p class="display" style="font-size: clamp(3rem, 8vw, 5rem);">Display Headline</p>
+                <h1>Heading 1 - Page Title</h1>
+                <h2>Heading 2 - Section</h2>
+                <h3>Heading 3 - Subsection</h3>
                 <p>Body text - 16px Inter Regular. The quick brown fox jumps over the lazy dog.</p>
             </div>
 
@@ -844,22 +913,35 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Eyebrow</td>
-                        <td>12px, Semibold, Uppercase, 0.2em tracking, Gold</td>
-                        <td>Above section headings</td>
+                        <td>Eyebrow/Label (H6)</td>
+                        <td>11-12px, Inter Semibold, Uppercase, 0.15em tracking, Gold</td>
+                        <td>Above section headings, category labels</td>
                     </tr>
                     <tr>
                         <td>Category Tag</td>
-                        <td>11px, Semibold, Uppercase, 0.1em tracking, Gold</td>
+                        <td>11px, Inter Semibold, Uppercase, 0.1em tracking, Gold</td>
                         <td>Card labels, article tags</td>
                     </tr>
                     <tr>
                         <td>Caption</td>
-                        <td>12px, Semibold, Inter</td>
+                        <td>12px, Inter Semibold</td>
                         <td>Image captions, footnotes</td>
+                    </tr>
+                    <tr>
+                        <td>Button Text</td>
+                        <td>14px, Inter Semibold, 0.05em tracking</td>
+                        <td>Primary and secondary buttons</td>
                     </tr>
                 </tbody>
             </table>
+
+            <h3>Typography Principles</h3>
+            <ul>
+                <li><strong>Positive letter-spacing:</strong> Use +0.01em to +0.03em on headlines for editorial elegance. Never use negative tracking.</li>
+                <li><strong>Tight line-height:</strong> Display and headline text uses 1.1-1.2 for impact. Body text uses 1.6 for readability.</li>
+                <li><strong>Scale with viewport:</strong> Use CSS clamp() for responsive typography that maintains proportion.</li>
+                <li><strong>Hero headlines at 120px+:</strong> Display text should command attention at desktop viewport widths.</li>
+            </ul>
         </div>
     </section>
 
