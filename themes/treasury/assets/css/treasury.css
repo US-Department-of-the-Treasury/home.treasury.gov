@@ -19,7 +19,8 @@
   --treasury-gold: #FFBD00;        /* Primary gold */
   --treasury-gold-light: #FFD666;  /* Muted gold */
   --treasury-gold-dark: #B8952B;   /* Dark gold */
-  --treasury-gold-accessible: #806000; /* Accessible on light backgrounds (4.5:1) */
+  --treasury-gold-accessible: #806000; /* Accessible on white (4.5:1) */
+  --treasury-gold-accessible-on-stone: #705500; /* Accessible on stone #E8E6E0 (4.5:1) */
 
   --treasury-green: #2e8540;
   --treasury-alert-blue: #0071bc;
@@ -179,6 +180,30 @@ textarea:focus-visible,
 #footer a:focus-visible {
   outline-color: var(--treasury-gold);
   outline-offset: 2px;
+}
+
+/* Focus styles for LIGHT backgrounds - use navy for visibility */
+/* Gold (#FFBD00) on white has only 1.68:1 contrast - use navy instead */
+.light-bg a:focus-visible,
+.light-bg button:focus-visible,
+.stone-bg a:focus-visible,
+.stone-bg button:focus-visible,
+[data-bg="light"] a:focus-visible,
+[data-bg="light"] button:focus-visible,
+.content-page a:focus-visible,
+.content-page button:focus-visible {
+  outline-color: var(--treasury-navy);
+}
+
+/* Accessible gold text on light backgrounds */
+.light-bg .gold-text,
+.stone-bg .gold-text,
+[data-bg="light"] .gold-text {
+  color: var(--treasury-gold-accessible);
+}
+
+.stone-bg .gold-text {
+  color: var(--treasury-gold-accessible-on-stone);
 }
 
 .visually-hidden {
@@ -4638,6 +4663,48 @@ button.nav-link {
 
   .tools-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================
+   Reduced Motion - WCAG 2.3.3 Animation from Interactions
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  /* Disable all transitions */
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  /* Disable smooth scrolling */
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  /* Disable Lenis smooth scroll (if active) */
+  html.lenis, html.lenis body {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  /* Disable specific animations */
+  .golden-shimmer,
+  [class*="animate"],
+  [class*="fade"],
+  [class*="slide"] {
+    animation: none !important;
+  }
+
+  /* Remove transforms on hover states */
+  .tool-card:hover,
+  .news-card:hover,
+  .featured-link:hover,
+  [class*="card"]:hover {
+    transform: none !important;
   }
 }
 

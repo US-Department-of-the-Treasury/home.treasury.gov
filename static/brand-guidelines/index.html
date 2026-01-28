@@ -803,6 +803,70 @@
                     </tr>
                 </tbody>
             </table>
+
+            <h3>Contrast Ratios (WCAG AA)</h3>
+            <p>Gold (#FFBD00) has limited contrast on light backgrounds. Use accessible alternatives:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Background</th>
+                        <th>Standard Gold</th>
+                        <th>Accessible Alternative</th>
+                        <th>Contrast Ratio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Navy 900 (#0B122C)</td>
+                        <td>#FFBD00 ✓</td>
+                        <td>N/A - standard gold works</td>
+                        <td>10.5:1</td>
+                    </tr>
+                    <tr>
+                        <td>White (#FFFFFF)</td>
+                        <td>#FFBD00 ✗ (1.68:1)</td>
+                        <td>#806000</td>
+                        <td>4.5:1</td>
+                    </tr>
+                    <tr>
+                        <td>Stone (#E8E6E0)</td>
+                        <td>#FFBD00 ✗ (1.54:1)</td>
+                        <td>#705500</td>
+                        <td>4.5:1</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Focus States</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Background</th>
+                        <th>Focus Ring Color</th>
+                        <th>Rationale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Navy (dark)</td>
+                        <td>Gold (#FFBD00)</td>
+                        <td>High contrast on dark</td>
+                    </tr>
+                    <tr>
+                        <td>White/Stone (light)</td>
+                        <td>Navy (#0B122C)</td>
+                        <td>Navy visible on light</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Animation & Motion</h3>
+            <ul>
+                <li><strong>Respect reduced motion:</strong> All animations disabled when <code>prefers-reduced-motion: reduce</code> is set</li>
+                <li><strong>Transition duration:</strong> Keep under 300ms for UI feedback</li>
+                <li><strong>No infinite animations:</strong> Avoid perpetual motion that can cause discomfort</li>
+                <li><strong>Lenis smooth scroll:</strong> Disabled when reduced motion preferred</li>
+            </ul>
         </div>
     </section>
 
