@@ -72,11 +72,9 @@ img-src 'self' data: https:    # Images from self, data URIs, or HTTPS
 ### Quick CSP Test After Deploy
 
 Open browser DevTools Console and check for CSP violations:
-- Navigate to https://d216skv4tzbpyp.cloudfront.net/news/search/
+- Navigate to https://stg2.treasury.gov/news/search/
 - Look for "Content Security Policy" errors
 - All pages with JavaScript should be tested
-
-**Note:** Custom domain (home-staging.awsdev.treasury.gov) is not configured - Akamai handles domain routing. Use the CloudFront URL above for testing.
 
 ## Hugo Assets
 
