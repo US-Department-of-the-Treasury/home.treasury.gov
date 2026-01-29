@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Golden Age for American Prosperity | U.S. Department of the Treasury</title>
+    <meta name="description" content="The United States Department of the Treasury - Ushering in a new golden age of American prosperity through bold action and principled leadership.">
+
+    <!-- Fonts: Playfair Display + Inter (Brand Guidelines) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+    <style>
+        /* =======================================================================
+           TREASURY VARIANT 10 - GOLDEN AGE FOCUS
+           Combines Variant 7's Golden Age hero/timeline with Variant 9's
+           alternating navy/cream section backgrounds.
+           ======================================================================= */
+
+        :root {
+            /* Brand Guidelines - Exact Values */
+            /* Primary Navy */
+            --navy-900: #0B122C;
+            --navy-800: #0f1735;
+            --navy-700: #141F4D;
+
+            /* Gold Accent - Metallic gold (warm, luxurious) */
+            --gold: #D4AF37;
+            --gold-muted: #E5C972;
+            --gold-dark: #A38728;
+
+            /* Neutrals */
+            --stone: #E8E6E0;
+            --charcoal: #293340;
+            --white-95: rgba(255, 255, 255, 0.95);
+            --white-85: rgba(255, 255, 255, 0.85);
+            --white-70: rgba(255, 255, 255, 0.70);
+
+            /* Typography */
+            --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+            --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+            /* Spacing */
+            --space-1: 0.25rem;
+            --space-2: 0.5rem;
+            --space-3: 0.75rem;
+            --space-4: 1rem;
+            --space-6: 1.5rem;
+            --space-8: 2rem;
+            --space-10: 2.5rem;
+            --space-12: 3rem;
+            --space-16: 4rem;
+            --space-20: 5rem;
+            --space-24: 6rem;
+            --space-32: 8rem;
+
+            /* Transitions */
+            --transition-subtle: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-smooth: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+            --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Lenis smooth scroll - REQUIRED: disable native smooth scroll */
+        html.lenis, html.lenis body {
+            height: auto;
+        }
+        .lenis.lenis-smooth {
+            scroll-behavior: auto !important;
+        }
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain;
+        }
+        .lenis.lenis-stopped {
+            overflow: hidden;
+        }
+        .lenis.lenis-scrolling iframe {
+            pointer-events: none;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--charcoal);
+            background: var(--stone);
+            overflow-x: hidden;
+        }
+
+        /* =======================================================================
+           USA GOVERNMENT BANNER
+           ======================================================================= */
+
+        .usa-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: var(--navy-900);
+            border-bottom: 1px solid rgba(255, 189, 0, 0.15);
+            will-change: transform;
+            transform: translateZ(0);
+        }
+
+        .usa-banner__content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-3);
+            padding: var(--space-2) var(--space-4);
+        }
+
+        .usa-banner__flag {
+            font-family: var(--font-serif);
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--gold);
+            background: rgba(255, 189, 0, 0.1);
+            padding: 2px 6px;
+            border-radius: 2px;
+        }
+
+        .usa-banner__text {
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            color: var(--white-70);
+            letter-spacing: 0.02em;
+        }
+
+        /* =======================================================================
+           HERO SECTION - Golden Age (from Variant 7)
+           ======================================================================= */
+
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            padding-top: 40px; /* Account for fixed banner */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, var(--navy-900) 0%, var(--navy-800) 50%, var(--navy-700) 100%);
+            overflow: hidden;
+        }
+
+        /* Ambient glow effects */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(ellipse 80% 50% at 50% 0%, rgba(255, 189, 0, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse 60% 40% at 80% 20%, rgba(20, 31, 77, 0.35) 0%, transparent 50%),
+                radial-gradient(ellipse 50% 30% at 20% 80%, rgba(15, 23, 53, 0.45) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        /* Subtle star/sparkle effect */
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image:
+                radial-gradient(1px 1px at 20% 30%, rgba(255, 189, 0, 0.4) 0%, transparent 100%),
+                radial-gradient(1px 1px at 40% 70%, rgba(255, 189, 0, 0.3) 0%, transparent 100%),
+                radial-gradient(1px 1px at 60% 20%, rgba(255, 189, 0, 0.35) 0%, transparent 100%),
+                radial-gradient(1px 1px at 80% 50%, rgba(255, 189, 0, 0.25) 0%, transparent 100%),
+                radial-gradient(1.5px 1.5px at 10% 60%, rgba(255, 214, 102, 0.5) 0%, transparent 100%),
+                radial-gradient(1.5px 1.5px at 70% 80%, rgba(255, 214, 102, 0.4) 0%, transparent 100%),
+                radial-gradient(1.5px 1.5px at 90% 10%, rgba(255, 214, 102, 0.45) 0%, transparent 100%),
+                radial-gradient(2px 2px at 50% 50%, rgba(255, 189, 0, 0.6) 0%, transparent 100%);
+            animation: twinkle 4s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 1; }
+        }
+
+        /* Treasury Seal Watermark */
+        .hero-seal {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--gold);
+            pointer-events: none;
+            animation: sealRotate 120s linear infinite;
+            opacity: 0.12;
+        }
+
+        @keyframes sealRotate {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            padding: var(--space-8);
+        }
+
+        /* Chapter Badge */
+        .chapter-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-3);
+            padding: 0.6rem 1.5rem;
+            background: rgba(255, 189, 0, 0.08);
+            border: 1px solid rgba(255, 189, 0, 0.3);
+            border-radius: 100px;
+            margin-bottom: var(--space-10);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeUp 0.8s var(--ease-smooth) 0.2s forwards;
+        }
+
+        .chapter-badge span {
+            font-family: var(--font-serif);
+            font-style: italic;
+            color: var(--gold);
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+        }
+
+        .chapter-line {
+            width: 40px;
+            height: 1px;
+            background: var(--gold);
+        }
+
+        .hero h1 {
+            font-family: var(--font-serif);
+            font-size: clamp(2.75rem, 8vw, 5rem);
+            font-weight: 500;
+            line-height: 1.1;
+            color: var(--white-95);
+            margin-bottom: var(--space-6);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeUp 0.8s var(--ease-smooth) 0.35s forwards;
+        }
+
+        .hero h1 .highlight {
+            background: linear-gradient(
+                135deg,
+                var(--gold-muted),
+                var(--gold),
+                var(--gold-dark),
+                var(--gold),
+                var(--gold-muted)
+            );
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-style: italic;
+            filter: drop-shadow(0 0 30px rgba(255, 189, 0, 0.3));
+            animation: shimmer 4s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { background-position: 0% center; }
+            50% { background-position: 100% center; }
+        }
+
+        .hero-subtitle {
+            font-family: var(--font-sans);
+            font-size: 1.25rem;
+            font-weight: 300;
+            color: var(--white-85);
+            max-width: 650px;
+            margin: 0 auto var(--space-10);
+            line-height: 1.85;
+            letter-spacing: 0.01em;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeUp 0.8s var(--ease-smooth) 0.5s forwards;
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-4) var(--space-8);
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            color: var(--navy-900);
+            text-decoration: none;
+            font-family: var(--font-serif);
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+            border-radius: 100px;
+            transition: all var(--transition-subtle);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeUp 0.8s var(--ease-smooth) 0.65s forwards;
+            box-shadow: 0 4px 20px rgba(255, 189, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(255, 255, 255, 0.3),
+                transparent
+            );
+            transition: left 0.5s ease;
+        }
+
+        .hero-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(255, 189, 0, 0.5);
+        }
+
+        .hero-cta:hover::before {
+            left: 100%;
+        }
+
+        .hero-cta svg {
+            width: 18px;
+            height: 18px;
+            transition: transform var(--transition-subtle);
+        }
+
+        .hero-cta:hover svg {
+            transform: translateX(4px);
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: var(--space-10);
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--space-3);
+            opacity: 0;
+            animation: fadeIn 1s var(--ease-smooth) 1s forwards, float 2.5s ease-in-out infinite 1.5s;
+        }
+
+        .scroll-indicator span {
+            font-family: var(--font-serif);
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .scroll-line {
+            width: 1px;
+            height: 50px;
+            background: linear-gradient(to bottom, var(--gold), transparent);
+        }
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(8px); }
+        }
+
+        /* =======================================================================
+           SECTION DIVIDER
+           ======================================================================= */
+
+        .section-divider {
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 189, 0, 0.3), transparent);
+            position: relative;
+        }
+
+        .section-divider::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 8px;
+            height: 8px;
+            background: var(--gold);
+            border-radius: 50%;
+        }
+
+        /* =======================================================================
+           TIMELINE SECTION - Cream Background (Alternating Pane)
+           ======================================================================= */
+
+        .timeline-section {
+            padding: var(--space-32) var(--space-8);
+            background: var(--stone);
+            position: relative;
+        }
+
+        .timeline-header {
+            text-align: center;
+            margin-bottom: var(--space-16);
+        }
+
+        .section-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: 0.4rem 1rem;
+            background: rgba(184, 149, 43, 0.1);
+            border-radius: 100px;
+            margin-bottom: var(--space-6);
+            font-family: var(--font-serif);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--gold-dark);
+        }
+
+        .timeline-header h2 {
+            font-family: var(--font-serif);
+            font-size: clamp(2.25rem, 5vw, 3.5rem);
+            font-weight: 500;
+            color: var(--navy-900);
+            margin-bottom: var(--space-4);
+        }
+
+        .timeline-header p {
+            color: var(--charcoal);
+            font-size: 1.1rem;
+            max-width: 500px;
+            margin: 0 auto;
+            opacity: 0.8;
+        }
+
+        .timeline {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* Main timeline line */
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(
+                to bottom,
+                transparent,
+                var(--gold-dark) 5%,
+                var(--gold-dark) 95%,
+                transparent
+            );
+        }
+
+        .timeline-item {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: calc(50% + 3rem);
+            position: relative;
+            margin-bottom: var(--space-12);
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: opacity 0.6s var(--ease-smooth), transform 0.6s var(--ease-smooth);
+        }
+
+        .timeline-item.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .timeline-item:nth-child(even) {
+            justify-content: flex-start;
+            padding-right: 0;
+            padding-left: calc(50% + 3rem);
+            transform: translateX(30px);
+        }
+
+        .timeline-item:nth-child(even).visible {
+            transform: translateX(0);
+        }
+
+        /* Timeline dot */
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 16px;
+            height: 16px;
+            background: var(--stone);
+            border: 3px solid var(--gold-dark);
+            border-radius: 50%;
+            z-index: 2;
+            transition: transform var(--transition-subtle), background var(--transition-subtle);
+            box-shadow: 0 0 0 0 rgba(184, 149, 43, 0.4);
+            animation: dotPulse 2.5s ease-in-out infinite;
+        }
+
+        @keyframes dotPulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(184, 149, 43, 0.4); }
+            50% { box-shadow: 0 0 0 8px rgba(184, 149, 43, 0); }
+        }
+
+        .timeline-item:hover::before {
+            transform: translateX(-50%) scale(1.3);
+            background: var(--gold-dark);
+            animation: none;
+            box-shadow: 0 0 20px rgba(184, 149, 43, 0.6);
+        }
+
+        /* Connecting line to content */
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            top: 6px;
+            width: 2.5rem;
+            height: 2px;
+            background: linear-gradient(to right, var(--gold-dark), rgba(184, 149, 43, 0.3));
+        }
+
+        .timeline-item:nth-child(odd)::after {
+            left: calc(50% + 8px);
+        }
+
+        .timeline-item:nth-child(even)::after {
+            right: calc(50% + 8px);
+            background: linear-gradient(to left, var(--gold-dark), rgba(184, 149, 43, 0.3));
+        }
+
+        .timeline-content {
+            background: white;
+            border: 1px solid rgba(41, 51, 64, 0.1);
+            border-left: 3px solid var(--gold-dark);
+            border-radius: 8px;
+            padding: var(--space-6);
+            max-width: 400px;
+            transition: transform var(--transition-subtle), box-shadow var(--transition-subtle);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .timeline-item:hover .timeline-content {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .timeline-date {
+            font-family: var(--font-serif);
+            font-style: italic;
+            color: var(--gold-dark);
+            font-size: 0.9rem;
+            margin-bottom: var(--space-2);
+            letter-spacing: 0.05em;
+        }
+
+        .timeline-content h3 {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--navy-900);
+            margin-bottom: var(--space-2);
+            line-height: 1.3;
+        }
+
+        .timeline-content p {
+            color: var(--charcoal);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            opacity: 0.85;
+        }
+
+        .timeline-stat {
+            display: inline-flex;
+            align-items: baseline;
+            gap: var(--space-2);
+            margin-top: var(--space-4);
+            padding: var(--space-2) var(--space-4);
+            background: rgba(184, 149, 43, 0.08);
+            border-radius: 6px;
+        }
+
+        .timeline-stat .number {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--gold-dark);
+        }
+
+        .timeline-stat .label {
+            font-size: 0.75rem;
+            color: var(--charcoal);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            opacity: 0.7;
+        }
+
+        /* =======================================================================
+           QUOTE SECTION - Navy Background (Dark Contrast)
+           ======================================================================= */
+
+        .quote-section {
+            padding: var(--space-24) var(--space-8);
+            background: var(--navy-900);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .quote-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 50% 50% at 20% 50%, rgba(255, 189, 0, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse 50% 50% at 80% 50%, rgba(20, 31, 77, 0.4) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .quote-container {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .quote-mark {
+            font-family: var(--font-serif);
+            font-size: 6rem;
+            color: var(--gold);
+            line-height: 1;
+            margin-bottom: -2rem;
+            opacity: 0.3;
+        }
+
+        .quote-text {
+            font-family: var(--font-serif);
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            font-style: italic;
+            font-weight: 400;
+            line-height: 1.6;
+            color: var(--white-95);
+            margin-bottom: var(--space-8);
+        }
+
+        .quote-author {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--space-2);
+        }
+
+        .quote-author-name {
+            font-family: var(--font-serif);
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--gold);
+        }
+
+        .quote-author-title {
+            font-family: var(--font-sans);
+            font-size: 0.875rem;
+            color: var(--white-70);
+            letter-spacing: 0.05em;
+        }
+
+        /* =======================================================================
+           TRANSFORMATION SECTION - Cream Background (Alternating Pane)
+           ======================================================================= */
+
+        .transformation-section {
+            padding: var(--space-32) var(--space-8);
+            background: var(--stone);
+            position: relative;
+        }
+
+        .transformation-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .transformation-header {
+            text-align: center;
+            margin-bottom: var(--space-16);
+        }
+
+        .transformation-header h2 {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            font-weight: 500;
+            color: var(--navy-900);
+            margin-bottom: var(--space-4);
+        }
+
+        .transformation-header p {
+            color: var(--charcoal);
+            font-size: 1.1rem;
+            max-width: 550px;
+            margin: 0 auto;
+            opacity: 0.8;
+        }
+
+        .transformation-beat {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-16);
+            align-items: center;
+            margin-bottom: var(--space-20);
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s var(--ease-smooth), transform 0.8s var(--ease-smooth);
+        }
+
+        .transformation-beat.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .transformation-beat:nth-child(even) {
+            direction: rtl;
+        }
+
+        .transformation-beat:nth-child(even) > * {
+            direction: ltr;
+        }
+
+        .transformation-beat:last-child {
+            margin-bottom: 0;
+        }
+
+        .transformation-card {
+            background: white;
+            border: 1px solid rgba(41, 51, 64, 0.1);
+            border-radius: 12px;
+            padding: var(--space-10);
+            position: relative;
+            overflow: hidden;
+            transition: transform var(--transition-subtle), box-shadow var(--transition-subtle);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .transformation-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .transformation-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--gold), var(--gold-dark));
+        }
+
+        .transformation-icon {
+            width: 64px;
+            height: 64px;
+            background: rgba(184, 149, 43, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: var(--space-6);
+        }
+
+        .transformation-icon svg {
+            width: 32px;
+            height: 32px;
+            stroke: var(--gold-dark);
+            fill: none;
+            stroke-width: 1.5;
+        }
+
+        .transformation-number {
+            font-family: var(--font-serif);
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: var(--gold-dark);
+            line-height: 1;
+            margin-bottom: var(--space-2);
+        }
+
+        .transformation-metric-label {
+            font-size: 0.875rem;
+            color: var(--charcoal);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0.7;
+        }
+
+        .transformation-text h3 {
+            font-family: var(--font-serif);
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 500;
+            color: var(--navy-900);
+            margin-bottom: var(--space-4);
+            line-height: 1.25;
+        }
+
+        .transformation-text h3 .accent {
+            color: var(--gold-dark);
+        }
+
+        .transformation-text p {
+            color: var(--charcoal);
+            font-size: 1.05rem;
+            line-height: 1.85;
+            margin-bottom: var(--space-4);
+            opacity: 0.85;
+        }
+
+        .transformation-label {
+            display: inline-block;
+            font-family: var(--font-serif);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--gold-dark);
+            margin-bottom: var(--space-4);
+            padding: 0.4rem 0.8rem;
+            background: rgba(184, 149, 43, 0.1);
+            border-radius: 4px;
+        }
+
+        /* =======================================================================
+           PILLARS SECTION - Navy Background (Alternating Pane)
+           ======================================================================= */
+
+        .pillars-section {
+            padding: var(--space-32) var(--space-8);
+            background: linear-gradient(180deg, var(--navy-900) 0%, var(--navy-800) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pillars-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(ellipse 60% 40% at 50% 100%, rgba(255, 189, 0, 0.06) 0%, transparent 60%),
+                radial-gradient(ellipse 40% 30% at 20% 50%, rgba(20, 31, 77, 0.5) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .pillars-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .pillars-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-3);
+            padding: 0.6rem 1.5rem;
+            background: rgba(255, 189, 0, 0.08);
+            border: 1px solid rgba(255, 189, 0, 0.3);
+            border-radius: 100px;
+            margin-bottom: var(--space-8);
+        }
+
+        .pillars-badge span {
+            font-family: var(--font-serif);
+            font-style: italic;
+            color: var(--gold);
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+        }
+
+        .pillars-section h2 {
+            font-family: var(--font-serif);
+            font-size: clamp(2.5rem, 6vw, 3.5rem);
+            font-weight: 500;
+            color: var(--white-95);
+            margin-bottom: var(--space-6);
+            line-height: 1.15;
+        }
+
+        .pillars-section h2 .highlight {
+            color: var(--gold);
+            font-style: italic;
+        }
+
+        .pillars-section > .pillars-container > p {
+            color: var(--white-85);
+            font-size: 1.15rem;
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 0 auto var(--space-12);
+        }
+
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-8);
+            margin-top: var(--space-12);
+        }
+
+        .pillar {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 189, 0, 0.15);
+            border-radius: 12px;
+            padding: var(--space-8);
+            text-align: left;
+            transition: transform var(--transition-subtle), border-color var(--transition-subtle), box-shadow var(--transition-subtle);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pillar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            opacity: 0;
+            transition: opacity var(--transition-subtle);
+        }
+
+        .pillar:hover {
+            transform: translateY(-8px);
+            border-color: rgba(255, 189, 0, 0.4);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 30px rgba(255, 189, 0, 0.1);
+        }
+
+        .pillar:hover::before {
+            opacity: 1;
+        }
+
+        .pillar-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(255, 189, 0, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: var(--space-6);
+        }
+
+        .pillar-icon svg {
+            width: 24px;
+            height: 24px;
+            stroke: var(--gold);
+            fill: none;
+            stroke-width: 1.5;
+        }
+
+        .pillar-number {
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            font-weight: 600;
+            color: rgba(255, 189, 0, 0.2);
+            position: absolute;
+            top: var(--space-6);
+            right: var(--space-6);
+        }
+
+        .pillar h4 {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--white-95);
+            margin-bottom: var(--space-3);
+        }
+
+        .pillar p {
+            color: var(--white-70);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        /* =======================================================================
+           FOOTER
+           ======================================================================= */
+
+        footer {
+            padding: var(--space-16) var(--space-8) var(--space-12);
+            background: var(--navy-900);
+            border-top: 1px solid rgba(255, 189, 0, 0.1);
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .footer-seal {
+            width: 72px;
+            height: 72px;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-serif);
+            font-weight: 700;
+            font-size: 1.75rem;
+            color: var(--navy-900);
+            margin: 0 auto var(--space-6);
+            box-shadow: 0 8px 32px rgba(255, 189, 0, 0.25);
+        }
+
+        .footer-title {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--white-95);
+            margin-bottom: var(--space-2);
+        }
+
+        footer > .footer-content > p {
+            color: var(--white-70);
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-8);
+            margin-top: var(--space-8);
+            padding-top: var(--space-8);
+            border-top: 1px solid rgba(255, 189, 0, 0.1);
+        }
+
+        footer a {
+            color: var(--white-70);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color var(--transition-subtle);
+        }
+
+        footer a:hover {
+            color: var(--gold);
+        }
+
+        .footer-copyright {
+            margin-top: var(--space-8);
+            font-size: 0.8rem;
+            color: var(--white-70);
+            opacity: 0.7;
+        }
+
+        /* =======================================================================
+           RESPONSIVE
+           ======================================================================= */
+
+        @media (max-width: 1024px) {
+            .transformation-beat,
+            .transformation-beat:nth-child(even) {
+                grid-template-columns: 1fr;
+                gap: var(--space-8);
+                direction: ltr;
+            }
+
+            .pillars-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                padding-left: 60px;
+                padding-right: 0;
+                justify-content: flex-start;
+            }
+
+            .timeline-item::before {
+                left: 20px;
+            }
+
+            .timeline-item::after,
+            .timeline-item:nth-child(even)::after {
+                left: 36px;
+                right: auto;
+                background: linear-gradient(to right, var(--gold-dark), rgba(184, 149, 43, 0.3));
+            }
+
+            .hero-seal {
+                width: 400px;
+                height: 400px;
+            }
+
+            .pillars-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .quote-text {
+                font-size: 1.25rem;
+            }
+
+            .transformation-number {
+                font-size: 2.75rem;
+            }
+
+            .footer-links {
+                flex-wrap: wrap;
+                gap: var(--space-4) var(--space-8);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding-left: var(--space-4);
+                padding-right: var(--space-4);
+            }
+
+            .chapter-badge {
+                padding: 0.5rem 1rem;
+            }
+
+            .chapter-badge span {
+                font-size: 0.85rem;
+            }
+
+            .hero-cta {
+                padding: var(--space-3) var(--space-6);
+                font-size: 0.9rem;
+            }
+
+            .timeline-content {
+                padding: var(--space-4);
+            }
+
+            .transformation-card {
+                padding: var(--space-6);
+            }
+
+            .pillar {
+                padding: var(--space-6);
+            }
+
+            .quote-mark {
+                font-size: 4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- USA Government Banner -->
+    <div class="usa-banner">
+        <div class="usa-banner__content">
+            <span class="usa-banner__flag">US</span>
+            <span class="usa-banner__text">An official website of the United States government</span>
+        </div>
+    </div>
+
+    <!-- Hero Section - Golden Age -->
+    <section class="hero" id="hero">
+        <!-- Treasury Seal Watermark -->
+        <svg class="hero-seal" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="100" r="95" stroke="currentColor" stroke-width="0.5" opacity="0.6"/>
+            <circle cx="100" cy="100" r="80" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+            <circle cx="100" cy="100" r="65" stroke="currentColor" stroke-width="0.5" opacity="0.4"/>
+            <polygon points="100,30 106,50 127,50 110,62 116,82 100,70 84,82 90,62 73,50 94,50" fill="currentColor" opacity="0.5"/>
+            <text x="100" y="120" text-anchor="middle" font-family="Playfair Display, serif" font-size="24" fill="currentColor" opacity="0.5">1789</text>
+        </svg>
+
+        <div class="hero-content">
+            <div class="chapter-badge">
+                <span class="chapter-line"></span>
+                <span>A New Chapter Begins</span>
+                <span class="chapter-line"></span>
+            </div>
+            <h1>A <span class="highlight">Golden Age</span><br>for American Prosperity</h1>
+            <p class="hero-subtitle">From January 2025, the Department of the Treasury embarks on a transformative journey. Bold action, principled leadership, and unwavering focus on the American people.</p>
+            <a href="#timeline" class="hero-cta">
+                <span>Explore the Journey</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Discover</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Timeline Section - Cream Background -->
+    <section class="timeline-section" id="timeline">
+        <div class="timeline-header">
+            <span class="section-badge">The First Year</span>
+            <h2>Key Milestones</h2>
+            <p>Rebuilding American economic strength through decisive action</p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">January 2025</div>
+                    <h3>New Leadership Takes Charge</h3>
+                    <p>Secretary Scott Bessent confirmed, bringing decades of fiscal expertise to Treasury. A new vision for American prosperity begins.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Q1 2025</div>
+                    <h3>Sanctions Enforcement Surge</h3>
+                    <p>OFAC launches unprecedented enforcement actions against illicit networks threatening American security and economic interests.</p>
+                    <div class="timeline-stat">
+                        <span class="number">47+</span>
+                        <span class="label">Monthly Actions</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Q2 2025</div>
+                    <h3>Economic Momentum Builds</h3>
+                    <p>Record-breaking business applications signal renewed entrepreneurial confidence. Americans are betting on themselves again.</p>
+                    <div class="timeline-stat">
+                        <span class="number">5.5M</span>
+                        <span class="label">New Applications</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Q3 2025</div>
+                    <h3>Community Investment Expands</h3>
+                    <p>CDFI Fund awards strengthen community development in underserved areas, ensuring prosperity reaches every corner of America.</p>
+                    <div class="timeline-stat">
+                        <span class="number">$46.9M</span>
+                        <span class="label">SIPPRA Awards</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2026</div>
+                    <h3>The Vision Ahead</h3>
+                    <p>Building on early momentum, the path forward focuses on sustainable growth, fiscal responsibility, and American competitiveness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section - Navy Background -->
+    <section class="quote-section">
+        <div class="quote-container">
+            <div class="quote-mark">"</div>
+            <p class="quote-text">The prosperity of America is intimately connected with the prosperity of commerce. We must ensure that the American Dream remains within reach for every citizen.</p>
+            <div class="quote-author">
+                <span class="quote-author-name">Alexander Hamilton</span>
+                <span class="quote-author-title">First Secretary of the Treasury, 1789</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformation Section - Cream Background -->
+    <section class="transformation-section" id="transformation">
+        <div class="transformation-container">
+            <div class="transformation-header">
+                <span class="section-badge">The Journey</span>
+                <h2>From Challenge to Action to Results</h2>
+                <p>A story of decisive leadership transforming economic policy.</p>
+            </div>
+
+            <!-- Challenge Beat -->
+            <div class="transformation-beat">
+                <div class="transformation-visual">
+                    <div class="transformation-card">
+                        <div class="transformation-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <div class="transformation-number">$36T</div>
+                        <div class="transformation-metric-label">National Debt Inherited</div>
+                    </div>
+                </div>
+                <div class="transformation-text">
+                    <span class="transformation-label">The Challenge</span>
+                    <h3>Inheriting a <span class="accent">Complex</span> Economic Landscape</h3>
+                    <p>The new administration faced significant headwinds: rising debt levels, global economic uncertainty, and adversaries exploiting gaps in the financial system. The challenge demanded decisive action.</p>
+                </div>
+            </div>
+
+            <!-- Action Beat -->
+            <div class="transformation-beat">
+                <div class="transformation-visual">
+                    <div class="transformation-card">
+                        <div class="transformation-icon">
+                            <svg viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <div class="transformation-number">47+</div>
+                        <div class="transformation-metric-label">Monthly OFAC Actions</div>
+                    </div>
+                </div>
+                <div class="transformation-text">
+                    <span class="transformation-label">The Action</span>
+                    <h3>Swift, <span class="accent">Decisive</span> Enforcement</h3>
+                    <p>Treasury deployed its full arsenal of financial tools. Sanctions targeted illicit networks with unprecedented precision. OFAC actions disrupted those who threatened American interests, from drug cartels to hostile state actors.</p>
+                </div>
+            </div>
+
+            <!-- Result Beat -->
+            <div class="transformation-beat">
+                <div class="transformation-visual">
+                    <div class="transformation-card">
+                        <div class="transformation-icon">
+                            <svg viewBox="0 0 24 24">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                                <polyline points="17 6 23 6 23 12"/>
+                            </svg>
+                        </div>
+                        <div class="transformation-number">5.5M</div>
+                        <div class="transformation-metric-label">Business Applications</div>
+                    </div>
+                </div>
+                <div class="transformation-text">
+                    <span class="transformation-label">The Result</span>
+                    <h3>American <span class="accent">Confidence</span> Restored</h3>
+                    <p>The results speak for themselves. Record business formations signal that Americans believe in their economic future again. Communities see investment. Entrepreneurs take risks. The American dream gains new momentum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pillars Section - Navy Background -->
+    <section class="pillars-section" id="future">
+        <div class="pillars-container">
+            <div class="pillars-badge">
+                <span class="chapter-line"></span>
+                <span>What's Next</span>
+                <span class="chapter-line"></span>
+            </div>
+            <h2>The Next Chapter<br><span class="highlight">Begins Now</span></h2>
+            <p>The story of progress continues. With strong foundations in place, Treasury focuses on three pillars that will define America's economic future for generations.</p>
+
+            <div class="pillars-grid">
+                <div class="pillar">
+                    <div class="pillar-number">01</div>
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <h4>Fiscal Responsibility</h4>
+                    <p>Sustainable debt management and disciplined spending to secure prosperity for future generations.</p>
+                </div>
+                <div class="pillar">
+                    <div class="pillar-number">02</div>
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
+                    <h4>Economic Security</h4>
+                    <p>Protecting America's financial system from adversaries while enabling legitimate commerce to flourish.</p>
+                </div>
+                <div class="pillar">
+                    <div class="pillar-number">03</div>
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h4>Broad Prosperity</h4>
+                    <p>Ensuring economic growth reaches every American community, from Main Street to rural towns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-seal">T</div>
+            <h3 class="footer-title">United States Department of the Treasury</h3>
+            <p>Serving the American people since 1789</p>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">News</a>
+                <a href="#">Policy</a>
+                <a href="#">Careers</a>
+                <a href="#">Contact</a>
+            </div>
+            <p class="footer-copyright">An official website of the U.S. Government</p>
+        </div>
+    </footer>
+
+    <!-- Lenis Smooth Scroll & Animations -->
+    <script>
+        // Initialize Lenis smooth scroll
+        const lenis = new Lenis({
+            duration: 1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            orientation: 'vertical',
+            smoothWheel: true,
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+
+        // Intersection Observer for scroll reveals
+        const observerOptions = {
+            threshold: 0.15,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe timeline items
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            observer.observe(item);
+        });
+
+        // Observe transformation beats
+        document.querySelectorAll('.transformation-beat').forEach(item => {
+            observer.observe(item);
+        });
+
+        // Animated number counters
+        const animateNumber = (el) => {
+            const target = el.textContent;
+            const hasPrefix = target.startsWith('$');
+            const hasSuffix = target.includes('+') || target.includes('M') || target.includes('T') || target.includes('B');
+
+            let prefix = '';
+            let suffix = '';
+            let numStr = target;
+
+            if (hasPrefix) {
+                prefix = '$';
+                numStr = numStr.substring(1);
+            }
+
+            const suffixMatch = numStr.match(/[+MTB]+$/);
+            if (suffixMatch) {
+                suffix = suffixMatch[0];
+                numStr = numStr.replace(suffix, '');
+            }
+
+            const targetNum = parseFloat(numStr);
+            if (isNaN(targetNum)) return;
+
+            let current = 0;
+            const increment = targetNum / 40;
+            const duration = 1500;
+            const step = duration / 40;
+
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= targetNum) {
+                    current = targetNum;
+                    clearInterval(timer);
+                }
+
+                const displayNum = Number.isInteger(targetNum) ? Math.floor(current) : current.toFixed(1);
+                el.textContent = prefix + displayNum + suffix;
+            }, step);
+        };
+
+        // Counter observer
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+                    entry.target.classList.add('counted');
+                    animateNumber(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('.transformation-number, .timeline-stat .number').forEach(el => {
+            counterObserver.observe(el);
+        });
+    </script>
+</body>
+</html>

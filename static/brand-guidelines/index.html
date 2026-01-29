@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasury.gov Brand Guidelines</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Custom Properties - Design Tokens */
+        :root {
+            /* Primary Navy */
+            --navy-900: #0B122C;
+            --navy-800: #0f1735;
+            --navy-700: #141F4D;
+
+            /* Gold Accent - Metallic gold (warm, luxurious) */
+            --gold: #D4AF37;
+            --gold-muted: #E5C972;
+            --gold-dark: #A38728;
+
+            /* Neutrals */
+            --stone: #E8E6E0;
+            --charcoal: #293340;
+            --white-95: rgba(255, 255, 255, 0.95);
+            --white-85: rgba(255, 255, 255, 0.85);
+            --white-70: rgba(255, 255, 255, 0.70);
+
+            /* Typography */
+            --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+            --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Lenis smooth scroll */
+        html.lenis, html.lenis body {
+            height: auto;
+        }
+        .lenis.lenis-smooth {
+            scroll-behavior: auto !important;
+        }
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain;
+        }
+        .lenis.lenis-stopped {
+            overflow: hidden;
+        }
+
+        html {
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            color: var(--charcoal);
+            background: white;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                font-size: 11pt;
+            }
+
+            .page-break {
+                page-break-before: always;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+
+            section {
+                page-break-inside: avoid;
+            }
+
+            h1, h2, h3 {
+                page-break-after: avoid;
+            }
+
+            img {
+                max-width: 100% !important;
+                page-break-inside: avoid;
+            }
+
+            @page {
+                size: letter;
+                margin: 0.75in;
+            }
+        }
+
+        /* Typography Scale - Presidential Grade */
+        h1, h2, h3 {
+            font-family: var(--font-serif);
+            font-weight: 500;
+            line-height: 1.18;
+            letter-spacing: 0.02em;
+        }
+
+        /* Display - Hero headlines (120px+ on desktop) */
+        .display {
+            font-size: clamp(3rem, 10vw, 7.5rem); /* 48px to 120px */
+            font-weight: 400;
+            line-height: 1.1;
+        }
+
+        h1 { font-size: clamp(2.5rem, 6vw, 4rem); } /* 40px to 64px */
+        h2 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1.5rem; } /* 32px to 48px */
+        h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); margin-top: 2.5rem; margin-bottom: 1rem; font-family: var(--font-sans); font-weight: 600; }
+        h4 { font-size: 1.125rem; margin-bottom: 0.75rem; font-weight: 600; }
+
+        /* H6/Label - Eyebrow treatment */
+        h6, .eyebrow, .label {
+            font-family: var(--font-sans);
+            font-size: 0.6875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--gold);
+        }
+
+        p { margin-bottom: 1rem; }
+
+        /* Lists */
+        ul, ol {
+            margin: 1.5rem 0;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+            line-height: 1.8;
+        }
+
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Cover Page */
+        .cover {
+            min-height: 100vh;
+            background: var(--navy-900);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .cover h1 {
+            color: var(--white-95);
+            font-size: clamp(3rem, 10vw, 7.5rem); /* Display scale: 120px on desktop */
+            line-height: 1.1;
+            letter-spacing: 0.02em;
+            margin-bottom: 1rem;
+        }
+
+        .cover .subtitle {
+            color: var(--gold);
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 2rem;
+        }
+
+        .cover .version {
+            color: var(--white-70);
+            font-size: 0.875rem;
+        }
+
+        .gold-bar {
+            width: 80px;
+            height: 4px;
+            background: var(--gold);
+            margin: 2rem auto;
+        }
+
+        /* Table of Contents */
+        .toc {
+            padding: 4rem 0;
+            background: var(--stone);
+        }
+
+        .toc h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .toc-list {
+            list-style: none;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .toc-list li {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .toc-list a {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            color: var(--charcoal);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.15s;
+        }
+
+        .toc-list a:hover {
+            color: var(--gold-dark);
+        }
+
+        .toc-list .page-num {
+            color: var(--gold-dark);
+        }
+
+        /* Sections */
+        section {
+            padding: 4rem 0;
+        }
+
+        section.dark {
+            background: var(--navy-900);
+            color: var(--white-95);
+        }
+
+        section.dark h2,
+        section.dark h3 {
+            color: var(--white-95);
+        }
+
+        section.alt {
+            background: var(--stone);
+        }
+
+        .section-header {
+            margin-bottom: 3rem;
+        }
+
+        .section-header .eyebrow {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-header h2 {
+            margin-bottom: 1rem;
+        }
+
+        .section-header .gold-underline {
+            width: 48px;
+            height: 4px;
+            background: var(--gold);
+        }
+
+        /* Color Swatches */
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .color-swatch {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .color-swatch .swatch {
+            height: 120px;
+        }
+
+        .color-swatch .info {
+            padding: 1rem;
+            background: white;
+        }
+
+        .color-swatch .name {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .color-swatch .hex {
+            font-family: monospace;
+            font-size: 0.875rem;
+            color: var(--charcoal);
+        }
+
+        /* Typography Samples */
+        .type-sample {
+            margin: 2rem 0;
+            padding: 2rem;
+            background: var(--navy-900);
+            border-radius: 8px;
+        }
+
+        .type-sample.light {
+            background: var(--stone);
+        }
+
+        .type-sample h1 { color: var(--white-95); margin-bottom: 0.5rem; }
+        .type-sample h2 { color: var(--white-95); margin-bottom: 0.5rem; }
+        .type-sample h3 { color: var(--white-95); margin-bottom: 0.5rem; }
+        .type-sample p { color: var(--white-85); margin-bottom: 0; }
+
+        .type-sample.light h1,
+        .type-sample.light h2,
+        .type-sample.light h3 { color: var(--charcoal); }
+        .type-sample.light p { color: var(--charcoal); }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        th, td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            font-weight: 600;
+            background: var(--stone);
+        }
+
+        section.dark th {
+            background: var(--navy-800);
+            color: var(--white-95);
+        }
+
+        section.dark td {
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Image Grid */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .image-grid img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .image-grid figcaption {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--white-70);
+        }
+
+        section:not(.dark) .image-grid figcaption {
+            color: var(--charcoal);
+        }
+
+        /* Mood Board - larger images for more impact */
+        .mood-board {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .mood-board figure {
+            margin: 0;
+        }
+
+        .mood-board img {
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .mood-board figcaption {
+            margin-top: 1rem;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--charcoal);
+        }
+
+        /* Component Examples */
+        .component-example {
+            margin: 2rem 0;
+            padding: 2rem;
+            background: var(--navy-900);
+            border-radius: 8px;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--navy-900);
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background 0.15s;
+        }
+
+        .btn-primary:hover {
+            background: var(--gold-muted);
+        }
+
+        .btn-outline {
+            display: inline-block;
+            background: transparent;
+            color: white;
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+            text-decoration: none;
+            transition: all 0.15s;
+            margin-left: 1rem;
+        }
+
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* Cards */
+        .card-example {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .card-example .eyebrow {
+            font-size: 0.6875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .card-example h4 {
+            color: var(--white-95);
+            margin-bottom: 0.5rem;
+        }
+
+        .card-example p {
+            color: var(--white-70);
+            font-size: 0.875rem;
+            margin-bottom: 0;
+        }
+
+        /* Do/Don't */
+        .do-dont-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .do-box, .dont-box {
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .do-box {
+            background: rgba(0, 200, 83, 0.1);
+            border: 2px solid rgba(0, 200, 83, 0.3);
+        }
+
+        .dont-box {
+            background: rgba(255, 82, 82, 0.1);
+            border: 2px solid rgba(255, 82, 82, 0.3);
+        }
+
+        .do-box h4 { color: #00C853; }
+        .dont-box h4 { color: #FF5252; }
+
+        /* Voice Examples */
+        .voice-example {
+            margin: 1.5rem 0;
+            padding: 1.5rem;
+            background: var(--stone);
+            border-radius: 8px;
+            border-left: 4px solid var(--gold);
+        }
+
+        .voice-example.bad {
+            border-left-color: #FF5252;
+            background: rgba(255, 82, 82, 0.05);
+        }
+
+        .voice-example .label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+        }
+
+        .voice-example.bad .label { color: #FF5252; }
+        .voice-example:not(.bad) .label { color: var(--gold-dark); }
+
+        /* Footer */
+        footer {
+            background: var(--navy-800);
+            color: var(--white-70);
+            padding: 2rem 0;
+            text-align: center;
+            border-top: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        footer p {
+            margin-bottom: 0.25rem;
+        }
+
+        footer p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Navigation (screen only) */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--navy-900);
+            padding: 1rem 2rem;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .nav-seal {
+            width: 36px;
+            height: 36px;
+        }
+
+        .nav-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.125rem;
+        }
+
+        .nav-dept {
+            color: var(--white-85);
+            font-size: 0.625rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .nav-title {
+            color: var(--white-95);
+            font-family: var(--font-serif);
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .nav-links a {
+            color: var(--white-85);
+            text-decoration: none;
+            margin-left: 2rem;
+            font-size: 0.875rem;
+            transition: color 0.15s;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        @media print {
+            .nav { display: none; }
+            .cover { min-height: auto; padding: 2in 0; }
+        }
+
+        @media (max-width: 768px) {
+            .nav { display: none; }
+            .do-dont-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 2.5rem; }
+            .cover h1 { font-size: 2.5rem; }
+        }
+
+        /* Marble Textures - Pre-rendered images for performance */
+        .marble-treasury {
+            background: url('textures/marble-treasury.jpg') center/cover;
+        }
+        .marble-carrara {
+            background: url('textures/marble-carrara.jpg') center/cover;
+        }
+        .marble-gold-veined {
+            background: url('textures/marble-gold-veined.jpg') center/cover;
+        }
+        .marble-gray {
+            background: url('textures/marble-gray.jpg') center/cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation (screen only) -->
+    <nav class="nav no-print">
+        <div class="nav-logo">
+            <img src="brand-assets/logos/treasury-seal-white-simple.svg" alt="Treasury Seal" class="nav-seal">
+            <div class="nav-text">
+                <span class="nav-dept">U.S. Department of the Treasury</span>
+                <span class="nav-title">Brand Guidelines</span>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="#overview">Overview</a>
+            <a href="#visual">Visual</a>
+            <a href="#voice">Voice</a>
+            <a href="#components">Components</a>
+        </div>
+    </nav>
+
+    <!-- Cover Page -->
+    <section class="cover">
+        <p class="subtitle">Brand Guidelines</p>
+        <h1>Treasury.gov</h1>
+        <div class="gold-bar"></div>
+        <p class="version">Version 1.0 | January 2026</p>
+    </section>
+
+    <!-- Table of Contents -->
+    <section class="toc page-break">
+        <div class="container">
+            <h2>Contents</h2>
+            <ol class="toc-list">
+                <li><a href="#overview">Brand Overview <span class="page-num">01</span></a></li>
+                <li><a href="#visual">Visual System <span class="page-num">02</span></a></li>
+                <li><a href="#typography">Typography <span class="page-num">03</span></a></li>
+                <li><a href="#voice">Brand Voice <span class="page-num">04</span></a></li>
+                <li><a href="#logo">Logo System <span class="page-num">05</span></a></li>
+                <li><a href="#components">Components <span class="page-num">06</span></a></li>
+                <li><a href="#photography">Photography <span class="page-num">07</span></a></li>
+                <li><a href="#brand-in-use">Brand in Use <span class="page-num">08</span></a></li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Brand Overview -->
+    <section id="overview" class="page-break">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Section 01</p>
+                <h2>Brand Overview</h2>
+                <div class="gold-underline"></div>
+            </div>
+
+            <h3>Mission</h3>
+            <p>Treasury.gov serves as the primary digital presence for the U.S. Department of the Treasury, providing Americans with access to critical financial information, services, and resources. Our website must convey the authority and trustworthiness of a cabinet-level federal agency while remaining accessible to all citizens.</p>
+
+            <h3>Brand Values</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Value</th>
+                        <th>Expression</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Authority</strong></td>
+                        <td>The gravitas of a cabinet-level federal agency</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sophistication</strong></td>
+                        <td>Premium, refined visual treatment</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Trust</strong></td>
+                        <td>Serious, reliable government presence</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Modernity</strong></td>
+                        <td>Contemporary design while respecting tradition</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Target Audiences</h3>
+            <ul>
+                <li><strong>General Public</strong> - Citizens seeking Treasury services and information</li>
+                <li><strong>Financial Sector</strong> - Banks, investors, and financial professionals</li>
+                <li><strong>Media</strong> - Journalists covering economic policy and Treasury announcements</li>
+                <li><strong>Government Partners</strong> - Other agencies and international partners</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Visual System -->
+    <section id="visual" class="dark page-break">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Section 02</p>
+                <h2>Visual System</h2>
+                <div class="gold-underline"></div>
+            </div>
+
+            <h3>Color Palette</h3>
+            <p>The Treasury color palette centers on a sophisticated navy blue paired with gold accents, conveying authority, trust, and prestige.</p>
+
+            <h4>Primary Colors</h4>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="swatch" style="background: #0B122C;"></div>
+                    <div class="info">
+                        <p class="name">Navy 900</p>
+                        <p class="hex">#0B122C</p>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch" style="background: #0f1735;"></div>
+                    <div class="info">
+                        <p class="name">Navy 800</p>
+                        <p class="hex">#0f1735</p>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch" style="background: #141F4D;"></div>
+                    <div class="info">
+                        <p class="name">Navy 700</p>
+                        <p class="hex">#141F4D</p>
+                    </div>
+                </div>
+            </div>
+
+            <h4>Accent Colors</h4>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="swatch" style="background: #D4AF37;"></div>
+                    <div class="info">
+                        <p class="name">Gold</p>
+                        <p class="hex">#D4AF37</p>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch" style="background: #E5C972;"></div>
+                    <div class="info">
+                        <p class="name">Gold Muted</p>
+                        <p class="hex">#E5C972</p>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch" style="background: #B8952B;"></div>
+                    <div class="info">
+                        <p class="name">Gold Dark</p>
+                        <p class="hex">#B8952B</p>
+                    </div>
+                </div>
+            </div>
+
+            <h4>Neutrals</h4>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="swatch" style="background: #E8E6E0;"></div>
+                    <div class="info">
+                        <p class="name">Stone</p>
+                        <p class="hex">#E8E6E0</p>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch" style="background: #293340;"></div>
+                    <div class="info">
+                        <p class="name">Charcoal</p>
+                        <p class="hex">#293340</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Color Usage Rules</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Context</th>
+                        <th>Background</th>
+                        <th>Text</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Primary sections</td>
+                        <td>Navy 900</td>
+                        <td>White 95%</td>
+                    </tr>
+                    <tr>
+                        <td>Alternate sections</td>
+                        <td>Navy 800</td>
+                        <td>White 95%</td>
+                    </tr>
+                    <tr>
+                        <td>Light sections</td>
+                        <td>Stone</td>
+                        <td>Charcoal</td>
+                    </tr>
+                    <tr>
+                        <td>Accent elements</td>
+                        <td>N/A</td>
+                        <td>Gold</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Contrast Ratios (WCAG AA)</h3>
+            <p>Gold (#D4AF37) has limited contrast on light backgrounds. Use accessible alternatives:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Background</th>
+                        <th>Standard Gold</th>
+                        <th>Accessible Alternative</th>
+                        <th>Contrast Ratio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Navy 900 (#0B122C)</td>
+                        <td>#D4AF37 ✓</td>
+                        <td>N/A - standard gold works</td>
+                        <td>10.5:1</td>
+                    </tr>
+                    <tr>
+                        <td>White (#FFFFFF)</td>
+                        <td>#D4AF37 ✗ (1.68:1)</td>
+                        <td>#806000</td>
+                        <td>4.5:1</td>
+                    </tr>
+                    <tr>
+                        <td>Stone (#E8E6E0)</td>
+                        <td>#D4AF37 ✗ (1.54:1)</td>
+                        <td>#705500</td>
+                        <td>4.5:1</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Focus States</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Background</th>
+                        <th>Focus Ring Color</th>
+                        <th>Rationale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Navy (dark)</td>
+                        <td>Gold (#D4AF37)</td>
+                        <td>High contrast on dark</td>
+                    </tr>
+                    <tr>
+                        <td>White/Stone (light)</td>
+                        <td>Navy (#0B122C)</td>
+                        <td>Navy visible on light</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Animation & Motion</h3>
+            <ul>
+                <li><strong>Respect reduced motion:</strong> All animations disabled when <code>prefers-reduced-motion: reduce</code> is set</li>
+                <li><strong>Transition duration:</strong> Keep under 300ms for UI feedback</li>
+                <li><strong>No infinite animations:</strong> Avoid perpetual motion that can cause discomfort</li>
+                <li><strong>Lenis smooth scroll:</strong> Disabled when reduced motion preferred</li>
+            </ul>
+
+            <h3>Marble Textures</h3>
+            <p>Pre-rendered marble texture images for the Treasury Building aesthetic. Use instead of plain white/cream backgrounds to add depth and sophistication. These are high-quality photorealistic textures with visible, organic veins.</p>
+
+            <h4>Available Textures</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Texture</th>
+                        <th>Character</th>
+                        <th>Best For</th>
+                        <th>File</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Treasury Building</strong></td>
+                        <td>Warm cream with brown/taupe veins (Recommended)</td>
+                        <td>Primary light sections - most authentic "government building" feel</td>
+                        <td><a href="textures/marble-treasury.jpg" style="color: var(--gold);">marble-treasury.jpg</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Carrara</strong></td>
+                        <td>Cool white with gray veins</td>
+                        <td>Content-heavy sections, elegant secondary backgrounds</td>
+                        <td><a href="textures/marble-carrara.jpg" style="color: var(--gold);">marble-carrara.jpg</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gold Veined</strong></td>
+                        <td>Cream with gold/amber veining</td>
+                        <td>Hero sections, premium/featured content, presidential-level</td>
+                        <td><a href="textures/marble-gold-veined.jpg" style="color: var(--gold);">marble-gold-veined.jpg</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gray Bardiglio</strong></td>
+                        <td>Dramatic gray with light/dark veins</td>
+                        <td>Data sections, dashboards, modern contrast</td>
+                        <td><a href="textures/marble-gray.jpg" style="color: var(--gold);">marble-gray.jpg</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Marble Texture Samples</h4>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin: 1.5rem 0;">
+                <div style="background: url('textures/marble-treasury.jpg') center/cover; padding: 2rem; border-radius: 8px; color: var(--charcoal); min-height: 180px;">
+                    <p style="font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: var(--gold); margin-bottom: 0.5rem; text-shadow: 0 1px 2px rgba(255,255,255,0.5);">Treasury Building</p>
+                    <p style="font-family: var(--font-serif); font-size: 1.25rem;">Recommended for light sections</p>
+                </div>
+                <div style="background: url('textures/marble-carrara.jpg') center/cover; padding: 2rem; border-radius: 8px; color: var(--charcoal); min-height: 180px;">
+                    <p style="font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: var(--gold); margin-bottom: 0.5rem; text-shadow: 0 1px 2px rgba(255,255,255,0.5);">Carrara</p>
+                    <p style="font-family: var(--font-serif); font-size: 1.25rem;">Classic and elegant</p>
+                </div>
+                <div style="background: url('textures/marble-gold-veined.jpg') center/cover; padding: 2rem; border-radius: 8px; color: var(--charcoal); min-height: 180px;">
+                    <p style="font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: var(--gold); margin-bottom: 0.5rem; text-shadow: 0 1px 2px rgba(255,255,255,0.5);">Gold Veined</p>
+                    <p style="font-family: var(--font-serif); font-size: 1.25rem;">Premium sections</p>
+                </div>
+                <div style="background: url('textures/marble-gray.jpg') center/cover; padding: 2rem; border-radius: 8px; color: #f2f2f0; min-height: 180px;">
+                    <p style="font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: var(--gold); margin-bottom: 0.5rem;">Gray Bardiglio</p>
+                    <p style="font-family: var(--font-serif); font-size: 1.25rem;">Dramatic alternative</p>
+                </div>
+            </div>
+
+            <h4>Usage Guidelines</h4>
+            <ul>
+                <li><strong>Alternate with navy:</strong> Marble sections work best when alternated with navy sections for visual rhythm</li>
+                <li><strong>Performance:</strong> Pre-rendered images load once and cache - safe for smooth scrolling with Lenis</li>
+                <li><strong>Text contrast:</strong> Use Charcoal (#293340) text on light marble; white text on Gray Bardiglio</li>
+                <li><strong>Cards on marble:</strong> White cards with subtle shadows provide excellent contrast</li>
+                <li><strong>Primary choice:</strong> Use Treasury Building marble for most sections - most authentic government feel</li>
+            </ul>
+
+            <h4>CSS Implementation</h4>
+            <pre style="background: var(--navy-900); color: #f2f2f0; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.8125rem;"><code>/* Using marble textures as backgrounds */
+.marble-treasury {
+  background: url('/brand-guidelines/textures/marble-treasury.jpg') center/cover;
+}
+
+.marble-carrara {
+  background: url('/brand-guidelines/textures/marble-carrara.jpg') center/cover;
+}
+
+.marble-gold-veined {
+  background: url('/brand-guidelines/textures/marble-gold-veined.jpg') center/cover;
+}
+
+.marble-gray {
+  background: url('/brand-guidelines/textures/marble-gray.jpg') center/cover;
+}
+
+/* Example section usage */
+.section-marble {
+  background: url('/brand-guidelines/textures/marble-treasury.jpg') center/cover;
+  color: var(--charcoal);
+  padding: 4rem 2rem;
+}</code></pre>
+
+            <h4>Preview All Textures</h4>
+            <p>View full-size textures and example layouts: <a href="textures/preview.html" style="color: var(--gold);">Marble Texture Preview Page</a></p>
+        </div>
+    </section>
+
+    <!-- Typography -->
+    <section id="typography" class="page-break">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Section 03</p>
+                <h2>Typography</h2>
+                <div class="gold-underline"></div>
+            </div>
+
+            <h3>Type Families</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Family</th>
+                        <th>Usage</th>
+                        <th>Weights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Playfair Display</strong></td>
+                        <td>Headlines, titles, quotes</td>
+                        <td>400, 500, 600</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Inter</strong></td>
+                        <td>Body text, UI elements</td>
+                        <td>400, 500, 600, 700</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Type Scale</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Size</th>
+                        <th>Weight</th>
+                        <th>Line Height</th>
+                        <th>Letter Spacing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Display</strong></td>
+                        <td>clamp(48px, 10vw, 120px)</td>
+                        <td>400</td>
+                        <td>1.1</td>
+                        <td>+0.02em</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1</strong></td>
+                        <td>clamp(40px, 6vw, 64px)</td>
+                        <td>500</td>
+                        <td>1.18</td>
+                        <td>+0.02em</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2</strong></td>
+                        <td>clamp(32px, 4vw, 48px)</td>
+                        <td>500</td>
+                        <td>1.18</td>
+                        <td>+0.02em</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H3</strong></td>
+                        <td>clamp(24px, 3vw, 32px)</td>
+                        <td>600</td>
+                        <td>1.3</td>
+                        <td>+0.01em</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Body</strong></td>
+                        <td>16px (1rem)</td>
+                        <td>400</td>
+                        <td>1.6</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="type-sample" style="margin-top: 2rem;">
+                <p class="display" style="font-size: clamp(3rem, 8vw, 5rem);">Display Headline</p>
+                <h1>Heading 1 - Page Title</h1>
+                <h2>Heading 2 - Section</h2>
+                <h3>Heading 3 - Subsection</h3>
+                <p>Body text - 16px Inter Regular. The quick brown fox jumps over the lazy dog.</p>
+            </div>
+
+            <h3>Type on Light Backgrounds</h3>
+            <div class="type-sample light">
+                <h1 style="color: var(--charcoal);">Heading 1 - Charcoal</h1>
+                <h2 style="color: var(--charcoal);">Heading 2 - Charcoal</h2>
+                <p style="color: var(--charcoal);">Body text on light backgrounds uses Charcoal (#293340) for optimal readability.</p>
+            </div>
+
+            <h3>Special Text Styles</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Style</th>
+                        <th>Specifications</th>
+                        <th>Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eyebrow/Label (H6)</td>
+                        <td>11-12px, Inter Semibold, Uppercase, 0.15em tracking, Gold</td>
+                        <td>Above section headings, category labels</td>
+                    </tr>
+                    <tr>
+                        <td>Category Tag</td>
+                        <td>11px, Inter Semibold, Uppercase, 0.1em tracking, Gold</td>
+                        <td>Card labels, article tags</td>
+                    </tr>
+                    <tr>
+                        <td>Caption</td>
+                        <td>12px, Inter Semibold</td>
+                        <td>Image captions, footnotes</td>
+                    </tr>
+                    <tr>
+                        <td>Button Text</td>
+                        <td>14px, Inter Semibold, 0.05em tracking</td>
+                        <td>Primary and secondary buttons</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Typography Principles</h3>
+            <ul>
+                <li><strong>Positive letter-spacing:</strong> Use +0.01em to +0.03em on headlines for editorial elegance. Never use negative tracking.</li>
+                <li><strong>Tight line-height:</strong> Display and headline text uses 1.1-1.2 for impact. Body text uses 1.6 for readability.</li>
+                <li><strong>Scale with viewport:</strong> Use CSS clamp() for responsive typography that maintains proportion.</li>
+                <li><strong>Hero headlines at 120px+:</strong> Display text should command attention at desktop viewport widths.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Brand Voice -->
+    <section id="voice" class="alt page-break">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Section 04</p>
+                <h2>Brand Voice</h2>
+                <div class="gold-underline"></div>
+            </div>
+
+            <h3>Personality Traits</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trait</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Authoritative</strong></td>
+                        <td>Speaks with the weight and expertise of a cabinet-level agency</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Trustworthy</strong></td>
+                        <td>Reliable, accurate, and transparent</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Clear</strong></td>
+                        <td>Plain language, accessible to all</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Professional</strong></td>
+                        <td>Serious, dignified, appropriate</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Helpful</strong></td>
+                        <td>Service-oriented, user-focused</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Voice Examples</h3>
+
+            <div class="voice-example bad">
+                <p class="label">Don't</p>
+                <p>"Pursuant to the provisions of Section 6402 of the Internal Revenue Code, the Department of the Treasury hereby notifies affected taxpayers that offset procedures may be initiated with respect to outstanding federal debts."</p>
+            </div>
+
+            <div class="voice-example">
+                <p class="label">Do</p>
+                <p>"If you owe federal debt, your tax refund may be reduced to pay it. This is called a tax refund offset. Learn what debts can cause an offset and how to check if you're affected."</p>
+            </div>
+
+            <h3>Tone Guidelines</h3>
+            <div class="do-dont-grid">
+                <div class="do-box">
+                    <h4>Do</h4>
+                    <ul>
+                        <li>Use plain language</li>
+                        <li>Be direct and concise</li>
+                        <li>Address the reader as "you"</li>
+                        <li>Provide specific numbers and dates</li>
+                        <li>Explain acronyms on first use</li>
+                        <li>Use active voice</li>
+                    </ul>
+                </div>
+                <div class="dont-box">
+                    <h4>Don't</h4>
+                    <ul>
+                        <li>Use bureaucratic jargon</li>
+                        <li>Bury the lead in paragraphs</li>
+                        <li>Use passive voice excessively</li>
+                        <li>Make vague promises</li>
+                        <li>Assume familiarity with government terms</li>
+                        <li>Use superlatives or marketing speak</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>Tone Matrix</h3>
+            <p>Treasury's voice remains consistent, but tone shifts based on context:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Context</th>
+                        <th>Tone</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Crisis</strong></td>
+                        <td>Calm, direct, reassuring</td>
+                        <td>"Treasury is taking immediate action to stabilize markets."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Policy</strong></td>
+                        <td>Authoritative, factual, precise</td>
+                        <td>"The new regulation requires financial institutions to..."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Educational</strong></td>
+                        <td>Approachable, clear, helpful</td>
+                        <td>"Here's how the tax credit works and who qualifies."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Service</strong></td>
+                        <td>Supportive, patient, solution-oriented</td>
+                        <td>"We can help you resolve this issue. Here are your options."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Success</strong></td>
+                        <td>Measured pride, factual celebration</td>
+                        <td>"This program has helped 2 million Americans save for retirement."</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Word Lists</h3>
+            <div class="do-dont-grid">
+                <div class="do-box">
+                    <h4>Preferred Terms</h4>
+                    <ul>
+                        <li>Use "help" not "assist"</li>
+                        <li>Use "start" not "commence"</li>
+                        <li>Use "end" not "terminate"</li>
+                        <li>Use "get" not "obtain"</li>
+                        <li>Use "need" not "require"</li>
+                        <li>Use "about" not "approximately"</li>
+                        <li>Use "before" not "prior to"</li>
+                        <li>Use "after" not "subsequent to"</li>
+                    </ul>
+                </div>
+                <div class="dont-box">
+                    <h4>Words to Avoid</h4>
+                    <ul>
+                        <li>Pursuant to</li>
+                        <li>Herein, hereby, herewith</li>
+                        <li>Aforementioned</li>
+                        <li>Effectuate</li>
+                        <li>Utilize (use "use")</li>
+                        <li>Facilitate</li>
+                        <li>Promulgate</li>
+                        <li>Notwithstanding</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>Messaging Hierarchy</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Content</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Tagline</strong></td>
+                        <td>Serving the American people and strengthening the economy</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Value Proposition</strong></td>
+                        <td>Treasury maintains a strong economy, manages government finances, and combats threats to our financial systems</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Proof Points</strong></td>
+                        <td>$X trillion in government payments processed annually; XX sanctions programs protecting national security; Direct impact on every American's financial life</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Boilerplate Library</h3>
+            <div class="boilerplate">
+                <h4>50 Words</h4>
+                <p>The U.S. Department of the Treasury works to maintain a strong economy, manage government finances, and protect the integrity of the financial system. Treasury serves all Americans through programs that promote economic growth, collect taxes fairly, and safeguard against financial threats.</p>
+            </div>
+            <div class="boilerplate">
+                <h4>100 Words</h4>
+                <p>The U.S. Department of the Treasury is the executive agency responsible for promoting economic prosperity and ensuring the financial security of the United States. Treasury operates and maintains systems that are critical to the nation's financial infrastructure, including currency production, revenue collection, and disbursement of government payments. The Department works to strengthen national security through targeted financial sanctions, combat financial crimes, and promote conditions for economic growth and job creation both at home and abroad. Treasury serves every American through programs that impact their daily financial lives.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo System -->
+    <section id="logo" class="page-break">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Section 05</p>
+                <h2>Logo System</h2>
+                <div class="gold-underline"></div>
+            </div>
+
+            <h3>Treasury Seal</h3>
+            <p>The Treasury seal is the official mark of the Department. It must be used according to federal guidelines and treated with respect. Use the full seal at larger sizes where detail is visible. At smaller sizes (below ~140px), the outer ring text becomes too small to read (&lt;10px), so use the simplified version.</p>
+
+            <!-- White Seal - Size Variations -->
+            <h4 style="margin-top: 2rem; margin-bottom: 0.5rem;">White</h4>
+            <p style="font-size: 0.875rem; color: var(--white-70); margin-bottom: 1rem;">On navy or dark backgrounds</p>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 2.5rem;">
+                <div style="text-align: center;">
+                    <div style="background: var(--navy-900); border-radius: 8px; padding: 1rem; display: flex; align-items: center; justify-content: center; min-height: 180px;">
+                        <img src="brand-assets/logos/treasury-seal-white.svg?v=8" alt="White Seal - 160px" style="width: 160px; height: 160px;">
+                    </div>
+                    <p style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--charcoal);">160px - Full detail</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="background: var(--navy-900); border-radius: 8px; padding: 1rem; display: flex; align-items: center; justify-content: center; min-height: 180px;">
+                        <img src="brand-assets/logos/treasury-seal-white.svg?v=8" alt="White Seal - 140px" style="width: 140px; height: 140px;">
+                    </div>
+                    <p style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--charcoal);">140px - Threshold</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="background: var(--navy-900); border-radius: 8px; padding: 1rem; display: flex; align-items: center; justify-content: center; min-height: 180px;">
+                        <img src="brand-assets/logos/treasury-seal-white-simple.svg?v=3" alt="White Seal Simplified - 80px" style="width: 80px; height: 80px;">
+                    </div>
+                    <p style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--charcoal);">80px - Simplified</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="background: var(--navy-900); border-radius: 8px; padding: 1rem; display: flex; align-items: center; justify-content: center; min-height: 180px;">
+                        <img src="brand-assets/logos/treasury-seal-white-simple.svg?v=3" alt="White Seal Simplified - 40px" style="width: 40px; height: 40px;">
+                    </div>
+                    <p style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--charcoal);">40px - Minimum</p>
+                </div>
+            </div>
+
+            <!-- Navy + Gold Seal - Size Variations -->
+            <h4 style="margin-top: 2rem; margin-bottom: 0.5rem;">Navy + Gold</h4>
+            <p style="font-size: 0.875rem; color: var(--white-70); margin-bottom: 1rem;">Brand-aligned special applications</p>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 2.5rem;">
+                <div style="text-align: center;">
+                    <div style="background: #E8E6E0; border-radius: 8px; padding: 1rem; display: flex; align-items: center; justify-content: center; min-height: 180px;">
+                        <img src="brand-assets/logos/treasury-seal-navy-gold.svg?v=5" alt="Navy Gold Seal - 160px" style="width: 160px; height: 160px;">
+                    </div>
+                    <p style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--charcoal);">160px - Full detail</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="background: #E8E6E0; border-radius: 8px; padding: 1rem; display: flex; align-items: center; justify-content: center; min-height: 180px;">
+                        <img src="brand-assets/logos/treasury-seal-navy-gold.svg?v=5" alt="Navy Gold Seal - 140px" style="width: 140px; height: 140px;">
+                    </div>
+                    <p style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--charcoal);">140px - Threshold</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="background: #E8E6E0; border-radius: 8px; padding: 1rem; display: flex; align-items: center; justify-content: center; min-height: 180px;">
+                        <img src="brand-assets/logos/treasury-seal-navy-gold-simple.svg?v=2" alt="Navy Gold Seal Simplified - 80px" style="width: 80px; height: 80px;">
+                    </div>
+                    <p style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--charcoal);">80px - Simplified</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="background: #E8E6E0; border-radius: 8px; padding: 1rem; display: flex; align-items: center; justify-content: center; min-height: 180px;">
+                        <img src="brand-assets/logos/treasury-seal-navy-gold-simple.svg?v=2" alt="Navy Gold Seal Simplified - 40px" style="width: 40px; height: 40px;">
+                    </div>
+                    <p style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--charcoal);">40px - Minimum</p>
+                </div>
+            </div>
+
+            <h3>Clear Space</h3>
+            <p>Maintain clear space around the seal equal to at least 1/4 of the seal's width on all sides. No other elements should intrude into this space.</p>
+
+            <h3>Minimum Size</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Medium</th>
+                        <th>Minimum Width</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Digital</td>
+                        <td>40px</td>
+                    </tr>
+                    <tr>
+                        <td>Print</td>
+                        <td>0.5 inches</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Color Variations</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Version</th>
+                        <th>Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Navy + Gold</td>
+                        <td>Primary usage on white or light backgrounds</td>
+                    </tr>
+                    <tr>
+                        <td>White</td>
+                        <td>On navy or dark backgrounds</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Logo Don'ts</h3>
+            <ul>
+                <li>Don't stretch or distort the seal</li>
+                <li>Don't change the colors</li>
+                <li>Don't add effects (shadows, gradients)</li>
+                <li>Don't place on busy backgrounds</li>
+                <li>Don't rotate the seal</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Components -->
+    <section id="components" class="dark page-break">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Section 06</p>
+                <h2>Components</h2>
+                <div class="gold-underline"></div>
+            </div>
+
+            <h3>Buttons</h3>
+            <div class="component-example">
+                <a href="#" class="btn-primary">Primary Button</a>
+                <a href="#" class="btn-outline">Outline Button</a>
+            </div>
+
+            <h4>Button States</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>State</th>
+                        <th>Primary</th>
+                        <th>Outline</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Default</strong></td>
+                        <td>Background: #D4AF37, Text: #0B122C</td>
+                        <td>Border: #D4AF37, Text: #D4AF37</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hover</strong></td>
+                        <td>Background: #E5C972</td>
+                        <td>Background: rgba(255,189,0,0.1)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Focus</strong></td>
+                        <td>Outline: 3px solid #0B122C, offset: 2px</td>
+                        <td>Outline: 3px solid #D4AF37, offset: 2px</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Active</strong></td>
+                        <td>Background: #B8952B</td>
+                        <td>Background: rgba(255,189,0,0.2)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Disabled</strong></td>
+                        <td>Opacity: 0.5, cursor: not-allowed</td>
+                        <td>Opacity: 0.5, cursor: not-allowed</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Button Code</h4>
+            <pre style="background: #1a1a2e; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.875rem;"><code>.btn-primary {
+  background: var(--treasury-gold);
+  color: var(--treasury-navy);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn-primary:hover { background: var(--treasury-gold-light); }
+.btn-primary:focus { outline: 3px solid var(--treasury-navy); }</code></pre>
+
+            <h3>Cards</h3>
+            <div class="card-example">
+                <p class="eyebrow">Press Release</p>
+                <h4>Treasury Announces New Initiative</h4>
+                <p>Brief description of the card content goes here with supporting details.</p>
+            </div>
+
+            <h4>Card States</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>State</th>
+                        <th>Style</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Default</strong></td>
+                        <td>Background: white, Border: 1px solid #e8e8e8, Shadow: 0 2px 8px rgba(0,0,0,0.06)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hover</strong></td>
+                        <td>Transform: translateY(-4px), Border: #D4AF37, Shadow: 0 8px 24px rgba(0,0,0,0.12)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Focus</strong></td>
+                        <td>Outline: 3px solid #0B122C, offset: 2px</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Section Headers</h3>
+            <p>All major sections use the eyebrow + heading + gold underline pattern for visual consistency.</p>
+
+            <h3>Breakpoints</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Breakpoint</th>
+                        <th>Width</th>
+                        <th>Typical Devices</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Mobile</strong></td>
+                        <td>0 - 599px</td>
+                        <td>Phones</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tablet</strong></td>
+                        <td>600px - 1023px</td>
+                        <td>Tablets, small laptops</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Desktop</strong></td>
+                        <td>1024px+</td>
+                        <td>Laptops, monitors</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wide</strong></td>
+                        <td>1400px+</td>
+                        <td>Large monitors</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Responsive Code</h4>
+            <pre style="background: #1a1a2e; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.875rem;"><code>/* Mobile first approach */
+.container { padding: 0 1rem; }
+
+@media (min-width: 600px) {
+  .container { padding: 0 1.5rem; }
+}
+
+@media (min-width: 1024px) {
+  .container { max-width: 1200px; margin: 0 auto; }
+}</code></pre>
+
+            <h3>Spacing System</h3>
+            <p>Treasury.gov uses an 8px grid system for consistent spacing:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Token</th>
+                        <th>Value</th>
+                        <th>Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>xs</td><td>4px</td><td>Tight spacing, icon gaps</td></tr>
+                    <tr><td>sm</td><td>8px</td><td>Small gaps, inline elements</td></tr>
+                    <tr><td>md</td><td>16px</td><td>Default spacing, list items</td></tr>
+                    <tr><td>lg</td><td>24px</td><td>Section spacing, card padding</td></tr>
+                    <tr><td>xl</td><td>32px</td><td>Large gaps, section margins</td></tr>
+                    <tr><td>2xl</td><td>48px</td><td>Major section padding</td></tr>
+                    <tr><td>3xl</td><td>64px</td><td>Hero spacing</td></tr>
+                    <tr><td>4xl</td><td>96px</td><td>Section separators</td></tr>
+                </tbody>
+            </table>
+
+            <h4>Spacing Code</h4>
+            <pre style="background: #1a1a2e; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.875rem;"><code>:root {
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+}</code></pre>
+        </div>
+    </section>
+
+    <!-- Photography -->
+    <section id="photography" class="page-break">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Section 07</p>
+                <h2>Photography</h2>
+                <div class="gold-underline"></div>
+            </div>
+
+            <h3>Photography Style</h3>
+            <p>Treasury photography should convey authority, professionalism, and trustworthiness while remaining accessible and engaging.</p>
+
+            <h3>Photography Archetypes</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Archetype</th>
+                        <th>Description</th>
+                        <th>Use Cases</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>The Guardian</strong></td>
+                        <td>Treasury building, vaults, architecture that conveys protection and permanence</td>
+                        <td>Homepage heroes, section backgrounds, institutional pages</td>
+                    </tr>
+                    <tr>
+                        <td><strong>The Leader</strong></td>
+                        <td>Secretary and officials in action - testimony, meetings, press conferences</td>
+                        <td>News releases, leadership pages, speeches</td>
+                    </tr>
+                    <tr>
+                        <td><strong>The Impact</strong></td>
+                        <td>Americans affected by Treasury policies - beneficiaries, communities</td>
+                        <td>Program pages, success stories, citizen services</td>
+                    </tr>
+                    <tr>
+                        <td><strong>The Heritage</strong></td>
+                        <td>Historical imagery - founding documents, past Secretaries, historic moments</td>
+                        <td>About pages, history sections, commemorative content</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Subject Guidelines</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Direction</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>People</strong></td>
+                        <td>Diverse, professional, engaged in meaningful work</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Buildings</strong></td>
+                        <td>Treasury building, government architecture, dignified settings</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Documents</strong></td>
+                        <td>Official documents, currency, financial imagery</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Events</strong></td>
+                        <td>Press conferences, meetings, official ceremonies</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Technical Requirements</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Requirement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Resolution</strong></td>
+                        <td>Minimum 2400px on longest edge for hero images, 1200px for cards</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Aspect Ratios</strong></td>
+                        <td>16:9 (hero), 4:3 (cards), 1:1 (thumbnails)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>File Formats</strong></td>
+                        <td>JPG for photographs, PNG for graphics with transparency</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Color Space</strong></td>
+                        <td>sRGB for web, Adobe RGB for print</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Image Treatment</h3>
+            <ul>
+                <li><strong>Saturation:</strong> Reduce by 10-15% from original for sophisticated feel</li>
+                <li><strong>Color Cast:</strong> Slight cool/navy shift to align with brand palette</li>
+                <li><strong>Contrast:</strong> Slightly elevated for definition without harshness</li>
+                <li><strong>Prohibited:</strong> Heavy filters, artificial vignettes, stock photo watermarks</li>
+            </ul>
+
+            <h3>Photography Do's and Don'ts</h3>
+            <div class="do-dont-grid">
+                <div class="do-box">
+                    <h4>Do</h4>
+                    <ul>
+                        <li>Show people in authentic work contexts</li>
+                        <li>Capture candid moments of leadership</li>
+                        <li>Feature diverse Americans as beneficiaries</li>
+                        <li>Use Treasury building as visual anchor</li>
+                        <li>Include environmental context (40-60% of frame)</li>
+                    </ul>
+                </div>
+                <div class="dont-box">
+                    <h4>Don't</h4>
+                    <ul>
+                        <li>Use generic stock photography</li>
+                        <li>Stage handshakes or "diverse team pointing at laptop"</li>
+                        <li>Show posed confidence poses (arms crossed)</li>
+                        <li>Use images that could represent any agency</li>
+                        <li>Apply heavy filters or unnatural color grading</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>Human Photography Guidelines</h3>
+            <p>Treasury imagery featuring people must feel authentic and authoritative, never like generic corporate stock photos.</p>
+
+            <h4>When to Show Humans</h4>
+            <div class="do-dont-grid">
+                <div class="do-box">
+                    <h5>Show humans when:</h5>
+                    <ul>
+                        <li>Demonstrating Treasury IMPACT on real Americans</li>
+                        <li>Secretary/leadership in official capacity</li>
+                        <li>Historical context (Hamilton, past Secretaries)</li>
+                        <li>Service delivery moments with citizens</li>
+                    </ul>
+                </div>
+                <div class="dont-box">
+                    <h5>Do NOT show humans when:</h5>
+                    <ul>
+                        <li>Abstract concepts (use architecture instead)</li>
+                        <li>Generic "working" scenes</li>
+                        <li>Decorative filler imagery</li>
+                        <li>Images that could be ANY government agency</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h4>How Humans Should Look</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Principle</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Caught in Action</strong></td>
+                        <td>Never posed looking at camera - documentary style</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Environmental Context</strong></td>
+                        <td>Treasury building, hearing room, community visible (40-60% of frame)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dignified</strong></td>
+                        <td>Formal attire appropriate to context, never casual</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Purposeful</strong></td>
+                        <td>Clearly doing something meaningful, not "thinking" or "collaborating"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Authentic Lighting</strong></td>
+                        <td>Natural or documentary-style, never studio-lit</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Anti-Patterns (Never Do These)</h4>
+            <ul style="columns: 2; column-gap: 2rem;">
+                <li>NO handshakes</li>
+                <li>NO pointing at screens/whiteboards</li>
+                <li>NO "diverse team laughing together"</li>
+                <li>NO arms crossed "confidence pose"</li>
+                <li>NO stock-photo eye contact with camera</li>
+                <li>NO generic office backgrounds</li>
+                <li>NO obviously staged "candid" moments</li>
+                <li>NO suits walking toward camera</li>
+                <li>NO thumbs up, high fives, celebrations</li>
+            </ul>
+
+            <h4>Reference Images - Correct Approaches</h4>
+            <div class="mood-board" style="margin-bottom: 2rem;">
+                <figure>
+                    <img src="brand-assets/human-correct-leader.jpg" alt="Correct: Official at hearing">
+                    <figcaption>The Leader - Official at hearing, caught in action</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/human-correct-impact.jpg" alt="Correct: Family with documents">
+                    <figcaption>The Impact - Americans benefiting, natural moment</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/human-correct-guardian.jpg" alt="Correct: Employee at Treasury building">
+                    <figcaption>The Guardian - Environmental context, heritage</figcaption>
+                </figure>
+            </div>
+
+            <h4>Reference Images - Anti-Patterns to Avoid</h4>
+            <div class="mood-board" style="margin-bottom: 2rem;">
+                <figure>
+                    <img src="brand-assets/human-incorrect-handshake.jpg" alt="Incorrect: Generic handshake">
+                    <figcaption>AVOID: Posed handshake shots</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/human-incorrect-laptop.jpg" alt="Incorrect: Team at laptop">
+                    <figcaption>AVOID: "Team pointing at laptop" cliché</figcaption>
+                </figure>
+            </div>
+
+            <h3>Mood Board</h3>
+            <div class="mood-board">
+                <figure>
+                    <img src="brand-assets/mood-authority.jpg" alt="Authority mood">
+                    <figcaption>Authority & Trust</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/mood-sophistication.jpg" alt="Sophistication mood">
+                    <figcaption>Sophistication</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/mood-heritage.jpg" alt="Heritage mood">
+                    <figcaption>Heritage</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/mood-stability.jpg" alt="Stability mood">
+                    <figcaption>Stability & Security</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/mood-precision.jpg" alt="Precision mood">
+                    <figcaption>Precision & Craft</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/mood-vigilance.jpg" alt="Vigilance mood">
+                    <figcaption>Vigilance</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/mood-shield.jpg" alt="Shield mood">
+                    <figcaption>Protection</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/mood-accountability.jpg" alt="Accountability mood">
+                    <figcaption>Accountability</figcaption>
+                </figure>
+                <figure>
+                    <img src="brand-assets/mood-detection.jpg" alt="Detection mood">
+                    <figcaption>Rooting Out Fraud</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand in Use -->
+    <section id="brand-in-use" class="dark page-break">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Section 08</p>
+                <h2>Brand in Use</h2>
+                <div class="gold-underline"></div>
+            </div>
+
+            <h3>Application Guidelines</h3>
+            <p>Apply the Treasury brand consistently across all digital touchpoints using the patterns documented in this guide.</p>
+
+            <h3>Page Type Guidelines</h3>
+            <div class="guidelines-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin: 2rem 0;">
+                <div class="guideline-card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); padding: 1.5rem; border-radius: 8px;">
+                    <h4>Homepage Hero</h4>
+                    <ul style="color: var(--white-85);">
+                        <li>Full-width navy background</li>
+                        <li>Playfair Display headline</li>
+                        <li>Gold primary CTA button</li>
+                        <li>Subtle gold accent lines</li>
+                    </ul>
+                </div>
+                <div class="guideline-card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); padding: 1.5rem; border-radius: 8px;">
+                    <h4>Content Pages</h4>
+                    <ul style="color: var(--white-85);">
+                        <li>Stone (#E8E6E0) background for readability</li>
+                        <li>Navy header bar with white text</li>
+                        <li>Inter body text at 16px</li>
+                        <li>Gold category labels</li>
+                    </ul>
+                </div>
+                <div class="guideline-card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); padding: 1.5rem; border-radius: 8px;">
+                    <h4>Data & Dashboards</h4>
+                    <ul style="color: var(--white-85);">
+                        <li>Dark navy background</li>
+                        <li>Gold for data highlights</li>
+                        <li>Subtle card borders</li>
+                        <li>Clear data hierarchy</li>
+                    </ul>
+                </div>
+                <div class="guideline-card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); padding: 1.5rem; border-radius: 8px;">
+                    <h4>Forms & Services</h4>
+                    <ul style="color: var(--white-85);">
+                        <li>Clean white/stone background</li>
+                        <li>Gold submit buttons</li>
+                        <li>Clear field labels</li>
+                        <li>Progress indicators</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>Key Patterns</h3>
+            <ul>
+                <li>Navy backgrounds with white text for primary sections</li>
+                <li>Gold accents for calls-to-action and highlights</li>
+                <li>Stone backgrounds for contrast sections</li>
+                <li>Consistent use of eyebrow + heading + gold underline</li>
+                <li>Card-based layouts with subtle borders</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p><strong>Treasury.gov Brand Guidelines</strong></p>
+            <p>Version 1.0 | January 2026</p>
+            <p>U.S. Department of the Treasury</p>
+        </div>
+    </footer>
+
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script>
+        // Respect reduced motion preference
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        if (!prefersReducedMotion) {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                orientation: 'vertical',
+                smoothWheel: true
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+        }
+    </script>
+</body>
+</html>

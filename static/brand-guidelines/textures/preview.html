@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marble Texture Preview - Treasury Brand</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy-900: #0B122C;
+            --gold: #D4AF37;
+            --charcoal: #293340;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--navy-900);
+            color: #f2f2f0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 60px 40px;
+        }
+
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            color: #8a8a8a;
+        }
+
+        .texture-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0;
+        }
+
+        .texture-card {
+            min-height: 400px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 2rem;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .texture-card::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50%;
+            background: linear-gradient(transparent, rgba(0,0,0,0.7));
+        }
+
+        .texture-card .content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .texture-card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+
+        .texture-card p {
+            color: rgba(255,255,255,0.8);
+            font-size: 0.875rem;
+        }
+
+        .label {
+            display: inline-block;
+            padding: 4px 12px;
+            background: var(--gold);
+            color: var(--navy-900);
+            font-size: 0.6875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border-radius: 3px;
+            margin-bottom: 0.75rem;
+        }
+
+        .label.recommended {
+            background: #00C853;
+            color: white;
+        }
+
+        /* Example usage section */
+        .example-section {
+            padding: 80px 40px;
+            background-size: cover;
+            background-position: center;
+            color: var(--charcoal);
+        }
+
+        .example-section .eyebrow {
+            font-size: 0.6875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .example-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .example-section p {
+            max-width: 600px;
+            line-height: 1.7;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            max-width: 300px;
+            margin-top: 2rem;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+
+        .card h4 {
+            font-family: 'Playfair Display', serif;
+            color: var(--navy-900);
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 0.875rem;
+        }
+
+        .navy-break {
+            background: var(--navy-900);
+            padding: 60px 40px;
+            color: #f2f2f0;
+        }
+
+        .navy-break h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--gold);
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Marble Texture Preview</h1>
+        <p>Generated textures for Treasury brand guidelines</p>
+    </header>
+
+    <div class="texture-grid">
+        <div class="texture-card" style="background-image: url('marble-treasury.jpg');">
+            <div class="content">
+                <span class="label recommended">Recommended</span>
+                <h2>Treasury Building</h2>
+                <p>Warm cream with brown/taupe veins. Authentic government building feel.</p>
+            </div>
+        </div>
+        <div class="texture-card" style="background-image: url('marble-carrara.jpg');">
+            <div class="content">
+                <span class="label">Classic</span>
+                <h2>Carrara</h2>
+                <p>Cool white with gray veins. Elegant and timeless.</p>
+            </div>
+        </div>
+        <div class="texture-card" style="background-image: url('marble-gold-veined.jpg');">
+            <div class="content">
+                <span class="label">Premium</span>
+                <h2>Gold Veined</h2>
+                <p>Cream with gold veining. For hero sections and featured content.</p>
+            </div>
+        </div>
+        <div class="texture-card" style="background-image: url('marble-gray.jpg');">
+            <div class="content">
+                <span class="label">Alternative</span>
+                <h2>Gray Bardiglio</h2>
+                <p>Dramatic gray marble. For data sections and modern contrast.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Example usage: Treasury marble section -->
+    <section class="example-section" style="background-image: url('marble-treasury.jpg');">
+        <p class="eyebrow">Example Usage</p>
+        <h2>Treasury Building Marble</h2>
+        <p>This is how the Treasury marble texture looks when used as a section background. The warm cream base with subtle brown veining creates an authentic government building aesthetic that feels sophisticated and trustworthy.</p>
+        <div class="card">
+            <p class="eyebrow" style="margin-bottom: 0.5rem;">Press Release</p>
+            <h4>Treasury Announces Initiative</h4>
+            <p>White cards with subtle shadows provide excellent contrast against the marble background.</p>
+        </div>
+    </section>
+
+    <div class="navy-break">
+        <h2>Navy sections alternate with marble for visual rhythm</h2>
+    </div>
+
+    <!-- Example usage: Gold veined for hero -->
+    <section class="example-section" style="background-image: url('marble-gold-veined.jpg');">
+        <p class="eyebrow">Premium Sections</p>
+        <h2>Gold-Veined Calacatta</h2>
+        <p>The gold-veined marble creates a luxurious feel appropriate for hero sections, featured initiatives, or presidential-level content. The subtle metallic veins tie into the Treasury gold accent color.</p>
+    </section>
+
+    <div class="navy-break">
+        <h2>Alternating pattern creates sophisticated page flow</h2>
+    </div>
+
+    <!-- Example usage: Gray for data -->
+    <section class="example-section" style="background-image: url('marble-gray.jpg');">
+        <p class="eyebrow" style="color: #666;">Data Section</p>
+        <h2 style="color: #1a1a1a;">Gray Bardiglio Marble</h2>
+        <p style="color: #444;">The gray marble variant works well for data-heavy sections, dashboards, or content that needs a more contemporary, technical feel while maintaining the sophisticated marble aesthetic.</p>
+    </section>
+</body>
+</html>

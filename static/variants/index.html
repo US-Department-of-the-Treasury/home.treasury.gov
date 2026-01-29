@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treasury Homepage Variants - Comparison Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* Unified Treasury Brand Colors */
+      --navy: #0B122C;
+      --navy-mid: #0f1735;
+      --gold: #D4AF37;
+      --gold-light: #E5C972;
+      --cream: #E8E6E0;
+      --ink: #f2f2f0;
+      --ink-muted: #8a8880;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--navy);
+      color: var(--ink);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .header {
+      text-align: center;
+      padding: 80px 24px 60px;
+      background: linear-gradient(180deg, #050810 0%, var(--navy) 100%);
+      border-bottom: 1px solid rgba(212, 167, 84, 0.2);
+    }
+
+    .header__eyebrow {
+      font-size: 0.6875rem;
+      font-weight: 500;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+
+    .header__title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 400;
+      margin-bottom: 16px;
+    }
+
+    .header__title em {
+      font-style: italic;
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header__subtitle {
+      font-size: 1.125rem;
+      color: var(--ink-muted);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .gallery {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 60px 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 32px;
+    }
+
+    .variant-card {
+      background: linear-gradient(135deg, rgba(30, 42, 66, 0.8) 0%, rgba(20, 28, 46, 0.9) 100%);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(212, 167, 84, 0.15);
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .variant-card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(212, 167, 84, 0.4);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(212, 167, 84, 0.1);
+    }
+
+    .variant-card__preview {
+      aspect-ratio: 16/10;
+      background: var(--navy-mid);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .variant-card__preview iframe {
+      width: 200%;
+      height: 200%;
+      transform: scale(0.5);
+      transform-origin: top left;
+      border: none;
+      pointer-events: none;
+    }
+
+    .variant-card__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 60%, rgba(10, 15, 26, 0.9) 100%);
+      display: flex;
+      align-items: flex-end;
+      padding: 24px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .variant-card:hover .variant-card__overlay {
+      opacity: 1;
+    }
+
+    .variant-card__view-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.875rem;
+      transition: all 0.3s ease;
+    }
+
+    .variant-card__view-btn:hover {
+      background: var(--gold-light);
+      transform: translateY(-2px);
+    }
+
+    .variant-card__content {
+      padding: 24px;
+    }
+
+    .variant-card__number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      background: rgba(212, 167, 84, 0.15);
+      border: 1px solid rgba(212, 167, 84, 0.3);
+      border-radius: 50%;
+      font-family: 'Playfair Display', serif;
+      font-size: 0.875rem;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+
+    .variant-card__title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+
+    .variant-card__philosophy {
+      font-size: 0.875rem;
+      color: var(--ink-muted);
+      line-height: 1.7;
+    }
+
+    .variant-card__tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .variant-card__tag {
+      font-size: 0.6875rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      background: rgba(212, 167, 84, 0.1);
+      border: 1px solid rgba(212, 167, 84, 0.2);
+      border-radius: 4px;
+      color: var(--gold);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 60px 24px;
+      border-top: 1px solid rgba(212, 167, 84, 0.1);
+      color: var(--ink-muted);
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 900px) {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <p class="header__eyebrow">Treasury Homepage Redesign</p>
+    <h1 class="header__title">Design <em>Variants</em></h1>
+    <p class="header__subtitle">4 distinct approaches to telling Treasury's story. Each variant explores a different narrative, visual treatment, and content focus.</p>
+  </header>
+
+  <main class="gallery">
+    <article class="variant-card">
+      <div class="variant-card__preview">
+        <iframe src="./2/index.html" loading="lazy"></iframe>
+        <div class="variant-card__overlay">
+          <a href="./2/index.html" class="variant-card__view-btn" target="_blank">View Full Page</a>
+        </div>
+      </div>
+      <div class="variant-card__content">
+        <span class="variant-card__number">2</span>
+        <h2 class="variant-card__title">Vision & Leadership</h2>
+        <p class="variant-card__philosophy">Secretary Bessent as hero. Maximum leadership prominence with inspirational, vision-forward messaging. Campaign site aesthetic.</p>
+        <div class="variant-card__tags">
+          <span class="variant-card__tag">Secretary Hero</span>
+          <span class="variant-card__tag">Inspirational</span>
+          <span class="variant-card__tag">Vision-Forward</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="variant-card">
+      <div class="variant-card__preview">
+        <iframe src="./7/index.html" loading="lazy"></iframe>
+        <div class="variant-card__overlay">
+          <a href="./7/index.html" class="variant-card__view-btn" target="_blank">View Full Page</a>
+        </div>
+      </div>
+      <div class="variant-card__content">
+        <span class="variant-card__number">7</span>
+        <h2 class="variant-card__title">The Story of Progress</h2>
+        <p class="variant-card__philosophy">Explicit narrative structure. Timeline/journey metaphor with chapter markers. Most storytelling-focused approach.</p>
+        <div class="variant-card__tags">
+          <span class="variant-card__tag">Timeline</span>
+          <span class="variant-card__tag">Narrative</span>
+          <span class="variant-card__tag">Journey</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="variant-card">
+      <div class="variant-card__preview">
+        <iframe src="./8/index.html" loading="lazy"></iframe>
+        <div class="variant-card__overlay">
+          <a href="./8/index.html" class="variant-card__view-btn" target="_blank">View Full Page</a>
+        </div>
+      </div>
+      <div class="variant-card__content">
+        <span class="variant-card__number">8</span>
+        <h2 class="variant-card__title">By the Numbers</h2>
+        <p class="variant-card__philosophy">Pure metrics-driven. Infographic style with bold numbers dominating. Minimal text, maximum data impact.</p>
+        <div class="variant-card__tags">
+          <span class="variant-card__tag">Metrics</span>
+          <span class="variant-card__tag">Infographic</span>
+          <span class="variant-card__tag">Data</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="variant-card">
+      <div class="variant-card__preview">
+        <iframe src="./9/index.html" loading="lazy"></iframe>
+        <div class="variant-card__overlay">
+          <a href="./9/index.html" class="variant-card__view-btn" target="_blank">View Full Page</a>
+        </div>
+      </div>
+      <div class="variant-card__content">
+        <span class="variant-card__number">9</span>
+        <h2 class="variant-card__title">Treasury Strength</h2>
+        <p class="variant-card__philosophy">Maximum institutional gravitas. 235-year heritage meets modern achievement. Most establishment/authoritative variant.</p>
+        <div class="variant-card__tags">
+          <span class="variant-card__tag">Heritage</span>
+          <span class="variant-card__tag">Institutional</span>
+          <span class="variant-card__tag">Gravitas</span>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>Treasury Homepage Redesign - January 2025</p>
+    <p style="margin-top: 8px; color: var(--gold);">Navy + Gold Dark Theme</p>
+  </footer>
+</body>
+</html>
